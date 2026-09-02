@@ -27,6 +27,17 @@ pi-gba-fontpatch
 
 > 注：本仓库仅供学习研究，请自行准备 ROM 并遵守当地法律。
 
+## AI Agent 驱动开发
+
+本项目的 ROM 逆向分析与补丁制作主要由 **[pi](https://github.com/earendil-works/pi-coding-agent) 编码智能体** 调用本仓库内置的 skill（`.pi/skills/gba-font-crack/`）自动完成，涵盖定位渲染引擎、控制流分析、探针实证、字模槽位注入、字符串修改与截图像素校验等全流程。
+
+**推荐配置**：
+
+- 套餐：[OpenCode Go 套餐](https://opencode.ai)
+- 模型：GLM-5.3-Flash
+
+在 pi agent 中打开本仓库，agent 会自动加载 `gba-font-crack` skill 并按 SKILL.md 中的配方调用 `romctl.js` 等工具完成分析任务。
+
 ---
 
 ## gbajs2 -- Community Fork (Original)
