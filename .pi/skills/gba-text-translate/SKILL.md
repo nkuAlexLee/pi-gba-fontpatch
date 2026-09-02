@@ -181,6 +181,13 @@ translate-batch 的 prepare/apply 与 pi 子 agent fanout 配合，实现多批�
    中段半句回溯剔除。新 ROM 首次 dump 后务必抽检：接续标点开头/ Latin 扩展堆/极短串
 14. **子 agent 并行翻译丢控制码**：LLM 首轮约 7% 丢 [/n][/p]，门禁拦截后打包重试
    （prompt 加严 token 计数核对）可达 100%；勿跳过 validate 直接导入
+15. **FD 系占位符跨基板语义不同**（Quetzal: fd01=玩家；FireRed 系: fd00 疑似玩家），
+   且存在大量未收录码（fd0f/fd10 等）。占位符由引擎运行时展开、不进字库，
+   翻译时只需 token 原样保留。decode 已将未知 FD 对合并为 [fdxx] 占位，
+   禁止拆成 [/v]+高位字节的垃圾组合
+16. **以有字库 ROM 为蓝本**：同一字库体系（Emerald 家族 charmap + 字形格式）的 ROM
+   共享码表与字库；翻译工程基座优先选「引擎自带中文或已注入字库」的 ROM
+   （RY 原版即自带），原版无字库的基座需先走 gba-font-crack 注入字库再翻译
 
 ## 六、与 romctl/gba-font-crack 的衔接
 

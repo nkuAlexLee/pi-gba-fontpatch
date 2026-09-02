@@ -17,6 +17,34 @@ pi-gba-fontpatch
 | `.pi/skills/gba-font-crack/` | 破解全流程技能指南：正向分析范式、romctl 配方、槽位注入、案例库 |
 | `docs/` | 开发文档（memview 架构与调试记录、字库扫描说明等） |
 
+## 实时调试服务（项目能力）
+
+`romctl.js` 内置 HTTP 实时调试服务器：状态常驻内存，逐步按键→截图→观察，
+是逆向分析、翻译验证、回归测试的统一入口。
+
+```bash
+# 后台启动（默认端口 8645，状态自动接续 tmp/romctl.state.json，与 CLI 命令互通）
+node romctl.js serve 8645 > tmp/serve.log 2>&1 &
+
+# 核心交互循环：截图看画面 → 决定按键 → 再截图
+curl "http://localhost:8645/status"                # rom/frames/pc/hooks 状态
+curl "http://localhost:8645/load?rom=path.gba"     # 换 ROM（重置状态）
+curl "http://localhost:8645/run?frames=600"        # 跑帧
+curl "http://localhost:8645/key?keys=A,START&frames=60"  # 按键 N 帧
+curl "http://localhost:8645/shot?file=s1.bmp"      # 截图到 tmp/
+curl "http://localhost:8645/memread?addr=0x02000000&len=32"   # 内存读取
+curl "http://localhost:8645/memwrite?addr=0x08123456&hex=AABB" # 内存写入
+curl "http://localhost:8645/disasm?addr=0x08004A1C&n=8&mode=thumb" # 反汇编
+curl "http://localhost:8645/hookadd?addr=0x080653D8&name=fn"   # 装 hook
+curl "http://localhost:8645/hookevents?tail=50"    # hook 事件流
+
+# 结束：netstat -ano | grep 8645 找 PID → taskkill //PID <pid> //F
+```
+
+典型用途：汉化验证（回填后跑到对应场景截图比对）、文本引擎定位（hook
+DrawGlyphTiles 记录渲染字符）、内存快照对比（snap/diff 找写入者）。
+完整命令清单见 `node romctl.js` 帮助与 `.pi/skills/gba-font-crack/SKILL.md`。
+
 ## 典型工作流
 
 1. 将 `baserom_**.gba` 放入 `roms/` 目录（已 gitignore，不入库）

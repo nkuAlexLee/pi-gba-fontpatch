@@ -135,6 +135,17 @@ function decode(buf, start, charmap, opts = {}) {
 		const b = buf[i];
 		if (stopAtFF && b === TERMINATOR) return { text: parts.join(''), codes, end: i, terminated: true, invalid: false };
 		let matched = false;
+		// FD 系占位符：FD+lo 两字节，引擎运行时展开（不进字库）。
+		// 码表未收录的 FD 对（不同基板语义不同）合并为 [fdxx] 占位原样保留，
+		// 避免被拆成 [/v]+高位字节 的垃圾组合（如 [/v]Ô was freed）
+		if (b === 0xFD && i + 1 < buf.length) {
+			const fdCode = 'fd' + buf[i + 1].toString(16).padStart(2, '0');
+			const fdText = charmap.codeToText.get(fdCode) || '[fd' + buf[i + 1].toString(16).padStart(2, '0') + ']';
+			parts.push(fdText);
+			codes.push(fdCode);
+			i += 2;
+			continue;
+		}
 		for (const nBytes of [3, 2, 1]) {           // 贪心：3B > 2B > 1B
 			if (i + nBytes > buf.length) continue;
 			const code = buf.slice(i, i + nBytes).toString('hex');
