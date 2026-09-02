@@ -35,6 +35,20 @@ description: GBA 宝可梦改版 ROM 文本汉化流水线（基于 gba-font-cra
 | 双字节引擎（Quetzal/RechargedYellow/红龙传说字库版） | 全量字库（~7000 字） | **整句对话、任意文本** ✅ 大规模汉化唯一选择（RY 闭环已验证，见 cases/RechargedYellow-整句翻译闭环） |
 | 槽位注入（XTREME/EliteRedux v6，码 0x87+ 单字节槽） | 仅几个注入槽位的字 | **词级替换**（菜单项 ≤6 字）|
 
+**快速实证工具**：`probe-dualbyte.js <rom> <renderText地址>`——扫描取字函数的
+窥视指令（`ldrb rX,[rY,#1]`）与合成特征（`lsl #8`）：
+
+```bash
+node scripts/probe-dualbyte.js <rom> 081BA84E   # RY → ✔ 支持（窥视 1 处）
+node scripts/probe-dualbyte.js <rom> 08234AC0   # XTREME → ✘ 不支持（实证）
+```
+
+- RenderText 地址来源：gba-font-crack 案例/trace 法/watch-read 法；
+- 判定阈值经四 ROM 实测校准：窥视是支持双字节的必要特征（XTREME 完全无）；
+- Quetzal 类“先移指针再读”变体（合成特征单独出现）会提示人工复核，
+  此类 ROM 已有渲染实证的（Quetzal 汉字上屏）直接采信；
+- 新 ROM 支持后仍建议 romctl hook 窥视处 + 写入双字节测试串（0E 4D 03 0B FF）渲染实证一次。
+
 - XTREME 实测：整句译文含槽位外汉字 → 引擎按单字节流渲染 → 空白/乱码
 - 判别方法：看基座的码表是否含双字节汉字码（wholewords.txt 体系）→ 有则双字节引擎；
   仅有 0x87-0x9F 单字节槽 → 槽位方案
