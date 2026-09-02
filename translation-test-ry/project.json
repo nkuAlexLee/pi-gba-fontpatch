@@ -1,0 +1,29 @@
+{
+  "name": "ry-chs",
+  "rom": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\roms\\Recharged Yellow v1.9.4.gba",
+  "rom_size": "0x2000000",
+  "out_rom": "tmp/汉化输出.gba",
+  "charmap": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\.pi\\skills\\gba-text-translate\\assets\\charmap-base.txt",
+  "glossary": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\translation-test-ry\\glossary.csv",
+  "append_addr": "0x09F00000",
+  "min_status": "human-reviewed",
+  "created": "2026-09-02T12:44:31.865Z",
+  "_scenes": {
+    "title-menu": {
+      "type": "add",
+      "addrs": "0x088F3350,0x088F3368",
+      "strings": 2
+    },
+    "main-text": {
+      "type": "dump",
+      "from": "0x8000000",
+      "to": "0xA000000",
+      "strings": 15444
+    },
+    "intro": {
+      "type": "add",
+      "addrs": "0x082D4415,0x082B5A36,0x082B53F5",
+      "strings": 3
+    }
+  }
+}

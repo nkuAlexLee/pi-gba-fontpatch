@@ -26,3 +26,4 @@ cases/<案例名>/
 | [EmeraldXTREME-槽位注入](EmeraldXTREME-槽位注入/README.md) | Emerald 重编译改版（BPEE，布局全新） | 方案B槽位注入（fontid1 空槽 0x87+，纯数据零hook） | ✅ 菜单"新的游戏/选项"上屏（像素100%） | BPEE 重编译版引擎逆向（16×16 四tile槽、1=墨2/3=灰探针实证）；[F8][lo]转义通道；**字库索引=(hi修正)×0xF7+lo** 与"像素自检无法发现映射错误"教训 |
 | [RechargedYellow-自带中文引擎](RechargedYellow-自带中文引擎/README.md) | FireRed 重编译改版（BPRE，布局全新） | 零注入——引擎自带中文，只改字符串 | ✅ 菜单"新的游戏/选项"上屏 | **watch-read 法**（监视内存读取定位引擎，新武器）；先怀疑引擎已自带中文；Emerald 家族双字节增强引擎布局 |
 | [红龙传说-西语蓝宝石移植](红龙传说-西语蓝宝石移植/README.md) | 蓝宝石西语改版（AXPE 头、德语版布局） | pokeRS 三函数移植（地址重映射） | ✅ 菜单"新的游戏"上屏 | **trace 定位法**（异版本引擎定位通用大杀器）；非美版基板逐函数重映射；RS charmap 重音字母与中文 hi 字节冲突问题 |
+| [RechargedYellow-整句翻译闭环](RechargedYellow-整句翻译闭环/README.md) | FireRed 改版（BPRE，自带双字节中文引擎） | gba-text-translate 全流水线（dump→翻译→门禁→原地覆盖→截图验证） | ✅ 主菜单+Oak开场白三段中文上屏 | **首个整句汉化闭环案例**；验证 dump/门禁/原地覆盖全链路；RY 原版即可翻译（引擎自带中文） |

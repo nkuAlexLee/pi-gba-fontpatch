@@ -1,0 +1,33 @@
+{
+ "totalDiffBytes": 370,
+ "segments": [
+  {
+   "start": "0x2b53f5",
+   "len": 82
+  },
+  {
+   "start": "0x2b5a36",
+   "len": 7
+  },
+  {
+   "start": "0x2b5a3e",
+   "len": 128
+  },
+  {
+   "start": "0x2d4415",
+   "len": 1
+  },
+  {
+   "start": "0x2d4417",
+   "len": 138
+  },
+  {
+   "start": "0x8f3350",
+   "len": 8
+  },
+  {
+   "start": "0x8f3368",
+   "len": 6
+  }
+ ]
+}

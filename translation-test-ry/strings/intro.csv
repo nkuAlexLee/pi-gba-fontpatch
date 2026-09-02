@@ -1,0 +1,4 @@
+﻿id,addr_gba,scene,context,max_bytes,max_chars,en,mt,final,status,notes
+002B53F5,0x82B53F5,intro,,83,41,"菲ak: Good to see you![/n]How is your Pokédex coming along?[/p]Here, let me take a look.",,"ak:见到你真高兴![/n]你的宝可图鉴收集得怎么样了?[/p]来,让我看看。",human-reviewed,
+002B5A36,0x82B5A36,intro,,137,68,"Oak: Ah, welcome![/p]Tell me, how is your Pokédex[/n]coming along?[/p]Wahaha![/p]Actually, I know how it is, but I[/n]love seeing it anyway![/p]Let's see[...]",,"大木:哦,欢迎![/p]告诉我,你的宝可图鉴[/n]收集得怎么样了?[/p]哇哈哈![/p]其实我都知道,[/n]但就是想亲眼看看![/p]给我看看吧[...]",human-reviewed,
+002D4415,0x82D4415,intro,,141,70,Hello there![/n]Glad to meet you![/p]Welcome to the world of Pokémon![/p]My name is Oak.[/p]People affectionately refer to me as[/n]the Pokémon Professor.[/p],,你好![/n]很高兴见到你![/p]欢迎来到宝可梦的世界![/p]我叫大木。[/p]人们都亲切地称我为[/n]宝可梦博士。[/p],human-reviewed,
