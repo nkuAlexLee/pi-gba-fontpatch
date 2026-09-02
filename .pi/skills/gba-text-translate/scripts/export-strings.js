@@ -23,7 +23,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { loadCharmap, decode } = require('./lib/charmap');
+const { loadCharmap, decode, TERMINATOR } = require('./lib/charmap');
 const csv = require('./lib/csv');
 
 const HEADER = ['id', 'addr_gba', 'scene', 'context', 'max_bytes', 'max_chars', 'en', 'mt', 'final', 'status', 'notes'];
@@ -113,7 +113,7 @@ function cmdInit(args) {
 		rom: romPath ? path.resolve(romPath) : '',
 		rom_size: '0x' + romSize.toString(16),
 		out_rom: 'tmp/汉化输出.gba',
-		charmap: path.resolve(__dirname, '../../gba-font-crack/assets/wholewords.txt'),
+		charmap: path.resolve(__dirname, '../assets/charmap-base.txt'),
 		glossary: 'glossary.csv',
 		append_addr: args['append-addr'] || ('0x' + (0x08000000 + romSize - 0x10000).toString(16)),
 		min_status: 'human-reviewed',
@@ -136,12 +136,12 @@ function cmdInit(args) {
 }
 
 /* ---------------- scan / add ---------------- */
-function extractRegion(rom, start, len, charmap, minChars, maxLen) {
+function extractRegion(rom, start, len, charmap, minChars, maxLen, noHan) {
 	const rows = [];
 	let p = start;
 	const end = Math.min(start + len, rom.length);
 	while (p < end) {
-		const r = decode(rom, p, charmap, { stopAtFF: true, maxLen });
+		const r = decode(rom, p, charmap, { stopAtFF: true, maxLen, noHan });
 		if (r.terminated && !r.invalid && r.end > p) {
 			const contentLen = [...r.text].length;
 			const hasContent = [...r.text].some(c => !/^\[.*\]$/.test(c));   // 排除纯控制码
@@ -214,7 +214,7 @@ function cmdScan(args) {
 	const len = parseInt(args.len, 16) || 0x100;
 	const minChars = parseInt(args['min-chars'], 10) || 2;
 	const maxLen = parseInt(args['max-len'], 16) || 0x100;
-	const found = extractRegion(rom, start, len, charmap, minChars, maxLen);
+	const found = extractRegion(rom, start, len, charmap, minChars, maxLen, !args.han);
 	const oldRows = loadSceneRows(paths, scene);
 	const { rows, added, kept, conflicted } = mergeRows(oldRows, found, scene);
 	if (args.context) rows.forEach(r => { if (!r.context) r.context = args.context; });
@@ -302,9 +302,12 @@ function isPlausibleText(text, lang, minRatio) {
 	let good = 0;
 	for (const c of t) {
 		if (c === '\u0001' || (c >= ' ' && c <= '~') || /[\u4e00-\u9fff]/.test(c)) good++;
-		else if (/[éáíóúñÁÉÍÓÚÑ°ºª¿¡]/.test(c)) good++;       // 英文游戏合法重音/符号
-		// 其余（扩展拉丁/生僻符号）算 bad
+		// en 白名单仅保留英文宝可梦文本实际用到的：é(POKéMON)、ñ、分数/疑问符号；
+		// 大写重音（Á É Í Ó Ú Û）在英文版几乎不出现，出现即疑似数据区噪声
+		else if (lang !== 'en' || /[éñ°ºª¿¡]/.test(c)) good++;
 	}
+	// 极短串（≤4字符）额外要求纯 ASCII 词法，拦截 "áoH" "VG(" 这类碰巧 terminated 的数据碎片
+	if (t.length <= 4 && !/^[A-Za-z0-9 .!?'-]+$/.test(t)) return false;
 	return t.length > 0 && good / t.length >= minRatio;
 }
 
@@ -349,14 +352,26 @@ function cmdDump(args) {
 		if (byteLen > maxStr) { rejectedTooLong++; continue; }
 		found.push({ fileOff: target, text, byteLen, pointers: ptrs });
 	}
-	found.sort((a, b) => a.fileOff - b.fileOff);
-	// 重叠串消除：串中段别名指针（前一条串的 FF 在后一条 target 之后）会导到回填互踩，
-	// 只保留每组重叠中最早的（即完整串本体），后续重叠的跳过
+		found.sort((a, b) => a.fileOff - b.fileOff);
+	// 半句回溯剔除：真串开头的前一字节应是 FF（前一条串的终止符）。
+	// 若不是 → target 可能是串中段别名，且其完整串本体未被本 dump 收录（无指针指向串首），
+	// 无法安全翻译/回填 → 回溯 FF 边界验证后剔除。
 	const deduped = [];
 	let lastEnd = -1;
-	let droppedOverlap = 0;
+	let droppedOverlap = 0, droppedAlias = 0;
 	for (const f of found) {
-		if (f.fileOff <= lastEnd) { droppedOverlap++; continue; }
+		if (f.fileOff <= lastEnd) { droppedOverlap++; continue; }   // 已有更长串覆盖此别名
+		if (lang === 'en' && f.fileOff > 0 && rom[f.fileOff - 1] !== TERMINATOR) {
+			let s = f.fileOff - 1;
+			while (s > 0 && f.fileOff - s < 0x200 && rom[s] !== TERMINATOR) s--;
+			if (s >= 0 && rom[s] === TERMINATOR) {
+				const full = decode(rom, s + 1, charmap, { stopAtFF: true, maxLen, noHan: lang === 'en' });
+				if (full.terminated && !full.invalid &&
+					full.text.trimStart().length > f.text.trimStart().length) {
+					droppedAlias++; continue;   // 完整串更长 → 本条是中段别名
+				}
+			}
+		}
 		lastEnd = f.fileOff + f.byteLen - 1;
 		deduped.push(f);
 	}
@@ -376,7 +391,7 @@ function cmdDump(args) {
 	saveSceneRows(paths, scene, merged.rows);
 	registerScene(config, scene, { type: 'dump', from: gbaAddr(from), to: gbaAddr(to), strings: found.length });
 	fs.writeFileSync(paths.config, JSON.stringify(config, null, 2));
-	console.log(`✔ 场景 ${scene}: 指针引导导出 ${found.length} 条 | 新增 ${merged.added} | 保留 ${merged.kept} | 冲突 ${merged.conflicted} | 重叠别名 ${droppedOverlap}`);
+	console.log(`✔ 场景 ${scene}: 指针引导导出 ${found.length} 条 | 新增 ${merged.added} | 保留 ${merged.kept} | 冲突 ${merged.conflicted} | 重叠别名 ${droppedOverlap} | 中段半句 ${droppedAlias}`);
 	console.log(`  指针目标 ${byTarget.size} 个 | 拒绝: 无有效文本 ${rejectedNoText} / 超长 ${rejectedTooLong} / 解码失败 ${rejectedBad}`);
 	console.log('  →', path.resolve(scenePath(paths, scene)));
 }

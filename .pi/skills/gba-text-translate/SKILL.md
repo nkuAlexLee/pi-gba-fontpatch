@@ -67,7 +67,11 @@ translation/                    # 或自定义 --project 目录
 ```bash
 cd .pi/skills/gba-text-translate/scripts
 
-# ⓪ 生成/更新宝可梦官方术语表（4137 条词级译名，源自 gui_related/translate 官方对照表；
+# ⓪a 生成/更新基准码表（wholewords + pokeE PMRSEFRLG 补缺 → charmap-base.txt，
+#    补 fd05=[unk:fd05]、箭头、< > ▶ 等符号；语义未实证的码标 [unk:xx]，翻译时原样保留）
+node merge-charmap.js
+
+# ⓪b 生成/更新宝可梦官方术语表（4137 条词级译名，源自 gui_related/translate 官方对照表；
 #    机翻剧情语料不可靠，不采用）。数据源: D:/vibecoding/gui_related/translate
 node build-glossary.js [数据源目录]
 
@@ -79,10 +83,17 @@ node export-strings.js init --project ../../../../translation --rom <ROM路径>
 #      天然排除无引用垃圾；每条自带 [ptr:...] 元数据，repoint 直接复用免二次扫描
 node export-strings.js dump --project <目录> --scene main-text
 #      参数: --from/--to 限定范围；--lang en(默认,拒汉字混入)/zh；--min-ratio 0.9 可读率
-#      置信度双保险: 语言一致性(英文基板拒 CJK) + 可读率≥90%（token 挖除后统计）
+#      置信度多重保险:
+#        · noHan 模式(lang=en 自动启用): 禁用汉字双字节解码，
+#          消除 05b8=纪 与 05=È+b8=, 的码表歧义，并修复 fd01[玩家] 等控制码命中
+#        · 语言一致性(英文基板拒 CJK) + 可读率≥90%（token 挖除后统计；
+#          en 白名单仅 éñ°ºª¿¡，大写重音视为噪声）
+#        · 重叠别名剔除（串中段指针，数千条）
+#        · 中段半句回溯剔除（串首前一字节≠FF → 回溯 FF 边界验证，数百条）
+#        · 极短串(≤4字符)纯 ASCII 词法要求
 #    probe 文本区密度探测（定位文本区辅助）
 node export-strings.js probe --project <目录>
-#    scan 盲扫（补充，垃圾多，仅用于已知纯净区域）
+#    scan 盲扫（补充，垃圾多，仅用于已知纯净区域；--han 开汉字解码供中文基座）
 node export-strings.js scan --project <目录> --scene title-menu --addr 0x0937E070 --len 0x180
 #    add 精确登记（已知地址逐条）
 node export-strings.js add  --project <目录> --scene title-menu --addr 0x0937E070
@@ -90,6 +101,7 @@ node export-strings.js add  --project <目录> --scene title-menu --addr 0x0937E
 # ③ AI 翻译：生成任务包 → agent 翻译产出 JSON → 应用到 mt 列
 node translate-batch.js prepare --project <目录>
 #    agent 读 report/translate-prompt.md，把译文写 report/translations.json（[{"id","zh"}]）
+#    ★ 大批量推荐子 agent 并行（见下方「子 agent 并行翻译」）
 node translate-batch.js apply --project <目录>
 #    单条写入（agent/人工脚本化）：--col final 写后自动 human-reviewed
 node translate-batch.js set --project <目录> --scene title-menu --id 0137E070 --col final --text "新的游戏"
@@ -111,6 +123,21 @@ node insert-strings.js --project <目录>
 - 人工用 Excel 编辑，只动 mt/final/notes 列
 - 采纳 AI 译法 = 复制到 final 再修改；保留 final 可随时对比 AI 原译
 - 重导出（ROM 更新）自动 merge：en 未变保留全部翻译；en 变了 status=conflict 待裁决
+
+## 三.5、★ 子 agent 并行翻译（大规模批量推荐）
+
+translate-batch 的 prepare/apply 与 pi 子 agent fanout 配合，实现多批并行：
+
+1. **选批**：从 strings/*.csv 筛选子集（按场景/长度/控制码类型）建独立场景文件
+2. **切批**：每批 50 条切任务 JSON 到 `report/mimo-batch-N.json`
+3. **fanout**：subagent workflowScript 并行，每批一个 worker（`model: opencode-go/mimo-v2.5`），
+   任务 prompt 必须内联：半角标点 / [token] 原样保留 / 汉字 2B 字节预算 / 术语官方译名表
+4. **汇总**：各批输出合并为 report/translations.json → apply → validate
+5. **失败重试**：apply 拒绝的条目（多为丢控制码）打包单独重试，prompt 加严
+   「token 出现次数必须与原文完全一致，翻前翻后各数一遍」
+
+实测（XTREME 200 条 NPC 对话，MiMo V2.5）：首轮 93% 通过，重试后 100%；
+193 条全部原地覆盖，字节利用率平均 62%，零 repoint。
 
 ## 四、标准执行范式（新 ROM 汉化七步）
 
@@ -148,6 +175,12 @@ node insert-strings.js --project <目录>
 12. **重叠串互踩**：指针表中存在指向同一物理串中段的别名指针 → dump 会导出两条
    重叠记录，回填互相覆盖。已防御：dump 自动剔除串中段别名（重叠别名 N 条），
    insert 按地址序检测重叠跳过并报告
+13. **码表不全 → 半句与乱串**：wholewords 缺 fd05 等控制码、且汉字双字节码与
+   英文重音字母序列存在天然歧义（05b8=纪 vs 05=È+b8=,）→ 完整串被语言过滤器误杀、
+   半句失去重叠锚点漏入。已防御：charmap-base 补缺 + decode noHan 模式（lang=en 自动）+
+   中段半句回溯剔除。新 ROM 首次 dump 后务必抽检：接续标点开头/ Latin 扩展堆/极短串
+14. **子 agent 并行翻译丢控制码**：LLM 首轮约 7% 丢 [/n][/p]，门禁拦截后打包重试
+   （prompt 加严 token 计数核对）可达 100%；勿跳过 validate 直接导入
 
 ## 六、与 romctl/gba-font-crack 的衔接
 

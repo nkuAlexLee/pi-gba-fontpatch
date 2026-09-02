@@ -18,7 +18,7 @@
       "type": "dump",
       "from": "0x8000000",
       "to": "0xA000000",
-      "strings": 18219
+      "strings": 17639
     }
   }
 }
