@@ -29,7 +29,7 @@ pi-gba-fontpatch
 
 ## AI Agent 驱动开发
 
-本项目的 ROM 逆向分析与补丁制作主要由 **[pi](https://github.com/earendil-works/pi-coding-agent) 编码智能体** 调用本仓库内置的 skill（`.pi/skills/gba-font-crack/`）自动完成，涵盖定位渲染引擎、控制流分析、探针实证、字模槽位注入、字符串修改与截图像素校验等全流程。
+本项目的 ROM 逆向分析与补丁制作主要由 **[pi](https://pi.dev/) 编码智能体** 调用本仓库内置的 skill（`.pi/skills/gba-font-crack/`）自动完成，涵盖定位渲染引擎、控制流分析、探针实证、字模槽位注入、字符串修改与截图像素校验等全流程。
 
 **推荐配置**：
 
