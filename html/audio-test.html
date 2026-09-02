@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>音频测试</title>
+    <script src="js/util.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/arm.js"></script>
+    <script src="js/thumb.js"></script>
+    <script src="js/mmu.js"></script>
+    <script src="js/io.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/video/proxy.js"></script>
+    <script src="js/video/software.js"></script>
+    <script src="js/irq.js"></script>
+    <script src="js/keypad.js"></script>
+    <script src="js/sio.js"></script>
+    <script src="js/savedata.js"></script>
+    <script src="js/gpio.js"></script>
+    <script src="js/gba.js"></script>
+    <script src="resources/xhr.js"></script>
+    <script src="resources/biosbin.js"></script>
+</head>
+<body>
+    <h1>GBA音频测试</h1>
+    <div>
+        <button onclick="testAudio()">测试音频系统</button>
+        <button onclick="loadROM()">加载测试ROM</button>
+    </div>
+    <div id="status">等待测试...</div>
+    <canvas id="screen" width="480" height="320"></canvas>
+    
+    <script>
+        let gba = null;
+        
+        function testAudio() {
+            const status = document.getElementById('status');
+            
+            // 创建GBA实例
+            gba = new GameBoyAdvance();
+            status.innerHTML += '<br>1. GBA实例创建完成';
+            
+            // 检查音频上下文
+            if (!gba.audio.context) {
+                status.innerHTML += '<br>❌ 音频上下文未创建 - 浏览器不支持Web Audio API';
+                return;
+            }
+            status.innerHTML += '<br>2. 音频上下文已创建';
+            
+            // 检查音频节点连接
+            status.innerHTML += '<br>3. 音频系统状态:';
+            status.innerHTML += '<br>   - masterEnable: ' + gba.audio.masterEnable;
+            status.innerHTML += '<br>   - masterVolume: ' + gba.audio.masterVolume;
+            status.innerHTML += '<br>   - enabled: ' + gba.audio.enabled;
+            
+            // 测试音频上下文状态
+            status.innerHTML += '<br>4. 音频上下文状态: ' + gba.audio.context.state;
+            
+            if (gba.audio.context.state === 'suspended') {
+                status.innerHTML += '<br>⚠️ 音频上下文被挂起，需要用户交互才能恢复';
+                gba.audio.context.resume().then(() => {
+                    status.innerHTML += '<br>✅ 音频上下文已恢复';
+                });
+            }
+            
+            // 设置画布
+            const canvas = document.getElementById('screen');
+            gba.setCanvas(canvas);
+            gba.setBios(biosBin);
+            status.innerHTML += '<br>5. 画布和BIOS已设置';
+            
+            // 测试音频暂停/恢复
+            gba.audio.pause(false); // 启用音频
+            status.innerHTML += '<br>6. 调用audio.pause(false)启用音频';
+        }
+        
+        function loadROM() {
+            if (!gba) {
+                alert('请先创建GBA实例');
+                return;
+            }
+            
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.gba';
+            input.onchange = function(e) {
+                const file = e.target.files[0];
+                if (!file) return;
+                
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const romData = e.target.result;
+                    gba.setRom(romData);
+                    document.getElementById('status').innerHTML += '<br>✅ ROM加载完成';
+                    
+                    // 运行模拟器
+                    gba.runStable();
+                    document.getElementById('status').innerHTML += '<br>🎮 模拟器运行中...';
+                };
+                reader.readAsArrayBuffer(file);
+            };
+            input.click();
+        }
+    </script>
+</body>
+</html>

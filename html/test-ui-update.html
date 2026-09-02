@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FontCracker UI Update Test</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .button-group {
+            margin: 20px 0;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: #0056b3;
+        }
+        
+        .stats-display {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+            font-family: monospace;
+        }
+        
+        .char-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 40px);
+            gap: 5px;
+            margin: 20px 0;
+        }
+        
+        .char-cell {
+            width: 40px;
+            height: 40px;
+            background: #e9ecef;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .log-console {
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            background: #1e1e1e;
+            color: #d4d4d4;
+        }
+        
+        .log-entry {
+            margin: 2px 0;
+            padding: 2px 5px;
+        }
+        
+        .log-info { color: #569cd6; }
+        .log-success { color: #4ec9b0; }
+        .log-error { color: #f44747; }
+        .log-warning { color: #dcdcaa; }
+        
+        .test-result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .pass {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .fail {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>FontCracker UI更新测试</h1>
+        
+        <div class="button-group">
+            <button id="startTest">开始测试</button>
+            <button id="simulateHook">模拟Hook触发</button>
+            <button id="clearLogs">清空日志</button>
+        </div>
+        
+        <div class="stats-display">
+            <h3>统计信息</h3>
+            <div>捕获字符总数: <span id="totalChars">0</span></div>
+            <div>唯一字符数: <span id="uniqueChars">0</span></div>
+            <div>ASCII字符数: <span id="asciiCount">0</span></div>
+            <div>中文汉字数: <span id="chineseCount">0</span></div>
+            <div>捕获速率: <span id="captureRate">0</span> 字符/分钟</div>
+            <div>NEW GAME发现: <span id="newGameStatus">否</span></div>
+        </div>
+        
+        <div>
+            <h3>字符网格 (最新字符)</h3>
+            <div id="charGrid" class="char-grid">
+                <!-- 字符动态填充 -->
+            </div>
+        </div>
+        
+        <div>
+            <h3>Hook测试日志</h3>
+            <div id="logConsole" class="log-console">
+                <div class="log-entry log-info">[INFO] 系统就绪，等待测试开始...</div>
+            </div>
+        </div>
+        
+        <div id="testResult" class="test-result">
+            <!-- 测试结果动态显示 -->
+        </div>
+    </div>
+
+    <script>
+        // 模拟FontCracker类
+        class MockFontCracker {
+            constructor() {
+                this.capturedChars = new Map();
+                this.capturedSequence = [];
+                this.asciiCount = 0;
+                this.chineseCount = 0;
+                this.running = false;
+                this.newGameFound = false;
+                this.testStartTime = null;
+            }
+            
+            start() {
+                this.running = true;
+                this.testStartTime = Date.now();
+                addLog('模拟FontCracker已启动', 'info');
+            }
+            
+            simulateGetGlyphWidth(char, code) {
+                if (!this.running) {
+                    addLog('FontCracker未运行，跳过', 'warning');
+                    return;
+                }
+                
+                console.log(`[模拟Hook] GetGlyphWidth捕获字符: '${char}' (0x${code.toString(16)})`);
+                this.captureCharacter(char, code, 'GetGlyphWidth');
+            }
+            
+            captureCharacter(char, code, source) {
+                const charInfo = {
+                    char: char,
+                    code: code,
+                    source: source,
+                    timestamp: Date.now(),
+                    count: 1,
+                    firstSeen: Date.now()
+                };
+                
+                if (!this.capturedChars.has(code)) {
+                    this.capturedChars.set(code, charInfo);
+                    if (this.isASCII(char)) {
+                        this.asciiCount++;
+                    } else {
+                        this.chineseCount++;
+                    }
+                }
+                
+                this.capturedSequence.push(charInfo);
+                
+                // 模拟NEW GAME检测
+                this.checkNewGame();
+                
+                // 触发UI更新
+                updateUI();
+            }
+            
+            isASCII(char) {
+                return char.charCodeAt(0) >= 0x20 && char.charCodeAt(0) <= 0x7E;
+            }
+            
+            checkNewGame() {
+                const recent = this.capturedSequence.slice(-50).map(c => c.char).join('');
+                if (recent.includes('NEW GAME')) {
+                    this.newGameFound = true;
+                    addLog('✅ 成功检测到 "NEW GAME" 文本序列！', 'success');
+                }
+            }
+            
+            getStatistics() {
+                const totalCaptured = this.capturedSequence.length;
+                let captureRate = '0';
+                
+                if (totalCaptured > 1 && this.testStartTime) {
+                    const timeDiff = Math.max(1, Date.now() - this.testStartTime) / 1000 / 60;
+                    captureRate = Math.round(totalCaptured / timeDiff).toString();
+                }
+                
+                return {
+                    totalUnique: this.capturedChars.size,
+                    asciiCount: this.asciiCount,
+                    chineseCount: this.chineseCount,
+                    newGameFound: this.newGameFound,
+                    captureRate: captureRate,
+                    totalCaptured: totalCaptured
+                };
+            }
+            
+            getCapturedCharacters() {
+                return Array.from(this.capturedChars.values());
+            }
+        }
+        
+        // 全局变量
+        let mockCracker = new MockFontCracker();
+        let testRunning = false;
+        let hookTriggerCount = 0;
+        
+        // 日志函数
+        function addLog(message, type = 'info') {
+            const consoleEl = document.getElementById('logConsole');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            consoleEl.appendChild(entry);
+            consoleEl.scrollTop = consoleEl.scrollHeight;
+        }
+        
+        // UI更新函数
+        function updateUI() {
+            try {
+                if (!mockCracker) return;
+                
+                const stats = mockCracker.getStatistics();
+                
+                // 更新统计显示
+                document.getElementById('totalChars').textContent = stats.totalCaptured || 0;
+                document.getElementById('uniqueChars').textContent = stats.totalUnique || 0;
+                document.getElementById('asciiCount').textContent = stats.asciiCount || 0;
+                document.getElementById('chineseCount').textContent = stats.chineseCount || 0;
+                document.getElementById('captureRate').textContent = stats.captureRate || '0';
+                document.getElementById('newGameStatus').textContent = stats.newGameFound ? '是' : '否';
+                
+                // 更新字符网格
+                updateCharGrid();
+                
+            } catch (e) {
+                console.error('UI更新错误:', e);
+                addLog(`UI更新错误: ${e.message}`, 'error');
+            }
+        }
+        
+        function updateCharGrid() {
+            try {
+                const chars = mockCracker.getCapturedCharacters();
+                const grid = document.getElementById('charGrid');
+                
+                if (chars.length === 0) {
+                    grid.innerHTML = '<div style="grid-column: 1/-1; color:#888; padding:10px;">暂无捕获字符</div>';
+                    return;
+                }
+                
+                // 重新渲染网格
+                grid.innerHTML = '';
+                
+                // 显示最新30个字符
+                const displayChars = chars.slice(-30);
+                
+                displayChars.forEach(char => {
+                    const cell = document.createElement('div');
+                    cell.className = 'char-cell';
+                    cell.textContent = char.char;
+                    cell.title = `编码: 0x${char.code.toString(16)}\n来源: ${char.source}\n时间: ${new Date(char.timestamp).toLocaleTimeString()}`;
+                    
+                    // 根据字符类型添加样式
+                    if (char.code > 0xFF) {
+                        cell.style.background = '#c3e6cb'; // 中文绿色
+                    } else if (char.char >= 'A' && char.char <= 'Z') {
+                        cell.style.background = '#bee5eb'; // ASCII字母蓝色
+                    } else if (char.char >= '0' && char.char <= '9') {
+                        cell.style.background = '#ffeaa7'; // 数字黄色
+                    }
+                    
+                    grid.appendChild(cell);
+                });
+                
+            } catch (e) {
+                console.error('字符网格更新错误:', e);
+                addLog(`字符网格错误: ${e.message}`, 'error');
+            }
+        }
+        
+        // 测试函数
+        function startTest() {
+            if (testRunning) return;
+            
+            testRunning = true;
+            mockCracker = new MockFontCracker();
+            hookTriggerCount = 0;
+            
+            addLog('🚀 开始UI更新测试...', 'info');
+            
+            // 启动FontCracker
+            mockCracker.start();
+            
+            // 模拟Hook触发
+            const testChars = 'NEWGAMEABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            let index = 0;
+            
+            const interval = setInterval(() => {
+                if (index >= testChars.length) {
+                    clearInterval(interval);
+                    finishTest();
+                    return;
+                }
+                
+                const char = testChars.charAt(index);
+                const code = char.charCodeAt(0);
+                
+                // 模拟Hook触发
+                mockCracker.simulateGetGlyphWidth(char, code);
+                hookTriggerCount++;
+                
+                index++;
+                
+                // 每5个字符显示一次进度
+                if (index % 5 === 0) {
+                    addLog(`模拟Hook执行 ${index}/${testChars.length} 个字符`, 'info');
+                }
+                
+            }, 100); // 每100ms触发一次Hook
+            
+            // 更新UI循环
+            setInterval(updateUI, 200);
+        }
+        
+        function simulateSingleHook() {
+            if (!testRunning) {
+                addLog('请先点击"开始测试"', 'warning');
+                return;
+            }
+            
+            // 随机选择一个字符
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            const char = chars.charAt(Math.floor(Math.random() * chars.length));
+            const code = char.charCodeAt(0);
+            
+            addLog(`手动模拟Hook捕获: '${char}'`, 'info');
+            mockCracker.simulateGetGlyphWidth(char, code);
+            hookTriggerCount++;
+            
+            updateUI();
+        }
+        
+        function finishTest() {
+            const stats = mockCracker.getStatistics();
+            const resultDiv = document.getElementById('testResult');
+            
+            let resultHTML = '<h3>测试结果</h3>';
+            resultHTML += `<div>Hook触发次数: ${hookTriggerCount}</div>`;
+            resultHTML += `<div>捕获字符总数: ${stats.totalCaptured}</div>`;
+            resultHTML += `<div>唯一字符数: ${stats.totalUnique}</div>`;
+            resultHTML += `<div>ASCII字符数: ${stats.asciiCount}</div>`;
+            resultHTML += `<div>中文汉字数: ${stats.chineseCount}</div>`;
+            resultHTML += `<div>捕获速率: ${stats.captureRate} 字符/分钟</div>`;
+            
+            // 测试判断
+            const tests = [
+                { name: 'Hook触发测试', passed: hookTriggerCount > 0 },
+                { name: '字符捕获测试', passed: stats.totalCaptured > 0 },
+                { name: 'UI更新测试', passed: stats.totalUnique > 0 },
+                { name: '统计更新测试', passed: stats.captureRate !== '0' }
+            ];
+            
+            let allPassed = true;
+            tests.forEach(test => {
+                resultHTML += `<div>${test.name}: ${test.passed ? '✅ 通过' : '❌ 失败'}</div>`;
+                if (!test.passed) allPassed = false;
+            });
+            
+            if (allPassed) {
+                resultDiv.className = 'test-result pass';
+                resultHTML = '<h3>✅ 所有测试通过！</h3>' + resultHTML;
+                addLog('🎉 所有UI更新测试通过！', 'success');
+            } else {
+                resultDiv.className = 'test-result fail';
+                resultHTML = '<h3>❌ 测试失败</h3>' + resultHTML;
+                addLog('⚠️ UI更新测试部分失败', 'warning');
+            }
+            
+            resultDiv.innerHTML = resultHTML;
+            testRunning = false;
+        }
+        
+        // 事件监听
+        document.getElementById('startTest').addEventListener('click', startTest);
+        document.getElementById('simulateHook').addEventListener('click', simulateSingleHook);
+        document.getElementById('clearLogs').addEventListener('click', () => {
+            document.getElementById('logConsole').innerHTML = '<div class="log-entry log-info">[INFO] 日志已清空</div>';
+        });
+        
+        // 初始日志
+        console.log('UI更新测试页面已加载');
+    </script>
+</body>
+</html>

@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GBA Font Cracker — 专业调试版 · 集成调试功能</title>
+    <style>
+        /* ----- 全局重置 & 现代风格 ----- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            background: #0c0f1c;
+            color: #ebf0f5;
+            min-height: 100vh;
+            padding: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 主面板：四栏布局，添加调试列 */
+        .cracker-dashboard {
+            max-width: 1800px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 280px 1fr 280px 350px;
+            gap: 20px;
+            height: calc(100vh - 48px);
+            min-height: 720px;
+        }
+
+        /* 通用卡片样式 — 干净、微光、玻璃感 */
+        .pane {
+            background: rgba(18, 25, 45, 0.75);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(70, 140, 200, 0.15);
+            border-radius: 28px;
+            padding: 20px 16px;
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 255, 200, 0.1) inset;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .pane-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(90, 170, 200, 0.3);
+            color: #a0f2da;
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: -0.2px;
+        }
+        .pane-header span { background: #1b4b5a; padding: 4px 12px; border-radius: 40px; font-size: 0.75rem; color: white; margin-left: auto; }
+
+        /* 中间列 — 游戏画面 + 字符网格 */
+        .mid-pane {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            padding: 0;
+            background: transparent;
+            backdrop-filter: none;
+            border: none;
+            box-shadow: none;
+        }
+
+        /* 游戏视窗 — 优雅居中 */
+        .game-window {
+            background: #030617;
+            border-radius: 32px;
+            border: 2px solid #27c9a3;
+            overflow: hidden;
+            box-shadow: 0 18px 35px -8px #000, 0 0 0 1px #50e0c0 inset;
+            aspect-ratio: 480 / 320;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #screen {
+            display: block;
+            width: 100%;
+            height: 100%;
+            image-rendering: pixelated;
+            background: black;
+        }
+
+        /* 字符网格 — 清爽卡片 */
+        .grid-container {
+            background: rgba(12, 22, 38, 0.9);
+            backdrop-filter: blur(8px);
+            border-radius: 28px;
+            padding: 20px 18px;
+            border: 1px solid #2b5068;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .grid-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+            color: #b8f2e0;
+        }
+        .char-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+            gap: 8px;
+            overflow-y: auto;
+            max-height: 260px;
+            padding-right: 4px;
+        }
+        .char-grid::-webkit-scrollbar { width: 5px; background: #1a3140; border-radius: 10px; }
+        .char-grid::-webkit-scrollbar-thumb { background: #379f8b; border-radius: 10px; }
+
+        .char-cell {
+            background: #162b3a;
+            border-radius: 14px;
+            padding: 8px 4px;
+            text-align: center;
+            border: 1px solid #2b6880;
+            font-size: 1.3rem;
+            font-weight: 500;
+            transition: 0.1s;
+            cursor: pointer;
+            box-shadow: 0 3px 6px #00000055;
+        }
+        .char-cell:hover { transform: scale(1.04); background: #1f4057; border-color: #62d0b5; }
+        .char-cell.ascii { color: #b4ffd6; }
+        .char-cell.chinese { color: #e9bcff; }
+        .char-cell.newgame { background: #435020; border-color: #f5e56b; }
+        .char-info { font-size: 0.6rem; color: #8bafc7; margin-top: 3px; }
+
+        /* 左侧 & 右侧 可滚动内容 */
+        .scroll-content {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+        .scroll-content::-webkit-scrollbar { width: 4px; }
+        .scroll-content::-webkit-scrollbar-thumb { background: #2f7377; border-radius: 20px; }
+
+        /* 按钮样式 */
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 8px 0 16px;
+        }
+        .btn {
+            background: #1e3347;
+            border: 1px solid #39758f;
+            color: #dfecf0;
+            padding: 10px 14px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.15s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 8px #00000035;
+            flex: 1 0 auto;
+            justify-content: center;
+        }
+        .btn-primary { background: #0e4b4b; border-color: #12b98e; color: white; }
+        .btn-warning { background: #5e4a24; border-color: #c9a348; }
+        .btn-danger { background: #64243b; border-color: #d95b7a; }
+        .btn:active { transform: translateY(2px); }
+        .btn:disabled { opacity: 0.3; pointer-events: none; }
+
+        /* 进度条 */
+        .prog-bar { background: #172c3a; height: 18px; border-radius: 30px; margin: 15px 0; overflow: hidden; }
+        .prog-fill { height: 100%; background: linear-gradient(90deg, #1ebc8a, #4ae6b5); width: 0%; border-radius: 30px; }
+        .prog-text { font-size: 0.7rem; color: #a5d6cf; text-align: center; }
+
+        /* 状态卡片内的统计格子 */
+        .stat-tiles {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 12px 0;
+        }
+        .tile {
+            background: #0f1e2c;
+            border-radius: 24px;
+            padding: 14px 8px;
+            text-align: center;
+            border: 1px solid #31636b;
+        }
+        .tile .label { font-size: 0.65rem; color: #9dbfcf; text-transform: uppercase; }
+        .tile .value { font-size: 1.8rem; font-weight: 700; color: #d6ffec; line-height: 1.2; }
+
+        .status-row {
+            display: flex; justify-content: space-between; padding: 8px 0;
+            border-bottom: 1px dashed #2d5263;
+        }
+        .status-highlight { color: #80ffc0; font-weight: 600; }
+
+        /* 日志区域 */
+        .log-box {
+            background: #0c1625;
+            border-radius: 20px;
+            padding: 12px;
+            height: 280px;
+            overflow-y: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            border: 1px solid #2f4d66;
+        }
+        .log-entry { padding: 4px 6px; border-left: 4px solid; margin: 6px 0; background: #0b1422; }
+        .log-info { border-color: #2fa0d0; color: #bcddff; }
+        .log-success { border-color: #24b289; color: #c6ffd9; }
+        .log-capture { border-color: #b27af0; color: #f0d2ff; }
+
+        .analysis-box {
+            background: #0e192b;
+            border-radius: 18px;
+            padding: 14px;
+            font-family: monospace;
+            font-size: 0.7rem;
+            line-height: 1.5;
+            color: #aad6d0;
+            white-space: pre-wrap;
+            border: 1px solid #2d6070;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        /* 音频控制区域 */
+        .audio-controls {
+            background: #11212e;
+            border-radius: 40px;
+            padding: 12px 16px;
+            margin: 16px 0 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            border: 1px solid #3487a0;
+        }
+        .audio-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #ace6da;
+        }
+        .audio-row input[type="range"] {
+            flex: 1;
+            height: 6px;
+            background: #1a4d5a;
+            border-radius: 10px;
+            -webkit-appearance: none;
+        }
+        .audio-row input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            background: #4be3c0;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 2px solid #b6ffec;
+        }
+        .audio-row input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            accent-color: #1fbc8d;
+        }
+
+        /* ===== 调试面板样式 ===== */
+        .debug-pane {
+            background: rgba(10, 20, 35, 0.85);
+            border: 1px solid rgba(100, 180, 220, 0.25);
+        }
+
+        .debug-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #2a4a5a;
+            padding-bottom: 12px;
+        }
+
+        .debug-tab {
+            background: #15273a;
+            border: 1px solid #2d5c70;
+            border-radius: 20px;
+            padding: 8px 16px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: #a0d0e0;
+        }
+
+        .debug-tab.active {
+            background: #1a4b6b;
+            border-color: #3ab8e0;
+            color: white;
+            box-shadow: 0 0 12px rgba(58, 184, 224, 0.3);
+        }
+
+        .debug-tab:hover {
+            background: #1c3d5a;
+            transform: translateY(-1px);
+        }
+
+        .debug-content {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .debug-content::-webkit-scrollbar {
+            width: 3px;
+        }
+
+        .debug-content::-webkit-scrollbar-thumb {
+            background: #3a7a8a;
+            border-radius: 10px;
+        }
+
+        /* 寄存器显示样式 */
+        .debug-registers {
+            background: #0d1a28;
+            border-radius: 16px;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: 1px solid #2a4d5f;
+        }
+
+        .debug-registers h4 {
+            color: #7ad4e0;
+            margin-bottom: 10px;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #2a4d5f;
+            padding-bottom: 6px;
+        }
+
+        .register-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .register-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #112233;
+            border-radius: 10px;
+            padding: 6px 10px;
+            border: 1px solid #2a4d5f;
+        }
+
+        .register-name {
+            color: #a0d8f0;
+            font-weight: 600;
+            font-size: 0.75rem;
+        }
+
+        .register-value {
+            color: #c0f0ff;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+
+        .status-bits {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #112233;
+            border-radius: 10px;
+            padding: 6px 10px;
+            border: 1px solid #2a4d5f;
+        }
+
+        .status-name {
+            color: #a0d8f0;
+            font-weight: 600;
+            font-size: 0.75rem;
+        }
+
+        .status-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            font-weight: 500;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+
+        .status-value.active {
+            background: #1a6b3a;
+            color: #90ffb0;
+        }
+
+        .status-value.inactive {
+            background: #5a2a2a;
+            color: #ff9090;
+        }
+
+        /* 内存查看样式 - 按照console-test.html重构 */
+        .debug-memory {
+            background: #0d1a28;
+            border-radius: 16px;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: 1px solid #2a4d5f;
+            min-height: 500px;
+            max-height: 500px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .debug-memory h4 {
+            color: #7ad4e0;
+            margin-bottom: 10px;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #2a4d5f;
+            padding-bottom: 6px;
+        }
+
+        .memory-container {
+            flex: 1;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        #memoryControls {
+            border-bottom: 1px solid #3a4d5f;
+            padding: 8px 4px;
+            background: #0f1e2c;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        #memoryControls ul {
+            margin: 0 0 0 10px;
+            padding: 0;
+            list-style: none;
+        }
+
+        #memoryControls ul > li {
+            float: left;
+            margin-left: 12px;
+            font-size: 0.7rem;
+        }
+
+        #memoryControls select {
+            background: #112233;
+            border: 1px solid #2a4d5f;
+            color: #c0f0ff;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        #memoryControls input[type="text"] {
+            background: #112233;
+            border: 1px solid #2a4d5f;
+            color: #c0f0ff;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-family: 'JetBrains Mono', monospace;
+            width: 120px;
+        }
+
+        .memory-view-wrapper {
+            overflow-y: auto;
+            max-height: 400px;
+        }
+
+        #memoryView {
+            display: table;
+            width: 100%;
+            margin: 0;
+            border-spacing: 1px 1px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+        }
+
+        #memoryView li {
+            display: table-row;
+            list-style-type: none;
+        }
+
+        .memory-offset {
+            margin: 0;
+            display: table-cell;
+            color: #a0d8f0;
+            padding: 2px 4px;
+            min-width: 90px;
+        }
+
+        .memory-cell {
+            padding: 0 3px;
+            display: table-cell;
+            text-align: center;
+            color: #c0f0a0;
+            min-width: 20px;
+        }
+
+        .memory-cell.changed {
+            font-weight: bold;
+            color: #ffd070;
+        }
+
+        /* Hook状态样式 */
+        .debug-hooks {
+            background: #0d1a28;
+            border-radius: 16px;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: 1px solid #2a4d5f;
+        }
+
+        .debug-hooks h4 {
+            color: #7ad4e0;
+            margin-bottom: 10px;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #2a4d5f;
+            padding-bottom: 6px;
+        }
+
+        .hook-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #112233;
+            border-radius: 10px;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            border: 1px solid;
+            transition: all 0.2s;
+        }
+
+        .hook-item.active {
+            border-color: #2ab84d;
+            background: rgba(42, 184, 77, 0.1);
+        }
+
+        .hook-item.inactive {
+            border-color: #a84040;
+            background: rgba(168, 64, 64, 0.1);
+        }
+
+        .hook-name {
+            color: #a0d8f0;
+            font-weight: 600;
+            font-size: 0.75rem;
+        }
+
+        .hook-address {
+            color: #c0f0ff;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+        }
+
+        .hook-status {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+        }
+
+        .hook-item.active .hook-status {
+            background: rgba(42, 184, 77, 0.2);
+            color: #60ff90;
+        }
+
+        .hook-item.inactive .hook-status {
+            background: rgba(168, 64, 64, 0.2);
+            color: #ff8080;
+        }
+
+        /* 调试控制按钮 */
+        .debug-controls {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .debug-btn {
+            background: #1a3b5a;
+            border: 1px solid #2d7a9a;
+            color: #b0e0ff;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            flex: 1;
+            text-align: center;
+        }
+
+        .debug-btn:hover {
+            background: #1f4a70;
+            transform: translateY(-1px);
+        }
+
+        .debug-btn:active {
+            transform: translateY(1px);
+        }
+
+        .debug-btn.primary {
+            background: #0e4b4b;
+            border-color: #12b98e;
+            color: white;
+        }
+
+        /* 调试信息显示 */
+        .debug-info {
+            background: #0d1a28;
+            border-radius: 16px;
+            padding: 12px;
+            margin-top: 12px;
+            border: 1px solid #2a4d5f;
+            font-size: 0.7rem;
+            line-height: 1.5;
+        }
+
+        .debug-info-title {
+            color: #7ad4e0;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .debug-info-content {
+            color: #aad6d0;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        /* 微调 */
+        .file-input { display: none; }
+        .chip { background: #1d3b44; border-radius: 30px; padding: 2px 12px; font-size: 0.7rem; }
+        .disabled { color: #5C616F; }
+    </style>
+</head>
+<body>
+    <div class="cracker-dashboard">
+        <!-- 左侧：控制+状态+分析+音频 -->
+        <div class="pane">
+            <div class="pane-header">
+                🧩 控制中心
+                <span>调试版</span>
+            </div>
+            <div class="scroll-content">
+                <!-- 隐藏文件input -->
+                <input type="file" id="romLoader" accept=".gba" class="file-input">
+
+                <div class="btn-group">
+                    <button class="btn" id="loadBtn" onclick="document.getElementById('romLoader').click()">📂 载入ROM</button>
+                    <button class="btn btn-primary" id="startBtn" onclick="startCracking()" disabled>▶ 开始破解</button>
+                    <button class="btn" id="pauseBtn" onclick="togglePause()" disabled>⏸️ 暂停</button>
+                </div>
+                <div class="btn-group">
+                    <button class="btn" id="resetBtn" onclick="resetCracking()" disabled>🔄 重置</button>
+                    <button class="btn btn-warning" id="scanBtn" onclick="scanMemory()" disabled>🔍 扫描</button>
+                    <button class="btn" id="exportBtn" onclick="exportResults()" disabled>💾 导出</button>
+                </div>
+
+                 <!-- 调试控制按钮 -->
+                <div class="debug-controls">
+                    <button class="debug-btn primary" id="debugToggleBtn" onclick="toggleDebugMode()">🔧 启用调试</button>
+                    <button class="debug-btn" id="stepBtn" onclick="stepExecution()" disabled>⏭️ 单步</button>
+                    <button class="debug-btn" id="updateDebugBtn" onclick="updateDebugInfo()">🔄 刷新</button>
+                    <button class="debug-btn" onclick="debugForceUIUpdate()" style="background:#5a2a5a;">🔍 强制更新UI</button>
+                    <button class="debug-btn" onclick="debugCheckStatus()" style="background:#2a5a5a;">📊 检查状态</button>
+                </div>
+
+                <!-- 进度 -->
+                <div class="prog-bar"><div class="prog-fill" id="progressFill" style="width:0%"></div></div>
+                <div class="prog-text" id="progressText">⚡ 等待ROM ...</div>
+
+                <!-- 音频控制区块 -->
+                <div class="audio-controls">
+                     <div class="audio-row">
+                        <input type="checkbox" id="soundEnable" checked onchange="toggleAudio(this.checked)">
+                        <label for="soundEnable">🎵 声音</label>
+                    </div>
+                    <div class="audio-row">
+                        <span>🔊</span>
+                        <input type="range" id="volumeSlider" min="0" max="1" value="1.0" step="0.01" oninput="setVolume(this.value)">
+                        <span id="volumePercent">100%</span>
+                    </div>
+                </div>
+
+                <!-- 实时状态瓷砖 -->
+                <div class="stat-tiles">
+                    <div class="tile"><div class="label">捕获总数</div><div class="value" id="capturedCount">0</div></div>
+                    <div class="tile"><div class="label">汉字</div><div class="value" id="chineseCount">0</div></div>
+                    <div class="tile"><div class="label">ASCII</div><div class="value" id="asciiCount">0</div></div>
+                    <div class="tile"><div class="label">捕获速率</div><div class="value" id="captureRate">0</div></div>
+                </div>
+
+                <!-- 详细状态 -->
+                <div style="margin: 10px 0;">
+                    <div class="status-row"><span>ROM状态</span><span class="status-highlight" id="romStatus">未加载</span></div>
+                    <div class="status-row"><span>破解状态</span><span class="status-highlight" id="crackingStatus">空闲</span></div>
+                    <div class="status-row"><span>NEW GAME</span><span class="status-highlight" id="newGameFound">❌ 未发现</span></div>
+                    <div class="status-row"><span>处理帧数</span><span class="status-highlight" id="frameCount">0</span></div>
+                    <div class="status-row"><span>调试模式</span><span class="status-highlight" id="debugModeStatus">❌ 禁用</span></div>
+                </div>
+
+                <!-- 分析面板 -->
+                <div style="margin-top: 18px;">
+                    <div style="color:#86dbc6; margin-bottom:10px;">🔬 动态分析</div>
+                    <div class="analysis-box" id="analysisContent">加载ROM后显示特征</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 中间：游戏画面 + 字符网格 -->
+        <div class="mid-pane">
+            <!-- 游戏窗口 -->
+            <div class="game-window">
+                <canvas id="screen" width="480" height="320"></canvas>
+            </div>
+
+            <!-- 字符网格卡片 -->
+            <div class="grid-container">
+                <div class="grid-header">
+                    <span>📖 字符仓库 (点击查看)</span>
+                    <span class="chip" id="totalUnique">0 唯一</span>
+                </div>
+                <div class="char-grid" id="charGrid">
+                    <!-- 动态渲染 -->
+                </div>
+                <div style="display: flex; gap:12px; margin-top: 12px; color:#80cfbc;">
+                    <span>🈯 汉字 <span id="chineseCount2">0</span></span>
+                    <span>🔤 ASCII <span id="asciiCount2">0</span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右侧：完整日志 + 帮助信息 -->
+        <div class="pane">
+            <div class="pane-header">
+                📋 事件日志
+                <span>实时</span>
+            </div>
+            <div class="log-box" id="logContainer">
+                <div class="log-entry log-info">🔧 系统就绪 · 调试版已加载</div>
+                <div class="log-entry log-info">💡 请载入 GBA ROM</div>
+            </div>
+            <!-- 下方增加调试/映射信息 -->
+            <div style="margin-top: 16px; background:#0d1e28; border-radius: 24px; padding: 12px; font-size:0.75rem;">
+                <p style="color:#a4dbd0; margin-bottom:8px;">🎮 按键映射</p>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px; color:#b0cfde;">
+                    <span>↑ ↓ ← →</span><span>方向键</span>
+                    <span>A / B</span><span>Z / X</span>
+                    <span>L / R</span><span>A / S</span>
+                    <span>Start / Select</span><span>Enter / \</span>
+                </div>
+            </div>
+            <div style="margin-top: 12px; color:#608b9b; font-size:0.7rem; padding:8px; text-align:center;">
+                ⚡ 钩子: 0x080048EA | 0x08004CCC | 0x08006876
+            </div>
+        </div>
+
+        <!-- 第四列：调试面板 -->
+        <div class="pane debug-pane">
+            <div class="pane-header">
+                🔬 调试面板
+                <span>实时</span>
+            </div>
+            <div class="debug-tabs">
+                <div class="debug-tab active" onclick="switchDebugTab('registers')">寄存器</div>
+                <div class="debug-tab" onclick="switchDebugTab('memory')">内存</div>
+                <div class="debug-tab" onclick="switchDebugTab('hooks')">Hook点</div>
+                <div class="debug-tab" onclick="switchDebugTab('info')">调试信息</div>
+            </div>
+            <div class="debug-content" id="debugContent">
+                <!-- 寄存器内容 -->
+                <div id="debugRegisters" class="debug-tab-content">
+                    <div class="debug-registers">
+                        <h4>通用寄存器 (GPRs)</h4>
+                        <div class="register-grid" id="registerGrid">
+                            <!-- 寄存器动态填充 -->
+                        </div>
+                        <h4>状态位 (CPSR)</h4>
+                        <div class="status-bits" id="statusBits">
+                            <!-- 状态位动态填充 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 内存内容 - 按照console-test.html重构 -->
+                <div id="debugMemory" class="debug-tab-content" style="display:none;">
+                    <div class="debug-memory">
+                        <h4>内存查看</h4>
+                        <div id="memoryControls">
+                            <h3 style="color:#a0d8f0; font-size:0.8rem; margin-bottom:8px;">跳转到:</h3>
+                            <ul>
+                                <li>
+                                    区域:
+                                    <select id="memoryRegionSelect" onchange="jumpToMemoryRegion(this.value)">
+                                        <option value="0">0x00000000: BIOS</option>
+                                        <option value="2">0x02000000: 板载RAM</option>
+                                        <option value="3">0x03000000: 芯片RAM</option>
+                                        <option value="4">0x04000000: I/O</option>
+                                        <option value="5">0x05000000: 调色板</option>
+                                        <option value="6">0x06000000: VRAM</option>
+                                        <option value="7">0x07000000: OAM</option>
+                                        <option value="8" selected>0x08000000: Gamepak WS 0</option>
+                                        <option value="10">0x0A000000: Gamepak WS 1</option>
+                                        <option value="12">0x0C000000: Gamepak WS 2</option>
+                                        <option value="14">0x0E000000: Gamepak SRAM</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    地址:
+                                    <input type="text" id="memoryAddressInput" placeholder="0x08000000" onchange="jumpToMemoryAddress(this.value)">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="memory-container">
+                            <ul id="memoryView">
+                                <!-- 内存内容动态填充 -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hook点内容 -->
+                <div id="debugHooks" class="debug-tab-content" style="display:none;">
+                    <div class="debug-hooks" id="hookStatus">
+                        <!-- Hook点状态动态填充 -->
+                    </div>
+                </div>
+
+                <!-- 调试信息内容 -->
+                <div id="debugInfo" class="debug-tab-content" style="display:none;">
+                    <div class="debug-info">
+                        <div class="debug-info-title">实时调试信息</div>
+                        <div class="debug-info-content" id="debugInfoContent">
+                            调试模式禁用时显示基本信息
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 模拟器核心脚本 -->
+    <script src="js/util.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/arm.js"></script>
+    <script src="js/thumb.js"></script>
+    <script src="js/mmu.js"></script>
+    <script src="js/io.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/video/proxy.js"></script>
+    <script src="js/video/software.js"></script>
+    <script src="js/irq.js"></script>
+    <script src="js/keypad.js"></script>
+    <script src="js/sio.js"></script>
+    <script src="js/savedata.js"></script>
+    <script src="js/gpio.js"></script>
+    <script src="js/gba.js"></script>
+    <script src="resources/xhr.js"></script>
+    <script src="resources/biosbin.js"></script>
+    <script src="js/fontcracker.js"></script>
+    <script src="js/fontcracker-debug.js"></script>
+
+    <script>
+        // ---------- 全局变量 ----------
+        let gba = null;
+        let fontCracker = null;
+        let debugFontCracker = null;
+        let memoryScanner = null;
+        let debugTools = null;
+        let isPaused = false;
+        let debugMode = false;
+        let captureStartTime = 0;
+        let debugUpdateInterval = null;
+        let memoryView = null;
+        let uiUpdateCounter = 0;
+
+        const HOOK_ADDRESSES = {
+            GetGlyphWidth: 0x080048EA,
+            GetStringWidth: 0x08004CCC,
+            DrawGlyphTiles: 0x08006876
+        };
+
+        // 初始化GBA与canvas
+        window.onload = function() {
+            let canvas = document.getElementById('screen');
+            if (!gba) {
+                gba = new GameBoyAdvance();
+                gba.setCanvas(canvas);
+                gba.logLevel = gba.LOG_ERROR;
+                gba.setBios(biosBin);
+
+                // 检查音频上下文
+                if (!gba.audio.context) {
+                    let audioDiv = document.querySelector('.audio-controls');
+                    if (audioDiv) {
+                        audioDiv.style.display = 'none';
+                        addLog('⚠️ 浏览器不支持Web Audio API，音频已禁用', 'info');
+                    }
+                } else {
+                    setVolume(1.0);
+                    gba.audio.masterEnable = true;
+                }
+            }
+            // 清屏
+            let ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#000';
+            ctx.fillRect(0, 0, 480, 320);
+            addLog('🖥️ 游戏画面已绑定 | 调试系统初始化完成', 'info');
+            
+            // 初始化内存查看器
+            if (gba && gba.mmu) {
+                initMemoryView();
+            }
+        };
+
+        // 初始化内存查看器 - 按照console-test.html的结构
+        function initMemoryView() {
+            if (!gba || !gba.mmu) return;
+            
+            const memoryViewUl = document.getElementById('memoryView');
+            memoryViewUl.innerHTML = '';
+            
+            // 创建行
+            for (let i = 0; i < 20; ++i) {
+                const row = createMemoryRow(i * 16);
+                memoryViewUl.appendChild(row);
+            }
+        }
+
+        function createMemoryRow(startOffset) {
+            const li = document.createElement('li');
+            const offset = document.createElement('span');
+            offset.setAttribute('class', 'memory-offset');
+            offset.textContent = hex(startOffset);
+            li.appendChild(offset);
+
+            for (let i = 0; i < 16; ++i) {
+                const b = document.createElement('span');
+                b.textContent = '00';
+                b.setAttribute('class', 'memory-cell');
+                li.appendChild(b);
+            }
+            li.offset = startOffset;
+            li.oldOffset = startOffset;
+            return li;
+        }
+
+        function hex(value, digits = 8, prefix = true) {
+            // 正确处理32位整数，包括负数
+            // 使用无符号右移操作符(>>>)将值转换为32位无符号整数
+            const uintValue = value >>> 0;
+            const hexStr = uintValue.toString(16).toUpperCase().padStart(digits, '0');
+            return prefix ? `0x${hexStr}` : hexStr;
+        }
+
+        function refreshMemoryRow(row) {
+            if (!gba || !gba.mmu) return;
+            
+            const showChanged = (row.oldOffset === row.offset);
+            if (!showChanged) {
+                row.oldOffset = row.offset;
+            }
+            
+            row.firstChild.textContent = hex(row.offset);
+            
+            for (let i = 0; i < 16; ++i) {
+                const child = row.children[i + 1];
+                try {
+                    const newValue = gba.mmu.loadU8(row.offset + i);
+                    if (newValue >= 0) {
+                        const hexValue = hex(newValue, 2, false);
+                        if (child.textContent === hexValue) {
+                            child.setAttribute('class', 'memory-cell');
+                        } else if (showChanged) {
+                            child.setAttribute('class', 'memory-cell changed');
+                            child.textContent = hexValue;
+                        } else {
+                            child.setAttribute('class', 'memory-cell');
+                            child.textContent = hexValue;
+                        }
+                    } else {
+                        child.setAttribute('class', 'memory-cell');
+                        child.textContent = '--';
+                    }
+                } catch (exception) {
+                    child.setAttribute('class', 'memory-cell');
+                    child.textContent = '--';
+                }
+            }
+        }
+
+        function refreshAllMemory() {
+            const memoryViewUl = document.getElementById('memoryView');
+            if (!memoryViewUl) return;
+            
+            for (let i = 0; i < memoryViewUl.children.length; ++i) {
+                refreshMemoryRow(memoryViewUl.children[i]);
+            }
+        }
+
+        function scrollMemory(offset) {
+            const memoryViewUl = document.getElementById('memoryView');
+            if (!memoryViewUl || memoryViewUl.children.length === 0) return;
+            
+            offset &= 0xFFFFFFF0;
+            
+            for (let i = 0; i < memoryViewUl.children.length; ++i) {
+                const child = memoryViewUl.children[i];
+                child.offset = offset + i * 16;
+                refreshMemoryRow(child);
+            }
+        }
+
+        function jumpToMemoryRegion(regionValue) {
+            const address = parseInt(regionValue, 10) * 0x01000000;
+            scrollMemory(address);
+        }
+
+        function jumpToMemoryAddress(addressStr) {
+            let address = 0x08000000;
+            
+            if (addressStr) {
+                if (addressStr.startsWith('0x')) {
+                    address = parseInt(addressStr, 16);
+                } else {
+                    address = parseInt(addressStr, 16);
+                }
+                
+                if (isNaN(address)) {
+                    address = 0x08000000;
+                }
+            }
+            
+            scrollMemory(address);
+        }
+
+        // 日志统一
+        function addLog(message, type = 'info') {
+            const logDiv = document.getElementById('logContainer');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            const t = new Date().toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            entry.textContent = `[${t}] ${message}`;
+            logDiv.appendChild(entry);
+            logDiv.scrollTop = logDiv.scrollHeight;
+            if (logDiv.children.length > 200) logDiv.removeChild(logDiv.firstChild);
+        }
+
+        function updateProgress(percent, text) {
+            document.getElementById('progressFill').style.width = `${percent}%`;
+            document.getElementById('progressText').innerText = text;
+        }
+
+        // 载入ROM
+        function loadROM() {
+            const input = document.getElementById('romLoader');
+            const file = input.files[0];
+            if (!file) return;
+            updateProgress(10, `加载 ${file.name}`);
+            addLog(`开始读取: ${file.name}`, 'info');
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const romData = e.target.result;
+                    updateProgress(40, '模拟器初始化');
+                    if (!gba) { 
+                        gba = new GameBoyAdvance(); 
+                        gba.setCanvas(document.getElementById('screen'));
+                        gba.setBios(biosBin);
+                        if (gba.audio && gba.audio.context) {
+                            setVolume(1.0);
+                            gba.audio.masterEnable = true;
+                        }
+                    }
+                    gba.setRom(romData);
+
+                    updateProgress(70, '启动FontCracker');
+                    
+                    // 创建增强版FontCracker
+                    debugFontCracker = new DebugEnhancedFontCracker(gba, HOOK_ADDRESSES);
+                    fontCracker = debugFontCracker; // 兼容原有代码
+                    
+                    // 设置回调
+                    debugFontCracker.setCallback('onCharacterCapture', (charInfo) => {
+                        addLog(`📝 捕获: '${charInfo.char}' (0x${charInfo.code.toString(16)}) [${charInfo.source}]`, 'capture');
+                        // 立即更新UI（防抖处理）
+                        if (!window.debouncedUIUpdate) {
+                            window.debouncedUIUpdate = setTimeout(() => {
+                                updateUI();
+                                window.debouncedUIUpdate = null;
+                            }, 100); // 100ms防抖
+                        }
+                    });
+                    debugFontCracker.setCallback('onNewGameFound', () => {
+                        addLog('✅ "NEW GAME" 出现！', 'success');
+                        document.getElementById('newGameFound').innerHTML = '✅ 已发现';
+                    });
+                    debugFontCracker.setCallback('onLog', (msg, type) => addLog(msg, type));
+                    
+                    // 设置调试回调
+                    debugFontCracker.setDebugCallback('onDebugBreakpoint', (debugInfo) => {
+                        if (debugMode) {
+                            updateDebugDisplay(debugInfo);
+                        }
+                    });
+
+                    memoryScanner = new DebugEnhancedMemoryScanner(gba);
+
+                    updateProgress(100, 'ROM就绪');
+                    document.getElementById('romStatus').innerText = '已载入 ✅';
+                    document.getElementById('loadBtn').disabled = true;
+                    document.getElementById('startBtn').disabled = false;
+                    document.getElementById('scanBtn').disabled = false;
+                    document.getElementById('stepBtn').disabled = false;
+                    updateAnalysis();
+                    addLog('✅ ROM加载完成', 'success');
+                    
+                    // 初始化调试显示
+                    updateRegistersDisplay();
+                    updateHookStatusDisplay();
+                    
+                    // 初始化内存查看
+                    initMemoryView();
+                    refreshAllMemory();
+                    
+                } catch (err) {
+                    updateProgress(0, '失败');
+                    addLog(`错误: ${err.message}`, 'error');
+                }
+            };
+            reader.readAsArrayBuffer(file);
+        }
+
+        function startCracking() {
+            console.log('startCracking() 被调用');
+            
+            if (!gba) {
+                console.log('startCracking: gba 未定义');
+                return;
+            }
+            
+            if (!debugFontCracker) {
+                console.log('startCracking: debugFontCracker 未定义');
+                return;
+            }
+            
+            captureStartTime = Date.now();
+            console.log('startCracking: 捕获开始时间:', captureStartTime);
+            
+            // 如果调试模式启用，启用调试功能
+            if (debugMode) {
+                console.log('startCracking: 调试模式已启用，调用 enableDebugMode()');
+                debugFontCracker.enableDebugMode();
+                document.getElementById('debugModeStatus').innerHTML = '✅ 启用';
+                addLog('🔧 调试模式已启用', 'info');
+            }
+            
+            console.log('startCracking: 调用 debugFontCracker.start()');
+            debugFontCracker.start();
+            document.getElementById('crackingStatus').innerText = '运行中 ▶️';
+            document.getElementById('pauseBtn').disabled = false;
+            document.getElementById('resetBtn').disabled = false;
+            document.getElementById('startBtn').disabled = true;
+            
+            // 启用音频
+            if (gba.audio && gba.audio.context && gba.audio.masterEnable) {
+                if (gba.audio.context.state === 'suspended') {
+                    gba.audio.context.resume().then(() => {
+                        addLog('🔊 音频系统已激活', 'info');
+                        gba.audio.pause(false);
+                    });
+                } else {
+                    gba.audio.pause(false);
+                }
+            }
+            
+            addLog('🚀 破解引擎已启动', 'info');
+            console.log('startCracking: 调用 gba.runStable()');
+            gba.runStable();
+            
+            // 启动UI更新 - 使用requestAnimationFrame避免阻塞
+            if (window.uiUpdateAnimationFrame) {
+                console.log('startCracking: 取消已有UI更新动画帧:', window.uiUpdateAnimationFrame);
+                cancelAnimationFrame(window.uiUpdateAnimationFrame);
+                window.uiUpdateAnimationFrame = null;
+            }
+            
+            function uiUpdateLoop() {
+                try {
+                    updateUI();
+                } catch (e) {
+                    console.error('UI更新错误:', e);
+                }
+                window.uiUpdateAnimationFrame = requestAnimationFrame(uiUpdateLoop);
+            }
+            
+            window.uiUpdateAnimationFrame = requestAnimationFrame(uiUpdateLoop);
+            console.log('startCracking: UI更新循环已启动');
+            
+            // 如果调试模式启用，启动调试更新
+            if (debugMode) {
+                console.log('startCracking: 启动调试更新');
+                startDebugUpdate();
+            }
+            
+            console.log('startCracking: 完成');
+        }
+
+        function toggleDebugMode() {
+            debugMode = !debugMode;
+            const btn = document.getElementById('debugToggleBtn');
+            const status = document.getElementById('debugModeStatus');
+            
+            if (debugMode) {
+                btn.innerHTML = '🔧 禁用调试';
+                btn.classList.add('primary');
+                status.innerHTML = '✅ 启用';
+                addLog('🔧 调试模式已启用', 'info');
+                
+                if (debugFontCracker) {
+                    debugFontCracker.enableDebugMode();
+                }
+                
+                // 启动调试更新
+                startDebugUpdate();
+            } else {
+                btn.innerHTML = '🔧 启用调试';
+                btn.classList.remove('primary');
+                status.innerHTML = '❌ 禁用';
+                addLog('🔧 调试模式已禁用', 'info');
+                
+                if (debugFontCracker) {
+                    debugFontCracker.disableDebugMode();
+                }
+                
+                // 停止调试更新
+                stopDebugUpdate();
+            }
+        }
+
+        function startDebugUpdate() {
+            if (debugUpdateInterval) {
+                clearInterval(debugUpdateInterval);
+            }
+            
+            debugUpdateInterval = setInterval(() => {
+                if (gba && gba.cpu) {
+                    updateRegistersDisplay();
+                    refreshAllMemory();
+                }
+            }, 200); // 每200ms更新一次
+        }
+
+        function stopDebugUpdate() {
+            if (debugUpdateInterval) {
+                clearInterval(debugUpdateInterval);
+                debugUpdateInterval = null;
+            }
+        }
+
+        function stepExecution() {
+            if (!gba || isPaused) return;
+            
+            addLog('⏭️ 单步执行', 'info');
+            gba.pause();
+            gba.step();
+            updateRegistersDisplay();
+            refreshAllMemory();
+            
+            // 短暂暂停后继续
+            setTimeout(() => {
+                if (!isPaused) {
+                    gba.runStable();
+                }
+            }, 100);
+        }
+
+        function updateDebugInfo() {
+            if (!debugFontCracker) return;
+            
+            const debugInfo = debugFontCracker.getDebugInfo();
+            const infoContent = document.getElementById('debugInfoContent');
+            
+            let infoText = `调试模式: ${debugInfo.debugMode ? '启用' : '禁用'}\n`;
+            infoText += `调试日志数量: ${debugInfo.debugLogCount}\n`;
+            infoText += `寄存器快照: ${debugInfo.registerSnapshots}\n`;
+            infoText += `内存快照: ${debugInfo.memorySnapshots}\n`;
+            infoText += `Hook触发次数: ${debugInfo.hookTriggerCount}\n`;
+            infoText += `总捕获字符: ${debugInfo.totalCaptured}\n\n`;
+            
+            if (debugInfo.recentDebugLog.length > 0) {
+                infoText += '最近调试记录:\n';
+                debugInfo.recentDebugLog.forEach((log, index) => {
+                    const time = new Date(log.timestamp).toLocaleTimeString();
+                    infoText += `${index+1}. [${time}] ${log.hookName} @ 0x${log.pc.toString(16)}\n`;
+                });
+            }
+            
+            infoContent.textContent = infoText;
+        }
+        
+        // 调试函数：手动触发UI更新
+        function debugForceUIUpdate() {
+            console.log('手动触发UI更新');
+            updateUI();
+        }
+        
+        // 调试函数：检查状态
+        function debugCheckStatus() {
+            console.log('=== 调试状态检查 ===');
+            console.log('gba:', gba ? '已定义' : '未定义');
+            console.log('debugFontCracker:', debugFontCracker ? '已定义' : '未定义');
+            console.log('isPaused:', isPaused);
+            console.log('debugMode:', debugMode);
+            console.log('window.uiUpdateAnimationFrame:', window.uiUpdateAnimationFrame);
+            console.log('uiUpdateCounter:', uiUpdateCounter);
+            
+            if (debugFontCracker) {
+                const stats = debugFontCracker.getStatistics ? debugFontCracker.getStatistics() : null;
+                console.log('统计信息:', stats);
+                
+                const chars = debugFontCracker.getCapturedCharacters ? debugFontCracker.getCapturedCharacters() : [];
+                console.log('捕获字符数:', chars.length);
+                console.log('捕获字符:', chars.slice(-10));
+                
+                // 检查debugFontCracker的属性
+                console.log('debugFontCracker.debugMode:', debugFontCracker.debugMode);
+                console.log('debugFontCracker.running:', debugFontCracker.running);
+                console.log('debugFontCracker.capturedChars.size:', debugFontCracker.capturedChars ? debugFontCracker.capturedChars.size : 'N/A');
+            }
+            
+            console.log('=== 调试状态检查结束 ===');
+        }
+
+        function updateRegistersDisplay() {
+            if (!gba || !gba.cpu) return;
+            
+            const cpu = gba.cpu;
+            const registerGrid = document.getElementById('registerGrid');
+            const statusBits = document.getElementById('statusBits');
+            
+            // 更新寄存器
+            let registersHTML = '';
+            for (let i = 0; i < 16; i++) {
+                const value = cpu.gprs[i];
+                // 使用hex函数正确处理32位整数（包括负数）
+                const hexValue = hex(value, 8, false);
+                registersHTML += `<div class="register-item">
+                    <span class="register-name">R${i}</span>
+                    <span class="register-value">0x${hexValue}</span>
+                </div>`;
+            }
+            registerGrid.innerHTML = registersHTML;
+            
+            // 更新状态位
+            let statusHTML = '';
+            statusHTML += `<div class="status-item">
+                <span class="status-name">N</span>
+                <span class="status-value ${cpu.cpsrN ? 'active' : 'inactive'}">${cpu.cpsrN ? '1' : '0'}</span>
+            </div>`;
+            statusHTML += `<div class="status-item">
+                <span class="status-name">Z</span>
+                <span class="status-value ${cpu.cpsrZ ? 'active' : 'inactive'}">${cpu.cpsrZ ? '1' : '0'}</span>
+            </div>`;
+            statusHTML += `<div class="status-item">
+                <span class="status-name">C</span>
+                <span class="status-value ${cpu.cpsrC ? 'active' : 'inactive'}">${cpu.cpsrC ? '1' : '0'}</span>
+            </div>`;
+            statusHTML += `<div class="status-item">
+                <span class="status-name">V</span>
+                <span class="status-value ${cpu.cpsrV ? 'active' : 'inactive'}">${cpu.cpsrV ? '1' : '0'}</span>
+            </div>`;
+            statusHTML += `<div class="status-item">
+                <span class="status-name">I</span>
+                <span class="status-value ${cpu.cpsrI ? 'active' : 'inactive'}">${cpu.cpsrI ? '1' : '0'}</span>
+            </div>`;
+            statusHTML += `<div class="status-item">
+                <span class="status-name">T</span>
+                <span class="status-value ${cpu.execMode ? 'active' : 'inactive'}">${cpu.execMode ? 'Thumb' : 'ARM'}</span>
+            </div>`;
+            
+            statusBits.innerHTML = statusHTML;
+        }
+
+        function updateHookStatusDisplay() {
+            if (!debugFontCracker) return;
+            
+            const hookStatus = document.getElementById('hookStatus');
+            let hooksHTML = '';
+            
+            Object.entries(HOOK_ADDRESSES).forEach(([name, address]) => {
+                const isActive = debugFontCracker.cpuHook.hasBreakpoint(address);
+                hooksHTML += `<div class="hook-item ${isActive ? 'active' : 'inactive'}">
+                    <span class="hook-name">${name}</span>
+                    <span class="hook-address">0x${address.toString(16)}</span>
+                    <span class="hook-status">${isActive ? '✓ 激活' : '✗ 未激活'}</span>
+                </div>`;
+            });
+            
+            hookStatus.innerHTML = hooksHTML;
+        }
+
+        function updateDebugDisplay(debugInfo) {
+            // 更新调试信息显示
+            const infoContent = document.getElementById('debugInfoContent');
+            const time = new Date(debugInfo.timestamp).toLocaleTimeString();
+            
+            let infoText = `[${time}] ${debugInfo.hookName} @ 0x${debugInfo.pc.toString(16)}\n`;
+            infoText += `字符: ${debugInfo.character ? debugInfo.character.char : 'N/A'}\n`;
+            infoText += `编码: 0x${debugInfo.character ? debugInfo.character.code.toString(16) : 'N/A'}\n`;
+            infoText += `CPU模式: ${debugInfo.statusBits.mode}\n`;
+            
+            infoContent.textContent = infoText;
+        }
+
+        function switchDebugTab(tabName) {
+            // 隐藏所有标签内容
+            document.querySelectorAll('.debug-tab-content').forEach(el => {
+                el.style.display = 'none';
+            });
+            
+            // 移除所有标签的active类
+            document.querySelectorAll('.debug-tab').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // 显示选中的标签内容
+            document.getElementById(`debug${tabName.charAt(0).toUpperCase() + tabName.slice(1)}`).style.display = 'block';
+            
+            // 添加active类到选中的标签
+            event.target.classList.add('active');
+            
+            // 如果切换到内存标签，更新内存显示
+            if (tabName === 'memory') {
+                refreshAllMemory();
+            }
+            
+            // 如果切换到调试信息标签，更新调试信息
+            if (tabName === 'info') {
+                updateDebugInfo();
+            }
+        }
+
+        // 其他原有函数保持不变
+        function togglePause() {
+            if (!gba) return;
+            isPaused = !isPaused;
+            if (isPaused) {
+                gba.pause(); debugFontCracker.pause();
+                document.getElementById('pauseBtn').innerHTML = '▶ 恢复';
+                document.getElementById('crackingStatus').innerText = '暂停 ⏸️';
+                addLog('模拟器暂停', 'info');
+                console.log('模拟器已暂停');
+            } else {
+                gba.runStable(); debugFontCracker.pause();
+                document.getElementById('pauseBtn').innerHTML = '⏸️ 暂停';
+                document.getElementById('crackingStatus').innerText = '运行中 ▶️';
+                addLog('模拟器继续', 'info');
+                console.log('模拟器已继续');
+            }
+        }
+
+        function resetCracking() {
+            console.log('resetCracking() 被调用');
+            
+            // 清除UI更新
+            if (window.uiUpdateAnimationFrame) {
+                console.log('resetCracking: 取消UI更新动画帧:', window.uiUpdateAnimationFrame);
+                cancelAnimationFrame(window.uiUpdateAnimationFrame);
+                window.uiUpdateAnimationFrame = null;
+            }
+            uiUpdateCounter = 0;
+            
+            if (debugFontCracker) debugFontCracker.reset();
+            if (gba) { gba.pause(); gba.reset(); }
+            isPaused = false;
+            debugMode = false;
+            document.getElementById('debugToggleBtn').innerHTML = '🔧 启用调试';
+            document.getElementById('debugToggleBtn').classList.remove('primary');
+            document.getElementById('debugModeStatus').innerHTML = '❌ 禁用';
+            document.getElementById('capturedCount').innerText = '0';
+            document.getElementById('chineseCount').innerText = '0';
+            document.getElementById('asciiCount').innerText = '0';
+            document.getElementById('totalUnique').innerText = '0 唯一';
+            document.getElementById('chineseCount2').innerText = '0';
+            document.getElementById('asciiCount2').innerText = '0';
+            document.getElementById('newGameFound').innerHTML = '❌ 未发现';
+            document.getElementById('frameCount').innerText = '0';
+            document.getElementById('crackingStatus').innerText = '空闲';
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('pauseBtn').disabled = true;
+            document.getElementById('resetBtn').disabled = true;
+            document.getElementById('exportBtn').disabled = true;
+            clearCharGrid();
+            updateAnalysis();
+            stopDebugUpdate();
+            addLog('🔄 已重置', 'system');
+        }
+
+        function scanMemory() {
+            if (!memoryScanner) return;
+            addLog('🔎 扫描内存文本...', 'info');
+            let res = memoryScanner.scanFontRelatedRegions();
+            addLog(`扫描完成，发现 ${res.totalResults} 处文本`, res.totalResults ? 'success' : 'info');
+            
+            // 显示扫描结果摘要
+            if (res.regionReports.length > 0) {
+                res.regionReports.forEach(report => {
+                    addLog(`  ${report.region}: ${report.found} 处文本`, 'info');
+                });
+            }
+        }
+
+        function exportResults() {
+            if (!debugFontCracker || debugFontCracker.capturedChars.size === 0) { 
+                addLog('无数据导出', 'error'); 
+                return; 
+            }
+            
+            // 导出包含调试信息的数据
+            const out = { 
+                timestamp: new Date(), 
+                stats: debugFontCracker.getStatistics(), 
+                chars: debugFontCracker.getCapturedCharacters(),
+                debugInfo: debugFontCracker.getDebugInfo()
+            };
+            
+            const blob = new Blob([JSON.stringify(out, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url; a.download = `fontcrack_debug_${Date.now()}.json`; a.click();
+            URL.revokeObjectURL(url);
+            addLog('📦 导出成功（包含调试信息）', 'success');
+        }
+
+        function toggleAudio(enable) {
+            if (!gba || !gba.audio) return;
+            
+            if (enable) {
+                gba.audio.masterEnable = true;
+                if (gba.audio.context) {
+                    if (gba.audio.context.state === 'suspended') {
+                        addLog('⚠️ 需要用户点击来激活音频', 'info');
+                    } else {
+                        gba.audio.pause(false);
+                        addLog('🔊 音频已开启', 'info');
+                    }
+                }
+            } else {
+                gba.audio.masterEnable = false;
+                if (gba.audio.context) {
+                    gba.audio.pause(true);
+                }
+                addLog('🔇 音频已关闭', 'info');
+            }
+        }
+
+        function setVolume(value) {
+            if (!gba || !gba.audio) return;
+            gba.audio.masterVolume = Math.pow(2, parseFloat(value)) - 1;
+            document.getElementById('volumePercent').innerText = Math.round(value * 100) + '%';
+        }
+
+        function updateUI() {
+            try {
+                uiUpdateCounter++;
+                console.log(`updateUI() 被调用 (第${uiUpdateCounter}次)`);
+                
+                if (!debugFontCracker) {
+                    console.log('updateUI: debugFontCracker 未定义');
+                    return;
+                }
+                
+                if (isPaused) {
+                    console.log('updateUI: 模拟器已暂停');
+                    return;
+                }
+                
+                // 获取统计信息
+                const stats = debugFontCracker.getStatistics ? debugFontCracker.getStatistics() : { totalUnique: 0, asciiCount: 0, chineseCount: 0, frameCount: 0, captureRate: '0' };
+                
+                console.log('updateUI: 统计信息:', stats);
+                
+                // 更新统计显示
+                document.getElementById('capturedCount').innerText = stats.totalUnique || 0;
+                document.getElementById('frameCount').innerText = stats.frameCount || 0;
+                document.getElementById('asciiCount').innerText = stats.asciiCount || 0;
+                document.getElementById('chineseCount').innerText = stats.chineseCount || 0;
+                document.getElementById('captureRate').innerText = stats.captureRate || '0';
+                document.getElementById('totalUnique').innerText = (stats.totalUnique || 0) + ' 唯一';
+                document.getElementById('chineseCount2').innerText = stats.chineseCount || 0;
+                document.getElementById('asciiCount2').innerText = stats.asciiCount || 0;
+                
+                // 更新字符网格
+                updateCharGrid();
+                
+                // 更新Hook状态显示
+                updateHookStatusDisplay();
+                
+                console.log('updateUI: 完成');
+                
+            } catch (e) {
+                console.error('UI更新错误:', e);
+            }
+        }
+
+        function updateCharGrid() {
+            try {
+                console.log('updateCharGrid() 被调用');
+                
+                if (!debugFontCracker) {
+                    console.log('updateCharGrid: debugFontCracker 未定义');
+                    return;
+                }
+                
+                // 获取所有捕获的字符
+                const chars = debugFontCracker.getCapturedCharacters ? debugFontCracker.getCapturedCharacters() : [];
+                console.log('updateCharGrid: 捕获字符数:', chars.length, chars);
+                
+                const grid = document.getElementById('charGrid');
+                
+                if (chars.length === 0) {
+                    console.log('updateCharGrid: 无捕获字符');
+                    // 只设置一次等待消息
+                    if (grid.innerHTML.indexOf('等待捕获字符') === -1) {
+                        grid.innerHTML = '<div style="color:#888; padding:20px; text-align:center;">等待捕获字符...</div>';
+                    }
+                    return;
+                }
+                
+                // 渲染字符网格（显示最新20个字符）
+                const displayChars = chars.slice(-20);
+                console.log('updateCharGrid: 显示字符数:', displayChars.length);
+                
+                // 总是重新渲染网格以确保显示最新字符
+                grid.innerHTML = '';
+                
+                displayChars.forEach((char, index) => {
+                    const cell = document.createElement('div');
+                    cell.className = 'char-cell ' + (char.code > 0xFF ? 'chinese' : 'ascii');
+                    cell.textContent = char.char || '?';
+                    cell.title = `0x${char.code.toString(16)} ${char.source || ''}`;
+                    
+                    // 如果是NEW GAME相关字符，添加特殊样式
+                    if (char.char && 'NEW GAME'.includes(char.char)) {
+                        cell.classList.add('newgame');
+                    }
+                    
+                    grid.appendChild(cell);
+                });
+                
+                // 更新统计
+                document.getElementById('capturedCount').innerText = chars.length;
+                console.log('updateCharGrid: 完成，渲染了', displayChars.length, '个字符');
+                
+            } catch (e) {
+                console.error('字符网格更新错误:', e);
+                document.getElementById('charGrid').innerHTML = `<div style="color:#f88; padding:10px;">错误: ${e.message}</div>`;
+            }
+        }
+
+        function clearCharGrid() {
+            const grid = document.getElementById('charGrid');
+            grid.innerHTML = '';
+        }
+
+        function updateAnalysis() {
+            const analysis = document.getElementById('analysisContent');
+            if (!gba || !gba.rom) {
+                analysis.textContent = '加载ROM后显示特征';
+                return;
+            }
+            let text = `ROM大小: ${gba.rom.byteLength} 字节\n`;
+            if (gba.rom.title) text += `标题: ${gba.rom.title}\n`;
+            if (gba.rom.code) text += `代码: ${gba.rom.code}\n`;
+            text += `制造商: ${gba.rom.maker || '未知'}\n`;
+            text += `版本: ${gba.rom.version || '未知'}\n`;
+            analysis.textContent = text;
+        }
+
+        // 设置文件输入事件
+        document.getElementById('romLoader').addEventListener('change', loadROM);
+    </script>
+</body>
+</html>

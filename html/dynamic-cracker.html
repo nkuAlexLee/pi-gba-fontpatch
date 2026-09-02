@@ -1,0 +1,771 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>GBA Dynamic Font Cracker</title>
+	<style>
+		* { box-sizing: border-box; }
+		body {
+			margin: 0;
+			font-family: "Segoe UI", system-ui, sans-serif;
+			background: #0f172a;
+			color: #e2e8f0;
+		}
+		.page {
+			max-width: 1280px;
+			margin: 0 auto;
+			padding: 24px;
+		}
+		h1 { margin: 0 0 16px; font-size: 24px; color: #7dd3fc; }
+		.layout {
+			display: grid;
+			grid-template-columns: 520px 1fr;
+			gap: 20px;
+		}
+		.card {
+			background: #111827;
+			border: 1px solid #1f2937;
+			border-radius: 12px;
+			padding: 16px;
+		}
+		.card h2 {
+			margin: 0 0 12px;
+			font-size: 16px;
+			color: #93c5fd;
+		}
+		.canvas-wrap {
+			background: #000;
+			border-radius: 10px;
+			overflow: hidden;
+			border: 1px solid #334155;
+		}
+		canvas {
+			display: block;
+			width: 100%;
+			height: auto;
+			image-rendering: pixelated;
+		}
+		.controls {
+			display: grid;
+			gap: 10px;
+		}
+		label {
+			display: block;
+			font-size: 13px;
+			color: #94a3b8;
+			margin-bottom: 4px;
+		}
+		input[type="file"] {
+			width: 100%;
+			color: #cbd5e1;
+		}
+		button {
+			padding: 10px 12px;
+			border: 0;
+			border-radius: 8px;
+			cursor: pointer;
+			font-weight: 600;
+		}
+		button:disabled {
+			opacity: 0.45;
+			cursor: not-allowed;
+		}
+		.primary { background: #2563eb; color: #fff; }
+		.warn { background: #d97706; color: #fff; }
+		.success { background: #16a34a; color: #fff; }
+		.danger { background: #dc2626; color: #fff; }
+		.status-grid {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 10px;
+			margin-bottom: 16px;
+		}
+		.metric {
+			background: #0b1220;
+			border: 1px solid #1e293b;
+			border-radius: 10px;
+			padding: 10px;
+		}
+		.metric .name {
+			font-size: 12px;
+			color: #64748b;
+			margin-bottom: 6px;
+		}
+		.metric .value {
+			font-family: Consolas, monospace;
+			font-size: 16px;
+			color: #f8fafc;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			font-size: 13px;
+		}
+		th, td {
+			padding: 8px;
+			border-bottom: 1px solid #1f2937;
+			text-align: left;
+			vertical-align: top;
+		}
+		th { color: #94a3b8; font-weight: 600; }
+		td.code {
+			font-family: Consolas, monospace;
+			color: #7dd3fc;
+		}
+		.log {
+			height: 220px;
+			overflow: auto;
+			background: #020617;
+			border: 1px solid #1e293b;
+			border-radius: 10px;
+			padding: 10px;
+			font: 12px/1.5 Consolas, monospace;
+		}
+		.log-line { margin-bottom: 4px; }
+		.log-info { color: #cbd5e1; }
+		.log-success { color: #4ade80; }
+		.log-warn { color: #facc15; }
+		.log-error { color: #f87171; }
+	</style>
+</head>
+<body>
+	<div class="page">
+		<h1>GBA Dynamic Font Cracker</h1>
+		<div class="layout">
+			<div class="card">
+				<h2>Emulator</h2>
+				<div class="canvas-wrap">
+					<canvas id="screen" width="480" height="320"></canvas>
+				</div>
+			</div>
+			<div class="card">
+				<h2>Controls</h2>
+				<div class="controls">
+					<div>
+						<label for="romInput">ROM</label>
+						<input id="romInput" type="file" accept=".gba,.bin">
+					</div>
+					<div>
+						<label for="fontInput">Font Binary</label>
+						<input id="fontInput" type="file" accept=".bin">
+					</div>
+					<div>
+						<label for="codeTableInput">Code Table</label>
+						<input id="codeTableInput" type="file" accept=".txt">
+					</div>
+					<button id="startButton" class="primary" disabled>Start Analysis</button>
+					<button id="stopButton" class="danger" disabled>Stop Analysis</button>
+					<button id="applyButton" class="success" disabled>Patch ROM + Validate Menu</button>
+					<button id="reloadButton" class="warn" disabled>Reload ROM</button>
+					<button id="testButton" class="warn" disabled>Render Test Text</button>
+					<button id="exportJsonButton" class="primary" disabled>Export Analysis JSON</button>
+					<button id="exportIpsButton" class="primary" disabled>Export IPS</button>
+					<button id="exportArmipsButton" class="primary" disabled>Export armips Scaffold</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="card" style="margin-top: 20px;">
+			<h2>Status</h2>
+			<div class="status-grid">
+				<div class="metric"><div class="name">State</div><div class="value" id="stateValue">IDLE</div></div>
+				<div class="metric"><div class="name">Game</div><div class="value" id="gameValue">-</div></div>
+				<div class="metric"><div class="name">VRAM Writes</div><div class="value" id="writesValue">0</div></div>
+				<div class="metric"><div class="name">Unique PCs</div><div class="value" id="pcsValue">0</div></div>
+			</div>
+		</div>
+
+		<div class="card" style="margin-top: 20px;">
+			<h2>Findings</h2>
+			<table>
+				<tbody id="findingsBody"></tbody>
+			</table>
+		</div>
+
+		<div class="card" style="margin-top: 20px;">
+			<h2>Log</h2>
+			<div id="log" class="log"></div>
+		</div>
+	</div>
+
+	<script src="js/util.js"></script>
+	<script src="js/core.js"></script>
+	<script src="js/arm.js"></script>
+	<script src="js/thumb.js"></script>
+	<script src="js/mmu.js"></script>
+	<script src="js/io.js"></script>
+	<script src="js/audio.js"></script>
+	<script src="js/video.js"></script>
+	<script src="js/video/proxy.js"></script>
+	<script src="js/video/software.js"></script>
+	<script src="js/irq.js"></script>
+	<script src="js/keypad.js"></script>
+	<script src="js/sio.js"></script>
+	<script src="js/savedata.js"></script>
+	<script src="js/gpio.js"></script>
+	<script src="js/gba.js"></script>
+	<script src="resources/xhr.js"></script>
+	<script src="resources/biosbin.js"></script>
+	<script src="js/vram-tracer.js"></script>
+	<script src="js/rom-read-tracer.js"></script>
+	<script src="js/wram-write-tracer.js"></script>
+	<script src="js/thumb-analyzer.js"></script>
+	<script src="js/function-finder.js"></script>
+	<script src="js/font-inferencer.js"></script>
+	<script src="js/glyph-state-inferencer.js"></script>
+	<script src="js/expansion-text-analyzer.js"></script>
+	<script src="js/expansion-patch-planner.js"></script>
+	<script src="js/decoder-patcher.js"></script>
+	<script src="js/text-context.js"></script>
+	<script src="js/chinese-renderer.js"></script>
+	<script src="js/width-patcher.js"></script>
+	<script src="js/patch-generator.js"></script>
+	<script src="js/dynamic-cracker.js"></script>
+	<script>
+		let gba = null;
+		let cracker = null;
+		let uiTimer = null;
+
+		function addLog(message, level) {
+			const log = document.getElementById("log");
+			const line = document.createElement("div");
+			line.className = "log-line log-" + (level || "info");
+			line.textContent = "[" + new Date().toLocaleTimeString() + "] " + message;
+			log.appendChild(line);
+			log.scrollTop = log.scrollHeight;
+		}
+
+		function fmtHex(value) {
+			if (typeof value !== "number" || !isFinite(value) || value <= 0) {
+				return "-";
+			}
+			return "0x" + (value >>> 0).toString(16);
+		}
+
+		function setFindingRows(rows) {
+			const tbody = document.getElementById("findingsBody");
+			tbody.innerHTML = "";
+			for (const row of rows) {
+				const tr = document.createElement("tr");
+				tr.innerHTML =
+					"<th>" + row.label + "</th>" +
+					"<td class=\"code\">" + row.value + "</td>" +
+					"<td>" + (row.extra || "") + "</td>";
+				tbody.appendChild(tr);
+			}
+		}
+
+		function refreshUI() {
+			if (!cracker) {
+				return;
+			}
+
+			const stats = cracker.getStats();
+			document.getElementById("stateValue").textContent = stats.state;
+			document.getElementById("gameValue").textContent = stats.gameTitle || "-";
+			document.getElementById("writesValue").textContent = stats.tracer.totalWrites;
+			document.getElementById("pcsValue").textContent = stats.tracer.uniquePCs;
+
+			document.getElementById("startButton").disabled = !(stats.state === "ROM_LOADED" || stats.state === "ANALYSIS_COMPLETE");
+			document.getElementById("stopButton").disabled = stats.state !== "ANALYZING";
+			document.getElementById("applyButton").disabled = !(
+				stats.state === "ROM_LOADED" ||
+				stats.state === "ANALYSIS_COMPLETE" ||
+				(
+					stats.state === "ACTIVE" &&
+					stats.titleMenuPatchInfo &&
+					!stats.titleMenuPatchInfo.armedForValidation &&
+					!stats.runtimeObservationInstalled
+				)
+			);
+			document.getElementById("reloadButton").disabled = !stats.gameTitle;
+			document.getElementById("testButton").disabled = stats.state !== "ACTIVE";
+			document.getElementById("exportJsonButton").disabled = !stats.findings;
+			document.getElementById("exportIpsButton").disabled =
+				!stats.findings ||
+				!!(stats.patchPlan && stats.patchPlan.readiness && stats.patchPlan.readiness.readyForPatchPlan);
+			document.getElementById("exportArmipsButton").disabled = !stats.findings;
+
+			const rows = [];
+			if (stats.findings) {
+				if (stats.findings.drawGlyphTilesAddr) {
+					rows.push({
+						label: "DrawGlyphTiles candidate",
+						value: fmtHex(stats.findings.drawGlyphTilesAddr),
+						extra: stats.findings.drawGlyphTilesCandidates.length
+							? "score=" + stats.findings.drawGlyphTilesCandidates[0].score.toFixed(3)
+							: ""
+					});
+				}
+				if (stats.findings.renderTextAddr) {
+					rows.push({
+						label: "RenderText candidate",
+						value: fmtHex(stats.findings.renderTextAddr),
+						extra: ""
+					});
+				}
+				if (stats.findings.charDispatchAddr) {
+					rows.push({
+						label: "Char dispatch hook",
+						value: fmtHex(stats.findings.charDispatchAddr),
+						extra: JSON.stringify(stats.findings.charDispatchRegs)
+					});
+				}
+				if (stats.findings.getStringWidthAddr) {
+					rows.push({
+						label: "GetStringWidth candidate",
+						value: fmtHex(stats.findings.getStringWidthAddr),
+						extra: ""
+					});
+				}
+				if (stats.findings.expansionSemantics && stats.findings.expansionSemantics.charLoopAddr) {
+					rows.push({
+						label: "Expansion char loop",
+						value: fmtHex(stats.findings.expansionSemantics.charLoopAddr),
+						extra: stats.findings.expansionSemantics.charLoopCandidates.length
+							? "score=" + stats.findings.expansionSemantics.charLoopCandidates[0].score.toFixed(3)
+							: ""
+					});
+				}
+				if (stats.findings.expansionSemantics && stats.findings.expansionSemantics.widthLoopAddr) {
+					rows.push({
+						label: "Expansion width loop",
+						value: fmtHex(stats.findings.expansionSemantics.widthLoopAddr),
+						extra: stats.findings.expansionSemantics.widthLoopCandidates.length
+							? "score=" + stats.findings.expansionSemantics.widthLoopCandidates[0].score.toFixed(3)
+							: ""
+					});
+				}
+				if (stats.findings.expansionSemantics && stats.findings.expansionSemantics.fontDispatchAddr) {
+					rows.push({
+						label: "Font dispatch",
+						value: fmtHex(stats.findings.expansionSemantics.fontDispatchAddr),
+						extra: stats.findings.expansionSemantics.fontDispatchCandidates.length
+							? JSON.stringify({
+								fontIdReg: stats.findings.expansionSemantics.fontDispatchCandidates[0].fontIdReg,
+								cmpValues: stats.findings.expansionSemantics.fontDispatchCandidates[0].cmpValues,
+								literals: stats.findings.expansionSemantics.fontDispatchCandidates[0].literals
+									.slice(0, 2)
+									.map(fmtHex)
+							})
+							: ""
+					});
+				}
+				if (stats.findings.patchPlan && stats.findings.patchPlan.semanticAnchors) {
+					rows.push({
+						label: "Patch text entry",
+						value: fmtHex(stats.findings.patchPlan.semanticAnchors.textEntryAddr),
+						extra: stats.findings.patchPlan.semanticAnchors.textEntrySource || ""
+					});
+					rows.push({
+						label: "Patch width entry",
+						value: fmtHex(stats.findings.patchPlan.semanticAnchors.widthEntryAddr),
+						extra: stats.findings.patchPlan.semanticAnchors.widthEntrySource || ""
+					});
+				}
+				if (stats.findings.drawGlyphTilesCandidates && stats.findings.drawGlyphTilesCandidates.length > 1) {
+					rows.push({
+						label: "Draw candidates",
+						value: stats.findings.drawGlyphTilesCandidates
+							.slice(0, 3)
+							.map(c => fmtHex(c.pc) + " (" + c.score.toFixed(2) + ")")
+							.join(", "),
+						extra: "top 3"
+					});
+				}
+				if (stats.findings.renderTextCandidates && stats.findings.renderTextCandidates.length > 1) {
+					rows.push({
+						label: "Render candidates",
+						value: stats.findings.renderTextCandidates
+							.slice(0, 3)
+							.map(c => fmtHex(c.functionStart) + " (" + c.score.toFixed(2) + ")")
+							.join(", "),
+						extra: "top 3"
+					});
+				}
+				if (stats.findings.expansionSemantics && stats.findings.expansionSemantics.charLoopCandidates && stats.findings.expansionSemantics.charLoopCandidates.length > 1) {
+					rows.push({
+						label: "Expansion loops",
+						value: stats.findings.expansionSemantics.charLoopCandidates
+							.slice(0, 3)
+							.map(c => fmtHex(c.addr) + " (" + c.score.toFixed(2) + ")")
+							.join(", "),
+						extra: "char-loop top 3"
+					});
+				}
+			}
+			if (stats.patchPlan && stats.patchPlan.injectionLayout) {
+				rows.push({
+					label: "Helper base",
+					value: fmtHex(stats.patchPlan.injectionLayout.helperCodeBase),
+					extra:
+						"mode=" + (stats.patchPlan.injectionLayout.layoutMode || "-") +
+						", reserve=" + (stats.patchPlan.injectionLayout.helperReserveSize || 0)
+				});
+				rows.push({
+					label: "Font inject base",
+					value: fmtHex(stats.patchPlan.injectionLayout.normalFontBase),
+					extra:
+						"small=" + fmtHex(stats.patchPlan.injectionLayout.smallFontBase) +
+						", size=" + (stats.patchPlan.injectionLayout.fontAssetSize || 0)
+				});
+				if (stats.patchPlan.freeSpace && stats.patchPlan.freeSpace.candidates && stats.patchPlan.freeSpace.candidates.length) {
+					rows.push({
+						label: "Free runs",
+						value: stats.patchPlan.freeSpace.candidates
+							.slice(0, 3)
+							.map(run => fmtHex(run.startAddr) + " (" + run.size + ")")
+							.join(", "),
+						extra: "top 3"
+					});
+				}
+				if (stats.patchPlan.readiness) {
+					rows.push({
+						label: "Patch readiness",
+						value: stats.patchPlan.readiness.readyForPatchPlan ? "ready" : "partial",
+						extra: JSON.stringify(stats.patchPlan.readiness)
+					});
+					if (stats.patchPlan.readiness.readyForPatchPlan) {
+						rows.push({
+							label: "IPS export",
+							value: "disabled",
+							extra: "use armips scaffold instead"
+						});
+					}
+				}
+				if (stats.patchPlan.helperParams) {
+					rows.push({
+						label: "Helper params",
+						value: JSON.stringify({
+							source: stats.patchPlan.helperParams.hookRegisterSource,
+							textPrinterReg: stats.patchPlan.helperParams.textPrinterReg,
+							charPtrReg: stats.patchPlan.helperParams.charPtrReg,
+							currCharReg: stats.patchPlan.helperParams.currCharReg,
+							nextByteReg: stats.patchPlan.helperParams.nextByteReg,
+							flagsOff: stats.patchPlan.helperParams.textPrinterFlagsByteOffset,
+							fontMask: stats.patchPlan.helperParams.textPrinterFontIdMask,
+							jpMask: stats.patchPlan.helperParams.textPrinterJapaneseMask
+						}),
+						extra: "fieldOff=" + (stats.patchPlan.helperParams.charPtrFieldOffset || 0) +
+							", storeOff=" + (stats.patchPlan.helperParams.charPtrStoreOffset || 0) +
+							", width=" + (stats.patchPlan.helperParams.chineseNormalWidth || 0) +
+							"/" + (stats.patchPlan.helperParams.chineseSmallWidth || 0)
+					});
+					if (stats.patchPlan.helperParams.fontCodepointStride) {
+						rows.push({
+							label: "Font blob layout",
+							value: (stats.patchPlan.helperParams.fontBlobLayoutMode === 1 ? "direct-code32" : "custom"),
+							extra:
+								"stride=" + (stats.patchPlan.helperParams.fontCodepointStride || 0) +
+								", normalMax=0x" + ((stats.patchPlan.helperParams.fontNormalMaxCode || 0) >>> 0).toString(16) +
+								", smallMax=0x" + ((stats.patchPlan.helperParams.fontSmallMaxCode || 0) >>> 0).toString(16)
+						});
+					}
+					if (typeof stats.patchPlan.helperParams.textGlyphWidthOffset === "number") {
+						rows.push({
+							label: "TextGlyph layout",
+							value:
+								"top=" + (stats.patchPlan.helperParams.textGlyphTopOffset || 0) +
+								", bottom=" + (stats.patchPlan.helperParams.textGlyphBottomOffset || 0),
+							extra:
+								"width=" + (stats.patchPlan.helperParams.textGlyphWidthOffset || 0) +
+								", height=" + (stats.patchPlan.helperParams.textGlyphHeightOffset || 0)
+						});
+					}
+					if (stats.patchPlan.helperParams.decompressGlyphTileAddr) {
+						rows.push({
+							label: "Glyph decompress",
+							value: fmtHex(stats.patchPlan.helperParams.decompressGlyphTileAddr),
+							extra: "shared tile decompressor"
+						});
+					}
+					if (stats.patchPlan.helperParams.gCurGlyphAddrCandidate) {
+						rows.push({
+							label: "gCurGlyph",
+							value: fmtHex(stats.patchPlan.helperParams.gCurGlyphAddrCandidate),
+							extra: "runtime state candidate"
+						});
+					}
+				}
+				if (stats.patchPlan.unresolvedSymbols && stats.patchPlan.unresolvedSymbols.length) {
+					rows.push({
+						label: "Unresolved",
+						value: stats.patchPlan.unresolvedSymbols
+							.slice(0, 3)
+							.map(item => item.name)
+							.join(", "),
+						extra: "helper body still needs dynamic symbols"
+					});
+				}
+			}
+			if (stats.fontInfo) {
+				rows.push({
+					label: "Font base",
+					value: fmtHex(stats.fontInfo.fontBaseAddress),
+					extra: stats.fontInfo.fontFormat || ""
+				});
+				rows.push({
+					label: "Glyph size",
+					value: stats.fontInfo.glyphSizeBytes ? String(stats.fontInfo.glyphSizeBytes) : "-",
+					extra: stats.fontInfo.encodingScheme || ""
+				});
+				if (stats.fontInfo.fontBlocks && stats.fontInfo.fontBlocks.length) {
+					rows.push({
+						label: "Font blocks",
+						value: stats.fontInfo.fontBlocks
+							.slice(0, 3)
+							.map(b => fmtHex(b.start) + " gap=" + (b.dominantGap || "?"))
+							.join(", "),
+						extra: "top 3"
+					});
+				}
+			}
+			if (stats.glyphStateInfo) {
+				rows.push({
+					label: "Glyph state",
+					value: fmtHex(stats.glyphStateInfo.glyphStateBaseAddress),
+					extra: stats.glyphStateInfo.glyphStateRegion || ""
+				});
+				if (stats.glyphStateInfo.blocks && stats.glyphStateInfo.blocks.length) {
+					rows.push({
+						label: "Glyph blocks",
+						value: stats.glyphStateInfo.blocks
+							.slice(0, 3)
+							.map(b => fmtHex(b.start) + " (" + b.regionName + ", " + b.size + ")")
+							.join(", "),
+						extra: "top 3"
+					});
+				}
+			}
+			if (stats.titleMenuPatchInfo) {
+				rows.push({
+					label: "ROM text patch",
+					value: String(stats.titleMenuPatchInfo.matchCount || 0),
+					extra: stats.titleMenuPatchInfo.replacementText + " @ " +
+						(stats.titleMenuPatchInfo.offsets || [])
+							.slice(0, 3)
+							.map(offset => "0x" + offset.toString(16))
+							.join(", ")
+				});
+				rows.push({
+					label: "Menu validation",
+					value: stats.titleMenuPatchInfo.validationState || "pending",
+					extra:
+						"romReads=" + (stats.titleMenuPatchInfo.romReadHits || 0) +
+						", ramHits=" + ((stats.titleMenuPatchInfo.ramHits || []).length) +
+						(stats.titleMenuPatchInfo.validationPassed
+							? ", confirmed"
+							: ", runtime hooks deferred")
+				});
+				if ((stats.titleMenuPatchInfo.romReadHitPCs || []).length) {
+					rows.push({
+						label: "Validation PCs",
+						value: stats.titleMenuPatchInfo.romReadHitPCs
+							.slice(0, 3)
+							.map(fmtHex)
+							.join(", "),
+						extra: "patched ROM read callers"
+					});
+				}
+				if ((stats.titleMenuPatchInfo.ramHits || []).length) {
+					rows.push({
+						label: "Validation RAM",
+						value: stats.titleMenuPatchInfo.ramHits
+							.slice(0, 3)
+							.map(hit => hit.region + "@" + fmtHex(hit.addr))
+							.join(", "),
+						extra: "replacement bytes observed"
+					});
+				}
+			}
+			if (stats.textContext && stats.textContext.active) {
+				rows.push({
+					label: "Runtime char",
+					value: fmtHex(stats.textContext.charCode),
+					extra:
+						(stats.textContext.isPunctuation ? "punctuation" : "chinese") +
+						", width=" + stats.textContext.width +
+						", height=" + stats.textContext.height
+				});
+			}
+			if (stats.runtimeObservationInstalled) {
+				rows.push({
+					label: "Runtime observe",
+					value: "active",
+					extra: "char-dispatch observation enabled after validation"
+				});
+			}
+			if (stats.runtimeReplacementInstalled) {
+				rows.push({
+					label: "Runtime replace",
+					value: String(stats.runtimeReplacementCount || 0),
+					extra: stats.lastRender
+						? "last=" + fmtHex(stats.lastRender.charCode) + " @" + fmtHex(stats.lastRender.vramBase)
+						: "installed"
+				});
+			}
+			if (stats.widthHookInstalled) {
+				rows.push({
+					label: "Width hook",
+					value: String(stats.widthHookCount || 0),
+					extra: stats.width ? "mode=" + stats.width.widthMode : "installed"
+				});
+			}
+			if (stats.legacyRuntimeHooksSuppressed) {
+				rows.push({
+					label: "Runtime takeover",
+					value: "suppressed",
+					extra: "legacy width/glyph hooks disabled"
+				});
+			}
+			if (!rows.length) {
+				rows.push({ label: "Status", value: "No findings yet", extra: "" });
+			}
+			setFindingRows(rows);
+		}
+
+		function ensureCore() {
+			if (gba) {
+				return;
+			}
+
+			gba = new GameBoyAdvance();
+			gba.setCanvas(document.getElementById("screen"));
+			gba.setBios(biosBin);
+
+			cracker = new DynamicCracker(gba);
+			cracker.onLog(addLog);
+			cracker.onStateChange(refreshUI);
+			cracker.onStats(refreshUI);
+
+			uiTimer = window.setInterval(refreshUI, 250);
+			refreshUI();
+		}
+
+		document.getElementById("romInput").addEventListener("change", async event => {
+			const file = event.target.files[0];
+			if (!file) {
+				return;
+			}
+
+			ensureCore();
+			const buffer = await file.arrayBuffer();
+			try {
+				cracker.loadROM(buffer);
+				addLog("ROM selected: " + file.name, "success");
+				refreshUI();
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("fontInput").addEventListener("change", event => {
+			ensureCore();
+			cracker.setFontFile(event.target.files[0] || null);
+			addLog("Font file updated.", "info");
+		});
+
+		document.getElementById("codeTableInput").addEventListener("change", event => {
+			ensureCore();
+			cracker.setCodeTableFile(event.target.files[0] || null);
+			addLog("Code table file updated.", "info");
+		});
+
+		document.getElementById("startButton").addEventListener("click", () => {
+			try {
+				cracker.startAnalysis();
+				refreshUI();
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("stopButton").addEventListener("click", () => {
+			try {
+				cracker.stopAnalysis();
+				refreshUI();
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("applyButton").addEventListener("click", async () => {
+			try {
+				await cracker.applyPatches();
+				refreshUI();
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("reloadButton").addEventListener("click", () => {
+			try {
+				cracker.reloadROM();
+				refreshUI();
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("testButton").addEventListener("click", () => {
+			try {
+				cracker.renderTestText();
+				refreshUI();
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("exportJsonButton").addEventListener("click", () => {
+			try {
+				const blob = cracker.exportAnalysis();
+				const url = URL.createObjectURL(blob);
+				const a = document.createElement("a");
+				a.href = url;
+				a.download = "dynamic-font-analysis.json";
+				document.body.appendChild(a);
+				a.click();
+				document.body.removeChild(a);
+				URL.revokeObjectURL(url);
+				addLog("Exported analysis JSON.", "success");
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("exportIpsButton").addEventListener("click", () => {
+			try {
+				const blob = cracker.exportIPS();
+				const url = URL.createObjectURL(blob);
+				const a = document.createElement("a");
+				a.href = url;
+				a.download = "dynamic-font-patch.ips";
+				document.body.appendChild(a);
+				a.click();
+				document.body.removeChild(a);
+				URL.revokeObjectURL(url);
+				addLog("Exported IPS patch.", "success");
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+
+		document.getElementById("exportArmipsButton").addEventListener("click", () => {
+			try {
+				const blob = cracker.exportArmipsMetadata();
+				const url = URL.createObjectURL(blob);
+				const a = document.createElement("a");
+				a.href = url;
+				a.download = "dynamic-font-scaffold.asm";
+				document.body.appendChild(a);
+				a.click();
+				document.body.removeChild(a);
+				URL.revokeObjectURL(url);
+				addLog("Exported armips scaffold.", "success");
+			} catch (error) {
+				addLog(error.message, "error");
+			}
+		});
+	</script>
+</body>
+</html>

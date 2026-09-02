@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# ROM files (copyrighted, do not commit)
+roms/
+*.gba
+
+# Emulator temp output / screenshots
+tmp/
+*.bmp
+*.sav
+
+# Logs
+*.log

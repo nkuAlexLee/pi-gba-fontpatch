@@ -1,0 +1,275 @@
+/* 修复的Console样式 - 使用现代CSS布局 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Typewriter', 'Monaco', 'Andale Mono', monospace;
+    background-color: #2A2F32;
+    color: #DADDE1;
+    font-size: 13px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    padding: 4px 8px;
+    background-color: #3A3F42;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#screen {
+    background-color: #000;
+    border: 2px solid #4A4F52;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* 主布局 - 使用Flexbox */
+#top {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+#consoleContainer {
+    flex: 0 0 300px;
+    background-color: #1A1F22;
+    border-right: 1px solid #4A4F52;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#consoleControls {
+    padding: 10px;
+    background-color: #2A2F32;
+    border-bottom: 1px solid #4A4F52;
+}
+
+#consoleControls label {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#console {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    background-color: #1A1F22;
+}
+
+#console li {
+    padding: 2px 0;
+    border-bottom: 1px solid #2A2F32;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+}
+
+#console li.error {
+    color: #FF6B6B;
+}
+
+#console li.warn {
+    color: #FFD166;
+}
+
+#console li.info {
+    color: #06D6A0;
+}
+
+#console li.debug {
+    color: #118AB2;
+}
+
+#main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#display {
+    padding: 20px;
+    text-align: center;
+    background-color: #2A2F32;
+}
+
+#controls, #loading, #saving {
+    padding: 15px;
+    background-color: #3A3F42;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+#controls button, #loading button, #saving button {
+    background-color: #4A4F52;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+}
+
+#controls button:hover, #loading button:hover, #saving button:hover {
+    background-color: #5A5F62;
+}
+
+#controls button.bigbutton {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#registers {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background-color: #3A3F42;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: auto;
+}
+
+#registers > div {
+    flex: 1;
+    min-width: 150px;
+}
+
+#gprs, #psr {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#gprs li, #psr li {
+    padding: 4px 8px;
+    margin: 2px 0;
+    background-color: #4A4F52;
+    border-radius: 3px;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+}
+
+#psr li.disabled {
+    opacity: 0.5;
+    color: #888;
+}
+
+#breakpoints {
+    padding: 15px;
+    background-color: #3A3F42;
+    margin: 10px;
+    border-radius: 6px;
+    flex: 1;
+    overflow: auto;
+}
+
+#breakpointControls {
+    margin-bottom: 10px;
+}
+
+#breakpointControls input {
+    background-color: #4A4F52;
+    color: white;
+    border: 1px solid #5A5F62;
+    padding: 6px;
+    border-radius: 3px;
+    font-family: inherit;
+    width: 100px;
+}
+
+#breakpointView {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#breakpointView li {
+    padding: 6px;
+    margin: 4px 0;
+    background-color: #4A4F52;
+    border-radius: 3px;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+}
+
+#memory {
+    flex: 0 0 400px;
+    background-color: #1A1F22;
+    border-left: 1px solid #4A4F52;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#memoryControls {
+    padding: 15px;
+    background-color: #2A2F32;
+    border-bottom: 1px solid #4A4F52;
+}
+
+#memoryControls ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#memoryControls li {
+    margin-bottom: 10px;
+}
+
+#memoryControls select, #memoryControls input {
+    background-color: #4A4F52;
+    color: white;
+    border: 1px solid #5A5F62;
+    padding: 6px;
+    border-radius: 3px;
+    font-family: inherit;
+    width: 100%;
+}
+
+#memoryView {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+#memoryView li {
+    padding: 2px 4px;
+    border-bottom: 1px solid #2A2F32;
+}
+
+#memoryView li:hover {
+    background-color: #2A2F32;
+}
+
+/* 响应式调整 */
+@media (max-width: 1200px) {
+    #memory {
+        flex: 0 0 300px;
+    }
+}
+
+@media (max-width: 900px) {
+    #top {
+        flex-direction: column;
+    }
+    
+    #consoleContainer, #memory {
+        flex: 0 0 200px;
+    }
+}

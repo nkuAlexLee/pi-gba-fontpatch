@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>gbajs2 Memory Viewer</title>
+<style>
+	* { box-sizing: border-box; }
+	body {
+		margin: 0;
+		background: #1e1f24;
+		color: #d4d4d4;
+		font-family: 'Consolas', 'Courier New', monospace;
+		font-size: 13px;
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		overflow: hidden;
+	}
+	header {
+		background: #2a2b31;
+		border-bottom: 1px solid #3a3b42;
+		padding: 6px 14px;
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		flex-shrink: 0;
+	}
+	header h1 { font-size: 15px; margin: 0; color: #7ec699; font-weight: 600; }
+	header .status { color: #999; }
+	#main {
+		flex: 1;
+		display: flex;
+		min-height: 0;
+	}
+	/* ---------- Left: game ---------- */
+	#left {
+		width: 50%;
+		min-width: 420px;
+		display: flex;
+		flex-direction: column;
+		border-right: 1px solid #3a3b42;
+		background: #16171a;
+	}
+	#screenWrap {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;
+		min-height: 0;
+	}
+	#screen {
+		width: 480px;
+		height: 320px;
+		image-rendering: pixelated;
+		background: #000;
+		border: 1px solid #3a3b42;
+	}
+	#gameControls {
+		padding: 8px 10px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		border-top: 1px solid #3a3b42;
+	}
+	/* ---------- Right: memory ---------- */
+	#right {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+	}
+	#tabs {
+		display: flex;
+		flex-wrap: wrap;
+		background: #2a2b31;
+		border-bottom: 1px solid #3a3b42;
+		flex-shrink: 0;
+	}
+	#tabs button {
+		background: transparent;
+		color: #aaa;
+		border: none;
+		border-right: 1px solid #3a3b42;
+		padding: 7px 14px;
+		cursor: pointer;
+		font-family: inherit;
+		font-size: 12px;
+	}
+	#tabs button.active { background: #1e1f24; color: #7ec699; font-weight: 700; }
+	#tabs button:hover { color: #fff; }
+	#memToolbar {
+		padding: 6px 10px;
+		display: flex;
+		gap: 8px;
+		align-items: center;
+		border-bottom: 1px solid #3a3b42;
+		flex-shrink: 0;
+		flex-wrap: wrap;
+	}
+	#memToolbar input[type=text] {
+		background: #16171a;
+		border: 1px solid #3a3b42;
+		color: #d4d4d4;
+		font-family: inherit;
+		padding: 3px 6px;
+		width: 110px;
+	}
+	#hexView {
+		flex: 1;
+		overflow: auto;
+		padding: 6px 10px;
+		line-height: 1.5;
+		white-space: pre;
+	}
+	.hexrow .off { color: #888; margin-right: 10px; }
+	.hexrow .b { padding: 0 1px; margin-right: 4px; }
+	.hexrow .b.chg { color: #ff6b6b; background: rgba(255,107,107,.18); border-radius: 2px; }
+	.hexrow .b.new { color: #ffd93d; background: rgba(255,217,61,.18); border-radius: 2px; }
+	.hexrow .b.hot { color: #ff6b6b; font-weight: 700; text-decoration: underline; }
+	.hexrow .asc { color: #5f8a5f; margin-left: 12px; }
+	#chgLog {
+		max-height: 140px;
+		overflow-y: auto;
+		border-top: 1px solid #3a3b42;
+		padding: 4px 10px;
+		font-size: 12px;
+		flex-shrink: 0;
+	}
+	#chgLog h3 { margin: 2px 0 4px; font-size: 12px; color: #7ec699; }
+	#chgLog .row { color: #bbb; }
+	#chgLog .row .a { color: #6fb3ff; }
+	/* ---------- disasm ---------- */
+	#disasmPanel {
+		border-top: 2px solid #3a3b42;
+		height: 42%;
+		display: flex;
+		flex-direction: column;
+		flex-shrink: 0;
+	}
+	#disasmToolbar {
+		padding: 6px 10px;
+		display: flex;
+		gap: 8px;
+		align-items: center;
+		border-bottom: 1px solid #3a3b42;
+		flex-shrink: 0;
+	}
+	#disasmToolbar input[type=text] {
+		background: #16171a;
+		border: 1px solid #3a3b42;
+		color: #d4d4d4;
+		font-family: inherit;
+		padding: 3px 6px;
+		width: 110px;
+	}
+	#disasmToolbar .mode {
+		padding: 1px 8px;
+		border-radius: 3px;
+		font-weight: 700;
+		font-size: 12px;
+	}
+	.mode.thumb { background: #3a5a3a; color: #a0e8a0; }
+	.mode.arm { background: #5a3a5a; color: #e8a0e8; }
+	#disasmView {
+		flex: 1;
+		overflow: auto;
+		padding: 4px 10px;
+		line-height: 1.55;
+		white-space: pre;
+	}
+	.drow .addr { color: #888; margin-right: 12px; }
+	.drow .raw { color: #557; margin-right: 12px; }
+	.drow .ins { color: #d4d4d4; }
+	.drow .ins .mnc { color: #6fb3ff; }
+	.drow.pc { background: rgba(126,198,153,.12); }
+	.drow.pc .addr { color: #7ec699; font-weight: 700; }
+	.drow.branch .ins { color: #ffd93d; }
+	button {
+		background: #2f3037;
+		color: #ccc;
+		border: 1px solid #3a3b42;
+		padding: 4px 10px;
+		cursor: pointer;
+		font-family: inherit;
+		font-size: 12px;
+		border-radius: 3px;
+	}
+	button:hover { background: #3a3b42; color: #fff; }
+	button.primary { background: #2e5e3e; border-color: #3e7e52; }
+	button.primary:hover { background: #3e7e52; }
+	label.chk { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; color: #aaa; }
+	select {
+		background: #16171a;
+		color: #ccc;
+		border: 1px solid #3a3b42;
+		font-family: inherit;
+		padding: 3px;
+	}
+	.hidden { display: none; }
+	#romLoader { display: none; }
+	.warn { color: #ffd93d; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+	<h1>GBA Memory Viewer</h1>
+	<span class="status" id="status">未加载 ROM</span>
+	<span class="warn" id="fpshint"></span>
+</header>
+
+<div id="main">
+	<!-- ==================== Left: game screen ==================== -->
+	<div id="left">
+		<div id="screenWrap"><canvas id="screen" width="480" height="320"></canvas></div>
+		<div id="gameControls">
+			<button class="primary" id="selectBtn" onclick="document.getElementById('romLoader').click()">选择 ROM</button>
+			<input type="file" id="romLoader" accept=".gba" onchange="loadRom(this.files[0])">
+			<button id="pauseBtn" onclick="togglePause()" disabled>PAUSE</button>
+			<button onclick="resetRom()" disabled id="resetBtn">RESET</button>
+			<label class="chk"><input type="checkbox" id="lockPcChk"> 跟随 PC 反汇编</label>
+			<label class="chk"><input type="checkbox" id="autoRefreshChk" checked> 自动刷新内存</label>
+			<label class="chk">刷新间隔
+				<select id="refreshRate">
+					<option value="250" selected>250ms</option>
+					<option value="500">500ms</option>
+					<option value="1000">1s</option>
+					<option value="0">手动</option>
+				</select>
+			</label>
+		</div>
+	</div>
+
+	<!-- ==================== Right: memory + disasm ==================== -->
+	<div id="right">
+		<div id="tabs"></div>
+		<div id="memToolbar">
+			<span>地址:</span>
+			<input type="text" id="gotoAddr" placeholder="0x03000000">
+			<button onclick="gotoAddress()">跳转</button>
+			<button onclick="page(-1)">◀ 上一页</button>
+			<button onclick="page(1)">下一页 ▶</button>
+			<button onclick="takeSnapshot()" title="以当前内容为基线，之后的变化以红色高亮">📷 设为基线</button>
+			<button onclick="showOnlyChanged()" title="跳到下一个有变化的页面">↓ 下一个变化页</button>
+			<label class="chk"><input type="checkbox" id="autoBaseline" checked> 每次刷新自动重新基线</label>
+		</div>
+		<div id="hexView"></div>
+		<div id="chgLog">
+			<h3>最近内存变化 <span id="chgCount"></span></h3>
+			<div id="chgRows"><div class="row">（尚无数据）</div></div>
+		</div>
+
+		<div id="disasmPanel">
+			<div id="disasmToolbar">
+				<span>反汇编:</span>
+				<input type="text" id="disasmAddr" placeholder="PC 地址">
+				<button onclick="disasmGoto()">跳转</button>
+				<button onclick="disasmFollowPc()">跟随 PC</button>
+				<span class="mode thumb" id="cpuMode">THUMB</span>
+				<span id="pcLabel" style="color:#7ec699"></span>
+			</div>
+			<div id="disasmView"></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/util.js"></script>
+<script src="js/core.js"></script>
+<script src="js/arm.js"></script>
+<script src="js/thumb.js"></script>
+<script src="js/mmu.js"></script>
+<script src="js/io.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/video.js"></script>
+<!-- 故意不加载 video/proxy.js：
+	 proxy 会把渲染放进 Web Worker，Worker 出错时主线程无感知、画面静默黑屏。
+	 不加载它时 video.js 会回退到主线程软件渲染器，且内存直读对监视页更友好。 -->
+<script src="js/video/software.js"></script>
+<script src="js/irq.js"></script>
+<script src="js/keypad.js"></script>
+<script src="js/sio.js"></script>
+<script src="js/savedata.js"></script>
+<script src="js/gpio.js"></script>
+<script src="js/gba.js"></script>
+<script src="resources/biosbin.js"></script>
+<script src="js/thumb-disassembler.js"></script>
+
+<script>
+'use strict';
+
+/* ================================================================
+ * GBA memory regions
+ * ================================================================ */
+const REGIONS = [
+	{ id: 'iwram', name: 'IWRAM (32K)',  base: 0x03000000, size: 0x8000  },
+	{ id: 'ewram', name: 'EWRAM (256K)', base: 0x02000000, size: 0x40000 },
+	{ id: 'io',    name: 'IO (1K)',      base: 0x04000000, size: 0x400   },
+	{ id: 'pal',   name: 'Palette (1K)', base: 0x05000000, size: 0x400   },
+	{ id: 'vram',  name: 'VRAM (96K)',   base: 0x06000000, size: 0x18000 },
+	{ id: 'oam',   name: 'OAM (1K)',     base: 0x07000000, size: 0x400   },
+	{ id: 'rom',   name: 'ROM (前128K)', base: 0x08000000, size: 0x20000 },
+];
+const ROW_BYTES = 16;
+const VIEW_ROWS = 24;
+
+let gba = null;
+let dis = null;
+let currentRegion = REGIONS[0];
+let viewBase = 0x03000000;     // 当前 hex 窗口起始地址（16字节对齐）
+let prevData = null;           // 上一帧窗口快照 (Uint8Array)
+let baseline = null;           // 基线快照
+let changeLog = [];            // [{addr, old, new, time}]
+let romLoaded = false;
+let refreshTimer = null;
+
+/* ================================================================
+ * Emulator setup
+ * ================================================================ */
+function initEmulator() {
+	console.log('[memview] init v2');
+	gba = new GameBoyAdvance();
+	gba.keypad.eatInput = true;
+	gba.setCanvas(document.getElementById('screen'));
+	gba.setLogger(function (level, error) {
+		// error 可能是 Error 对象或字符串，尽量提取有用信息
+		let msg = error;
+		if (error instanceof Error) {
+			msg = error.message + (error.stack ? '\n' + error.stack.split('\n').slice(1, 4).join('\n') : '');
+		} else if (error && error.message) {
+			msg = error.message;
+		}
+		console.error(error);
+		gba.pause();
+		setStatus('运行出错: ' + msg, true);
+	});
+	// 诊断: FPS 与帧计数
+	let frameCount = 0;
+	gba.video.vblankCallback = (function (orig) {
+		return function () {
+			orig();
+			frameCount++;
+		};
+	})(gba.video.vblankCallback);
+	setInterval(function () {
+		if (romLoaded && !gba.paused) {
+			document.getElementById('status').textContent =
+				'运行中 | FPS: ' + (fpsValue || 0).toFixed(1) + ' | 帧累计: ' + frameCount;
+		}
+	}, 500);
+	let fpsValue = 0;
+	gba.reportFPS = function (fps) { fpsValue = fps; };
+	gba.setBios(biosBin);
+	console.log('[memview] render path:', gba.video.renderPath.constructor.name);
+	dis = new ThumbDisassembler(gba.mmu);
+}
+
+function loadRom(file) {
+	if (!gba) initEmulator();
+	// AudioContext 必须在用户手势中 resume，否则处于 suspended 状态
+	if (gba.audio && gba.audio.context && gba.audio.context.state !== 'running') {
+		gba.audio.context.resume().catch(function () {});
+	}
+	const reader = new FileReader();
+	reader.onloadend = function (e) {
+		try {
+			const result = gba.setRom(e.target.result);
+			if (result) {
+				romLoaded = true;
+				gba.runStable();
+				setStatus('运行中');
+				document.getElementById('pauseBtn').disabled = false;
+				document.getElementById('resetBtn').disabled = false;
+				setupRefreshTimer();
+				takeSnapshot();
+				refreshMemory();
+				refreshDisasm();
+			} else {
+				setStatus('ROM 加载失败', true);
+			}
+		} catch (err) {
+			console.error(err);
+			setStatus('加载异常: ' + err.message, true);
+		}
+	};
+	reader.readAsArrayBuffer(file);
+}
+
+function togglePause() {
+	if (!gba) return;
+	if (gba.paused) {
+		gba.runStable();
+		document.getElementById('pauseBtn').textContent = 'PAUSE';
+		setStatus('运行中');
+	} else {
+		gba.pause();
+		document.getElementById('pauseBtn').textContent = '继续';
+		setStatus('已暂停');
+		refreshMemory();
+		refreshDisasm();
+	}
+}
+
+function resetRom() {
+	if (!gba) return;
+	gba.pause();
+	gba.reset();
+	gba.runStable();
+	prevData = null;
+	baseline = null;
+	changeLog = [];
+	takeSnapshot();
+	refreshMemory();
+	refreshDisasm();
+}
+
+function setStatus(text, warn) {
+	const el = document.getElementById('status');
+	el.textContent = text;
+	el.style.color = warn ? '#ff6b6b' : '#999';
+}
+
+/* ================================================================
+ * Tabs
+ * ================================================================ */
+function buildTabs() {
+	const tabs = document.getElementById('tabs');
+	REGIONS.forEach(r => {
+		const b = document.createElement('button');
+		b.textContent = r.name;
+		b.dataset.id = r.id;
+		b.onclick = () => selectRegion(r.id);
+		tabs.appendChild(b);
+	});
+	tabs.children[0].classList.add('active');
+}
+
+function selectRegion(id) {
+	currentRegion = REGIONS.find(r => r.id === id);
+	viewBase = currentRegion.base;
+	prevData = null;
+	[...document.getElementById('tabs').children].forEach(b =>
+		b.classList.toggle('active', b.dataset.id === id));
+	document.getElementById('gotoAddr').value = '0x' + viewBase.toString(16).toUpperCase();
+	refreshMemory();
+}
+
+/* ================================================================
+ * Hex view + change tracking
+ * ================================================================ */
+function readMem8(addr) {
+	return gba.mmu.loadU8(addr) & 0xff;
+}
+
+function parseAddr(s) {
+	if (!s) return NaN;
+	s = s.trim().replace(/^0x/i, '');
+	if (!/^[0-9a-f]+$/i.test(s)) return NaN;
+	return parseInt(s, 16) >>> 0;
+}
+
+function gotoAddress() {
+	const a = parseAddr(document.getElementById('gotoAddr').value);
+	if (isNaN(a)) return;
+	viewBase = align16(a);
+	// 跨区域时自动切换 region 标签
+	const r = REGIONS.find(r => a >= r.base && a < r.base + r.size);
+	if (r && r.id !== currentRegion.id) {
+		currentRegion = r;
+		[...document.getElementById('tabs').children].forEach(b =>
+			b.classList.toggle('active', b.dataset.id === r.id));
+	}
+	prevData = null;
+	refreshMemory();
+}
+
+function page(dir) {
+	const delta = dir * VIEW_ROWS * ROW_BYTES;
+	let next = viewBase + delta;
+	if (next < currentRegion.base) next = currentRegion.base;
+	if (next > currentRegion.base + currentRegion.size - VIEW_ROWS * ROW_BYTES)
+		next = currentRegion.base + currentRegion.size - VIEW_ROWS * ROW_BYTES;
+	viewBase = align16(next);
+	prevData = null;
+	refreshMemory();
+}
+
+function align16(a) { return a & ~0xf; }
+
+function takeSnapshot() {
+	if (!romLoaded) return;
+	const rows = VIEW_ROWS, bytes = rows * ROW_BYTES;
+	baseline = new Uint8Array(bytes);
+	for (let i = 0; i < bytes; i++) {
+		try { baseline[i] = readMem8(viewBase + i); } catch (e) { baseline[i] = 0; }
+	}
+}
+
+function showOnlyChanged() {
+	// 在当前区域内扫描有变化的第一页（与基线对比）
+	if (!baseline) return;
+	const bytes = VIEW_ROWS * ROW_BYTES;
+	const scanStart = align16(viewBase);
+	for (let off = ROW_BYTES; ; off += ROW_BYTES) {
+		const cand = scanStart + off;
+		if (cand >= currentRegion.base + currentRegion.size - bytes) break;
+		for (let i = 0; i < bytes; i++) {
+			if (readMem8(cand + i) !== baseline[i]) {
+				viewBase = align16(cand);
+				document.getElementById('gotoAddr').value = '0x' + viewBase.toString(16).toUpperCase();
+				refreshMemory();
+				return;
+			}
+		}
+		if (off > currentRegion.size) break;
+	}
+	setStatus('本区域基线之后没有更多变化');
+}
+
+function refreshMemory() {
+	if (!romLoaded) return;
+	const hexView = document.getElementById('hexView');
+	const bytes = VIEW_ROWS * ROW_BYTES;
+	const cur = new Uint8Array(bytes);
+	for (let i = 0; i < bytes; i++) {
+		try { cur[i] = readMem8(viewBase + i); } catch (e) { cur[i] = -1; }
+	}
+
+	let html = '';
+	let chgs = [];
+	for (let row = 0; row < VIEW_ROWS; row++) {
+		const rowAddr = viewBase + row * ROW_BYTES;
+		let hex = '', asc = '';
+		for (let c = 0; c < ROW_BYTES; c++) {
+			const i = row * ROW_BYTES + c;
+			const v = cur[i];
+			let cls = 'b';
+			if (v < 0) {
+				hex += '<span class="b">?? </span>';
+				asc += ' ';
+				continue;
+			}
+			// 与上一帧对比：变化标红
+			if (prevData && prevData[i] !== v && prevData[i] >= 0) {
+				cls += ' chg';
+				if (changeLog.length < 500 && changeLog.every(e => e.addr !== rowAddr + c || e.newVal !== v)) {
+					chgs.push({ addr: rowAddr + c, old: prevData[i], newVal: v });
+				}
+			}
+			// 与基线对比：持续被改写标下划线
+			if (baseline && baseline[i] !== v) cls += ' hot';
+			hex += '<span class="' + cls + '">' + v.toString(16).toUpperCase().padStart(2, '0') + '</span>';
+			asc += (v >= 0x20 && v < 0x7f) ? String.fromCharCode(v) : '.';
+		}
+		html += '<div class="hexrow"><span class="off">0x' + rowAddr.toString(16).toUpperCase().padStart(8, '0') +
+			'</span>' + hex + '<span class="asc">' + asc + '</span></div>';
+	}
+	hexView.innerHTML = html;
+
+	// 更新变化日志（合并同一地址的连续变化）
+	if (chgs.length) {
+		const now = new Date();
+		const ts = now.toTimeString().slice(0, 8) + '.' + String(now.getMilliseconds()).padStart(3, '0');
+		changeLog.unshift({ ts, items: chgs });
+		if (changeLog.length > 60) changeLog.pop();
+	}
+	document.getElementById('chgCount').textContent = '(' + changeLog.length + ' 批)';
+	const rows = changeLog.slice(0, 25).map(batch => {
+		const shown = batch.items.slice(0, 6).map(c =>
+			'<span class="a">0x' + c.addr.toString(16).toUpperCase() + '</span>:' +
+			c.old.toString(16).toUpperCase() + '→' + c.newVal.toString(16).toUpperCase()).join('  ');
+		return '<div class="row">[' + batch.ts + '] ' + shown +
+			(batch.items.length > 6 ? '  +' + (batch.items.length - 6) + ' more' : '') + '</div>';
+	}).join('');
+	document.getElementById('chgRows').innerHTML = rows || '<div class="row">（尚无数据）</div>';
+
+	// 自动基线：下一次刷新时以本帧为对照
+	if (document.getElementById('autoBaseline').checked) {
+		prevData = cur;
+	}
+}
+
+/* ================================================================
+ * Disassembly panel
+ * ================================================================ */
+function refreshDisasm() {
+	if (!romLoaded) return;
+	const mode = dis.currentMode;
+	const modeEl = document.getElementById('cpuMode');
+	modeEl.textContent = mode.toUpperCase();
+	modeEl.className = 'mode ' + mode;
+
+	const pc = gba.cpu.gprs[gba.cpu.PC] >>> 0;
+	// Thumb PC 读数为当前指令+4；ARM 为 +8
+	const execAddr = (pc - (mode === 'thumb' ? 4 : 8)) >>> 0;
+	document.getElementById('pcLabel').textContent =
+		'PC=0x' + pc.toString(16).toUpperCase() + '  执行于 0x' + execAddr.toString(16).toUpperCase();
+
+	let start;
+	const follow = document.getElementById('lockPcChk').checked;
+	if (follow) {
+		start = align16(execAddr) & ~3;
+		document.getElementById('disasmAddr').value = '0x' + start.toString(16).toUpperCase();
+	} else {
+		const typed = parseAddr(document.getElementById('disasmAddr').value);
+		start = (isNaN(typed) ? (disasmBase || execAddr) : typed) & ~3;
+	}
+	disasmBase = start;
+
+	const count = 40;
+	const lines = dis.disassemble(start, count, mode);
+	let html = '';
+	for (const ln of lines) {
+		const isPc = ((ln.address >>> 0) === execAddr) || (mode === 'thumb' && ln.address === execAddr);
+		const isBranch = /^b|bl /.test(ln.text);
+		const mnc = ln.text.replace(/^([a-z][a-z0-9]*[a-z0-9]*)(\s)/, '<span class="mnc">$1</span>$2');
+		html += '<div class="drow' + (isPc ? ' pc' : '') + (isBranch ? ' branch' : '') +
+			'"><span class="addr">0x' + (ln.address >>> 0).toString(16).toUpperCase().padStart(8, '0') +
+			'</span><span class="raw">' + ln.bytes + '</span><span class="ins">' + mnc + '</span></div>';
+	}
+	document.getElementById('disasmView').innerHTML = html;
+}
+
+let disasmBase = 0;
+
+function disasmGoto() {
+	const a = parseAddr(document.getElementById('disasmAddr').value);
+	if (!isNaN(a)) {
+		disasmBase = a & ~3;
+		document.getElementById('lockPcChk').checked = false;
+		refreshDisasm();
+	}
+}
+
+function disasmFollowPc() {
+	document.getElementById('lockPcChk').checked = true;
+	refreshDisasm();
+}
+
+/* ================================================================
+ * Refresh timer
+ * ================================================================ */
+function setupRefreshTimer() {
+	if (refreshTimer) clearInterval(refreshTimer);
+	const rate = parseInt(document.getElementById('refreshRate').value, 10);
+	if (rate > 0) {
+		refreshTimer = setInterval(function () {
+			if (!romLoaded) return;
+			if (document.getElementById('autoRefreshChk').checked) {
+				refreshMemory();
+				refreshDisasm();
+			}
+		}, rate);
+	}
+}
+document.getElementById('refreshRate').onchange = function () {
+	if (romLoaded) setupRefreshTimer();
+};
+
+/* ================================================================
+ * Init
+ * ================================================================ */
+buildTabs();
+window.onload = function () {
+	if (typeof biosBin === 'undefined') {
+		document.getElementById('fpshint').textContent =
+			'警告: 缺少 resources/biosbin.js，请通过 HTTP 服务器访问本页（如 python -m http.server）';
+	}
+	initEmulator();
+	setStatus('等待加载 ROM…');
+	document.getElementById('gotoAddr').value = '0x03000000';
+};
+</script>
+</body>
+</html>
