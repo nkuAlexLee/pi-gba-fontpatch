@@ -72,6 +72,7 @@ function main() {
 	const report = { date: new Date().toISOString(), dry_run: !!args['dry-run'], rom_in: config.rom, rom_out: outPath, rows: [] };
 	let done = 0, repointed = 0, skipped = 0, failed = 0;
 	let dirty = false;
+	let lastWriteEnd = -1;   // 重叠防御：按地址序写入，后一条起点不得落入前一条区间
 
 	for (const f of files) {
 		if (!fs.existsSync(f)) continue;
@@ -96,6 +97,11 @@ function main() {
 			const maxBytes = Number(row.max_bytes);
 			const fileOff = parseInt(row.id, 16);
 			const origLen = maxBytes;                            // 原串字节数（含 FF）
+			if (fileOff <= lastWriteEnd) {
+				failed++;
+				report.rows.push({ ...rec, strategy: 'fail:与上一条物理重叠（串中段别名指针），跳过防踩踏' });
+				continue;
+			}
 
 			if (newLen <= origLen) {
 				// ① 原地覆盖
@@ -106,6 +112,7 @@ function main() {
 					rom[fileOff + bytes.length] = TERMINATOR;
 					for (let k = bytes.length + 1; k < origLen; k++) rom[fileOff + k] = TERMINATOR;   // 残尾清 FF
 				}
+				lastWriteEnd = fileOff + origLen - 1;
 				done++; dirty = true;
 			} else {
 				// ② 扩容重指向：优先用导出时收集的指针（notes 里 [ptr:...]），否则全 ROM 扫描

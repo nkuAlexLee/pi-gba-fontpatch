@@ -42,8 +42,8 @@ function main() {
 		if (config[k] && !path.isAbsolute(config[k])) config[k] = path.resolve(root, config[k]);
 	}
 	const charmap = loadCharmap(config.charmap);
-	const glossary = fs.existsSync(path.join(root, config.glossary))
-		? csv.readObjects(path.join(root, config.glossary)) : [];
+	const glossary = fs.existsSync(config.glossary)
+		? csv.readObjects(config.glossary) : [];
 	const files = args.scene
 		? [path.join(root, 'strings', args.scene + '.csv')]
 		: fs.readdirSync(path.join(root, 'strings')).filter(f => f.endsWith('.csv')).map(f => path.join(root, 'strings', f));
@@ -84,10 +84,11 @@ function main() {
 			if (totalBytes > Number(row.max_bytes)) {
 				warnings.push(`H4 ${where}: ${totalBytes}B > 预算${row.max_bytes}B（超出 ${totalBytes - Number(row.max_bytes)}B，将走 repoint）`);
 			}
-			// W1 术语
+			// W1 术语（词边界 + 跳过短词条，与 prepare 的命中逻辑一致）
 			for (const g of glossary) {
-				if (!g.en || !g.zh) continue;
-				if (row.en.toUpperCase().includes(g.en.toUpperCase()) && !text.includes(g.zh)) {
+				if (!g.en || !g.zh || g.en.length < 3) continue;
+				const re = new RegExp('(^|[^A-Za-z])' + g.en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '([^A-Za-z]|$)', 'i');
+				if (re.test(row.en) && !text.includes(g.zh)) {
 					const msg = `W1 ${where}: 术语 "${g.en}"应译为"${g.zh}"，译文中未发现`;
 					(args.strict ? errors : warnings).push(msg);
 				}

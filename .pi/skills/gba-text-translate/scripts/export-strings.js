@@ -348,6 +348,18 @@ function cmdDump(args) {
 		found.push({ fileOff: target, text, byteLen, pointers: ptrs });
 	}
 	found.sort((a, b) => a.fileOff - b.fileOff);
+	// 重叠串消除：串中段别名指针（前一条串的 FF 在后一条 target 之后）会导到回填互踩，
+	// 只保留每组重叠中最早的（即完整串本体），后续重叠的跳过
+	const deduped = [];
+	let lastEnd = -1;
+	let droppedOverlap = 0;
+	for (const f of found) {
+		if (f.fileOff <= lastEnd) { droppedOverlap++; continue; }
+		lastEnd = f.fileOff + f.byteLen - 1;
+		deduped.push(f);
+	}
+	found.length = 0;
+	found.push(...deduped);
 
 	const oldRows = loadSceneRows(paths, scene);
 	const merged = mergeRows(oldRows, found, scene);
@@ -362,7 +374,7 @@ function cmdDump(args) {
 	saveSceneRows(paths, scene, merged.rows);
 	registerScene(config, scene, { type: 'dump', from: gbaAddr(from), to: gbaAddr(to), strings: found.length });
 	fs.writeFileSync(paths.config, JSON.stringify(config, null, 2));
-	console.log(`✔ 场景 ${scene}: 指针引导导出 ${found.length} 条 | 新增 ${merged.added} | 保留 ${merged.kept} | 冲突 ${merged.conflicted}`);
+	console.log(`✔ 场景 ${scene}: 指针引导导出 ${found.length} 条 | 新增 ${merged.added} | 保留 ${merged.kept} | 冲突 ${merged.conflicted} | 重叠别名 ${droppedOverlap}`);
 	console.log(`  指针目标 ${byTarget.size} 个 | 拒绝: 无有效文本 ${rejectedNoText} / 超长 ${rejectedTooLong} / 解码失败 ${rejectedBad}`);
 	console.log('  →', path.resolve(scenePath(paths, scene)));
 }

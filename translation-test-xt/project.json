@@ -4,7 +4,7 @@
   "rom_size": "0x2000000",
   "out_rom": "tmp/汉化输出.gba",
   "charmap": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\translation-test-xt\\charmap_xtreme.txt",
-  "glossary": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\translation-test-xt\\glossary.csv",
+  "glossary": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\.pi\\skills\\gba-text-translate\\assets\\glossary-pokemon.csv",
   "append_addr": "0x09F00000",
   "min_status": "human-reviewed",
   "created": "2026-09-02T11:58:27.147Z",
@@ -18,7 +18,7 @@
       "type": "dump",
       "from": "0x8000000",
       "to": "0xA000000",
-      "strings": 20613
+      "strings": 17391
     }
   }
 }

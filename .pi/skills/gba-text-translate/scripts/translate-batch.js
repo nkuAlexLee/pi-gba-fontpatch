@@ -79,21 +79,26 @@ function cmdPrepare(args) {
 	const { root, config } = loadProject(args.project || 'translation');
 	const files = listSceneFiles(config, args.file);
 	const charmap = loadCharmap(config.charmap);
-	const glossary = fs.existsSync(path.join(root, config.glossary))
-		? csv.readObjects(path.join(root, config.glossary)) : [];
+	const glossary = fs.existsSync(config.glossary)
+		? csv.readObjects(config.glossary) : [];
 	const tasks = [];
+	// 术语命中用词边界匹配（避免 's→的 / Hi→嗨 / TIME→时间 这类子串误命中）
+	const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	const glossaryRe = glossary
+		.filter(g => g.en && g.en.length >= 3)                 // 太短的词条（<3字符）不参与自动命中
+		.map(g => ({ g, re: new RegExp('(^|[^A-Za-z])' + esc(g.en) + '([^A-Za-z]|$)', 'i') }));
 	for (const f of files) {
 		const scene = path.basename(f, '.csv');
 		for (const row of csv.readObjects(f)) {
 			if (row.status !== 'untranslated') continue;
-			const hits = glossary.filter(g => g.en && row.en.toUpperCase().includes(g.en.toUpperCase()));
+			const hits = glossaryRe.filter(({ re }) => re.test(row.en)).map(({ g }) => `${g.en}→${g.zh}`);
 			tasks.push({
 				id: row.id, scene,
 				en: row.en,
 				context: row.context || '',
 				max_bytes: Number(row.max_bytes),
 				hint: `纯中文≤${row.max_chars}字；每汉字2字节；控制码[...]原样保留`,
-				glossary: hits.map(h => `${h.en}→${h.zh}`),
+				glossary: hits,   // 已是 "en→zh" 字符串数组
 			});
 		}
 	}
