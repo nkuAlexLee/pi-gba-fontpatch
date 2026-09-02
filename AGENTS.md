@@ -1,4 +1,19 @@
-# gbajs2 代码分析报告
+# pi-gba-fontpatch（基于 gbajs2）
+
+## 项目定位
+
+本项目是基于 gbajs2 模拟器构建的 **GBA 宝可梦改版 ROM 中文字库破解与补丁工具集**，仓库名 `pi-gba-fontpatch`：<https://github.com/nkuAlexLee/pi-gba-fontpatch>
+
+## AI Agent 驱动开发
+
+本项目的 ROM 逆向分析与补丁制作主要由 **[pi](https://pi.dev/) 编码智能体** 调用本仓库内置的 skill（`.pi/skills/gba-font-crack/`）自动完成，涵盖定位渲染引擎、控制流分析、探针实证、字模槽位注入、字符串修改与截图像素校验等全流程。
+
+**推荐配置**：
+
+- 套餐：[OpenCode Go 套餐](https://opencode.ai)
+- 模型：GLM-5.3-Flash
+
+在 pi agent 中打开本仓库，agent 会自动加载 `gba-font-crack` skill 并按 SKILL.md 中的配方调用 `romctl.js` 等工具完成分析任务。
 
 ## 自研工具链（优先阅读）
 
@@ -13,9 +28,9 @@
 2. `gba.freeze()` 序列化链路是坏的（依赖浏览器 Blob），需要状态持久化时参考 `romctl.js` 的 JSON 快照实现
 3. hook 点选函数入口（r0-r3 即参数），当前指令地址 = `cpu.step()` 入口处 `gprs[15] - instructionWidth`
 
-## 项目概述
+## gbajs2 底层引擎概述
 
-gbajs2 是一个用纯 JavaScript 编写的 Game Boy Advance 模拟器，基于原版 Endrift 的 gbajs 项目进行了社区维护和改进。该项目使用 HTML5 Canvas 和 Web Audio API 实现图形渲染和音频输出，无需任何插件即可在现代浏览器中运行。
+gbajs2 是一个用纯 JavaScript 编写的 Game Boy Advance 模拟器，基于原版 Endrift 的 gbajs 项目进行了社区维护和改进。该项目使用 HTML5 Canvas 和 Web Audio API 实现图形渲染和音频输出，无需任何插件即可在现代浏览器中运行。以下内容为 gbajs2 引擎的分析报告，供理解 hook 点与内存布局时参考。
 
 ### 基本信息
 - **原始仓库**: Endrift (已归档)
