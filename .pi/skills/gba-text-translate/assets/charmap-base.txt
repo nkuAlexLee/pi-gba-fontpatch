@@ -1,9 +1,3 @@
-87=新
-88=的
-89=游
-8A=戏
-8B=选
-8C=项
 / charmap-base.txt — gba-text-translate 基准码表
 / = wholewords(Quetzal 实测) + pokeE PMRSEFRLG 补缺（标点/符号/箭头/控制码）
 / 占位符统一 [] 风格；fd05 语义未实证，标 [unk:fd05]，翻译时原样保留

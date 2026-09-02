@@ -33,7 +33,7 @@ pi-gba-fontpatch
 
 **推荐配置**：
 
-- 套餐：[OpenCode Go 套餐](https://opencode.ai)
+- 套餐：[OpenCode Go 套餐](https://opencode.ai/go?ref=SWSEB5WEP6)
 - 模型：GLM-5.3-Flash
 
 在 pi agent 中打开本仓库，agent 会自动加载 `gba-font-crack` skill 并按 SKILL.md 中的配方调用 `romctl.js` 等工具完成分析任务。

@@ -337,7 +337,9 @@ function cmdDump(args) {
 	let rejectedNoText = 0, rejectedTooLong = 0, rejectedBad = 0;
 	for (const [target, ptrs] of byTarget) {
 		// 指针表自身/代码也会被当 target——解码校验过滤
-		const r = decode(rom, target, charmap, { stopAtFF: true, maxLen });
+		// r = decode(rom, target, charmap, { stopAtFF: true, maxLen });
+		// lang=en（英文基板）→ noHan：禁用汉字双字节，消除 05b8=纪 与 05=È+b8=, 的歧义
+		const r = decode(rom, target, charmap, { stopAtFF: true, maxLen, noHan: lang === 'en' });
 		if (!r.terminated || r.invalid || r.end === target) { rejectedBad++; continue; }
 		const text = r.text;
 		const hasWord = /[A-Za-z]{2,}|[\u4e00-\u9fff]/.test(text);

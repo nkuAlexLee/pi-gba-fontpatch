@@ -1,0 +1,352 @@
+[
+ {
+  "id": "002E488D",
+  "en": "Those glasses![/n]May I see them for a second?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 44,
+  "glossary": []
+ },
+ {
+  "id": "002E4A14",
+  "en": "TUNNELER'S REST HOUSE",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 22,
+  "glossary": []
+ },
+ {
+  "id": "002E508A",
+  "en": "What do you think?[/n]Aren't these flowers pretty?[/p]I planted them all!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 68,
+  "glossary": []
+ },
+ {
+  "id": "002E50CE",
+  "en": "The air is tasty here!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 23,
+  "glossary": []
+ },
+ {
+  "id": "002E56FE",
+  "en": "Hmm![/n]A GOOD ROD is really good![/p]Wouldn't you agree?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 52,
+  "glossary": []
+ },
+ {
+  "id": "002E5732",
+  "en": "Hmm![/n]We're of identical minds![/p]Hmm![/n]Take this GOOD ROD!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 56,
+  "glossary": []
+ },
+ {
+  "id": "002E576A",
+  "en": "Wherever there's water, try your luck[/n]at fishing.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 50,
+  "glossary": []
+ },
+ {
+  "id": "002E579C",
+  "en": "Don't you like to fish?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 24,
+  "glossary": []
+ },
+ {
+  "id": "002E57B4",
+  "en": "Try catching all sorts of POKéMON[/n]with your GOOD ROD.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 54,
+  "glossary": []
+ },
+ {
+  "id": "002E58B1",
+  "en": "FIRST NAME'S MARTHA, LAST NAME'S FARKER.[/n]THIS BRIDGE IS ALL MINE!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 66,
+  "glossary": []
+ },
+ {
+  "id": "002E61F9",
+  "en": "tronger have you gotten?[/n]Let me check for you![/p]Ready with your POKéMON?[/n]Of course you are! Go!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 95,
+  "glossary": []
+ },
+ {
+  "id": "002E62B3",
+  "en": "MAY: But I had absolutely nothing to[/n]worry about! Keep it up![/p]And, here! I have a present for you.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 99,
+  "glossary": []
+ },
+ {
+  "id": "002E650B",
+  "en": "BRENDAN: I'd say you're good enough[/n]to search for POKéMON anywhere.[/p]Here, I'll give you this.[/n]Try it out.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 106,
+  "glossary": []
+ },
+ {
+  "id": "002E674D",
+  "en": "o well at the GYM.[/n]Well, I'll be seeing you!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 45,
+  "glossary": []
+ },
+ {
+  "id": "002E68AB",
+  "en": "We're standing lookout here.[/p]Hey, you! Stay away from the WEATHER[/n]INSTITUTE. It's not safe.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 92,
+  "glossary": []
+ },
+ {
+  "id": "002E6907",
+  "en": "Lookout duty is surprisingly boring.[/p]Hey, you! Please don't go near the[/n]WEATHER INSTITUTE.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 91,
+  "glossary": []
+ },
+ {
+  "id": "002E6A79",
+  "en": "Can your POKéMON use its SECRET POWER[/n]on a big pile of grass and make a[/l]SECRET BASE?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 85,
+  "glossary": []
+ },
+ {
+  "id": "002E6AE7",
+  "en": "WEATHER INSTITUTE",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 18,
+  "glossary": []
+ },
+ {
+  "id": "002E72F5",
+  "en": "Route-120: Dense wild ahead.[/n]Do not run or bike.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 49,
+  "glossary": []
+ },
+ {
+  "id": "002E743A",
+  "en": "STEVEN: No?[/p]I'll wait here, so you can get ready.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 50,
+  "glossary": []
+ },
+ {
+  "id": "002E74D1",
+  "en": "STEVEN used the DEVON SCOPE.[/p]An invisible POKéMON became completely[/n]visible![/p]The startled POKéMON attacked!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 108,
+  "glossary": []
+ },
+ {
+  "id": "002E768E",
+  "en": "Something unseeable is in the way.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 35,
+  "glossary": []
+ },
+ {
+  "id": "002E76B1",
+  "en": "Something unseeable is in the way.[/p]Want to use the DEVON SCOPE?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 64,
+  "glossary": []
+ },
+ {
+  "id": "002E7B4E",
+  "en": "Okay![/n]We're to move out to MT. PYRE!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 37,
+  "glossary": []
+ },
+ {
+  "id": "002E8140",
+  "en": "I love GRASS-type POKéMON![/p]Do you have any GRASS-type POKéMON?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 63,
+  "glossary": []
+ },
+ {
+  "id": "002E81F1",
+  "en": "I check trees with my GRASS-type[/n]POKéMON. I'm like a tree doctor.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 66,
+  "glossary": []
+ },
+ {
+  "id": "002E8279",
+  "en": "BERRY MASTER'S HOUSE",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 21,
+  "glossary": []
+ },
+ {
+  "id": "002E9487",
+  "en": "ng to SOOTOPOLIS.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 18,
+  "glossary": []
+ },
+ {
+  "id": "002EA201",
+  "en": "MOM: Look! It's PETALBURG GYM![/n]Maybe DAD will be on!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 53,
+  "glossary": []
+ },
+ {
+  "id": "002EA308",
+  "en": "MOM: See you, honey!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 21,
+  "glossary": []
+ },
+ {
+  "id": "002EA31D",
+  "en": "MOM: Did you introduce yourself to[/n]PROF. BIRCH?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 48,
+  "glossary": []
+ },
+ {
+  "id": "002EA3A1",
+  "en": "MOM: Take care, honey!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 23,
+  "glossary": []
+ },
+ {
+  "id": "002EA3B8",
+  "en": "MOM: Oh? Did DAD give you that BADGE?[/p]Then here's something from your MOM!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 75,
+  "glossary": []
+ },
+ {
+  "id": "002EA403",
+  "en": "Don't push yourself too hard, dear.[/n]You can always come home.[/p]Go for it, honey!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 80,
+  "glossary": []
+ },
+ {
+  "id": "002EA4CE",
+  "en": "Registered MOM[/n]in the POKéNAV.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 31,
+  "glossary": []
+ },
+ {
+  "id": "002EA554",
+  "en": "There is a movie on TV.[/p]Two men are dancing on a big piano[/n]keyboard.[/p]Better get going!",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 87,
+  "glossary": []
+ },
+ {
+  "id": "002EA76A",
+  "en": "DAD: Hm, a TICKET for a ferry?[/p]If I recall, there are ferry ports in[/n]SLATEPORT and LILYCOVE.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 93,
+  "glossary": []
+ },
+ {
+  "id": "002EA7C7",
+  "en": "I'd better get back to PETALBURG GYM.[/p]Hun, thanks for looking after the house[/n]while I'm away.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 94,
+  "glossary": []
+ },
+ {
+  "id": "002EA8B7",
+  "en": "MOM: Is that a breaking news story?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 36,
+  "glossary": []
+ },
+ {
+  "id": "002EAA0D",
+  "en": "MOM: Well, isn't that something![/n]There are still unknown POKéMON.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 66,
+  "glossary": []
+ },
+ {
+  "id": "002EAEB8",
+  "en": "It's a Nintendo GameCube.[/p]A Game Boy Advance is connected to[/n]serve as the Controller.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 86,
+  "glossary": []
+ },
+ {
+  "id": "002EAF2E",
+  "en": "Do you want to turn off Shadows?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 33,
+  "glossary": []
+ },
+ {
+  "id": "002EAF64",
+  "en": "Do you want to turn on Shadows?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 32,
+  "glossary": []
+ },
+ {
+  "id": "002EAF9E",
+  "en": "Shadows have been turned off.[/p]This will fix future Sprite crashes.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 67,
+  "glossary": []
+ },
+ {
+  "id": "002EAFE1",
+  "en": "Shadows have been turned on.[/p]This will improve graphical fidelity.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 67,
+  "glossary": []
+ },
+ {
+  "id": "002EB9E1",
+  "en": "Hi, neighbor![/p]Do you already have your[/n]own POKéMON?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 52,
+  "glossary": []
+ },
+ {
+  "id": "002EC430",
+  "en": "Do you want to turn off Shadows?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 33,
+  "glossary": []
+ },
+ {
+  "id": "002EC466",
+  "en": "Do you want to turn on Shadows?",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 32,
+  "glossary": []
+ },
+ {
+  "id": "002EC4A0",
+  "en": "Shadows have been turned off.[/p]This will fix future Sprite crashes.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 67,
+  "glossary": []
+ },
+ {
+  "id": "002EC4E3",
+  "en": "Shadows have been turned on.[/p]This will improve graphical fidelity.",
+  "context": "NPC对话/系统消息",
+  "max_bytes": 67,
+  "glossary": []
+ }
+]

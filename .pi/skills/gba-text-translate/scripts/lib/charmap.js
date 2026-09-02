@@ -112,9 +112,18 @@ function byteLen(text, charmap) {
 }
 
 /**
+ * 单个汉字字符判定（用于 noHan 模式：英文基板导出时禁用汉字双字节码）
+ */
+function isSingleHan(text) {
+	return [...text].length === 1 && /[\u4e00-\u9fff]/.test(text);
+}
+
+/**
  * 字节 → 文本（贪心最长匹配解码）。
- * opts.stopAtFF=true 时遇 0xFF 停止；返回 { text, codes, end, terminated, invalid }
- * 失败时 invalid=true，end=出错位置。
+ * opts.stopAtFF=true 时遇 0xFF 停止；opts.noHan=true 时禁用双字节汉字码
+ * （英文基板导出原文用：码表里 05b8=纪 这类条目会与 05=È + b8=, 的英文序列歧义，
+ *   且英文基板不需要汉字路径；中文基座保持默认开启）。
+ * 返回 { text, codes, end, terminated, invalid }；失败时 invalid=true。
  */
 function decode(buf, start, charmap, opts = {}) {
 	const stopAtFF = opts.stopAtFF !== false;
@@ -129,7 +138,8 @@ function decode(buf, start, charmap, opts = {}) {
 		for (const nBytes of [3, 2, 1]) {           // 贪心：3B > 2B > 1B
 			if (i + nBytes > buf.length) continue;
 			const code = buf.slice(i, i + nBytes).toString('hex');
-			const text = charmap.codeToText.get(code);
+			let text = charmap.codeToText.get(code);
+			if (text !== undefined && nBytes === 2 && opts.noHan && isSingleHan(text)) text = undefined;   // noHan: 跳过汉字双字节
 			if (text !== undefined) {
 				parts.push(text);
 				codes.push(code);
