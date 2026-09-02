@@ -1,0 +1,14 @@
+[
+  {"id": "0137E070", "scene": "title-menu", "zh": "新的游戏"},
+  {"id": "0137E079", "scene": "title-menu", "zh": "继续游戏"},
+  {"id": "0137E082", "scene": "title-menu", "zh": "选项"},
+  {"id": "0137E089", "scene": "title-menu", "zh": "神秘礼物"},
+  {"id": "0137E096", "scene": "title-menu", "zh": "神秘礼物"},
+  {"id": "0137E0A3", "scene": "title-menu", "zh": "神秘事件"},
+  {"id": "0137E0B2", "scene": "title-menu", "zh": "无线适配器[/n]未连接。"},
+  {"id": "0137E0D9", "scene": "title-menu", "zh": "无线适配器连接时[/n]无法使用神秘礼物。"},
+  {"id": "0137E11C", "scene": "title-menu", "zh": "无线适配器连接时[/n]无法使用神秘事件。"},
+  {"id": "0137E161", "scene": "title-menu", "zh": "正在使用外部数据[/n]更新存档。请稍候。"},
+  {"id": "0137E196", "scene": "title-menu", "zh": "存档已更新。"},
+  {"id": "0137E1B6", "scene": "title-menu", "zh": "存档已损坏。[/n]将载入上一个存档。"}
+]

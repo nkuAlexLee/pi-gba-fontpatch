@@ -321,6 +321,9 @@ function initEmulator() {
 	gba = new GameBoyAdvance();
 	gba.keypad.eatInput = true;
 	gba.setCanvas(document.getElementById('screen'));
+	// 只有真正的 ERROR（CPU 异常等）才暂停；WARN/STUB（如未映射 IO 寄存器
+	// 读取 "Bad I/O register read: 0x..."）是模拟器日常噪音，按 open-bus 返回即可，
+	// 不应打断运行。level 为 -1 表示 logStackTrace 的附加帧，仅打印。
 	gba.setLogger(function (level, error) {
 		// error 可能是 Error 对象或字符串，尽量提取有用信息
 		let msg = error;
@@ -329,9 +332,15 @@ function initEmulator() {
 		} else if (error && error.message) {
 			msg = error.message;
 		}
-		console.error(error);
-		gba.pause();
-		setStatus('运行出错: ' + msg, true);
+		if (level === gba.LOG_ERROR) {
+			console.error(error);
+			gba.pause();
+			setStatus('运行出错: ' + msg, true);
+		} else if (level === gba.LOG_WARN) {
+			console.warn('[WARN]', msg);
+		} else {
+			console.log('[' + level + ']', msg);
+		}
 	});
 	// 诊断: FPS 与帧计数
 	let frameCount = 0;

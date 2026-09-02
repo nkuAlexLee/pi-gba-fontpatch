@@ -1,0 +1,19 @@
+{
+  "name": "quetzal-chs",
+  "rom": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\roms\\PokemonQuetzalAlpha7v0(字库).gba",
+  "rom_size": "0x2000000",
+  "out_rom": "tmp/汉化输出.gba",
+  "charmap": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\.pi\\skills\\gba-font-crack\\assets\\wholewords.txt",
+  "glossary": "glossary.csv",
+  "append_addr": "0x9ff0000",
+  "min_status": "human-reviewed",
+  "created": "2026-09-02T11:35:03.769Z",
+  "_scenes": {
+    "title-menu": {
+      "type": "scan",
+      "addr": "0x937E070",
+      "len": "0x180",
+      "strings": 12
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-02T11:36:42.247Z",
+  "dry_run": false,
+  "rom_in": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\roms\\PokemonQuetzalAlpha7v0(字库).gba",
+  "rom_out": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\translation-test\\tmp\\汉化输出.gba",
+  "rows": [
+    {
+      "id": "0137E070",
+      "scene": "title-menu",
+      "addr_gba": "0x937E070",
+      "status": "human-reviewed",
+      "strategy": "repoint",
+      "bytes": "13/9",
+      "pointers": [
+        "0x2f800",
+        "0x2f888",
+        "0x2f948",
+        "0x2faac"
+      ],
+      "new_addr": "0x9FF0000"
+    },
+    {
+      "id": "0137E079",
+      "scene": "title-menu",
+      "addr_gba": "0x937E079",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "9/9"
+    },
+    {
+      "id": "0137E082",
+      "scene": "title-menu",
+      "addr_gba": "0x937E082",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "5/7"
+    },
+    {
+      "id": "0137E089",
+      "scene": "title-menu",
+      "addr_gba": "0x937E089",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "9/13"
+    },
+    {
+      "id": "0137E096",
+      "scene": "title-menu",
+      "addr_gba": "0x937E096",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "9/13"
+    },
+    {
+      "id": "0137E0A3",
+      "scene": "title-menu",
+      "addr_gba": "0x937E0A3",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "9/15"
+    },
+    {
+      "id": "0137E0B2",
+      "scene": "title-menu",
+      "addr_gba": "0x937E0B2",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "19/39"
+    },
+    {
+      "id": "0137E0D9",
+      "scene": "title-menu",
+      "addr_gba": "0x937E0D9",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "35/67"
+    },
+    {
+      "id": "0137E11C",
+      "scene": "title-menu",
+      "addr_gba": "0x937E11C",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "35/69"
+    },
+    {
+      "id": "0137E161",
+      "scene": "title-menu",
+      "addr_gba": "0x937E161",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "34/53"
+    },
+    {
+      "id": "0137E196",
+      "scene": "title-menu",
+      "addr_gba": "0x937E196",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "12/32"
+    },
+    {
+      "id": "0137E1B6",
+      "scene": "title-menu",
+      "addr_gba": "0x937E1B6",
+      "status": "machine-translated",
+      "strategy": "inplace",
+      "bytes": "30/67"
+    }
+  ],
+  "summary": {
+    "done": 12,
+    "repointed": 1,
+    "skipped": 0,
+    "failed": 0,
+    "append_used": "0x10"
+  }
+}

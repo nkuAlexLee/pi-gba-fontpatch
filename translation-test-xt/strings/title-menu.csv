@@ -1,0 +1,3 @@
+﻿id,addr_gba,scene,context,max_bytes,max_chars,en,mt,final,status,notes
+00BA9200,0x8BA9200,title-menu,,9,4,NEW GAME,,新的游戏,human-reviewed,
+00BA9210,0x8BA9210,title-menu,,7,3,OPTION,,选项,human-reviewed,

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-02T12:00:55.245Z",
+  "dry_run": false,
+  "rom_in": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\translation-test-xt\\roms\\xtreme-chs-base.gba",
+  "rom_out": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\translation-test-xt\\tmp\\汉化输出.gba",
+  "rows": [
+    {
+      "id": "00BA9200",
+      "scene": "title-menu",
+      "addr_gba": "0x8BA9200",
+      "status": "human-reviewed",
+      "strategy": "inplace",
+      "bytes": "5/9"
+    },
+    {
+      "id": "00BA9210",
+      "scene": "title-menu",
+      "addr_gba": "0x8BA9210",
+      "status": "human-reviewed",
+      "strategy": "inplace",
+      "bytes": "3/7"
+    }
+  ],
+  "summary": {
+    "done": 2,
+    "repointed": 0,
+    "skipped": 0,
+    "failed": 0,
+    "append_used": "0x0"
+  }
+}

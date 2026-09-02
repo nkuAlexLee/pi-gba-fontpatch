@@ -221,7 +221,10 @@ function takeSnapshot() {
 	for (let i = 0; i < 256; i++) { palWords.push(rp.palette.colors[0][i], rp.palette.colors[1][i]); }
 	return {
 		frames: meta.frames || 0,
-		cpu: gba.cpu.freeze(),          // 纯数字/数组，JSON 安全
+		cpu: Object.assign(gba.cpu.freeze(), {
+			execMode: gba.cpu.execMode,           // ARM/Thumb 模式必须随快照保存（见 restoreSnapshot 注释）
+			instructionWidth: gba.cpu.instructionWidth,
+		}),
 		irq: gba.irq.freeze(),
 		videoTiming: gba.video.freeze(),
 		wram: b64(gba.mmu.memory[gba.mmu.REGION_WORKING_RAM].buffer),
@@ -235,6 +238,13 @@ function takeSnapshot() {
 
 function restoreSnapshot(s) {
 	gba.cpu.defrost(s.cpu);
+	// ⚠ cpu.defrost 不恢复 execMode/instructionWidth（freeze 也不保存），恢复后 CPU 默认 ARM，
+	// 用 ARM 语义解码 Thumb 代码会直接跑飞卡死 → 此处补齐（兼容无此字段的旧快照）
+	if (s.cpu.execMode !== undefined) {
+		gba.cpu.execMode = s.cpu.execMode;
+		gba.cpu.instructionWidth = s.cpu.instructionWidth;
+	}
+	gba.cpu.instruction = null;
 	gba.irq.defrost(s.irq);
 	gba.video.defrost(s.videoTiming);
 	gba.mmu.defrost({ ram: unb64(s.wram), iram: unb64(s.iwram) });

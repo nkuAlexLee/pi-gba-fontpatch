@@ -1,0 +1,13 @@
+﻿id,addr_gba,scene,context,max_bytes,max_chars,en,mt,final,status,notes
+0137E070,0x937E070,title-menu,标题画面后的主菜单,9,4,NEW GAME,新的游戏,开始新的冒险,human-reviewed,人工终审：故意超预算以验证 repoint
+0137E079,0x937E079,title-menu,标题画面后的主菜单,9,4,CONTINUE,继续游戏,,machine-translated,
+0137E082,0x937E082,title-menu,标题画面后的主菜单,7,3,OPTION,选项,,machine-translated,
+0137E089,0x937E089,title-menu,标题画面后的主菜单,13,6,MYSTERY GIFT,神秘礼物,,machine-translated,
+0137E096,0x937E096,title-menu,标题画面后的主菜单,13,6,MYSTERY GIFT,神秘礼物,,machine-translated,
+0137E0A3,0x937E0A3,title-menu,标题画面后的主菜单,15,7,MYSTERY EVENTS,神秘事件,,machine-translated,
+0137E0B2,0x937E0B2,title-menu,标题画面后的主菜单,39,19,The Wireless Adapter is not[/n]connected.,无线适配器[/n]未连接。,,machine-translated,
+0137E0D9,0x937E0D9,title-menu,标题画面后的主菜单,67,33,MYSTERY GIFT can't be used while[/n]the Wireless Adapter is attached.,无线适配器连接时[/n]无法使用神秘礼物。,,machine-translated,
+0137E11C,0x937E11C,title-menu,标题画面后的主菜单,69,34,MYSTERY EVENTS can't be used while[/n]the Wireless Adapter is attached.,无线适配器连接时[/n]无法使用神秘事件。,,machine-translated,
+0137E161,0x937E161,title-menu,标题画面后的主菜单,53,26,Updating save file using external[/n]data. Please wait.,正在使用外部数据[/n]更新存档。请稍候。,,machine-translated,
+0137E196,0x937E196,title-menu,标题画面后的主菜单,32,15,The save file has been updated.,存档已更新。,,machine-translated,
+0137E1B6,0x937E1B6,title-menu,标题画面后的主菜单,67,33,The save file is corrupted. The[/n]previous save file will be loaded.,存档已损坏。[/n]将载入上一个存档。,,machine-translated,
