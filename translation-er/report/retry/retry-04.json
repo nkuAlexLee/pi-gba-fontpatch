@@ -1,0 +1,3070 @@
+{
+ "count": 150,
+ "tasks": [
+  {
+   "id": "005428B8",
+   "en": "makes this Berry grow big and rich.",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "makes this树果 grow big和rich.",
+   "prevErrs": [
+    "残留英文未翻译: makes this grow rich"
+   ]
+  },
+  {
+   "id": "00542904",
+   "en": "but is rich in health-promoting fiber.",
+   "codes": [],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "but是 rich in health-promoting fiber.",
+   "prevErrs": [
+    "残留英文未翻译: rich health promoting fiber"
+   ]
+  },
+  {
+   "id": "0054292C",
+   "en": "This Berry has a refreshing dry and",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "This树果 has a refreshing dry and",
+   "prevErrs": [
+    "残留英文未翻译: this refreshing"
+   ]
+  },
+  {
+   "id": "005429E8",
+   "en": "it is packed with black-colored flesh.",
+   "codes": [],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "it是 packed with black-colored flesh.",
+   "prevErrs": [
+    "残留英文未翻译: packed with black colored flesh"
+   ]
+  },
+  {
+   "id": "00542A38",
+   "en": "a hard-edged and fragrant bite to it.",
+   "codes": [],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bite→咬住"
+   ],
+   "prev": "a hard-edged和fragrant bite to it.",
+   "prevErrs": [
+    "残留英文未翻译: hard edged fragrant bite"
+   ]
+  },
+  {
+   "id": "00542A60",
+   "en": "This Berry is said to be a cross of",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "This树果是 said to be a cross of",
+   "prevErrs": [
+    "残留英文未翻译: this said cross"
+   ]
+  },
+  {
+   "id": "00542B1C",
+   "en": "Bug Pokémon with its stringy petals.",
+   "codes": [],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bug→虫"
+   ],
+   "prev": "虫 宝可梦 with its stringy petals.",
+   "prevErrs": [
+    "残留英文未翻译: with stringy petals"
+   ]
+  },
+  {
+   "id": "00542BD8",
+   "en": "Less bitter if enough of this Berry",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Less bitter if enough of this树果",
+   "prevErrs": [
+    "残留英文未翻译: less bitter enough this"
+   ]
+  },
+  {
+   "id": "00542C46",
+   "en": "  Pokémon to reach far-off places.",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "  宝可梦 to reach far-off places.",
+   "prevErrs": [
+    "残留英文未翻译: reach places"
+   ]
+  },
+  {
+   "id": "00542D24",
+   "en": "for reasons that are still unknown.",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "for reasons that是 still unknown.",
+   "prevErrs": [
+    "残留英文未翻译: reasons that still unknown"
+   ]
+  },
+  {
+   "id": "00542D94",
+   "en": "The flesh underneath the Custap Berry's",
+   "codes": [],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Custap Berry→释陀果"
+   ],
+   "prev": "The flesh underneath the 释陀果's",
+   "prevErrs": [
+    "残留英文未翻译: flesh underneath"
+   ]
+  },
+  {
+   "id": "00542DBC",
+   "en": "skin is sweet and creamy soft.",
+   "codes": [],
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "skin是 sweet和creamy soft.",
+   "prevErrs": [
+    "残留英文未翻译: skin sweet creamy soft"
+   ]
+  },
+  {
+   "id": "00542E7C",
+   "en": "A berry that is incredibly spicy at",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "A berry that是 incredibly spicy at",
+   "prevErrs": [
+    "残留英文未翻译: berry that incredibly spicy"
+   ]
+  },
+  {
+   "id": "00542EC0",
+   "en": "Its outside is very bitter, but its",
+   "codes": [],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Its outside是 very bitter, but its",
+   "prevErrs": [
+    "残留英文未翻译: outside very bitter"
+   ]
+  },
+  {
+   "id": "00543DE0",
+   "en": "Starting up the Berry Blender.{{C0}}Please select a Berry from your Bag{{C1}}to put in the Berry Blender.{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Starting up the树果 Blender.[/p]Please select a树果 from 你的 Bag[/n]to put in the树果 Blender.[/p]",
+   "prevErrs": [
+    "残留英文未翻译: starting blender please select from"
+   ]
+  },
+  {
+   "id": "00543EEC",
+   "en": "Would you like to blend another Berry?",
+   "codes": [],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Would you like to blend another树果?",
+   "prevErrs": [
+    "残留英文未翻译: would like blend another"
+   ]
+  },
+  {
+   "id": "00543F14",
+   "en": "You've run out of Berries for{{C0}}blending in the Berry Blender.{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "You've run out of Berries for[/n]blending in the树果 Blender.[/p]",
+   "prevErrs": [
+    "残留英文未翻译: berries blending blender"
+   ]
+  },
+  {
+   "id": "00543F54",
+   "en": "Your {{C0}}{{C1}}{{C2}}{{C3}}{{C4}} CASE is full.{{C5}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "你的 [PO][Ke][BL][OC][K] CASE是 full.[/p]",
+   "prevErrs": [
+    "残留英文未翻译: case full"
+   ]
+  },
+  {
+   "id": "00543F70",
+   "en": " has no Berries to put in{{C0}}the Berry Blender.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": " has no Berries to put in[/n]the树果 Blender.",
+   "prevErrs": [
+    "残留英文未翻译: berries blender"
+   ]
+  },
+  {
+   "id": "00543FA0",
+   "en": "'s {{C0}}{{C1}}{{C2}}{{C3}}{{C4}} CASE is full.{{C5}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "'s [PO][Ke][BL][OC][K] CASE是 full.[/p]",
+   "prevErrs": [
+    "残留英文未翻译: case full"
+   ]
+  },
+  {
+   "id": "00545950",
+   "en": "The Berry Program on your Pokémon{{C0}}Ruby/Sapphire Game Pak will be updated.{{C1}}{{C2}}{{C3}}Press the A Button.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色04]"
+    ],
+    [
+     "{{C3}}",
+     "[阴影色05]"
+    ]
+   ],
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "The Berry Program on your Pokémon[/n]Ruby/Sapphire Game Pak will be updated.[/n][文本色04][阴影色05]Press the A Button.",
+   "prevErrs": [
+    "残留英文未翻译: berry program your ruby sapphire game will updated press button"
+   ]
+  },
+  {
+   "id": "005459B4",
+   "en": "Please ensure the connection of your{{C0}}Game Boy Advance system matches this.{{C1}}{{C2}}{{C3}}YES: Press the A Button.{{C4}}NO: Turn off the power and try again.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色04]"
+    ],
+    [
+     "{{C3}}",
+     "[阴影色05]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Please ensure the connection of your[/n]Game Boy Advance system matches this.[/n][文本色04][阴影色05]YES: Press the A Button.[/n]NO: Turn off the power and try again.",
+   "prevErrs": [
+    "残留英文未翻译: please ensure connection your game advance system matches this press button turn power again"
+   ]
+  },
+  {
+   "id": "00545AD0",
+   "en": "Transmitting. Please wait.{{C0}}{{C1}}{{C2}}Please do not turn off the power or{{C3}}unplug the Game Boy Advance Game{{C4}}Link Cable.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色04]"
+    ],
+    [
+     "{{C2}}",
+     "[阴影色05]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Transmitting. Please wait.[/n][文本色04][阴影色05]Please do not turn off the power or[/n]unplug the Game Boy Advance Game[/n]Link Cable.",
+   "prevErrs": [
+    "残留英文未翻译: transmitting please wait turn power unplug game advance link cable"
+   ]
+  },
+  {
+   "id": "009CFFF8",
+   "en": "A small desk built in{{C0}}the shape of a POKé{{C1}}BALL.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "做成精灵球形状的小桌子[/n]。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "009D0028",
+   "en": "A large desk made{{C0}}of steel. Put some{{C1}}decorations on it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ],
+   "prev": "钢",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "009D0060",
+   "en": "A large desk made{{C0}}of wood. Put some{{C1}}decorations on it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "木质大桌子[/n]。可以放一些装饰品。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "009D3D28",
+   "en": "Pokémon Elite Redux DexNav+",
+   "codes": [],
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "宝可梦精英重制 DexNav+",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "009D3D44",
+   "en": "Pokémon Elite Redux DexNav",
+   "codes": [],
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "宝可梦精英重制 DexNav",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "009D3D60",
+   "en": "Welcome to the DexNav+! {{C0}}Â Search{{C1}}{{C2}}  Get {{C3}}Ç Get All {{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[d]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[d]"
+    ],
+    [
+     "{{C3}}",
+     "[d]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "欢迎使用DexNav+! [d]搜索[/n][d] 获取 [d]获取全部 [buffer1]",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "009D3DAC",
+   "en": "Welcome to the Dexnav!{{C0}}{{C1}}Â Search {{C2}}À Exit",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[d]"
+    ],
+    [
+     "{{C2}}",
+     "[d]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "欢迎使用DexNav![/n][d]搜索 [d]退出",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "00AA1C88",
+   "en": "{{C0}}{{C1}}Easy",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色07]"
+    ],
+    [
+     "{{C1}}",
+     "[阴影色06]"
+    ]
+   ],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[文本色07][阴影色06]Easy",
+   "prevErrs": [
+    "残留英文未翻译: easy"
+   ]
+  },
+  {
+   "id": "00AA1CBC",
+   "en": "{{C0}}{{C1}}Elite",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色09]"
+    ],
+    [
+     "{{C1}}",
+     "[阴影色04]"
+    ]
+   ],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[文本色09][阴影色04]Elite",
+   "prevErrs": [
+    "残留英文未翻译: elite"
+   ]
+  },
+  {
+   "id": "00AA1CD8",
+   "en": "{{C0}}{{C1}}Hell",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色04]"
+    ],
+    [
+     "{{C1}}",
+     "[阴影色02]"
+    ]
+   ],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[文本色04][阴影色02]Hell",
+   "prevErrs": [
+    "残留英文未翻译: hell"
+   ]
+  },
+  {
+   "id": "00AA1CE4",
+   "en": "{{C0}}{{C1}}Easy",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色07]"
+    ],
+    [
+     "{{C1}}",
+     "[阴影色06]"
+    ]
+   ],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[文本色07][阴影色06]Easy",
+   "prevErrs": [
+    "残留英文未翻译: easy"
+   ]
+  },
+  {
+   "id": "00AA1CF0",
+   "en": "{{C0}}{{C1}}More",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色09]"
+    ],
+    [
+     "{{C1}}",
+     "[阴影色08]"
+    ]
+   ],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[文本色09][阴影色08]More",
+   "prevErrs": [
+    "残留英文未翻译: more"
+   ]
+  },
+  {
+   "id": "00AA1CFC",
+   "en": "{{C0}}{{C1}}Elite",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色05]"
+    ],
+    [
+     "{{C1}}",
+     "[阴影色04]"
+    ]
+   ],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[文本色05][阴影色04]Elite",
+   "prevErrs": [
+    "残留英文未翻译: elite"
+   ]
+  },
+  {
+   "id": "00AA1D08",
+   "en": "Elite Redux v2.65 Beta2 - {{C0}} Mode{{C1}}{{C2}}, {{C3}} Caps{{C4}}{{C5}}{{C6}}{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色01]"
+    ],
+    [
+     "{{C2}}",
+     "[阴影色02]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[文本色01]"
+    ],
+    [
+     "{{C6}}",
+     "[阴影色02]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Elite Redux v2.65 Beta2 - [buffer1]模式[文本色01][阴影色02], [buffer2]限制[/n][文本色01][阴影色02][buffer3]",
+   "prevErrs": [
+    "残留英文未翻译: beta"
+   ]
+  },
+  {
+   "id": "00AB4654",
+   "en": "Enables Cormoth to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Cormoth 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: cormoth"
+   ]
+  },
+  {
+   "id": "00AB4674",
+   "en": "Enables Popcorm to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Popcorm 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: popcorm"
+   ]
+  },
+  {
+   "id": "00AB4748",
+   "en": "Enables Amphybuzz{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Amphybuzz[/n]能 超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: amphybuzz"
+   ]
+  },
+  {
+   "id": "00AB4864",
+   "en": "Enables{{C0}}Corviknight to Mega{{C1}}Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Corviknight→钢铠鸦"
+   ],
+   "prev": "Enables[/n]钢铠鸦 能 Mega[/n]Evolve.",
+   "prevErrs": [
+    "残留英文未翻译: enables mega evolve"
+   ]
+  },
+  {
+   "id": "00AB49A4",
+   "en": "Enables{{C0}}Centiskorch to{{C1}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Centiskorch→焚焰蚣"
+   ],
+   "prev": "Enables[/n]焚焰蚣 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: enables"
+   ]
+  },
+  {
+   "id": "00AB4A78",
+   "en": "Enables DuraludonP.{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使DuraludonP.[/n]能 超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: duraludonp"
+   ]
+  },
+  {
+   "id": "00AB4AD0",
+   "en": "Enables FidoughP.{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使FidoughP.[/n]能 超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: fidoughp"
+   ]
+  },
+  {
+   "id": "00AB4BE8",
+   "en": "Enables{{C0}}Meowscarada to{{C1}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meowscarada→魔幻假面喵"
+   ],
+   "prev": "Enables[/n]魔幻假面喵 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: enables"
+   ]
+  },
+  {
+   "id": "00AB4D98",
+   "en": "Enables{{C0}}MimikyuApex to{{C1}}Primal Revert.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Enables[/n]MimikyuApex 能[/n]原始回归。",
+   "prevErrs": [
+    "残留英文未翻译: enables mimikyuapex"
+   ]
+  },
+  {
+   "id": "00AB4EDC",
+   "en": "Enables{{C0}}Wigglytuff-A to{{C1}}Primal Reverse.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wigglytuff→胖可丁"
+   ],
+   "prev": "Enables[/n]胖可丁-A 能[/n]原始回归。",
+   "prevErrs": [
+    "残留英文未翻译: enables"
+   ]
+  },
+  {
+   "id": "00AB4F64",
+   "en": "A disc with Bug{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Bug→虫"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB4F9C",
+   "en": "A disc with Dark{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Dark→恶"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB4FD4",
+   "en": "A disc with Dragon{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Dragon→龙"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB500C",
+   "en": "A disc with Electric{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Electric→电"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB5048",
+   "en": "A disc with Fairy{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Fairy→妖精"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB5080",
+   "en": "A disc with Fighting{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Fighting→格斗"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB50BC",
+   "en": "A disc with Fire{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Fire→火"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB50F4",
+   "en": "A disc with Flying{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Flying→飞行"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB512C",
+   "en": "A disc with Ghost{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Ghost→幽灵"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB5164",
+   "en": "A disc with Grass{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Grass→草"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB519C",
+   "en": "A disc with Ground{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Ground→地面"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB51D4",
+   "en": "A disc with Ice{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Ice→冰"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB520C",
+   "en": "A disc with Poison{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Poison→毒"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB5244",
+   "en": "A disc with Psychic{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Psychic→精神强念"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB5280",
+   "en": "A disc with Rock{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Rock→岩石"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB52B8",
+   "en": "A disc with Steel{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Steel→钢"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB52F0",
+   "en": "A disc with Water{{C0}}type data. It swaps{{C1}}Silvally's type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silvally→银伴战兽",
+    "Water→水"
+   ],
+   "prev": "一张含有[/n]属性数据的光盘，可改变[/n]银伴战兽's type.",
+   "prevErrs": [
+    "残留英文未翻译: type"
+   ]
+  },
+  {
+   "id": "00AB53BC",
+   "en": "A voucher for{{C0}}obtaining a bicycle{{C1}}from the Bike Shop.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bike→自行车"
+   ],
+   "prev": "[/n]兑换自行车的[/n]from the 自行车 Shop.",
+   "prevErrs": [
+    "残留英文未翻译: from shop"
+   ]
+  },
+  {
+   "id": "00AB5758",
+   "en": "Upgrade Normal-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Normal→一般"
+   ],
+   "prev": "升级数据 一般-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5784",
+   "en": "Upgrade Fighting-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Fighting→格斗"
+   ],
+   "prev": "升级数据 格斗-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB57B0",
+   "en": "Upgrade Flying-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Flying→飞行"
+   ],
+   "prev": "升级数据 飞行-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB57DC",
+   "en": "Upgrade Poison-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Poison→毒"
+   ],
+   "prev": "升级数据 毒-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5808",
+   "en": "Upgrade Ground-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Ground→地面"
+   ],
+   "prev": "升级数据 地面-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5834",
+   "en": "Upgrade Rock-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Rock→岩石"
+   ],
+   "prev": "升级数据 岩石-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB585C",
+   "en": "Upgrade Bug-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Bug→虫"
+   ],
+   "prev": "升级数据 虫-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5884",
+   "en": "Upgrade Ghost-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Ghost→幽灵"
+   ],
+   "prev": "升级数据 幽灵-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB58B0",
+   "en": "Upgrade Steel-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Steel→钢"
+   ],
+   "prev": "升级数据 钢-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB58D8",
+   "en": "Upgrade Fire-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Fire→火"
+   ],
+   "prev": "升级数据 火-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5900",
+   "en": "Upgrade Water-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Water→水"
+   ],
+   "prev": "升级数据 水-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5928",
+   "en": "Upgrade Grass-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Grass→草"
+   ],
+   "prev": "升级数据 草-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5950",
+   "en": "Upgrade Electric-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Electric→电"
+   ],
+   "prev": "升级数据 电-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB597C",
+   "en": "Upgrade Psychic-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 精神强念-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB59A8",
+   "en": "Upgrade Ice-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Ice→冰"
+   ],
+   "prev": "升级数据 冰-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB59D0",
+   "en": "Upgrade Dragon-{{C0}}type moves into Z-{{C1}}Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Dragon→龙"
+   ],
+   "prev": "升级数据 龙-[/n]type moves into Z-[/n]Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB59FC",
+   "en": "Upgrade Dark-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Dark→恶"
+   ],
+   "prev": "升级数据 恶-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5A24",
+   "en": "Upgrade Fairy-type{{C0}}moves into Z-Moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据",
+    "Fairy→妖精"
+   ],
+   "prev": "升级数据 妖精-type[/n]moves into Z-Moves.",
+   "prevErrs": [
+    "残留英文未翻译: type moves into"
+   ]
+  },
+  {
+   "id": "00AB5A4C",
+   "en": "Upgrade Alolan{{C0}}Raichu's Thunder-{{C1}}bolt into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Raichu→雷丘",
+    "Thunder→打雷",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 Alolan[/n]雷丘's 打雷-[/n]bolt into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: alolan bolt into move"
+   ]
+  },
+  {
+   "id": "00AB5A84",
+   "en": "Upgrade Decidu-{{C0}}eye's Spirit Sha-{{C1}}ckle into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 Decidu-[/n]eye's Spirit Sha-[/n]ckle into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: decidu spirit ckle into move"
+   ]
+  },
+  {
+   "id": "00AB5ABC",
+   "en": "Upgrade Eevee's{{C0}}Last Resort into a{{C1}}Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eevee→伊布",
+    "Last Resort→珍藏",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 伊布's[/n]珍藏 into a[/n]Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5AE8",
+   "en": "Upgrade Incine-{{C0}}roar's Darkest La-{{C1}}riat into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Roar→吼叫",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 Incine-[/n]roar's Darkest La-[/n]riat into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: incine roar darkest riat into move"
+   ]
+  },
+  {
+   "id": "00AB5B20",
+   "en": "Upgrade Kommo-o's{{C0}}Clanging Scales{{C1}}into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kommo-o→杖尾鳞甲龙",
+    "Clanging Scales→鳞片噪音",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 杖尾鳞甲龙's[/n]鳞片噪音[/n]into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5B54",
+   "en": "Upgrade Lunala's{{C0}}Moongeist Beam{{C1}}into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lunala→露奈雅拉",
+    "Moongeist Beam→暗影之光",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 露奈雅拉's[/n]暗影之光[/n]into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5B84",
+   "en": "Upgrade Lycanroc's{{C0}}Stone Edge into a{{C1}}Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lycanroc→鬃岩狼人",
+    "Stone Edge→尖石攻击",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 鬃岩狼人's[/n]尖石攻击 into a[/n]Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5BB4",
+   "en": "Upgrade Marsha-{{C0}}dow's Spectral Thi-{{C1}}ef into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 Marsha-[/n]dow's Spectral Thi-[/n]ef into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: marsha spectral into move"
+   ]
+  },
+  {
+   "id": "00AB5BEC",
+   "en": "Upgrade Mew's{{C0}}Psychic into a Z-{{C1}}Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mew→梦幻",
+    "Psychic→精神强念",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 梦幻's[/n]精神强念 into a Z-[/n]Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5C14",
+   "en": "Upgrade Mimikyu's{{C0}}Play Rough into a{{C1}}Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mimikyu→谜拟丘",
+    "Play Rough→嬉闹",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 谜拟丘's[/n]嬉闹 into a[/n]Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5C40",
+   "en": "Upgrade Pikachu's{{C0}}Volt Tackle into a{{C1}}Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pikachu→皮卡丘",
+    "Tackle→撞击",
+    "Volt Tackle→伏特攻击",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 皮卡丘's[/n]伏特攻击 into a[/n]Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5C70",
+   "en": "Upgrade Pikachu w/{{C0}}a cap's Thunderbolt{{C1}}into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pikachu→皮卡丘",
+    "Thunderbolt→十万伏特",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 皮卡丘 w/[/n]a cap's 十万伏特[/n]into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5CA8",
+   "en": "Upgrade Primarina's{{C0}}Sparkling Aria into{{C1}}a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Primarina→西狮海壬",
+    "Sparkling Aria→泡影的咏叹调",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 西狮海壬's[/n]泡影的咏叹调 into[/n]a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5CDC",
+   "en": "Upgrade Snorlax's{{C0}}Giga Impact into a{{C1}}Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snorlax→卡比兽",
+    "Giga Impact→终极冲击",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 卡比兽's[/n]终极冲击 into a[/n]Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5D0C",
+   "en": "Upgrade Solgaleo's{{C0}}Sunsteel Strike{{C1}}into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Solgaleo→索尔迦雷欧",
+    "Sunsteel Strike→流星闪冲",
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 索尔迦雷欧's[/n]流星闪冲[/n]into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: into move"
+   ]
+  },
+  {
+   "id": "00AB5D40",
+   "en": "Upgrade the tapu's{{C0}}Nature's Madness{{C1}}into a Z-Move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据"
+   ],
+   "prev": "升级数据 the tapu's[/n]Nature's Madness[/n]into a Z-Move.",
+   "prevErrs": [
+    "残留英文未翻译: tapu nature madness into move"
+   ]
+  },
+  {
+   "id": "00AB5D74",
+   "en": "Enables{{C0}}Dududunsparce to{{C1}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Enables[/n]Dududunsparce 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: enables dududunsparce"
+   ]
+  },
+  {
+   "id": "00AB5D9C",
+   "en": "Boosts Ogerpon's{{C0}}power and enables{{C1}}mega evolution.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ogerpon→厄诡椪"
+   ],
+   "prev": "Boosts 厄诡椪's[/n]power and enables[/n]mega evolution.",
+   "prevErrs": [
+    "残留英文未翻译: boosts power enables mega evolution"
+   ]
+  },
+  {
+   "id": "00AB5DD0",
+   "en": "Boosts Ogerpon-H's{{C0}}power and enables{{C1}}mega evolution.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ogerpon→厄诡椪"
+   ],
+   "prev": "Boosts 厄诡椪-H's[/n]power and enables[/n]mega evolution.",
+   "prevErrs": [
+    "残留英文未翻译: boosts power enables mega evolution"
+   ]
+  },
+  {
+   "id": "00AB5E08",
+   "en": "Boosts Ogerpon-W's{{C0}}power and enables{{C1}}mega evolution.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ogerpon→厄诡椪"
+   ],
+   "prev": "Boosts 厄诡椪-W's[/n]power and enables[/n]mega evolution.",
+   "prevErrs": [
+    "残留英文未翻译: boosts power enables mega evolution"
+   ]
+  },
+  {
+   "id": "00AB5E40",
+   "en": "Boosts Ogerpon-C's{{C0}}power and enables{{C1}}mega evolution.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ogerpon→厄诡椪"
+   ],
+   "prev": "Boosts 厄诡椪-C's[/n]power and enables[/n]mega evolution.",
+   "prevErrs": [
+    "残留英文未翻译: boosts power enables mega evolution"
+   ]
+  },
+  {
+   "id": "00AB5F50",
+   "en": "Enables Kilozuna to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Kilozuna 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: kilozuna"
+   ]
+  },
+  {
+   "id": "00AB6070",
+   "en": "Enables Swampage{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Swampage[/n]能 超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: swampage"
+   ]
+  },
+  {
+   "id": "00AB6128",
+   "en": "Enables Carbonix to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Carbonix 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: carbonix"
+   ]
+  },
+  {
+   "id": "00AB6220",
+   "en": "Enables Heracreus{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Heracreus[/n]能 超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: heracreus"
+   ]
+  },
+  {
+   "id": "00AB628E",
+   "en": "  Enables Vanilluxe-R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Vanilluxe→双倍多多冰"
+   ],
+   "prev": "  Enables 双倍多多冰-R[/n]能 超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: enables"
+   ]
+  },
+  {
+   "id": "00AB62B4",
+   "en": "Enables{{C0}}Chandelure-R to{{C1}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chandelure→水晶灯火灵"
+   ],
+   "prev": "Enables[/n]水晶灯火灵-R 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: enables"
+   ]
+  },
+  {
+   "id": "00AB63B4",
+   "en": "Enables Luxzero to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Luxzero 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: luxzero"
+   ]
+  },
+  {
+   "id": "00AB6688",
+   "en": "Enables{{C0}}Crabominable to{{C1}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Crabominable→好胜毛蟹"
+   ],
+   "prev": "Enables[/n]好胜毛蟹 能[/n]超级进化。",
+   "prevErrs": [
+    "残留英文未翻译: enables"
+   ]
+  },
+  {
+   "id": "00AB6808",
+   "en": "Enables Steve to{{C0}}become real.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使Steve 能[/n]变成真实的。",
+   "prevErrs": [
+    "残留英文未翻译: steve"
+   ]
+  },
+  {
+   "id": "00AB74E4",
+   "en": "King's Rock",
+   "codes": [],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ],
+   "prev": "King's 岩石",
+   "prevErrs": [
+    "残留英文未翻译: king"
+   ]
+  },
+  {
+   "id": "00AB7CEC",
+   "en": "Infinite Repel",
+   "codes": [],
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Repel→除虫喷雾"
+   ],
+   "prev": "Infinite 除虫喷雾",
+   "prevErrs": [
+    "残留英文未翻译: infinite"
+   ]
+  },
+  {
+   "id": "00AB7CFC",
+   "en": "Iron Pill",
+   "codes": [],
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂"
+   ],
+   "prev": "防御增强剂 Pill",
+   "prevErrs": [
+    "残留英文未翻译: pill"
+   ]
+  },
+  {
+   "id": "00AB81E0",
+   "en": "Egg Incubator",
+   "codes": [],
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Egg→水煮蛋片"
+   ],
+   "prev": "水煮蛋片 Incubator",
+   "prevErrs": [
+    "残留英文未翻译: incubator"
+   ]
+  },
+  {
+   "id": "00B0D850",
+   "en": "One of the ancient and long-since-extinct{{C0}}Pokémon that have been regenerated from{{C1}}fossils by humans. If attacked, it{{C2}}withdraws into its hard shell.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "它是从化石中由人类[/n]复活的远古宝可梦之一。[/n]遭到攻击时,它会缩进坚硬的壳里。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00B104C8",
+   "en": "It glides without making a single sound. It{{C0}}grasps the face of its foe using its hind{{C1}}and large front claws, then stabs with its{{C2}}poison barb.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison Barb→毒针",
+    "Poison→毒"
+   ],
+   "prev": "它无声地滑翔。用后腿和[/n]巨大的前爪抓住对手的脸,[/n]然后用毒针刺击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00B12CB8",
+   "en": "In the evening, it takes great delight in{{C0}}popping out of rivers and startling people.{{C1}}It feeds on aquatic moss that grows on{{C2}}rocks in the riverbed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "在傍晚,它喜欢从河里[/n]跳出来吓人。它以河底岩石上[/n]生长的水生苔藓为食。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00B2D730",
+   "en": "There has been only one reported sighting{{C0}}of this Pokémon. It resembles a mysterious{{C1}}creature depicted in an old expedition{{C2}}journal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Journal→冒险笔记"
+   ],
+   "prev": "这只宝可梦仅被报告过一次目击。[/n]它酷似一本古旧探险笔记[/n]中描绘的神秘生物。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00B2F820",
+   "en": "They scent their honeycombs using the{{C0}}pollen of many flowers. They recognize{{C1}}each other at a distance by their aromas.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "它们用多种花朵的花粉为蜂巢增添香气。[/n]它们通过气味在远处辨认同伴。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00C4ACE8",
+   "en": "Ogerpon Hearthflame Mega",
+   "codes": [],
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ogerpon→厄诡椪"
+   ],
+   "prev": "厄诡椪Hearthflame Mega",
+   "prevErrs": [
+    "残留英文未翻译: hearthflame mega"
+   ]
+  },
+  {
+   "id": "00C4AD04",
+   "en": "Ogerpon Cornerstone Mega",
+   "codes": [],
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ogerpon→厄诡椪"
+   ],
+   "prev": "厄诡椪Cornerstone Mega",
+   "prevErrs": [
+    "残留英文未翻译: cornerstone mega"
+   ]
+  },
+  {
+   "id": "00C4AE38",
+   "en": "Rotom Heat",
+   "codes": [],
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rotom→洛托姆"
+   ],
+   "prev": "洛托姆Heat",
+   "prevErrs": [
+    "残留英文未翻译: heat"
+   ]
+  },
+  {
+   "id": "00C4AF4C",
+   "en": "Keldeo Resolute",
+   "codes": [],
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Keldeo→凯路迪欧"
+   ],
+   "prev": "凯路迪欧Resolute",
+   "prevErrs": [
+    "残留英文未翻译: resolute"
+   ]
+  },
+  {
+   "id": "00C4AFE0",
+   "en": "Vivillon High Plains",
+   "codes": [],
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Vivillon→彩粉蝶"
+   ],
+   "prev": "彩粉蝶High Plains",
+   "prevErrs": [
+    "残留英文未翻译: high plains"
+   ]
+  },
+  {
+   "id": "00C4B1E4",
+   "en": "Hoopa Unbound",
+   "codes": [],
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoopa→胡帕"
+   ],
+   "prev": "胡帕Unbound",
+   "prevErrs": [
+    "残留英文未翻译: unbound"
+   ]
+  },
+  {
+   "id": "00C4B438",
+   "en": "Polartic Bluemoon",
+   "codes": [],
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Polartic蓝月",
+   "prevErrs": [
+    "残留英文未翻译: polartic"
+   ]
+  },
+  {
+   "id": "00EA4404",
+   "en": "Sprays star-shaped rays that{{C0}}never miss.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "发射星形光线,[/n]绝不会miss.",
+   "prevErrs": [
+    "残留英文未翻译: miss"
+   ]
+  },
+  {
+   "id": "00EB5390",
+   "en": "Strikes with sharp{{C0}}wind. High crit ratio.{{C1}}Air-based. Keen edge{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用锐风攻击。高会心率。[/n]飞行系。[/n]锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5718",
+   "en": "The user attacks with{{C0}}an uppercut thrown{{C1}}skywards. Iron Fist{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron Fist→铁拳",
+    "Iron→防御增强剂"
+   ],
+   "prev": "向上方发出上勾拳。[/n]铁拳增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5830",
+   "en": "The user shoots seeds{{C0}}at the foe. Two to five{{C1}}seeds are shot at once.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "向对手发射种子。[/n]一次发射两到五枚。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5B24",
+   "en": "An attack that forces{{C0}}the target to switch.{{C1}}10% poison chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ],
+   "prev": "强制对手换下。[/n]10%中毒几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5BAC",
+   "en": "The user throws an{{C0}}electrified tackle. 25%{{C1}}recoil, 10% paralyze{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tackle→撞击"
+   ],
+   "prev": "投掷带电的冲撞。[/n]25%反伤，[/n]10%麻痹几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5D48",
+   "en": "The user hurls two to{{C0}}five hard rocks at the{{C1}}foe to attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "向对手投掷两到[/n]五块硬石。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5D84",
+   "en": "A rapid jolt of{{C0}}electricity strikes.{{C1}}Never misses. Has +2{{C2}}priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "迅捷的电击。[/n]必定命中。[/n]+2先制度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5E10",
+   "en": "A move that attacks the{{C0}}foe with a blast of{{C1}}light two turns after{{C2}}use.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用后两回合，[/n]以光芒冲击对手。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB5EA0",
+   "en": "The user lands and{{C0}}rests its body. It{{C1}}restores up to half of{{C2}}its max HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "落地休息身体。[/n]恢复最大[/n]HP的一半。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6020",
+   "en": "A fast spin. The slower{{C0}}the user, the greater{{C1}}the damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "快速旋转。使用者越慢，[/n]伤害越大。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6154",
+   "en": "Plucks away the foe's{{C0}}item, eating it if it's a{{C1}}Berry. Strong Jaw{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Strong Jaw→强壮之颚"
+   ],
+   "prev": "扯下对手的道具，[/n]若是树果则吃掉。[/n]强壮之颚增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB61A0",
+   "en": "A turbulent whirl-wind{{C0}}that ups the Speed stat{{C1}}of the party for 4{{C2}}turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "猛烈的旋风，[/n]提升我方全员[/n]速度4回合。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6234",
+   "en": "The user retaliates{{C0}}with greater power{{C1}}against the last foe to{{C2}}damage it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "以更大威力反击[/n]上回合攻击自己的[/n]对手。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6340",
+   "en": "Power doubles if the{{C0}}foe has already taken{{C1}}damage in the same{{C2}}turn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "同回合内对手[/n]已受过伤害时，[/n]威力翻倍。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB63D0",
+   "en": "The user flings its item{{C0}}to attack. Outcome{{C1}}varies with items.{{C2}}Throw-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "投掷自身道具攻击。[/n]效果因道具而异。[/n]投掷系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6468",
+   "en": "A desperate attack{{C0}}that deals critical{{C1}}damage when the user is{{C2}}below 50% HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者HP低于50%时，[/n]造成会心[/n]一击伤害的拼命攻击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6550",
+   "en": "The user swaps its{{C0}}Attack and Defense{{C1}}stats and stat boosts.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "交换自身攻击和[/n]防御能力值及能力等级。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB65D8",
+   "en": "For 5 turns, the foe is{{C0}}prevented from landing{{C1}}critical hits.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "5回合内对手无法[/n]造成暴击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB66A0",
+   "en": "Swaps Attack and{{C0}}Special Attack stats{{C1}}and stat boosts with{{C2}}the target.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "与目标交换攻击和[/n]特攻能力值及能力等级。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB66E8",
+   "en": "Swaps Defense and{{C0}}Special Defense stats{{C1}}and stat boosts with{{C2}}the target.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "与目标交换防御和[/n]特防能力值及能力等级。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  }
+ ]
+}

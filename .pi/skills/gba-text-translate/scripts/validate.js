@@ -9,12 +9,13 @@
  *   H2 码表覆盖: 译文中每个字符都能编码
  *   H3 控制码完整: 原文的 [token] 集合与译文一致
  *   H4 字节预算: 译文编码+终止符 ≤ max_bytes（超长警告，由 import 决策 repoint）
+ *   H5 残留英文: 原文与译文共有的 ≥4 字母英文词 = worker 抄了原文（硬错误）
  *   W1 术语一致: en 命中 glossary 时译文应包含对应 zh（--strict 时升级为错误）
  */
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { loadCharmap, encode } = require('./lib/charmap');
+const { loadCharmap, encode, normalizeText, loadSubst, describeUnknown } = require('./lib/charmap');
 const csv = require('./lib/csv');
 
 function parseArgv(argv) {
@@ -42,6 +43,8 @@ function main() {
 		if (config[k] && !path.isAbsolute(config[k])) config[k] = path.resolve(root, config[k]);
 	}
 	const charmap = loadCharmap(config.charmap);
+	const encOpts = config.escPrefix ? { escPrefix: config.escPrefix } : {};
+	const subst = loadSubst(path.join(root, 'subst.json'));
 	const glossary = fs.existsSync(config.glossary)
 		? csv.readObjects(config.glossary) : [];
 	const files = args.scene
@@ -72,13 +75,29 @@ function main() {
 			}
 			if (text === null) continue;
 			importable++;
-			// H2 码表覆盖
-			const { unknown, bytes } = encode(text, charmap);
-			if (unknown.length) errors.push(`H2 ${where}: 码表缺字 [${[...new Set(unknown)].join(' ')}]`);
-			// H3 控制码
-			const enT = extractTokens(row.en).sort().join('|');
-			const zhT = extractTokens(text).sort().join('|');
+			// H2 码表覆盖（emoji/符号/生僻字等码表外内容 = 硬错误）
+			const normText = normalizeText(text, charmap, subst).text;
+			if (normText !== text) row.__norm = normText;
+			const { unknown, bytes } = encode(normText, charmap, encOpts);
+			if (unknown.length) errors.push(`H2 ${where}: 码表外内容 ${describeUnknown(unknown)}`);
+			// H3 控制码（排版码 [/n][/l][/p] 由 wrapText 自动重排，不参与对比）
+			const LAYOUT = new Set(['[/n]', '[/l]', '[/p]']);
+			const sig = t => extractTokens(t).filter(x => !LAYOUT.has(x)).sort().join('|');
+			const enT = sig(row.en);
+			const zhT = sig(text);
 			if (enT !== zhT) errors.push(`H3 ${where}: 控制码不一致 原[${enT}] 译[${zhT}]`);
+			// H5 残留英文（与 apply 门禁 checkTranslatable 同规则）
+			// keep_en（project.json）：专有名词白名单（船名/游戏名等官方不译项）
+			const keepEn = config.keep_en || [];
+			const strip = t => {
+				let s = (t || '').replace(/\[[^\]]*\]|\{[^}]*\}/g, ' ');
+				for (const k of keepEn) s = s.split(k).join(' ');
+				return s;
+			};
+			const enWords = new Set((strip(row.en).match(/[A-Za-z]{4,}/g) || []).map(w => w.toLowerCase()));
+			const zhWords = new Set((strip(text).match(/[A-Za-z]{4,}/g) || []).map(w => w.toLowerCase()));
+			const leftover = [...zhWords].filter(w => enWords.has(w));
+			if (leftover.length) errors.push(`H5 ${where}: 残留英文未翻译 ${leftover.join(' ')}`);
 			// H4 字节预算
 			const totalBytes = bytes.length + 1;
 			if (totalBytes > Number(row.max_bytes)) {

@@ -1,0 +1,2057 @@
+{
+ "batch": 52,
+ "count": 91,
+ "tasks": [
+  {
+   "id": "00345B2D",
+   "scene": "main-text",
+   "en": "A lot of the Battle Frontier's{{C0}}facilities don't allow the use of items{{C1}}during battles.{{C2}}That rule makes things tougher than{{C3}}they already are!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00345E22",
+   "scene": "main-text",
+   "en": "The feeling of being watched faded{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346364",
+   "scene": "main-text",
+   "en": "This is the Trainer Hill where{{C0}}you may enjoy tag battles with many{{C1}}Trainers.{{C2}}Unfortunately, we're still getting{{C3}}things ready. Please come back later!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 150,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003463FA",
+   "scene": "main-text",
+   "en": "Welcome!{{C0}}This is the Trainer Hill where{{C1}}you may enjoy tag battles with many{{C2}}Trainers!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 86,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346450",
+   "scene": "main-text",
+   "en": "Is this your first visit here?{{C0}}Before you enter, please save{{C1}}your game.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346498",
+   "scene": "main-text",
+   "en": "Let's see{{C0}}{{C1}}The Trainers here now are{{C2}}{{C3}}Up to floor no. {{C4}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003464D2",
+   "scene": "main-text",
+   "en": "Let's see{{C0}}{{C1}}The Trainers here now are{{C2}}{{C3}}There appear to be Trainers gathered{{C4}}in every room.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 90,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034652C",
+   "scene": "main-text",
+   "en": "Would you like to challenge the{{C0}}waiting Trainers?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034655E",
+   "scene": "main-text",
+   "en": "I will time your progress.{{C0}}Best of luck!{{C1}}On your marks{{C2}}{{C3}}Get set{{C4}}{{C5}}Go!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003465A3",
+   "scene": "main-text",
+   "en": "Please do visit us again!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003465BD",
+   "scene": "main-text",
+   "en": "That was too bad.{{C0}}I think you put in a tremendous{{C1}}effort in your battling.{{C2}}Please come back and try again!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 107,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346628",
+   "scene": "main-text",
+   "en": "I hope you give it your best.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346646",
+   "scene": "main-text",
+   "en": "When the Trainers switch places,{{C0}}the movement can be hectic.{{C1}}To avoid the stampede, we moved{{C2}}the reception counter here.{{C3}}I'm sorry for the inconvenience.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Counter→双倍奉还"
+   ]
+  },
+  {
+   "id": "003466E0",
+   "scene": "main-text",
+   "en": "Thank you for playing!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003469F9",
+   "scene": "main-text",
+   "en": "For a marvelous someone like you,{{C0}}I have the most marvelous gift!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346A3B",
+   "scene": "main-text",
+   "en": "Oh, no, full up with things!{{C0}}You'll be back later for this!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346A77",
+   "scene": "main-text",
+   "en": "Oh, hold on here! Did you possibly get{{C0}}here marvelously quickly?{{C1}}How splendid! You needn't have{{C2}}hurried so to see me!{{C3}}That is so delightful. I'll have the Time{{C4}}Board at the reception updated!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 192,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346B37",
+   "scene": "main-text",
+   "en": "But, oh{{C0}}{{C1}}You weren't very quick getting here.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346B65",
+   "scene": "main-text",
+   "en": "Perhaps it would please me more if you{{C0}}arrived zippier next time.{{C1}}Then, I should be pleased to form{{C2}}a tag team with you!{{C3}}Until we meet again, amigo!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346C7B",
+   "scene": "main-text",
+   "en": "{{C0}} min. {{C1}}.{{C2}} sec.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346C8E",
+   "scene": "main-text",
+   "en": "Who knows what sort of Trainers{{C0}}and Pokémon combos are ahead?{{C1}}All I know is that I'll knock aside{{C2}}anyone that stands in my way!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 128,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346D0E",
+   "scene": "main-text",
+   "en": "I heard tough Trainers come to this{{C0}}Trainer Hill from all over.{{C1}}I can't wait to test the waters!{{C2}}I'll knock aside anyone that stands{{C3}}in my way!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346D9E",
+   "scene": "main-text",
+   "en": "Do you see the Time Board over there?{{C0}}My friends and I are trying to see who{{C1}}can reach the top in the least time.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346E10",
+   "scene": "main-text",
+   "en": "Do you know when they're opening{{C0}}this place up?{{C1}}I'm waiting here to be the first{{C2}}challenger ever!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 98,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00346E72",
+   "scene": "main-text",
+   "en": "Would you like to return to{{C0}}the reception counter?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Counter→双倍奉还",
+    "Return→报恩"
+   ]
+  },
+  {
+   "id": "00347493",
+   "scene": "main-text",
+   "en": "I'm the owner of the Seashore House.{{C0}}But you can call me Mr. Sea!{{C1}}What I love above all is to see hot{{C2}}Pokémon battles.{{C3}}Let me see that your heart burns hot!{{C4}}If you can defeat all the Trainers{{C5}}here, I'll reward your efforts.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 224,
+   "hint": "纯中文≤111字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00347573",
+   "scene": "main-text",
+   "en": "Show me some hot matches!{{C0}}I run this Seashore House just for{{C1}}that reason alone!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003475C3",
+   "scene": "main-text",
+   "en": "You're scorching hot!{{C0}}Those battles blazed!{{C1}}I'm more than just satisfied!{{C2}}As thanks for showing me your hot{{C3}}streak, I want you to take these.{{C4}}It's half a dozen bottles of Soda Pop!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 181,
+   "hint": "纯中文≤90字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soda Pop→劲爽汽水"
+   ]
+  },
+  {
+   "id": "00347678",
+   "scene": "main-text",
+   "en": "Oh, but hey, your Bag's jammed full.{{C0}}I'll hang on to these for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003476BC",
+   "scene": "main-text",
+   "en": "Want to buy some Soda Pop?{{C0}}Pokémon love it!{{C1}}Just $300 a bottle!{{C2}}Buy some!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soda Pop→劲爽汽水"
+   ]
+  },
+  {
+   "id": "00347706",
+   "scene": "main-text",
+   "en": "Here you go!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00347713",
+   "scene": "main-text",
+   "en": "You don't have the money.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034772D",
+   "scene": "main-text",
+   "en": "No?{{C0}}That's too bad.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00347741",
+   "scene": "main-text",
+   "en": "If you're looking for a battle in the{{C0}}Seashore House, you'll find no{{C1}}hotter Trainer than me, matey!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003477A5",
+   "scene": "main-text",
+   "en": "That was a hot battle!{{C0}}I can accept that loss, matey!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003477DB",
+   "scene": "main-text",
+   "en": "Whenever I'm in Slateport, I enjoy{{C0}}hot battles and ice-cold Soda Pop!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soda Pop→劲爽汽水",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00347821",
+   "scene": "main-text",
+   "en": "Boring battles aren't worth the effort.{{C0}}Fiery hot battles are what toughen up{{C1}}Trainers and Pokémon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00347885",
+   "scene": "main-text",
+   "en": "That's hot!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00347891",
+   "scene": "main-text",
+   "en": "Whew, I'm all thirsty.{{C0}}Maybe I'll have a Soda Pop.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soda Pop→劲爽汽水"
+   ]
+  },
+  {
+   "id": "003478C4",
+   "scene": "main-text",
+   "en": "I'm going to show you how great{{C0}}my Pokémon are, but don't cry!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00347903",
+   "scene": "main-text",
+   "en": "{{C0}}I lost, but I won't cry{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034791D",
+   "scene": "main-text",
+   "en": "If one of my Pokémon knew the move{{C0}}for carrying me across water on its{{C1}}back, I could get rid of this inner tube.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "003479E5",
+   "scene": "main-text",
+   "en": "Excellent work! Here's your new friend,{{C0}}on the house!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00347A1B",
+   "scene": "main-text",
+   "en": "{{C0}} got a {{C1}}Yamper{{C2}} as a gift for{{C3}}defeating every trainer here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yamper→来电汪"
+   ]
+  },
+  {
+   "id": "00347A5D",
+   "scene": "main-text",
+   "en": "In Galar, we call them 'men's best{{C0}}friend'! And they can be your best{{C1}}friend too, as long as your battling{{C2}}skills are on par!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galar→伽勒尔"
+   ]
+  },
+  {
+   "id": "003484FF",
+   "scene": "main-text",
+   "en": "You're being watched{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348515",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}beneath this desk? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348565",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}behind this tree? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003485B4",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}in this dresser? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348602",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}beyond this window? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 81,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348653",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}in this planter? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003486A1",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}in this cupboard? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003486F0",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}behind this window? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 81,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348741",
+   "scene": "main-text",
+   "en": "Hah? Grrr{{C0}}{{C1}}How did you know I concealed myself{{C2}}beneath this cushion? You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348794",
+   "scene": "main-text",
+   "en": "Behold!{{C0}}For I am the greatest living mystery{{C1}}of a man in all of Hoenn!{{C2}}They call me{{C3}}{{C4}}The Trick Master!{{C5}}Wahahaha! Glad to meet you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trick→戏法",
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "00348817",
+   "scene": "main-text",
+   "en": "You, you've come to challenge{{C0}}my Trick House, haven't you?{{C1}}That's why you're here, isn't it?{{C2}}Yes, it is!{{C3}}Consider your challenge accepted!{{C4}}Enter through the scroll there,{{C5}}and let your challenge commence!{{C6}}I shall be waiting in the back!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 236,
+   "hint": "纯中文≤117字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trick→戏法"
+   ]
+  },
+  {
+   "id": "00348903",
+   "scene": "main-text",
+   "en": "It's a scroll.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348912",
+   "scene": "main-text",
+   "en": "There is a big hole behind the scroll!{{C0}}Want to go in?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348948",
+   "scene": "main-text",
+   "en": "There is a note affixed to the scroll{{C0}}{{C1}}“I am leaving on a journey.{{C2}}Don't look for me. Trick Master”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trick→戏法"
+   ]
+  },
+  {
+   "id": "003489AC",
+   "scene": "main-text",
+   "en": "For the next time, I'll use this trick,{{C0}}and that scheme, and those ruses{{C1}}{{C2}}Mufufufu{{C3}} If I may say so, it's{{C4}}brilliantly difficult, even for me!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trick→戏法"
+   ]
+  },
+  {
+   "id": "00348A3A",
+   "scene": "main-text",
+   "en": "Hah? What?!{{C0}}Oh, it's you!{{C1}}I'm in the midst of devising new tricky{{C2}}challenges!{{C3}}It's not too much to ask for a bit more{{C4}}time for me to think, is it now?{{C5}}You wouldn't begrudge me that?{{C6}}Come back in a little while!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 211,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348B0D",
+   "scene": "main-text",
+   "en": "Ah, it's you! You're here to accept the{{C0}}reward from before, isn't that right?{{C1}}Yes, right I am!{{C2}}Here!{{C3}}I'll give it to you now!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348B8B",
+   "scene": "main-text",
+   "en": "Hah?{{C0}}Did you not come to claim your reward?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348BB7",
+   "scene": "main-text",
+   "en": "MECHADOLL 5 I AM!{{C0}}IF REWARD IS NOT TAKEN BY YOU,{{C1}}THEN TRICK MASTER YOU CANNOT FOLLOW.{{C2}}RED TENT OR BLUE TENT,{{C3}}WHICH DO YOU PREFER?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trick→戏法"
+   ]
+  },
+  {
+   "id": "00348C39",
+   "scene": "main-text",
+   "en": "THEN FAREWELL.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348C48",
+   "scene": "main-text",
+   "en": "YOUR PC STATUS: FULL AGAIN.{{C0}}MEAN, YOU ARE.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348C73",
+   "scene": "main-text",
+   "en": "{{C0}} found a scroll.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348C86",
+   "scene": "main-text",
+   "en": "{{C0}} memorized the secret code{{C1}}written on the scroll.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348CBA",
+   "scene": "main-text",
+   "en": "A secret code is written on it.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00348CDA",
+   "scene": "main-text",
+   "en": "The door is locked.{{C0}}{{C1}}On closer inspection, this is written{{C2}}on it: “Write the secret code here.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 96,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003491A7",
+   "scene": "main-text",
+   "en": "Aak!{{C0}}You've made it to me?{{C1}}Hmmm{{C2}} You're sharp!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003491D6",
+   "scene": "main-text",
+   "en": "It took me all night to plant all those{{C0}}trees{{C1}}{{C2}}You're almost my equal in greatness by{{C3}}one, two, three, four, five, six places!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00349255",
+   "scene": "main-text",
+   "en": "It took me all night to make the maze{{C0}}{{C1}}You're almost my equal in greatness by{{C2}}one, two, three, four, five places!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003492C7",
+   "scene": "main-text",
+   "en": "It took me all night to prepare{{C0}}the wall panels{{C1}}{{C2}}You're almost my equal in greatness by{{C3}}one, two, three, four places!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034933D",
+   "scene": "main-text",
+   "en": "It took me all night to shove in those{{C0}}boulders{{C1}}{{C2}}You're almost my equal in greatness by{{C3}}one, two, three places!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 112,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003493AD",
+   "scene": "main-text",
+   "en": "It took me all night to make Mechadolls{{C0}}and another to think up the quiz{{C1}}{{C2}}You're almost my equal in greatness by{{C3}}one, two places!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034942F",
+   "scene": "main-text",
+   "en": "It took me all night to install{{C0}}the doors{{C1}}{{C2}}You're almost my equal in greatness!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034947F",
+   "scene": "main-text",
+   "en": "It took me all night setting up arrows{{C0}}{{C1}}You're my equal in greatness!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003494C5",
+   "scene": "main-text",
+   "en": "It took me all night polishing floors{{C0}}{{C1}}You're above me in greatness!{{C2}}Possibly{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00349514",
+   "scene": "main-text",
+   "en": "Wh-what should I do?{{C0}}My fountain of ideas for tricks has{{C1}}run dry{{C2}}{{C3}}Perhaps it is time I toured the country{{C4}}on a quest to devise new tricks{{C5}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034972F",
+   "scene": "main-text",
+   "en": "What? No room in your PC?{{C0}}What am I to make of that?{{C1}}I wish I could say that, but I am much{{C2}}too kind and caring, so come back later!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "003497B4",
+   "scene": "main-text",
+   "en": "{{C0}} {{C1}} {{C2}} {{C3}} {{C4}} {{C5}}{{C6}}I am leaving on a journey of discovery.{{C7}}A quest in search of new tricks.{{C8}}I wish that you will one day visit and{{C9}}entertain me again.{{C10}}And now, farewell!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 163,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "00349857",
+   "scene": "main-text",
+   "en": "Fine!{{C0}}You have earned this reward!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0034987A",
+   "scene": "main-text",
+   "en": "What? Have you no room for this?{{C0}}What manner of items do you carry?{{C1}}But fine, since you've reached me,{{C2}}your reward will be with me till later.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00349909",
+   "scene": "main-text",
+   "en": "Scrub that smug smirk from your face!{{C0}}It's much too early to think you've won!{{C1}}I'll make new tricks to stump you, I will.{{C2}}You may mock me only when you're done.{{C3}}Come back for the next exciting{{C4}}installment!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 206,
+   "hint": "纯中文≤102字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003499D7",
+   "scene": "main-text",
+   "en": "Now, now! You're ignoring me now?{{C0}}Now that, I consider heartbreaking!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00349A1D",
+   "scene": "main-text",
+   "en": "{{C0}} got a {{C1}}Pikachu{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pikachu→皮卡丘"
+   ]
+  },
+  {
+   "id": "00349ABE",
+   "scene": "main-text",
+   "en": "{{C0}} wrote down the secret code{{C1}}on the door.{{C2}}“Trick Master is fabulous.”{{C3}}{{C4}} {{C5}} {{C6}} {{C7}} {{C8}} {{C9}} {{C10}} {{C11}}{{C12}}The lock clicked open!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trick→戏法"
+   ]
+  },
+  {
+   "id": "00349B2C",
+   "scene": "main-text",
+   "en": "I'll hack and slash my way to victory{{C0}}with the Cut we just learned!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cut→居合斩",
+    "Slash→劈开"
+   ]
+  },
+  {
+   "id": "00349B70",
+   "scene": "main-text",
+   "en": "Why are you so serious?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Serious→认真"
+   ]
+  },
+  {
+   "id": "00349B88",
+   "scene": "main-text",
+   "en": "I never get tired of hacking{{C0}}and slashing!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

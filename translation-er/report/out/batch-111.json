@@ -1,0 +1,1462 @@
+[
+ {
+  "id": "00AB8E38",
+  "zh": "Dracovishite"
+ },
+ {
+  "id": "00AB8E48",
+  "zh": "Ribombite R"
+ },
+ {
+  "id": "00AB8E54",
+  "zh": "Weavilite R"
+ },
+ {
+  "id": "00AB8E60",
+  "zh": "梦幻宝珠"
+ },
+ {
+  "id": "00AB8E6C",
+  "zh": "幸运宝珠"
+ },
+ {
+  "id": "00AB8E78",
+  "zh": "古代苹果片"
+ },
+ {
+  "id": "00AB8E88",
+  "zh": "时髦邮件"
+ },
+ {
+  "id": "00AB8E94",
+  "zh": "复古邮件"
+ },
+ {
+  "id": "00AB8EA0",
+  "zh": "虫子存储碟"
+ },
+ {
+  "id": "00AB8EAC",
+  "zh": "黑暗存储碟"
+ },
+ {
+  "id": "00AB8EB8",
+  "zh": "龙存储碟"
+ },
+ {
+  "id": "00AB8EC8",
+  "zh": "电存储碟"
+ },
+ {
+  "id": "00AB8ED8",
+  "zh": "妖精存储碟"
+ },
+ {
+  "id": "00AB8EE8",
+  "zh": "格斗存储碟"
+ },
+ {
+  "id": "00AB8EF8",
+  "zh": "火焰存储碟"
+ },
+ {
+  "id": "00AB8F04",
+  "zh": "飞翔存储碟"
+ },
+ {
+  "id": "00AB8F14",
+  "zh": "幽灵存储碟"
+ },
+ {
+  "id": "00AB8F24",
+  "zh": "青草存储碟"
+ },
+ {
+  "id": "00AB8F34",
+  "zh": "大地存储碟"
+ },
+ {
+  "id": "00AB8F44",
+  "zh": "冰雪存储碟"
+ },
+ {
+  "id": "00AB8F50",
+  "zh": "毒存储碟"
+ },
+ {
+  "id": "00AB8F60",
+  "zh": "超能力存储碟"
+ },
+ {
+  "id": "00AB8F70",
+  "zh": "岩石存储碟"
+ },
+ {
+  "id": "00AB8F7C",
+  "zh": "钢铁存储碟"
+ },
+ {
+  "id": "00AB8F8C",
+  "zh": "清水存储碟"
+ },
+ {
+  "id": "00AB8F9C",
+  "zh": "包裹"
+ },
+ {
+  "id": "00AB8FA4",
+  "zh": "宝可梦之笛"
+ },
+ {
+  "id": "00AB8FB0",
+  "zh": "秘密钥匙"
+ },
+ {
+  "id": "00AB8FBC",
+  "zh": "自行车券"
+ },
+ {
+  "id": "00AB8FCC",
+  "zh": "金假牙"
+ },
+ {
+  "id": "00AB8FD8",
+  "zh": "钥匙卡"
+ },
+ {
+  "id": "00AB8FE4",
+  "zh": "电梯钥匙"
+ },
+ {
+  "id": "00AB8FF0",
+  "zh": "西尔佛检视镜"
+ },
+ {
+  "id": "00AB8FFC",
+  "zh": "自行车"
+ },
+ {
+  "id": "00AB9004",
+  "zh": "城镇地图"
+ },
+ {
+  "id": "00AB9010",
+  "zh": "对战搜寻器"
+ },
+ {
+  "id": "00AB901C",
+  "zh": "明星检查器"
+ },
+ {
+  "id": "00AB902C",
+  "zh": "招式学习器盒"
+ },
+ {
+  "id": "00AB9034",
+  "zh": "树果袋"
+ },
+ {
+  "id": "00AB9040",
+  "zh": "教学电视"
+ },
+ {
+  "id": "00AB904C",
+  "zh": "三张通行证"
+ },
+ {
+  "id": "00AB9058",
+  "zh": "七彩通行证"
+ },
+ {
+  "id": "00AB9068",
+  "zh": "茶"
+ },
+ {
+  "id": "00AB906C",
+  "zh": "红宝石"
+ },
+ {
+  "id": "00AB9074",
+  "zh": "蓝宝石"
+ },
+ {
+  "id": "00AB9080",
+  "zh": "Ｚ手环"
+ },
+ {
+  "id": "00AB9088",
+  "zh": "一般Ｚ"
+ },
+ {
+  "id": "00AB9094",
+  "zh": "格斗Ｚ"
+ },
+ {
+  "id": "00AB90A4",
+  "zh": "飞行Ｚ"
+ },
+ {
+  "id": "00AB90B0",
+  "zh": "毒Ｚ"
+ },
+ {
+  "id": "00AB90BC",
+  "zh": "地面Ｚ"
+ },
+ {
+  "id": "00AB90C8",
+  "zh": "岩石Ｚ"
+ },
+ {
+  "id": "00AB90D4",
+  "zh": "虫Ｚ"
+ },
+ {
+  "id": "00AB90E0",
+  "zh": "幽灵Ｚ"
+ },
+ {
+  "id": "00AB90EC",
+  "zh": "钢Ｚ"
+ },
+ {
+  "id": "00AB90F8",
+  "zh": "火Ｚ"
+ },
+ {
+  "id": "00AB9104",
+  "zh": "水Ｚ"
+ },
+ {
+  "id": "00AB9110",
+  "zh": "草Ｚ"
+ },
+ {
+  "id": "00AB911C",
+  "zh": "电Ｚ"
+ },
+ {
+  "id": "00AB9128",
+  "zh": "超能力Ｚ"
+ },
+ {
+  "id": "00AB9134",
+  "zh": "冰Ｚ"
+ },
+ {
+  "id": "00AB913C",
+  "zh": "龙Ｚ"
+ },
+ {
+  "id": "00AB9148",
+  "zh": "恶Ｚ"
+ },
+ {
+  "id": "00AB9154",
+  "zh": "妖精Ｚ"
+ },
+ {
+  "id": "00AB9160",
+  "zh": "阿罗雷Ｚ"
+ },
+ {
+  "id": "00AB9170",
+  "zh": "狙射树枭Ｚ"
+ },
+ {
+  "id": "00AB917C",
+  "zh": "伊布Ｚ"
+ },
+ {
+  "id": "00AB9188",
+  "zh": "炽焰咆哮虎Ｚ"
+ },
+ {
+  "id": "00AB9194",
+  "zh": "杖尾鳞甲龙Ｚ"
+ },
+ {
+  "id": "00AB91A0",
+  "zh": "露奈雅拉Ｚ"
+ },
+ {
+  "id": "00AB91AC",
+  "zh": "鬃岩狼人Ｚ"
+ },
+ {
+  "id": "00AB91B8",
+  "zh": "玛夏多Ｚ"
+ },
+ {
+  "id": "00AB91C8",
+  "zh": "梦幻Ｚ"
+ },
+ {
+  "id": "00AB91D4",
+  "zh": "谜拟ＱＺ"
+ },
+ {
+  "id": "00AB91E0",
+  "zh": "皮卡丘Ｚ"
+ },
+ {
+  "id": "00AB91EC",
+  "zh": "智皮卡Ｚ"
+ },
+ {
+  "id": "00AB91FC",
+  "zh": "西狮海壬Ｚ"
+ },
+ {
+  "id": "00AB9208",
+  "zh": "卡比兽Ｚ"
+ },
+ {
+  "id": "00AB9214",
+  "zh": "索尔迦雷欧Ｚ"
+ },
+ {
+  "id": "00AB9220",
+  "zh": "卡璞Ｚ"
+ },
+ {
+  "id": "00AB922C",
+  "zh": "Dududunite"
+ },
+ {
+  "id": "00AB9238",
+  "zh": "碧草面具"
+ },
+ {
+  "id": "00AB9244",
+  "zh": "火灶面具"
+ },
+ {
+  "id": "00AB9258",
+  "zh": "水井面具"
+ },
+ {
+  "id": "00AB9268",
+  "zh": "础石面具"
+ },
+ {
+  "id": "00AB927C",
+  "zh": "Tinkatite R"
+ },
+ {
+  "id": "00AB9288",
+  "zh": "Scizorite R"
+ },
+ {
+  "id": "00AB9294",
+  "zh": "Scytherite R"
+ },
+ {
+  "id": "00AB92A4",
+  "zh": "Kleavite R"
+ },
+ {
+  "id": "00AB92B0",
+  "zh": "Kinglerite R"
+ },
+ {
+  "id": "00AB92C0",
+  "zh": "Luxraynite R"
+ },
+ {
+  "id": "00AB92D0",
+  "zh": "Kilozunite"
+ },
+ {
+  "id": "00AB92DC",
+  "zh": "Aggronite R"
+ },
+ {
+  "id": "00AB92E8",
+  "zh": "Gardevoirite R"
+ },
+ {
+  "id": "00AB92F8",
+  "zh": "Clodsite"
+ },
+ {
+  "id": "00AB9304",
+  "zh": "Gothitite"
+ },
+ {
+  "id": "00AB9310",
+  "zh": "Snorlaxite R"
+ },
+ {
+  "id": "00AB9320",
+  "zh": "Arcanite H"
+ },
+ {
+  "id": "00AB932C",
+  "zh": "Reuniclusite"
+ },
+ {
+  "id": "00AB933C",
+  "zh": "Swampageite"
+ },
+ {
+  "id": "00AB9348",
+  "zh": "Chandelurite X"
+ },
+ {
+  "id": "00AB9358",
+  "zh": "Chandelurite Y"
+ },
+ {
+  "id": "00AB9368",
+  "zh": "Zapdosite-EX"
+ },
+ {
+  "id": "00AB9378",
+  "zh": "Articunite-EX"
+ },
+ {
+  "id": "00AB9388",
+  "zh": "Moltresite-EX"
+ },
+ {
+  "id": "00AB9398",
+  "zh": "Carbonixite"
+ },
+ {
+  "id": "00AB93A4",
+  "zh": "Dragapultite"
+ },
+ {
+  "id": "00AB93B4",
+  "zh": "Sandslashite-A"
+ },
+ {
+  "id": "00AB93C4",
+  "zh": "Kleavite"
+ },
+ {
+  "id": "00AB93D0",
+  "zh": "Scytherite"
+ },
+ {
+  "id": "00AB93DC",
+  "zh": "Hydreigonite"
+ },
+ {
+  "id": "00AB93EC",
+  "zh": "Vanilluxeite"
+ },
+ {
+  "id": "00AB93FC",
+  "zh": "Heracreusite"
+ },
+ {
+  "id": "00AB940C",
+  "zh": "Excadrillite-R"
+ },
+ {
+  "id": "00AB941C",
+  "zh": "Mamoswinite-R"
+ },
+ {
+  "id": "00AB942C",
+  "zh": "Vanilluxeite-R"
+ },
+ {
+  "id": "00AB943C",
+  "zh": "Chandelurite-R"
+ },
+ {
+  "id": "00AB944C",
+  "zh": "Sneaslerite"
+ },
+ {
+  "id": "00AB9458",
+  "zh": "Clefablite"
+ },
+ {
+  "id": "00AB9464",
+  "zh": "Clefablite Y"
+ },
+ {
+  "id": "00AB9474",
+  "zh": "Goodrite-H"
+ },
+ {
+  "id": "00AB9480",
+  "zh": "Tsareenite"
+ },
+ {
+  "id": "00AB948C",
+  "zh": "Altarianite-R"
+ },
+ {
+  "id": "00AB949C",
+  "zh": "Hariyamite"
+ },
+ {
+  "id": "00AB94A8",
+  "zh": "Luxzerite"
+ },
+ {
+  "id": "00AB94B4",
+  "zh": "Talonflameite"
+ },
+ {
+  "id": "00AB94C4",
+  "zh": "Chesnaughtite"
+ },
+ {
+  "id": "00AB94D4",
+  "zh": "Greninjite"
+ },
+ {
+  "id": "00AB94E0",
+  "zh": "Delphoxite"
+ },
+ {
+  "id": "00AB94EC",
+  "zh": "Victreebelite"
+ },
+ {
+  "id": "00AB94FC",
+  "zh": "Starminite"
+ },
+ {
+  "id": "00AB9508",
+  "zh": "Excadrite"
+ },
+ {
+  "id": "00AB9514",
+  "zh": "Scolipite"
+ },
+ {
+  "id": "00AB9520",
+  "zh": "Eelektrossite"
+ },
+ {
+  "id": "00AB9530",
+  "zh": "Pyroarite"
+ },
+ {
+  "id": "00AB953C",
+  "zh": "Malamarite"
+ },
+ {
+  "id": "00AB9548",
+  "zh": "Barbaracite"
+ },
+ {
+  "id": "00AB9554",
+  "zh": "Dragalgite"
+ },
+ {
+  "id": "00AB9560",
+  "zh": "Hawluchanite"
+ },
+ {
+  "id": "00AB9570",
+  "zh": "Zygardite"
+ },
+ {
+  "id": "00AB957C",
+  "zh": "Drampanite"
+ },
+ {
+  "id": "00AB9588",
+  "zh": "Falinksite"
+ },
+ {
+  "id": "00AB9594",
+  "zh": "雷丘"
+ },
+ {
+  "id": "00AB959C",
+  "zh": "Raichunite Y"
+ },
+ {
+  "id": "00AB95AC",
+  "zh": "Scovillainite"
+ },
+ {
+  "id": "00AB95BC",
+  "zh": "Chimechite"
+ },
+ {
+  "id": "00AB95C8",
+  "zh": "Crabominite"
+ },
+ {
+  "id": "00AB95D4",
+  "zh": "Staraptite"
+ },
+ {
+  "id": "00AB95E0",
+  "zh": "Heatranite"
+ },
+ {
+  "id": "00AB95EC",
+  "zh": "Darkranite"
+ },
+ {
+  "id": "00AB95F8",
+  "zh": "Golurkite"
+ },
+ {
+  "id": "00AB9604",
+  "zh": "Meowsticite"
+ },
+ {
+  "id": "00AB9610",
+  "zh": "Magearnite"
+ },
+ {
+  "id": "00AB961C",
+  "zh": "Zeraorite"
+ },
+ {
+  "id": "00AB9628",
+  "zh": "Glimmoranite"
+ },
+ {
+  "id": "00AB9638",
+  "zh": "Tatsugirinite"
+ },
+ {
+  "id": "00AB9648",
+  "zh": "Baxcalibrite"
+ },
+ {
+  "id": "00AB9658",
+  "zh": "末影之眼"
+ },
+ {
+  "id": "00AB9668",
+  "zh": "Floettite"
+ },
+ {
+  "id": "00AE7E70",
+  "zh": "选择"
+ },
+ {
+  "id": "00AE7E78",
+  "zh": "列表"
+ },
+ {
+  "id": "00AE83D0",
+  "zh": "You already have too{{C0}}many items registered!"
+ },
+ {
+  "id": "00AE8DBC",
+  "zh": "Made {{C0}}s the default ball!{{C1}}Ì"
+ },
+ {
+  "id": "00AE8DDC",
+  "zh": "Random balls will be used!{{C0}}Ì"
+ },
+ {
+  "id": "00AE8DFC",
+  "zh": "Cannot throw a ball!{{C0}}There are two Pokémon out there!{{C1}}"
+ },
+ {
+  "id": "00AE8E34",
+  "zh": "Cannot throw a ball!{{C0}}There's no Pokémon in sight!{{C1}}"
+ },
+ {
+  "id": "00AE8EC8",
+  "zh": "花店"
+ },
+ {
+  "id": "00AE8ED4",
+  "zh": "橙华森林"
+ },
+ {
+  "id": "00AE8EE4",
+  "zh": "布列尼的小屋"
+ },
+ {
+  "id": "00AE8EFC",
+  "zh": "废弃船"
+ },
+ {
+  "id": "00AE8F0C",
+  "zh": "海滨小屋"
+ },
+ {
+  "id": "00AE8F1C",
+  "zh": "凯那海滩"
+ },
+ {
+  "id": "00AE8F2C",
+  "zh": "自行车道"
+ },
+ {
+  "id": "00AE8F3C",
+  "zh": "新紫堇"
+ },
+ {
+  "id": "00AE8F4C",
+  "zh": "戏法屋"
+ },
+ {
+  "id": "00AE8F58",
+  "zh": "老婆婆的休息站"
+ },
+ {
+  "id": "00AE8F70",
+  "zh": "沙漠"
+ },
+ {
+  "id": "00AE8F78",
+  "zh": "温斯特一家"
+ },
+ {
+  "id": "00AE8F90",
+  "zh": "缆车"
+ },
+ {
+  "id": "00AE8F9C",
+  "zh": "玻璃工坊"
+ },
+ {
+  "id": "00AE8FAC",
+  "zh": "天气研究所"
+ },
+ {
+  "id": "00AE8FC0",
+  "zh": "流星瀑布"
+ },
+ {
+  "id": "00AE8FD0",
+  "zh": "隧道工人的休息站"
+ },
+ {
+  "id": "00AE8FE8",
+  "zh": "古拉顿隧道"
+ },
+ {
+  "id": "00AE8FF8",
+  "zh": "宝可梦寄放屋"
+ },
+ {
+  "id": "00AE900C",
+  "zh": "狩猎地带入口"
+ },
+ {
+  "id": "00AE9024",
+  "zh": "送火神山"
+ },
+ {
+  "id": "00AE9030",
+  "zh": "洼洼洞"
+ },
+ {
+  "id": "00AE903C",
+  "zh": "海底洞窟"
+ },
+ {
+  "id": "00AE904C",
+  "zh": "岩石洞"
+ },
+ {
+  "id": "00AE905C",
+  "zh": "海流"
+ },
+ {
+  "id": "00AE906C",
+  "zh": "拉娜的小屋"
+ },
+ {
+  "id": "00AE907C",
+  "zh": "火之径"
+ },
+ {
+  "id": "00AE9088",
+  "zh": "凹凸山道"
+ },
+ {
+  "id": "00AE9094",
+  "zh": "天空之柱"
+ },
+ {
+  "id": "00AE90A0",
+  "zh": "树果名人的小屋"
+ },
+ {
+  "id": "00AE90B8",
+  "zh": "孤岛洞穴"
+ },
+ {
+  "id": "00AE90C4",
+  "zh": "沙漠遗迹"
+ },
+ {
+  "id": "00AE90D4",
+  "zh": "灼热石板"
+ },
+ {
+  "id": "00AE90E4",
+  "zh": "古代墓穴"
+ },
+ {
+  "id": "00AE90F4",
+  "zh": "密封的房间"
+ },
+ {
+  "id": "00AE9104",
+  "zh": "化石狂人的小屋"
+ },
+ {
+  "id": "00AE911C",
+  "zh": "猎人的小屋"
+ },
+ {
+  "id": "00AE913C",
+  "zh": "幻影塔"
+ },
+ {
+  "id": "00AE914C",
+  "zh": "变化洞穴"
+ },
+ {
+  "id": "00AE915C",
+  "zh": "沙漠地下通道"
+ },
+ {
+  "id": "00AE9170",
+  "zh": "训练家之丘"
+ },
+ {
+  "id": "00AE9180",
+  "zh": "浪花洞"
+ },
+ {
+  "id": "00AE9190",
+  "zh": "德文草原"
+ },
+ {
+  "id": "00AE91A0",
+  "zh": "德文宅邸"
+ },
+ {
+  "id": "00AE91B0",
+  "zh": "翠绿草原"
+ },
+ {
+  "id": "00AE91C0",
+  "zh": "火花小径"
+ },
+ {
+  "id": "00AE91CC",
+  "zh": "灰烬森林"
+ },
+ {
+  "id": "00AE91D8",
+  "zh": "沙尘遗迹"
+ },
+ {
+  "id": "00AEB840",
+  "zh": "The save file cannot be loaded since{{C0}}its from a future version of this game."
+ },
+ {
+  "id": "00AEE7A4",
+  "zh": "金字塔第1层"
+ },
+ {
+  "id": "00AEE7B4",
+  "zh": "金字塔第2层"
+ },
+ {
+  "id": "00AEE7C4",
+  "zh": "金字塔第3层"
+ },
+ {
+  "id": "00AEE7D4",
+  "zh": "金字塔第4层"
+ },
+ {
+  "id": "00AEE7E4",
+  "zh": "金字塔第5层"
+ },
+ {
+  "id": "00AEE7F4",
+  "zh": "金字塔第6层"
+ },
+ {
+  "id": "00AEE804",
+  "zh": "金字塔第7层"
+ },
+ {
+  "id": "00AEE814",
+  "zh": "金字塔"
+ },
+ {
+  "id": "00AF1F28",
+  "zh": "Canceled reading{{C0}}the Card."
+ },
+ {
+  "id": "00AF4950",
+  "zh": "A special RIBBON was awarded to{{C0}}your party Pokémon."
+ },
+ {
+  "id": "00AF4984",
+  "zh": "The Pokédex has been upgraded{{C0}}with the NATIONAL MODE."
+ },
+ {
+  "id": "00AF49BC",
+  "zh": "A rare word has been added."
+ },
+ {
+  "id": "00AF49D8",
+  "zh": "{{C0}} was sent over!"
+ },
+ {
+  "id": "00AF49EC",
+  "zh": "Your party is full.{{C0}}{{C1}} could not be sent over."
+ },
+ {
+  "id": "00AF4A74",
+  "zh": "This data can't be used in{{C0}}this version."
+ },
+ {
+  "id": "00AF4FCC",
+  "zh": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!"
+ },
+ {
+  "id": "00AF5694",
+  "zh": "战斗速度"
+ },
+ {
+  "id": "00AF56A4",
+  "zh": "地图速度"
+ },
+ {
+  "id": "00AF56B4",
+  "zh": "体力条"
+ },
+ {
+  "id": "00AF56C4",
+  "zh": "自动奔跑"
+ },
+ {
+  "id": "00AF56E0",
+  "zh": "显示伤害"
+ },
+ {
+  "id": "00AF56F0",
+  "zh": "询问昵称"
+ },
+ {
+  "id": "00AF5704",
+  "zh": "启用努力值"
+ },
+ {
+  "id": "00AF5710",
+  "zh": "玩家AI"
+ },
+ {
+  "id": "00AF571C",
+  "zh": "闪光率"
+ },
+ {
+  "id": "00AF5728",
+  "zh": "个体颜色"
+ },
+ {
+  "id": "00AF574C",
+  "zh": "双人对战"
+ },
+ {
+  "id": "00AF575C",
+  "zh": "自动努力值"
+ },
+ {
+  "id": "00AF576C",
+  "zh": "自动经验值"
+ },
+ {
+  "id": "00AF577C",
+  "zh": "自动进化"
+ },
+ {
+  "id": "00AF578C",
+  "zh": "战斗界面皮肤"
+ },
+ {
+  "id": "00AF579C",
+  "zh": "开始菜单颜色"
+ },
+ {
+  "id": "00AF57B0",
+  "zh": "快捷键按钮"
+ },
+ {
+  "id": "00AF57C0",
+  "zh": "伤害百分比"
+ },
+ {
+  "id": "00AF57E8",
+  "zh": "保存"
+ },
+ {
+  "id": "00AF5858",
+  "zh": "Save your settings."
+ },
+ {
+  "id": "00AF586C",
+  "zh": "Choose one of the four Battle{{C0}}speeds."
+ },
+ {
+  "id": "00AF5894",
+  "zh": "Change overworld speed. (highly{{C0}}experimental, please report bugs)"
+ },
+ {
+  "id": "00AF58D8",
+  "zh": "Choose one of the four text-display{{C0}}speeds."
+ },
+ {
+  "id": "00AF5904",
+  "zh": "Choose one of the four HP Bar{{C0}}speeds."
+ },
+ {
+  "id": "00AF592C",
+  "zh": "Show the POKéMON battle animations."
+ },
+ {
+  "id": "00AF5950",
+  "zh": "Skip the POKéMON battle animations."
+ },
+ {
+  "id": "00AF59E8",
+  "zh": "Sound is the same in all speakers.{{C0}}Recommended for original hardware."
+ },
+ {
+  "id": "00AF5A30",
+  "zh": "Play the left and right audio channel{{C0}}seperatly. Great with headphones."
+ },
+ {
+  "id": "00AF5A78",
+  "zh": "All buttons work as normal."
+ },
+ {
+  "id": "00AF5A94",
+  "zh": "On some screens the L and R buttons{{C0}}act as left and right."
+ },
+ {
+  "id": "00AF5AD0",
+  "zh": "The L button acts as another A{{C0}}button for one-handed play."
+ },
+ {
+  "id": "00AF5B90",
+  "zh": "Choose the frame surrounding the{{C0}}windows."
+ },
+ {
+  "id": "00AF5C28",
+  "zh": "Your Character will run without{{C0}}having to press B."
+ },
+ {
+  "id": "00AF5C5C",
+  "zh": "Your Character will run only{{C0}}when you press B."
+ },
+ {
+  "id": "00AF5CDC",
+  "zh": "The damage dealt will be shown{{C0}}in battle."
+ },
+ {
+  "id": "00AF5D08",
+  "zh": "The damage dealt will not be{{C0}}shown in battle."
+ },
+ {
+  "id": "00AF5D38",
+  "zh": "Each time you catch a Pokémon it will{{C0}}ask you if you want to nickname it."
+ },
+ {
+  "id": "00AF5D84",
+  "zh": "Each time you catch a Pokémon it will{{C0}}not ask you if you want to nickname it."
+ },
+ {
+  "id": "00AF5DD4",
+  "zh": "EVs will be enabled while calculating{{C0}}the stats for the player and AI."
+ },
+ {
+  "id": "00AF5E1C",
+  "zh": "EVs will be disabled while calculating{{C0}}the stats for the player and AI."
+ },
+ {
+  "id": "00AF5E64",
+  "zh": "The AI will do trainer battles{{C0}}instead of the player."
+ },
+ {
+  "id": "00AF5E9C",
+  "zh": "The Player will play every battle."
+ },
+ {
+  "id": "00AF5EC0",
+  "zh": "Modify the Shiny Rate."
+ },
+ {
+  "id": "00AF5ED8",
+  "zh": "Each Pokémon will have a different{{C0}}colors based on their personality."
+ },
+ {
+  "id": "00AF5F20",
+  "zh": "Each Pokémon will not have a different{{C0}}colors based on their personality."
+ },
+ {
+  "id": "00AF6154",
+  "zh": "Enable Double Battle Mode."
+ },
+ {
+  "id": "00AF6170",
+  "zh": "Disable Double Battle Mode."
+ },
+ {
+  "id": "00AF618C",
+  "zh": "Pokémon will gain Evs in battle{{C0}}depending on the defeated foe."
+ },
+ {
+  "id": "00AF61CC",
+  "zh": "Pokémon will not gain any Evs, only{{C0}}using the summary screen."
+ },
+ {
+  "id": "00AF620C",
+  "zh": "Pokémon will gain Exp in battle{{C0}}and level up there too."
+ },
+ {
+  "id": "00AF6244",
+  "zh": "Pokémon will not gain any Exp and{{C0}}will only level up with a Candy Box."
+ },
+ {
+  "id": "00AF628C",
+  "zh": "Pokémon will automatically evolve{{C0}}after reaching the criteria."
+ },
+ {
+  "id": "00AF62CC",
+  "zh": "Pokémon will not evolve unless you{{C0}}manually evolve it in the party menu."
+ },
+ {
+  "id": "00AF6318",
+  "zh": "Choose the Battle UI Theme."
+ },
+ {
+  "id": "00AF6334",
+  "zh": "Choose the Start Menu Colors."
+ },
+ {
+  "id": "00AF6354",
+  "zh": "Choose the In-Battle Shortcut{{C0}}that you can use with L."
+ },
+ {
+  "id": "00AF638C",
+  "zh": "Globally set damage reduction."
+ },
+ {
+  "id": "00AF6478",
+  "zh": "Damage Slider is disabled in Hell Mode."
+ },
+ {
+  "id": "00AF64E0",
+  "zh": "通用"
+ },
+ {
+  "id": "00AF64F4",
+  "zh": "自定义"
+ },
+ {
+  "id": "00AF6544",
+  "zh": "瞬间"
+ },
+ {
+  "id": "00AF655C",
+  "zh": "正常速度"
+ },
+ {
+  "id": "00AF656C",
+  "zh": "战斗速度x2"
+ },
+ {
+  "id": "00AF657C",
+  "zh": "战斗速度x3"
+ },
+ {
+  "id": "00AF658C",
+  "zh": "战斗速度x4"
+ },
+ {
+  "id": "00AF659C",
+  "zh": "关闭动画"
+ },
+ {
+  "id": "00AF65B0",
+  "zh": "正常速度"
+ },
+ {
+  "id": "00AF65C0",
+  "zh": "地图速度x2"
+ },
+ {
+  "id": "00AF65D4",
+  "zh": "地图速度x4"
+ },
+ {
+  "id": "00AF65E8",
+  "zh": "地图速度x8"
+ },
+ {
+  "id": "00AF6610",
+  "zh": "开启"
+ },
+ {
+  "id": "00AF6618",
+  "zh": "关闭"
+ },
+ {
+  "id": "00AF6654",
+  "zh": "绿宝石"
+ },
+ {
+  "id": "00AF6664",
+  "zh": "默认"
+ },
+ {
+  "id": "00AF66B8",
+  "zh": "Elite Redux 深色"
+ },
+ {
+  "id": "00AF66CC",
+  "zh": "Elite Redux 透明"
+ },
+ {
+  "id": "00AF66E0",
+  "zh": "钻石和珍珠"
+ },
+ {
+  "id": "00AF66F0",
+  "zh": "经典"
+ },
+ {
+  "id": "00AF66F8",
+  "zh": "蓝色"
+ },
+ {
+  "id": "00AF6700",
+  "zh": "红色"
+ },
+ {
+  "id": "00AF6704",
+  "zh": "黄色"
+ },
+ {
+  "id": "00AF670C",
+  "zh": "绿色"
+ },
+ {
+  "id": "00AF6714",
+  "zh": "深色"
+ },
+ {
+  "id": "00AF671C",
+  "zh": "百科"
+ },
+ {
+  "id": "00AF6724",
+  "zh": "战斗"
+ },
+ {
+  "id": "00AF672C",
+  "zh": "宝可梦"
+ },
+ {
+  "id": "00AF6734",
+  "zh": "逃跑"
+ },
+ {
+  "id": "00AF6738",
+  "zh": "信息"
+ },
+ {
+  "id": "00AF6740",
+  "zh": "无"
+ },
+ {
+  "id": "00AF6748",
+  "zh": "调试"
+ },
+ {
+  "id": "00B046FC",
+  "zh": "Would you like to change {{C0}}'s{{C1}}ability to {{C2}}?"
+ },
+ {
+  "id": "00B0472C",
+  "zh": "{{C0}}'s ability became{{C1}}{{C2}}!{{C3}}Ì"
+ },
+ {
+  "id": "00B04748",
+  "zh": "等级上限"
+ },
+ {
+  "id": "00B04754",
+  "zh": "Would you like to change {{C0}}'s{{C1}}Form?"
+ },
+ {
+  "id": "00B04778",
+  "zh": "{{C0}}'s Form Changed!{{C1}}Ì"
+ },
+ {
+  "id": "00B04790",
+  "zh": "Would you like to change {{C0}}'s{{C1}}Hidden Power Type to {{C2}}?"
+ },
+ {
+  "id": "00B047C8",
+  "zh": "{{C0}}'s Hidden Power Type became{{C1}}{{C2}}!{{C3}}Ì"
+ },
+ {
+  "id": "00B047EC",
+  "zh": "Do you want to slow down this Pokémon?"
+ },
+ {
+  "id": "00B04814",
+  "zh": "Do you want to make this Pokémon faster?"
+ },
+ {
+  "id": "00B04840",
+  "zh": "Your Pokémon became slower!{{C0}}Ì"
+ },
+ {
+  "id": "00B04860",
+  "zh": "Your Pokémon became faster!{{C0}}Ì"
+ },
+ {
+  "id": "00B08104",
+  "zh": "Unknown"
+ },
+ {
+  "id": "00B0810C",
+  "zh": "This is a newly discovered Pokémon. It is{{C0}}currently under investigation. No detailed{{C1}}information is available at this time."
+ },
+ {
+  "id": "00B08188",
+  "zh": "Seed"
+ },
+ {
+  "id": "00B08190",
+  "zh": "Bulbasaur can be seen napping in bright{{C0}}sunlight. There is a seed on its back. By{{C1}}soaking up the sun's rays, the seed grows{{C2}}progressively larger."
+ },
+ {
+  "id": "00B08224",
+  "zh": "Seed"
+ },
+ {
+  "id": "00B0822C",
+  "zh": "To support its bulb, Ivysaur's legs grow{{C0}}sturdy. If it spends more time lying in the{{C1}}sunlight, the bud will soon bloom into a{{C2}}large flower."
+ },
+ {
+  "id": "00B082B8",
+  "zh": "Seed"
+ },
+ {
+  "id": "00B082C0",
+  "zh": "Venusaur's flower is said to take on vivid{{C0}}colors if it gets plenty of nutrition and{{C1}}sunlight. The flower's aroma soothes the{{C2}}emotions of people."
+ },
+ {
+  "id": "00B08354",
+  "zh": "Lizard"
+ },
+ {
+  "id": "00B0835C",
+  "zh": "The flame that burns at the tip of its tail{{C0}}is an indication of its emotions. The flame{{C1}}wavers when Charmander is happy, and{{C2}}blazes when it is enraged."
+ },
+ {
+  "id": "00B083F4",
+  "zh": "Flame"
+ },
+ {
+  "id": "00B083FC",
+  "zh": "Without pity, its sharp claws destroy foes.{{C0}}If it encounters a strong enemy, it{{C1}}becomes agitated, and the flame on its tail{{C2}}flares with a bluish white color."
+ },
+ {
+  "id": "00B0849C",
+  "zh": "Flame"
+ },
+ {
+  "id": "00B084A4",
+  "zh": "A Charizard flies about in search of{{C0}}strong opponents. It breathes intense{{C1}}flames that can melt any material. However,{{C2}}it will never torch a weaker foe."
+ },
+ {
+  "id": "00B08540",
+  "zh": "Tiny Turtle"
+ },
+ {
+  "id": "00B0854C",
+  "zh": "Its shell is not just for protection. Its{{C0}}rounded shape and the grooves on its{{C1}}surface minimize resistance in water,{{C2}}enabling Squirtle to swim at high speeds."
+ },
+ {
+  "id": "00B085EC",
+  "zh": "Turtle"
+ },
+ {
+  "id": "00B085F4",
+  "zh": "Its large tail is covered with rich, thick{{C0}}fur that deepens in color with age. The{{C1}}scratches on its shell are evidence of{{C2}}this Pokémon's toughness in battle."
+ },
+ {
+  "id": "00B08694",
+  "zh": "Shellfish"
+ },
+ {
+  "id": "00B086A0",
+  "zh": "The waterspouts that protrude from its{{C0}}shell are highly accurate. Their bullets of{{C1}}water can precisely nail tin cans from a{{C2}}distance of over 160 feet."
+ },
+ {
+  "id": "00B08738",
+  "zh": "Worm"
+ },
+ {
+  "id": "00B08740",
+  "zh": "Its voracious appetite compels it to{{C0}}devour leaves bigger than itself without{{C1}}hesitation. It releases a terribly strong{{C2}}odor from its antennae."
+ },
+ {
+  "id": "00B087D0",
+  "zh": "茧壳类"
+ },
+ {
+  "id": "00B087D8",
+  "zh": "Its shell is as hard as an iron slab. A{{C0}}Metapod does not move very much because{{C1}}it is preparing its soft innards for{{C2}}evolution inside the shell."
+ },
+ {
+  "id": "00B0886C",
+  "zh": "Butterfly"
+ },
+ {
+  "id": "00B08878",
+  "zh": "It has a superior ability to search for{{C0}}delicious honey from flowers. It can seek,{{C1}}extract, and carry honey from flowers{{C2}}blooming over six miles away."
+ },
+ {
+  "id": "00B08910",
+  "zh": "Hairy Bug"
+ },
+ {
+  "id": "00B0891C",
+  "zh": "A Weedle has an extremely acute sense of{{C0}}smell. It distinguishes its favorite kinds{{C1}}of leaves from those it dislikes by{{C2}}sniffing with its big red nose."
+ },
+ {
+  "id": "00B089B4",
+  "zh": "茧壳类"
+ },
+ {
+  "id": "00B089BC",
+  "zh": "It remains virtually immobile while it{{C0}}clings to a tree. However, on the inside, it{{C1}}busily prepares for evolution. This is{{C2}}evident from how hot its shell becomes."
+ },
+ {
+  "id": "00B08A60",
+  "zh": "毒蜂类"
+ },
+ {
+  "id": "00B08A6C",
+  "zh": "A Beedrill is extremely territorial. For{{C0}}safety reasons, no one should ever{{C1}}approach its nest. If angered, they will{{C2}}attack in a swarm."
+ },
+ {
+  "id": "00B08AF4",
+  "zh": "小鸟类"
+ }
+]

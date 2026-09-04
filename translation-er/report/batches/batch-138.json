@@ -1,0 +1,2586 @@
+{
+ "batch": 138,
+ "count": 140,
+ "tasks": [
+  {
+   "id": "00EAE5C8",
+   "scene": "main-text",
+   "en": "Steadies itself, healing its{{C0}}status and boosting Special.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE604",
+   "scene": "main-text",
+   "en": "Guides an ally onto the field,{{C0}}shielding them from harm.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE640",
+   "scene": "main-text",
+   "en": "A mesmerizing waltz that may{{C0}}raise Special Attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE674",
+   "scene": "main-text",
+   "en": "An electrifying dance that may{{C0}}raise Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE6A0",
+   "scene": "main-text",
+   "en": "A lively yet haunting dance that{{C0}}may raise Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE6D4",
+   "scene": "main-text",
+   "en": "A bone chilling wind buffets foes.{{C0}}May flinch.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE704",
+   "scene": "main-text",
+   "en": "Throws an egg filled with toxins.{{C0}}Poisons on hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Egg→水煮蛋片"
+   ]
+  },
+  {
+   "id": "00EAE738",
+   "scene": "main-text",
+   "en": "Strikes with a strange power that{{C0}}empowers the user.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE770",
+   "scene": "main-text",
+   "en": "Jabs with a horn. can bleed on hit.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE794",
+   "scene": "main-text",
+   "en": "Jabs with a horn. May lower{{C0}}defense.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE7BC",
+   "scene": "main-text",
+   "en": "Dives into a pool of poison then{{C0}}strikes on the next turn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00EAE7F8",
+   "scene": "main-text",
+   "en": "Sets the stage with a Magic Room{{C0}}then bows out.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magic Room→魔法空间"
+   ]
+  },
+  {
+   "id": "00EAE828",
+   "scene": "main-text",
+   "en": "Strikes with a forbidden power{{C0}}that empowers the user.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE860",
+   "scene": "main-text",
+   "en": "Strikes with three intensifying{{C0}}shockwaves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE88C",
+   "scene": "main-text",
+   "en": "The user strikes with a white hot{{C0}}horn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE8B4",
+   "scene": "main-text",
+   "en": "Attacks with metallic power. Foe's{{C0}}last move has 3 PP cut.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cut→居合斩"
+   ]
+  },
+  {
+   "id": "00EAE8F0",
+   "scene": "main-text",
+   "en": "Picks a weak spot and then{{C0}}strikes with immense force.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE928",
+   "scene": "main-text",
+   "en": "Spins its body like a drill. High{{C0}}critical-hit ratio.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE960",
+   "scene": "main-text",
+   "en": "An unavoidable punch that is{{C0}}thrown from shadows.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE994",
+   "scene": "main-text",
+   "en": "A punch that may drop the{{C0}}target's defense stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAE9C8",
+   "scene": "main-text",
+   "en": "Shoots a powerful energy{{C0}}projectile that may paralyze.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEA00",
+   "scene": "main-text",
+   "en": "Hits the body rhythmically to{{C0}}damage the opponent with sound.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEA40",
+   "scene": "main-text",
+   "en": "The user unleashes the spirit{{C0}}from a full blue moon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEA78",
+   "scene": "main-text",
+   "en": "Repeatedly punches the foe 2 to 5{{C0}}times. +1 priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEAB0",
+   "scene": "main-text",
+   "en": "Super effective vs Water. Can't{{C0}}be used twice in a row.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00EAEAE8",
+   "scene": "main-text",
+   "en": "Supress abilities then switch.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEB08",
+   "scene": "main-text",
+   "en": "Target moves last and may be{{C0}}drenched.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEB30",
+   "scene": "main-text",
+   "en": "Adds dark type and enrages foe.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "00EAEB50",
+   "scene": "main-text",
+   "en": "Strikes by using flurries of wind.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEB74",
+   "scene": "main-text",
+   "en": "Strikes with harsh winds.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEB90",
+   "scene": "main-text",
+   "en": "Boosts Poison and damages mons{{C0}}for 8 turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00EAEBBC",
+   "scene": "main-text",
+   "en": "Strikes with harsh winds.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEBD8",
+   "scene": "main-text",
+   "en": "Sets a thundershock storm.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEBF4",
+   "scene": "main-text",
+   "en": "Fires an energy prism, lowers{{C0}}acc./may confuse..",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEC28",
+   "scene": "main-text",
+   "en": "Deals damage. 33% recoil damage.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEC4C",
+   "scene": "main-text",
+   "en": "Hits 3 times with snowballs.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEC6C",
+   "scene": "main-text",
+   "en": "Hits everyone else. 30% Burn{{C0}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEC94",
+   "scene": "main-text",
+   "en": "A ball attack. 20% flinch.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAECB0",
+   "scene": "main-text",
+   "en": "A ball attack. 20% flinch.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAECCC",
+   "scene": "main-text",
+   "en": "A ball attack. 30% speed drop.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAECEC",
+   "scene": "main-text",
+   "en": "A ball attack. 20% flinch.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAED08",
+   "scene": "main-text",
+   "en": "A ball attack. 20% flinch.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAED24",
+   "scene": "main-text",
+   "en": "+1 priority attack.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAED38",
+   "scene": "main-text",
+   "en": "+1 priority, 10% acc drop.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAED54",
+   "scene": "main-text",
+   "en": "Damages and uses a berry.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAED70",
+   "scene": "main-text",
+   "en": "Super effective vs Steel.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00EAED8C",
+   "scene": "main-text",
+   "en": "Super effective vs Steel.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00EAEDA8",
+   "scene": "main-text",
+   "en": "A life-risking energy with 50%{{C0}}recoil.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEDD0",
+   "scene": "main-text",
+   "en": "A life-risking energy with 50%{{C0}}recoil.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEDF8",
+   "scene": "main-text",
+   "en": "A powerful rain attack. Lowers{{C0}}the user's defenses.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEE2C",
+   "scene": "main-text",
+   "en": "Sets reflect with ice.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Reflect→反射壁",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00EAEE44",
+   "scene": "main-text",
+   "en": "Strikes first if the foe is{{C0}}preparing an attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEE78",
+   "scene": "main-text",
+   "en": "20% flinch chance. arrow based.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAEE98",
+   "scene": "main-text",
+   "en": "May down attack. Striker.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAFED0",
+   "scene": "main-text",
+   "en": "A physical attack{{C0}}delivered with a long{{C1}}tail or a foreleg, etc.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAFF10",
+   "scene": "main-text",
+   "en": "The foe is attacked{{C0}}with a sharp chop. It{{C1}}has a high critical-hit{{C2}}ratio.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EAFF5C",
+   "scene": "main-text",
+   "en": "Repeatedly slaps the{{C0}}foe. Each hit after the{{C1}}second has a 10%{{C2}}confusion chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Confusion→念力"
+   ]
+  },
+  {
+   "id": "00EAFFAC",
+   "scene": "main-text",
+   "en": "Hits 2 to 5 times. Has{{C0}}+1 priority. Iron Fist{{C1}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron Fist→铁拳",
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00EAFFE4",
+   "scene": "main-text",
+   "en": "The foe is slugged by a{{C0}}punch with great power.{{C1}}Iron Fist boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron Fist→铁拳",
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00EB0028",
+   "scene": "main-text",
+   "en": "Numerous coins are{{C0}}hurled at the foe.{{C1}}Money is earned after{{C2}}battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB006C",
+   "scene": "main-text",
+   "en": "The foe is punched with{{C0}}a fiery fist. 10% burn{{C1}}chance. Iron Fist boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron Fist→铁拳",
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00EB00B4",
+   "scene": "main-text",
+   "en": "The foe is punched with{{C0}}an icy fist. 10%{{C1}}frostbite chance. Iron{{C2}}Fist boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00EB0100",
+   "scene": "main-text",
+   "en": "A punch with an{{C0}}electrified fist. 10%{{C1}}paralyze chance. Iron{{C2}}Fist boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00EB0148",
+   "scene": "main-text",
+   "en": "Hard, pointed, and{{C0}}sharp claws rake the{{C1}}foe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0178",
+   "scene": "main-text",
+   "en": "Huge, impressive{{C0}}pincers grip and{{C1}}squeeze the foe. Very{{C2}}high crit ratio.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB01C4",
+   "scene": "main-text",
+   "en": "A vicious tearing{{C0}}attack with pincers.{{C1}}Keen Edge boost. High{{C2}}crit ratio.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB020D",
+   "scene": "main-text",
+   "en": "   super effective vs{{C0}}Rock. +1 priority in{{C1}}tailwind. High crit.{{C2}}keen edge boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 81,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tailwind→顺风",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00EB0260",
+   "scene": "main-text",
+   "en": "A frenetic dance of{{C0}}fighting. It sharply{{C1}}raises the Attack stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fighting→格斗"
+   ]
+  },
+  {
+   "id": "00EB02A4",
+   "scene": "main-text",
+   "en": "Sharp Steel attack,{{C0}}always crits. Keen Edge{{C1}}boost. Field-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00EB02E4",
+   "scene": "main-text",
+   "en": "Strikes the foe with a{{C0}}gust of wind whipped up{{C1}}by wings. Air-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gust→起风"
+   ]
+  },
+  {
+   "id": "00EB0328",
+   "scene": "main-text",
+   "en": "The foe is struck with{{C0}}large, imposing wings{{C1}}spread wide. Air-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0370",
+   "scene": "main-text",
+   "en": "The foe is made to{{C0}}switch out with an ally.{{C1}}In the wild, the battle{{C2}}ends.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB03BC",
+   "scene": "main-text",
+   "en": "A 2-turn move. Use it to{{C0}}fly to any known town.{{C1}}Air-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fly→飞翔"
+   ]
+  },
+  {
+   "id": "00EB03F8",
+   "scene": "main-text",
+   "en": "A long body or{{C0}}tentacles are used to{{C1}}bind the foe for four{{C2}}or five turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bind→绑紧"
+   ]
+  },
+  {
+   "id": "00EB0444",
+   "scene": "main-text",
+   "en": "The foe is struck with a{{C0}}long tail, vines, etc.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0474",
+   "scene": "main-text",
+   "en": "The foe is struck with{{C0}}slender, whip-like{{C1}}vines. 30% flinch{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB04B8",
+   "scene": "main-text",
+   "en": "Destroys terrain. 30%{{C0}}chance to flinch.{{C1}}Strike boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB04F0",
+   "scene": "main-text",
+   "en": "Kicks the foe quickly{{C0}}twice. Striker boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB051C",
+   "scene": "main-text",
+   "en": "The foe is attacked by a{{C0}}kick with great power.{{C1}}Striker boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB055C",
+   "scene": "main-text",
+   "en": "The user jumps up high,{{C0}}then kicks. Hurts on{{C1}}miss. Striker boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB05A0",
+   "scene": "main-text",
+   "en": "A quick kick from a{{C0}}rolling spin. +1{{C1}}priority. Striker{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB05E0",
+   "scene": "main-text",
+   "en": "A lot of sand is hurled{{C0}}in the foe's face,{{C1}}reducing its accuracy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0624",
+   "scene": "main-text",
+   "en": "The user sticks its{{C0}}head out and rams. 30%{{C1}}flinch chance. Field-{{C2}}based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB066C",
+   "scene": "main-text",
+   "en": "Jabs with sharply{{C0}}pointed horn. High crit.{{C1}}Mighty Horn boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB06AC",
+   "scene": "main-text",
+   "en": "Hits 2-5x with a horn or{{C0}}beak. High crit. Mighty{{C1}}Horn boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB06EC",
+   "scene": "main-text",
+   "en": "Ignores the target's{{C0}}ability and stat{{C1}}changes. High crit.{{C2}}Mighty Horn boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB073C",
+   "scene": "main-text",
+   "en": "A physical attack in{{C0}}which the user charges,{{C1}}full body, into the foe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0784",
+   "scene": "main-text",
+   "en": "The user drops its full{{C0}}body on the foe. 30%{{C1}}paralyze chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB07C4",
+   "scene": "main-text",
+   "en": "A long body or vines are{{C0}}used to wrap the foe{{C1}}for four or five turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wrap→紧束"
+   ]
+  },
+  {
+   "id": "00EB080B",
+   "scene": "main-text",
+   "en": " Slams the foe back. 20%{{C0}}chance to lower Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB083C",
+   "scene": "main-text",
+   "en": "The user rampages about{{C0}}for two to three turns,{{C1}}then becomes confused.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0884",
+   "scene": "main-text",
+   "en": "A reckless, life-{{C0}}risking tackle that{{C1}}also has 33% recoil{{C2}}damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tackle→撞击",
+    "Reckless→舍身"
+   ]
+  },
+  {
+   "id": "00EB08C8",
+   "scene": "main-text",
+   "en": "The user wags its tail{{C0}}cutely, making the foe{{C1}}lower its Defense stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0910",
+   "scene": "main-text",
+   "en": "Quick and painful sting.{{C0}}Has 10% poison chance.{{C1}}Has +1 priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00EB0954",
+   "scene": "main-text",
+   "en": "The foe is stabbed{{C0}}twice with foreleg{{C1}}stingers. 50% poison{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 67,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00EB0998",
+   "scene": "main-text",
+   "en": "Sharp pins are shot at{{C0}}the foe and hit two to{{C1}}five times at once.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB09DC",
+   "scene": "main-text",
+   "en": "The foe is given an{{C0}}intimidating look that{{C1}}lowers its Defense{{C2}}stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0A20",
+   "scene": "main-text",
+   "en": "The user bites with{{C0}}vicious fangs. 30%{{C1}}flinch chance. Strong{{C2}}Jaw boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0A68",
+   "scene": "main-text",
+   "en": "The user growls in a{{C0}}cute way, making the{{C1}}foe lower its Attack{{C2}}stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0AB0",
+   "scene": "main-text",
+   "en": "The foe is made to{{C0}}switch out with an ally.{{C1}}In the wild, the battle{{C2}}ends.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0AFC",
+   "scene": "main-text",
+   "en": "A soothing song in a{{C0}}calming voice lulls the{{C1}}foe into a deep slumber.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0B44",
+   "scene": "main-text",
+   "en": "The user generates odd{{C0}}sound waves that{{C1}}confuse foes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0B7C",
+   "scene": "main-text",
+   "en": "The foe is hit with a{{C0}}shock wave that is{{C1}}super effective vs{{C2}}steel types.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shock Wave→电击波",
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00EB0BC8",
+   "scene": "main-text",
+   "en": "For a few turns, it{{C0}}prevents the foe from{{C1}}using the move it last{{C2}}used.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0C10",
+   "scene": "main-text",
+   "en": "Super effective vs{{C0}}Steel. Hits both foes.{{C1}}30% chance to lower{{C2}}SpDef.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00EB0C58",
+   "scene": "main-text",
+   "en": "The foe is attacked{{C0}}with small flames. 100%{{C1}}burn chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0C94",
+   "scene": "main-text",
+   "en": "The foe is scorched{{C0}}with intense flames.{{C1}}10% burn chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0CD0",
+   "scene": "main-text",
+   "en": "The ally party is{{C0}}protected by a mist{{C1}}that prevents stat{{C2}}reductions.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mist→白雾"
+   ]
+  },
+  {
+   "id": "00EB0D18",
+   "scene": "main-text",
+   "en": "A quick quirt of water.{{C0}}10% drench chance. +1{{C1}}priority. Mega Launcher{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00EB0D68",
+   "scene": "main-text",
+   "en": "Blasts with a massive{{C0}}amount of water. 30%{{C1}}drench chance. Mega{{C2}}Launcher boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00EB0DB8",
+   "scene": "main-text",
+   "en": "A big wave crashes down{{C0}}on the foe. 20% drench{{C1}}chance. Field-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0DFC",
+   "scene": "main-text",
+   "en": "The foe is struck with{{C0}}an icy beam. 10%{{C1}}frostbite chance. Mega{{C2}}Launcher boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0E4C",
+   "scene": "main-text",
+   "en": "The foe is blasted with{{C0}}a blizzard. 20%{{C1}}frostbite chance.{{C2}}Weather-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blizzard→暴风雪"
+   ]
+  },
+  {
+   "id": "00EB0E98",
+   "scene": "main-text",
+   "en": "A peculiar ray is shot{{C0}}at the foe. that lowers{{C1}}SpAtk. Mega Launcher{{C2}}boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器"
+   ]
+  },
+  {
+   "id": "00EB0EE4",
+   "scene": "main-text",
+   "en": "A spray of bubbles{{C0}}strikes the foe 2-5{{C1}}times. Mega Launcher{{C2}}boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器"
+   ]
+  },
+  {
+   "id": "00EB0F28",
+   "scene": "main-text",
+   "en": "A rainbow-colored{{C0}}attack beam. 100%{{C1}}attack drop. Mega{{C2}}Launcher boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0F70",
+   "scene": "main-text",
+   "en": "Does severe damage.{{C0}}Needs recharging. Mega{{C1}}Launcher boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0FAC",
+   "scene": "main-text",
+   "en": "Hits 2-5x with a horn or{{C0}}beak. Mighty Horn{{C1}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB0FE0",
+   "scene": "main-text",
+   "en": "A corkscrewing attack.{{C0}}High crit. Mighty Horn{{C1}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1018",
+   "scene": "main-text",
+   "en": "A reckless, full-body{{C0}}throw attack. 33%{{C1}}recoil damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Reckless→舍身"
+   ]
+  },
+  {
+   "id": "00EB1050",
+   "scene": "main-text",
+   "en": "Inflicts more damage on{{C0}}heavier foes. Striker{{C1}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1088",
+   "scene": "main-text",
+   "en": "A retaliation move that{{C0}}counters any physical{{C1}}hit with double the{{C2}}damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB10D4",
+   "scene": "main-text",
+   "en": "Immobilizes and then{{C0}}slams the foe. Inflicts{{C1}}level damage and{{C2}}triggers hazards.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1124",
+   "scene": "main-text",
+   "en": "The foe is slugged at{{C0}}maximum power. Drops{{C1}}Defenses. Field-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1168",
+   "scene": "main-text",
+   "en": "Covers the foe with{{C0}}plants that remove stat{{C1}}changes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB11A0",
+   "scene": "main-text",
+   "en": "A tough attack that{{C0}}drains 75% of the{{C1}}damage it inflicted to{{C2}}restore HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB11EC",
+   "scene": "main-text",
+   "en": "Plants a seed that{{C0}}steals HP every turn.{{C1}}Never misses if user is{{C2}}Grass-type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "00EB123C",
+   "scene": "main-text",
+   "en": "The user's body is{{C0}}forced to grow, raising{{C1}}its Atk. and Sp. Atk{{C2}}stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1284",
+   "scene": "main-text",
+   "en": "Both foes are hit with a{{C0}}cutting leaf. Always{{C1}}crits. Keen Edge boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB12CC",
+   "scene": "main-text",
+   "en": "Strong 2-turn move.{{C0}}Weather-based. Mega{{C1}}Launcher boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1304",
+   "scene": "main-text",
+   "en": "A cloud of toxic dust is{{C0}}scattered. It poisons{{C1}}the foe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "00EB133C",
+   "scene": "main-text",
+   "en": "Wildly scatters powder{{C0}}that paralyzes the foe.{{C1}}Can paralyze Electric-{{C2}}types.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00EB138C",
+   "scene": "main-text",
+   "en": "A sleep-inducing dust{{C0}}is scattered in high{{C1}}volume around a foe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB13CC",
+   "scene": "main-text",
+   "en": "The user attacks with{{C0}}petals for two to three{{C1}}turns, then gets{{C2}}confused.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1418",
+   "scene": "main-text",
+   "en": "The foe is bound with{{C0}}strings shot from the{{C1}}mouth to reduce its{{C2}}Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1460",
+   "scene": "main-text",
+   "en": "The foe is hit with a{{C0}}shock wave that can{{C1}}damage Fairy Pokémon{{C2}}neutrally.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shock Wave→电击波",
+    "Fairy→妖精"
+   ]
+  },
+  {
+   "id": "00EB14AC",
+   "scene": "main-text",
+   "en": "The foe is trapped in an{{C0}}intense spiral of fire{{C1}}that rages four or five{{C2}}turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00EB14FC",
+   "scene": "main-text",
+   "en": "An electric shock{{C0}}attack with a 30%{{C1}}flinch chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00EB1530",
+   "scene": "main-text",
+   "en": "A strong electrical{{C0}}attack with a 10%{{C1}}paralyze chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00EB1568",
+   "scene": "main-text",
+   "en": "A weak shock paralyzes{{C0}}the foe. Never misses if{{C1}}user is Electric-type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  }
+ ]
+}

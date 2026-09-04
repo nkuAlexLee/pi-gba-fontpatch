@@ -1,0 +1,570 @@
+[
+ {
+  "id": "00F358F8",
+  "zh": "{{C0}} SpA- {{C1}} {{C2}} vs."
+ },
+ {
+  "id": "00F3590C",
+  "zh": "{{C0}} Atk {{C1}} {{C2}} vs."
+ },
+ {
+  "id": "00F35920",
+  "zh": "{{C0}} Atk+ {{C1}} {{C2}} vs."
+ },
+ {
+  "id": "00F35934",
+  "zh": "{{C0}} Atk- {{C1}} {{C2}} vs."
+ },
+ {
+  "id": "00F35948",
+  "zh": "{{C0}}{{C1}}{{C2}} HP/ {{C3}} SpD"
+ },
+ {
+  "id": "00F3595C",
+  "zh": "{{C0}}{{C1}}{{C2}} HP/ {{C3}} SpD+"
+ },
+ {
+  "id": "00F35970",
+  "zh": "{{C0}}{{C1}}{{C2}} HP/ {{C3}} SpD-"
+ },
+ {
+  "id": "00F35984",
+  "zh": "{{C0}}{{C1}}{{C2}} HP/ {{C3}} Def"
+ },
+ {
+  "id": "00F35998",
+  "zh": "{{C0}}{{C1}}{{C2}} HP/ {{C3}} Def+"
+ },
+ {
+  "id": "00F359AC",
+  "zh": "{{C0}}{{C1}}{{C2}} HP/ {{C3}} Def-"
+ },
+ {
+  "id": "00F359C0",
+  "zh": "{{C0}} {{C1}}: {{C2}}"
+ },
+ {
+  "id": "00F359CC",
+  "zh": "{{C0}}-{{C1}}{{C2}}({{C3}} - "
+ },
+ {
+  "id": "00F359DC",
+  "zh": "{{C0}} {{C1}}%) -- {{C2}}% chance to"
+ },
+ {
+  "id": "00F359F8",
+  "zh": "{{C0}} {{C1}}%) -- Guaranteed"
+ },
+ {
+  "id": "00F35A10",
+  "zh": "{{C0}} {{C1}}HKO"
+ },
+ {
+  "id": "00F35A1C",
+  "zh": "{{C0}} OHKO"
+ },
+ {
+  "id": "00F35A24",
+  "zh": "{{C0}} 2HKO-"
+ },
+ {
+  "id": "00F35A9C",
+  "zh": "Weather: {{C0}}"
+ },
+ {
+  "id": "00F35AA8",
+  "zh": "雨天"
+ },
+ {
+  "id": "00F35AB0",
+  "zh": "晴天"
+ },
+ {
+  "id": "00F35AB4",
+  "zh": "沙暴"
+ },
+ {
+  "id": "00F35AC0",
+  "zh": "冰雹"
+ },
+ {
+  "id": "00F35AD0",
+  "zh": "强风"
+ },
+ {
+  "id": "00F35AE0",
+  "zh": "原始降雨"
+ },
+ {
+  "id": "00F35AEC",
+  "zh": "原始日照"
+ },
+ {
+  "id": "00F35AF8",
+  "zh": "奇异迷雾"
+ },
+ {
+  "id": "00F35B04",
+  "zh": "Strengthens Water-type moves by{{C0}}50% while weakening Fire-type{{C1}}moves by 50%."
+ },
+ {
+  "id": "00F35B50",
+  "zh": "Strengthens the power of Fire-type{{C0}}moves by 50% and weakens Water-type{{C1}}moves by 50%."
+ },
+ {
+  "id": "00F35BA8",
+  "zh": "Any Pokémon that is not Rock, Ground{{C0}}or Steel-type will be damaged for{{C1}}1/16 of its maximum HP each turn."
+ },
+ {
+  "id": "00F35C14",
+  "zh": "Any Pokémon that is not Ice-type{{C0}}will be damaged each turn, Pokémon{{C1}}are twice as likely to get frostbite."
+ },
+ {
+  "id": "00F35C80",
+  "zh": "Causes Electric, Ice, and Rock-type{{C0}}moves to deal neutral damage to {{C1}}Flying-type Pokémon."
+ },
+ {
+  "id": "00F35CDC",
+  "zh": "Boosts the power of Water-type{{C0}}moves and protects Pokémon from{{C1}}Fire-type moves."
+ },
+ {
+  "id": "00F35D2C",
+  "zh": "Boosts the power of Fire-type{{C0}}moves and protects Pokémon from{{C1}}Water-type moves."
+ },
+ {
+  "id": "00F35D7C",
+  "zh": "Reduces damage Ghost-type Pokémon{{C0}}take by 20% and reduces stat gains{{C1}}for non-Ghost and Psychic types."
+ },
+ {
+  "id": "00F35DE4",
+  "zh": "{{C0}} Terrain"
+ },
+ {
+  "id": "00F35DF0",
+  "zh": "电"
+ },
+ {
+  "id": "00F35DFC",
+  "zh": "精神强念"
+ },
+ {
+  "id": "00F35E04",
+  "zh": "Misty"
+ },
+ {
+  "id": "00F35E0C",
+  "zh": "Grassy"
+ },
+ {
+  "id": "00F35E14",
+  "zh": "Toxic"
+ },
+ {
+  "id": "00F35E1C",
+  "zh": "Pokémon on the ground won't fall{{C0}}asleep. The power of Electric-type{{C1}}moves is boosted."
+ },
+ {
+  "id": "00F35E74",
+  "zh": "Pokémon on the ground won't be hit{{C0}}by priority moves. The power of{{C1}}Psychic-type moves is boosted."
+ },
+ {
+  "id": "00F35ED8",
+  "zh": "Pokémon on the ground won't get any{{C0}}status conditions. The power of{{C1}}Fairy-type moves is boosted."
+ },
+ {
+  "id": "00F35F3C",
+  "zh": "Increases the power of Grass-type{{C0}}moves, Restores 1/16 HP to all{{C1}}Pokémon on the ground each turn."
+ },
+ {
+  "id": "00F35FA0",
+  "zh": "Increases the power of Poison-type{{C0}}moves and deals 1/16 HP to grounded{{C1}}Pokémon vulnerable to poison."
+ },
+ {
+  "id": "00F36008",
+  "zh": "戏法空间"
+ },
+ {
+  "id": "00F36014",
+  "zh": "The move order is reversed, slower{{C0}}Pokémon will attack before faster{{C1}}Pokémon."
+ },
+ {
+  "id": "00F36064",
+  "zh": "Wonder Room:"
+ },
+ {
+  "id": "00F36074",
+  "zh": "Swaps the Attack and Sp.Attack{{C0}}of all Pokémon, and suppresses{{C1}}stat buffs to those stats."
+ },
+ {
+  "id": "00F360D0",
+  "zh": "Magic Room:"
+ },
+ {
+  "id": "00F360DC",
+  "zh": "Prevents all passive damage and{{C0}}disables all mega stones."
+ },
+ {
+  "id": "00F36118",
+  "zh": "重力"
+ },
+ {
+  "id": "00F36120",
+  "zh": "The accuracy of all moves is{{C0}}multiplied by 1.67, all Pokémon on{{C1}}the field to become grounded."
+ },
+ {
+  "id": "00F36180",
+  "zh": "Inverse Room:"
+ },
+ {
+  "id": "00F36190",
+  "zh": "The type effectiveness are inversed.{{C0}}Any type that would be resistant or{{C1}}immune to another type is now weak."
+ },
+ {
+  "id": "00F36200",
+  "zh": "Fairy Lock"
+ },
+ {
+  "id": "00F3620C",
+  "zh": "Prevents all Pokémon(except Ghost{{C0}}types) from switching out or{{C1}}fleeing during their next turn."
+ },
+ {
+  "id": "00F3626C",
+  "zh": "玩泥巴"
+ },
+ {
+  "id": "00F36278",
+  "zh": "Reduces the base power of{{C0}}Electric-type moves by 67%{{C1}}on both sides."
+ },
+ {
+  "id": "00F362BC",
+  "zh": "玩水"
+ },
+ {
+  "id": "00F362C8",
+  "zh": "Reduces the base power of{{C0}}Fire-type moves by 67%{{C1}}on both sides."
+ },
+ {
+  "id": "00F36308",
+  "zh": "等离子浴"
+ },
+ {
+  "id": "00F36314",
+  "zh": "Causes all the Normal-type moves to{{C0}}become Electric-type instad,{{C1}}including status moves."
+ },
+ {
+  "id": "00F36370",
+  "zh": "延后"
+ },
+ {
+  "id": "00F36378",
+  "zh": "Suppresses priority, stat boosts,{{C0}}abilities, and field effects when{{C1}}determining turn order."
+ },
+ {
+  "id": "00F363D4",
+  "zh": "晴空万里"
+ },
+ {
+  "id": "00F363E0",
+  "zh": "Standard weathers cannot be set and{{C0}}primal weathers have no effect"
+ },
+ {
+  "id": "00F36424",
+  "zh": "Field has no effect"
+ },
+ {
+  "id": "00F36438",
+  "zh": "The field has no special effect."
+ },
+ {
+  "id": "00F36490",
+  "zh": "Auora Veil"
+ },
+ {
+  "id": "00F3649C",
+  "zh": "Reduces the damage done to the user{{C0}}by physical and special moves by{{C1}}50%."
+ },
+ {
+  "id": "00F364E8",
+  "zh": "反射壁"
+ },
+ {
+  "id": "00F364F0",
+  "zh": "Reduces the damage done to the user{{C0}}by physical moves by 50% can be{{C1}}be lifted by moves like Haze."
+ },
+ {
+  "id": "00F36554",
+  "zh": "光墙"
+ },
+ {
+  "id": "00F36564",
+  "zh": "Reduces the damage done to the user{{C0}}by special moves by 50% can be{{C1}}be lifted by moves like Defog."
+ },
+ {
+  "id": "00F365C8",
+  "zh": "顺风"
+ },
+ {
+  "id": "00F365D4",
+  "zh": "Doubles the Speed stat of the user{{C0}}and all the other Pokémon in the{{C1}}user side."
+ },
+ {
+  "id": "00F36624",
+  "zh": "撒菱"
+ },
+ {
+  "id": "00F3662C",
+  "zh": "Pokémon who switch into the field{{C0}}take a 12.5% of their maximum{{C1}}HP in damage."
+ },
+ {
+  "id": "00F3667C",
+  "zh": "Pokémon who switch into the field{{C0}}take a 16.67% of their maximum{{C1}}HP in damage."
+ },
+ {
+  "id": "00F366CC",
+  "zh": "Pokémon who switch into the field{{C0}}take a 25% of their maximum HP in{{C1}}damage."
+ },
+ {
+  "id": "00F36718",
+  "zh": "毒菱"
+ },
+ {
+  "id": "00F36728",
+  "zh": "Pokémon who switch into the field{{C0}}acquire the poison status ailment"
+ },
+ {
+  "id": "00F3676C",
+  "zh": "Pokémon who switch into the field{{C0}}become badly poisoned"
+ },
+ {
+  "id": "00F367A4",
+  "zh": "隐形岩"
+ },
+ {
+  "id": "00F367B4",
+  "zh": "Pokémon who switch in receive dmg,{{C0}}the amount varies depending by the{{C1}}effectiveness of Rock against it."
+ },
+ {
+  "id": "00F3681C",
+  "zh": "缠绕荆棘"
+ },
+ {
+  "id": "00F3682C",
+  "zh": "Pokémon who switch in receive dmg,{{C0}}the amount varies depending by the{{C1}}effectiveness of Grass against it."
+ },
+ {
+  "id": "00F36898",
+  "zh": "黏黏网"
+ },
+ {
+  "id": "00F368A4",
+  "zh": "Pokémon who switch into the field{{C0}}get their Speed stat lowered by{{C1}}one."
+ },
+ {
+  "id": "00F368EC",
+  "zh": "泡沫网"
+ },
+ {
+  "id": "00F368F8",
+  "zh": "Pokémon who switch into the field{{C0}}get their Speed stat lowered by{{C1}}one. Can't be removed by effects."
+ },
+ {
+  "id": "00F3695C",
+  "zh": "神秘守护"
+ },
+ {
+  "id": "00F36968",
+  "zh": "A protective field that prevents{{C0}}status problems like poison,{{C1}}paralysis, burn and sleep."
+ },
+ {
+  "id": "00F369C4",
+  "zh": "神秘守护"
+ },
+ {
+  "id": "00F369D0",
+  "zh": "A white mist that prevents any{{C0}}Pokémon on this side from having{{C1}}any of it's stat lowered."
+ },
+ {
+  "id": "00F36A2C",
+  "zh": "彩虹"
+ },
+ {
+  "id": "00F36A34",
+  "zh": "A splendid rainbow boosts the{{C0}}chance of secondary effects for{{C1}}all Pokémon on this side."
+ },
+ {
+  "id": "00F36A8C",
+  "zh": "火海"
+ },
+ {
+  "id": "00F36A98",
+  "zh": "A sea of fire damages non-Fire{{C0}}Pokémon on this side for 12.5%{{C1}}of their maximum HP each turn."
+ },
+ {
+  "id": "00F36AF8",
+  "zh": "沼泽"
+ },
+ {
+  "id": "00F36B00",
+  "zh": "A deep swamp reduces the speed{{C0}}stat of grounded Pokémon on this{{C1}}side by 33%."
+ },
+ {
+  "id": "00F36B50",
+  "zh": "烟幕"
+ },
+ {
+  "id": "00F36B5C",
+  "zh": "Reduces the chance to be hit{{C0}}by 25%. Can be lifted by moves{{C1}}like Defog."
+ },
+ {
+  "id": "00F36BA4",
+  "zh": "炭火"
+ },
+ {
+  "id": "00F36BB0",
+  "zh": "Burns the next Pokémon that{{C0}}switches in and is then removed."
+ },
+ {
+  "id": "00F36BF0",
+  "zh": "铁蒺藜"
+ },
+ {
+  "id": "00F36BFC",
+  "zh": "Bleeds the next Pokémon that{{C0}}switches in and is then removed."
+ },
+ {
+  "id": "00F36C3C",
+  "zh": "快速防守"
+ },
+ {
+  "id": "00F36C48",
+  "zh": "Protects all Pokémon on this{{C0}}side from priority moves."
+ },
+ {
+  "id": "00F36C80",
+  "zh": "无效果"
+ },
+ {
+  "id": "00F36C8C",
+  "zh": "This side has no special effect."
+ },
+ {
+  "id": "00F36DFC",
+  "zh": "基本信息"
+ },
+ {
+  "id": "00F36E10",
+  "zh": "Talk to Nurse Joy"
+ },
+ {
+  "id": "00F36E24",
+  "zh": "Talk to Nurse Joy in any Pokemon Center to{{C0}}receive a DexNav+, Infinite Repel, Battle{{C1}}Items, all Pokeballs, all Berries, all{{C2}}Type Gems, and more.{{C3}}{{C4}}Each time you speak to her, all items{{C5}}are refilled.{{C6}}{{C7}}Mega Stones are the only items not given"
+ },
+ {
+  "id": "00F36F14",
+  "zh": "by Nurse Joy."
+ },
+ {
+  "id": "00F36F2C",
+  "zh": "在线图鉴"
+ },
+ {
+  "id": "00F36F3C",
+  "zh": "https://dex.elite-redux.com{{C0}}{{C1}}The Online Dex shows all info on Pokemon,{{C2}}Abilities, Moves, Locations, and Trainers.{{C3}}{{C4}}You can also build teams there for{{C5}}theorycrafting."
+ },
+ {
+  "id": "00F3723C",
+  "zh": "for 3 turns on entry.{{C0}}{{C1}}Dewgong: Abilities: Fur Coat, Ice Scales,{{C2}}Arctic Fur (lesser version of both).{{C3}}Innate North Wind auto-sets Aurora Veil{{C4}}for 3 turns on entry.{{C5}}{{C6}}Gliscor: Has Poison Heal. Gets Rough Skin{{C7}}for better physical defense. Tectonize"
+ },
+ {
+  "id": "00F37440",
+  "zh": "{{C0}}Phione: Innate High Tide: uses 50BP Surf{{C1}}after any Water move. Field Explorer{{C2}}empowers 'field' moves (Headbutt, Surf).{{C3}}Soul-Heart ability option.{{C4}}{{C5}}Check the Online Pokedex for details."
+ },
+ {
+  "id": "00F37510",
+  "zh": "招式改动"
+ },
+ {
+  "id": "00F37520",
+  "zh": "Many moves have improved accuracy and power.{{C0}}{{C1}}OHKO moves (e.g. Fissure) now deal around 120{{C2}}damage with 80% accuracy.{{C3}}{{C4}}Some moves have new effects; others are{{C5}}completely reworked. Most moves have a{{C6}}usable niche.{{C7}}"
+ },
+ {
+  "id": "00F375F8",
+  "zh": "详见在线图鉴。"
+ },
+ {
+  "id": "00F3762C",
+  "zh": "生活质量改善"
+ },
+ {
+  "id": "00F3764C",
+  "zh": "Portable PC: Access from Start Menu{{C0}}(disabled for Elite Four).{{C1}}{{C2}}No need to teach HMs. Fly to any visited{{C3}}location with any Pokemon. Other HMs{{C4}}unlock as you complete Gyms.{{C5}}{{C6}}Register multiple items for easy access{{C7}}using L button."
+ },
+ {
+  "id": "00F37734",
+  "zh": "对战改动"
+ },
+ {
+  "id": "00F3784C",
+  "zh": "battles. Some are gauntlets (no healing)."
+ },
+ {
+  "id": "00F37880",
+  "zh": "战斗界面改动"
+ },
+ {
+  "id": "00F37894",
+  "zh": "Press L during battles for this wiki.{{C0}}Shortcut changeable in Settings > Custom (R).{{C1}}{{C2}}See a move's effectiveness before use.{{C3}}This considers abilities/innates like{{C4}}Levitate or Sap Sipper!{{C5}}{{C6}}STAB (50% Same Type Attack Bonus) is{{C7}}shown with a + icon."
+ },
+ {
+  "id": "00F3798C",
+  "zh": "{{C0}}Trainer battles can be forfeited (counts{{C1}}as a loss), returning to last Poke Center."
+ },
+ {
+  "id": "00F379EC",
+  "zh": "获取宝可梦"
+ },
+ {
+  "id": "00F37A00",
+  "zh": "Get one of each Pokeball from Nurse Joy, all{{C0}}with 100% catch rate. Pokeballs are not{{C1}}consumed on use.{{C2}}{{C3}}Upgraded DexNav+ auto-searches Pokemon in an{{C4}}area.{{C5}}{{C6}}Shiny rates boostable to 1/5 in Options."
+ },
+ {
+  "id": "00F37AC4",
+  "zh": "All Gen 1-9 Pokemon are available.{{C0}}{{C1}}Buy Redux Pokemon for BP in Adoption Center{{C2}}(more unlock with progress)."
+ },
+ {
+  "id": "00F37B50",
+  "zh": "Switch a Pokemons nature directly in its{{C0}}Summary Screen.{{C1}}{{C2}}Natures increase one base stat by 10%{{C3}}and decrease another by 10%.{{C4}}{{C5}}Indicated by up/down arrows on summary{{C6}}screen next to affected stats."
+ },
+ {
+  "id": "00F37C18",
+  "zh": "改变觉醒/秘密之力"
+ },
+ {
+  "id": "00F37C38",
+  "zh": "Use Type Gems (from Nurse Joy) to change{{C0}}a Pokemons Hidden Power type and{{C1}}Secret Power (physical version) type."
+ },
+ {
+  "id": "00F37CB8",
+  "zh": "Directly assign EVs in Summary Screen;{{C0}}no grinding needed.{{C1}}{{C2}}Each stat: up to 252 EVs. Total: 510 EVs.{{C3}}{{C4}}Typically, distribute 252 EVs into two{{C5}}best stats for optimal results.{{C6}}{{C7}}HP is often more useful than one defense,"
+ },
+ {
+  "id": "00F37D94",
+  "zh": "unless base HP is very high and defenses{{C0}}are much lower."
+ },
+ {
+  "id": "00F37DD8",
+  "zh": "学习招式"
+ },
+ {
+  "id": "00F37DE8",
+  "zh": "Learn new moves easily in Party or Move{{C0}}menu (press R).{{C1}}{{C2}}Certain moves still require leveling up.{{C3}}These are in the Level list. Other lists{{C4}}show moves by category.{{C5}}{{C6}}Unlock new moves after each gym in Elite{{C7}}caps, until about 2/3s into game. Some learn"
+ },
+ {
+  "id": "00F37EE4",
+  "zh": "moves faster/slower."
+ },
+ {
+  "id": "00F37F04",
+  "zh": "进化"
+ }
+]

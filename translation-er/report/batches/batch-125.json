@@ -1,0 +1,1840 @@
+{
+ "batch": 125,
+ "count": 106,
+ "tasks": [
+  {
+   "id": "00B2356C",
+   "scene": "main-text",
+   "en": "Its whiskers serve as antennas. By{{C0}}sending and receiving electrical waves, it{{C1}}can communicate with others over vast{{C2}}distances.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B235EC",
+   "scene": "main-text",
+   "en": "Jewel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B235F4",
+   "scene": "main-text",
+   "en": "Born from the high temperatures and{{C0}}pressures deep underground, it defends{{C1}}itself by firing beams from the jewel part{{C2}}of its body.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23678",
+   "scene": "main-text",
+   "en": "Soft Tissue",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23684",
+   "scene": "main-text",
+   "en": "Its source of protection is its slimy,{{C0}}germ-laden mucous membrane. Anyone who{{C1}}touches it will need some thorough hand-{{C2}}washing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 128,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23704",
+   "scene": "main-text",
+   "en": "Soft Tissue",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23710",
+   "scene": "main-text",
+   "en": "This Pokémon's mucous can dissolve{{C0}}anything. Toothless, it sprays mucous on{{C1}}its prey. Once they're nicely dissolved, it{{C2}}slurps them up.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23798",
+   "scene": "main-text",
+   "en": "Dragon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "00B237A0",
+   "scene": "main-text",
+   "en": "It gets picked on because it's meek. But{{C0}}then, whoever teased it gets to feel the{{C1}}full force of its horns and a good swatting{{C2}}from its thick tail.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23834",
+   "scene": "main-text",
+   "en": "Key Ring",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23840",
+   "scene": "main-text",
+   "en": "These key collectors threaten any{{C0}}attackers by fiercely jingling their keys{{C1}}at them. It will sneak into people's homes{{C2}}to steal their keys.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B238CC",
+   "scene": "main-text",
+   "en": "Stump",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B238D4",
+   "scene": "main-text",
+   "en": "According to legend, medicine to cure any{{C0}}illness can be made by plucking the green{{C1}}leaves on its head, brewing them, and{{C2}}boiling down the liquid.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23968",
+   "scene": "main-text",
+   "en": "Elder Tree",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23974",
+   "scene": "main-text",
+   "en": "Through its roots, it exerts control over{{C0}}other trees. A deadly curse falls upon{{C1}}anyone cutting down trees in forests{{C2}}where Trevenant dwell. ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trevenant→朽木妖",
+    "Curse→诅咒"
+   ]
+  },
+  {
+   "id": "00B23A04",
+   "scene": "main-text",
+   "en": "Pumpkin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23A0C",
+   "scene": "main-text",
+   "en": "It is said to carry wandering spirits to{{C0}}the place where they belong so they can{{C1}}move on. As the sun sets, it becomes{{C2}}restless and active. ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23A98",
+   "scene": "main-text",
+   "en": "Pumpkin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23AA0",
+   "scene": "main-text",
+   "en": "Singing in eerie voices, they wander town{{C0}}streets on the night of the new moon.{{C1}}Anyone who hears their song will become{{C2}}inflicted with a curse.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Curse→诅咒"
+   ]
+  },
+  {
+   "id": "00B23B30",
+   "scene": "main-text",
+   "en": "Ice Chunk",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00B23B3C",
+   "scene": "main-text",
+   "en": "It blocks opponents' attacks with the ice{{C0}}that shields its body. It uses cold air to{{C1}}repair any cracks with new ice. They live in{{C2}}herds on snowy mountains.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00B23BD8",
+   "scene": "main-text",
+   "en": "Iceberg",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23BE0",
+   "scene": "main-text",
+   "en": "The way several Bergmite huddle on its{{C0}}back make it look like an aircraft carrier{{C1}}made of ice. Its cumbersome frame crushes{{C2}}anything that stands in its way.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 157,
+   "hint": "纯中文≤78字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bergmite→冰宝",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00B23C80",
+   "scene": "main-text",
+   "en": "Sound Wave",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23C8C",
+   "scene": "main-text",
+   "en": "They live in pitch-black caves. Even a{{C0}}robust wrestler will become dizzy and{{C1}}unable to stand when exposed to its{{C2}}200,000-hertz ultrasonic waves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 145,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23D20",
+   "scene": "main-text",
+   "en": "Sound Wave",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23D2C",
+   "scene": "main-text",
+   "en": "They fly around on moonless nights and{{C0}}attack careless prey. The ultrasonic{{C1}}waves it emits from its ears can reduce a{{C2}}large boulder to pebbles.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fly→飞翔"
+   ]
+  },
+  {
+   "id": "00B23DBC",
+   "scene": "main-text",
+   "en": "Life",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23DC4",
+   "scene": "main-text",
+   "en": "Legends say that when the horns on its{{C0}}head shine in seven colors, it is sharing{{C1}}everlasting life. It slept for a thousand{{C2}}years in the form of a tree",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 151,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23E5C",
+   "scene": "main-text",
+   "en": "Destruction",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23E68",
+   "scene": "main-text",
+   "en": "When its life comes to an end, its wings and{{C0}}tail spread wide and glow red, and it{{C1}}absorbs the life energy of every living{{C2}}thing and turns into a cocoon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23F04",
+   "scene": "main-text",
+   "en": "Order",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23F0C",
+   "scene": "main-text",
+   "en": "It's said to be monitoring the ecosystem{{C0}}from deep in the caves where it lives.{{C1}}There are rumors that even greater power{{C2}}lies hidden within its cells.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 151,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23FA4",
+   "scene": "main-text",
+   "en": "Jewel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B23FAC",
+   "scene": "main-text",
+   "en": "A sudden transformation of Carbink, its{{C0}}pink, glimmering body is said to be the{{C1}}loveliest sight in the whole world. It{{C2}}creates diamonds between its hands.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 155,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Carbink→小碎钻"
+   ]
+  },
+  {
+   "id": "00B24048",
+   "scene": "main-text",
+   "en": "Mischief",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24054",
+   "scene": "main-text",
+   "en": "In its true form, it possess a huge amount{{C0}}of power. When its powers are sealed away,{{C1}}it is transformed into a much smaller form.{{C2}}It teleports things to a secret place.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 169,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24100",
+   "scene": "main-text",
+   "en": "Steam",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24108",
+   "scene": "main-text",
+   "en": "It lets out billows of steam from the arms{{C0}}on its back and disappears into the dense{{C1}}fog. It's said to live in mountains where{{C2}}humans do not tread.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 148,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2419C",
+   "scene": "main-text",
+   "en": "Grass Quill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "00B241A8",
+   "scene": "main-text",
+   "en": "This wary Pokémon uses photosynthesis to{{C0}}store up energy during the day, while{{C1}}becoming active at night. Silently it{{C2}}glides, drawing near to its target.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 153,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24244",
+   "scene": "main-text",
+   "en": "Blade Quill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24250",
+   "scene": "main-text",
+   "en": "A bit of a dandy, it spends its free time{{C0}}preening its wings. Its preoccupation with{{C1}}any dirt on its plumage can leave it unable{{C2}}to battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B242DC",
+   "scene": "main-text",
+   "en": "Arrow Quill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B242E8",
+   "scene": "main-text",
+   "en": "Decidueye is cool and cautious. It fires{{C0}}arrow quills from its wings with such{{C1}}precision, they can pierce a pebble at{{C2}}distances of over a hundred yards.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 153,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Decidueye→狙射树枭"
+   ]
+  },
+  {
+   "id": "00B24384",
+   "scene": "main-text",
+   "en": "Fire Cat",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00B24390",
+   "scene": "main-text",
+   "en": "While grooming itself, it builds up fur{{C0}}inside its stomach. It sets the fur alight{{C1}}and spews fiery attacks, which change{{C2}}based on how it coughs.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 145,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24424",
+   "scene": "main-text",
+   "en": "Fire Cat",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00B24430",
+   "scene": "main-text",
+   "en": "At its throat, it bears a bell of fire. The{{C0}}bell rings brightly whenever this Pokémon{{C1}}spits fire. With a single punch, it can bend{{C2}}an iron bar right over.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 155,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00B244CC",
+   "scene": "main-text",
+   "en": "Heel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B244D4",
+   "scene": "main-text",
+   "en": "This Pokémon has a violent, selfish{{C0}}disposition. If it's not in the mood to{{C1}}listen, it will ignore its Trainer's orders{{C2}}with complete nonchalance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24568",
+   "scene": "main-text",
+   "en": "Sea Lion",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24574",
+   "scene": "main-text",
+   "en": "This Pokémon snorts body fluids from its{{C0}}nose, blowing balloons to smash into its{{C1}}foes. It practices diligently so it can{{C2}}learn to make big bubbles.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2460C",
+   "scene": "main-text",
+   "en": "Pop Star",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24618",
+   "scene": "main-text",
+   "en": "It cares deeply for its companions. When{{C0}}its Trainer is feeling down, it performs a{{C1}}cheery dance with a sequence of water{{C2}}balloons to try and help.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 148,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B246AC",
+   "scene": "main-text",
+   "en": "Soloist",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B246B4",
+   "scene": "main-text",
+   "en": "It controls its water balloons with song.{{C0}}The melody is learned from others of its{{C1}}kind and is passed down from one{{C2}}generation to the next.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B24740",
+   "scene": "main-text",
+   "en": "Woodpecker",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2474C",
+   "scene": "main-text",
+   "en": "This Pokémon feeds on berries, whose{{C0}}leftover seeds become the ammunition for{{C1}}the attacks it fires off from its mouth. It{{C2}}uses holes in trees for nesting.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 155,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B247E8",
+   "scene": "main-text",
+   "en": "Bugle Beak",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B247F4",
+   "scene": "main-text",
+   "en": "By bending its beak, it can produce a{{C0}}variety of calls and brand itself a noisy{{C1}}nuisance for its neighbors. It eats{{C2}}berries and stores their seeds in its beak.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 160,
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24894",
+   "scene": "main-text",
+   "en": "Cannon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2489C",
+   "scene": "main-text",
+   "en": "When it battles, within its beak, its{{C0}}internal gases ignite, explosively{{C1}}launching seeds with enough power to{{C2}}pulverize boulders.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24920",
+   "scene": "main-text",
+   "en": "Loitering",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2492C",
+   "scene": "main-text",
+   "en": "With its sharp fangs, it will bite anything.{{C0}}It wanders around in a never-ending{{C1}}search for food. At dusk, it collapses and{{C2}}falls asleep on the spot.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 150,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bite→咬住"
+   ]
+  },
+  {
+   "id": "00B249C4",
+   "scene": "main-text",
+   "en": "Stakeout",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Stakeout→蹲守"
+   ]
+  },
+  {
+   "id": "00B249D0",
+   "scene": "main-text",
+   "en": "When it finds a trace of its prey, it{{C0}}patiently stakes out the location... but as{{C1}}it's diurnal, it's always snoozing by{{C2}}nightfall.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trace→复制"
+   ]
+  },
+  {
+   "id": "00B24A54",
+   "scene": "main-text",
+   "en": "Larva",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24A5C",
+   "scene": "main-text",
+   "en": "They often gather near places frequented{{C0}}by electric Pokémon in order to avoid being{{C1}}attacked by bird Pokémon, though it{{C2}}normally lives underground.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00B24AF4",
+   "scene": "main-text",
+   "en": "Battery",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Battery→蓄电池"
+   ]
+  },
+  {
+   "id": "00B24AFC",
+   "scene": "main-text",
+   "en": "From the food it digests, it generates{{C0}}electricity, and it stores this energy in{{C1}}its electric sac. On camping trips, people{{C2}}are grateful to have one around.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 157,
+   "hint": "纯中文≤78字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00B24B9C",
+   "scene": "main-text",
+   "en": "Stag Beetle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24BA8",
+   "scene": "main-text",
+   "en": "It concentrates electrical energy within{{C0}}its large jaws and uses it to zap its foes.{{C1}}It overwhelms bird Pokémon with shocking{{C2}}beams of electrical energy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24C44",
+   "scene": "main-text",
+   "en": "Boxing",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24C4C",
+   "scene": "main-text",
+   "en": "While guarding its weak points with its{{C0}}pincers, it looks for an opening and{{C1}}unleashes punches. When it loses, it foams{{C2}}at the mouth and faints.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 145,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24CE0",
+   "scene": "main-text",
+   "en": "Woolly Crab",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24CEC",
+   "scene": "main-text",
+   "en": "It aimed for the top but got lost and{{C0}}ended up on a snowy mountain. Being forced{{C1}}to endure the cold, this Pokémon evolved{{C2}}and grew thick fur.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Endure→挺住"
+   ]
+  },
+  {
+   "id": "00B24D7C",
+   "scene": "main-text",
+   "en": "Dancing",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24D84",
+   "scene": "main-text",
+   "en": "Oricorio can change its body by sipping{{C0}}different coloured nectar. It's enemies'{{C1}}hearts melt at the sight of its varying,{{C2}}beautiful dances.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Oricorio→花舞鸟"
+   ]
+  },
+  {
+   "id": "00B24E10",
+   "scene": "main-text",
+   "en": "Bee Fly",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fly→飞翔"
+   ]
+  },
+  {
+   "id": "00B24E18",
+   "scene": "main-text",
+   "en": "Myriads of Cutiefly flutter above the{{C0}}heads of people who have auras resembling{{C1}}those of flowers. It can identify which{{C2}}flowers are about to bloom.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 148,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cutiefly→萌虻"
+   ]
+  },
+  {
+   "id": "00B24EAC",
+   "scene": "main-text",
+   "en": "Bee Fly",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fly→飞翔"
+   ]
+  },
+  {
+   "id": "00B24EB4",
+   "scene": "main-text",
+   "en": "Ribombee rolls up pollen into puffs. It{{C0}}makes many different varieties, some used{{C1}}as food and others used in battle. They{{C2}}are sometimes sold as supplements.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 157,
+   "hint": "纯中文≤78字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ribombee→蝶结萌虻"
+   ]
+  },
+  {
+   "id": "00B24F54",
+   "scene": "main-text",
+   "en": "Puppy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24F5C",
+   "scene": "main-text",
+   "en": "This Pokémon has lived with people since{{C0}}times long ago. It can sense when its{{C1}}Trainer is in the dumps and will stick close{{C2}}by its Trainer's side.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24FF0",
+   "scene": "main-text",
+   "en": "Wolf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B24FF8",
+   "scene": "main-text",
+   "en": "Well equipped with claws and fangs, it also{{C0}}uses the sharp rocks in its mane as{{C1}}weapons. It will attack with no regard for{{C2}}its own safety.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B25084",
+   "scene": "main-text",
+   "en": "Small Fry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B25090",
+   "scene": "main-text",
+   "en": "When it's in trouble, its eyes moisten and{{C0}}begin to shine. The shining light attracts{{C1}}its comrades, and they stand together{{C2}}against their enemies.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B25124",
+   "scene": "main-text",
+   "en": "Brutal Star",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B25130",
+   "scene": "main-text",
+   "en": "It's found crawling on beaches and{{C0}}seafloors. The coral that grows on{{C1}}Corsola's head is as good as a five-star{{C2}}banquet to this Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Corsola→太阳珊瑚"
+   ]
+  },
+  {
+   "id": "00B251B8",
+   "scene": "main-text",
+   "en": "Brutal Star",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B251C4",
+   "scene": "main-text",
+   "en": "Those attacked by Toxapex's poison will{{C0}}suffer intense pain for three days and{{C1}}three nights. Post-recovery, there will be{{C2}}some aftereffects.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxapex→超坏星",
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00B25254",
+   "scene": "main-text",
+   "en": "Donkey",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2525C",
+   "scene": "main-text",
+   "en": "The mud stuck to Mudbray's hooves{{C0}}enhances its grip and its powerful running{{C1}}gait. Eating dirt, making mud, and playing{{C2}}in the mire form its daily routine.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mudbray→泥驴仔"
+   ]
+  },
+  {
+   "id": "00B252F8",
+   "scene": "main-text",
+   "en": "Draft Horse",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B25304",
+   "scene": "main-text",
+   "en": "Its heavy, mud-covered kicks are its best{{C0}}means of attack, and it can reduce large{{C1}}trucks to scrap without breaking a sweat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B25384",
+   "scene": "main-text",
+   "en": "Water Bubble",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bubble→泡沫",
+    "Water Bubble→水泡",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B25394",
+   "scene": "main-text",
+   "en": "It crawls onto the land in search of food.{{C0}}When it comes across enemies or potential{{C1}}prey, this Pokémon smashes its water-{{C2}}bubble-covered head into them. ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 155,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bubble→泡沫",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B25430",
+   "scene": "main-text",
+   "en": "Water Bubble",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bubble→泡沫",
+    "Water Bubble→水泡",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B25440",
+   "scene": "main-text",
+   "en": "Despite what its appearance suggests, it{{C0}}cares for others. If it finds vulnerable,{{C1}}weak Pokémon, it protectively brings them{{C2}}into its water bubble.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 148,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bubble→泡沫",
+    "Water Bubble→水泡",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B254D4",
+   "scene": "main-text",
+   "en": "Sickle Grass",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "00B254E4",
+   "scene": "main-text",
+   "en": "During the day, it sleeps and soaks up{{C0}}light. They give off a sweet and refreshing{{C1}}scent. Cutiefly often gather near the tall{{C2}}grass where Fomantis are hiding.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 159,
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cutiefly→萌虻",
+    "Fomantis→伪螳草",
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "00B25584",
+   "scene": "main-text",
+   "en": "Bloom Sickle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B25594",
+   "scene": "main-text",
+   "en": "It requires a lot of effort to maintain{{C0}}Lurantis's vivid coloring, but some{{C1}}collectors enjoy this work and treat it as{{C2}}their hobby.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lurantis→兰螳花"
+   ]
+  },
+  {
+   "id": "00B25618",
+   "scene": "main-text",
+   "en": "Illuminate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Illuminate→发光"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4808 @@
+{
+ "batch": 99,
+ "count": 400,
+ "tasks": [
+  {
+   "id": "009BED0C",
+   "scene": "main-text",
+   "en": "Gastly",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gastly→鬼斯"
+   ]
+  },
+  {
+   "id": "009BED14",
+   "scene": "main-text",
+   "en": "Haunter",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Haunter→鬼斯通"
+   ]
+  },
+  {
+   "id": "009BED1C",
+   "scene": "main-text",
+   "en": "Gengar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gengar→耿鬼"
+   ]
+  },
+  {
+   "id": "009BED24",
+   "scene": "main-text",
+   "en": "Onix",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Onix→大岩蛇"
+   ]
+  },
+  {
+   "id": "009BED2C",
+   "scene": "main-text",
+   "en": "Drowzee",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Drowzee→催眠貘"
+   ]
+  },
+  {
+   "id": "009BED34",
+   "scene": "main-text",
+   "en": "Hypno",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hypno→引梦貘人"
+   ]
+  },
+  {
+   "id": "009BED3C",
+   "scene": "main-text",
+   "en": "Krabby",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Krabby→大钳蟹"
+   ]
+  },
+  {
+   "id": "009BED44",
+   "scene": "main-text",
+   "en": "Kingler",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kingler→巨钳蟹"
+   ]
+  },
+  {
+   "id": "009BED4C",
+   "scene": "main-text",
+   "en": "Voltorb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Voltorb→霹雳电球"
+   ]
+  },
+  {
+   "id": "009BED54",
+   "scene": "main-text",
+   "en": "Electrode",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electrode→顽皮雷弹"
+   ]
+  },
+  {
+   "id": "009BED60",
+   "scene": "main-text",
+   "en": "Exeggcute",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Exeggcute→蛋蛋"
+   ]
+  },
+  {
+   "id": "009BED6C",
+   "scene": "main-text",
+   "en": "Exeggutor",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Exeggutor→椰蛋树"
+   ]
+  },
+  {
+   "id": "009BED78",
+   "scene": "main-text",
+   "en": "Cubone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cubone→卡拉卡拉"
+   ]
+  },
+  {
+   "id": "009BED80",
+   "scene": "main-text",
+   "en": "Marowak",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Marowak→嘎啦嘎啦"
+   ]
+  },
+  {
+   "id": "009BED88",
+   "scene": "main-text",
+   "en": "Hitmonlee",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hitmonlee→飞腿郎"
+   ]
+  },
+  {
+   "id": "009BED94",
+   "scene": "main-text",
+   "en": "Hitmonchan",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hitmonchan→快拳郎"
+   ]
+  },
+  {
+   "id": "009BEDA0",
+   "scene": "main-text",
+   "en": "Lickitung",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lickitung→大舌头"
+   ]
+  },
+  {
+   "id": "009BEDAC",
+   "scene": "main-text",
+   "en": "Koffing",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Koffing→瓦斯弹"
+   ]
+  },
+  {
+   "id": "009BEDB4",
+   "scene": "main-text",
+   "en": "Weezing",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Weezing→双弹瓦斯"
+   ]
+  },
+  {
+   "id": "009BEDBC",
+   "scene": "main-text",
+   "en": "Rhyhorn",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rhyhorn→独角犀牛"
+   ]
+  },
+  {
+   "id": "009BEDC4",
+   "scene": "main-text",
+   "en": "Rhydon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rhydon→钻角犀兽"
+   ]
+  },
+  {
+   "id": "009BEDCC",
+   "scene": "main-text",
+   "en": "Chansey",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chansey→吉利蛋"
+   ]
+  },
+  {
+   "id": "009BEDD4",
+   "scene": "main-text",
+   "en": "Tangela",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tangela→蔓藤怪"
+   ]
+  },
+  {
+   "id": "009BEDDC",
+   "scene": "main-text",
+   "en": "Kangaskhan",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kangaskhan→袋兽"
+   ]
+  },
+  {
+   "id": "009BEDE8",
+   "scene": "main-text",
+   "en": "Horsea",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Horsea→墨海马"
+   ]
+  },
+  {
+   "id": "009BEDF0",
+   "scene": "main-text",
+   "en": "Seadra",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Seadra→海刺龙"
+   ]
+  },
+  {
+   "id": "009BEDF8",
+   "scene": "main-text",
+   "en": "Goldeen",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Goldeen→角金鱼"
+   ]
+  },
+  {
+   "id": "009BEE00",
+   "scene": "main-text",
+   "en": "Seaking",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Seaking→金鱼王"
+   ]
+  },
+  {
+   "id": "009BEE08",
+   "scene": "main-text",
+   "en": "Staryu",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Staryu→海星星"
+   ]
+  },
+  {
+   "id": "009BEE10",
+   "scene": "main-text",
+   "en": "Starmie",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Starmie→宝石海星"
+   ]
+  },
+  {
+   "id": "009BEE18",
+   "scene": "main-text",
+   "en": "Mr. Mime",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mr. Mime→魔墙人偶"
+   ]
+  },
+  {
+   "id": "009BEE24",
+   "scene": "main-text",
+   "en": "Scyther",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scyther→飞天螳螂"
+   ]
+  },
+  {
+   "id": "009BEE2C",
+   "scene": "main-text",
+   "en": "Jynx",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jynx→迷唇姐"
+   ]
+  },
+  {
+   "id": "009BEE34",
+   "scene": "main-text",
+   "en": "Electabuzz",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electabuzz→电击兽"
+   ]
+  },
+  {
+   "id": "009BEE40",
+   "scene": "main-text",
+   "en": "Magmar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magmar→鸭嘴火兽"
+   ]
+  },
+  {
+   "id": "009BEE48",
+   "scene": "main-text",
+   "en": "Pinsir",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pinsir→凯罗斯"
+   ]
+  },
+  {
+   "id": "009BEE50",
+   "scene": "main-text",
+   "en": "Tauros",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tauros→肯泰罗"
+   ]
+  },
+  {
+   "id": "009BEE58",
+   "scene": "main-text",
+   "en": "Magikarp",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magikarp→鲤鱼王"
+   ]
+  },
+  {
+   "id": "009BEE64",
+   "scene": "main-text",
+   "en": "Gyarados",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gyarados→暴鲤龙"
+   ]
+  },
+  {
+   "id": "009BEE70",
+   "scene": "main-text",
+   "en": "Lapras",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lapras→拉普拉斯"
+   ]
+  },
+  {
+   "id": "009BEE78",
+   "scene": "main-text",
+   "en": "Ditto",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ditto→百变怪"
+   ]
+  },
+  {
+   "id": "009BEE80",
+   "scene": "main-text",
+   "en": "Eevee",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eevee→伊布"
+   ]
+  },
+  {
+   "id": "009BEE88",
+   "scene": "main-text",
+   "en": "Vaporeon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Vaporeon→水伊布"
+   ]
+  },
+  {
+   "id": "009BEE94",
+   "scene": "main-text",
+   "en": "Jolteon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jolteon→雷伊布"
+   ]
+  },
+  {
+   "id": "009BEE9C",
+   "scene": "main-text",
+   "en": "Flareon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flareon→火伊布"
+   ]
+  },
+  {
+   "id": "009BEEA4",
+   "scene": "main-text",
+   "en": "Porygon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Porygon→多边兽"
+   ]
+  },
+  {
+   "id": "009BEEAC",
+   "scene": "main-text",
+   "en": "Omanyte",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Omanyte→菊石兽"
+   ]
+  },
+  {
+   "id": "009BEEB4",
+   "scene": "main-text",
+   "en": "Omastar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Omastar→多刺菊石兽"
+   ]
+  },
+  {
+   "id": "009BEEBC",
+   "scene": "main-text",
+   "en": "Kabuto",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kabuto→化石盔"
+   ]
+  },
+  {
+   "id": "009BEEC4",
+   "scene": "main-text",
+   "en": "Kabutops",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kabutops→镰刀盔"
+   ]
+  },
+  {
+   "id": "009BEED0",
+   "scene": "main-text",
+   "en": "Aerodactyl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aerodactyl→化石翼龙"
+   ]
+  },
+  {
+   "id": "009BEEDC",
+   "scene": "main-text",
+   "en": "Snorlax",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snorlax→卡比兽"
+   ]
+  },
+  {
+   "id": "009BEEE4",
+   "scene": "main-text",
+   "en": "Articuno",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Articuno→急冻鸟"
+   ]
+  },
+  {
+   "id": "009BEEF0",
+   "scene": "main-text",
+   "en": "Zapdos",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zapdos→闪电鸟"
+   ]
+  },
+  {
+   "id": "009BEEF8",
+   "scene": "main-text",
+   "en": "Moltres",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Moltres→火焰鸟"
+   ]
+  },
+  {
+   "id": "009BEF00",
+   "scene": "main-text",
+   "en": "Dratini",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dratini→迷你龙"
+   ]
+  },
+  {
+   "id": "009BEF08",
+   "scene": "main-text",
+   "en": "Dragonair",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragonair→哈克龙"
+   ]
+  },
+  {
+   "id": "009BEF14",
+   "scene": "main-text",
+   "en": "Dragonite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragonite→快龙"
+   ]
+  },
+  {
+   "id": "009BEF20",
+   "scene": "main-text",
+   "en": "Mewtwo",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mewtwo→超梦"
+   ]
+  },
+  {
+   "id": "009BEF28",
+   "scene": "main-text",
+   "en": "Mew",
+   "codes": [],
+   "context": "",
+   "max_bytes": 4,
+   "hint": "纯中文≤1字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mew→梦幻"
+   ]
+  },
+  {
+   "id": "009BEF2C",
+   "scene": "main-text",
+   "en": "Chikorita",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chikorita→菊草叶"
+   ]
+  },
+  {
+   "id": "009BEF38",
+   "scene": "main-text",
+   "en": "Bayleef",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bayleef→月桂叶"
+   ]
+  },
+  {
+   "id": "009BEF40",
+   "scene": "main-text",
+   "en": "Meganium",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meganium→大竺葵"
+   ]
+  },
+  {
+   "id": "009BEF4C",
+   "scene": "main-text",
+   "en": "Cyndaquil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cyndaquil→火球鼠"
+   ]
+  },
+  {
+   "id": "009BEF58",
+   "scene": "main-text",
+   "en": "Quilava",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quilava→火岩鼠"
+   ]
+  },
+  {
+   "id": "009BEF60",
+   "scene": "main-text",
+   "en": "Typhlosion",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Typhlosion→火暴兽"
+   ]
+  },
+  {
+   "id": "009BEF6C",
+   "scene": "main-text",
+   "en": "Totodile",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Totodile→小锯鳄"
+   ]
+  },
+  {
+   "id": "009BEF78",
+   "scene": "main-text",
+   "en": "Croconaw",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Croconaw→蓝鳄"
+   ]
+  },
+  {
+   "id": "009BEF84",
+   "scene": "main-text",
+   "en": "Feraligatr",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Feraligatr→大力鳄"
+   ]
+  },
+  {
+   "id": "009BEF90",
+   "scene": "main-text",
+   "en": "Sentret",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sentret→尾立"
+   ]
+  },
+  {
+   "id": "009BEF98",
+   "scene": "main-text",
+   "en": "Furret",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Furret→大尾立"
+   ]
+  },
+  {
+   "id": "009BEFA0",
+   "scene": "main-text",
+   "en": "Hoothoot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoothoot→咕咕"
+   ]
+  },
+  {
+   "id": "009BEFAC",
+   "scene": "main-text",
+   "en": "Noctowl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Noctowl→猫头夜鹰"
+   ]
+  },
+  {
+   "id": "009BEFB4",
+   "scene": "main-text",
+   "en": "Ledyba",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ledyba→芭瓢虫"
+   ]
+  },
+  {
+   "id": "009BEFBC",
+   "scene": "main-text",
+   "en": "Ledian",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ledian→安瓢虫"
+   ]
+  },
+  {
+   "id": "009BEFC4",
+   "scene": "main-text",
+   "en": "Spinarak",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spinarak→圆丝蛛"
+   ]
+  },
+  {
+   "id": "009BEFD0",
+   "scene": "main-text",
+   "en": "Ariados",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ariados→阿利多斯"
+   ]
+  },
+  {
+   "id": "009BEFD8",
+   "scene": "main-text",
+   "en": "Crobat",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Crobat→叉字蝠"
+   ]
+  },
+  {
+   "id": "009BEFE0",
+   "scene": "main-text",
+   "en": "Chinchou",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chinchou→灯笼鱼"
+   ]
+  },
+  {
+   "id": "009BEFEC",
+   "scene": "main-text",
+   "en": "Lanturn",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lanturn→电灯怪"
+   ]
+  },
+  {
+   "id": "009BEFF4",
+   "scene": "main-text",
+   "en": "Pichu",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pichu→皮丘"
+   ]
+  },
+  {
+   "id": "009BEFFC",
+   "scene": "main-text",
+   "en": "Cleffa",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cleffa→皮宝宝"
+   ]
+  },
+  {
+   "id": "009BF004",
+   "scene": "main-text",
+   "en": "Igglybuff",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Igglybuff→宝宝丁"
+   ]
+  },
+  {
+   "id": "009BF010",
+   "scene": "main-text",
+   "en": "Togepi",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Togepi→波克比"
+   ]
+  },
+  {
+   "id": "009BF018",
+   "scene": "main-text",
+   "en": "Togetic",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Togetic→波克基古"
+   ]
+  },
+  {
+   "id": "009BF020",
+   "scene": "main-text",
+   "en": "Natu",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Natu→天然雀"
+   ]
+  },
+  {
+   "id": "009BF028",
+   "scene": "main-text",
+   "en": "Xatu",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Xatu→天然鸟"
+   ]
+  },
+  {
+   "id": "009BF030",
+   "scene": "main-text",
+   "en": "Mareep",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mareep→咩利羊"
+   ]
+  },
+  {
+   "id": "009BF038",
+   "scene": "main-text",
+   "en": "Flaaffy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flaaffy→茸茸羊"
+   ]
+  },
+  {
+   "id": "009BF040",
+   "scene": "main-text",
+   "en": "Ampharos",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ampharos→电龙"
+   ]
+  },
+  {
+   "id": "009BF04C",
+   "scene": "main-text",
+   "en": "Bellossom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bellossom→美丽花"
+   ]
+  },
+  {
+   "id": "009BF058",
+   "scene": "main-text",
+   "en": "Marill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Marill→玛力露"
+   ]
+  },
+  {
+   "id": "009BF060",
+   "scene": "main-text",
+   "en": "Azumarill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Azumarill→玛力露丽"
+   ]
+  },
+  {
+   "id": "009BF06C",
+   "scene": "main-text",
+   "en": "Sudowoodo",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sudowoodo→树才怪"
+   ]
+  },
+  {
+   "id": "009BF078",
+   "scene": "main-text",
+   "en": "Politoed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Politoed→蚊香蛙皇"
+   ]
+  },
+  {
+   "id": "009BF084",
+   "scene": "main-text",
+   "en": "Hoppip",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoppip→毽子草"
+   ]
+  },
+  {
+   "id": "009BF08C",
+   "scene": "main-text",
+   "en": "Skiploom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skiploom→毽子花"
+   ]
+  },
+  {
+   "id": "009BF098",
+   "scene": "main-text",
+   "en": "Jumpluff",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jumpluff→毽子棉"
+   ]
+  },
+  {
+   "id": "009BF0A4",
+   "scene": "main-text",
+   "en": "Aipom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aipom→长尾怪手"
+   ]
+  },
+  {
+   "id": "009BF0AC",
+   "scene": "main-text",
+   "en": "Sunkern",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sunkern→向日种子"
+   ]
+  },
+  {
+   "id": "009BF0B4",
+   "scene": "main-text",
+   "en": "Sunflora",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sunflora→向日花怪"
+   ]
+  },
+  {
+   "id": "009BF0C0",
+   "scene": "main-text",
+   "en": "Yanma",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yanma→蜻蜻蜓"
+   ]
+  },
+  {
+   "id": "009BF0C8",
+   "scene": "main-text",
+   "en": "Wooper",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wooper→乌波"
+   ]
+  },
+  {
+   "id": "009BF0D0",
+   "scene": "main-text",
+   "en": "Quagsire",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quagsire→沼王"
+   ]
+  },
+  {
+   "id": "009BF0DC",
+   "scene": "main-text",
+   "en": "Espeon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Espeon→太阳伊布"
+   ]
+  },
+  {
+   "id": "009BF0E4",
+   "scene": "main-text",
+   "en": "Umbreon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Umbreon→月亮伊布"
+   ]
+  },
+  {
+   "id": "009BF0EC",
+   "scene": "main-text",
+   "en": "Murkrow",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Murkrow→黑暗鸦"
+   ]
+  },
+  {
+   "id": "009BF0F4",
+   "scene": "main-text",
+   "en": "Slowking",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slowking→呆呆王"
+   ]
+  },
+  {
+   "id": "009BF100",
+   "scene": "main-text",
+   "en": "Misdreavus",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Misdreavus→梦妖"
+   ]
+  },
+  {
+   "id": "009BF10C",
+   "scene": "main-text",
+   "en": "Unown",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Unown→未知图腾"
+   ]
+  },
+  {
+   "id": "009BF114",
+   "scene": "main-text",
+   "en": "Wobbuffet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wobbuffet→果然翁"
+   ]
+  },
+  {
+   "id": "009BF120",
+   "scene": "main-text",
+   "en": "Girafarig",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Girafarig→麒麟奇"
+   ]
+  },
+  {
+   "id": "009BF12C",
+   "scene": "main-text",
+   "en": "Pineco",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pineco→榛果球"
+   ]
+  },
+  {
+   "id": "009BF134",
+   "scene": "main-text",
+   "en": "Forretress",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Forretress→佛烈托斯"
+   ]
+  },
+  {
+   "id": "009BF140",
+   "scene": "main-text",
+   "en": "Dunsparce",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dunsparce→土龙弟弟"
+   ]
+  },
+  {
+   "id": "009BF14C",
+   "scene": "main-text",
+   "en": "Gligar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gligar→天蝎"
+   ]
+  },
+  {
+   "id": "009BF154",
+   "scene": "main-text",
+   "en": "Steelix",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steelix→大钢蛇"
+   ]
+  },
+  {
+   "id": "009BF15C",
+   "scene": "main-text",
+   "en": "Snubbull",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snubbull→布鲁"
+   ]
+  },
+  {
+   "id": "009BF168",
+   "scene": "main-text",
+   "en": "Granbull",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Granbull→布鲁皇"
+   ]
+  },
+  {
+   "id": "009BF174",
+   "scene": "main-text",
+   "en": "Qwilfish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Qwilfish→千针鱼"
+   ]
+  },
+  {
+   "id": "009BF180",
+   "scene": "main-text",
+   "en": "Scizor",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scizor→巨钳螳螂"
+   ]
+  },
+  {
+   "id": "009BF188",
+   "scene": "main-text",
+   "en": "Shuckle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shuckle→壶壶"
+   ]
+  },
+  {
+   "id": "009BF190",
+   "scene": "main-text",
+   "en": "Heracross",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heracross→赫拉克罗斯"
+   ]
+  },
+  {
+   "id": "009BF19C",
+   "scene": "main-text",
+   "en": "Sneasel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sneasel→狃拉"
+   ]
+  },
+  {
+   "id": "009BF1A4",
+   "scene": "main-text",
+   "en": "Teddiursa",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Teddiursa→熊宝宝"
+   ]
+  },
+  {
+   "id": "009BF1B0",
+   "scene": "main-text",
+   "en": "Ursaring",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ursaring→圈圈熊"
+   ]
+  },
+  {
+   "id": "009BF1BC",
+   "scene": "main-text",
+   "en": "Slugma",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slugma→熔岩虫"
+   ]
+  },
+  {
+   "id": "009BF1C4",
+   "scene": "main-text",
+   "en": "Magcargo",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magcargo→熔岩蜗牛"
+   ]
+  },
+  {
+   "id": "009BF1D0",
+   "scene": "main-text",
+   "en": "Swinub",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swinub→小山猪"
+   ]
+  },
+  {
+   "id": "009BF1D8",
+   "scene": "main-text",
+   "en": "Piloswine",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Piloswine→长毛猪"
+   ]
+  },
+  {
+   "id": "009BF1E4",
+   "scene": "main-text",
+   "en": "Corsola",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Corsola→太阳珊瑚"
+   ]
+  },
+  {
+   "id": "009BF1EC",
+   "scene": "main-text",
+   "en": "Remoraid",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Remoraid→铁炮鱼"
+   ]
+  },
+  {
+   "id": "009BF1F8",
+   "scene": "main-text",
+   "en": "Octillery",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Octillery→章鱼桶"
+   ]
+  },
+  {
+   "id": "009BF204",
+   "scene": "main-text",
+   "en": "Delibird",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Delibird→信使鸟"
+   ]
+  },
+  {
+   "id": "009BF210",
+   "scene": "main-text",
+   "en": "Mantine",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mantine→巨翅飞鱼"
+   ]
+  },
+  {
+   "id": "009BF218",
+   "scene": "main-text",
+   "en": "Skarmory",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skarmory→盔甲鸟"
+   ]
+  },
+  {
+   "id": "009BF224",
+   "scene": "main-text",
+   "en": "Houndour",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Houndour→戴鲁比"
+   ]
+  },
+  {
+   "id": "009BF230",
+   "scene": "main-text",
+   "en": "Houndoom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Houndoom→黑鲁加"
+   ]
+  },
+  {
+   "id": "009BF23C",
+   "scene": "main-text",
+   "en": "Kingdra",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kingdra→刺龙王"
+   ]
+  },
+  {
+   "id": "009BF244",
+   "scene": "main-text",
+   "en": "Phanpy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Phanpy→小小象"
+   ]
+  },
+  {
+   "id": "009BF24C",
+   "scene": "main-text",
+   "en": "Donphan",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Donphan→顿甲"
+   ]
+  },
+  {
+   "id": "009BF254",
+   "scene": "main-text",
+   "en": "Porygon2",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Porygon→多边兽",
+    "Porygon2→多边兽２型"
+   ]
+  },
+  {
+   "id": "009BF260",
+   "scene": "main-text",
+   "en": "Stantler",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Stantler→惊角鹿"
+   ]
+  },
+  {
+   "id": "009BF26C",
+   "scene": "main-text",
+   "en": "Smeargle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Smeargle→图图犬"
+   ]
+  },
+  {
+   "id": "009BF278",
+   "scene": "main-text",
+   "en": "Tyrogue",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tyrogue→无畏小子"
+   ]
+  },
+  {
+   "id": "009BF280",
+   "scene": "main-text",
+   "en": "Hitmontop",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hitmontop→战舞郎"
+   ]
+  },
+  {
+   "id": "009BF28C",
+   "scene": "main-text",
+   "en": "Smoochum",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Smoochum→迷唇娃"
+   ]
+  },
+  {
+   "id": "009BF298",
+   "scene": "main-text",
+   "en": "Elekid",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Elekid→电击怪"
+   ]
+  },
+  {
+   "id": "009BF2A0",
+   "scene": "main-text",
+   "en": "Magby",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magby→鸭嘴宝宝"
+   ]
+  },
+  {
+   "id": "009BF2A8",
+   "scene": "main-text",
+   "en": "Miltank",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Miltank→大奶罐"
+   ]
+  },
+  {
+   "id": "009BF2B0",
+   "scene": "main-text",
+   "en": "Blissey",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blissey→幸福蛋"
+   ]
+  },
+  {
+   "id": "009BF2B8",
+   "scene": "main-text",
+   "en": "Raikou",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Raikou→雷公"
+   ]
+  },
+  {
+   "id": "009BF2C0",
+   "scene": "main-text",
+   "en": "Entei",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Entei→炎帝"
+   ]
+  },
+  {
+   "id": "009BF2C8",
+   "scene": "main-text",
+   "en": "Suicune",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Suicune→水君"
+   ]
+  },
+  {
+   "id": "009BF2D0",
+   "scene": "main-text",
+   "en": "Larvitar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Larvitar→幼基拉斯"
+   ]
+  },
+  {
+   "id": "009BF2DC",
+   "scene": "main-text",
+   "en": "Pupitar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pupitar→沙基拉斯"
+   ]
+  },
+  {
+   "id": "009BF2E4",
+   "scene": "main-text",
+   "en": "Tyranitar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tyranitar→班基拉斯"
+   ]
+  },
+  {
+   "id": "009BF2F0",
+   "scene": "main-text",
+   "en": "Lugia",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lugia→洛奇亚"
+   ]
+  },
+  {
+   "id": "009BF2F8",
+   "scene": "main-text",
+   "en": "Ho-Oh",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ho-Oh→凤王"
+   ]
+  },
+  {
+   "id": "009BF300",
+   "scene": "main-text",
+   "en": "Celebi",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Celebi→时拉比"
+   ]
+  },
+  {
+   "id": "009BF308",
+   "scene": "main-text",
+   "en": "Treecko",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Treecko→木守宫"
+   ]
+  },
+  {
+   "id": "009BF310",
+   "scene": "main-text",
+   "en": "Grovyle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grovyle→森林蜥蜴"
+   ]
+  },
+  {
+   "id": "009BF318",
+   "scene": "main-text",
+   "en": "Sceptile",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sceptile→蜥蜴王"
+   ]
+  },
+  {
+   "id": "009BF324",
+   "scene": "main-text",
+   "en": "Torchic",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Torchic→火稚鸡"
+   ]
+  },
+  {
+   "id": "009BF32C",
+   "scene": "main-text",
+   "en": "Combusken",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Combusken→力壮鸡"
+   ]
+  },
+  {
+   "id": "009BF338",
+   "scene": "main-text",
+   "en": "Blaziken",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blaziken→火焰鸡"
+   ]
+  },
+  {
+   "id": "009BF344",
+   "scene": "main-text",
+   "en": "Mudkip",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mudkip→水跃鱼"
+   ]
+  },
+  {
+   "id": "009BF34C",
+   "scene": "main-text",
+   "en": "Marshtomp",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Marshtomp→沼跃鱼"
+   ]
+  },
+  {
+   "id": "009BF358",
+   "scene": "main-text",
+   "en": "Swampert",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swampert→巨沼怪"
+   ]
+  },
+  {
+   "id": "009BF364",
+   "scene": "main-text",
+   "en": "Poochyena",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poochyena→土狼犬"
+   ]
+  },
+  {
+   "id": "009BF370",
+   "scene": "main-text",
+   "en": "Mightyena",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mightyena→大狼犬"
+   ]
+  },
+  {
+   "id": "009BF37C",
+   "scene": "main-text",
+   "en": "Zigzagoon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zigzagoon→蛇纹熊"
+   ]
+  },
+  {
+   "id": "009BF388",
+   "scene": "main-text",
+   "en": "Linoone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Linoone→直冲熊"
+   ]
+  },
+  {
+   "id": "009BF390",
+   "scene": "main-text",
+   "en": "Wurmple",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wurmple→刺尾虫"
+   ]
+  },
+  {
+   "id": "009BF398",
+   "scene": "main-text",
+   "en": "Silcoon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silcoon→甲壳茧"
+   ]
+  },
+  {
+   "id": "009BF3A0",
+   "scene": "main-text",
+   "en": "Beautifly",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beautifly→狩猎凤蝶"
+   ]
+  },
+  {
+   "id": "009BF3AC",
+   "scene": "main-text",
+   "en": "Cascoon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cascoon→盾甲茧"
+   ]
+  },
+  {
+   "id": "009BF3B4",
+   "scene": "main-text",
+   "en": "Dustox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dustox→毒粉蛾"
+   ]
+  },
+  {
+   "id": "009BF3BC",
+   "scene": "main-text",
+   "en": "Lotad",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lotad→莲叶童子"
+   ]
+  },
+  {
+   "id": "009BF3C4",
+   "scene": "main-text",
+   "en": "Lombre",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lombre→莲帽小童"
+   ]
+  },
+  {
+   "id": "009BF3CC",
+   "scene": "main-text",
+   "en": "Ludicolo",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ludicolo→乐天河童"
+   ]
+  },
+  {
+   "id": "009BF3D8",
+   "scene": "main-text",
+   "en": "Seedot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Seedot→橡实果"
+   ]
+  },
+  {
+   "id": "009BF3E0",
+   "scene": "main-text",
+   "en": "Nuzleaf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nuzleaf→长鼻叶"
+   ]
+  },
+  {
+   "id": "009BF3E8",
+   "scene": "main-text",
+   "en": "Shiftry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shiftry→狡猾天狗"
+   ]
+  },
+  {
+   "id": "009BF3F0",
+   "scene": "main-text",
+   "en": "Taillow",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Taillow→傲骨燕"
+   ]
+  },
+  {
+   "id": "009BF3F8",
+   "scene": "main-text",
+   "en": "Swellow",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swellow→大王燕"
+   ]
+  },
+  {
+   "id": "009BF400",
+   "scene": "main-text",
+   "en": "Wingull",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wingull→长翅鸥"
+   ]
+  },
+  {
+   "id": "009BF408",
+   "scene": "main-text",
+   "en": "Pelipper",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pelipper→大嘴鸥"
+   ]
+  },
+  {
+   "id": "009BF414",
+   "scene": "main-text",
+   "en": "Ralts",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ralts→拉鲁拉丝"
+   ]
+  },
+  {
+   "id": "009BF41C",
+   "scene": "main-text",
+   "en": "Kirlia",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kirlia→奇鲁莉安"
+   ]
+  },
+  {
+   "id": "009BF424",
+   "scene": "main-text",
+   "en": "Gardevoir",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gardevoir→沙奈朵"
+   ]
+  },
+  {
+   "id": "009BF430",
+   "scene": "main-text",
+   "en": "Surskit",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Surskit→溜溜糖球"
+   ]
+  },
+  {
+   "id": "009BF438",
+   "scene": "main-text",
+   "en": "Masquerain",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Masquerain→雨翅蛾"
+   ]
+  },
+  {
+   "id": "009BF444",
+   "scene": "main-text",
+   "en": "Shroomish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shroomish→蘑蘑菇"
+   ]
+  },
+  {
+   "id": "009BF450",
+   "scene": "main-text",
+   "en": "Breloom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Breloom→斗笠菇"
+   ]
+  },
+  {
+   "id": "009BF458",
+   "scene": "main-text",
+   "en": "Slakoth",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slakoth→懒人獭"
+   ]
+  },
+  {
+   "id": "009BF460",
+   "scene": "main-text",
+   "en": "Vigoroth",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Vigoroth→过动猿"
+   ]
+  },
+  {
+   "id": "009BF46C",
+   "scene": "main-text",
+   "en": "Slaking",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slaking→请假王"
+   ]
+  },
+  {
+   "id": "009BF474",
+   "scene": "main-text",
+   "en": "Nincada",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nincada→土居忍士"
+   ]
+  },
+  {
+   "id": "009BF47C",
+   "scene": "main-text",
+   "en": "Ninjask",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ninjask→铁面忍者"
+   ]
+  },
+  {
+   "id": "009BF484",
+   "scene": "main-text",
+   "en": "Shedinja",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shedinja→脱壳忍者"
+   ]
+  },
+  {
+   "id": "009BF490",
+   "scene": "main-text",
+   "en": "Whismur",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Whismur→咕妞妞"
+   ]
+  },
+  {
+   "id": "009BF498",
+   "scene": "main-text",
+   "en": "Loudred",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Loudred→吼爆弹"
+   ]
+  },
+  {
+   "id": "009BF4A0",
+   "scene": "main-text",
+   "en": "Exploud",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Exploud→爆音怪"
+   ]
+  },
+  {
+   "id": "009BF4A8",
+   "scene": "main-text",
+   "en": "Makuhita",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Makuhita→幕下力士"
+   ]
+  },
+  {
+   "id": "009BF4B4",
+   "scene": "main-text",
+   "en": "Hariyama",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hariyama→铁掌力士"
+   ]
+  },
+  {
+   "id": "009BF4C0",
+   "scene": "main-text",
+   "en": "Azurill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Azurill→露力丽"
+   ]
+  },
+  {
+   "id": "009BF4C8",
+   "scene": "main-text",
+   "en": "Nosepass",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nosepass→朝北鼻"
+   ]
+  },
+  {
+   "id": "009BF4D4",
+   "scene": "main-text",
+   "en": "Skitty",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skitty→向尾喵"
+   ]
+  },
+  {
+   "id": "009BF4DC",
+   "scene": "main-text",
+   "en": "Delcatty",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Delcatty→优雅猫"
+   ]
+  },
+  {
+   "id": "009BF4E8",
+   "scene": "main-text",
+   "en": "Sableye",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sableye→勾魂眼"
+   ]
+  },
+  {
+   "id": "009BF4F0",
+   "scene": "main-text",
+   "en": "Mawile",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mawile→大嘴娃"
+   ]
+  },
+  {
+   "id": "009BF4F8",
+   "scene": "main-text",
+   "en": "Aron",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aron→可可多拉"
+   ]
+  },
+  {
+   "id": "009BF500",
+   "scene": "main-text",
+   "en": "Lairon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lairon→可多拉"
+   ]
+  },
+  {
+   "id": "009BF508",
+   "scene": "main-text",
+   "en": "Aggron",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aggron→波士可多拉"
+   ]
+  },
+  {
+   "id": "009BF510",
+   "scene": "main-text",
+   "en": "Meditite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meditite→玛沙那"
+   ]
+  },
+  {
+   "id": "009BF51C",
+   "scene": "main-text",
+   "en": "Medicham",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Medicham→恰雷姆"
+   ]
+  },
+  {
+   "id": "009BF528",
+   "scene": "main-text",
+   "en": "Electrike",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electrike→落雷兽"
+   ]
+  },
+  {
+   "id": "009BF534",
+   "scene": "main-text",
+   "en": "Manectric",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Manectric→雷电兽"
+   ]
+  },
+  {
+   "id": "009BF540",
+   "scene": "main-text",
+   "en": "Plusle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Plusle→正电拍拍"
+   ]
+  },
+  {
+   "id": "009BF548",
+   "scene": "main-text",
+   "en": "Minun",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Minun→負电拍拍"
+   ]
+  },
+  {
+   "id": "009BF550",
+   "scene": "main-text",
+   "en": "Volbeat",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Volbeat→电萤虫"
+   ]
+  },
+  {
+   "id": "009BF558",
+   "scene": "main-text",
+   "en": "Illumise",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Illumise→甜甜萤"
+   ]
+  },
+  {
+   "id": "009BF564",
+   "scene": "main-text",
+   "en": "Roselia",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Roselia→毒蔷薇"
+   ]
+  },
+  {
+   "id": "009BF56C",
+   "scene": "main-text",
+   "en": "Gulpin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gulpin→溶食兽"
+   ]
+  },
+  {
+   "id": "009BF574",
+   "scene": "main-text",
+   "en": "Swalot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swalot→吞食兽"
+   ]
+  },
+  {
+   "id": "009BF57C",
+   "scene": "main-text",
+   "en": "Carvanha",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Carvanha→利牙鱼"
+   ]
+  },
+  {
+   "id": "009BF588",
+   "scene": "main-text",
+   "en": "Sharpedo",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sharpedo→巨牙鲨"
+   ]
+  },
+  {
+   "id": "009BF594",
+   "scene": "main-text",
+   "en": "Wailmer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wailmer→吼吼鲸"
+   ]
+  },
+  {
+   "id": "009BF59C",
+   "scene": "main-text",
+   "en": "Wailord",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wailord→吼鲸王"
+   ]
+  },
+  {
+   "id": "009BF5A4",
+   "scene": "main-text",
+   "en": "Numel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Numel→呆火驼"
+   ]
+  },
+  {
+   "id": "009BF5AC",
+   "scene": "main-text",
+   "en": "Camerupt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Camerupt→喷火驼"
+   ]
+  },
+  {
+   "id": "009BF5B8",
+   "scene": "main-text",
+   "en": "Torkoal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Torkoal→煤炭龟"
+   ]
+  },
+  {
+   "id": "009BF5C0",
+   "scene": "main-text",
+   "en": "Spoink",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spoink→跳跳猪"
+   ]
+  },
+  {
+   "id": "009BF5C8",
+   "scene": "main-text",
+   "en": "Grumpig",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grumpig→噗噗猪"
+   ]
+  },
+  {
+   "id": "009BF5D0",
+   "scene": "main-text",
+   "en": "Spinda",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spinda→晃晃斑"
+   ]
+  },
+  {
+   "id": "009BF5D8",
+   "scene": "main-text",
+   "en": "Trapinch",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trapinch→大颚蚁"
+   ]
+  },
+  {
+   "id": "009BF5E4",
+   "scene": "main-text",
+   "en": "Vibrava",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Vibrava→超音波幼虫"
+   ]
+  },
+  {
+   "id": "009BF5EC",
+   "scene": "main-text",
+   "en": "Flygon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flygon→沙漠蜻蜓"
+   ]
+  },
+  {
+   "id": "009BF5F4",
+   "scene": "main-text",
+   "en": "Cacnea",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cacnea→刺球仙人掌"
+   ]
+  },
+  {
+   "id": "009BF5FC",
+   "scene": "main-text",
+   "en": "Cacturne",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cacturne→梦歌仙人掌"
+   ]
+  },
+  {
+   "id": "009BF608",
+   "scene": "main-text",
+   "en": "Swablu",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swablu→青绵鸟"
+   ]
+  },
+  {
+   "id": "009BF610",
+   "scene": "main-text",
+   "en": "Altaria",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Altaria→七夕青鸟"
+   ]
+  },
+  {
+   "id": "009BF618",
+   "scene": "main-text",
+   "en": "Zangoose",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zangoose→猫鼬斩"
+   ]
+  },
+  {
+   "id": "009BF624",
+   "scene": "main-text",
+   "en": "Seviper",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Seviper→饭匙蛇"
+   ]
+  },
+  {
+   "id": "009BF62C",
+   "scene": "main-text",
+   "en": "Lunatone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lunatone→月石"
+   ]
+  },
+  {
+   "id": "009BF638",
+   "scene": "main-text",
+   "en": "Solrock",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Solrock→太阳岩"
+   ]
+  },
+  {
+   "id": "009BF640",
+   "scene": "main-text",
+   "en": "Barboach",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Barboach→泥泥鳅"
+   ]
+  },
+  {
+   "id": "009BF64C",
+   "scene": "main-text",
+   "en": "Whiscash",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Whiscash→鲶鱼王"
+   ]
+  },
+  {
+   "id": "009BF658",
+   "scene": "main-text",
+   "en": "Corphish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Corphish→龙虾小兵"
+   ]
+  },
+  {
+   "id": "009BF664",
+   "scene": "main-text",
+   "en": "Crawdaunt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Crawdaunt→铁螯龙虾"
+   ]
+  },
+  {
+   "id": "009BF670",
+   "scene": "main-text",
+   "en": "Baltoy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Baltoy→天秤偶"
+   ]
+  },
+  {
+   "id": "009BF678",
+   "scene": "main-text",
+   "en": "Claydol",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Claydol→念力土偶"
+   ]
+  },
+  {
+   "id": "009BF680",
+   "scene": "main-text",
+   "en": "Lileep",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lileep→触手百合"
+   ]
+  },
+  {
+   "id": "009BF688",
+   "scene": "main-text",
+   "en": "Cradily",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cradily→摇篮百合"
+   ]
+  },
+  {
+   "id": "009BF690",
+   "scene": "main-text",
+   "en": "Anorith",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Anorith→太古羽虫"
+   ]
+  },
+  {
+   "id": "009BF698",
+   "scene": "main-text",
+   "en": "Armaldo",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Armaldo→太古盔甲"
+   ]
+  },
+  {
+   "id": "009BF6A0",
+   "scene": "main-text",
+   "en": "Feebas",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Feebas→丑丑鱼"
+   ]
+  },
+  {
+   "id": "009BF6A8",
+   "scene": "main-text",
+   "en": "Milotic",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Milotic→美纳斯"
+   ]
+  },
+  {
+   "id": "009BF6B0",
+   "scene": "main-text",
+   "en": "Castform",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Castform→飘浮泡泡"
+   ]
+  },
+  {
+   "id": "009BF6BC",
+   "scene": "main-text",
+   "en": "Kecleon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kecleon→变隐龙"
+   ]
+  },
+  {
+   "id": "009BF6C4",
+   "scene": "main-text",
+   "en": "Shuppet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shuppet→怨影娃娃"
+   ]
+  },
+  {
+   "id": "009BF6CC",
+   "scene": "main-text",
+   "en": "Banette",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Banette→诅咒娃娃"
+   ]
+  },
+  {
+   "id": "009BF6D4",
+   "scene": "main-text",
+   "en": "Duskull",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Duskull→夜巡灵"
+   ]
+  },
+  {
+   "id": "009BF6DC",
+   "scene": "main-text",
+   "en": "Dusclops",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dusclops→彷徨夜灵"
+   ]
+  },
+  {
+   "id": "009BF6E8",
+   "scene": "main-text",
+   "en": "Tropius",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tropius→热带龙"
+   ]
+  },
+  {
+   "id": "009BF6F0",
+   "scene": "main-text",
+   "en": "Chimecho",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chimecho→风铃铃"
+   ]
+  },
+  {
+   "id": "009BF6FC",
+   "scene": "main-text",
+   "en": "Absol",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Absol→阿勃梭鲁"
+   ]
+  },
+  {
+   "id": "009BF704",
+   "scene": "main-text",
+   "en": "Wynaut",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wynaut→小果然"
+   ]
+  },
+  {
+   "id": "009BF70C",
+   "scene": "main-text",
+   "en": "Snorunt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snorunt→雪童子"
+   ]
+  },
+  {
+   "id": "009BF714",
+   "scene": "main-text",
+   "en": "Glalie",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glalie→冰鬼护"
+   ]
+  },
+  {
+   "id": "009BF71C",
+   "scene": "main-text",
+   "en": "Spheal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spheal→海豹球"
+   ]
+  },
+  {
+   "id": "009BF724",
+   "scene": "main-text",
+   "en": "Sealeo",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sealeo→海魔狮"
+   ]
+  },
+  {
+   "id": "009BF72C",
+   "scene": "main-text",
+   "en": "Walrein",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Walrein→帝牙海狮"
+   ]
+  },
+  {
+   "id": "009BF734",
+   "scene": "main-text",
+   "en": "Clamperl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Clamperl→珍珠贝"
+   ]
+  },
+  {
+   "id": "009BF740",
+   "scene": "main-text",
+   "en": "Huntail",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Huntail→猎斑鱼"
+   ]
+  },
+  {
+   "id": "009BF748",
+   "scene": "main-text",
+   "en": "Gorebyss",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gorebyss→樱花鱼"
+   ]
+  },
+  {
+   "id": "009BF754",
+   "scene": "main-text",
+   "en": "Relicanth",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relicanth→古空棘鱼"
+   ]
+  },
+  {
+   "id": "009BF760",
+   "scene": "main-text",
+   "en": "Luvdisc",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Luvdisc→爱心鱼"
+   ]
+  },
+  {
+   "id": "009BF768",
+   "scene": "main-text",
+   "en": "Bagon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bagon→宝贝龙"
+   ]
+  },
+  {
+   "id": "009BF770",
+   "scene": "main-text",
+   "en": "Shelgon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shelgon→甲壳龙"
+   ]
+  },
+  {
+   "id": "009BF778",
+   "scene": "main-text",
+   "en": "Salamence",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salamence→暴飞龙"
+   ]
+  },
+  {
+   "id": "009BF784",
+   "scene": "main-text",
+   "en": "Beldum",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beldum→铁哑铃"
+   ]
+  },
+  {
+   "id": "009BF78C",
+   "scene": "main-text",
+   "en": "Metang",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Metang→金属怪"
+   ]
+  },
+  {
+   "id": "009BF794",
+   "scene": "main-text",
+   "en": "Metagross",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Metagross→巨金怪"
+   ]
+  },
+  {
+   "id": "009BF7A0",
+   "scene": "main-text",
+   "en": "Regirock",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Regirock→雷吉洛克"
+   ]
+  },
+  {
+   "id": "009BF7AC",
+   "scene": "main-text",
+   "en": "Regice",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Regice→雷吉艾斯"
+   ]
+  },
+  {
+   "id": "009BF7B4",
+   "scene": "main-text",
+   "en": "Registeel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Registeel→雷吉斯奇鲁"
+   ]
+  },
+  {
+   "id": "009BF7C0",
+   "scene": "main-text",
+   "en": "Latias",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Latias→拉帝亚斯"
+   ]
+  },
+  {
+   "id": "009BF7C8",
+   "scene": "main-text",
+   "en": "Latios",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Latios→拉帝欧斯"
+   ]
+  },
+  {
+   "id": "009BF7D0",
+   "scene": "main-text",
+   "en": "Kyogre",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡"
+   ]
+  },
+  {
+   "id": "009BF7D8",
+   "scene": "main-text",
+   "en": "Groudon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Groudon→固拉多"
+   ]
+  },
+  {
+   "id": "009BF7E0",
+   "scene": "main-text",
+   "en": "Rayquaza",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rayquaza→烈空坐"
+   ]
+  },
+  {
+   "id": "009BF7EC",
+   "scene": "main-text",
+   "en": "Jirachi",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jirachi→基拉祈"
+   ]
+  },
+  {
+   "id": "009BF7F4",
+   "scene": "main-text",
+   "en": "Deoxys",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Deoxys→代欧奇希斯"
+   ]
+  },
+  {
+   "id": "009BF7FC",
+   "scene": "main-text",
+   "en": "Turtwig",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Turtwig→草苗龟"
+   ]
+  },
+  {
+   "id": "009BF804",
+   "scene": "main-text",
+   "en": "Grotle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grotle→树林龟"
+   ]
+  },
+  {
+   "id": "009BF80C",
+   "scene": "main-text",
+   "en": "Torterra",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Torterra→土台龟"
+   ]
+  },
+  {
+   "id": "009BF818",
+   "scene": "main-text",
+   "en": "Chimchar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chimchar→小火焰猴"
+   ]
+  },
+  {
+   "id": "009BF824",
+   "scene": "main-text",
+   "en": "Monferno",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Monferno→猛火猴"
+   ]
+  },
+  {
+   "id": "009BF830",
+   "scene": "main-text",
+   "en": "Infernape",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Infernape→烈焰猴"
+   ]
+  },
+  {
+   "id": "009BF83C",
+   "scene": "main-text",
+   "en": "Piplup",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Piplup→波加曼"
+   ]
+  },
+  {
+   "id": "009BF844",
+   "scene": "main-text",
+   "en": "Prinplup",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Prinplup→波皇子"
+   ]
+  },
+  {
+   "id": "009BF850",
+   "scene": "main-text",
+   "en": "Empoleon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Empoleon→帝王拿波"
+   ]
+  },
+  {
+   "id": "009BF85C",
+   "scene": "main-text",
+   "en": "Starly",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Starly→姆克儿"
+   ]
+  },
+  {
+   "id": "009BF864",
+   "scene": "main-text",
+   "en": "Staravia",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Staravia→姆克鸟"
+   ]
+  },
+  {
+   "id": "009BF870",
+   "scene": "main-text",
+   "en": "Staraptor",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Staraptor→姆克鹰"
+   ]
+  },
+  {
+   "id": "009BF87C",
+   "scene": "main-text",
+   "en": "Bidoof",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bidoof→大牙狸"
+   ]
+  },
+  {
+   "id": "009BF884",
+   "scene": "main-text",
+   "en": "Bibarel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bibarel→大尾狸"
+   ]
+  },
+  {
+   "id": "009BF88C",
+   "scene": "main-text",
+   "en": "Kricketot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kricketot→圆法师"
+   ]
+  },
+  {
+   "id": "009BF898",
+   "scene": "main-text",
+   "en": "Kricketune",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kricketune→音箱蟀"
+   ]
+  },
+  {
+   "id": "009BF8A4",
+   "scene": "main-text",
+   "en": "Shinx",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shinx→小猫怪"
+   ]
+  },
+  {
+   "id": "009BF8AC",
+   "scene": "main-text",
+   "en": "Luxio",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Luxio→勒克猫"
+   ]
+  },
+  {
+   "id": "009BF8B4",
+   "scene": "main-text",
+   "en": "Luxray",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Luxray→伦琴猫"
+   ]
+  },
+  {
+   "id": "009BF8BC",
+   "scene": "main-text",
+   "en": "Budew",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Budew→含羞苞"
+   ]
+  },
+  {
+   "id": "009BF8C4",
+   "scene": "main-text",
+   "en": "Roserade",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Roserade→罗丝雷朵"
+   ]
+  },
+  {
+   "id": "009BF8D0",
+   "scene": "main-text",
+   "en": "Cranidos",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cranidos→头盖龙"
+   ]
+  },
+  {
+   "id": "009BF8DC",
+   "scene": "main-text",
+   "en": "Rampardos",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rampardos→战槌龙"
+   ]
+  },
+  {
+   "id": "009BF8E8",
+   "scene": "main-text",
+   "en": "Shieldon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shieldon→盾甲龙"
+   ]
+  },
+  {
+   "id": "009BF8F4",
+   "scene": "main-text",
+   "en": "Bastiodon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bastiodon→护城龙"
+   ]
+  },
+  {
+   "id": "009BF900",
+   "scene": "main-text",
+   "en": "Burmy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Burmy→结草儿"
+   ]
+  },
+  {
+   "id": "009BF908",
+   "scene": "main-text",
+   "en": "Wormadam",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wormadam→结草贵妇"
+   ]
+  },
+  {
+   "id": "009BF914",
+   "scene": "main-text",
+   "en": "Mothim",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mothim→绅士蛾"
+   ]
+  },
+  {
+   "id": "009BF91C",
+   "scene": "main-text",
+   "en": "Combee",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Combee→三蜜蜂"
+   ]
+  },
+  {
+   "id": "009BF924",
+   "scene": "main-text",
+   "en": "Vespiquen",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Vespiquen→蜂女王"
+   ]
+  },
+  {
+   "id": "009BF930",
+   "scene": "main-text",
+   "en": "Pachirisu",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pachirisu→帕奇利兹"
+   ]
+  },
+  {
+   "id": "009BF93C",
+   "scene": "main-text",
+   "en": "Buizel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Buizel→泳圈鼬"
+   ]
+  },
+  {
+   "id": "009BF944",
+   "scene": "main-text",
+   "en": "Floatzel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Floatzel→浮潜鼬"
+   ]
+  },
+  {
+   "id": "009BF950",
+   "scene": "main-text",
+   "en": "Cherubi",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cherubi→樱花宝"
+   ]
+  },
+  {
+   "id": "009BF958",
+   "scene": "main-text",
+   "en": "Cherrim",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cherrim→樱花儿"
+   ]
+  },
+  {
+   "id": "009BF960",
+   "scene": "main-text",
+   "en": "Shellos",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shellos→无壳海兔"
+   ]
+  },
+  {
+   "id": "009BF968",
+   "scene": "main-text",
+   "en": "Gastrodon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gastrodon→海兔兽"
+   ]
+  },
+  {
+   "id": "009BF974",
+   "scene": "main-text",
+   "en": "Ambipom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ambipom→双尾怪手"
+   ]
+  },
+  {
+   "id": "009BF97C",
+   "scene": "main-text",
+   "en": "Drifloon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Drifloon→飘飘球"
+   ]
+  },
+  {
+   "id": "009BF988",
+   "scene": "main-text",
+   "en": "Drifblim",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Drifblim→随风球"
+   ]
+  },
+  {
+   "id": "009BF994",
+   "scene": "main-text",
+   "en": "Buneary",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Buneary→卷卷耳"
+   ]
+  },
+  {
+   "id": "009BF99C",
+   "scene": "main-text",
+   "en": "Lopunny",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lopunny→长耳兔"
+   ]
+  },
+  {
+   "id": "009BF9A4",
+   "scene": "main-text",
+   "en": "Mismagius",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mismagius→梦妖魔"
+   ]
+  },
+  {
+   "id": "009BF9B0",
+   "scene": "main-text",
+   "en": "Honchkrow",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Honchkrow→乌鸦头头"
+   ]
+  },
+  {
+   "id": "009BF9BC",
+   "scene": "main-text",
+   "en": "Glameow",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glameow→魅力喵"
+   ]
+  },
+  {
+   "id": "009BF9C4",
+   "scene": "main-text",
+   "en": "Purugly",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Purugly→东施喵"
+   ]
+  },
+  {
+   "id": "009BF9CC",
+   "scene": "main-text",
+   "en": "Chingling",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chingling→铃铛响"
+   ]
+  },
+  {
+   "id": "009BF9D8",
+   "scene": "main-text",
+   "en": "Stunky",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Stunky→臭鼬噗"
+   ]
+  },
+  {
+   "id": "009BF9E0",
+   "scene": "main-text",
+   "en": "Skuntank",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skuntank→坦克臭鼬"
+   ]
+  },
+  {
+   "id": "009BF9EC",
+   "scene": "main-text",
+   "en": "Bronzor",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bronzor→铜镜怪"
+   ]
+  },
+  {
+   "id": "009BF9F4",
+   "scene": "main-text",
+   "en": "Bronzong",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bronzong→青铜钟"
+   ]
+  },
+  {
+   "id": "009BFA00",
+   "scene": "main-text",
+   "en": "Bonsly",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bonsly→盆才怪"
+   ]
+  },
+  {
+   "id": "009BFA08",
+   "scene": "main-text",
+   "en": "Mime Jr.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mime Jr.→魔尼尼"
+   ]
+  },
+  {
+   "id": "009BFA14",
+   "scene": "main-text",
+   "en": "Happiny",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Happiny→小福蛋"
+   ]
+  },
+  {
+   "id": "009BFA1C",
+   "scene": "main-text",
+   "en": "Chatot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chatot→聒噪鸟"
+   ]
+  },
+  {
+   "id": "009BFA24",
+   "scene": "main-text",
+   "en": "Spiritomb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spiritomb→花岩怪"
+   ]
+  },
+  {
+   "id": "009BFA30",
+   "scene": "main-text",
+   "en": "Gible",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gible→圆陆鲨"
+   ]
+  },
+  {
+   "id": "009BFA38",
+   "scene": "main-text",
+   "en": "Gabite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gabite→尖牙陆鲨"
+   ]
+  },
+  {
+   "id": "009BFA40",
+   "scene": "main-text",
+   "en": "Garchomp",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Garchomp→烈咬陆鲨"
+   ]
+  },
+  {
+   "id": "009BFA4C",
+   "scene": "main-text",
+   "en": "Munchlax",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Munchlax→小卡比兽"
+   ]
+  },
+  {
+   "id": "009BFA58",
+   "scene": "main-text",
+   "en": "Riolu",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Riolu→利欧路"
+   ]
+  },
+  {
+   "id": "009BFA60",
+   "scene": "main-text",
+   "en": "Lucario",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lucario→路卡利欧"
+   ]
+  },
+  {
+   "id": "009BFA68",
+   "scene": "main-text",
+   "en": "Hippopotas",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hippopotas→沙河马"
+   ]
+  },
+  {
+   "id": "009BFA74",
+   "scene": "main-text",
+   "en": "Hippowdon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hippowdon→河马兽"
+   ]
+  },
+  {
+   "id": "009BFA80",
+   "scene": "main-text",
+   "en": "Skorupi",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skorupi→钳尾蝎"
+   ]
+  },
+  {
+   "id": "009BFA88",
+   "scene": "main-text",
+   "en": "Drapion",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Drapion→龙王蝎"
+   ]
+  },
+  {
+   "id": "009BFA90",
+   "scene": "main-text",
+   "en": "Croagunk",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Croagunk→不良蛙"
+   ]
+  },
+  {
+   "id": "009BFA9C",
+   "scene": "main-text",
+   "en": "Toxicroak",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxicroak→毒骷蛙"
+   ]
+  },
+  {
+   "id": "009BFAA8",
+   "scene": "main-text",
+   "en": "Carnivine",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Carnivine→尖牙笼"
+   ]
+  },
+  {
+   "id": "009BFAB4",
+   "scene": "main-text",
+   "en": "Finneon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Finneon→荧光鱼"
+   ]
+  },
+  {
+   "id": "009BFABC",
+   "scene": "main-text",
+   "en": "Lumineon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lumineon→霓虹鱼"
+   ]
+  },
+  {
+   "id": "009BFAC8",
+   "scene": "main-text",
+   "en": "Mantyke",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mantyke→小球飞鱼"
+   ]
+  },
+  {
+   "id": "009BFAD0",
+   "scene": "main-text",
+   "en": "Snover",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snover→雪笠怪"
+   ]
+  },
+  {
+   "id": "009BFAD8",
+   "scene": "main-text",
+   "en": "Abomasnow",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Abomasnow→暴雪王"
+   ]
+  },
+  {
+   "id": "009BFAE4",
+   "scene": "main-text",
+   "en": "Weavile",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Weavile→玛狃拉"
+   ]
+  },
+  {
+   "id": "009BFAEC",
+   "scene": "main-text",
+   "en": "Magnezone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magnezone→自爆磁怪"
+   ]
+  },
+  {
+   "id": "009BFAF8",
+   "scene": "main-text",
+   "en": "Lickilicky",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lickilicky→大舌舔"
+   ]
+  },
+  {
+   "id": "009BFB04",
+   "scene": "main-text",
+   "en": "Rhyperior",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rhyperior→超甲狂犀"
+   ]
+  },
+  {
+   "id": "009BFB10",
+   "scene": "main-text",
+   "en": "Tangrowth",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tangrowth→巨蔓藤"
+   ]
+  },
+  {
+   "id": "009BFB1C",
+   "scene": "main-text",
+   "en": "Electivire",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electivire→电击魔兽"
+   ]
+  },
+  {
+   "id": "009BFB28",
+   "scene": "main-text",
+   "en": "Magmortar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magmortar→鸭嘴炎兽"
+   ]
+  },
+  {
+   "id": "009BFB34",
+   "scene": "main-text",
+   "en": "Togekiss",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Togekiss→波克基斯"
+   ]
+  },
+  {
+   "id": "009BFB40",
+   "scene": "main-text",
+   "en": "Yanmega",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yanmega→远古巨蜓"
+   ]
+  },
+  {
+   "id": "009BFB48",
+   "scene": "main-text",
+   "en": "Leafeon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Leafeon→叶伊布"
+   ]
+  },
+  {
+   "id": "009BFB50",
+   "scene": "main-text",
+   "en": "Glaceon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glaceon→冰伊布"
+   ]
+  },
+  {
+   "id": "009BFB58",
+   "scene": "main-text",
+   "en": "Gliscor",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gliscor→天蝎王"
+   ]
+  },
+  {
+   "id": "009BFB60",
+   "scene": "main-text",
+   "en": "Mamoswine",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mamoswine→象牙猪"
+   ]
+  },
+  {
+   "id": "009BFB6C",
+   "scene": "main-text",
+   "en": "Porygon-Z",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Porygon→多边兽",
+    "Porygon-Z→多边兽乙型"
+   ]
+  },
+  {
+   "id": "009BFB78",
+   "scene": "main-text",
+   "en": "Gallade",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gallade→艾路雷朵"
+   ]
+  },
+  {
+   "id": "009BFB80",
+   "scene": "main-text",
+   "en": "Probopass",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Probopass→大朝北鼻"
+   ]
+  },
+  {
+   "id": "009BFB8C",
+   "scene": "main-text",
+   "en": "Dusknoir",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dusknoir→黑夜魔灵"
+   ]
+  },
+  {
+   "id": "009BFB98",
+   "scene": "main-text",
+   "en": "Froslass",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Froslass→雪妖女"
+   ]
+  },
+  {
+   "id": "009BFBA4",
+   "scene": "main-text",
+   "en": "Rotom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rotom→洛托姆"
+   ]
+  },
+  {
+   "id": "009BFBAC",
+   "scene": "main-text",
+   "en": "Uxie",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Uxie→由克希"
+   ]
+  },
+  {
+   "id": "009BFBB4",
+   "scene": "main-text",
+   "en": "Mesprit",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mesprit→艾姆利多"
+   ]
+  },
+  {
+   "id": "009BFBBC",
+   "scene": "main-text",
+   "en": "Azelf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Azelf→亚克诺姆"
+   ]
+  },
+  {
+   "id": "009BFBC4",
+   "scene": "main-text",
+   "en": "Dialga",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dialga→帝牙卢卡"
+   ]
+  },
+  {
+   "id": "009BFBCC",
+   "scene": "main-text",
+   "en": "Palkia",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Palkia→帕路奇亚"
+   ]
+  },
+  {
+   "id": "009BFBD4",
+   "scene": "main-text",
+   "en": "Heatran",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heatran→席多蓝恩"
+   ]
+  },
+  {
+   "id": "009BFBDC",
+   "scene": "main-text",
+   "en": "Regigigas",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Regigigas→雷吉奇卡斯"
+   ]
+  },
+  {
+   "id": "009BFBE8",
+   "scene": "main-text",
+   "en": "Giratina",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Giratina→骑拉帝纳"
+   ]
+  },
+  {
+   "id": "009BFBF4",
+   "scene": "main-text",
+   "en": "Cresselia",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cresselia→克雷色利亚"
+   ]
+  },
+  {
+   "id": "009BFC00",
+   "scene": "main-text",
+   "en": "Phione",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Phione→霏欧纳"
+   ]
+  },
+  {
+   "id": "009BFC08",
+   "scene": "main-text",
+   "en": "Manaphy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Manaphy→玛纳霏"
+   ]
+  },
+  {
+   "id": "009BFC10",
+   "scene": "main-text",
+   "en": "Darkrai",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Darkrai→达克莱伊"
+   ]
+  }
+ ]
+}

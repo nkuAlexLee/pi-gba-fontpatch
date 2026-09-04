@@ -1,0 +1,2098 @@
+{
+ "batch": 7,
+ "count": 84,
+ "tasks": [
+  {
+   "id": "002A87C4",
+   "scene": "main-text",
+   "en": "Yeah, me neither.{{C0}}I get that she's a new Gym Leader, but{{C1}}this kind of thing is her responsibility.{{C2}}I don't blame her. I couldn't do what{{C3}}you're doing, I'd be terrified.{{C4}}Anyways... I guess you should get going.{{C5}}Good luck, and please come back safe,{{C6}}OK?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 252,
+   "hint": "纯中文≤125字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A8ACA",
+   "scene": "main-text",
+   "en": "May: Oh! {{C0}}{{C1}}! Help!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A8ADF",
+   "scene": "main-text",
+   "en": "Brendan: {{C0}}! C'mere!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A8AF4",
+   "scene": "main-text",
+   "en": "May: You've got to come with me!{{C0}}Y-you see{{C1}}{{C2}}Professor Cozmo{{C3}}{{C4}}He got abducted by some weirdos{{C5}}calling themselves Team Magma!{{C6}}{{C7}}{{C8}}, please{{C9}}{{C10}}You've got to help me save him!{{C11}}I{{C12}} I'm going to head after them{{C13}}right away!{{C14}}Let's meet up at Meteor Falls!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[玩家]"
+    ],
+    [
+     "{{C8}}",
+     "[fd08]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[/n]"
+    ],
+    [
+     "{{C14}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 245,
+   "hint": "纯中文≤122字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A8D10",
+   "scene": "main-text",
+   "en": "Something's happening,{{C0}}and I don't like it!{{C1}}I've seen shady characters wandering{{C2}}in and out of Prof. Cozmo's home{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 115,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A8D83",
+   "scene": "main-text",
+   "en": "This region's been known for meteors{{C0}}since the olden days.{{C1}}They say Meteor Falls was gouged out{{C2}}by a falling meteorite long ago.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meteorite→陨石"
+   ]
+  },
+  {
+   "id": "002A8E04",
+   "scene": "main-text",
+   "en": "See! Take a look!{{C0}}This is my precious Azurill!{{C1}}It's slick and smooth and plushy, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 86,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Azurill→露力丽"
+   ]
+  },
+  {
+   "id": "002A8E5A",
+   "scene": "main-text",
+   "en": "Azurill: Rooreelooo.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Azurill→露力丽"
+   ]
+  },
+  {
+   "id": "002A8E6F",
+   "scene": "main-text",
+   "en": "Have you already challenged Flannery,{{C0}}the Leader of Lavaridge Gym?{{C1}}The girl's grandfather was famous.{{C2}}He was one of the Elite Four in the{{C3}}Pokémon League at one point.{{C4}}It wouldn't surprise me to see Flannery{{C5}}become a great Trainer in her own{{C6}}right.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 248,
+   "hint": "纯中文≤123字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pokémon League→宝可梦联盟"
+   ]
+  },
+  {
+   "id": "002A8F67",
+   "scene": "main-text",
+   "en": "Battle Tent Fallarbor Site{{C0}}“May the Greatest Teams Gather!”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A8FA3",
+   "scene": "main-text",
+   "en": "Fallarbor Town{{C0}}“A farm community with small gardens.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A8FD9",
+   "scene": "main-text",
+   "en": "Ivy and Evie's House{{C0}}Abandoned.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A9090",
+   "scene": "main-text",
+   "en": "My papa told me.{{C0}}He says this tunnel is full of{{C1}}timid Pokémon.{{C2}}They get all scared of loud noise and{{C3}}make a big uproar.{{C4}}So they had to stop the big tunnel{{C5}}project.{{C6}}But there's one man. He's trying to dig{{C7}}the tunnel by himself!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 227,
+   "hint": "纯中文≤113字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dig→挖洞",
+    "Uproar→吵闹",
+    "Timid→胆小"
+   ]
+  },
+  {
+   "id": "002A9173",
+   "scene": "main-text",
+   "en": "There was a man who dug a tunnel for{{C0}}a lady he loved.{{C1}}I don't really get it, but hey!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 86,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A91C9",
+   "scene": "main-text",
+   "en": "The way the winds blow, volcanic ash{{C0}}is never blown in this direction.{{C1}}The air is clean and delicious here.{{C2}}Living here should do wonders for even{{C3}}frail and sickly people.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 172,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A9275",
+   "scene": "main-text",
+   "en": "My Pokémon and I, we've been riding{{C0}}a hot winning streak.{{C1}}So I decided to make my Battle Tent{{C2}}debut in this town.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A92E7",
+   "scene": "main-text",
+   "en": "Did you see the cave next to the{{C0}}Pokémon Mart?{{C1}}There's a guy in there who's trying to{{C2}}bust up boulders so he can bust out{{C3}}through to the other side.{{C4}}It'd be great if we could go through{{C5}}{{C6}}It'll make it easy to visit Rustboro.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 225,
+   "hint": "纯中文≤112字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A93C8",
+   "scene": "main-text",
+   "en": "That cave next to the Pokémon Mart{{C0}}is now a tunnel to the other side.{{C1}}It's great--it's easy to go shop for{{C2}}new Devon products in Rustboro now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A9457",
+   "scene": "main-text",
+   "en": "Verdanturf Town{{C0}}“The windswept highlands with the{{C1}}sweet fragrance of grass.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "002A94A4",
+   "scene": "main-text",
+   "en": "Wanda's House",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A94B2",
+   "scene": "main-text",
+   "en": "Battle Tent Verdanturf Site{{C0}}“Feast Your Eyes on Battles!”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A94EC",
+   "scene": "main-text",
+   "en": "Rusturf Tunnel{{C0}}“Linking Rustboro and Verdanturf{{C1}}“The tunnel project has been{{C2}}canceled.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 88,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A957A",
+   "scene": "main-text",
+   "en": "The sea between Pacifidlog and{{C0}}Slateport has a fast-running tide.{{C1}}If you decide to Surf, you could end{{C2}}up swept away somewhere else.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Surf→冲浪"
+   ]
+  },
+  {
+   "id": "002A95FF",
+   "scene": "main-text",
+   "en": "See, isn't it neat?{{C0}}These houses are on water!{{C1}}I was born here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "002A963F",
+   "scene": "main-text",
+   "en": "The Sky Pillar?{{C0}}{{C1}}Oh, you must mean that tall, tall{{C2}}tower a little further out.{{C3}}If you asked me, I wouldn't climb it.{{C4}}It's too scary to get up that high.{{C5}}Life at sea level in Pacifidlog,{{C6}}that suits me fine.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 206,
+   "hint": "纯中文≤102字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A970D",
+   "scene": "main-text",
+   "en": "Pacifidlog Town{{C0}}“Where the morning sun smiles upon{{C1}}the waters.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Morning Sun→晨光"
+   ]
+  },
+  {
+   "id": "002A9941",
+   "scene": "main-text",
+   "en": "Î{{C0}}H-help me!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A994E",
+   "scene": "main-text",
+   "en": "Hello! You over there!{{C0}}Please! Help!{{C1}}In my Bag!{{C2}}There's a Poké Ball!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poké Ball→精灵球"
+   ]
+  },
+  {
+   "id": "002A9993",
+   "scene": "main-text",
+   "en": "Wh-Where are you going?!{{C0}}Don't leave me like this!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A99C6",
+   "scene": "main-text",
+   "en": "Prof. Birch: Whew{{C0}}{{C1}}I was in the tall grass studying wild{{C2}}Pokémon when I was jumped.{{C3}}You saved me.{{C4}}Thanks a lot!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 112,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "002A9A36",
+   "scene": "main-text",
+   "en": "If Pokémon get tired, take them to{{C0}}a Pokémon Center.{{C1}}There's a Pokémon Center in Oldale{{C2}}Town right close by.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 109,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A9AA3",
+   "scene": "main-text",
+   "en": "Wild Pokémon will jump out at you in{{C0}}tall grass.{{C1}}If you want to catch Pokémon, you have{{C2}}to go into the tall grass and search.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "002A9B21",
+   "scene": "main-text",
+   "en": "Route 101{{C0}}{{C1}} Oldale Town",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[u]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002A9C3F",
+   "scene": "main-text",
+   "en": "Wally: {{C0}}{{C1}}{{C2}}Pokémon hide in tall grass like this,{{C3}}don't they?{{C4}}Please watch me and see if I can{{C5}}catch one properly.{{C6}}Go, Zigzagoon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zigzagoon→蛇纹熊",
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "002A9CC0",
+   "scene": "main-text",
+   "en": "Wally: Come on, Poké Ball!{{C0}}Just shake a few more times...{{C1}}...{{C2}}Wally: Yes! I did it{{C3}} It's my{{C4}}{{C5}}My first Pokémon!{{C6}}I'll never forget this moment!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poké Ball→精灵球"
+   ]
+  },
+  {
+   "id": "002A9D4E",
+   "scene": "main-text",
+   "en": "{{C0}}, thank you!{{C1}}Let's go back to the Gym!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A9D77",
+   "scene": "main-text",
+   "en": "I'm{{C0}} not very tall, so I sink right{{C1}}into tall grass.{{C2}}The grass goes up my nose and{{C3}}{{C4}}Fwafwafwafwafwa{{C5}}{{C6}}Fwatchoo!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "002A9DE6",
+   "scene": "main-text",
+   "en": "I'm going to catch a whole bunch of{{C0}}Pokémon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A9E13",
+   "scene": "main-text",
+   "en": "Route 102{{C0}}{{C1}} Oldale Town",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[R]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002A9E2B",
+   "scene": "main-text",
+   "en": "Route 102{{C0}}{{C1}} Petalburg City",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[L]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002A9F27",
+   "scene": "main-text",
+   "en": "Great job winning those battles! Take{{C0}}this Pokémon from Galar, you can have{{C1}}as many of them as you like!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galar→伽勒尔"
+   ]
+  },
+  {
+   "id": "002A9F90",
+   "scene": "main-text",
+   "en": "{{C0}} got a {{C1}}Rookidee{{C2}} as a gift for{{C3}}defeating every trainer here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rookidee→稚山雀"
+   ]
+  },
+  {
+   "id": "002AA126",
+   "scene": "main-text",
+   "en": "Let's Fight!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA133",
+   "scene": "main-text",
+   "en": "I was defeated...",
+   "codes": [],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA145",
+   "scene": "main-text",
+   "en": "I will try to get stronger for next time.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA16F",
+   "scene": "main-text",
+   "en": "{{C0}} obtained {{C1}}{{C2}}Battle Point(s)",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA18E",
+   "scene": "main-text",
+   "en": "{{C0}} got a {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA728",
+   "scene": "main-text",
+   "en": "May: Let's see{{C0}} The Pokémon found{{C1}}on Route 103 include{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002AA760",
+   "scene": "main-text",
+   "en": "Oh, hi, {{C0}}{{C1}}!{{C2}}{{C3}}Oh, I see, my dad gave you{{C4}}a Pokémon as a gift.{{C5}}Since we're here, let's have a quick{{C6}}battle!{{C7}}I'll give you a taste of what being{{C8}}a Trainer is like.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 163,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA803",
+   "scene": "main-text",
+   "en": "Wow! That's great!{{C0}}{{C1}}{{C2}}, you're pretty good!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[fd08]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA830",
+   "scene": "main-text",
+   "en": "May: I think I know why my dad has{{C0}}an eye out for you now.{{C1}}I mean, you just got that Pokémon,{{C2}}but it already likes you.{{C3}}You might be able to befriend any{{C4}}kind of Pokémon easily.{{C5}}Well, it's time to head back to{{C6}}the Lab.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 219,
+   "hint": "纯中文≤109字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA90B",
+   "scene": "main-text",
+   "en": "Brendan: Okay, so it's this one and{{C0}}that one that live on Route 103{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002AA950",
+   "scene": "main-text",
+   "en": "Hey, it's {{C0}}!{{C1}}{{C2}}Oh, yeah, Dad gave you a Pokémon.{{C3}}Since we're here, how about a little{{C4}}battle?{{C5}}I'll teach you what being a Trainer's{{C6}}about!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA9DB",
+   "scene": "main-text",
+   "en": "Huh, {{C0}}, you're not too shabby.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AA9FB",
+   "scene": "main-text",
+   "en": "Brendan: I think I get it.{{C0}}I think I know why my dad has his eye{{C1}}out for you now.{{C2}}Look, your Pokémon already likes you,{{C3}}even though you just got it.{{C4}}{{C5}}, I get the feeling that you{{C6}}could befriend any Pokémon with ease.{{C7}}We should head back to the Lab.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[玩家]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 250,
+   "hint": "纯中文≤124字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AAAF5",
+   "scene": "main-text",
+   "en": "My Pokémon is staggeringly tired{{C0}}{{C1}}I should have brought a Potion{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Potion→伤药"
+   ]
+  },
+  {
+   "id": "002AAB37",
+   "scene": "main-text",
+   "en": "If you cross the sea from here,{{C0}}it'll be a shortcut to Oldale Town.{{C1}}Fufufu, that's useful, isn't it?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 101,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AAB9C",
+   "scene": "main-text",
+   "en": "Route 103{{C0}}{{C1}} Oldale Town",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[D]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002AAD4D",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}Thanks, {{C2}}!{{C3}}You really are a Champion!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AAD76",
+   "scene": "main-text",
+   "en": "May: Meeting so many different people{{C0}}{{C1}}And encountering so many Pokémon{{C2}}{{C3}}It's just really{{C4}}{{C5}}It's been really, really fun!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AAF67",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}Thanks, {{C2}}!{{C3}}Just what I'd expect from a Champion!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AAF9B",
+   "scene": "main-text",
+   "en": "Brendan: Getting to meet so many{{C0}}different people{{C1}}{{C2}}And so many different Pokémon{{C3}}{{C4}}It's like{{C5}} I don't know{{C6}}{{C7}}It's been really, really fun!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 137,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AB024",
+   "scene": "main-text",
+   "en": "Brendan: One more thing, {{C0}}.{{C1}}Take this as thanks for a great battle!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AB069",
+   "scene": "main-text",
+   "en": "May: Oh, by the way, {{C0}}.{{C1}}I've got something for you!{{C2}}Please take this Ticket!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AB9CA",
+   "scene": "main-text",
+   "en": "That seaside cottage is where{{C0}}Mr. Briney lives.{{C1}}He was once a mighty sailor who never{{C2}}feared the sea, however stormy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ABA40",
+   "scene": "main-text",
+   "en": "The sea, huh?{{C0}}I wonder what it's like at the bottom{{C1}}of the sea?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ABA80",
+   "scene": "main-text",
+   "en": "If you're going to throw a Poké Ball,{{C0}}weaken the wild Pokémon first.{{C1}}It will be easier to catch if it's been{{C2}}poisoned, burned, or lulled to sleep.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poké Ball→精灵球"
+   ]
+  },
+  {
+   "id": "002ABB13",
+   "scene": "main-text",
+   "en": "You're a thief if you try to steal{{C0}}someone else's Pokémon.{{C1}}You should throw Poké Balls only at{{C2}}wild Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 109,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Thief→小偷"
+   ]
+  },
+  {
+   "id": "002ABB80",
+   "scene": "main-text",
+   "en": "Oh, no, I'm not a Trainer.{{C0}}But that's right, if Trainers lock eyes,{{C1}}it's a challenge to battle.{{C2}}If you don't want to battle, stay out{{C3}}of their sight.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 150,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ABC16",
+   "scene": "main-text",
+   "en": "I like filling my mouth with seeds,{{C0}}then spitting them out fast!{{C1}}You already have all TMs, but I can{{C2}}give you a useful advice.{{C3}}The ability Skill Link makes{{C4}}multi-hit moves hit five times.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 188,
+   "hint": "纯中文≤93字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skill Link→连续攻击"
+   ]
+  },
+  {
+   "id": "002ABCD2",
+   "scene": "main-text",
+   "en": "A word of advice!{{C0}}A TM, Technical Machine, can be used{{C1}}many times. It won't go away.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ABD27",
+   "scene": "main-text",
+   "en": "This Flower Shop started selling{{C0}}saplings recently.{{C1}}It made me so happy, I went overboard{{C2}}shopping.{{C3}}I don't need this White Herb anymore.{{C4}}Would you take it, please?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 165,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "White Herb→白色香草"
+   ]
+  },
+  {
+   "id": "002ABDCC",
+   "scene": "main-text",
+   "en": "This Flower Shop started selling{{C0}}saplings recently.{{C1}}It made me so happy, I went overboard{{C2}}shopping. Where should I put them?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ABE49",
+   "scene": "main-text",
+   "en": "Mr. Briney's Cottage",
+   "codes": [],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ABE5E",
+   "scene": "main-text",
+   "en": "Route 104{{C0}}{{C1}} Petalburg City",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[R]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002ABE79",
+   "scene": "main-text",
+   "en": "Route 104{{C0}}{{C1}} Rustboro City",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[u]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "002ABE93",
+   "scene": "main-text",
+   "en": "Pretty Petal Flower Shop",
+   "codes": [],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ABFBC",
+   "scene": "main-text",
+   "en": "May: Oh, hi, {{C0}}{{C1}}!{{C2}}Devon upgraded your PokéNav with{{C3}}the Match Call system, huh?{{C4}}We should register each other so we{{C5}}can get in contact anytime.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AC06E",
+   "scene": "main-text",
+   "en": "May: Oh, by the way, {{C0}}{{C1}},{{C2}}how's your Pokédex coming along?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AC0AA",
+   "scene": "main-text",
+   "en": "Mine's looking pretty decent.{{C0}}So{{C1}}{{C2}}How about a little battle?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AC0E7",
+   "scene": "main-text",
+   "en": "May: Oh, what's the matter?{{C0}}Haven't you caught or raised your{{C1}}Pokémon very much?{{C2}}That's not very good for a Trainer!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AC15C",
+   "scene": "main-text",
+   "en": "May: So, what do you think?{{C0}}How about a little battle here?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AC198",
+   "scene": "main-text",
+   "en": "May: You just became a Trainer,{{C0}}{{C1}}{{C2}}. I'm not going to lose!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[fd08]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002AC1D5",
+   "scene": "main-text",
+   "en": "Yikes!{{C0}}You're better than I expected!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

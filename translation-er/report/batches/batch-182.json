@@ -1,0 +1,2496 @@
+{
+ "batch": 182,
+ "count": 130,
+ "tasks": [
+  {
+   "id": "01018594",
+   "scene": "main-text",
+   "en": "Summons a sandstorm on entry.{{C0}}Lasts 8 turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sandstorm→沙暴"
+   ]
+  },
+  {
+   "id": "010185C4",
+   "scene": "main-text",
+   "en": "Heals 1/8 of max HP every turn if{{C0}}rain is active.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010185F8",
+   "scene": "main-text",
+   "en": "Immune to sound-based moves.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018618",
+   "scene": "main-text",
+   "en": "Traps opposing Steel-types.{{C0}}Ghosts aren't affected.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "0101864C",
+   "scene": "main-text",
+   "en": "Burn-immune. Casts Aqua Ring on{{C0}}entry.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aqua Ring→水流环"
+   ]
+  },
+  {
+   "id": "01018674",
+   "scene": "main-text",
+   "en": "Frostbite-immune. Takes 30% less{{C0}}dmg from Water/Ice-type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "010186B4",
+   "scene": "main-text",
+   "en": "Blocks flinch, Intimidate, Scare.{{C0}}Focus Blast never misses.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Focus Blast→真气弹",
+    "Intimidate→威吓"
+   ]
+  },
+  {
+   "id": "010186F0",
+   "scene": "main-text",
+   "en": "30% chance to poison on contact.{{C0}}Also works on offense.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "01018728",
+   "scene": "main-text",
+   "en": "Doubles own Attack stat. Boosts{{C0}}raw stat, not base stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018764",
+   "scene": "main-text",
+   "en": "Copies the foe's ability. Does{{C0}}not copy innates.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018798",
+   "scene": "main-text",
+   "en": "Grants a 1.2x accuracy boost.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Accuracy→命中强化"
+   ]
+  },
+  {
+   "id": "010187B8",
+   "scene": "main-text",
+   "en": "This Pokémon's Speed gets a 1.5x{{C0}}boost if sun is active.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010187F4",
+   "scene": "main-text",
+   "en": "This Pokémon's Speed gets a 1.5x{{C0}}boost if rain is active.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018830",
+   "scene": "main-text",
+   "en": "Doubles chance of secondary{{C0}}effects on its own moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018868",
+   "scene": "main-text",
+   "en": "Redirects Electric moves.{{C0}}Absorbs them, ups highest Atk.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "010188A4",
+   "scene": "main-text",
+   "en": "Heals status condition upon{{C0}}switching out.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010188D0",
+   "scene": "main-text",
+   "en": "Immune to stat drops.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010188E8",
+   "scene": "main-text",
+   "en": "Enemies inflicting status on{{C0}}this Pokémon get same status.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018924",
+   "scene": "main-text",
+   "en": "30% chance to inflict SLP, PARA{{C0}}or PSN if hit by a contact move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018968",
+   "scene": "main-text",
+   "en": "Immune to Ground-type moves. Ups{{C0}}own Flying moves by 1.25x.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行",
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "010189A4",
+   "scene": "main-text",
+   "en": "Is only hit by Super-effective{{C0}}attacks or indirect damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010189E0",
+   "scene": "main-text",
+   "en": "Enemies lose 1/8 of max HP if{{C0}}they use a contact move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018A18",
+   "scene": "main-text",
+   "en": "Opponents can't be switched out.{{C0}}Ghosts aren't affected.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018A54",
+   "scene": "main-text",
+   "en": "Lowers foes' Atk by one stage on{{C0}}entry.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018A7C",
+   "scene": "main-text",
+   "en": "Cannot be forced to switch out{{C0}}by an enemy's move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018AB0",
+   "scene": "main-text",
+   "en": "Immune to confusion, Intimidate{{C0}}and Scare.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Confusion→念力",
+    "Intimidate→威吓"
+   ]
+  },
+  {
+   "id": "01018ADC",
+   "scene": "main-text",
+   "en": "Immune to added move effects,{{C0}}hazards, and powder moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘"
+   ]
+  },
+  {
+   "id": "01018B18",
+   "scene": "main-text",
+   "en": "Powers up Fire-type moves by{{C0}}1.5x if hit by a Fire-type move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "01018B58",
+   "scene": "main-text",
+   "en": "Cannot be poisoned. Halves{{C0}}damage taken from Poison moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "01018B94",
+   "scene": "main-text",
+   "en": "Changes type to a resist or an{{C0}}immunity before getting hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Immunity→免疫"
+   ]
+  },
+  {
+   "id": "01018BD0",
+   "scene": "main-text",
+   "en": "Cannot fall asleep. Rest fails if{{C0}}used.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rest→睡觉"
+   ]
+  },
+  {
+   "id": "01018BF8",
+   "scene": "main-text",
+   "en": "Grants a 1.3x accuracy boost.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Accuracy→命中强化"
+   ]
+  },
+  {
+   "id": "01018C18",
+   "scene": "main-text",
+   "en": "Clears weather and prevents its{{C0}}effects.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018C44",
+   "scene": "main-text",
+   "en": "Immune to infatuation, Scare,{{C0}}Intimidate and Taunt.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Taunt→挑衅",
+    "Intimidate→威吓"
+   ]
+  },
+  {
+   "id": "01018C78",
+   "scene": "main-text",
+   "en": "Heals 25% of max HP when hit by a{{C0}}Water-type move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "01018CAC",
+   "scene": "main-text",
+   "en": "Heals 25% of max HP when hit by{{C0}}an Electric-type move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "01018CE4",
+   "scene": "main-text",
+   "en": "30% chance to paralyze on{{C0}}contact, 10% on non-contact.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018D1C",
+   "scene": "main-text",
+   "en": "Evasion is boosted by 1.25x while{{C0}}a sandstorm is active.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sandstorm→沙暴"
+   ]
+  },
+  {
+   "id": "01018D58",
+   "scene": "main-text",
+   "en": "Para immune, takes half recoil,{{C0}}immune to self stat drops.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018D94",
+   "scene": "main-text",
+   "en": "Makes foe Water-type on contact.{{C0}}Also works on offense.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "01018DCC",
+   "scene": "main-text",
+   "en": "At full HP, cannot be KO in one{{C0}}hit, stays at 1 HP instead.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018E08",
+   "scene": "main-text",
+   "en": "Immune to critical hits. Takes{{C0}}20% less damage from attacks.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018E48",
+   "scene": "main-text",
+   "en": "Raises own Speed by one stage{{C0}}after every turn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018E78",
+   "scene": "main-text",
+   "en": "Summons rain on entry. Lasts 8{{C0}}turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01018EA0",
+   "scene": "main-text",
+   "en": "10% chance to flinch targets.{{C0}}Toxic terrain is permanent.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "01018EDC",
+   "scene": "main-text",
+   "en": "Empty ability slot.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01047766",
+   "scene": "main-text",
+   "en": " g                 g g {{C0}} 9 ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[Ke]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0104F9E7",
+   "scene": "main-text",
+   "en": "g                 g g {{C0}} 9 ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[Ke]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01067D18",
+   "scene": "main-text",
+   "en": "                                                                :b{{C0}}{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[fdf0]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01068046",
+   "scene": "main-text",
+   "en": "                  :b{{C0}}{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[fdf0]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01080201",
+   "scene": "main-text",
+   "en": "9{{C0}}a5v{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010806B1",
+   "scene": "main-text",
+   "en": "       8.C{{C0}}{{C1}}9",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd56]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010809FC",
+   "scene": "main-text",
+   "en": "%{{C0}}f{{C1}}g",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fda5]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01080E18",
+   "scene": "main-text",
+   "en": "{{C0}}DeEr",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd9b]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010810F7",
+   "scene": "main-text",
+   "en": " wg",
+   "codes": [],
+   "context": "",
+   "max_bytes": 4,
+   "hint": "纯中文≤1字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0108121C",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}9{{C2}}         : : : :        ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[Ke]"
+    ],
+    [
+     "{{C1}}",
+     "[l]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010813EF",
+   "scene": "main-text",
+   "en": "{{C0}} : : : :{{C1}}ü",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[fdff]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0108142E",
+   "scene": "main-text",
+   "en": " :        {{C0}}·{{C1}}{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[l]"
+    ],
+    [
+     "{{C1}}",
+     "[fdff]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010828BC",
+   "scene": "main-text",
+   "en": "!öE{{C0}}         {{C1}} : : :        {{C2}}{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/l]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[fdaf]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082986",
+   "scene": "main-text",
+   "en": "·{{C0}}               ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082A3E",
+   "scene": "main-text",
+   "en": "Ev                        {{C0}}f{{C1}}g{{C2}}g{{C3}}w                        Eü",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/c]"
+    ],
+    [
+     "{{C1}}",
+     "[/c]"
+    ],
+    [
+     "{{C2}}",
+     "[/c]"
+    ],
+    [
+     "{{C3}}",
+     "[/c]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082A9E",
+   "scene": "main-text",
+   "en": "Ev                        {{C0}}{{C1}}98E{{C2}}{{C3}}                        g",
+   "codes": [
+    [
+     "{{C0}}",
+     "[Ke]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ],
+    [
+     "{{C2}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082AFE",
+   "scene": "main-text",
+   "en": "Ev                        ",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082B1C",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}59f",
+   "codes": [
+    [
+     "{{C0}}",
+     "[Ke]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082B26",
+   "scene": "main-text",
+   "en": "·{{C0}}               ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082C3E",
+   "scene": "main-text",
+   "en": "Ev                        g",
+   "codes": [],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082D80",
+   "scene": "main-text",
+   "en": "·{{C0}}{{C1}}{{C2}}{{C3}} : {{C4}} {{C5}} : : : : :",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C1}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C2}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082DC2",
+   "scene": "main-text",
+   "en": "/.E{{C0}}ö                ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd6f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082DE3",
+   "scene": "main-text",
+   "en": "q·{{C0}}{{C1}}{{C2}}                ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[l]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[PO]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082E59",
+   "scene": "main-text",
+   "en": "ö5ü{{C0}}ö9{{C1}}         {{C2}} : : :        ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[Ke]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082EBD",
+   "scene": "main-text",
+   "en": "q·{{C0}}                        98E{{C1}}{{C2}}{{C3}}                        üíüíbív·                        ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/l]"
+    ],
+    [
+     "{{C1}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C2}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 92,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082F45",
+   "scene": "main-text",
+   "en": "{{C0}}í{{C1}}: : : : : : : :",
+   "codes": [
+    [
+     "{{C0}}",
+     "[l]"
+    ],
+    [
+     "{{C1}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01082F62",
+   "scene": "main-text",
+   "en": "·{{C0}}{{C1}}ü                :",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C1}}",
+     "[fdbf]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010835A2",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}ü:f                :",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[fdb0]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01083766",
+   "scene": "main-text",
+   "en": "Fg                :",
+   "codes": [],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01084208",
+   "scene": "main-text",
+   "en": " : : : : : : : :{{C0}}ö{{C1}}ö9{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[Ke]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010846C0",
+   "scene": "main-text",
+   "en": "         {{C0}} : : :        {{C1}}g{{C2}}a9v",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[l]"
+    ],
+    [
+     "{{C2}}",
+     "[PO]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0108B0D2",
+   "scene": "main-text",
+   "en": "      98E{{C0}}{{C1}}{{C2}}                        üíüíbív·                        ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C1}}",
+     "[fdbf]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116F251",
+   "scene": "main-text",
+   "en": "Thank you for using the STAMP CARD{{C0}}System.{{C1}}You have {{C2}} more to collect to{{C3}}fill your STAMP CARD.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 96,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116F334",
+   "scene": "main-text",
+   "en": "{{C0}}ÀÁ~ Â{{C1}}ÁÁ~ Â{{C2}}ÂÁ~ Â{{C3}}ÇÁ~ Â{{C4}}ÈÁ~ ÂThank you for using the Mystery{{C5}}Gift System.{{C6}}From the Pokémon Center we{{C7}}have a gift--a Pokémon Egg!{{C8}}Please raise it with love and{{C9}}kindness.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[L]"
+    ],
+    [
+     "{{C1}}",
+     "[L]"
+    ],
+    [
+     "{{C2}}",
+     "[L]"
+    ],
+    [
+     "{{C3}}",
+     "[L]"
+    ],
+    [
+     "{{C4}}",
+     "[L]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 170,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Egg→水煮蛋片"
+   ]
+  },
+  {
+   "id": "0116F3DE",
+   "scene": "main-text",
+   "en": "Oh, your party appears to be full.{{C0}}Please come see me after storing{{C1}}a Pokémon on a PC.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 87,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116F804",
+   "scene": "main-text",
+   "en": "e it a try!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116F810",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}Congratulations!{{C2}}You have won a prize for winning{{C3}}three battles!{{C4}}We hope you will be inspired to{{C5}}battle some more.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 160,
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116F91D",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}You must be {{C2}}.{{C3}}There is a ticket here for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116F97A",
+   "scene": "main-text",
+   "en": "It appears to be for use at the{{C0}}Lilycove City port.{{C1}}Why not give it a try and see what{{C2}}it is about?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116F9DE",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FA0B",
+   "scene": "main-text",
+   "en": "Oh, I'm sorry, {{C0}}.{{C1}}Your Bag's Key Items Pocket is full.{{C2}}Please store something on your PC,{{C3}}then come back for this.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FAF5",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}You must be {{C2}}.{{C3}}There is a ticket here for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FB52",
+   "scene": "main-text",
+   "en": "It appears to be for use at the{{C0}}Lilycove City port.{{C1}}Why not give it a try and see what{{C2}}it is about?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FBB6",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FBE3",
+   "scene": "main-text",
+   "en": "Oh, I'm sorry, {{C0}}.{{C1}}Your Bag's Key Items Pocket is full.{{C2}}Please store something on your PC,{{C3}}then come back for this.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FC7C",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}There appears to be a rumor about{{C2}}rare Pokémon sightings.{{C3}}The sightings reportedly came from{{C4}}the ALTERING CAVE on Route 103.{{C5}}Perhaps it would be worthwhile for{{C6}}you to investigate this rumor.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 236,
+   "hint": "纯中文≤117字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ]
+  },
+  {
+   "id": "0116FDD5",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}Let me confirm--you are {{C2}}?{{C3}}We received this Old Sea Map{{C4}}addressed to you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 120,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FE4D",
+   "scene": "main-text",
+   "en": "It appears to be for use at the{{C0}}Lilycove City port.{{C1}}Why not give it a try and see what{{C2}}it is about?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FEB1",
+   "scene": "main-text",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0116FEDE",
+   "scene": "main-text",
+   "en": "Oh, I'm sorry, {{C0}}.{{C1}}Your Bag's Key Items Pocket is full.{{C2}}Please store something on your PC,{{C3}}then come back for this.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "011B67B4",
+   "scene": "main-text",
+   "en": "rhXPMLIB,/CEB//DJNNLJKMRZhsÜ",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01210006",
+   "scene": "main-text",
+   "en": "ÀtbXUVZes{{C0}}{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[u]"
+    ],
+    [
+     "{{C1}}",
+     "[/c]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01210075",
+   "scene": "main-text",
+   "en": "hlt:uoppy{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[d]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01210647",
+   "scene": "main-text",
+   "en": "{{C0}}woUINOVmz{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[u]"
+    ],
+    [
+     "{{C1}}",
+     "[unk:fd05]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012204D8",
+   "scene": "main-text",
+   "en": "                                        {{C0}}ohëììÑWaz",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01225444",
+   "scene": "main-text",
+   "en": "yWguv{{C0}}repa:Ñ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01227200",
+   "scene": "main-text",
+   "en": "YPJMav",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01242F2C",
+   "scene": "main-text",
+   "en": "qu{{C0}}ZsaakNf‘eXchq{{C1}}dpÌ{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[l]"
+    ],
+    [
+     "{{C1}}",
+     "[u]"
+    ],
+    [
+     "{{C2}}",
+     "[d]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01260726",
+   "scene": "main-text",
+   "en": "WPJE/,CNcw",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0126DAE8",
+   "scene": "main-text",
+   "en": "YhqwwrolnvÜ{{C0}}{{C1}}{{C2}}{{C3}}{{C4}}{{C5}}{{C6}}Äuqppprw:ö{{C7}}{{C8}}{{C9}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色00]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/c]"
+    ],
+    [
+     "{{C3}}",
+     "[/c]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[fdfd]"
+    ],
+    [
+     "{{C6}}",
+     "[l]"
+    ],
+    [
+     "{{C7}}",
+     "[u]"
+    ],
+    [
+     "{{C8}}",
+     "[u]"
+    ],
+    [
+     "{{C9}}",
+     "[l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01292E0F",
+   "scene": "main-text",
+   "en": "!6336?‘BNan:",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01299223",
+   "scene": "main-text",
+   "en": "hhkcal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012A0940",
+   "scene": "main-text",
+   "en": "ypicXTUXdlty:Ä:ytpkiinuä",
+   "codes": [],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012B440B",
+   "scene": "main-text",
+   "en": "zhZdu{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012B9F0E",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}yncXVYaZSPQdx",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fdfc]"
+    ],
+    [
+     "{{C1}}",
+     "[u]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012BDC34",
+   "scene": "main-text",
+   "en": "Ì{{C0}}:ofbbhr:{{C1}}{{C2}}{{C3}}{{C4}}{{C5}}{{C6}}{{C7}}{{C8}}{{C9}}{{C10}}{{C11}}{{C12}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/c]"
+    ],
+    [
+     "{{C1}}",
+     "[d]"
+    ],
+    [
+     "{{C2}}",
+     "[/c]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/c]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[l]"
+    ],
+    [
+     "{{C8}}",
+     "[d]"
+    ],
+    [
+     "{{C9}}",
+     "[l]"
+    ],
+    [
+     "{{C10}}",
+     "[/l]"
+    ],
+    [
+     "{{C11}}",
+     "[/l]"
+    ],
+    [
+     "{{C12}}",
+     "[/c]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012BFF0E",
+   "scene": "main-text",
+   "en": "utsstuwy:ä{{C0}}{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[u]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012D2613",
+   "scene": "main-text",
+   "en": "e/46DWVkncF'CoË{{C0}}w",
+   "codes": [
+    [
+     "{{C0}}",
+     "[u]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012D795C",
+   "scene": "main-text",
+   "en": "aflpogXPNORSPNOXjwÜÜ{{C0}}xtutsrsvÖ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[>]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012DB3B4",
+   "scene": "main-text",
+   "en": " {{C0}}Ö:zrhgjlkhVLFHObt",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fdf7]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "012E3108",
+   "scene": "main-text",
+   "en": "a/A{{C0}}CB'‘Eaw",
+   "codes": [
+    [
+     "{{C0}}",
+     "[x]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "013101E0",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}{{C2}}{{C3}}{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/c]"
+    ],
+    [
+     "{{C1}}",
+     "[/c]"
+    ],
+    [
+     "{{C2}}",
+     "[/c]"
+    ],
+    [
+     "{{C3}}",
+     "[fdfd]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01375312",
+   "scene": "main-text",
+   "en": "{{C0}}wiYNGFKQVZgu",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01384A3E",
+   "scene": "main-text",
+   "en": "qZKA$,BISfrzä{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01390932",
+   "scene": "main-text",
+   "en": "nmkjhfdccbZYVSRQQQRSRPOOONMLKIHGFFJSfx",
+   "codes": [],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "013C9384",
+   "scene": "main-text",
+   "en": "                                                                                                                                                                                                Ó{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PK]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 195,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "013EDAF8",
+   "scene": "main-text",
+   "en": "                                ViiiV",
+   "codes": [],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01400637",
+   "scene": "main-text",
+   "en": "         Ó{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PK]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01400660",
+   "scene": "main-text",
+   "en": "                                                                                                Ó{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PK]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01405900",
+   "scene": "main-text",
+   "en": "                                                    Ó{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PK]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01429409",
+   "scene": "main-text",
+   "en": "               {{C0}}ï{{C1}}{{C2}}ï",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/c]"
+    ],
+    [
+     "{{C1}}",
+     "[fd21]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "015E0890",
+   "scene": "main-text",
+   "en": "   7{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[MN]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "016568AA",
+   "scene": "main-text",
+   "en": "{{C0}}{{C1}}{{C2}}{{C3}}{{C4}}{{C5}}{{C6}}{{C7}}{{C8}}{{C9}}{{C10}}{{C11}}{{C12}}{{C13}}{{C14}}{{C15}}{{C16}}{{C17}}C{{C18}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[...]"
+    ],
+    [
+     "{{C15}}",
+     "[...]"
+    ],
+    [
+     "{{C16}}",
+     "[...]"
+    ],
+    [
+     "{{C17}}",
+     "[...]"
+    ],
+    [
+     "{{C18}}",
+     "[MN]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "016ABBFC",
+   "scene": "main-text",
+   "en": "{{C0}}88{{C1}}{{C2}}{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fdff]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

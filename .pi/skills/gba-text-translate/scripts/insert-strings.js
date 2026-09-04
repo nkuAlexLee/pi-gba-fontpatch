@@ -16,7 +16,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { loadCharmap, encode, decode, TERMINATOR } = require('./lib/charmap');
+const { loadCharmap, encode, decode, normalizeText, loadSubst, describeUnknown, TERMINATOR } = require('./lib/charmap');
 const csv = require('./lib/csv');
 
 function parseArgv(argv) {
@@ -50,6 +50,8 @@ function main() {
 		if (config[k] && !path.isAbsolute(config[k])) config[k] = path.resolve(root, config[k]);
 	}
 	const charmap = loadCharmap(config.charmap);
+	const encOpts = config.escPrefix ? { escPrefix: config.escPrefix } : {};
+	const subst = loadSubst(path.join(root, 'subst.json'));
 	const rom = fs.readFileSync(config.rom);
 	const romSize = rom.length;
 	const outPath = path.resolve(args.out || config.out_rom);   // loadProject 已将 out_rom 绝对化
@@ -61,6 +63,18 @@ function main() {
 		process.exit(1);
 	}
 
+	// ★空闲区自动探测：从 append_addr 向前回扫，定位 FF 块的真实起点
+	//   （防止前面残留数据导致新串写在半截 FF 区上）
+	{
+		let pos = appendCursor;
+		while (pos > 0 && rom[pos - 1] === 0xFF) pos--;
+		if (pos < appendCursor) {
+			console.log(`  空闲区起点修正: 0x${appendCursor.toString(16)} → 0x${pos.toString(16)}（回扫 ${appendCursor - pos} 字节）`);
+			appendCursor = pos;
+		}
+	}
+
+	const minPtrSrc = parseInt(config.min_pointer_source || '0xA0000', 16);   // 代码区护栏
 	const allowMt = !!args['allow-mt'];
 	const onlyId = args.only ? String(args.only).toLowerCase() : null;
 	const sceneFilter = args.scene;
@@ -87,16 +101,48 @@ function main() {
 			else { skipped++; report.rows.push({ ...rec, strategy: 'skip:状态不满足' }); continue; }
 			if (!text || !text.trim()) { skipped++; report.rows.push({ ...rec, strategy: 'skip:译文为空' }); continue; }
 
-			const { bytes, unknown } = encode(text, charmap);
+			// ★内部偏移指针的行（指针指向串内跳过空格处）必须按原文空格数对齐，
+			//   否则指针会落在多字节中文码中间（症状：只显示后半字）；
+			//   start-ptr 行的空格是可见内容，保留 worker 原样
+			const pm = (row.notes || '').match(/\[ptr:([^\]]*)\]/);
+			let isInner = false;
+			if (pm && pm[1]) {
+				for (const ps of pm[1].split(';')) {
+					const pv = parseInt(ps, 16);
+					if (!isNaN(pv) && pv > parseInt(row.id, 16)) { isInner = true; break; }
+				}
+			}
+			let textN = normalizeText(text, charmap, subst).text;
+			if (isInner) {
+				const enLead = (row.en || '').match(/^ +/);
+				const enTrail = (row.en || '').match(/ +$/);
+				textN = ' '.repeat(enLead ? enLead[0].length : 0) + textN.replace(/^ +/, '').replace(/ +$/, '') + ' '.repeat(enTrail ? enTrail[0].length : 0);
+			}
+			const { bytes, unknown } = encode(textN, charmap, encOpts);
 			if (unknown.length) {
 				failed++;
-				report.rows.push({ ...rec, strategy: 'fail:缺字 ' + [...new Set(unknown)].join(' ') });
+				report.rows.push({ ...rec, strategy: 'fail:码表外内容(拒绝写入) ' + describeUnknown(unknown) });
 				continue;
 			}
-			const newLen = bytes.length + 1;                    // 含终止符
+			// ★终止符实测护栏：预算以 ROM 里 FF 的实际位置为准，不信 CSV max_bytes。
+			//   CSV 预算若虚高（旧版普查 bug/手工误差），残尾清 FF 会越界抹掉下一条串头部（串行/吞串）
+			const fileOff0 = parseInt(row.id, 16);
+			const ffPos = rom.indexOf(TERMINATOR, fileOff0);
+			const realLen = (ffPos === -1 || ffPos - fileOff0 >= 0x400)
+				? null
+				: (ffPos - fileOff0 + 1);                     // 含终止符
+			if (!realLen) {
+				failed++;
+				report.rows.push({ ...rec, strategy: 'fail:找不到串终止符FF（非文本区或跨区超长），拒绝写入' });
+				continue;
+			}
 			const maxBytes = Number(row.max_bytes);
-			const fileOff = parseInt(row.id, 16);
-			const origLen = maxBytes;                            // 原串字节数（含 FF）
+			if (realLen !== maxBytes) {
+				rec.budget_fix = `CSV max_bytes=${maxBytes} ≠ ROM实测=${realLen}，以ROM为准`;
+			}
+			const newLen = bytes.length + 1;                    // 含终止符
+			const fileOff = fileOff0;
+			const origLen = realLen;                             // ROM 实测原串字节数（含 FF）
 			if (fileOff <= lastWriteEnd) {
 				failed++;
 				report.rows.push({ ...rec, strategy: 'fail:与上一条物理重叠（串中段别名指针），跳过防踩踏' });
@@ -119,9 +165,9 @@ function main() {
 				let pointers = [];
 				const m = (row.notes || '').match(/\[ptr:([^\]]*)\]/);
 				if (m && m[1]) {
-					pointers = m[1].split(';').map(s => parseInt(s, 16)).filter(p => !isNaN(p) && p < romSize);
+					pointers = m[1].split(';').map(s => parseInt(s, 16)).filter(p => !isNaN(p) && p < romSize && p >= minPtrSrc);
 				} else {
-					pointers = scanPointers(rom, gba);
+					pointers = scanPointers(rom, 0x08000000 + fileOff).filter(p => p >= minPtrSrc);
 				}
 				if (!pointers.length) {
 					failed++;
@@ -147,7 +193,7 @@ function main() {
 					for (let k = newLen; k < paddedLen; k++) rom[startOff + k] = TERMINATOR;   // 对齐填充
 					const startGba = 0x08000000 + startOff;
 					for (const p of pointers) rom.writeUInt32LE(startGba, p); // 全部指针改指新址
-					for (let k = 0; k < origLen; k++) rom[fileOff + k] = TERMINATOR;           // 原址清 FF
+					for (let k = 0; k < origLen; k++) rom[fileOff + k] = TERMINATOR;           // 原址清 FF（实测长度，不越界）
 					rec.new_addr = '0x' + startGba.toString(16).toUpperCase();
 					appendCursor = startOff + paddedLen;
 				}

@@ -1,0 +1,2079 @@
+{
+ "batch": 15,
+ "count": 96,
+ "tasks": [
+  {
+   "id": "002C8E19",
+   "scene": "main-text",
+   "en": "Gorge your eyes on this!{{C0}}It's a Silk Scarf. It's right at the{{C1}}cutting edge of fashion, yeah!{{C2}}Oh, I can see your eyes twinkling!{{C3}}You appreciate my dazzling style!{{C4}}Oh, you're a delight!{{C5}}Here you go. I want you to have it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 220,
+   "hint": "纯中文≤109字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dazzling→鲜艳之躯",
+    "Silk Scarf→丝绸围巾"
+   ]
+  },
+  {
+   "id": "002C8EF5",
+   "scene": "main-text",
+   "en": "Oh, you don't have room?{{C0}}Now, listen tight, this SCARF is a must-{{C1}}have! Why, I would sell all my items{{C2}}in order to get it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C8F70",
+   "scene": "main-text",
+   "en": "The Silk Scarf raises the power of{{C0}}Normal-type moves.{{C1}}It's a marvelous Scarf that will go{{C2}}with almost all Pokémon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 115,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silk Scarf→丝绸围巾",
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "002C8FE3",
+   "scene": "main-text",
+   "en": "Wow, you bothered to cross the sea{{C0}}to visit Dewford?{{C1}}Did you maybe come here because you{{C2}}heard about Brawly?{{C3}}He's so cool{{C4}}{{C5}}Everyone idolizes him.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 146,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C90DE",
+   "scene": "main-text",
+   "en": "Welcome to the Herb Shop, home of{{C0}}effective and inexpensive medicine!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9124",
+   "scene": "main-text",
+   "en": "You've come to look at herbal medicine{{C0}}in Lavaridge?{{C1}}That's rather commendable.{{C2}}I like you! Take this!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C918B",
+   "scene": "main-text",
+   "en": "That Charcoal I gave you, it's used{{C0}}for making herbal medicine.{{C1}}It also does wonders when held by{{C2}}a Pokémon.{{C3}}It intensifies the power of Fire-type{{C4}}moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charcoal→木炭",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "002C9225",
+   "scene": "main-text",
+   "en": "Herbal medicine works impressively well.{{C0}}But your Pokémon will dislike you for it.{{C1}}It must be horribly bitter!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C94A2",
+   "scene": "main-text",
+   "en": "Hey, how's it going, Champion-{{C0}}bound {{C1}}?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9606",
+   "scene": "main-text",
+   "en": "Yow! That was a scorching-hot battle!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9649",
+   "scene": "main-text",
+   "en": "I'm blinded by sweat in my eyes{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C966A",
+   "scene": "main-text",
+   "en": "Being buried in hot sand promotes{{C0}}circulation.{{C1}}It's effective for healing pain in{{C2}}your joints.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C96C9",
+   "scene": "main-text",
+   "en": "I'm trying to relieve my stress.{{C0}}Don't come along and stress me out!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C970E",
+   "scene": "main-text",
+   "en": "I hope Flannery flames you good!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C972F",
+   "scene": "main-text",
+   "en": "Haaah{{C0}} Whew{{C1}}{{C2}}If you spend too much time buried in{{C3}}hot sand, it tuckers you out{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9831",
+   "scene": "main-text",
+   "en": "Play with fire, and be burned{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "002C9850",
+   "scene": "main-text",
+   "en": "Your skill is real{{C0}}{{C1}}But our Leader Flannery is strong.{{C2}}If you don't watch yourself, you'll be{{C3}}burned seriously.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 112,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C98C0",
+   "scene": "main-text",
+   "en": "Can your Pokémon withstand{{C0}}392-degree heat?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C98EC",
+   "scene": "main-text",
+   "en": "It didn't burn hotly enough{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9909",
+   "scene": "main-text",
+   "en": "The temperature of magma is{{C0}}392 degrees.{{C1}}Your Pokémon beat me, so they should{{C2}}easily survive in magma.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9970",
+   "scene": "main-text",
+   "en": "Um{{C0}}{{C1}}Okay, I'll battle with you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9990",
+   "scene": "main-text",
+   "en": "Oh, but you're too strong.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C99AB",
+   "scene": "main-text",
+   "en": "I'm going to be a pretty and strong{{C0}}Trainer just like Flannery.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C99EB",
+   "scene": "main-text",
+   "en": "Come on, get with it!{{C0}}Let's go before my feelings cool!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9A23",
+   "scene": "main-text",
+   "en": "It's so hot, and yet my heart is{{C0}}clutched by ice{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "002C9A55",
+   "scene": "main-text",
+   "en": "The way the battling spirit burns{{C0}}within you, you may stand a chance{{C1}}against our Leader.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 89,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9AAE",
+   "scene": "main-text",
+   "en": "See how the flames blaze wildly?{{C0}}They flare in anticipation of my win!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blaze→猛火",
+    "Anticipation→危险预知"
+   ]
+  },
+  {
+   "id": "002C9AF5",
+   "scene": "main-text",
+   "en": "Something didn't go right.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9B10",
+   "scene": "main-text",
+   "en": "Well, so what? I say so what?{{C0}}I can walk on hot coals barefoot!{{C1}}{{C2}}Don't even think about trying it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9B73",
+   "scene": "main-text",
+   "en": "As much as I love mountains,{{C0}}I especially love volcanoes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9BAD",
+   "scene": "main-text",
+   "en": "Well, it seems to me I lost without{{C0}}ever being in control.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9BE8",
+   "scene": "main-text",
+   "en": "I stay here because I became a fan{{C0}}of Flannery's power.{{C1}}Hehehehe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9E7D",
+   "scene": "main-text",
+   "en": "{{C0}} received the Heat Badge{{C1}}from Flannery.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002C9EA7",
+   "scene": "main-text",
+   "en": "If you have a Heat Badge, all Pokémon{{C0}}up to Level 60, even those you get in{{C1}}trades from other people, will obey{{C2}}you completely.{{C3}}And, it lets Pokémon use the HM move{{C4}}Strength outside of battle.{{C5}}I'll even let you call on my Arcanine{{C6}}to use Strength for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 256,
+   "hint": "纯中文≤127字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Arcanine→风速狗",
+    "Strength→怪力"
+   ]
+  },
+  {
+   "id": "002C9FA7",
+   "scene": "main-text",
+   "en": "This is a token of my appreciation.{{C0}}Don't be shy about taking it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CA102",
+   "scene": "main-text",
+   "en": "Your power reminds me of someone{{C0}}{{C1}}Oh! I know! You battle like Norman,{{C2}}the Gym Leader of Petalburg.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CA165",
+   "scene": "main-text",
+   "en": "Lavaridge Town Pokémon Gym",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CA180",
+   "scene": "main-text",
+   "en": "Lavaridge Town Pokémon Gym{{C0}}FLANNERY's Certified Trainers:{{C1}}{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CA1F8",
+   "scene": "main-text",
+   "en": "Whew!{{C0}}On the verge of eruption!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eruption→喷火"
+   ]
+  },
+  {
+   "id": "002CA218",
+   "scene": "main-text",
+   "en": "Flannery: I lost the match,{{C0}}but I'm completely satisfied.{{C1}}It's not often I get to enjoy a battle{{C2}}this heated.{{C3}}Let's have another one like this{{C4}}again sometime!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 159,
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CA339",
+   "scene": "main-text",
+   "en": "Flannery: Losing a battle isn't going{{C0}}to deflate me.{{C1}}I love Pokémon.{{C2}}I love to battle.{{C3}}And{{C4}} I love this Gym!{{C5}}So{{C6}} Let's choose some rules for our{{C7}}rematch: singles or doubles?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 174,
+   "hint": "纯中文≤86字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CA3E7",
+   "scene": "main-text",
+   "en": "Flannery: And can I turn up the heat{{C0}}with my Legendary Pokémon?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CAD51",
+   "scene": "main-text",
+   "en": "¿  æçÀÂTake this special Pokémon as a gift{{C0}}from me!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CAD85",
+   "scene": "main-text",
+   "en": "{{C0}} got Flannery's {{C1}}Volcarona{{C2}} as{{C3}}a gift!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Volcarona→火神蛾"
+   ]
+  },
+  {
+   "id": "002CADB2",
+   "scene": "main-text",
+   "en": "As the battle goes on my flames {{C0}}will{{C1}}only get hotter!{{C2}} Hope you're prepared{{C3}}for a wildfire.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 97,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CAE13",
+   "scene": "main-text",
+   "en": "Take care you don't breathe in too much{{C0}}of this smoke, it's extremely {{C1}}toxic{{C2}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "002CAE66",
+   "scene": "main-text",
+   "en": "I've read that trolls {{C0}}can't heal{{C1}} when{{C2}}attacked with fire. Don't you think{{C3}}fantasy is amazing?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "002CAECA",
+   "scene": "main-text",
+   "en": "I hope you're ready for me. My pokemon{{C0}}will {{C1}}leave you burned! {{C2}}The fog around{{C3}}here is very thick, luckily we're all used{{C4}}to it and can see {{C5}}perfectly fine{{C6}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C6}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 166,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CAF70",
+   "scene": "main-text",
+   "en": "They say that fire types are often{{C0}}frail, but through hard work even they{{C1}}can put up a {{C2}}solid defense.{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C3}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 108,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "002CAFDC",
+   "scene": "main-text",
+   "en": "Flames are amazing! Just give them a{{C0}}little fuel and they can burn for ages,{{C1}}doesn't that get you all {{C2}}Psyched Up{{C3}} for{{C4}}a battle?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C3}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB061",
+   "scene": "main-text",
+   "en": "My passion is burning white-hot and {{C0}}so{{C1}}are my Pokemon's flames{{C2}}! I hope you're{{C3}}ready!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 91,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB0BC",
+   "scene": "main-text",
+   "en": "konbawa goshujin-sama {{C0}}><{{C1}} teehee,{{C2}}watashi wa Trolley-chan {{C3}}desu{{C4}}. Release o{{C5}}boku no wasurenai ne kudasai {{C6}}><{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C4}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C7}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB137",
+   "scene": "main-text",
+   "en": "Cole & Keegan",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB145",
+   "scene": "main-text",
+   "en": "Axle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB14A",
+   "scene": "main-text",
+   "en": "Eli",
+   "codes": [],
+   "context": "",
+   "max_bytes": 4,
+   "hint": "纯中文≤1字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB14E",
+   "scene": "main-text",
+   "en": "Gerald",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB155",
+   "scene": "main-text",
+   "en": "Jace",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB15A",
+   "scene": "main-text",
+   "en": "Danielle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB163",
+   "scene": "main-text",
+   "en": "Jeff",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB168",
+   "scene": "main-text",
+   "en": "Flannery",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB171",
+   "scene": "main-text",
+   "en": "Oh, I see you haven't been able to{{C0}}experience our hot moves! Brace{{C1}}yourself, then!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB1C4",
+   "scene": "main-text",
+   "en": "Not bad you have some fiery spirit to{{C0}}you but you wont be ready for my{{C1}}hellflames of a battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB223",
+   "scene": "main-text",
+   "en": "A cold headed one I see.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB23C",
+   "scene": "main-text",
+   "en": "Not many people can withstand the heat{{C0}}of my pokemon at full power! Hope you{{C1}}didn't get too singed!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB2A0",
+   "scene": "main-text",
+   "en": "Amazing! You managed to extinguish my{{C0}}entire strategy! Guess I still have a{{C1}}ways to go before catching up to{{C2}}grandpa!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB316",
+   "scene": "main-text",
+   "en": "Your drive and passion burns even{{C0}}hotter than mine! I hope your flame{{C1}}keeps on burning!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 88,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB43E",
+   "scene": "main-text",
+   "en": "My favorite Dark move is Sucker Punch.{{C0}}It's a move that may go first if the{{C1}}target Pokémon is about to attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sucker Punch→突袭",
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "002CB4D4",
+   "scene": "main-text",
+   "en": "My wife's warming an Egg in the hot{{C0}}springs. This is what she told me.{{C1}}She left two Pokémon with the Day Care.{{C2}}And they discovered that Egg!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Egg→水煮蛋片"
+   ]
+  },
+  {
+   "id": "002CB561",
+   "scene": "main-text",
+   "en": "Zigzagoon: Pshoo!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zigzagoon→蛇纹熊"
+   ]
+  },
+  {
+   "id": "002CB5B4",
+   "scene": "main-text",
+   "en": "Ô L{{C0}}。ËÌÁÁÔ ~{{C1}}。ËÌÁÁUse X Speed to add to a Pokémon's{{C2}}Speed in battle.{{C3}}That will help it get in the first{{C4}}strike--a decided advantage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[m]"
+    ],
+    [
+     "{{C1}}",
+     "[f]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Speed→速度强化"
+   ]
+  },
+  {
+   "id": "002CB639",
+   "scene": "main-text",
+   "en": "On Mt. Chimney's peak, there's a local{{C0}}specialty that you can buy only there.{{C1}}Give it to a Pokémon--it will be elated.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 119,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB913",
+   "scene": "main-text",
+   "en": "???: You there{{C0}} Stop.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "???→???"
+   ]
+  },
+  {
+   "id": "002CB929",
+   "scene": "main-text",
+   "en": "???: Scott said I might find you here.{{C0}}I am Lucy{{C1}}{{C2}}I'm not one for idle chatter{{C3}} I want{{C4}}to battle. Are you ready?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chatter→喋喋不休",
+    "???→???"
+   ]
+  },
+  {
+   "id": "002CB99A",
+   "scene": "main-text",
+   "en": "Lucy: Very well{{C0}}{{C1}}I'll be by the PC.{{C2}}Don't keep me waiting{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CB9DA",
+   "scene": "main-text",
+   "en": "Lucy: Ready? Good.{{C0}}Let's make this quick{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CBA04",
+   "scene": "main-text",
+   "en": "Lucy: You were lucky, this time{{C0}}{{C1}}Here. Take one of my Pokémon{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CBA43",
+   "scene": "main-text",
+   "en": "Lucy: Perhaps we'll meet again{{C0}}{{C1}}If your luck holds up.{{C2}}Good-bye, for now{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CBA8D",
+   "scene": "main-text",
+   "en": "Moomoo Milk?{{C0}}It's great before entering the{{C1}}hot spring!{{C2}}And even better afterward.{{C3}}How about some?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Moomoo Milk→哞哞鲜奶"
+   ]
+  },
+  {
+   "id": "002CBAF0",
+   "scene": "main-text",
+   "en": "Well, now I feel udder-ly useless!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CBB13",
+   "scene": "main-text",
+   "en": "Here's your Moomoo Milk. Drink up!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Moomoo Milk→哞哞鲜奶"
+   ]
+  },
+  {
+   "id": "002CBB36",
+   "scene": "main-text",
+   "en": "You don't have enough money.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CBB53",
+   "scene": "main-text",
+   "en": "I think Pokémon get closer to their{{C0}}Trainers if they spend time together.{{C1}}The longer the better.{{C2}}That's what I think.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CBBC9",
+   "scene": "main-text",
+   "en": "It's sort of magical how just sitting{{C0}}in a hot-spring pool can invigorate.{{C1}}I wish I could let my Pokémon{{C2}}soak, too.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿",
+    "Soak→浸水"
+   ]
+  },
+  {
+   "id": "002CBC3D",
+   "scene": "main-text",
+   "en": "Hohoho! Hey, kid, you can reach{{C0}}the hot springs from here.{{C1}}If Pokémon are getting rest, so too{{C2}}should their Trainers.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rest→睡觉"
+   ]
+  },
+  {
+   "id": "002CBCE3",
+   "scene": "main-text",
+   "en": "{{C0}} got a {{C1}}Milotic{{C2}} as a gift!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Milotic→美纳斯"
+   ]
+  },
+  {
+   "id": "002CBECD",
+   "scene": "main-text",
+   "en": "TM60 is also Drain Punch, but it's{{C0}}a punch that drains HP instead.{{C1}}Please don't use it on any drains!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Drain Punch→吸取拳",
+    "TM60→招式学习器６０"
+   ]
+  },
+  {
+   "id": "002CBF33",
+   "scene": "main-text",
+   "en": "I'm having a hard time deciding if I{{C0}}should make my Skitty evolve or not.{{C1}}I only have to use this Moon Stone,{{C2}}but it's so hard to decide{{C3}}{{C4}}If I make it evolve, it will become{{C5}}much stronger.{{C6}}But it will look so different, too.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 225,
+   "hint": "纯中文≤112字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skitty→向尾喵",
+    "Moon Stone→月之石"
+   ]
+  },
+  {
+   "id": "002CC014",
+   "scene": "main-text",
+   "en": "Skitty: Miyao?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skitty→向尾喵"
+   ]
+  },
+  {
+   "id": "002CC023",
+   "scene": "main-text",
+   "en": "This Nugget I found here{{C0}}{{C1}}I suppose I'll have to sell it, seeing{{C2}}as how it has no other use.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nugget→金珠"
+   ]
+  },
+  {
+   "id": "002CC51E",
+   "scene": "main-text",
+   "en": "Fufufufufu.{{C0}}I'm going to make everyone think{{C1}}I'm just a kid and let them play down.{{C2}}Then, I'll shock them and grab{{C3}}the title!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CC59C",
+   "scene": "main-text",
+   "en": "You know how Battle Tents offer{{C0}}different events in different towns?{{C1}}My favorite is definitely the Battle{{C2}}Tent in Fallarbor Town.{{C3}}I think it's fantastic how Trainers{{C4}}try to win with all their faith in{{C5}}their Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 216,
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CC674",
+   "scene": "main-text",
+   "en": "I heard something about some tent,{{C0}}so I came to camp out.{{C1}}I didn't know that tents these days{{C2}}are so luxurious!{{C3}}Since I'm here, I may as well try{{C4}}my hand at battling!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 167,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CC86D",
+   "scene": "main-text",
+   "en": "Scott: Instead of wasting your{{C0}}time with the likes of me, why not{{C1}}make a challenge?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 84,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CC915",
+   "scene": "main-text",
+   "en": "ÌÌÌÌ{{C0}}ÌÌ{{C1}}{{C2}}We do all right in the preliminary round,{{C3}}but we can never win the appeals{{C4}}{{C5}}Maybe it means I have to watch what{{C6}}other contestants are doing{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[MN]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 150,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Round→轮唱"
+   ]
+  },
+  {
+   "id": "002CD073",
+   "scene": "main-text",
+   "en": "I wonder what Pokémon looked like{{C0}}long, long ago?{{C1}}Maybe the Fossil Maniac at the edge{{C2}}of town will know.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002CD0DC",
+   "scene": "main-text",
+   "en": "In the fields of Fallarbor, we plant{{C0}}seedlings of hardy trees that thrive{{C1}}even in volcanic ash.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 96,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hardy→勤奋"
+   ]
+  }
+ ]
+}

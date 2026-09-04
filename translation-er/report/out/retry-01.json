@@ -1,0 +1,602 @@
+[
+ {
+  "id": "002A1BA4",
+  "zh": "Enable Individually-Unique 宝可梦?{{C0}}全部 credit goes to codes for the patch."
+ },
+ {
+  "id": "002A3C4F",
+  "zh": "需要 帮助? The 维基 有 answers!{{C0}}Access 它 from the 开始 Menu{{C1}}和 select '维基'.{{C2}}它 covers abilities, moves,{{C3}}items, 和 gameplay tips!"
+ },
+ {
+  "id": "002AFBB3",
+  "zh": "训练家 Tips{{C0}}The items in the Bag 能 是 reorganized{{C1}}by pressing Select键."
+ },
+ {
+  "id": "002B1149",
+  "zh": "我 challenged the 温士特 family,{{C0}}但 four 场对战 in a 连续 是 tough{{C1}}{{C2}} 他们 destroyed 我."
+ },
+ {
+  "id": "002B2A38",
+  "zh": "训练家 Tips{{C0}}你 可能 register one of the Key Items{{C1}}in 你的 Bag as Select键.{{C2}}Simply press Select键 to 使用{{C3}}the registered item conveniently."
+ },
+ {
+  "id": "002B3B1B",
+  "zh": "大力鳄: Fera!"
+ },
+ {
+  "id": "002B3B3E",
+  "zh": "大力鳄: Fera..."
+ },
+ {
+  "id": "002B4995",
+  "zh": "Nnn{{C0}} Roar!{{C1}}我 想要 to dig 那个 tunnel!"
+ },
+ {
+  "id": "002B4B16",
+  "zh": "Nnn{{C0}} Roar!{{C1}}那个 goofy goon hightailed 它 out of{{C2}}the tunnel! 我 能 去 back to digging!"
+ },
+ {
+  "id": "002B4D7C",
+  "zh": "你'll also 需要 a Keystone to 使用{{C0}}它, 但 我 bet 你 already knew 那个!{{C1}}请 做 尝试 它 out!{{C2}}谢谢 你 和 拜拜-拜拜!"
+ },
+ {
+  "id": "002B4DF1",
+  "zh": "你的 Bag 是 jam-packed.{{C0}}我 能't 给 你 这个 波士可多拉ite."
+ },
+ {
+  "id": "002B4F05",
+  "zh": "Hmm{{C0}}{{C1}}These 是 黑色眼镜.{{C2}}他们're 不 什么 我'm looking for{{C3}}{{C4}}Maybe 我的 glasses aren't 周围{{C5}}这里{{C6}}"
+ },
+ {
+  "id": "002B4FAF",
+  "zh": "Hmm{{C0}}{{C1}}These 是 黑色眼镜.{{C2}}他们're 不 什么 我'm looking for{{C3}}"
+ },
+ {
+  "id": "002B4FEE",
+  "zh": "号道路 116{{C0}}{{C1}} 卡那兹市 City"
+ },
+ {
+  "id": "002B563E",
+  "zh": "Ah, young 训练家, 你的 potential shines{{C0}}通过 the shadows like a glimmering{{C1}}light. 我 能 sense 它: the Creation Trio{{C2}}有 deemed 你 worthy of 他们的 time.{{C3}}使用 你的 宝可图鉴导航 to meet 它们."
+ },
+ {
+  "id": "002B5784",
+  "zh": "拿 这个 宝可梦 from Galar. 你 能{{C0}}有 as 很多 of 它们 as 你 like!"
+ },
+ {
+  "id": "002B581B",
+  "zh": "如果 你 能 beat 全部 trainers 这里, 我 将{{C0}}给 你 an exotic 宝可梦 from the{{C1}}Galar region: a valiant wielder of{{C2}}longswords!"
+ },
+ {
+  "id": "002B5A6A",
+  "zh": "{{C0}} 得到 an {{C1}}波士可多拉{{C2}} as a gift!"
+ },
+ {
+  "id": "002B5D31",
+  "zh": "我 left 我的 宝可梦 at the 宠物培育屋.{{C0}}当 我 得到 它 back, 它 有 a 新 move{{C1}}那个 我 didn't 教 它.{{C2}}我 是 really, really surprised."
+ },
+ {
+  "id": "002B5E0D",
+  "zh": "号道路 117{{C0}}{{C1}} 幕水镇 Town"
+ },
+ {
+  "id": "002B5E29",
+  "zh": "号道路 117{{C0}}{{C1}} 紫堇 City"
+ },
+ {
+  "id": "002B5E43",
+  "zh": "宝可梦 宠物培育屋{{C0}}“Let 我们 raise 你的 宝可梦.”"
+ },
+ {
+  "id": "002B645B",
+  "zh": "The 可能 of Justice 和 purpouse{{C0}}shines brightly inside 你的 soul. 不 one{{C1}}是 更多 worthy of meeting 达克莱伊,{{C2}}克雷色利亚 和 凯路迪欧 than 你. 使用 你的{{C3}}宝可图鉴导航 to discover 他们的 precise{{C4}}location. Which side of 他们的 conflict{{C5}}将 你 choose?"
+ },
+ {
+  "id": "002B654A",
+  "zh": "我 见 a star on 那个 训练家 card... 你{{C0}}有 become 冠军, haven't 你?{{C1}}凯路迪欧, 达克莱伊 和 克雷色利亚 是 almost{{C2}}among 我们. 就 打败 these last 很少{{C3}}trainers 和 你'll 是 able to meet{{C4}}它们."
+ },
+ {
+  "id": "002B66BD",
+  "zh": "{{C0}} 得到 an {{C1}}啃果虫{{C2}} as a gift for{{C3}}defeating 每个 训练家 这里!"
+ },
+ {
+  "id": "002B6A8B",
+  "zh": "做 你 like the 宝可梦 鲤鱼王?"
+ },
+ {
+  "id": "002B6AAD",
+  "zh": "Oh{{C0}} 那个's disappointing.{{C1}}我 是 hoping 你 是 a fellow{{C2}}鲤鱼王 aficionado{{C3}}"
+ },
+ {
+  "id": "002B6C48",
+  "zh": "Hmm{{C0}} 你 don't 有 够 鲤鱼王{{C1}}to 挑战 我.{{C2}}请 来 back once 你've fished up{{C3}}a full 队伍 of 它们!"
+ },
+ {
+  "id": "002B6CD1",
+  "zh": "Ah! 你的 love for 鲤鱼王 是 clear!"
+ },
+ {
+  "id": "002B6CF6",
+  "zh": "这里, 拿 这个 special 鲤鱼王.{{C0}}你 earned 它!"
+ },
+ {
+  "id": "002B6D27",
+  "zh": "暴鲤龙 可能 不 是 鲤鱼王, 但{{C0}}它's almost as 好!"
+ },
+ {
+  "id": "002B6F1D",
+  "zh": "Hmm!{{C0}}A 好 Rod 是 really 好!{{C1}}Wouldn't 你 agree?"
+ },
+ {
+  "id": "002B6F51",
+  "zh": "Hmm!{{C0}}我们're of identical minds!{{C1}}Hmm!{{C2}}拿 这个 好 Rod!"
+ },
+ {
+  "id": "002B6FD3",
+  "zh": "尝试 catching 全部 sorts of 宝可梦{{C0}}和 你的 好 Rod."
+ },
+ {
+  "id": "002B7009",
+  "zh": "Even 如果 那里 isn't a boat, 你 能{{C0}}cross rivers 和 the sea 如果 你 有{{C1}}a 宝可梦 那个 knows Surf.{{C2}}宝可梦 能 是 counted on to 做 so{{C3}}很多!"
+ },
+ {
+  "id": "002B7096",
+  "zh": "号道路 118{{C0}}{{C1}} 紫堇 City"
+ },
+ {
+  "id": "002B759B",
+  "zh": "你的 skills in 对战 有 已经 tested,{{C0}}和 你 有 succeded against 全部 odds.{{C1}}Congratulations. 使用 你的 宝可图鉴导航 to{{C2}}finally meet these extraordinary{{C3}}protectors."
+ },
+ {
+  "id": "002B77B7",
+  "zh": "{{C0}} 得到 a {{C1}}迷布莉姆{{C2}} as a gift for{{C3}}defeating 每个 训练家 at the beach!"
+ },
+ {
+  "id": "002B78C4",
+  "zh": "{{C0}} 得到 a {{C1}}雷鸟龙{{C2}} as a gift{{C3}}for defeating the three regular{{C4}}trainers 这里!"
+ },
+ {
+  "id": "002B7992",
+  "zh": "大吾: 嗨, {{C0}}{{C1}} 我 希望 你're{{C2}}ready. 我 upgraded 我的 队伍 after 你{{C3}}defeated 我 last time..."
+ },
+ {
+  "id": "002B7A62",
+  "zh": "嗨 {{C0}}, 我 见 我们 meet again.{{C1}}Today, 我 took a 一点 break by the sea,{{C2}}as 我 能't 去 to 号道路 109.{{C3}}为什么? 我 能't 停止 正在 bothered by{{C4}}those reporters."
+ },
+ {
+  "id": "002C122E",
+  "zh": "它's a Nintendo GameCube.{{C0}}A Game Boy Advance 是 connected to{{C1}}serve as the Controller."
+ },
+ {
+  "id": "002DC253",
+  "zh": "“S.S. ANNE{{C0}}“A replica of the luxury liner 那个{{C1}}circles the globe.”"
+ },
+ {
+  "id": "00310074",
+  "zh": "ons, one's a{{C0}}football player, 和 他们've 得到{{C1}}nothing to 做 和 每个 other!{{C2}}你 seem like a smart fella, so 不{{C3}}beating 周围 the bush 这个 time:{{C4}}become 冠军, beat 每个 训练家,{{C5}}talk to 我, 使用 你的 宝可图鉴导航, 和 pronto!{{C6}}Three legendaries for 你!"
+ },
+ {
+  "id": "00310170",
+  "zh": "Poipole, Naganadel 和 Zeraora... done,{{C0}}你的 宝可图鉴导航 应该 show 他们的 location{{C1}}现在. 好 luck champ, let's 离开 这个{{C2}}place!"
+ },
+ {
+  "id": "003112D6",
+  "zh": "你的 spirit 是 aligned 和 the{{C0}}creatures residing in 这个 place. 他们{{C1}}有 allowed 我 to reveal 他们的{{C2}}locations to 你: 我 added 他们的 info to{{C3}}你的 宝可图鉴导航. 我 能't 等 to 见 你的{{C4}}fight against 它们!"
+ },
+ {
+  "id": "00312284",
+  "zh": "它 是 done: 我 有 severed the Tapu's{{C0}}incantation holding The King hostage.{{C1}}使用 你的 宝可图鉴导航 to meet him. 好 luck."
+ },
+ {
+  "id": "0033B69F",
+  "zh": "什么?{{C0}}你 有 不 time for 我的 advice?{{C1}}你 应该 always 是 eager to 学习{{C2}}from the experiences of 你的 elders!"
+ },
+ {
+  "id": "0036AE6B",
+  "zh": "Spectator: The {{C0}} remained{{C1}}consistent throughout 都 primary{{C2}}和 secondary judging.{{C3}}{{C4}} 和 the {{C5}},{{C6}}他们're 不 ordinary combo!"
+ },
+ {
+  "id": "0036AEEA",
+  "zh": "Spectator: In terms of 正在 {{C0}},{{C1}}那个 {{C2}} 是 outstanding.{{C3}}我 希望 它 makes 更好 appeals{{C4}}next time, though."
+ },
+ {
+  "id": "0036B2F3",
+  "zh": "Spectator: Oh{{C0}}{{C1}}那个 {{C2}}'s {{C3}}!{{C4}}{{C5}}'s {{C6}}!{{C7}}{{C8}}'s {{C9}}!{{C10}}怎么 可能 它 是 so 太好了?"
+ },
+ {
+  "id": "0036B340",
+  "zh": "MC: 好, 那里 你 有 它. 这个 place{{C0}}是 full of the {{C1}}'s fans!{{C2}}我 应该 also mention 那个 another{{C3}}宝可梦, {{C4}}'s {{C5}}, {{C6}}caught 我的 eye.{{C7}}{{C8}}'s {{C9}}{{C10}}"
+ },
+ {
+  "id": "0037AB2C",
+  "zh": "In a sandstorm like 这个, 我 能't set{{C0}}the places for a picnic even 和 我的{{C1}}去-Goggles on{{C2}}"
+ },
+ {
+  "id": "0037BE36",
+  "zh": "Yodelayhihoo!{{C0}}{{C1}} {{C2}}{{C3}}你're supposed to shout{{C4}}“yodelayhihoo” since 它 doesn't{{C5}}echo 这里!"
+ },
+ {
+  "id": "0037C395",
+  "zh": "我 得到 hosed down before 我 可能{{C0}}flare up, 我 guess."
+ },
+ {
+  "id": "0037E12D",
+  "zh": "我 需要 to get 更多 practices in,{{C0}}我 guess."
+ },
+ {
+  "id": "0037E253",
+  "zh": "我 需要 to get 更多 practices in,{{C0}}我 guess."
+ },
+ {
+  "id": "0038CB8E",
+  "zh": "你好, {{C0}}!{{C1}}它's {{C2}}.{{C3}}Oh? 你 happen to 是 周围{{C4}}{{C5}} right 现在?{{C6}}会 你 like to 对战 现在?{{C7}}我'll 等 for 你! 见 你!"
+ },
+ {
+  "id": "0038CC06",
+  "zh": "嘿 那里, {{C0}}!{{C1}}它's 我, {{C2}}.{{C3}}Oh, 嘿, 是 你 near{{C4}}{{C5}} right 现在?{{C6}}怎么 会 你 like to 对战 和{{C7}}我 right 现在?{{C8}}我'm 不 losing again!{{C9}}我'll 是 waiting! Catch 你 很快!"
+ },
+ {
+  "id": "0038CD13",
+  "zh": "Hiya, {{C0}}{{C1}}!{{C2}}它's {{C3}}.{{C4}}怎么 是 things 和 你?{{C5}}你're 哪里 现在?{{C6}}{{C7}}?{{C8}}好, 怎么 about 我们 有 a quick{{C9}}rematch right away?{{C10}}我'll 保持 an eye out for 你.{{C11}}见 你 很快!"
+ },
+ {
+  "id": "0038CF86",
+  "zh": "Oh, {{C0}}{{C1}}, 嗨 那里!{{C2}}这个 是 {{C3}}!{{C4}}是 你 保持 up?{{C5}}Oh, 你're near {{C6}}?{{C7}}Oh, 好, 然后 don't 你 想 我们{{C8}}应该 对战?{{C9}}Don't 保持 我 waiting 太 long!"
+ },
+ {
+  "id": "0038D1D5",
+  "zh": "Ah, 你好, {{C0}}{{C1}}!{{C2}}这个 是 {{C3}}!{{C4}}我 希望 你've 已经 保持 好.{{C5}}Oh, 你're near {{C6}}?{{C7}}Since 那个's 不 非常 far away,{{C8}}来 见 我 for a 对战.{{C9}}我'll 等 for 你.{{C10}}拜拜 for 现在."
+ },
+ {
+  "id": "0038D36A",
+  "zh": "你好, {{C0}}!{{C1}}它's {{C2}}.{{C3}}会 你 like to 有 a 对战{{C4}}和 我 again?{{C5}}你 能 find 我 周围{{C6}}{{C7}}. 我'll 是 waiting!"
+ },
+ {
+  "id": "0038D3D9",
+  "zh": "嘿 那里, {{C0}}!{{C1}}它's 我, {{C2}}.{{C3}}我的 宝可梦 有 grown a lot{{C4}}tougher since last time.{{C5}}我 想要 to 见 怎么 strong 他们've{{C6}}become 和 你的 宝可梦, {{C7}}.{{C8}}So, let's 有 a 对战!{{C9}}我'll 是 waiting for 你 周围{{C10}}{{C11}}."
+ },
+ {
+  "id": "0038D554",
+  "zh": "Hiya, {{C0}}{{C1}}!{{C2}}它's {{C3}}.{{C4}}我的 宝可梦 是 growing up in{{C5}}decent ways.{{C6}}我'd really like to 有 another{{C7}}对战 和 你.{{C8}}我'll 保持 an eye out for 你 周围{{C9}}{{C10}}. 见 你 很快!"
+ },
+ {
+  "id": "0038D7FF",
+  "zh": "Oh, {{C0}}{{C1}}, 嗨 那里!{{C2}}这个 是 {{C3}}!{{C4}}怎么 是 你的 宝可梦 doing?{{C5}}我的 宝可梦 保持 getting 更好.{{C6}}我'd like to show 你, {{C7}}{{C8}}.{{C9}}我'm 周围 {{C10}} 现在,{{C11}}so let's 对战 如果 你're 关闭 by.{{C12}}希望 我 见 你 很快!"
+ },
+ {
+  "id": "0038DAFB",
+  "zh": "Ah, 你好, {{C0}}{{C1}}!{{C2}}这个 是 {{C3}}!{{C4}}是 你的 宝可梦 保持 好?{{C5}}我的 宝可梦 有 已经 so healthy,{{C6}}他们 don't 看 capable of losing!{{C7}}我 会 surely love to 有 another{{C8}}对战 和 你.{{C9}}如果 你're near {{C10}},{{C11}}做 来 见 我们."
+ },
+ {
+  "id": "0038EF45",
+  "zh": "它's {{C0}}.{{C1}}当 那里's a strong 训练家{{C2}}nearby, 我 能 sometimes sense 那个{{C3}}somehow.{{C4}}做了 你 pass 关闭 by, {{C5}}{{C6}}?{{C7}}Maybe 它 是 你.{{C8}}我'll 是 waiting for 你的 visit.{{C9}}拜拜!"
+ },
+ {
+  "id": "0038EFEC",
+  "zh": "你好, 这个 是 {{C0}}.{{C1}}你 sound 好, {{C2}}{{C3}}.{{C4}}我've traveled 周围 the world,{{C5}}但 我 必须 说 我've taken a 好{{C6}}shine to 这个 region.{{C7}}我 plan to 待 这里 a while.{{C8}}Perhaps 我们 能 meet again?{{C9}}我've 不 forgotten 你的 dazzling{{C10}}techniques.{{C11}}我 做 希望 for a rematch."
+ },
+ {
+  "id": "00390335",
+  "zh": "你好, {{C0}}{{C1}}.{{C2}}{{C3}} 这里.{{C4}}怎么 是 你的 宝可梦 doing?{{C5}}我的 DRAGON 宝可梦 appear to 是{{C6}}in peak form. 拜拜 for 现在."
+ },
+ {
+  "id": "0039072C",
+  "zh": "Oh, {{C0}}{{C1}}, 你好!{{C2}}这个 是 {{C3}}.{{C4}}我'm up in the mountains 现在.{{C5}}但 the ground 是 太 bumpy.{{C6}}我 能't pitch 我的 tent 这里{{C7}}{{C8}}Oh, 我 有 a brilliant idea!{{C9}}Maybe 我 能 get 我的 宝可梦 to tamp{{C10}}the ground flat 这里!{{C11}}我'm  to 尝试 那个!{{C12}}拜拜-拜拜!"
+ },
+ {
+  "id": "0039199C",
+  "zh": "嘿 那里, {{C0}}!{{C1}}它's 我, {{C2}}.{{C3}}我 听说 你 went on a tear at{{C4}}the {{C5}}!{{C6}}A 大 {{C7}}-赢 连胜{{C8}}{{C9}}那个 是 a 大 纪录, isn't 它?{{C10}}我'd 更好 get 它 了, 太!{{C11}}Catch 你 很快!"
+ },
+ {
+  "id": "00391A44",
+  "zh": "嘿, {{C0}}{{C1}}.{{C2}}{{C3}} 这里. 什么's up?{{C4}}那里's a 传言  周围 那个{{C5}}你 取得 了 {{C6}} 连续{{C7}}wins at the {{C8}}.{{C9}}我'd 更好 step 它 up, 太.{{C10}}见 你!"
+ },
+ {
+  "id": "00391ADA",
+  "zh": "Hiya, {{C0}}{{C1}}!{{C2}}它's {{C3}}.{{C4}}你 是 at the {{C5}}{{C6}}和 赢了 {{C7}} battles in a 连续?{{C8}}Isn't 那个 something!{{C9}}我'd 更好 工作 on 我的 宝可梦 更多.{{C10}}见 你 很快!"
+ },
+ {
+  "id": "00391B67",
+  "zh": "嘿, {{C0}}{{C1}}.{{C2}}{{C3}} 这里. 怎么 是 你?{{C4}}By the way, 我 听说 你 pulled off{{C5}}the 壮举 of {{C6}} 连续 wins at{{C7}}the {{C8}}.{{C9}}那个 激励 我 to focus on{{C10}}培养 我的 队伍."
+ },
+ {
+  "id": "00391C01",
+  "zh": "{{C0}}Er, {{C1}}{{C2}}?{{C3}}{{C4}} 这里{{C5}}{{C6}}Oh, yeah, 你 是 over at{{C7}}the {{C8}}, right?{{C9}}和 你 赢了 {{C10}} battles in a 连续.{{C11}}Oh, 那里 goes a 稀有 宝可梦!{{C12}}我 有 to 去!"
+ },
+ {
+  "id": "00391C8D",
+  "zh": "Oh, {{C0}}{{C1}}, 怎么 做 你 做?{{C2}}这个 是 {{C3}} speaking.{{C4}}我 希望 你're doing 好.{{C5}}Oh, 但, 你 是. 我've 听说 那个{{C6}}你 赢了 {{C7}} 场对战 in a 连续 at{{C8}}the {{C9}}.{{C10}}那个's 非常 impressive!{{C11}}我 希望 你 待 successful."
+ },
+ {
+  "id": "00391D52",
+  "zh": "Oh, {{C0}}{{C1}}, 嗨 那里!{{C2}}这个 是 {{C3}}!{{C4}}我 听说! 你的 {{C5}}-赢 连胜 at{{C6}}the {{C7}}!{{C8}}那个 是 so 酷!{{C9}}我'd 更好 尝试 harder, 太!"
+ },
+ {
+  "id": "00391DC6",
+  "zh": "Oh, {{C0}}{{C1}}, 你好{{C2}}{{C3}}这个 是 {{C4}}.{{C5}}你 赢了 {{C6}} 连续 battles at{{C7}}the {{C8}}?{{C9}}那个's 相当 the accomplishment.{{C10}}我 需要 to 工作 harder."
+ },
+ {
+  "id": "00391E42",
+  "zh": "Ah, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听到 你're the terror of{{C5}}the {{C6}}?{{C7}}你 赢了, 什么, {{C8}} 场对战 in{{C9}}a 连续?{{C10}}你're 好, 你.{{C11}}我 wonder 怎么 很多 我 能 赢?"
+ },
+ {
+  "id": "00391ECF",
+  "zh": "你好, {{C0}}{{C1}}.{{C2}}它's 我, {{C3}}.{{C4}}是 你 保持 好?{{C5}}有人 传 on 话 about 你.{{C6}}怎么 你 赢了 {{C7}} 连续 battles{{C8}}at a place 名为 {{C9}}?{{C10}}那个's 相当 the tale.{{C11}}见 你!"
+ },
+ {
+  "id": "00391F76",
+  "zh": "Ah, 你好, {{C0}}{{C1}}!{{C2}}这个 是 {{C3}}!{{C4}}我 希望 你've 已经 保持 好.{{C5}}他们 说 你 赢了 {{C6}} 连续{{C7}}battles at the {{C8}}.{{C9}}我 admire 你的 energy!{{C10}}拜拜 现在."
+ },
+ {
+  "id": "00392003",
+  "zh": "Oh, 嗨, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听说 about 你!{{C5}}Didn't 你 就 赢 {{C6}} battles in{{C7}}a 连续 at the {{C8}}?{{C9}}你're an inspiration!{{C10}}拜拜-拜拜!"
+ },
+ {
+  "id": "0039217B",
+  "zh": "嘿 那里, {{C0}}!{{C1}}它's 我, {{C2}}.{{C3}}我 听说 你 went on a tear at{{C4}}the {{C5}}!{{C6}}A 大 {{C7}}-赢 连胜{{C8}}{{C9}}那个 是 a 大 纪录, isn't 它?{{C10}}我'd 更好 get 它 了, 太!{{C11}}Catch 你 很快!"
+ },
+ {
+  "id": "00392223",
+  "zh": "嘿, {{C0}}{{C1}}.{{C2}}{{C3}} 这里. 什么's up?{{C4}}那里's a 传言  周围 那个{{C5}}你 取得 了 {{C6}} 连续{{C7}}wins at the {{C8}}.{{C9}}我'd 更好 step 它 up, 太.{{C10}}见 你!"
+ },
+ {
+  "id": "003922B9",
+  "zh": "Hiya, {{C0}}{{C1}}!{{C2}}它's {{C3}}.{{C4}}你 是 at the {{C5}}{{C6}}和 赢了 {{C7}} battles in a 连续?{{C8}}Isn't 那个 something!{{C9}}我? 我'd 说 我'm coming along.{{C10}}见 你 很快!"
+ },
+ {
+  "id": "00392340",
+  "zh": "嘿, {{C0}}{{C1}}.{{C2}}{{C3}} 这里. 怎么 是 你?{{C4}}By the way, 我 听说 你 pulled off{{C5}}the 壮举 of {{C6}} 连续 wins at{{C7}}the {{C8}}.{{C9}}我'd 更好 尝试 harder myself!{{C10}}见 你 很快!"
+ },
+ {
+  "id": "003923D8",
+  "zh": "{{C0}}Er, {{C1}}{{C2}}?{{C3}}{{C4}} 这里{{C5}}{{C6}}Oh, yeah, 你 是 over at{{C7}}the {{C8}}, right?{{C9}}和 你 赢了 {{C10}} battles in a 连续.{{C11}}Oh, 那里 goes a 稀有 宝可梦!{{C12}}我 有 to 去!"
+ },
+ {
+  "id": "00392464",
+  "zh": "Oh, {{C0}}{{C1}}, 怎么 做 你 做?{{C2}}这个 是 {{C3}} speaking.{{C4}}我 希望 你're doing 好.{{C5}}Oh, 但, 你 是. 我've 听说 那个{{C6}}你 赢了 {{C7}} 场对战 in a 连续 at{{C8}}the {{C9}}.{{C10}}那个's 非常 impressive!{{C11}}我'd 更好 工作 on 我的 宝可梦, 太!"
+ },
+ {
+  "id": "00392531",
+  "zh": "Oh, {{C0}}{{C1}}, 嗨 那里!{{C2}}这个 是 {{C3}}!{{C4}}我 听说! 你的 {{C5}}-赢 连胜 at{{C6}}the {{C7}}!{{C8}}那个 是 so 酷!{{C9}}我'd 更好 尝试 harder, 太!"
+ },
+ {
+  "id": "003925A5",
+  "zh": "Oh, {{C0}}{{C1}}, 你好{{C2}}{{C3}}这个 是 {{C4}}.{{C5}}你 赢了 {{C6}} 连续 battles at{{C7}}the {{C8}}?{{C9}}那个's 相当 the accomplishment.{{C10}}我 需要 to 工作 harder."
+ },
+ {
+  "id": "00392621",
+  "zh": "Ah, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听到 你're the terror of{{C5}}the {{C6}}?{{C7}}你 赢了, 什么, {{C8}} 场对战 in{{C9}}a 连续?{{C10}}你're 好, 你.{{C11}}我 wonder 怎么 很多 我 能 赢?"
+ },
+ {
+  "id": "003926AE",
+  "zh": "你好, {{C0}}{{C1}}.{{C2}}它's 我, {{C3}}.{{C4}}是 你 保持 好?{{C5}}有人 传 on 话 about 你.{{C6}}怎么 你 赢了 {{C7}} 连续 battles{{C8}}at a place 名为 {{C9}}?{{C10}}那个's 相当 the tale.{{C11}}见 你!"
+ },
+ {
+  "id": "00392755",
+  "zh": "Ah, 你好, {{C0}}{{C1}}!{{C2}}这个 是 {{C3}}!{{C4}}我 希望 你've 已经 保持 好.{{C5}}他们 说 你 赢了 {{C6}} 连续{{C7}}battles at the {{C8}}.{{C9}}我 admire 你的 energy!{{C10}}拜拜 现在."
+ },
+ {
+  "id": "003927E2",
+  "zh": "Oh, 嗨, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听说 about 你!{{C5}}Didn't 你 就 赢 {{C6}} battles in{{C7}}a 连续 at the {{C8}}?{{C9}}你're an inspiration!{{C10}}拜拜-拜拜!"
+ },
+ {
+  "id": "00392862",
+  "zh": "嗨! {{C0}}?{{C1}}你好, 这个 是 {{C2}}!{{C3}}我 听说 the news!{{C4}}你 became the 冠军 at{{C5}}the {{C6}} {{C7}} 次?{{C8}}它's awesome! 我 有 to 做 更好!{{C9}}见 你!"
+ },
+ {
+  "id": "00392964",
+  "zh": "嘿 那里, {{C0}}!{{C1}}它's 我, {{C2}}.{{C3}}怎么's 它 ?{{C4}}我 听说 你 赢了 次 {{C5}} 次{{C6}}at the {{C7}}!{{C8}}做 它 one 更多 next time!{{C9}}Catch 你 很快!"
+ },
+ {
+  "id": "003929E7",
+  "zh": "嘿, {{C0}}{{C1}}.{{C2}}{{C3}} 这里.{{C4}}我 听说 你 became the 冠军{{C5}}at the {{C6}} {{C7}} 次.{{C8}}Sounds like 你're working hard.{{C9}}我'll 尝试 to 保持 up!"
+ },
+ {
+  "id": "00392A65",
+  "zh": "Hiya, {{C0}}{{C1}}!{{C2}}它's {{C3}}.{{C4}}我 听说 你 赢了 {{C5}} 次{{C6}}outright at the {{C7}}.{{C8}}我'd 更好 get 和 它, 太!{{C9}}见 你 很快!"
+ },
+ {
+  "id": "00392AD2",
+  "zh": "嘿, {{C0}}{{C1}}?{{C2}}{{C3}} 这里. 怎么 是 你?{{C4}}By the way, 我 听说 你 became{{C5}}the 冠军 {{C6}} 次 at{{C7}}the {{C8}}.{{C9}}我'd 更好 raise 我的 宝可梦 before{{C10}}你 pull farther ahead."
+ },
+ {
+  "id": "00392B6E",
+  "zh": "{{C0}}{{C1}}?{{C2}}{{C3}} 这里.{{C4}}你 是 at the {{C5}}{{C6}}和 became the champ {{C7}} 次?{{C8}}那个's neat. By the way, 有 你{{C9}}caught 任何 稀有 宝可梦 lately?{{C10}}Oh, 是 那个 right.{{C11}}Okay, 拜拜."
+ },
+ {
+  "id": "00392C0F",
+  "zh": "Oh, {{C0}}{{C1}}, 怎么 做 你 做?{{C2}}这个 是 {{C3}} speaking.{{C4}}我 希望 你're doing 好.{{C5}}Oh, 但, 你 是.{{C6}}我've 听说 那个 你 赢了 {{C7}} titles{{C8}}at the {{C9}}.{{C10}}我 必须 raise 我的 宝可梦 like 你.{{C11}}见 你 again."
+ },
+ {
+  "id": "00392CC7",
+  "zh": "Oh, {{C0}}{{C1}}, 嗨 那里!{{C2}}这个 是 {{C3}}!{{C4}}我 听说! 你 took the 冠军{{C5}}{{C6}} 次 at the {{C7}}!{{C8}}那个 是 so 酷!{{C9}}我'd 更好 尝试 harder, 太!"
+ },
+ {
+  "id": "00392D44",
+  "zh": "Oh, {{C0}}{{C1}}, 你好.{{C2}}这个 是 {{C3}}.{{C4}}你 赢了 {{C5}} 连续 次 at{{C6}}the {{C7}}?{{C8}}那个's 相当 the accomplishment.{{C9}}我 需要 to 工作 harder."
+ },
+ {
+  "id": "00392DBE",
+  "zh": "Ah, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听到 你're the terror of{{C5}}the {{C6}}?{{C7}}你 赢了, 什么, {{C8}} 连续 次{{C9}}现在?{{C10}}我 wonder 如果 我 能 ever become{{C11}}a 冠军?{{C12}}{{C13}}Pretty 好 impossible?{{C14}}好, 见 你!"
+ },
+ {
+  "id": "00392E70",
+  "zh": "你好, {{C0}}{{C1}}.{{C2}}它's 我, {{C3}}.{{C4}}是 你 保持 好?{{C5}}你've 赢了 {{C6}} 次 at a place{{C7}}名为 {{C8}}?{{C9}}那个's 相当 the tale.{{C10}}见 你!"
+ },
+ {
+  "id": "00392EEA",
+  "zh": "Ah, 你好, {{C0}}{{C1}}!{{C2}}这个 是 {{C3}}!{{C4}}我 希望 你've 已经 保持 好.{{C5}}他们 说 你 赢了 {{C6}} 次{{C7}}at the {{C8}}?{{C9}}我 admire 你的 energy!{{C10}}拜拜 现在."
+ },
+ {
+  "id": "00392F6D",
+  "zh": "Oh, 嗨, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听说 about 你!{{C5}}Didn't 你 赢 {{C6}} titles{{C7}}at the {{C8}}?{{C9}}你're an inspiration!{{C10}}见 你 again!"
+ },
+ {
+  "id": "00392FE4",
+  "zh": "嗨! {{C0}}?{{C1}}你好, 这个 是 {{C2}}!{{C3}}我 听说 the news!{{C4}}你 得到 通过 {{C5}} 间房{{C6}}at the {{C7}}!{{C8}}那个's awesome!{{C9}}见 你!"
+ },
+ {
+  "id": "003930C8",
+  "zh": "嘿 那里, {{C0}}!{{C1}}它's 我, {{C2}}.{{C3}}怎么's 它 ?{{C4}}我 听说 你 赢了 通过 {{C5}} 间房{{C6}}at the {{C7}}!{{C8}}尝试 to 做 even 更好 next time!{{C9}}Catch 你 很快!"
+ },
+ {
+  "id": "00393151",
+  "zh": "嘿, {{C0}}{{C1}}.{{C2}}{{C3}} 这里.{{C4}}我 听说 你 blew 通过 {{C5}} 间房{{C6}}at the {{C7}}.{{C8}}我'd 更好 train 我的 宝可梦 和{{C9}}尝试 to 保持 up!"
+ },
+ {
+  "id": "003931C2",
+  "zh": "Hiya, {{C0}}{{C1}}!{{C2}}它's {{C3}}.{{C4}}我 听说 你 得到 past {{C5}} 间房{{C6}}at the {{C7}}.{{C8}}我'd 更好 get 和 它, 太!{{C9}}见 你 很快!"
+ },
+ {
+  "id": "0039322B",
+  "zh": "嘿, {{C0}}{{C1}}?{{C2}}{{C3}} 这里. 怎么 是 你?{{C4}}By the way, 我 听说 你 得到 通过{{C5}}{{C6}} 间房 at the {{C7}}.{{C8}}我'd 更好 raise 我的 宝可梦 before{{C9}}你 pull further ahead."
+ },
+ {
+  "id": "003932BF",
+  "zh": "{{C0}}{{C1}}?{{C2}}{{C3}} 这里.{{C4}}你 是 at the {{C5}}{{C6}}和 赢了 你的 way past {{C7}} 间房?{{C8}}那个's wicked.{{C9}}Oh, 那里 goes a 稀有 宝可梦!{{C10}}Okay, 拜拜."
+ },
+ {
+  "id": "0039333A",
+  "zh": "Oh, {{C0}}{{C1}}, 怎么 做 你 做?{{C2}}这个 是 {{C3}} speaking.{{C4}}我 希望 你're doing 好.{{C5}}Oh, 但, 你 是.{{C6}}我've 听说 那个 你 得到 通过{{C7}}{{C8}} 间房 at the {{C9}}.{{C10}}那个's 相当 impressive!{{C11}}我 必须 raise 我的 宝可梦 like 你.{{C12}}见 你 again."
+ },
+ {
+  "id": "00393412",
+  "zh": "Oh, {{C0}}{{C1}}, 嗨 那里!{{C2}}这个 是 {{C3}}!{{C4}}我 听说! 你 赢了 你的 way 通过{{C5}}{{C6}} 间房 at the {{C7}}!{{C8}}那个 是 so 酷!{{C9}}我'd 更好 尝试 harder, 太!"
+ },
+ {
+  "id": "00393495",
+  "zh": "Oh, {{C0}}{{C1}}, 你好.{{C2}}这个 是 {{C3}}.{{C4}}你 赢了 你的 way past {{C5}} 间房{{C6}}at the {{C7}}?{{C8}}那个's 相当 the accomplishment.{{C9}}我 需要 to 工作 harder."
+ },
+ {
+  "id": "00393514",
+  "zh": "Ah, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听到 你're the terror of{{C5}}the {{C6}}?{{C7}}你 得到 通过, 什么, {{C8}} 间房?{{C9}}那个's gotta count for something.{{C10}}我 wonder 如果 我 能 ever become{{C11}}a 冠军?{{C12}}{{C13}}Pretty 好 impossible?{{C14}}好, 见 你!"
+ },
+ {
+  "id": "003935E3",
+  "zh": "你好, {{C0}}{{C1}}.{{C2}}它's 我, {{C3}}.{{C4}}是 你 保持 好?{{C5}}你've 赢了 通过 {{C6}} 间房 at{{C7}}a place 名为 {{C8}}?{{C9}}那个's 相当 the tale.{{C10}}见 你!"
+ },
+ {
+  "id": "00393664",
+  "zh": "Ah, 你好, {{C0}}{{C1}}!{{C2}}这个 是 {{C3}}!{{C4}}我 希望 你've 已经 保持 好.{{C5}}他们 说 你 赢了 in {{C6}} 间房{{C7}}at the {{C8}}?{{C9}}我 admire 你的 energy!{{C10}}拜拜 现在."
+ },
+ {
+  "id": "003936E9",
+  "zh": "Oh, 嗨, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听说 about 你!{{C5}}Didn't 你 get 通过 {{C6}} 间房{{C7}}at the {{C8}}?{{C9}}你're an inspiration!{{C10}}见 你 again!"
+ },
+ {
+  "id": "00393767",
+  "zh": "嗨! {{C0}}?{{C1}}你好, 这个 是 {{C2}}!{{C3}}我 听说 the news!{{C4}}你 爬了 {{C5}} 层 inside{{C6}}the {{C7}}, right?{{C8}}那个's awesome!{{C9}}我 应该 尝试 那个 挑战."
+ },
+ {
+  "id": "00393881",
+  "zh": "嘿 那里, {{C0}}!{{C1}}它's 我, {{C2}}.{{C3}}怎么's 它 ?{{C4}}我 听说 你 爬了 {{C5}} 层{{C6}}in the {{C7}}!{{C8}}尝试 to 做 even 更好 next time!{{C9}}Catch 你 很快!"
+ },
+ {
+  "id": "00393907",
+  "zh": "嘿, {{C0}}{{C1}}.{{C2}}{{C3}} 这里.{{C4}}我 听说 你 攀登了 {{C5}} 层{{C6}}in the {{C7}}.{{C8}}我'd 更好 工作 hard 和 尝试{{C9}}to 保持 up!"
+ },
+ {
+  "id": "0039396C",
+  "zh": "Hiya, {{C0}}{{C1}}!{{C2}}它's {{C3}}.{{C4}}我 听说 你 爬了 {{C5}} 层{{C6}}in the {{C7}}.{{C8}}我'd 更好 get 和 它, 太!{{C9}}见 你 很快!"
+ },
+ {
+  "id": "003939D5",
+  "zh": "嘿, {{C0}}{{C1}}?{{C2}}{{C3}} 这里. 怎么 是 你?{{C4}}By the way, 我 听说 你 得到 通过{{C5}}{{C6}} 层 in the {{C7}}.{{C8}}我'd 更好 raise 我的 宝可梦 before{{C9}}你 pull further ahead."
+ },
+ {
+  "id": "00393A6A",
+  "zh": "{{C0}}{{C1}}?{{C2}}{{C3}} 这里.{{C4}}你 是 at the {{C5}}{{C6}}和 赢了 你的 way up {{C7}} 层?{{C8}}Neat. 是 那里 任何 稀有 宝可梦{{C9}}那里?{{C10}}不, huh?{{C11}}Okay, 拜拜."
+ },
+ {
+  "id": "00393AE8",
+  "zh": "Oh, {{C0}}{{C1}}, 怎么 做 你 做?{{C2}}这个 是 {{C3}} speaking.{{C4}}我 希望 你're doing 好.{{C5}}Oh, 但, 你 是.{{C6}}我've 听说 那个 你 得到 通过{{C7}}{{C8}} 层 in the {{C9}}.{{C10}}那个's 相当 impressive!{{C11}}我 必须 raise 我的 宝可梦 like 你.{{C12}}见 你 again."
+ },
+ {
+  "id": "00393BC1",
+  "zh": "Oh, {{C0}}{{C1}}, 嗨 那里!{{C2}}这个 是 {{C3}}!{{C4}}我 听说! 你 赢了 你的 way 通过{{C5}}{{C6}} 层 in the {{C7}}!{{C8}}那个 是 so 酷!{{C9}}我'd 更好 尝试 harder, 太!"
+ },
+ {
+  "id": "00393C45",
+  "zh": "Oh, {{C0}}{{C1}}, 你好.{{C2}}这个 是 {{C3}}.{{C4}}你 爬了 {{C5}} 层 inside{{C6}}the {{C7}}?{{C8}}那个's 相当 the accomplishment.{{C9}}我 需要 to 工作 harder."
+ },
+ {
+  "id": "00393CBF",
+  "zh": "Ah, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听到 你're the terror of{{C5}}the {{C6}}?{{C7}}你 rose 通过, 什么, {{C8}} 层?{{C9}}那个's gotta count for something.{{C10}}我 wonder 如果 我 能 ever become{{C11}}a 冠军?{{C12}}{{C13}}Pretty 好 impossible?{{C14}}好, 见 你!"
+ },
+ {
+  "id": "00393D90",
+  "zh": "你好, {{C0}}{{C1}}.{{C2}}它's 我, {{C3}}.{{C4}}是 你 保持 好?{{C5}}你've 赢了 通过 {{C6}} 层 in{{C7}}a place 名为 {{C8}}?{{C9}}那个's 相当 the tale.{{C10}}见 你!"
+ },
+ {
+  "id": "00393E12",
+  "zh": "Ah, 你好, {{C0}}{{C1}}!{{C2}}这个 是 {{C3}}!{{C4}}我 希望 你've 已经 保持 好.{{C5}}他们 说 你 爬了 {{C6}} 层{{C7}}in the {{C8}}?{{C9}}我 admire 你的 energy!{{C10}}拜拜 现在."
+ },
+ {
+  "id": "00393E99",
+  "zh": "Oh, 嗨, {{C0}}{{C1}}.{{C2}}这个 是 {{C3}}.{{C4}}我 听说 about 你!{{C5}}Didn't 你 get 通过 {{C6}} 层{{C7}}in the {{C8}}?{{C9}}你're an inspiration!{{C10}}见 你 again!"
+ },
+ {
+  "id": "00393FAD",
+  "zh": "Mom: 嗨, {{C0}}!{{C1}}你的 father keeps himself locked{{C2}}away in the 橙华 Gym.{{C3}}他 comes home 每个 so often.{{C4}}但 他 goes back to the Gym 当{{C5}}他's eaten everything 他 能.{{C6}}我'm guessing 那个 losing to 你{{C7}}是 a 大 blow to 他的 pride!"
+ },
+ {
+  "id": "00394090",
+  "zh": "Mom: {{C0}}{{C1}}{{C2}}Don't worry about 我 或 the house.{{C3}}Wear those 跑鞋 until{{C4}}他们 fall apart, honey!"
+ },
+ {
+  "id": "003940F3",
+  "zh": "亚莎: Oh, 你好, {{C0}}!{{C1}}我've 已经 hard at 工作 retraining{{C2}}since 我们 met.{{C3}}我 将 still 需要 一些 更多 time{{C4}}before 我 能 reopen the Gym.{{C5}}但 当 我 做, 请 visit 我的 Gym{{C6}}for a rematch!"
+ },
+ {
+  "id": "003941AB",
+  "zh": "亚莎: 是 这个 {{C0}}?{{C1}}Congratulations!{{C2}}我've 已经 hearing about 你!{{C3}}As for 我, 我 需要 一些 更多 time{{C4}}before 我 能 reopen the Gym.{{C5}}但 当 我 做, 请 visit 我的 Gym{{C6}}for a rematch!"
+ },
+ {
+  "id": "0039425E",
+  "zh": "亚莎: {{C0}}!{{C1}}我的 Gym 是 ready!{{C2}}请 visit 卡那兹市 whenever{{C3}}你 能!"
+ },
+ {
+  "id": "003942A4",
+  "zh": "亚莎: At the 卡那兹市 Gym,{{C0}}the fact 那个 我们 battled, {{C1}},{{C2}}是 a matter of pride."
+ },
+ {
+  "id": "0039450C",
+  "zh": "Brawly: 嘿, {{C0}}{{C1}}!{{C2}}我的 Gym's ready for action!{{C3}}来 back to Dewford anytime{{C4}}for another 挑战!"
+ },
+ {
+  "id": "003948AB",
+  "zh": "Flannery: 你好, {{C0}}?{{C1}}Congratulations!{{C2}}话 of 你的 success 有 reached{{C3}}我们 like the heat of a volcano!{{C4}}我们的 training 是 coming along 非常{{C5}}好 这里.{{C6}}当 the Gym's ready, a mark 将{{C7}}appear beside 我的 name in the{{C8}}场对战 Call list."
+ },
+ {
+  "id": "00394C34",
+  "zh": "Tate: Oh! 你're{{C0}}{{C1}}Liza: {{C2}}!{{C3}}Tate: 我们're in training again{{C4}}{{C5}}Liza: So 我们 能 reopen 我们的 Gym!{{C6}}Tate: 当 我们的 Gym 是 ready{{C7}}{{C8}}Liza: 当 我们的 Gym 是 ready{{C9}}{{C10}}Tate: A mark'll appear by 我们的 name{{C11}}{{C12}}Liza: On the 场对战 Call list."
+ },
+ {
+  "id": "00394D0B",
+  "zh": "Tate: {{C0}}, congratulations!{{C1}}Liza: {{C2}}, congratulations!{{C3}}Tate: The two of 我们 是{{C4}}{{C5}}Liza: Still in training!{{C6}}Tate: 我们 需要 一些 更多 time, 但{{C7}}{{C8}}Liza: 当 我们的 Gym 是 ready{{C9}}{{C10}}Tate: A mark'll appear by 我们的 name{{C11}}{{C12}}Liza: On the 场对战 Call list."
+ },
+ {
+  "id": "0039C915",
+  "zh": "如果 你 想 那个's best, 我'll 做 那个.{{C0}}Knowing 那个 你 made the decision,{{C1}}{{C2}}{{C3}}, 我 赢了't 是 so upset 如果{{C4}}我 输.{{C5}}Okay, 我'll 看 to 你 for advice again.{{C6}}拜拜!"
+ },
+ {
+  "id": "0039C9B4",
+  "zh": "The item {{C0}}, huh?{{C1}}不 坏. 我'll 使用 它!{{C2}}Knowing 那个 你 made the decision,{{C3}}{{C4}}{{C5}}, 我 赢了't 是 so upset 如果{{C6}}我 输.{{C7}}Okay, 我'll 看 to 你 for advice again.{{C8}}拜拜!"
+ },
+ {
+  "id": "0039CE6B",
+  "zh": "Okay, 那个's 什么 我'll 做!{{C0}}我 guess 那个's about 全部 我 wanted{{C1}}to 问 你 today.{{C2}}Let's meet 这里 again, okay?{{C3}}谢谢!"
+ },
+ {
+  "id": "0039CEDF",
+  "zh": "Uh-huh! One {{C0}}.{{C1}}什么 a 酷 choice!{{C2}}我'll definitely 尝试 那个!{{C3}}我 guess 那个's about 全部 我 wanted{{C4}}to 问 你 today.{{C5}}Let's meet 这里 again, okay?{{C6}}谢谢!"
+ },
+ {
+  "id": "0039D3C9",
+  "zh": "Perfectly understood!{{C0}}我'll 保持 at 这个 without an item!{{C1}}我 希望 你'll 是 willing to 教 我{{C2}}一些 更多 another time."
+ },
+ {
+  "id": "0039D43F",
+  "zh": "{{C0}}! 我'll 使用 那个!{{C1}}Um{{C2}} 可能 它 是, {{C3}}, 你 also{{C4}}做 你的 宝可梦 hold 那个 item?{{C5}}我'll 是 sure to get 它!{{C6}}我 希望 你'll 是 willing to 教 我{{C7}}一些 更多 another time."
+ }
+]

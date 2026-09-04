@@ -1,0 +1,3879 @@
+{
+ "batch": 94,
+ "count": 203,
+ "tasks": [
+  {
+   "id": "0051D130",
+   "scene": "main-text",
+   "en": "{{C0}}'s side became{{C1}}covered in a lot of hazards!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D160",
+   "scene": "main-text",
+   "en": "{{C0}}'s stats rose!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D174",
+   "scene": "main-text",
+   "en": "{{C0}} protected itself!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D18C",
+   "scene": "main-text",
+   "en": "{{C0}} got trapped{{C1}}and became really slow!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D1B4",
+   "scene": "main-text",
+   "en": "{{C0}}'s got its item eaten!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D1D0",
+   "scene": "main-text",
+   "en": "All of {{C0}}'s{{C1}}stats were lowered!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D1F0",
+   "scene": "main-text",
+   "en": "{{C0}} is no longer{{C1}}locked into only using one move!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D224",
+   "scene": "main-text",
+   "en": "Sleep Clause prevents{{C0}}selecting this move!{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D250",
+   "scene": "main-text",
+   "en": "{{C0}} became fully{{C1}}charged!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D26C",
+   "scene": "main-text",
+   "en": "The inverted dimensions returned to{{C0}}normal!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "0051D298",
+   "scene": "main-text",
+   "en": "{{C0}}'s Inverse Room{{C1}}set up Inverse Room!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd12]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D2C0",
+   "scene": "main-text",
+   "en": "{{C0}} became{{C1}}part {{C2}} type!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd12]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D2D8",
+   "scene": "main-text",
+   "en": "{{C0}}'s type{{C1}}changed to {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D2F4",
+   "scene": "main-text",
+   "en": "{{C0}} became{{C1}}infected!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D308",
+   "scene": "main-text",
+   "en": "{{C0}}'s Pastel Veil set up{{C1}}SafeGuard!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd12]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Safeguard→神秘守护",
+    "Pastel Veil→粉彩护幕"
+   ]
+  },
+  {
+   "id": "0051D32C",
+   "scene": "main-text",
+   "en": "{{C0}} started{{C1}}bleeding!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd11]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D344",
+   "scene": "main-text",
+   "en": "{{C0}} is hurt{{C1}}by its bleeding!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D360",
+   "scene": "main-text",
+   "en": "{{C0}}'s{{C1}}bleeding was healed!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D37C",
+   "scene": "main-text",
+   "en": "{{C0}}'s{{C1}}bleeding was healed!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D398",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}}{{C2}}stopped its bleeding!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[fd14]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D3B8",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}}{{C2}}stopped its bleeding!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[fd16]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D3D8",
+   "scene": "main-text",
+   "en": "{{C0}}'s ability{{C1}}lowered its {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd43]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D3F8",
+   "scene": "main-text",
+   "en": "{{C0}}'s Tipping Point{{C1}}raised its Special Attack!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D428",
+   "scene": "main-text",
+   "en": "{{C0}} inverted{{C1}}the dimensions!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D444",
+   "scene": "main-text",
+   "en": "{{C0}} has three Abilities!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D45C",
+   "scene": "main-text",
+   "en": "{{C0}} is preventing{{C1}}the opposing team from healing!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D490",
+   "scene": "main-text",
+   "en": "{{C0}} goes{{C1}}berserk!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Berserk→怒火冲天"
+   ]
+  },
+  {
+   "id": "0051D4A4",
+   "scene": "main-text",
+   "en": "{{C0}} was hurt{{C1}}by its ability!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D4C0",
+   "scene": "main-text",
+   "en": "{{C0}} retrieved{{C1}}its {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd16]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D4D8",
+   "scene": "main-text",
+   "en": "{{C0}} blocks{{C1}}the opposing team from fleeing!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D504",
+   "scene": "main-text",
+   "en": "{{C0}} gained{{C1}}strength from the fallen!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Strength→怪力"
+   ]
+  },
+  {
+   "id": "0051D528",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}}{{C2}}was boosted!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[fd43]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D540",
+   "scene": "main-text",
+   "en": "{{C0}}'s boost{{C1}}runs out!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D558",
+   "scene": "main-text",
+   "en": "{{C0}} reacts{{C1}}to the harsh sunlight!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D57C",
+   "scene": "main-text",
+   "en": "{{C0}} uses{{C1}}its Booster Energy!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Booster Energy→驱劲能量"
+   ]
+  },
+  {
+   "id": "0051D598",
+   "scene": "main-text",
+   "en": "{{C0}} reacts{{C1}}to the electric terrain!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric Terrain→电气场地",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "0051D5BC",
+   "scene": "main-text",
+   "en": "{{C0}} copied{{C1}}its ally's stat changes!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D5E0",
+   "scene": "main-text",
+   "en": "{{C0}} is overflowing{{C1}}with space power!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D604",
+   "scene": "main-text",
+   "en": "{{C0}} got {{C1}} Battle Point(s){{C2}}for winning!{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd23]"
+    ],
+    [
+     "{{C1}}",
+     "[fd00]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D62C",
+   "scene": "main-text",
+   "en": "{{C0}}'s can't use{{C1}}{{C2}} twice in a row!{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd12]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd14]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D650",
+   "scene": "main-text",
+   "en": "{{C0}} used up{{C1}}all its electricity!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D670",
+   "scene": "main-text",
+   "en": "Spikes rain down on{{C0}}the opponent's side!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spikes→撒菱"
+   ]
+  },
+  {
+   "id": "0051D69C",
+   "scene": "main-text",
+   "en": "{{C0}} couldn't{{C1}}change its type!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D6BC",
+   "scene": "main-text",
+   "en": "{{C0}} cut its own HP{{C1}}and raised its stats!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cut→居合斩"
+   ]
+  },
+  {
+   "id": "0051D6E4",
+   "scene": "main-text",
+   "en": "{{C0}} is hurt{{C1}}by Salt Cure!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salt Cure→盐腌",
+    "Salt→盐"
+   ]
+  },
+  {
+   "id": "0051D700",
+   "scene": "main-text",
+   "en": "{{C0}} swapped the{{C1}}effects on each side of the field!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D734",
+   "scene": "main-text",
+   "en": "{{C0}} is preparing to tell a{{C1}}chillingly bad joke!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D764",
+   "scene": "main-text",
+   "en": "{{C0}} shed its tail{{C1}}to create a decoy!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D788",
+   "scene": "main-text",
+   "en": "{{C0}} is empowered{{C1}}by a haunting echo!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D7AC",
+   "scene": "main-text",
+   "en": "{{C0}} was revived and{{C1}}is ready to fight again!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd00]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D7D8",
+   "scene": "main-text",
+   "en": "The swamp around {{C0}}{{C1}}team disappeared!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd38]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D800",
+   "scene": "main-text",
+   "en": "A swamp enveloped{{C0}}{{C1}} team!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd3b]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D81C",
+   "scene": "main-text",
+   "en": "The sea of fire around {{C0}}{{C1}}team disappeared!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd38]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "0051D848",
+   "scene": "main-text",
+   "en": "{{C0}} {{C1}} was hurt{{C2}}by the sea of fire!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd37]"
+    ],
+    [
+     "{{C1}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "0051D86C",
+   "scene": "main-text",
+   "en": "A sea of fire enveloped{{C0}}{{C1}} team!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd3b]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "0051D890",
+   "scene": "main-text",
+   "en": "{{C0}} is waiting{{C1}}for {{C2}}'s move{{C3}}{{C4}}ËÆ",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd0e]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/c]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D8B0",
+   "scene": "main-text",
+   "en": "The rainbow on {{C0}}{{C1}}side disappeared!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd38]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D8D4",
+   "scene": "main-text",
+   "en": "A rainbow appeared in the sky{{C0}}on {{C1}} team's side!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd38]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D908",
+   "scene": "main-text",
+   "en": "All stat buffs were eliminated!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D928",
+   "scene": "main-text",
+   "en": "{{C0}} blew away{{C1}}Creeping Thorns!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D948",
+   "scene": "main-text",
+   "en": "Vicious thorns dug into{{C0}}{{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd3f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D964",
+   "scene": "main-text",
+   "en": "Vicious thorns sprout around{{C0}}{{C1}} team!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd3b]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D98C",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}} lost{{C2}}all of its PP to Ill Will!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[fd00]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D9B4",
+   "scene": "main-text",
+   "en": "{{C0}} became fully{{C1}}charged!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd11]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D9D0",
+   "scene": "main-text",
+   "en": "{{C0}} ate its {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[fd16]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051D9E0",
+   "scene": "main-text",
+   "en": "{{C0}} is{{C1}}being salt cured!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd11]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salt→盐"
+   ]
+  },
+  {
+   "id": "0051D9F8",
+   "scene": "main-text",
+   "en": "{{C0}} is{{C1}}coated in sticky candy syrup!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd11]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DA1C",
+   "scene": "main-text",
+   "en": "{{C0}} acquired{{C1}}{{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd19]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DA2C",
+   "scene": "main-text",
+   "en": "{{C0}}'s team{{C1}}acquired {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd19]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DA44",
+   "scene": "main-text",
+   "en": "{{C0}} hops inside{{C1}}{{C2}}'s mouth!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd40]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DA60",
+   "scene": "main-text",
+   "en": "{{C0}} returns{{C1}}to the battlefield!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DA80",
+   "scene": "main-text",
+   "en": "{{C0}} refuses{{C1}}to flee!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DA94",
+   "scene": "main-text",
+   "en": "{{C0}} charges{{C1}}onto the battlefield!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DAB8",
+   "scene": "main-text",
+   "en": "{{C0}} arrives{{C1}}on the scene!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DAD4",
+   "scene": "main-text",
+   "en": "{{C0}} prepares{{C1}}a powerful attack!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DAF4",
+   "scene": "main-text",
+   "en": "{{C0}} is{{C1}}pulling out all the stops!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DB18",
+   "scene": "main-text",
+   "en": "The dimensions became{{C0}}twisted!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DB38",
+   "scene": "main-text",
+   "en": "The type effectiveness{{C0}}were inverted!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DB60",
+   "scene": "main-text",
+   "en": "A bizzarre area was{{C0}}created!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DB80",
+   "scene": "main-text",
+   "en": "A bizzarre area was{{C0}}created!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DBA0",
+   "scene": "main-text",
+   "en": "{{C0}}'s Origin Reversion!{{C1}}It regained its origin form!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DBD4",
+   "scene": "main-text",
+   "en": "{{C0}}'s Restoration!{{C1}}It's restored to its former glory!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DC0C",
+   "scene": "main-text",
+   "en": "The fog is deep{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DC20",
+   "scene": "main-text",
+   "en": "The fog was blown away{{C0}}by Defog!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Defog→清除浓雾"
+   ]
+  },
+  {
+   "id": "0051DC44",
+   "scene": "main-text",
+   "en": "{{C0}}'s ability{{C1}}gave {{C2}} frostbite!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd11]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DC64",
+   "scene": "main-text",
+   "en": "{{C0}}'s ability{{C1}}made {{C2}} bleed!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd11]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DC80",
+   "scene": "main-text",
+   "en": "{{C0}} was trapped by{{C1}}Thunder Cage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Thunder→打雷",
+    "Thunder Cage→雷电囚笼"
+   ]
+  },
+  {
+   "id": "0051DCA0",
+   "scene": "main-text",
+   "en": "{{C0}} was trapped by{{C1}}a Snap Trap!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snap Trap→捕兽夹"
+   ]
+  },
+  {
+   "id": "0051DCC0",
+   "scene": "main-text",
+   "en": "{{C0}} absorbed{{C1}}electricity!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DCDC",
+   "scene": "main-text",
+   "en": "Trick Room and Wonder Room will alternate{{C0}}each turn for the rest of the battle!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rest→睡觉",
+    "Trick→戏法",
+    "Trick Room→戏法空间",
+    "Wonder Room→奇妙空间"
+   ]
+  },
+  {
+   "id": "0051DD2C",
+   "scene": "main-text",
+   "en": "Super Effective moves will do neutral damage.{{C0}}Fighting moves are boosted, status moves{{C1}}are disabled and you can't switch!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fighting→格斗"
+   ]
+  },
+  {
+   "id": "0051DDA8",
+   "scene": "main-text",
+   "en": "A mysterious air current is protecting Flying{{C0}}type Pokémon and boosting the Champion's{{C1}}team Speed! Trick Room has no effect!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Trick→戏法",
+    "Trick Room→戏法空间",
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "0051DE28",
+   "scene": "main-text",
+   "en": "The field is full of Toxic Waste!{{C0}}The Champion's team will receive{{C1}}reduced damage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "0051DE7C",
+   "scene": "main-text",
+   "en": "All the flying Pokémon can't stay in the air!{{C0}}The Champion's team gets reduced damage{{C1}}from Super-Effective moves!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "0051DEF0",
+   "scene": "main-text",
+   "en": "The Champion's team is immune to Rock-type{{C0}}moves, deals super-effective damage to{{C1}}Rock-types, and your team is salt cured!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salt→盐",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "0051DF6C",
+   "scene": "main-text",
+   "en": "There seems to be a permanent infestation{{C0}}on your field side!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Infestation→死缠烂打"
+   ]
+  },
+  {
+   "id": "0051DFAC",
+   "scene": "main-text",
+   "en": "All your team became cursed!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051DFCC",
+   "scene": "main-text",
+   "en": "The champion's team breaks the mold{{C0}}and both sides have reduced damage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E014",
+   "scene": "main-text",
+   "en": "The sunlight became extremely harsh!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E03C",
+   "scene": "main-text",
+   "en": "An extremely heavy rain started and{{C0}}your team is swamped!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E078",
+   "scene": "main-text",
+   "en": "The terrain became weird!,{{C0}}the Champion's team will get reduced damage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E0C0",
+   "scene": "main-text",
+   "en": "The terrain became weird!,{{C0}}the Champion's team will get reduced damage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E108",
+   "scene": "main-text",
+   "en": "The terrain became weird!,{{C0}}the Champion's team will get reduced damage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E150",
+   "scene": "main-text",
+   "en": "The Champion's team will boost{{C0}}their speed and attack with it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E190",
+   "scene": "main-text",
+   "en": "The Champion's team is intimidating your{{C0}}whole team, they can bypass your immunities!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 86,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E1E8",
+   "scene": "main-text",
+   "en": "Your whole team became asleep!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E208",
+   "scene": "main-text",
+   "en": "The terrain became weird!,{{C0}}the Champion's team Fairy moves will{{C1}}hit Poison and Steel-types Super Effectively!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒",
+    "Steel→钢",
+    "Fairy→妖精"
+   ]
+  },
+  {
+   "id": "0051E278",
+   "scene": "main-text",
+   "en": "{{C0}} is coated{{C1}}in parasitic spores!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E29C",
+   "scene": "main-text",
+   "en": "{{C0}} spreads its{{C1}}spores to {{C2}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd40]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E2BC",
+   "scene": "main-text",
+   "en": "{{C0}} {{C1}} was hurt{{C2}}by its parasitic spores!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd37]"
+    ],
+    [
+     "{{C1}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E2E4",
+   "scene": "main-text",
+   "en": "{{C0}}'s critical{{C1}}hit chance wont go any higher!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E314",
+   "scene": "main-text",
+   "en": "{{C0}}'s critical{{C1}}hit chance rose!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E334",
+   "scene": "main-text",
+   "en": "{{C0}}'s critical{{C1}}hit chance sharply rose!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E35C",
+   "scene": "main-text",
+   "en": "{{C0}} maxed{{C1}}its critical hit chance!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E380",
+   "scene": "main-text",
+   "en": "{{C0}} is filled{{C1}}with fear!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E398",
+   "scene": "main-text",
+   "en": "{{C0}} transmutes{{C1}}{{C2}}'s lost item!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd40]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lost Item→遗失物"
+   ]
+  },
+  {
+   "id": "0051E3B8",
+   "scene": "main-text",
+   "en": "It turned into sludge...",
+   "codes": [],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sludge→污泥攻击"
+   ]
+  },
+  {
+   "id": "0051E3D4",
+   "scene": "main-text",
+   "en": "It turned into gold!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E3EC",
+   "scene": "main-text",
+   "en": "The normalization of time comes{{C0}}to an end!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E418",
+   "scene": "main-text",
+   "en": "The eerie fog fades away!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E434",
+   "scene": "main-text",
+   "en": "{{C0}} cloaks{{C1}}their team in a smokescreen!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Smokescreen→烟幕"
+   ]
+  },
+  {
+   "id": "0051E45C",
+   "scene": "main-text",
+   "en": "Something unusual modifies the terrain.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E484",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}} steadily increases.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[劲敌]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E4A0",
+   "scene": "main-text",
+   "en": "{{C0}} positioned itself to {{C1}},{{C2}}its usual {{C3}} increased by {{C4}}%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[fd34]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E4DC",
+   "scene": "main-text",
+   "en": "Some of your team members are affected by{{C0}}{{C1}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E50C",
+   "scene": "main-text",
+   "en": "{{C0}} will not accept defeat!{{C1}}And its stats increase sharply.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[劲敌]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E548",
+   "scene": "main-text",
+   "en": "{{C0}} picked up a mat block{{C1}}to use as cover this turn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[劲敌]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Block→挡路",
+    "Mat Block→掀榻榻米"
+   ]
+  },
+  {
+   "id": "0051E57C",
+   "scene": "main-text",
+   "en": "Woe {{C0}} be upon ye.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E590",
+   "scene": "main-text",
+   "en": "{{C0}} was foresighted.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[unk:fd05]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E5A4",
+   "scene": "main-text",
+   "en": "{{C0}}'s active Pokémon are unable to{{C1}}use items for {{C2}} turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd23]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E5E0",
+   "scene": "main-text",
+   "en": "{{C0}}'s team had its power points of{{C1}}protect drained.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd23]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protect→守住"
+   ]
+  },
+  {
+   "id": "0051E614",
+   "scene": "main-text",
+   "en": "The winds cause {{C0}}{{C1}}to be smacked down.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[unk:fd05]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E63C",
+   "scene": "main-text",
+   "en": "A defensive screen was set on {{C0}}{{C1}}team for {{C2}} turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd1d]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E670",
+   "scene": "main-text",
+   "en": "A spe. defensive screen was set on {{C0}}{{C1}}team for {{C2}} turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd1d]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E6AC",
+   "scene": "main-text",
+   "en": "A lucky chant was set on {{C0}}{{C1}}team for {{C2}} turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd1d]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lucky Chant→幸运咒语"
+   ]
+  },
+  {
+   "id": "0051E6DC",
+   "scene": "main-text",
+   "en": "Permanent wide guard has been casted on{{C0}}{{C1}}'s team",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd1d]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wide Guard→广域防守"
+   ]
+  },
+  {
+   "id": "0051E710",
+   "scene": "main-text",
+   "en": "{{C0}}'s resolve{{C1}}fades due to the Eerie Fog!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E73C",
+   "scene": "main-text",
+   "en": "{{C0}} looks{{C1}}for the perfect opportunity!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E764",
+   "scene": "main-text",
+   "en": "An unnatural fog descends upon{{C0}}the battlefield!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E794",
+   "scene": "main-text",
+   "en": "{{C0}}'s inner{{C1}}flame roars to life!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E7B4",
+   "scene": "main-text",
+   "en": "The eerie fog returns!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E7CC",
+   "scene": "main-text",
+   "en": "{{C0}} fades{{C1}}back into the fog!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E7E8",
+   "scene": "main-text",
+   "en": "{{C0}} was hurt{{C1}}by the Funeral Pyre!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E80C",
+   "scene": "main-text",
+   "en": "{{C0}} lights{{C1}}a Funeral Pyre!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E828",
+   "scene": "main-text",
+   "en": "{{C0}} won't{{C1}}back down from a fight!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E84C",
+   "scene": "main-text",
+   "en": "{{C0}} acquired {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[fd17]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E85C",
+   "scene": "main-text",
+   "en": "{{C0}} falls{{C1}}back to the ground.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "0051E87C",
+   "scene": "main-text",
+   "en": "{{C0}} carries{{C1}}{{C2}} into the sky!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E898",
+   "scene": "main-text",
+   "en": "{{C0}} is stuck{{C1}}in the air!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E8B0",
+   "scene": "main-text",
+   "en": "Opposing stat buffs were eliminated!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E8D8",
+   "scene": "main-text",
+   "en": "{{C0}} offers{{C1}}{{C2}} a cup of tea!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tea→茶"
+   ]
+  },
+  {
+   "id": "0051E8F4",
+   "scene": "main-text",
+   "en": "{{C0}} can't be{{C1}}healed!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E908",
+   "scene": "main-text",
+   "en": "{{C0}} gets a{{C1}}restraining order!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E928",
+   "scene": "main-text",
+   "en": "{{C0}} breaks{{C1}}{{C2}}'s protection!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E944",
+   "scene": "main-text",
+   "en": "{{C0}} shatters{{C1}}{{C2}}'s screens!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E960",
+   "scene": "main-text",
+   "en": "{{C0}} destroys{{C1}}{{C2}}'s substitute!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Substitute→替身"
+   ]
+  },
+  {
+   "id": "0051E980",
+   "scene": "main-text",
+   "en": "A thick smoke covers{{C0}}{{C1}}'s side!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd0f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E9A0",
+   "scene": "main-text",
+   "en": "{{C0}} throws{{C1}}hot coals over the opponent's side!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E9D0",
+   "scene": "main-text",
+   "en": "{{C0}} is burned{{C1}}by the hot coals!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051E9F0",
+   "scene": "main-text",
+   "en": "The heat from the coals fades!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EA10",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}}{{C2}}was disabled!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[fd16]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EA28",
+   "scene": "main-text",
+   "en": "The strain takes its toll on{{C0}}{{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd0f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EA4C",
+   "scene": "main-text",
+   "en": "{{C0}} has no more{{C1}}darkness left!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EA6C",
+   "scene": "main-text",
+   "en": "The sky became clear!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EA84",
+   "scene": "main-text",
+   "en": "The weather returned to normal!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "0051EAA4",
+   "scene": "main-text",
+   "en": "{{C0}} is dazed{{C1}}by the blow!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EAC0",
+   "scene": "main-text",
+   "en": "The warped dimensions were{{C0}}returned to normal!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "0051EAF0",
+   "scene": "main-text",
+   "en": "{{C0}} becomes{{C1}}anxious!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EB04",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}}{{C2}}suddenly flies away!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ],
+    [
+     "{{C1}}",
+     "[fd16]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EB24",
+   "scene": "main-text",
+   "en": "Razor sharp caltrops were scattered{{C0}}all around the opponent's side!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EB68",
+   "scene": "main-text",
+   "en": "The caltrops tear into{{C0}}{{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[fd3f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EB84",
+   "scene": "main-text",
+   "en": "The caltrops were dulled!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EBA0",
+   "scene": "main-text",
+   "en": "{{C0}} blew away{{C1}}hot coals!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EBB8",
+   "scene": "main-text",
+   "en": "{{C0}} blew away{{C1}}caltrops!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EBD0",
+   "scene": "main-text",
+   "en": "{{C0}} destroyed{{C1}}{{C2}}'s {{C3}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ],
+    [
+     "{{C3}}",
+     "[fd16]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EBE8",
+   "scene": "main-text",
+   "en": "{{C0}} swapped with{{C1}}{{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EBFC",
+   "scene": "main-text",
+   "en": "{{C0}} shields{{C1}}their party from priority!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EC24",
+   "scene": "main-text",
+   "en": "{{C0}} is bleeding!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EC34",
+   "scene": "main-text",
+   "en": "{{C0}} is trapped!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EC44",
+   "scene": "main-text",
+   "en": "{{C0}} found some{{C1}}{{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd16]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EC58",
+   "scene": "main-text",
+   "en": "{{C0}} drains{{C1}}{{C2}}'s health!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd10]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EC70",
+   "scene": "main-text",
+   "en": "{{C0}} wakes up{{C1}}enraged!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EC88",
+   "scene": "main-text",
+   "en": "{{C0}} readies{{C1}}their blade!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051ECA0",
+   "scene": "main-text",
+   "en": "{{C0}}'s {{C1}}{{C2}}prevents its stats from lowering!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd13]"
+    ],
+    [
+     "{{C1}}",
+     "[fd16]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051ECCC",
+   "scene": "main-text",
+   "en": "{{C0}}'s type{{C1}}changed to {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051ECE8",
+   "scene": "main-text",
+   "en": "{{C0}} regained{{C1}}health!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051ECFC",
+   "scene": "main-text",
+   "en": "{{C0}} is scorched{{C1}}by the flames!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051ED1C",
+   "scene": "main-text",
+   "en": "Flames engulf the battlefield!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051ED3C",
+   "scene": "main-text",
+   "en": "{{C0}} peers{{C1}}into the future!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051ED58",
+   "scene": "main-text",
+   "en": "Toxic spikes rain down on{{C0}}the opponent's side!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒",
+    "Spikes→撒菱",
+    "Toxic Spikes→毒菱"
+   ]
+  },
+  {
+   "id": "0051ED88",
+   "scene": "main-text",
+   "en": "{{C0}}'s type{{C1}}returns to normal!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "0051EDA8",
+   "scene": "main-text",
+   "en": "Toxic sludge covers the battlefield!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒",
+    "Sludge→污泥攻击"
+   ]
+  },
+  {
+   "id": "0051EDD0",
+   "scene": "main-text",
+   "en": "The sludge disappeared{{C0}}from the battlefield.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sludge→污泥攻击"
+   ]
+  },
+  {
+   "id": "0051EE00",
+   "scene": "main-text",
+   "en": "{{C0}} was damaged{{C1}}by the toxic terrain!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "0051EE28",
+   "scene": "main-text",
+   "en": "{{C0}} absorbs{{C1}}the Stealth Rocks!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EE48",
+   "scene": "main-text",
+   "en": "Evasion Clause prevents{{C0}}selecting this move!{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EE78",
+   "scene": "main-text",
+   "en": "The current fight prevents{{C0}}selecting this move!{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EEAC",
+   "scene": "main-text",
+   "en": "A bitter chill envelops{{C0}}the battlefield!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EED8",
+   "scene": "main-text",
+   "en": "{{C0}} was hurt{{C1}}by the bitter cold!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd0f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EEF8",
+   "scene": "main-text",
+   "en": "{{C0}} is{{C1}}rebooting!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd3f]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EF0C",
+   "scene": "main-text",
+   "en": "{{C0}}'s team is protected by{{C1}}Eviolite.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd1d]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eviolite→进化奇石"
+   ]
+  },
+  {
+   "id": "0051EF30",
+   "scene": "main-text",
+   "en": "{{C0}}'s team gained the{{C1}}ability {{C2}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd1d]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[fd00]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0051EF54",
+   "scene": "main-text",
+   "en": "{{C0}}'s team gained the{{C1}}ability {{C2}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[fd1d]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

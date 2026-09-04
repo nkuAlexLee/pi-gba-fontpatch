@@ -1,0 +1,3522 @@
+{
+ "count": 150,
+ "tasks": [
+  {
+   "id": "00EB6734",
+   "en": "Deals more damage if{{C0}}the user has more stat{{C1}}changes. Pierces{{C2}}increased defenses.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "能力变化越多，[/n]威力越大。[/n]穿透防御提升。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6898",
+   "en": "The user employs its{{C0}}psychic powers to swap{{C1}}stat changes with the{{C2}}target.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念"
+   ],
+   "prev": "使用者运用念力，[/n]与目标交换[/n]能力值变化。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6930",
+   "en": "The user levitates{{C0}}using electrically{{C1}}generated magnetism{{C2}}for five turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "利用电力产生的[/n]磁力浮游，[/n]持续5回合。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB697C",
+   "en": "A ruthless, fiery{{C0}}charge which has 33%{{C1}}recoil. Has 10% burn{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charge→充电"
+   ],
+   "prev": "凶猛的火焰冲锋，[/n]33%反伤。[/n]10%灼伤几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB69C0",
+   "en": "The foe is attacked{{C0}}with a shock wave.{{C1}}Clears stat changes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shock Wave→电击波"
+   ],
+   "prev": "用电击波攻击对手。[/n]清除能力值变化。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6A3C",
+   "en": "The user polishes its{{C0}}body to reduce drag.{{C1}}This sharply raises its{{C2}}Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "打磨身体减少阻力，[/n]大幅提升[/n]自身速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6A88",
+   "en": "A stabbing attack with{{C0}}30% poison chance. Iron{{C1}}Fist & Mighty Horn{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂",
+    "Poison→毒"
+   ],
+   "prev": "穿刺攻击，[/n]30%中毒几率。[/n]铁拳和蛮力角增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6B20",
+   "en": "The user waits to{{C0}}strike, slashing the{{C1}}foe. High crit. Keen{{C2}}Edge boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "蓄力后斩击[/n]对手。高会心。[/n]锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6B68",
+   "en": "The user attacks by{{C0}}swinging its tail. High{{C1}}crit chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用尾巴甩击[/n]对手。高会心率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6BA4",
+   "en": "A barrage of hard-{{C0}}shelled seeds is{{C1}}slammed on the foe from{{C2}}above.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Barrage→投球"
+   ],
+   "prev": "从上方将大量硬壳[/n]种子砸向[/n]对手。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6BE8",
+   "en": "A blade of air with 30%{{C0}}flinch chance. Keen{{C1}}Edge boost. Air-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "风之刃，30%畏缩几率。[/n]锋锐增强。飞行系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6D08",
+   "en": "A tackle exhibiting{{C0}}devastating menace. 20%{{C1}}flinch chance. 33%{{C2}}recoil.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tackle→撞击"
+   ],
+   "prev": "充满威慑力的冲撞。[/n]20%畏缩。[/n]33%反伤。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6D50",
+   "en": "A ray of light is shot{{C0}}at the foe, sparkling as{{C1}}if it were made of gems.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "向对手射出宝石般[/n]闪耀的光线。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6F44",
+   "en": "The user trades held{{C0}}items with the foe{{C1}}faster than the eye can{{C2}}follow.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "以肉眼难以捕捉的速度，[/n]与对手交换[/n]携带的道具。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB6F8C",
+   "en": "Hits with immense{{C0}}force. Deals severe{{C1}}damage, needs to{{C2}}recharge.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "以巨大力量攻击。[/n]造成巨大伤害，[/n]需要休息。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7064",
+   "en": "An attack move that{{C0}}gains in intensity if{{C1}}the target has hurt the{{C2}}user.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "当目标伤害过使用者时，[/n]此招式威力增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB70AC",
+   "en": "Flash-frozen ice{{C0}}chunks are hurled at{{C1}}the foe. +1 priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flash→闪光",
+    "Ice→冰"
+   ],
+   "prev": "向对手投掷速冻[/n]冰块。+1先制度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB71B0",
+   "en": "Fiery fangs. 10% burn{{C0}}or flinch chance.{{C1}}Strong Jaw boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Strong Jaw→强壮之颚"
+   ],
+   "prev": "烈焰獠牙。10%灼伤或畏缩几率。强壮之颚增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB71EC",
+   "en": "The user's shadow{{C0}}extends and strikes the{{C1}}foe. +1 priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shadow→暗"
+   ],
+   "prev": "使用者的影子[/n]延伸攻击对手。+1先制度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB726C",
+   "en": "Psychic blades strike{{C0}}the foe. High crit{{C1}}ratio. Keen Edge boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念"
+   ],
+   "prev": "念力之刃斩击对手。高会心率。锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB72B0",
+   "en": "The user focuses, and{{C0}}strikes the foe. 20%{{C1}}flinch chance. Field-{{C2}}based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "集中后猛击对手。[/n]20%畏缩几率。[/n]场地系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB72F8",
+   "en": "A flash of energy is{{C0}}loosed at the foe.{{C1}}Lowers Special Defense.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flash→闪光"
+   ],
+   "prev": "向对手释放能量闪光。降低特防。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB73C0",
+   "en": "Wind blows across the{{C0}}battlefield, clearing{{C1}}barriers, obstacles,{{C2}}etc.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "风吹过战场，[/n]清除护壁等[/n]屏障和障碍物。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7408",
+   "en": "A bizarre area is{{C0}}constructed for 5{{C1}}turns where slower{{C2}}Pokémon move first.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "构造奇异区域，[/n]5回合内较慢的[/n]宝可梦先行动。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB74A4",
+   "en": "Electricity is loosed{{C0}}on the field. 30%{{C1}}paralyze chance to{{C2}}foes/ally.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "在场上释放电力。[/n]30%麻痹对手[/n]和队友。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB74EC",
+   "en": "Scarlet flames wash{{C0}}over all Pokémon in{{C1}}battle. 30% burn{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "绯红火焰席卷场上[/n]所有宝可梦。[/n]30%灼伤几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7530",
+   "en": "A storm of sharp leaves{{C0}}is whipped up. The{{C1}}user's Sp. Atk sharply{{C2}}falls.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "猛烈的叶片风暴。[/n]使用者的特攻[/n]大幅下降。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB757C",
+   "en": "The user violently{{C0}}whirls its vines or{{C1}}tentacles to lash at{{C2}}the foe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "猛烈甩动藤蔓[/n]或触手抽打对手。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB75C4",
+   "en": "Hurls a massive rock at{{C0}}the foe. User recharges{{C1}}after hit. Throw-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ],
+   "prev": "投掷巨石攻击对手。[/n]使用后休息。投掷系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB760C",
+   "en": "Hits twice. High crit{{C0}}ratio. 10% poison{{C1}}chance. Keen Edge{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ],
+   "prev": "攻击两次。高会心率。[/n]10%中毒几率。[/n]锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB769C",
+   "en": "The user slams the foe{{C0}}with its steel-hard{{C1}}head. 30% flinch chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ],
+   "prev": "用钢铁般的头猛撞对手。[/n]30%畏缩几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB76E0",
+   "en": "Launches a magnetic{{C0}}bomb that is Super{{C1}}Effective vs Steel.{{C2}}Never misses.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ],
+   "prev": "发射磁力炸弹，对钢系[/n]非常有效。[/n]必定命中。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB772C",
+   "en": "Sharpened stones stab{{C0}}the foe from below.{{C1}}Critical hits land more{{C2}}easily.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "锐利的岩石从下方[/n]刺穿对手。[/n]更易击中要害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB77A0",
+   "en": "Levitating stones{{C0}}surround the foe. This{{C1}}hurts foes that switch{{C2}}in.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "悬浮岩石包围对手。[/n]换上来的对手[/n]会受到伤害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB77E4",
+   "en": "A snaring grass trap{{C0}}that inflicts more{{C1}}damage on heavier foes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ],
+   "prev": "草系陷阱，对体重越大[/n]的对手伤害越高。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7824",
+   "en": "The foe is left{{C0}}confused by sound{{C1}}waves of deafening{{C2}}chatter.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chatter→喋喋不休"
+   ],
+   "prev": "用震耳欲聋的[/n]嘈杂声波，[/n]让对手混乱。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7864",
+   "en": "The type of this move{{C0}}varies with the kind of{{C1}}Plate the user is{{C2}}holding.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "此招式属性随使用者[/n]携带的石板[/n]种类而变化。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB78B0",
+   "en": "Removes the foe's item{{C0}}and eats it if it's a{{C1}}Berry. Strong Jaw{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Strong Jaw→强壮之颚"
+   ],
+   "prev": "移除对手道具，[/n]若是树果则吃掉。[/n]强壮之颚增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7940",
+   "en": "The user slams its{{C0}}rugged body into the{{C1}}foe. 33% recoil damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用强韧的身体猛撞对手。[/n]33%反伤。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7980",
+   "en": "The user lunges at the{{C0}}foe at a fast speed.{{C1}}This has +1 priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "以高速扑向对手。[/n]+1先制度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB79C4",
+   "en": "Underlings pummel the{{C0}}foe. Critical hits land{{C1}}more easily.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "部下群殴对手。更易击中要害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB7A4C",
+   "en": "The user calls out its{{C0}}underlings to heal it,{{C1}}restoring half of its{{C2}}max HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "召唤部下治愈，[/n]恢复最大[/n]HP的一半。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7A98",
+   "en": "A hazardous, full-power{{C0}}headbutt hits the foe.{{C1}}50% recoil damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Headbutt→头锤"
+   ],
+   "prev": "危险的全力头锤。[/n]50%反伤。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7ADC",
+   "en": "The user slams the foe{{C0}}twice in a row.{{C1}}Increased crit rate.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "连续猛撞对手两次。更易击中要害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB7B18",
+   "en": "A blast which distorts{{C0}}even time. Forces the{{C1}}target to switch. Moves{{C2}}last.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "扭曲时间的冲击波。[/n]强制对手交换。后行动。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7B64",
+   "en": "The foe, and the space{{C0}}around it, is torn.{{C1}}Critical hits land more{{C2}}easily.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "撕裂对手和周围空间。更易击中要害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB7BB0",
+   "en": "The user faints. Its{{C0}}replacement has its HP{{C1}}restored and status{{C2}}cured.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者倒下。[/n]替换上场者恢复HP[/n]并治愈异常状态。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7BF8",
+   "en": "This attack will also{{C0}}negate the foe's{{C1}}Ability if it has moved{{C2}}already.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "此攻击还会无效化[/n]对手已行动过的[/n]特性。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7C40",
+   "en": "The foe becomes trapped{{C0}}within a maelstrom of{{C1}}fire for 4 or 5 turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ],
+   "prev": "对手被困在火之漩涡中，[/n]持续4或5回合。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7C88",
+   "en": "The foe is dragged into{{C0}}a world of total{{C1}}darkness that puts it{{C2}}to sleep.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "将对手拖入完全[/n]黑暗的世界，[/n]使其入睡。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7CD4",
+   "en": "A shock wave is loosed{{C0}}at the foe. 40% chance{{C1}}to lower foe's SpDef.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shock Wave→电击波"
+   ],
+   "prev": "向对手释放冲击波。[/n]40%降低对手特防。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7D18",
+   "en": "10% chance to raise all{{C0}}user's stats. Deals{{C1}}double damage in fog.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "10%提升使用者所有[/n]能力值。雾天威力翻倍。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7DA4",
+   "en": "The user sharpens its{{C0}}claws to boost its{{C1}}Attack stat and{{C2}}accuracy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "磨利爪子提升[/n]攻击和[/n]命中率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7DE8",
+   "en": "For 1 turn, the user and{{C0}}its allies are{{C1}}protected from wide-{{C2}}ranging moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "1回合内使用者和[/n]队友免疫[/n]范围攻击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7E34",
+   "en": "The user's Defense and{{C0}}Sp. Def stats are{{C1}}averaged with those of{{C2}}the target.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者的防御和[/n]特防与目标[/n]取平均值。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7E80",
+   "en": "The user's Attack and{{C0}}Sp. Atk stats are{{C1}}averaged with those of{{C2}}the target.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者的攻击和[/n]特攻与目标[/n]取平均值。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7ECC",
+   "en": "For 5 turns, Attack and{{C0}}SpAtk stats are{{C1}}swapped and their stat{{C2}}buffs are ignored.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "5回合内攻击和特攻互换，能力变化也被无视。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB7F20",
+   "en": "The user casts an odd{{C0}}psychic wave to attack{{C1}}the foe for physical{{C2}}damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念"
+   ],
+   "prev": "释放奇异念力波，[/n]对对手造成物理伤害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7F6C",
+   "en": "A special liquid that{{C0}}damages for double the{{C1}}power on poisoned{{C2}}targets.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "特殊液体对中毒目标[/n]造成双倍伤害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB7FB4",
+   "en": "The user sheds part of{{C0}}its body to be lighter,{{C1}}sharply raising its{{C2}}Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "蜕去部分身体减重，[/n]大幅提升[/n]速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8000",
+   "en": "Foes aim only at the{{C0}}user, enraged by a{{C1}}cloud of its irritating{{C2}}powder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘"
+   ],
+   "prev": "让对手因刺激性[/n]粉尘而狂怒，[/n]只攻击使用者。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8048",
+   "en": "The user floats its foe{{C0}}psychically for 3{{C1}}turns, making the foe{{C2}}easier to hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "念力漂浮对手[/n]3回合，[/n]使其更容易被击中。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8098",
+   "en": "Prevents passive{{C0}}damage and disables{{C1}}mega stones for 5{{C2}}turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "防止被动伤害并[/n]禁用超级石，[/n]持续5回合。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8124",
+   "en": "A fierce blow upon the{{C0}}foe which will always{{C1}}result in a critical{{C2}}hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "对对手的猛烈一击，[/n]必定会心一击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB81B0",
+   "en": "It swamps the area{{C0}}around the user with{{C1}}sludge. 10% poison{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sludge→污泥攻击",
+    "Poison→毒"
+   ],
+   "prev": "用污泥淹没周围。[/n]10%中毒几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB81F4",
+   "en": "A beautiful, mystic{{C0}}dance which boosts the{{C1}}user's Sp. Atk, Sp. Def{{C2}}and Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "优美的神秘舞蹈，[/n]提升使用者特攻、[/n]特防和速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8244",
+   "en": "The user slams the foe{{C0}}with its heavy body.{{C1}}Heavier users are{{C2}}stronger.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用沉重身体猛撞对手。[/n]越重的使用者[/n]越强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB828C",
+   "en": "An odd shockwave.{{C0}}Matches the user's{{C1}}second type. Sound-{{C2}}based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "奇异的冲击波。[/n]属性与使用者[/n]第二属性相同。声音系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB82CC",
+   "en": "An electric orb is{{C0}}hurled at the foe.{{C1}}Faster users deal{{C2}}greater damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ],
+   "prev": "向对手投掷电球。[/n]速度越快的使用者[/n]威力越大。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8314",
+   "en": "The foe is struck by a{{C0}}torrent of water which{{C1}}changes its type to{{C2}}Water.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Torrent→激流",
+    "Water→水"
+   ],
+   "prev": "用水流冲击对手，[/n]将其属性[/n]变为水系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8360",
+   "en": "Cloaked in flames, the{{C0}}user strikes. This{{C1}}raises its Speed stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "被火焰包裹着攻击。[/n]提升自身速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB83A4",
+   "en": "The user coils up,{{C0}}raising its Attack,{{C1}}Defense and its{{C2}}accuracy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "卷起身体，[/n]提升攻击、[/n]防御和命中率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB83E8",
+   "en": "The user strikes{{C0}}swiftly at the foe's{{C1}}legs, lowering the foe's{{C2}}Speed stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "迅速攻击对手腿部，[/n]降低对手速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8434",
+   "en": "An acidic fluid is spat{{C0}}at the foe. This harshly{{C1}}lowers the foe's Sp.{{C2}}Def.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "向对手喷射酸性液体。[/n]大幅降低[/n]对手特防。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8480",
+   "en": "The higher the foe's{{C0}}Attack stat, the{{C1}}greater the damage this{{C2}}deals.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "对手的攻击越高，[/n]此招造成的伤害[/n]越大。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB84C8",
+   "en": "The user's odd psychic{{C0}}wave changes the foe's{{C1}}Ability to Simple.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念",
+    "Simple→单纯"
+   ],
+   "prev": "用奇异念力波将[/n]对手特性变为单纯。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB850C",
+   "en": "An odd dance that{{C0}}compels the target to{{C1}}mimic the Ability of the{{C2}}user.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mimic→模仿"
+   ],
+   "prev": "奇异舞蹈，[/n]迫使目标模仿[/n]使用者的特性。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8554",
+   "en": "The user helps the{{C0}}target and forces it to{{C1}}move right after the{{C2}}user.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "帮助目标，[/n]使其紧随使用者[/n]之后行动。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB859C",
+   "en": "A loud song attack.{{C0}}Deals 2x damage if ally{{C1}}also uses Round. 20%{{C2}}flinch chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Round→轮唱"
+   ],
+   "prev": "响亮的歌声攻击。[/n]队友也用轮唱时伤害翻倍。[/n]20%畏缩几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB85EC",
+   "en": "A 3-hit attack. More{{C0}}powerful with each{{C1}}successive hit. Sound-{{C2}}based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "三段攻击，[/n]每段威力递增。声音系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8634",
+   "en": "40% chance to lower{{C0}}Attack and/or Defense.{{C1}}Ignores stat changes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "40%降低攻击和或防御。[/n]无视能力值变化。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8678",
+   "en": "A clump of special mud{{C0}}is hurled at the foe,{{C1}}resetting their stat{{C2}}changes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "投掷特殊泥块，[/n]重置对手能力值变化。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB86C4",
+   "en": "The more the user's{{C0}}stats are raised, the{{C1}}greater this move's{{C2}}power.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者能力值提升越多，[/n]此招威力越大。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB870C",
+   "en": "Protects the user and{{C0}}its allies from priority{{C1}}for 3 turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "3回合内保护使用者[/n]和队友免疫先制招式。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8748",
+   "en": "The user teleports{{C0}}using a strange power{{C1}}and swaps with its ally.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用奇异力量传送，[/n]与队友交换位置。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB878C",
+   "en": "Boiling hot water is{{C0}}shot at the foe. 30%{{C1}}burn chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ],
+   "prev": "向对手射出滚烫热水。[/n]30%灼伤几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB87C4",
+   "en": "A broken shell ups Atk,{{C0}}Sp.Atk and Spe, while{{C1}}reducing Def and{{C2}}Sp.Def.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "破碎的贝壳提升攻击、[/n]特攻和速度，[/n]降低防御和特防。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB880C",
+   "en": "A pulse is loosed,{{C0}}healing the target by{{C1}}up to half of their{{C2}}maximum HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "释放脉冲波，[/n]恢复目标最多[/n]一半最大HP。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8858",
+   "en": "Double damage to foes{{C0}}affected by status{{C1}}problems.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "对陷入异常状态的[/n]对手造成双倍伤害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB888C",
+   "en": "Immobilizes and then{{C0}}slams the foe. Deals{{C1}}damage and triggers{{C2}}hazards. Throw based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "固定对手后猛击。[/n]造成伤害并触发[/n]场地陷阱。投掷系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB88E0",
+   "en": "The user rotates its{{C0}}gears, raising its{{C1}}Attack and sharply{{C2}}raising its Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "旋转齿轮，[/n]提升攻击并[/n]大幅提升速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8930",
+   "en": "The foe is thrown,{{C0}}dragging out another{{C1}}Pokémon into battle.{{C2}}Wild Pokémon flee.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "抛出对手，[/n]拉出另一只宝可梦[/n]上场。野生宝可梦逃跑。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8980",
+   "en": "A fiery attack that{{C0}}burns up any Berry or{{C1}}Gem the foe may be{{C2}}holding.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "火焰攻击，[/n]烧毁对手携带的[/n]树果或宝石。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8A00",
+   "en": "The user nimbly strikes{{C0}}the foe. 50% more{{C1}}damage without an item.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "灵巧地攻击对手。[/n]无道具时伤害增加50%。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8A88",
+   "en": "This vengeful move{{C0}}deals double damage if{{C1}}an ally fainted in the{{C2}}turn before.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "若队友前一回合[/n]倒下，此复仇招式[/n]造成双倍伤害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]|[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8AD8",
+   "en": "This attack causes the{{C0}}user to faint, but does{{C1}}damage equal to its HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者虽会倒下，但造成[/n]等同于自身HP的伤害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8B9C",
+   "en": "Creates a rainbow in{{C0}}sun or a swamp with{{C1}}grass. Uses highest{{C2}}attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ],
+   "prev": "日照下制造彩虹，[/n]青草场地下制造沼泽。使用最高攻击力。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8BE4",
+   "en": "Creates a rainbow in{{C0}}rain or a firestorm{{C1}}with grass. Uses{{C2}}highest attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ],
+   "prev": "雨天制造彩虹，[/n]日照下制造火海与草地。使用最高攻击力。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8C30",
+   "en": "Creates a swamp in rain{{C0}}and a firestorm in sun.{{C1}}Uses highest attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "雨天制造沼泽，日照下制造火海。使用最高攻击力。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB8CBC",
+   "en": "A desperate attack{{C0}}that deals critical{{C1}}damage when the user is{{C2}}below 50% HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者HP低于50%时，[/n]造成会心一击的拼命攻击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8D0C",
+   "en": "A mighty stomp which{{C0}}hits all foes, and{{C1}}lowers their Speed{{C2}}stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Stomp→踩踏"
+   ],
+   "prev": "猛烈踩踏所有对手，[/n]降低其速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8D50",
+   "en": "A fierce blow upon the{{C0}}foe which will always{{C1}}result in a critical{{C2}}hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "对对手的猛烈一击，[/n]必定会心一击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8D98",
+   "en": "The foe is thrown,{{C0}}dragging out another{{C1}}Pokémon into battle.{{C2}}Wild Pokémon flee.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "抛出对手，[/n]拉出另一只宝可梦上场。野生宝可梦逃跑。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8DE8",
+   "en": "The user is roused, and{{C0}}its Attack and Sp. Atk{{C1}}stats increase.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "使用者振奋精神，[/n]攻击和特攻提升。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8E28",
+   "en": "The foe is caught in an{{C0}}electric net. This{{C1}}lowers their Speed{{C2}}stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ],
+   "prev": "对手被困在电网中。降低其速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB8E6C",
+   "en": "An electric, reckless{{C0}}crash attack with 10%{{C1}}paralyze chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Reckless→舍身",
+    "Electric→电"
+   ],
+   "prev": "鲁莽的电系冲撞，[/n]10%麻痹几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[[/n]]"
+   ]
+  },
+  {
+   "id": "00EB8EAC",
+   "en": "Rotates its body like a{{C0}}drill. High crit ratio.{{C1}}Mighty Horn boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "像钻头般旋转身体。高会心率。蛮力角增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB8EF0",
+   "en": "Brutal strikes hit{{C0}}twice. High crit ratio.{{C1}}Keen Edge boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "残忍地攻击两次。高会心率。锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB8F2C",
+   "en": "The foe's guard drops,{{C0}}and the user strikes.{{C1}}30% flinch chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "对手露出破绽时发动攻击。30%畏缩几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB8F6C",
+   "en": "Absorbs half the{{C0}}damage. Ignores foe's{{C1}}stat changes. Mighty{{C2}}Horn boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "吸收一半伤害。无视对手能力值变化。蛮力角增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB8FB4",
+   "en": "The user cuts its foe.{{C0}}Ignores foe's stat{{C1}}changes. Keen Edge{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "斩击对手。无视对手能力值变化。锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB8FF8",
+   "en": "High crit ratio. 50%{{C0}}chance to lower foe's{{C1}}Def. Keen Edge boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "高会心率。50%降低对手防御。锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB903C",
+   "en": "The user slams the foe{{C0}}with its heavy body.{{C1}}Heavier users are{{C2}}stronger.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用沉重身体猛撞对手。越重的使用者越强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9084",
+   "en": "The foe is trapped with{{C0}}sharp leaves for four{{C1}}or five turns.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用锋利叶片困住对手，持续四至五回合。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB90C4",
+   "en": "Attacks as if Speed was{{C0}}50% higher for{{C1}}determining turn order.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "速度视为提升50%来决定行动顺序。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9104",
+   "en": "The user protects{{C0}}itself with soft{{C1}}cotton, drastically{{C2}}raising its Defense.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用柔软棉花保护自身，大幅提升防御。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9150",
+   "en": "Strucks with a pitch-{{C0}}black shock wave. Has{{C1}}+1 priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shock Wave→电击波"
+   ],
+   "prev": "用漆黑的冲击波攻击。+1先制度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB918C",
+   "en": "The user casts an odd{{C0}}psychic wave to attack{{C1}}the foe for physical{{C2}}damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念"
+   ],
+   "prev": "释放奇异念力波，对对手造成物理伤害。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB91D8",
+   "en": "The user attacks by{{C0}}striking the foe with{{C1}}its hard tail, two to{{C2}}five times.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用坚硬尾巴连续攻击对手两到五回合。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9224",
+   "en": "30% chance to confuse{{C0}}the foe. Weather-and{{C1}}Air-based.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "30%使对手混乱。天气系和飞行系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB925C",
+   "en": "Powerful guard hair{{C0}}headbutts the foe in an{{C1}}attack. 25% recoil{{C2}}damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用强力护发头锤攻击对手。25%反伤。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB92A4",
+   "en": "The user attacks by{{C0}}throwing steel gears at{{C1}}its target twice.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ],
+   "prev": "投掷钢齿轮攻击目标两次。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB92E4",
+   "en": "Scarlet flames torch{{C0}}the field. 30% burn{{C1}}chance. Mega Launcher{{C2}}boost",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器"
+   ],
+   "prev": "绯红火焰燃烧场地。30%灼伤几率。超级发射器增强",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB932C",
+   "en": "A beam of light. Changes{{C0}}type based on Hidden{{C1}}Power type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "光之射线。属性随觉醒力量类型变化。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9368",
+   "en": "An ancient song that{{C0}}may induce sleep. Uses{{C1}}highest Attack stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "可能令对手入睡的古老歌声。使用最高攻击力。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB93AC",
+   "en": "The user cuts its foe,{{C0}}oddly dealing physical{{C1}}damage. Keen Edge{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "斩击对手，造成物理伤害。锋锐增强。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB93F4",
+   "en": "The user blows freezing{{C0}}cold air at its foes{{C1}}that lowers their{{C2}}Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "向对手吹出冰冷的寒风，降低其速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB943C",
+   "en": "The user strikes its{{C0}}foe with electricity.{{C1}}30% paralyze chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用电击攻击对手。30%麻痹几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB947C",
+   "en": "The foe is engulfed in a{{C0}}beautiful flame. 20%{{C1}}burn chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "用美丽火焰包裹对手。20%灼伤几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB94B8",
+   "en": "The user flaps its{{C0}}flame-cloaked wings.{{C1}}50% chance to raise its{{C2}}SpAtk.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "扇动火焰翅膀。50%提升特攻。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9500",
+   "en": "Paralyzes attackers{{C0}}that make contact while{{C1}}charging. 30% paralyze{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "蓄力时接触的攻击者会被麻痹。30%麻痹几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB954C",
+   "en": "Burns attackers that{{C0}}make contact while{{C1}}charging. 30% burn{{C2}}chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "蓄力时接触的攻击者会被灼伤。30%灼伤几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9590",
+   "en": "The user yells as if it{{C0}}is ranting, lowering the{{C1}}Sp. Atk of its foe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "大声吼叫，降低对手特攻。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB95D8",
+   "en": "Sharp icicles fall onto{{C0}}the foe, with a 20%{{C1}}flinch chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "尖锐冰柱落在对手身上，20%畏缩几率。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9614",
+   "en": "A powerful strike that{{C0}}lowers the user's{{C1}}Defense, Sp. Def and{{C2}}Speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "强力一击，降低使用者的防御、特防和速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB965C",
+   "en": "A giant flame that{{C0}}deals more damage when{{C1}}joined with a big{{C2}}thunderbolt.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Thunderbolt→十万伏特"
+   ],
+   "prev": "巨大火焰，与十万伏特联合时伤害更高。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB96A8",
+   "en": "A giant thunderbolt{{C0}}that deals more damage{{C1}}when joined with a big{{C2}}flame.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Thunderbolt→十万伏特"
+   ],
+   "prev": "巨大雷电，与火焰联合时伤害更高。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB96F4",
+   "en": "A wrestling attack that{{C0}}is Fighting or Flying{{C1}}based on effectiveness.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fighting→格斗",
+    "Flying→飞行"
+   ],
+   "prev": "摔跤攻击，属性为格斗系或飞行系。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB973C",
+   "en": "A pulled-up mat is used{{C0}}to protect the user and{{C1}}its ally from damaging{{C2}}moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protect→守住"
+   ],
+   "prev": "用翻卷的垫子保护使用者和队友免受伤害招式。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB978C",
+   "en": "The user eats its held{{C0}}Berry and lets out a{{C1}}damaging belch at the{{C2}}foe.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Belch→打嗝"
+   ],
+   "prev": "吃掉携带的树果后打嗝攻击对手。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB97D4",
+   "en": "Boosts the Atk and{{C0}}SpAtk of Grass-types{{C1}}by 1 stage or 2 stages{{C2}}in Grassy Terrain.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grassy Terrain→青草场地",
+    "Grass→草"
+   ],
+   "prev": "提升草系宝可梦1级或青草场地下2级攻击和特攻。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9828",
+   "en": "A sticky net woven{{C0}}around the foe that{{C1}}drops the Speed of foes{{C2}}that switch in.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "在对手周围布下粘网，降低换上来的对手速度。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9878",
+   "en": "If this attack knocks{{C0}}out a foe, the user's{{C1}}Attack rises by +3.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "此招击倒对手时，使用者攻击提升+3。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB98B8",
+   "en": "The user vanishes. The{{C0}}next turn, it strikes{{C1}}the foe, ignoring{{C2}}Protect.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protect→守住"
+   ],
+   "prev": "使用者消失。下回合无视守住攻击对手。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9900",
+   "en": "The user adds the{{C0}}Ghost-type to its foe{{C1}}and makes it weakened{{C2}}by fog.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ghost→幽灵"
+   ],
+   "prev": "给对手添加幽灵属性并使其受雾天削弱。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9948",
+   "en": "A noble roar that{{C0}}intimidates foes and{{C1}}lowers their Attack and{{C2}}SpAtk",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Roar→吼叫",
+    "Noble Roar→战吼"
+   ],
+   "prev": "威严的吼叫威吓对手，降低攻击和特攻。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9990",
+   "en": "The user disperses{{C0}}charged particles which{{C1}}electrify Normal-type{{C2}}moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electrify→输电",
+    "Normal→一般"
+   ],
+   "prev": "分散带电粒子，使一般系招式带电。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB99D8",
+   "en": "The user attacks all{{C0}}around it, and restores{{C1}}HP by 25% of damage{{C2}}dealt.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "攻击周围所有目标，恢复造成伤害25%的HP。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9A20",
+   "en": "The user puts a forest{{C0}}curse on the foe. The{{C1}}foe is now Grass-type{{C2}}as well.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Curse→诅咒",
+    "Grass→草"
+   ],
+   "prev": "给对手施加森林诅咒，使其变为草属性。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "00EB9A6C",
+   "en": "A violent petal{{C0}}blizzard stirs up,{{C1}}hitting everything{{C2}}around it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blizzard→暴风雪"
+   ],
+   "prev": "掀起猛烈花瓣暴风雪，攻击周围一切。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/n]] 译[]"
+   ]
+  }
+ ]
+}

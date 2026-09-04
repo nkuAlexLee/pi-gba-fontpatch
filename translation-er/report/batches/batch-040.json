@@ -1,0 +1,2885 @@
+{
+ "batch": 40,
+ "count": 129,
+ "tasks": [
+  {
+   "id": "00321AA6",
+   "scene": "main-text",
+   "en": "Hey, there, I'm rockin' and a-rollin'!{{C0}}Pokémon, I be controllin'!{{C1}}I'm {{C2}} the rappin' SAILOR.{{C3}}Don't be mistakin' me for no wailer!{{C4}}I'm {{C5}}'s no. {{C6}} apprentice.{{C7}}Me, you shouldn't be quick to dismiss!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 197,
+   "hint": "纯中文≤98字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321B6B",
+   "scene": "main-text",
+   "en": "With the advice of {{C0}} I did{{C1}}abide, put together my team of pride!{{C2}}One {{C3}}-using {{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 82,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321BBD",
+   "scene": "main-text",
+   "en": "and one {{C0}}-using{{C1}}{{C2}}!{{C3}}Our meeting we should commemorate,{{C4}}with a tag-team victory to celebrate!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 94,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Celebrate→庆祝"
+   ]
+  },
+  {
+   "id": "00321C1B",
+   "scene": "main-text",
+   "en": "Hey, hey, I like your style!{{C0}}Our registration, I will go file!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321C5A",
+   "scene": "main-text",
+   "en": "Oh, hey, {{C0}}, now that's cold!{{C1}}If I may be so bold!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bold→大胆"
+   ]
+  },
+  {
+   "id": "00321C8D",
+   "scene": "main-text",
+   "en": "Yippee-yahoo!{{C0}}Oh, don't run! I was just having fun!{{C1}}Howdy! I'm {{C2}}!{{C3}}I'm {{C4}}'s no. {{C5}} apprentice!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321CEC",
+   "scene": "main-text",
+   "en": "{{C0}} told me what to do.{{C1}}So one {{C2}}-using {{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321D16",
+   "scene": "main-text",
+   "en": "and one {{C0}}-using{{C1}}{{C2}}, I did choose.{{C3}}So, what do you say?{{C4}}Come on, make my day!{{C5}}Please, I'm begging you!{{C6}}Let me join you, don't leave me blue!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321DA3",
+   "scene": "main-text",
+   "en": "Yeahah! Luck is with me!{{C0}}It sure makes me happy!{{C1}}Before we go join the fray,{{C2}}I'll go register right away!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 106,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321E0D",
+   "scene": "main-text",
+   "en": "You're turning me down?{{C0}}{{C1}}, you're making me frown!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321E41",
+   "scene": "main-text",
+   "en": "Cough!{{C0}}Oh, sorry, I have a cold.{{C1}}My Pokémon are fine, though.{{C2}}My name's {{C3}}, {{C4}}'s{{C5}}no. {{C6}} apprentice. Cough!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 107,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321EAC",
+   "scene": "main-text",
+   "en": "I took {{C0}}'s advice to heart{{C1}}and put together my team of{{C2}}one {{C3}} with {{C4}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321EF7",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}.{{C2}}I trained them every day,{{C3}}even in wind and rain.{{C4}}That's why I have this cold,{{C5}}I think.{{C6}}That's what I'm about.{{C7}}Want to be my tag partner?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 153,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321F90",
+   "scene": "main-text",
+   "en": "Thanks, I appreciate this!{{C0}}Cough, cough!{{C1}}Hang on while I go register.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00321FD6",
+   "scene": "main-text",
+   "en": "Oh, you won't?{{C0}}{{C1}}, I think we'd make a good pair.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322008",
+   "scene": "main-text",
+   "en": "Oh, hello!{{C0}}This is nerve-racking.{{C1}}I'm {{C2}}.{{C3}}I'm the no. {{C4}} apprentice of {{C5}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322053",
+   "scene": "main-text",
+   "en": "{{C0}} said this team'll be good--{{C1}}one {{C2}} with {{C3}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322085",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}.{{C2}}I'm feeling self-conscious about this,{{C3}}but will you let me join you?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003220DA",
+   "scene": "main-text",
+   "en": "Oh, gee, thank you!{{C0}}I feel bashful, but I'll do my best!{{C1}}I'll go get the registration done.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 92,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bashful→害羞"
+   ]
+  },
+  {
+   "id": "00322136",
+   "scene": "main-text",
+   "en": "Oh, please don't say no!{{C0}}I feel self-conscious enough already{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322175",
+   "scene": "main-text",
+   "en": "I am {{C0}}, and that's no lie.{{C1}}I am {{C2}}'s no. {{C3}} apprentice.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003221AE",
+   "scene": "main-text",
+   "en": "{{C0}} recommended my team.{{C1}}Since the advice sounded sincere,{{C2}}I decided to bring with me{{C3}}my {{C4}}-using {{C5}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 104,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322216",
+   "scene": "main-text",
+   "en": "my {{C0}}-using {{C1}}.{{C2}}If possible, I would like you to accept{{C3}}me as your tag-team partner.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032226B",
+   "scene": "main-text",
+   "en": "You really will accept me?{{C0}}It would be too terrible otherwise.{{C1}}But since you've agreed, this is fine.{{C2}}I shall go register the both of us.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 138,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003222F5",
+   "scene": "main-text",
+   "en": "Hm? Now why would you refuse?{{C0}}Is this your idea of a joke?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322330",
+   "scene": "main-text",
+   "en": "I'm {{C0}}, and I'm a LASS!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322348",
+   "scene": "main-text",
+   "en": "What I have are one {{C0}}{{C1}}that uses {{C2}} and one",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322374",
+   "scene": "main-text",
+   "en": "{{C0}} that uses {{C1}}.{{C2}}Those are what I have with me.{{C3}}Will you be my partner?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003223BC",
+   "scene": "main-text",
+   "en": "Thank you!{{C0}}I'll go do the registration!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003223E4",
+   "scene": "main-text",
+   "en": "You don't want to be my partner?{{C0}}You'll regret it later!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032241D",
+   "scene": "main-text",
+   "en": "Hello!{{C0}}I'm YOUNGSTER {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322436",
+   "scene": "main-text",
+   "en": "Want to know what I have?{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322463",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}You'll be my tag-team partner,{{C3}}won't you?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032249D",
+   "scene": "main-text",
+   "en": "Yay!{{C0}}I'll go and register, okay?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003224BE",
+   "scene": "main-text",
+   "en": "Aww! If you'd form a tag team with{{C0}}my Pokémon, we'd be unstoppable!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322502",
+   "scene": "main-text",
+   "en": "Yahoo!{{C0}}I'm HIKER {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322517",
+   "scene": "main-text",
+   "en": "Know what I have with me?{{C0}}My {{C1}}-using {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322544",
+   "scene": "main-text",
+   "en": "my {{C0}}-using {{C1}}!{{C2}}Sounds good, eh?{{C3}}Want to form a tag team?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032257E",
+   "scene": "main-text",
+   "en": "Yahoo!{{C0}}I'll go do the registering, then.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003225A7",
+   "scene": "main-text",
+   "en": "I would've liked to battle with you{{C0}}at my side.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003225D7",
+   "scene": "main-text",
+   "en": "Hello!{{C0}}I'm {{C1}}, and I'm a BEAUTY!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003225F8",
+   "scene": "main-text",
+   "en": "Do you know what I've been raising?{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032262F",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}What do you think?{{C3}}Want to make a tag team together?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322674",
+   "scene": "main-text",
+   "en": "Wonderful!{{C0}}I'll get the registration done now!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003226A3",
+   "scene": "main-text",
+   "en": "How disappointing!{{C0}}We two together--we would've been{{C1}}the best!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003226E2",
+   "scene": "main-text",
+   "en": "Yo!{{C0}}You know who I am?{{C1}}I'm {{C2}} the FISHERMAN!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032270F",
+   "scene": "main-text",
+   "en": "I've got with me a team of one{{C0}}{{C1}}-using {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032273E",
+   "scene": "main-text",
+   "en": "one {{C0}}-using {{C1}}.{{C2}}So, how about it?{{C3}}Will you battle at my side?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032277D",
+   "scene": "main-text",
+   "en": "Good, good!{{C0}}Leave it up to me!{{C1}}I'll go and register us now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003227B9",
+   "scene": "main-text",
+   "en": "We matched up perfectly, too{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003227D7",
+   "scene": "main-text",
+   "en": "Glad to make your acquaintance.{{C0}}I am {{C1}}, a LADY.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322808",
+   "scene": "main-text",
+   "en": "I am accompanied by a team of{{C0}}one {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322839",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}.{{C2}}I hope I meet your approval.{{C3}}For I wish to have you as my partner.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "0032288C",
+   "scene": "main-text",
+   "en": "I thank you sincerely.{{C0}}I shall handle the registration.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003228C4",
+   "scene": "main-text",
+   "en": "I'm sure that you will regret not{{C0}}having me as your partner.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322901",
+   "scene": "main-text",
+   "en": "I'm TRIATHLETE {{C0}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322914",
+   "scene": "main-text",
+   "en": "What I have{{C0}}{{C1}}One {{C2}} with {{C3}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322934",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}That's my pair!{{C3}}Please?{{C4}}Will you form a tag team with me?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032297E",
+   "scene": "main-text",
+   "en": "Gee, thanks!{{C0}}I'll go register at the counter.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Counter→双倍奉还"
+   ]
+  },
+  {
+   "id": "003229AC",
+   "scene": "main-text",
+   "en": "We two together, we would've been{{C0}}tough for certain!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003229E1",
+   "scene": "main-text",
+   "en": "Hiya!{{C0}}I'm BUG CATCHER {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bug→虫"
+   ]
+  },
+  {
+   "id": "003229FB",
+   "scene": "main-text",
+   "en": "Check out what I have!{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322A25",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}So, listen!{{C3}}Do you want to form a tag team?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322A61",
+   "scene": "main-text",
+   "en": "Gotcha!{{C0}}I'll go do the registration stuff{{C1}}at the counter.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Counter→双倍奉还"
+   ]
+  },
+  {
+   "id": "00322A9B",
+   "scene": "main-text",
+   "en": "Aww, my Pokémon are awesome.{{C0}}I hope you won't regret this!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322AD6",
+   "scene": "main-text",
+   "en": "Good day!{{C0}}I'm School Kid {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322AF3",
+   "scene": "main-text",
+   "en": "What I've been raising are one{{C0}}{{C1}} that uses {{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322B22",
+   "scene": "main-text",
+   "en": "and one {{C0}} that uses{{C1}}{{C2}}.{{C3}}Not too bad, don't you think?{{C4}}Would you care to form a tag team?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 90,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322B7C",
+   "scene": "main-text",
+   "en": "Thank you very much!{{C0}}I'll get done with the registration.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322BB6",
+   "scene": "main-text",
+   "en": "That's too bad{{C0}}{{C1}}I was hoping that I could learn{{C2}}from you as your partner{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322C00",
+   "scene": "main-text",
+   "en": "Yo! Let me tell you who I am!{{C0}}I'm RICH BOY {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322C2F",
+   "scene": "main-text",
+   "en": "Guess what I got!{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322C54",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}I'm willing to offer you the chance{{C3}}to be in a tag team with me.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 81,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322CA5",
+   "scene": "main-text",
+   "en": "Smart move!{{C0}}I'll finish up the registration{{C1}}process quick!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322CE0",
+   "scene": "main-text",
+   "en": "You'd turn me of all people down?{{C0}}You'll regret that decision for sure!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322D28",
+   "scene": "main-text",
+   "en": "Hiyah!{{C0}}I am BLACK BELT {{C1}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Black Belt→黑带"
+   ]
+  },
+  {
+   "id": "00322D43",
+   "scene": "main-text",
+   "en": "As my companions, I have{{C0}}one {{C1}} using {{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322D6C",
+   "scene": "main-text",
+   "en": "and one {{C0}} using{{C1}}{{C2}}.{{C3}}Please, grant me my wish!{{C4}}Allow me to be your tag partner!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "00322DBC",
+   "scene": "main-text",
+   "en": "Hiyah!{{C0}}I will go register forthwith!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322DE1",
+   "scene": "main-text",
+   "en": "I see{{C0}} I hope for an opportunity{{C1}}the next time we meet{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322E19",
+   "scene": "main-text",
+   "en": "Hi, there!{{C0}}I'm {{C1}}, and I'm a TUBER!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322E3D",
+   "scene": "main-text",
+   "en": "I'll tell you what I have.{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322E6B",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}May I please be on your tag team?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322E9D",
+   "scene": "main-text",
+   "en": "Thank you!{{C0}}I'll go register us now!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322EC1",
+   "scene": "main-text",
+   "en": "If we'd become partners, we could{{C0}}have been so strong!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322EF8",
+   "scene": "main-text",
+   "en": "Greetings{{C0}}{{C1}}I am HEX MANIAC {{C2}}{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hex→祸不单行"
+   ]
+  },
+  {
+   "id": "00322F17",
+   "scene": "main-text",
+   "en": "I bear with me one {{C0}}-using{{C1}}{{C2}} together with one",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322F48",
+   "scene": "main-text",
+   "en": "{{C0}}-using {{C1}}{{C2}}{{C3}}I beseech you{{C4}}{{C5}}Join me in a tag team{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322F7B",
+   "scene": "main-text",
+   "en": "I thank you{{C0}}{{C1}}I shall register us{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322F9D",
+   "scene": "main-text",
+   "en": "I so longed to join you{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322FB6",
+   "scene": "main-text",
+   "en": "How do you do? I'm {{C0}},{{C1}}and I'm a Pokémon BREEDER!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00322FE8",
+   "scene": "main-text",
+   "en": "I'm raising a couple good ones!{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032301B",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}How about it?{{C3}}Feel like making a tag team with me?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 67,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032305E",
+   "scene": "main-text",
+   "en": "Thank you kindly!{{C0}}I'll go take care of the registration{{C1}}stuff, so you wait right here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 87,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003230B5",
+   "scene": "main-text",
+   "en": "I was looking forward to being{{C0}}your partner{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003230E2",
+   "scene": "main-text",
+   "en": "Well, hello!{{C0}}I'm TRIATHLETE {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323102",
+   "scene": "main-text",
+   "en": "Want to know what I run with?{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323133",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}Well?{{C3}}Want to be in a tag team with me?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032316B",
+   "scene": "main-text",
+   "en": "Good going!{{C0}}I'll be quick and get the registration{{C1}}all done!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003231A8",
+   "scene": "main-text",
+   "en": "You and me, we would've been tops.{{C0}}It's too bad{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003231D9",
+   "scene": "main-text",
+   "en": "Hey, there! My name's {{C0}}!{{C1}}I'm a TRIATHLETE!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323205",
+   "scene": "main-text",
+   "en": "I go on runs with my durable team--{{C0}}one {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032323C",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}Not too shabby, huh?{{C3}}We should be in a tag team together!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323286",
+   "scene": "main-text",
+   "en": "All right!{{C0}}I'll go register in a flash!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flash→闪光"
+   ]
+  },
+  {
+   "id": "003232AE",
+   "scene": "main-text",
+   "en": "I really wanted to battle as your{{C0}}tag-team partner{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003232E2",
+   "scene": "main-text",
+   "en": "I'm BATTLE GIRL {{C0}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003232F6",
+   "scene": "main-text",
+   "en": "I've been toughening up one{{C0}}{{C1}}-using {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323322",
+   "scene": "main-text",
+   "en": "one {{C0}}-using {{C1}}!{{C2}}Do you like that combo?{{C3}}How about you and me join up?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323369",
+   "scene": "main-text",
+   "en": "Why, thanks!{{C0}}I'll get the registration done{{C1}}right now!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003233A0",
+   "scene": "main-text",
+   "en": "With you, I thought we could form{{C0}}the ultimate tag team{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003233D9",
+   "scene": "main-text",
+   "en": "I'm TRIATHLETE {{C0}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003233EC",
+   "scene": "main-text",
+   "en": "I've been running with one {{C0}}{{C1}}that knows how to use {{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323423",
+   "scene": "main-text",
+   "en": "and one {{C0}} with {{C1}}!{{C2}}We could be in a tag team.{{C3}}Wouldn't that be great?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032346A",
+   "scene": "main-text",
+   "en": "Thank you!{{C0}}I'll go register us, and that's{{C1}}right now!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003234A0",
+   "scene": "main-text",
+   "en": "Aww, that's too bad. We would've been{{C0}}the toughest tag team around!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003234E4",
+   "scene": "main-text",
+   "en": "Me?{{C0}}I'm TUBER {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003234F6",
+   "scene": "main-text",
+   "en": "What do I have with me?{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323521",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}Hey?{{C3}}You'll team up with me, right?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323555",
+   "scene": "main-text",
+   "en": "Okay!{{C0}}I'll go register!{{C1}}Let's be excellent together!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032358A",
+   "scene": "main-text",
+   "en": "My Pokémon are tough for sure{{C0}}{{C1}}It's too bad you don't want to team up.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003235D1",
+   "scene": "main-text",
+   "en": "Yay-hey!{{C0}}Call me GUITARIST {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003235F0",
+   "scene": "main-text",
+   "en": "Check out my entourage!{{C0}}One {{C1}} with {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032361B",
+   "scene": "main-text",
+   "en": "one {{C0}} with {{C1}}!{{C2}}Yay-hey! Pretty wild, huh?{{C3}}We'll have to do a duet in a tag team!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 82,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0032366D",
+   "scene": "main-text",
+   "en": "Yay-hey! Right on!{{C0}}I'll do that registration stuff now!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003236A5",
+   "scene": "main-text",
+   "en": "My Pokémon rock hard!{{C0}}You'll be sorry, I tell you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "003236D8",
+   "scene": "main-text",
+   "en": "Pleased to meet you.{{C0}}I am {{C1}}, a GENTLEMAN.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323703",
+   "scene": "main-text",
+   "en": "I am accompanied by my trusted{{C0}}{{C1}}-using {{C2}} and",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323732",
+   "scene": "main-text",
+   "en": "one {{C0}}-using {{C1}}.{{C2}}May I ask you to join me in a tag-team{{C3}}partnership arrangement?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 81,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00323783",
+   "scene": "main-text",
+   "en": "Ah, I thank you for your trust.{{C0}}I shall be done with the registration.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

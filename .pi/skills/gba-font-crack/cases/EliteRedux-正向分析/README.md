@@ -1,5 +1,10 @@
 # Elite Redux 2.65.1 正向分析实录（v3→v5，"新游戏" 上屏全记录）
 
+> ⚠ **路线沿革**：本案例记录的是 v6 槽位注入（3 字上限，仅字库格式验证用）。
+> 正式整库汉化已升级为 **v7 整库插入+ESC 渲染 hook**（gba-font-crack SKILL.md
+> EliteRedux 节 + gbajs2/translation-er 工程 + ../gba-text-translate 案例
+> EliteRedux-ESC编码整桶翻译）。本案例的字形格式/引擎分析结论仍然有效。
+
 > 本文是 `SKILL.md` 主范式的实战样本：全程正向分析，不依赖现成补丁。
 > 成品：`testfiles/Pokémon Elite Redux (2.65.1 beta reupload)_新游戏字库.gba`
 > 可复现脚本：`fontpatch/patch-elite-redux-2651.js`

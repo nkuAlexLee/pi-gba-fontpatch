@@ -1,0 +1,2125 @@
+{
+ "batch": 34,
+ "count": 81,
+ "tasks": [
+  {
+   "id": "0030C015",
+   "scene": "main-text",
+   "en": " from the two Orbs and{{C0}}becalmed the enraged adversaries.{{C1}}The pair, made docile, dove deep into{{C2}}the sea where eventually they{{C3}}disappeared{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 138,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Docile→坦率"
+   ]
+  },
+  {
+   "id": "0030C09F",
+   "scene": "main-text",
+   "en": "I see{{C0}}{{C1}}Well, that, too, is fine{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030C0C0",
+   "scene": "main-text",
+   "en": "Maxie: {{C0}}{{C1}}{{C2}}{{C3}} {{C4}} {{C5}} {{C6}} {{C7}} {{C8}}{{C9}}{{C10}} {{C11}} {{C12}} {{C13}} {{C14}} {{C15}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[...]"
+    ],
+    [
+     "{{C15}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030C0E3",
+   "scene": "main-text",
+   "en": "It is my role to pass on the legends{{C0}}of Hoenn to future generations.{{C1}}And the crisis that just ended in{{C2}}Sootopolis rewrote a legend{{C3}}{{C4}}Have you the time to hear the new{{C5}}legend of Hoenn?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 183,
+   "hint": "纯中文≤91字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pass→磁浮列车自由票",
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "0030C4E8",
+   "scene": "main-text",
+   "en": "Ìæ{{C0}}ÌÌæ{{C1}}Archie: {{C2}}, you're here too?{{C3}}How'd you even-{{C4}}Ah, you were at Sunhollow Pyramid.{{C5}}Right.{{C6}}Damn it.{{C7}}This is unfortunate, but I can't have{{C8}}you taking back the Blue Orb. Have at{{C9}}you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 184,
+   "hint": "纯中文≤91字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blue Orb→靛蓝色宝珠"
+   ]
+  },
+  {
+   "id": "0030C5A0",
+   "scene": "main-text",
+   "en": "Blast it all!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030C5AE",
+   "scene": "main-text",
+   "en": "Archie: Hah... hah... Quite a battle,{{C0}}{{C1}}!{{C2}}A damn shame it is that you won't join{{C3}}us.{{C4}}You know by now what our goal is, aye?{{C5}}Old Man: You mustn't! Kyogre is too{{C6}}dangerous!{{C7}}Old Lady: Alexander, please, don't risk-",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 212,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡"
+   ]
+  },
+  {
+   "id": "0030C84D",
+   "scene": "main-text",
+   "en": "{{C0}}, you've... been a pest, but{{C1}}you're fun to battle.{{C2}}But stay out of our business. This is{{C3}}getting too serious for a child.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Serious→认真"
+   ]
+  },
+  {
+   "id": "0030CA2D",
+   "scene": "main-text",
+   "en": "Team Magma's members left it behind.{{C0}}Perhaps you can pretend to be one of{{C1}}them?{{C2}}We will stay here and pray. It might help{{C3}}buy everyone some time.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 146,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030CB49",
+   "scene": "main-text",
+   "en": "What? What? What do you want with {{C0}}Team Aqua?{{C1}}Our Boss isn't here! He's gone off to{{C2}}snatch something important!{{C3}}{{C4}} {{C5}}{{C6}}Where did he go?{{C7}}Wahaha! Do you really think I'd tell{{C8}}you something that crucial?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 198,
+   "hint": "纯中文≤98字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snatch→抢夺"
+   ]
+  },
+  {
+   "id": "0030CC0F",
+   "scene": "main-text",
+   "en": "What? What?{{C0}}Are you a Team Magma grunt?{{C1}}I hear that Team Magma is trying to{{C2}}awaken an awesome Pokémon at their{{C3}}Hideout.{{C4}}But where might their Hideout be?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030CCA9",
+   "scene": "main-text",
+   "en": "What? What? What do you want with {{C0}}Team Aqua?{{C1}}Our Boss isn't here!{{C2}}He's gone off to jack a submarine!{{C3}}{{C4}} {{C5}}{{C6}}Where did he go?{{C7}}Wahaha! Do you really think I'd tell{{C8}}you something that crucial?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 188,
+   "hint": "纯中文≤93字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030CD65",
+   "scene": "main-text",
+   "en": "What? What? What do you want with {{C0}}Team Aqua?{{C1}}Our Boss isn't here! He's on his way to{{C2}}Mt. Pyre on Route 122!{{C3}}{{C4}} {{C5}}{{C6}}Why did he go?{{C7}}Wahaha! Do you really think I'd tell{{C8}}you something that crucial?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 193,
+   "hint": "纯中文≤96字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 12→１２号道路"
+   ]
+  },
+  {
+   "id": "0030CE26",
+   "scene": "main-text",
+   "en": "What? What?{{C0}}Are you a Team Magma grunt?{{C1}}I hear that Team Magma is after{{C2}}an awesome Pokémon at Mt. Chimney.{{C3}}But what is that Pokémon like?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 138,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030CEB0",
+   "scene": "main-text",
+   "en": "What? What? What do you want with{{C0}}Team Aqua?{{C1}}Our Boss isn't here!{{C2}}He's on his way to Slateport City!{{C3}}{{C4}} {{C5}}{{C6}}Why did he go?{{C7}}Wahaha! Do you really think I'd tell{{C8}}you something that crucial?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 185,
+   "hint": "纯中文≤92字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030CF69",
+   "scene": "main-text",
+   "en": "Ayiyiyi!{{C0}}Suspicious character spotted!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030CF90",
+   "scene": "main-text",
+   "en": "Grrrrr{{C0}}{{C1}}I lost it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030CFA3",
+   "scene": "main-text",
+   "en": "I took the loss for the Team,{{C0}}but I did my job{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D151",
+   "scene": "main-text",
+   "en": "If you want to know the secret about{{C0}}our Hideout, you have me to beat!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D198",
+   "scene": "main-text",
+   "en": "I can't win at all{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D1AC",
+   "scene": "main-text",
+   "en": "Our Hideout's secret?{{C0}}Well, let's just say{{C1}}{{C2}}There's a submarine at the far end!{{C3}}But, by now{{C4}}{{C5}}Kekekeke{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D213",
+   "scene": "main-text",
+   "en": "Fuel supply loaded A-OK!{{C0}}In-cruise snacks loaded A-OK!{{C1}}Nothing left to do but KO a pesky{{C2}}meddler!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 98,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D275",
+   "scene": "main-text",
+   "en": "I took a serious licking!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Serious→认真"
+   ]
+  },
+  {
+   "id": "0030D28F",
+   "scene": "main-text",
+   "en": "Humph!{{C0}}This was supposed to happen!{{C1}}My mission was to just hold you up!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D2D7",
+   "scene": "main-text",
+   "en": "Yawn{{C0}} Keeping watch over the{{C1}}Hideout bores me. I'll take you on.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yawn→哈欠"
+   ]
+  },
+  {
+   "id": "0030D318",
+   "scene": "main-text",
+   "en": "Yawn{{C0}}{{C1}}Oh, I lost{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yawn→哈欠"
+   ]
+  },
+  {
+   "id": "0030D32A",
+   "scene": "main-text",
+   "en": "If you scurry too much, other Team{{C0}}Aqua members might get you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D369",
+   "scene": "main-text",
+   "en": "Hey!{{C0}}You there!{{C1}}Which do you think is cooler?{{C2}}Team Aqua's uniform or Team Magma's?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D3BC",
+   "scene": "main-text",
+   "en": "I lost in a cool way{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D3D2",
+   "scene": "main-text",
+   "en": "If you have a cool uniform, you look{{C0}}good even in a loss, don't you think?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D52B",
+   "scene": "main-text",
+   "en": "Hehehe{{C0}}{{C1}}Got here already, did you?{{C2}}We underestimated you!{{C3}}But this is it!{{C4}}I'm not stalling for time.{{C5}}I'm going to pulverize you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D5AC",
+   "scene": "main-text",
+   "en": "Hehehe{{C0}}{{C1}}So, I lost, too{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D5C5",
+   "scene": "main-text",
+   "en": "Hehehe!{{C0}}While I was toying with you, our Boss{{C1}}got through his preparations!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D611",
+   "scene": "main-text",
+   "en": "Hehehe!{{C0}}Our Boss has already gone on his way to{{C1}}some cave under the sea!{{C2}}If you're going to give chase, you'd{{C3}}better search the big, wide sea beyond{{C4}}Lilycove.{{C5}}But will you find it then?{{C6}}Hehehe!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 194,
+   "hint": "纯中文≤96字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D6D3",
+   "scene": "main-text",
+   "en": "WHO JUST UNPLUGED THE PC?!{{C0}}I bet its you kid!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D701",
+   "scene": "main-text",
+   "en": "Tsssk, well i had more business{{C0}}with the computer anyway.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D73B",
+   "scene": "main-text",
+   "en": "Which one of these is the power on?{{C0}}I hate computers, really.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D779",
+   "scene": "main-text",
+   "en": "Warp panels, the Hideout's pride{{C0}}and joy!{{C1}}You're clueless about where you are,{{C2}}aren't you?{{C3}}Fluster and tire out the enemy, then{{C4}}lower the boom! That's our plan!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 161,
+   "hint": "纯中文≤80字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D81A",
+   "scene": "main-text",
+   "en": "What's wrong with you?{{C0}}You're not tired at all!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D84A",
+   "scene": "main-text",
+   "en": "That reminds me{{C0}} I can't remember{{C1}}where I put the Master Ball.{{C2}}If I fail to guard it, our Boss will{{C3}}chew me out{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Master Ball→大师球"
+   ]
+  },
+  {
+   "id": "0030D8BB",
+   "scene": "main-text",
+   "en": "When I joined Team Aqua, the first{{C0}}thing I had to learn was how these{{C1}}warp panels connected.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D918",
+   "scene": "main-text",
+   "en": "I was too occupied thinking about{{C0}}the warp panels{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030D94B",
+   "scene": "main-text",
+   "en": "I'll have to learn about how I can{{C0}}battle more effectively{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030DA31",
+   "scene": "main-text",
+   "en": "“Submarine Explorer 1” is painted{{C0}}on the hull.{{C1}}This is the submarine Team Aqua{{C2}}stole in Slateport!{{C3}}Team Aqua must have gone{{C4}}ashore here.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 137,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030DE66",
+   "scene": "main-text",
+   "en": "We don't need a kid around!{{C0}}Go on home already!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030DE96",
+   "scene": "main-text",
+   "en": "I want to go home{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030DEA9",
+   "scene": "main-text",
+   "en": "I want to get a promotion so I can{{C0}}boss around the Grunts{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030DEE4",
+   "scene": "main-text",
+   "en": "That submarine{{C0}} It's tiny inside.{{C1}}I'm sore all over!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030DF19",
+   "scene": "main-text",
+   "en": "Losing makes me sore!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030DF2F",
+   "scene": "main-text",
+   "en": "That submarine we jacked, man,{{C0}}it's brutal as a ride.{{C1}}It's way too tight in there!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E0C5",
+   "scene": "main-text",
+   "en": "Ahahahaha!{{C0}}Ouch!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E0D6",
+   "scene": "main-text",
+   "en": "Ahahahaha!{{C0}}You're so darn strong.{{C1}}It's terribly disappointing that you're{{C2}}not a Team Aqua member.{{C3}}You could have enjoyed the fabulous{{C4}}world our Boss has promised as{{C5}}one of us{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 176,
+   "hint": "纯中文≤87字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E186",
+   "scene": "main-text",
+   "en": "For our dream to become real, we need{{C0}}the power of Pokémon.{{C1}}But meddlers like you use the power of{{C2}}Pokémon to mess with us even at{{C3}}a place like this!{{C4}}Life just doesn't work the way we{{C5}}need it to!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 196,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E24A",
+   "scene": "main-text",
+   "en": "Gwah!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E250",
+   "scene": "main-text",
+   "en": "You know, we don't dare question{{C0}}the motives of our leader.{{C1}}But here you are, just some punk,{{C2}}going up against our Boss.{{C3}}Maybe{{C4}}{{C5}}You must be something{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 151,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E316",
+   "scene": "main-text",
+   "en": "Who are you?{{C0}}Where did you come in from?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E33F",
+   "scene": "main-text",
+   "en": "Lost it{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E348",
+   "scene": "main-text",
+   "en": "I can't find the way out!{{C0}}I'm not afraid. Don't get me wrong!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E386",
+   "scene": "main-text",
+   "en": "Who are you?{{C0}}Where do you think you're going?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E3B4",
+   "scene": "main-text",
+   "en": "I failed to win!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E3C5",
+   "scene": "main-text",
+   "en": "My partner forgot the map in that{{C0}}submarine!{{C1}}How's that for being useless?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E41E",
+   "scene": "main-text",
+   "en": "The way to the proceed is {{C0}}{{C1}}{{C2}}{{C3}}-- (Next{{C4}}words are crossed and unreadable.) Team{{C5}}Magma caused earth to shake. Figure{{C6}}the solution yourself as I don't know{{C7}}anymore.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[u]"
+    ],
+    [
+     "{{C1}}",
+     "[R]"
+    ],
+    [
+     "{{C2}}",
+     "[u]"
+    ],
+    [
+     "{{C3}}",
+     "[L]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 162,
+   "hint": "纯中文≤80字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E782",
+   "scene": "main-text",
+   "en": "ÑÑ{{C0}}Archie: Hold it right there.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E7A2",
+   "scene": "main-text",
+   "en": "Archie: Fufufu{{C0}}{{C1}}So it was you, after all.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E7CC",
+   "scene": "main-text",
+   "en": "Archie: Behold!{{C0}}See how beautiful it is, the sleeping{{C1}}form of the ancient Pokémon Kyogre!{{C2}}I have waited so long for this day to{{C3}}come{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 134,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡"
+   ]
+  },
+  {
+   "id": "0030E852",
+   "scene": "main-text",
+   "en": "Archie: Now! Awaken, Kyogre!{{C0}}Return the world back to nature, for{{C1}}the good of Pokémon everywhere!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 98,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Return→报恩"
+   ]
+  },
+  {
+   "id": "0030E8B4",
+   "scene": "main-text",
+   "en": "Archie: It surprises me, how you've{{C0}}managed to chase me here.{{C1}}But that's all over now.{{C2}}For the realization of my dream,{{C3}}you must disappear now!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E944",
+   "scene": "main-text",
+   "en": "What?!{{C0}}I lost to a mere child like you?!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030E96D",
+   "scene": "main-text",
+   "en": "Archie: Fufufu{{C0}}{{C1}}I commend you. I must recognize that{{C2}}you are truly gifted.{{C3}}But!{{C4}}I have this in my possession!{{C5}}With this Blue Orb, I can make Kyogre{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Blue Orb→靛蓝色宝珠"
+   ]
+  },
+  {
+   "id": "0030EA02",
+   "scene": "main-text",
+   "en": "Archie: What?!{{C0}}I didn't do anything.{{C1}}Where did Kyogre go?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡"
+   ]
+  },
+  {
+   "id": "0030EA3C",
+   "scene": "main-text",
+   "en": "Archie: Hm? It's a message from our{{C0}}members outside{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030EBB5",
+   "scene": "main-text",
+   "en": "Archie: There's something wrong{{C0}}{{C1}}The Blue Orb is supposed to awaken{{C2}}and control Kyogre{{C3}}{{C4}}But{{C5}} Why?{{C6}}Why did Kyogre disappear?{{C7}}Why?!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Blue Orb→靛蓝色宝珠"
+   ]
+  },
+  {
+   "id": "0030EC37",
+   "scene": "main-text",
+   "en": "Maxie: What have you wrought?{{C0}}Archie{{C1}} You've finally awoken Kyogre,{{C2}}haven't you?{{C3}}What will happen to the world if this{{C4}}downpour continues for all eternity?{{C5}}The world's landmass will drown in{{C6}}the deepening sea{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 210,
+   "hint": "纯中文≤104字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡"
+   ]
+  },
+  {
+   "id": "0030ED09",
+   "scene": "main-text",
+   "en": "Archie: W-what?!{{C0}}Don't get all high and mighty with me!{{C1}}Wasn't it you, Team Magma, that{{C2}}infuriated Groudon?{{C3}}So long as I have this Blue Orb,{{C4}}I should be able to control Kyogre{{C5}}{{C6}}I should be able to control it{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 209,
+   "hint": "纯中文≤104字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Groudon→固拉多",
+    "Blue Orb→靛蓝色宝珠"
+   ]
+  },
+  {
+   "id": "0030EDDA",
+   "scene": "main-text",
+   "en": "Maxie: We don't have the time to{{C0}}argue about it here!{{C1}}Get outside and see for yourself!{{C2}}See if what you've wrought is the{{C3}}world that we desired!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 145,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030EE6B",
+   "scene": "main-text",
+   "en": "Maxie: {{C0}}, come on, you have{{C1}}to get out of here, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030EED2",
+   "scene": "main-text",
+   "en": "This Carbink seems to be stuck,{{C0}}and it's blocking the ladder.{{C1}}Better check back later!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 87,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Carbink→小碎钻"
+   ]
+  },
+  {
+   "id": "0030F27F",
+   "scene": "main-text",
+   "en": "Wallace: {{C0}}{{C1}}, do you perhaps{{C2}}know where Rayquaza is now?{{C3}}If you do, please tell me.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rayquaza→烈空坐"
+   ]
+  },
+  {
+   "id": "0030F2D4",
+   "scene": "main-text",
+   "en": "Wallace: The Cave of Origin?{{C0}}But that's right here!{{C1}}I need you to do better than that!{{C2}}Please, I need you to think about{{C3}}where Rayquaza might be right now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rayquaza→烈空坐"
+   ]
+  },
+  {
+   "id": "0030F370",
+   "scene": "main-text",
+   "en": "Wallace: Mt. Pyre?{{C0}}But when I met the old lady there{{C1}}earlier, she made no mention of it.{{C2}}I very much doubt that the old lady{{C3}}would try to hide something from me{{C4}}{{C5}}{{C6}}{{C7}}, could you think about this{{C8}}more carefully for me?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[玩家]"
+    ],
+    [
+     "{{C7}}",
+     "[fd08]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 218,
+   "hint": "纯中文≤108字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0030F44A",
+   "scene": "main-text",
+   "en": "Wallace: Huh? You don't remember?{{C0}}Hmm{{C1}} That's a problem{{C2}}{{C3}}Can't you remember somehow?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

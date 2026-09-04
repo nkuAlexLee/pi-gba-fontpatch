@@ -726,6 +726,13 @@ class GameBoyAdvanceMMU {
 		}
 	}
 	serviceDma(number, info) {
+		if (this.core && this.core.__dmaLog) {
+			const __c = this.core.cpu || this.core;
+			const __pc = __c.gprs ? ((__c.gprs[15] - __c.instructionWidth) >>> 0) : 0;
+			const __lr = __c.gprs ? (__c.gprs[14] >>> 0) : 0;
+			this.core.__dmaLog.push({ ch: number, dst: (info.dest >>> 0).toString(16), cnt: info.count, ctrl: (info.control >>> 0).toString(16), pc: '0x' + __pc.toString(16), lr: '0x' + __lr.toString(16) });
+			if (this.core.__dmaLog.length > 400) this.core.__dmaLog.shift();
+		}
 		if (!info.enable) {
 			// There was a DMA scheduled that got canceled
 			return;

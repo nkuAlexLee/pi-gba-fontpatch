@@ -1,0 +1,1992 @@
+{
+ "batch": 5,
+ "count": 105,
+ "tasks": [
+  {
+   "id": "002A0289",
+   "scene": "main-text",
+   "en": "Archie: Kyogre and Groudon both{{C0}}flew off to who knows where.{{C1}}The weather in Hoenn has returned{{C2}}to its normal state{{C3}}{{C4}}Haha{{C5}}{{C6}}Hahaha{{C7}}{{C8}}Maybe what we were trying to do was{{C9}}something small, even meaningless,{{C10}}to Pokémon{{C11}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/l]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 213,
+   "hint": "纯中文≤106字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Groudon→固拉多",
+    "Normal→一般",
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "002A04CA",
+   "scene": "main-text",
+   "en": "Steven: Listen, {{C0}}{{C1}}.{{C2}}Does seeing Groudon and Kyogre make{{C3}}you think Pokémon are to be feared?{{C4}}But that's not true.{{C5}}Pokémon are really more{{C6}}{{C7}}{{C8}}Why am I asking you this?{{C9}}You already know.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 185,
+   "hint": "纯中文≤92字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Groudon→固拉多"
+   ]
+  },
+  {
+   "id": "002A0583",
+   "scene": "main-text",
+   "en": "Steven: Okay, here we are!{{C0}}Inside here you'll find someone named{{C1}}Wallace.{{C2}}I think you have what's needed to{{C3}}help him{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A05F9",
+   "scene": "main-text",
+   "en": "Steven: I think you have what's{{C0}}needed to help him{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A062D",
+   "scene": "main-text",
+   "en": "Steven: The Sky Pillar{{C0}}{{C1}}I've never been there.{{C2}}I wonder where it could be?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0678",
+   "scene": "main-text",
+   "en": "Steven: So that's Rayquaza{{C0}}{{C1}}It's incredible how the two rampaging{{C2}}Pokémon would flee from it in fear{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rayquaza→烈空坐"
+   ]
+  },
+  {
+   "id": "002A06DE",
+   "scene": "main-text",
+   "en": "Steven: It looks like both Maxie and{{C0}}Archie have gone away somewhere.{{C1}}Perhaps they've gone to Mt. Pyre to{{C2}}return those Orbs{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Return→报恩"
+   ]
+  },
+  {
+   "id": "002A075B",
+   "scene": "main-text",
+   "en": "Wallace: Oh?{{C0}}{{C1}}{{C2}}?{{C3}}Haven't you scaled the Sky Pillar{{C4}}yet?{{C5}}I'm sure that you can make it to{{C6}}the top of the Sky Pillar{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[fd08]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A07D1",
+   "scene": "main-text",
+   "en": "Wallace: {{C0}}{{C1}}{{C2}}{{C3}}The leaders of Team Magma and Aqua,{{C4}}I don't think they meant harm.{{C5}}It wouldn't hurt to hear what they{{C6}}have to say for themselves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 145,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0862",
+   "scene": "main-text",
+   "en": "Wallace: {{C0}}{{C1}}{{C2}}{{C3}}My eyes didn't deceive me.{{C4}}Thanks to your help, Sootopolis{{C5}}{{C6}}No, all of Hoenn was saved.{{C7}}On behalf of the people, I thank you.{{C8}}This is a gift from me.{{C9}}Please accept it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 183,
+   "hint": "纯中文≤91字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "002A0A4F",
+   "scene": "main-text",
+   "en": "Wallace: I'm sure that you will be{{C0}}dazzled by my mentor's breathtakingly{{C1}}elegant battle style.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0B46",
+   "scene": "main-text",
+   "en": "Oh you're that kid.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0B5A",
+   "scene": "main-text",
+   "en": "Listen, I don't hate you, Team Aqua is{{C0}}not what I believed it to be.{{C1}}I know what you're looking for, I also{{C2}}gave this information to a powerful{{C3}}gray haired guy.{{C4}}But for you I can directly bring you up{{C5}}there right now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 218,
+   "hint": "纯中文≤108字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0C34",
+   "scene": "main-text",
+   "en": "So what's your call? i don't plan to stay{{C0}}here forever.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0C6C",
+   "scene": "main-text",
+   "en": "Understandable, don't mind if i take my{{C0}}leave then.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0CA0",
+   "scene": "main-text",
+   "en": "No time to waste.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0CB2",
+   "scene": "main-text",
+   "en": "Hey, {{C0}}, what's up. I see that I{{C1}}missed the spectacle. How about going{{C2}}to EverGrande city while we talk about{{C3}}these recent events? I kinda need to{{C4}}look for some stuff there.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 174,
+   "hint": "纯中文≤86字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0D60",
+   "scene": "main-text",
+   "en": "I suppose i'm going with my Pokémons",
+   "codes": [],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0D85",
+   "scene": "main-text",
+   "en": "Nice, let's head up there.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0DE3",
+   "scene": "main-text",
+   "en": "Entering Victory Road",
+   "codes": [],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0DF9",
+   "scene": "main-text",
+   "en": "Entering Pokémon League{{C0}}Center Gate",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pokémon League→宝可梦联盟"
+   ]
+  },
+  {
+   "id": "002A0E1D",
+   "scene": "main-text",
+   "en": "Ever Grande City{{C0}}“The paradise of flowers, the sea,{{C1}}and Pokémon.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A0ED1",
+   "scene": "main-text",
+   "en": "ÂÌÌÌÌÌÌÌ{{C0}}I love this place, it is sad it has to be{{C1}}this far. But I suppose this is what{{C2}}makes this place so charming. Anyway{{C3}}{{C4}}, see you later, bye.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1854",
+   "scene": "main-text",
+   "en": "Yes: 1/1024{{C0}}No:  Cancel",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A186C",
+   "scene": "main-text",
+   "en": "Yes: 1/250{{C0}}No:  1/100",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1882",
+   "scene": "main-text",
+   "en": "Yes: Boosted shiny rate options{{C0}}No:  Disable boosted shiny rate",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Disable→定身法"
+   ]
+  },
+  {
+   "id": "002A18C2",
+   "scene": "main-text",
+   "en": "Current shiny rate: 1/1024{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 67,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1905",
+   "scene": "main-text",
+   "en": "Current shiny rate: 1/250{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1947",
+   "scene": "main-text",
+   "en": "Current shiny rate: 1/100{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1989",
+   "scene": "main-text",
+   "en": "Enable infinite Poké Vial?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A19A4",
+   "scene": "main-text",
+   "en": "Infinite Poké Vial is enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A19EB",
+   "scene": "main-text",
+   "en": "Infinite Poké Vial is disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1A33",
+   "scene": "main-text",
+   "en": "Enable nurse Joy items?{{C0}}Infinite Big Pearls, Sitrus Berries etc...",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 67,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1A76",
+   "scene": "main-text",
+   "en": "Nurse Joy items are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1ABB",
+   "scene": "main-text",
+   "en": "Nurse Joy items are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1B01",
+   "scene": "main-text",
+   "en": "Enable instant berries?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1B19",
+   "scene": "main-text",
+   "en": "Instant berries are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1B5E",
+   "scene": "main-text",
+   "en": "Instant berries are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1BA4",
+   "scene": "main-text",
+   "en": "Enable Individually-Unique Pokémon?{{C0}}All credit goes to codes for the patch.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1BF0",
+   "scene": "main-text",
+   "en": "Individually-Unique Pokémon is enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1C40",
+   "scene": "main-text",
+   "en": "Individually-Unique Pokémon is Disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 81,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1C91",
+   "scene": "main-text",
+   "en": "Enable AI controlled battles?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1CAF",
+   "scene": "main-text",
+   "en": "AI controlled battles are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1CFA",
+   "scene": "main-text",
+   "en": "AI controlled battles are Disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1D46",
+   "scene": "main-text",
+   "en": "Make sure there's no Pokémon in your PC{{C0}}box 14 row 5 column 6.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1D85",
+   "scene": "main-text",
+   "en": "Perfect IVs are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1DC7",
+   "scene": "main-text",
+   "en": "Perfect IVs are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1E08",
+   "scene": "main-text",
+   "en": "Enable perfect IVs?{{C0}}Trainers won't be affected.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1E38",
+   "scene": "main-text",
+   "en": "ARE YOU SURE???????? All your Pokémon's{{C0}}IVs will be set to 31.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "???→???"
+   ]
+  },
+  {
+   "id": "002A1E77",
+   "scene": "main-text",
+   "en": "Disable perfect IVs?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Disable→定身法"
+   ]
+  },
+  {
+   "id": "002A1E8C",
+   "scene": "main-text",
+   "en": "EVs are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1EC6",
+   "scene": "main-text",
+   "en": "EVs are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A1EFF",
+   "scene": "main-text",
+   "en": "Disable EVs?{{C0}}Trainers WILL be affected.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Disable→定身法"
+   ]
+  },
+  {
+   "id": "002A1F27",
+   "scene": "main-text",
+   "en": "ARE YOU SURE???????? All your Pokémon's{{C0}}EVs will be set to 0.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "???→???"
+   ]
+  },
+  {
+   "id": "002A1F65",
+   "scene": "main-text",
+   "en": "Yes: Allow EVs gain{{C0}}No:  Cancel",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A20AA",
+   "scene": "main-text",
+   "en": "Mom: Wait, {{C0}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A21D6",
+   "scene": "main-text",
+   "en": "If you use a PC, you can store items{{C0}}and Pokémon.{{C1}}The power of science is staggering!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 86,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A222C",
+   "scene": "main-text",
+   "en": "Prof. Birch spends days in his Lab{{C0}}studying, then he'll suddenly go out in{{C1}}the wild to do more research{{C2}}{{C3}}When does Prof. Birch spend time{{C4}}at home?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A22BF",
+   "scene": "main-text",
+   "en": "Um, um, um!{{C0}}If you go outside and go in the grass,{{C1}}wild Pokémon will jump out!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "002A230E",
+   "scene": "main-text",
+   "en": "It's dangerous if you don't have{{C0}}your own Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2341",
+   "scene": "main-text",
+   "en": "Um, hi!{{C0}}There are scary Pokémon outside!{{C1}}I can hear their cries!{{C2}}I want to go see what's going on,{{C3}}but I don't have any Pokémon{{C4}}{{C5}}Can you go see what's happening{{C6}}for me?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 169,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A23EA",
+   "scene": "main-text",
+   "en": "You saved Prof. Birch!{{C0}}I'm so glad!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A240E",
+   "scene": "main-text",
+   "en": "Are you going to catch Pokémon?{{C0}}Good luck!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2439",
+   "scene": "main-text",
+   "en": "Littleroot Town{{C0}}“A town that can't be shaded any hue.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2470",
+   "scene": "main-text",
+   "en": "Prof. Birch's Pokémon Lab",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A248A",
+   "scene": "main-text",
+   "en": "{{C0}}'s House",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2495",
+   "scene": "main-text",
+   "en": "Prof. Birch's House",
+   "codes": [],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A24A9",
+   "scene": "main-text",
+   "en": "Prof. Birch: Well, well, {{C0}}{{C1}}!{{C2}}That was good work out there!{{C3}}I knew there was something special{{C4}}about you when I first saw you,{{C5}}but I never expected this.{{C6}}I have something to show you.{{C7}}Let's go to my Lab.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 205,
+   "hint": "纯中文≤102字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2ACC",
+   "scene": "main-text",
+   "en": "Enable Legendary/Mythical?{{C0}}This affects random starters/eggs",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2B09",
+   "scene": "main-text",
+   "en": "Legendary/Mythical are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2B51",
+   "scene": "main-text",
+   "en": "Legendary/Mythical are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2C1C",
+   "scene": "main-text",
+   "en": "Enable random starters?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2C34",
+   "scene": "main-text",
+   "en": "Random starters are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2C79",
+   "scene": "main-text",
+   "en": "Random starters are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2D41",
+   "scene": "main-text",
+   "en": "Enable unobtainable Pokémon?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2D5E",
+   "scene": "main-text",
+   "en": "Unobtainable Pokémon are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2DA8",
+   "scene": "main-text",
+   "en": "Unobtainable Pokémon are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2E75",
+   "scene": "main-text",
+   "en": "Enable alternate forms?{{C0}}(Alolan, Galarian, cosmetic etc.)",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2EAF",
+   "scene": "main-text",
+   "en": "Alternate forms are enabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A2EF4",
+   "scene": "main-text",
+   "en": "Alternate forms are disabled.{{C0}}Would you like to change this settings?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A3876",
+   "scene": "main-text",
+   "en": "Since you're playing a Randomizer mode,{{C0}}have all the Legendary Pokémon Items!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A38C4",
+   "scene": "main-text",
+   "en": "Congratulations on becoming champion!{{C0}}Your efforts haven't gone unnoticed.{{C1}}I've been waiting this day for ages, but{{C2}}I can finally put these items in hands I{{C3}}can trust.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 168,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A396C",
+   "scene": "main-text",
+   "en": "{{C0}} received legendary{{C1}}artifacts from the Sage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A3AF0",
+   "scene": "main-text",
+   "en": "Do you need anything?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A3B06",
+   "scene": "main-text",
+   "en": "See you later.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A3B15",
+   "scene": "main-text",
+   "en": "Hi {{C0}}, I can tell you about the{{C1}}changes Elite Redux has.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A3B4E",
+   "scene": "main-text",
+   "en": "What do you want to know?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A3B68",
+   "scene": "main-text",
+   "en": "Talk to Nurse Joy in any Pokémon{{C0}}Center, she will give you the following:{{C1}}Candy Box, DexNav, TM Case, all TMs &{{C2}}HMs, Battle items, all Pokéballs, all{{C3}}Berries, all Type Gems etc.{{C4}}Every time you speak to her, all items{{C5}}get refilled.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 231,
+   "hint": "纯中文≤115字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM Case→招式学习器盒"
+   ]
+  },
+  {
+   "id": "002A3C4F",
+   "scene": "main-text",
+   "en": "Need help? The Wiki has answers!{{C0}}Access it from the Start Menu{{C1}}and select 'Wiki'.{{C2}}It covers abilities, moves,{{C3}}items, and gameplay tips!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4614",
+   "scene": "main-text",
+   "en": "You can directly switch the ability in{{C0}}the Pokémon Summary Screen.{{C1}}Some Pokémon only have one ability,{{C2}}others have up to three.{{C3}}Every Pokémon has up to 3 fixed{{C4}}innates. You can't change innates.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 195,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A46D7",
+   "scene": "main-text",
+   "en": "You can directly switch the nature in{{C0}}the Pokémon Summary Screen.{{C1}}The nature will increase one Base Stat{{C2}}by 10% while decreasing another one by{{C3}}10%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A476C",
+   "scene": "main-text",
+   "en": "Just use the Type Gems which Nurse Joy{{C0}}gives you, on any Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A47AE",
+   "scene": "main-text",
+   "en": "You can directly set the EVs on your{{C0}}Pokémon in the Summary Screen. No more{{C1}}grinding!{{C2}}You can have up to 252 EVs in one stat,{{C3}}but you can only have 510 EVs in total.{{C4}}In most cases, you'd want to put 252{{C5}}EVs in your best two stats.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 231,
+   "hint": "纯中文≤115字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4895",
+   "scene": "main-text",
+   "en": "You can easily learn new moves directly{{C0}}in the Party Menu, but you still need to{{C1}}level up to learn certain moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4907",
+   "scene": "main-text",
+   "en": "Your whole party will get healed before{{C0}}every battle.{{C1}}This is also to prevent you from{{C2}}pre-burning/poisoning ;-)",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4978",
+   "scene": "main-text",
+   "en": "There is a new key item - the Candy Box.{{C0}}You can easily level up this way.{{C1}}As there are level caps and{{C2}}auto-scaling levels (wild + trainer{{C3}}battles), you don't have to worry about{{C4}}overleveling.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 193,
+   "hint": "纯中文≤96字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4A39",
+   "scene": "main-text",
+   "en": "You can buy all evolution items in the{{C0}}Poké Mart.{{C1}}You can check the In-Game or Online{{C2}}Pokédex for how to evolve a certain{{C3}}Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4ABC",
+   "scene": "main-text",
+   "en": "How can I help you today?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4AD6",
+   "scene": "main-text",
+   "en": "What do you want to do with it?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4AF6",
+   "scene": "main-text",
+   "en": "Please chose the season you like{{C0}}the best.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4B21",
+   "scene": "main-text",
+   "en": "The season became Spring!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4B3B",
+   "scene": "main-text",
+   "en": "The season became Summer!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4B55",
+   "scene": "main-text",
+   "en": "The season became Autumn!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4B6F",
+   "scene": "main-text",
+   "en": "The season became Winter!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002A4B89",
+   "scene": "main-text",
+   "en": "The season will be set automatically!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "translation-er",
+  "rom": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\roms\\Pokémon Elite Redux (2.65.1 beta reupload)_中文字库.gba",
+  "rom_size": "0x2000000",
+  "out_rom": "tmp/汉化输出.gba",
+  "charmap": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\.pi\\skills\\gba-text-translate\\assets\\charmap-base.txt",
+  "glossary": "D:\\vibecoding\\gba-font-cracker-js\\gbajs2\\translation-er\\glossary.csv",
+  "append_addr": "0x9777E48",
+  "min_status": "machine-translated",
+  "created": "2026-09-03T10:55:26.192Z",
+  "_scenes": {
+    "main-text": {
+      "type": "add",
+      "from": "0x8000000",
+      "to": "0xA000000",
+      "strings": 2,
+      "addrs": "0x08EFB5F0,0x08EFB11C"
+    }
+  },
+  "escPrefix": "f7",
+  "min_pointer_source": "0x280000",
+  "keep_en": [
+    "S.S. Tidal",
+    "Elite Redux",
+    "PokéNav",
+    "Pokédex"
+  ]
+}

@@ -1,0 +1,2005 @@
+{
+ "batch": 130,
+ "count": 122,
+ "tasks": [
+  {
+   "id": "00B2D9C4",
+   "scene": "main-text",
+   "en": "Sightings of this Pokémon have occurred in{{C0}}recent years. It resembles a mysterious{{C1}}object described in an old expedition{{C2}}journal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Journal→冒险笔记"
+   ]
+  },
+  {
+   "id": "00B2DA48",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DA50",
+   "scene": "main-text",
+   "en": "Its shape is similar to a robot featured in{{C0}}a paranormal magazine article. The robot{{C1}}was said to have been created by an{{C2}}ancient civilization.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DAE0",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DAE8",
+   "scene": "main-text",
+   "en": "It is very similar to a cyborg covered{{C0}}exclusively by a paranormal magazine. The{{C1}}cyborg was said to be the modified form of{{C2}}a certain athlete.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DB78",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DB80",
+   "scene": "main-text",
+   "en": "It resembles a certain Pokémon introduced{{C0}}in a paranormal magazine, described as the{{C1}}offspring of a Hydreigon that fell in love{{C2}}with a robot.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hydreigon→三首恶龙"
+   ]
+  },
+  {
+   "id": "00B2DC10",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DC18",
+   "scene": "main-text",
+   "en": "No records exist of this species being{{C0}}caught. Data is lacking, but the Pokémon's{{C1}}traits match up with an object described{{C2}}in an old book.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DCA4",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DCAC",
+   "scene": "main-text",
+   "en": "It has some similarities to a Pokémon{{C0}}introduced in a dubious magazine as a{{C1}}Tyranitar from one billion years into the{{C2}}future.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tyranitar→班基拉斯"
+   ]
+  },
+  {
+   "id": "00B2DD2C",
+   "scene": "main-text",
+   "en": "Ice Fin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00B2DD34",
+   "scene": "main-text",
+   "en": "This Pokémon lives in forests and craggy{{C0}}areas. Using the power of its dorsal fin, it{{C1}}cools the inside of its nest like a{{C2}}refrigerator.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DDBC",
+   "scene": "main-text",
+   "en": "Ice Fin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00B2DDC4",
+   "scene": "main-text",
+   "en": "Arctibax freezes the air around it,{{C0}}protecting its face with an ice mask and{{C1}}turning its dorsal fin into a blade of ice.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Arctibax→冻脊龙",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00B2DE40",
+   "scene": "main-text",
+   "en": "Ice Dragon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰",
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "00B2DE4C",
+   "scene": "main-text",
+   "en": "It launches itself into battle by flipping{{C0}}upside down and spewing frigid air from its{{C1}}mouth. It finishes opponents off with its{{C2}}dorsal blade.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DEDC",
+   "scene": "main-text",
+   "en": "Coin Chest",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DEE8",
+   "scene": "main-text",
+   "en": "It lives inside an old treasure chest.{{C0}}Sometimes it gets left in shop corners{{C1}}since no one realizes it's actually a{{C2}}Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DF68",
+   "scene": "main-text",
+   "en": "Coin Entity",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2DF74",
+   "scene": "main-text",
+   "en": "It has a sturdy body made up of stacked{{C0}}coins. Gholdengo overwhelms its enemies by{{C1}}firing coin after coin at them in quick{{C2}}succession.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 135,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gholdengo→赛富豪",
+    "Sturdy→结实"
+   ]
+  },
+  {
+   "id": "00B2DFFC",
+   "scene": "main-text",
+   "en": "Ruinous",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E004",
+   "scene": "main-text",
+   "en": "The grudge of a person punished for{{C0}}writing the king's evil deeds upon wooden{{C1}}tablets has clad itself in dead leaves to{{C2}}become a Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 138,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grudge→怨念"
+   ]
+  },
+  {
+   "id": "00B2E090",
+   "scene": "main-text",
+   "en": "Ruinous",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E098",
+   "scene": "main-text",
+   "en": "This Pokémon can control 100 tons of{{C0}}fallen snow. It plays around innocently by{{C1}}leaping in and out of avalanches it has{{C2}}caused.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 128,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E118",
+   "scene": "main-text",
+   "en": "Ruinous",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E120",
+   "scene": "main-text",
+   "en": "It slowly brings its exceedingly heavy{{C0}}head down upon the ground, splitting the{{C1}}earth open with huge fissures that run{{C2}}over 160 feet deep.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "00B2E1AC",
+   "scene": "main-text",
+   "en": "Ruinous",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E1B4",
+   "scene": "main-text",
+   "en": "It controls flames burning at over 5,400{{C0}}degrees Fahrenheit. It casually swims{{C1}}through the sea of lava it creates by{{C2}}melting rock and sand.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00B2E240",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E248",
+   "scene": "main-text",
+   "en": "According to an article in a dubious{{C0}}magazine, this Pokémon has some{{C1}}connection to Mega Evolution that occurs{{C2}}in Hoenn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 120,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "00B2E2C0",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E2C8",
+   "scene": "main-text",
+   "en": "It has some similarities to a mad{{C0}}scientist's invention covered in a{{C1}}paranormal magazine.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 90,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E324",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E32C",
+   "scene": "main-text",
+   "en": "This Pokémon resembles Cyclizar, but it is{{C0}}far burlier and more ferocious. Nothing is{{C1}}known about its ecology or other features.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cyclizar→摩托蜥"
+   ]
+  },
+  {
+   "id": "00B2E3B0",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E3B8",
+   "scene": "main-text",
+   "en": "This seems to be the Iron Serpent{{C0}}mentioned in an Violet Book. The Iron{{C1}}Serpent is said to have turned the land to{{C2}}ash with its lightning.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂",
+    "Violet Book→紫之书"
+   ]
+  },
+  {
+   "id": "00B2E444",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E44C",
+   "scene": "main-text",
+   "en": "Ecology under research.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E464",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E46C",
+   "scene": "main-text",
+   "en": "Ecology under analysis.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 24,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E484",
+   "scene": "main-text",
+   "en": "Candy Apple",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Apple→苹果片"
+   ]
+  },
+  {
+   "id": "00B2E490",
+   "scene": "main-text",
+   "en": "Dipplin is two creatures in one Pokémon.{{C0}}Its evolution was triggered by a special{{C1}}apple grown only in one place.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dipplin→裹蜜虫",
+    "Apple→苹果片"
+   ]
+  },
+  {
+   "id": "00B2E504",
+   "scene": "main-text",
+   "en": "Matcha",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E50C",
+   "scene": "main-text",
+   "en": "Supposedly, the regrets of a tea ceremony{{C0}}master who died before perfecting his{{C1}}craft lingered in some matcha and became a{{C2}}Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tea→茶"
+   ]
+  },
+  {
+   "id": "00B2E590",
+   "scene": "main-text",
+   "en": "Matcha",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E598",
+   "scene": "main-text",
+   "en": "It pretends to be tea, trying to fool{{C0}}people into drinking it so it can drain{{C1}}their life-force. Its ruse is generally{{C2}}unsuccessful.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tea→茶"
+   ]
+  },
+  {
+   "id": "00B2E61C",
+   "scene": "main-text",
+   "en": "Retainer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E628",
+   "scene": "main-text",
+   "en": "After all its muscles were stimulated by{{C0}}the toxic chain around its neck, Okidogi{{C1}}transformed and gained a powerful{{C2}}physique.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Okidogi→够赞狗",
+    "Toxic→剧毒",
+    "Toxic Chain→毒锁链"
+   ]
+  },
+  {
+   "id": "00B2E6A8",
+   "scene": "main-text",
+   "en": "Retainer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E6B4",
+   "scene": "main-text",
+   "en": "The chain is made from toxins that enhance{{C0}}capabilities. It stimulated Munkidori's{{C1}}brain and caused the Pokémon's psychic{{C2}}powers to bloom.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Munkidori→愿增猿",
+    "Psychic→精神强念"
+   ]
+  },
+  {
+   "id": "00B2E740",
+   "scene": "main-text",
+   "en": "Retainer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E74C",
+   "scene": "main-text",
+   "en": "Fezandipiti owes its beautiful looks and{{C0}}lovely voice to the toxic stimulants{{C1}}emanating from the chain wrapped around{{C2}}its body.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 128,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fezandipiti→吉雉鸡",
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "00B2E7CC",
+   "scene": "main-text",
+   "en": "Mask",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E7D4",
+   "scene": "main-text",
+   "en": "This Pokémon's type changes based on{{C0}}which mask it's wearing. It confounds its{{C1}}enemies with nimble movements and kicks.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 120,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E84C",
+   "scene": "main-text",
+   "en": "Alloy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E854",
+   "scene": "main-text",
+   "en": "It digs holes on mountains, searching for{{C0}}food. It's so durable that being caught in{{C1}}a cave-in won't faze it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E8C4",
+   "scene": "main-text",
+   "en": "Apple Hydra",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Apple→苹果片"
+   ]
+  },
+  {
+   "id": "00B2E8D0",
+   "scene": "main-text",
+   "en": "Seven syrpents live inside an apple made{{C0}}of syrup. The syrpent in the center is the{{C1}}commander.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Commander→发号施令",
+    "Apple→苹果片"
+   ]
+  },
+  {
+   "id": "00B2E930",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E938",
+   "scene": "main-text",
+   "en": "There are scant few reports of this{{C0}}creature being sighted. One short video{{C1}}shows it rampaging and spouting pillars of{{C2}}flame.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E9B8",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2E9C0",
+   "scene": "main-text",
+   "en": "It's said to incinerate everything around{{C0}}it with lightning launched from its fur.{{C1}}Very little is known about this creature.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Incinerate→烧尽"
+   ]
+  },
+  {
+   "id": "00B2EA40",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EA48",
+   "scene": "main-text",
+   "en": "It was named after a mysterious object{{C0}}recorded in an old book. Its body seems to{{C1}}be metallic.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EAA8",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EAB0",
+   "scene": "main-text",
+   "en": "There was supposedly an incident in which{{C0}}it launched shining blades to cut{{C1}}everything around it to pieces. Little else{{C2}}is known about it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cut→居合斩"
+   ]
+  },
+  {
+   "id": "00B2EB3C",
+   "scene": "main-text",
+   "en": "Tera",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EB44",
+   "scene": "main-text",
+   "en": "Upon sensing danger, it prepares itself{{C0}}for battle by creating a sturdy shell of{{C1}}crystallized Terastal energy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sturdy→结实"
+   ]
+  },
+  {
+   "id": "00B2EBB4",
+   "scene": "main-text",
+   "en": "Pecharunt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pecharunt→桃歹郎"
+   ]
+  },
+  {
+   "id": "00B2EBC0",
+   "scene": "main-text",
+   "en": "it's peach-shaped shell serves as storage{{C0}}for a potent poison. It makes  poisonous{{C1}}mochi and serves them to people and{{C2}}Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 128,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00B2EC40",
+   "scene": "main-text",
+   "en": "Spirit Owl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EC4C",
+   "scene": "main-text",
+   "en": "They fly through the night in total{{C0}}silence, searching for prey. They can{{C1}}faintly see the energy of living creatures,{{C2}}so the darker it is the harder it is to hide.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 164,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fly→飞翔"
+   ]
+  },
+  {
+   "id": "00B2ECF0",
+   "scene": "main-text",
+   "en": "Duelumber",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2ECFC",
+   "scene": "main-text",
+   "en": "This is not a actually Pokémon. It's really{{C0}}just a potato Dont ask me why potato.{{C1}}Maybe because I like potatos.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 112,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2ED6C",
+   "scene": "main-text",
+   "en": "Escarginite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2ED78",
+   "scene": "main-text",
+   "en": "This is not a actually Pokémon. It's really{{C0}}just a potato Dont ask me why potato.{{C1}}Maybe because I like potatos.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 112,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EDE8",
+   "scene": "main-text",
+   "en": "Two-Faced",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EDF4",
+   "scene": "main-text",
+   "en": "It can use its 4 accessory legs walk{{C0}}upside-down and rotate its head 180{{C1}}degrees. Beholding its uncanny movements{{C2}}incites fear to its now webbed victims.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EE90",
+   "scene": "main-text",
+   "en": "Pheromone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EE9C",
+   "scene": "main-text",
+   "en": "It unleashes waves of phermones to daze{{C0}}its targets. Its scents are powerful{{C1}}enough that some are used in making{{C2}}repels.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EF20",
+   "scene": "main-text",
+   "en": "Antenna",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EF28",
+   "scene": "main-text",
+   "en": "They are very clever and love to be taught{{C0}}new tricks. In the past, specially trained{{C1}}Arashinne were often used to send{{C2}}messages over great distances.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 151,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EFC0",
+   "scene": "main-text",
+   "en": "Sea Wanderer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2EFD0",
+   "scene": "main-text",
+   "en": "Despite its daunting appearance, it{{C0}}coexists peacefully with other Pokémon.{{C1}}It has never been witnessed feeding.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F044",
+   "scene": "main-text",
+   "en": "Turncoat",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F050",
+   "scene": "main-text",
+   "en": "Its enemies can see visions of their{{C0}}demise reflected in its giant black pearl.{{C1}}Those that gaze at their reflection are{{C2}}lost in a trance and are easily compelled.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 163,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pearl→珍珠"
+   ]
+  },
+  {
+   "id": "00B2F0F4",
+   "scene": "main-text",
+   "en": "Generator",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F100",
+   "scene": "main-text",
+   "en": "Its paracolic frill allows it to harness and{{C0}}focus solar energy, which can be fired in{{C1}}the direction of its breath. It often{{C2}}scorches itself in the process.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 157,
+   "hint": "纯中文≤78字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F1A8",
+   "scene": "main-text",
+   "en": "Beehive",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F1B0",
+   "scene": "main-text",
+   "en": "An unbelievably aggressive Pokémon, they{{C0}}evolve from male Combee in response to a{{C1}}serious threat against their Vespiquen.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Combee→三蜜蜂",
+    "Vespiquen→蜂女王",
+    "Serious→认真"
+   ]
+  },
+  {
+   "id": "00B2F22C",
+   "scene": "main-text",
+   "en": "Toxic Lizard",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "00B2F23C",
+   "scene": "main-text",
+   "en": "It could evolve because it was unaffected{{C0}}by Salazzle's phermones. It attracts{{C1}}female Salandit, but it pines for the{{C2}}Salazzle that rejected it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salandit→夜盗火蜥",
+    "Salazzle→焰后蜥"
+   ]
+  },
+  {
+   "id": "00B2F2CC",
+   "scene": "main-text",
+   "en": "Pursuit",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pursuit→追打"
+   ]
+  },
+  {
+   "id": "00B2F2D4",
+   "scene": "main-text",
+   "en": "It keeps a watchful eye of its prey and{{C0}}only moves when unobserved by them. Only{{C1}}when it's too late will it be seen in motion.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F354",
+   "scene": "main-text",
+   "en": "Chef",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F35C",
+   "scene": "main-text",
+   "en": "It is desired by chefs all over due to its{{C0}}hammer producing the sweetest extract in{{C1}}the known world. The sweetness is so{{C2}}overwhelming it causes hysteria.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F408",
+   "scene": "main-text",
+   "en": "Dragon Fruit",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "00B2F418",
+   "scene": "main-text",
+   "en": "This long-lived Pokémon stores{{C0}}accumulated energy in its fruit.{{C1}}Unleashing all of its stored power at once{{C2}}will cause it to wilt and wither.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Stored Power→辅助力量"
+   ]
+  },
+  {
+   "id": "00B2F4A8",
+   "scene": "main-text",
+   "en": "Elder Tree",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F4B4",
+   "scene": "main-text",
+   "en": "This pokemon is the soul of the forest and{{C0}}its greatest protector. It will bring ruin{{C1}}to all who attempt to destroy its home.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protector→护具"
+   ]
+  },
+  {
+   "id": "00B2F534",
+   "scene": "main-text",
+   "en": "Syrup",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F53C",
+   "scene": "main-text",
+   "en": "They release sweet syrup if fed a diet of{{C0}}sweet crops and fruits. Humans have{{C1}}domesticated Corm from its wild species{{C2}}thousands of years ago.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F5EC",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F5F4",
+   "scene": "main-text",
+   "en": "Studies show that this Pokémon's internal{{C0}}core is almost as hot as Magcargo. It is{{C1}}found around scrapyards eating cast off{{C2}}metals to power its body.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magcargo→熔岩蜗牛"
+   ]
+  },
+  {
+   "id": "00B2F694",
+   "scene": "main-text",
+   "en": "King Koi",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F6A0",
+   "scene": "main-text",
+   "en": "It claims ocean currents as its domain and{{C0}}uses them to propel itself out of the{{C1}}water for true flight.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 104,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B2F718",
+   "scene": "main-text",
+   "en": "Woolly Bee",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F724",
+   "scene": "main-text",
+   "en": "It is timid and stings lightly to avoid{{C0}}hurting itself. Most of those stung do not{{C1}}receive any venom.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Timid→胆小"
+   ]
+  },
+  {
+   "id": "00B2F78C",
+   "scene": "main-text",
+   "en": "Woolly Bee",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F798",
+   "scene": "main-text",
+   "en": "To repel parasites, they collect harsh{{C0}}pollen in their fleece. They often brush{{C1}}against each other to share their pollen.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Repel→除虫喷雾"
+   ]
+  },
+  {
+   "id": "00B2F814",
+   "scene": "main-text",
+   "en": "Woolly Bee",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F820",
+   "scene": "main-text",
+   "en": "They scent their honeycombs using the{{C0}}pollen of many flowers. They recognize{{C1}}each other at a distance by their aromas.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 119,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F8A8",
+   "scene": "main-text",
+   "en": "Pumpkin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F8B0",
+   "scene": "main-text",
+   "en": "Its pumpkin body can emit intense flames{{C0}}comparable to even a Heatran. The longer{{C1}}its flames burn, the more agile it becomes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heatran→席多蓝恩"
+   ]
+  },
+  {
+   "id": "00B2F930",
+   "scene": "main-text",
+   "en": "Alpha Bite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bite→咬住"
+   ]
+  },
+  {
+   "id": "00B2F93C",
+   "scene": "main-text",
+   "en": "The alpha of its pack, Skulberus are rarely{{C0}}seen with trainers as they will only{{C1}}acknowledge the truly strong.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F9AC",
+   "scene": "main-text",
+   "en": "Jet Stream",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2F9B8",
+   "scene": "main-text",
+   "en": "They never stop moving, chasing the sun{{C0}}across the sky at supersonic speeds.{{C1}}You'll know one has passed by when your{{C2}}meal disappears with a sonic boom.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 152,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Supersonic→超音波",
+    "Sonic Boom→音爆"
+   ]
+  },
+  {
+   "id": "00B2FA50",
+   "scene": "main-text",
+   "en": "Cat Fish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2FA5C",
+   "scene": "main-text",
+   "en": "Despite blending in perfectly in dark{{C0}}waters, these Pokémon prefer to hunt by{{C1}}chasing after their prey.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 104,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "00B2FAC4",
+   "scene": "main-text",
+   "en": "Lion Fish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

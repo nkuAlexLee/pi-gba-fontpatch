@@ -1,0 +1,1921 @@
+{
+ "batch": 22,
+ "count": 84,
+ "tasks": [
+  {
+   "id": "002E321D",
+   "scene": "main-text",
+   "en": "Mr. Stone: Now, you should know that{{C0}}I am a great President.{{C1}}So, I'd never be so cheap as to ask{{C2}}a favor for nothing in return.{{C3}}That's why I want you to have this!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 164,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Return→报恩"
+   ]
+  },
+  {
+   "id": "002E32C1",
+   "scene": "main-text",
+   "en": "{{C0}} received a PokéNav.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3473",
+   "scene": "main-text",
+   "en": "Mr. Stone: Well, then, {{C0}}{{C1}},{{C2}}go with caution and care!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E34AA",
+   "scene": "main-text",
+   "en": "Mr. Stone: I'm counting on you!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E34CA",
+   "scene": "main-text",
+   "en": "Mr. Stone: You delivered my Letter?{{C0}}Thank you kindly!{{C1}}This is my way of thanking you.{{C2}}It should help you, a Trainer.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Letter→给大吾的信"
+   ]
+  },
+  {
+   "id": "002E353F",
+   "scene": "main-text",
+   "en": "Mr. Stone: A Pokémon holding that{{C0}}Scope Lens will be more likely to land{{C1}}a critical hit than usual.{{C2}}If combined with the move Focus Energy,{{C3}}the holder's attacks will always turn{{C4}}critical!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 188,
+   "hint": "纯中文≤93字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Focus Energy→聚气",
+    "Scope Lens→焦点镜"
+   ]
+  },
+  {
+   "id": "002E35FB",
+   "scene": "main-text",
+   "en": "Mr. Stone: Since my youth, I've immersed{{C0}}myself in work.{{C1}}Consequently, I'm not familiar with{{C2}}trends and that sort of thing.{{C3}}But do young people all want to be{{C4}}Trainers in the Pokémon League?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 191,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pokémon League→宝可梦联盟"
+   ]
+  },
+  {
+   "id": "002E386B",
+   "scene": "main-text",
+   "en": "Our President would like to have{{C0}}a word with you.{{C1}}Please come with me.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E38B2",
+   "scene": "main-text",
+   "en": "Please, go ahead.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E38C4",
+   "scene": "main-text",
+   "en": "If you visit the Shipyard in Slateport,{{C0}}you should go see Capt. Stern.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E390B",
+   "scene": "main-text",
+   "en": "Devon's new products, the Repeat Ball{{C0}}and Timer Ball, have become hugely{{C1}}popular among Trainers.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 97,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Repeat Ball→重复球",
+    "Timer Ball→计时球"
+   ]
+  },
+  {
+   "id": "002E396C",
+   "scene": "main-text",
+   "en": "It's a collection of rare rocks and{{C0}}stones assembled by the President.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3C54",
+   "scene": "main-text",
+   "en": "That's all I've got for now,{{C0}}Champ-to-be!{{C1}}If you want more advice, I{{C2}}suggest bringing as many Pokémon{{C3}}as you can!{{C4}}You could also ask around the town.{{C5}}People might have something that{{C6}}could help you, like a Steel-type{{C7}}Pokémon they're willing to trade!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 251,
+   "hint": "纯中文≤125字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "002E3D4F",
+   "scene": "main-text",
+   "en": "Don't take us Gym Trainers lightly!{{C0}}I'll show you why we're better!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3D93",
+   "scene": "main-text",
+   "en": "You were too good for me{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3DAD",
+   "scene": "main-text",
+   "en": "You haven't seen anything of the Rock{{C0}}type's terrifying power!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "002E3DEC",
+   "scene": "main-text",
+   "en": "If you can't beat me, you won't stand{{C0}}a chance against Roxanne!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3E2C",
+   "scene": "main-text",
+   "en": "Wow! You've got some potential!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3E4C",
+   "scene": "main-text",
+   "en": "Roxanne is stronger than me by{{C0}}several times.{{C1}}You'd better be on your guard!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3E99",
+   "scene": "main-text",
+   "en": "We might be in the middle of town,{{C0}}but so what?{{C1}}My Rock Pokémon need room to{{C2}}rampage!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 86,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "002E3EEF",
+   "scene": "main-text",
+   "en": "Oh, man oh man!{{C0}}Our challenger is one feisty customer!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E3F26",
+   "scene": "main-text",
+   "en": "I have to hand it to our Leader.{{C0}}It took smarts and sense for her to{{C1}}pick the Rock type at her young age.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 106,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "002E40B6",
+   "scene": "main-text",
+   "en": "{{C0}} received the Stone Badge{{C1}}from Roxanne.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E40E0",
+   "scene": "main-text",
+   "en": "The Stone Badge enables your Pokémon{{C0}}to use the HM move Cut outside{{C1}}of battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cut→居合斩"
+   ]
+  },
+  {
+   "id": "002E4225",
+   "scene": "main-text",
+   "en": "Since you are so strong, you should{{C0}}challenge the other Gym Leaders.{{C1}}By battling many Trainers, you'll{{C2}}learn many things.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E429F",
+   "scene": "main-text",
+   "en": "Rustboro City Pokémon Gym",
+   "codes": [],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E42B9",
+   "scene": "main-text",
+   "en": "Rustboro City Pokémon Gym{{C0}}Roxanne's certified Trainers:{{C1}}{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E44C5",
+   "scene": "main-text",
+   "en": "Grr{{C0}}{{C1}}Again, I have lost{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E44DE",
+   "scene": "main-text",
+   "en": "Roxanne: I still have much to learn{{C0}}when it comes to battling Pokémon.{{C1}}That awareness makes me love battling{{C2}}all that much more!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E45C2",
+   "scene": "main-text",
+   "en": "Roxanne: I'm so glad to see you again.{{C0}}I'm Roxanne, the Gym Leader here.{{C1}}I'm sure we've both experienced many{{C2}}battles since we last met.{{C3}}I would like to see how much better{{C4}}we've become.{{C5}}Would you prefer a single battle{{C6}}or a double battle?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 240,
+   "hint": "纯中文≤119字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E46B2",
+   "scene": "main-text",
+   "en": "And would you like me to battle with{{C0}}Legendary Pokémon?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E4BF3",
+   "scene": "main-text",
+   "en": "¿  æçÀÂTake this special Pokémon as a gift{{C0}}from me!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E4C27",
+   "scene": "main-text",
+   "en": "{{C0}} got Roxanne's {{C1}}Amaura{{C2}} as a{{C3}}gift!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Amaura→冰雪龙"
+   ]
+  },
+  {
+   "id": "002E4C50",
+   "scene": "main-text",
+   "en": "Roxanne always told me that the best{{C0}}way to defend is to {{C1}}start out with a{{C2}}solid foundation{{C3}} and then {{C4}}slowly get{{C5}}tougher{{C6}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C4}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E4CD4",
+   "scene": "main-text",
+   "en": "When doing a trek, watch out for {{C0}}rocky,{{C1}}uneven ground{{C2}}. You don't want to get{{C3}}hurt, or even worse, {{C4}}cut yourself on{{C5}}sharp stones{{C6}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cut→居合斩",
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "002E4D60",
+   "scene": "main-text",
+   "en": "They say that when under immense{{C0}}pressure, even coal becomes diamonds.{{C1}}Once I'm {{C2}}backed into a corner{{C3}}, that's{{C4}}when my true power starts to shine!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色06]"
+    ],
+    [
+     "{{C3}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 151,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pressure→压迫感"
+   ]
+  },
+  {
+   "id": "002E4DF7",
+   "scene": "main-text",
+   "en": "Tommy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E4DFD",
+   "scene": "main-text",
+   "en": "Marc",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E4E02",
+   "scene": "main-text",
+   "en": "Josh",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E4E07",
+   "scene": "main-text",
+   "en": "Roxanne",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E509E",
+   "scene": "main-text",
+   "en": "{{C0}} Good{{C1}}luck on your Pokémon journey trainer!{{C2}}You'll definitely need it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E50E8",
+   "scene": "main-text",
+   "en": "Skipping the lesson and hoping to ace{{C0}}the test? You better know what you're{{C1}}doing!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E513B",
+   "scene": "main-text",
+   "en": "Decent effort on the coursework, you{{C0}}should probably be ready... Let's see{{C1}}how well you've learned.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E519F",
+   "scene": "main-text",
+   "en": "Ah, you were diligent! Time to wrap this{{C0}}up, then. Are you ready to go?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 72,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wrap→紧束"
+   ]
+  },
+  {
+   "id": "002E51E7",
+   "scene": "main-text",
+   "en": "I see you were going for extra credit{{C0}}and you've passed with flying colors! An{{C1}}easy A+",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 87,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "002E523E",
+   "scene": "main-text",
+   "en": "Your work was rushed but I could tell{{C0}}you still put in the effort! Full marks,{{C1}}you get an A!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E529B",
+   "scene": "main-text",
+   "en": "You diligently studied and passed top{{C0}}of the class - you deserve an A!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E54EC",
+   "scene": "main-text",
+   "en": "The blackboard lists status changes{{C0}}that may affect Pokémon in battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 71,
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E5533",
+   "scene": "main-text",
+   "en": "Which topic do you want to read?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E5554",
+   "scene": "main-text",
+   "en": "If a Pokémon is poisoned, it will{{C0}}steadily lose HP.{{C1}}The effects of poison remain after{{C2}}a battle.{{C3}}A poisoned Pokémon's HP will drop{{C4}}while it is traveling.{{C5}}Heal a poisoning using an Antidote.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 190,
+   "hint": "纯中文≤94字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Antidote→解毒药",
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "002E5612",
+   "scene": "main-text",
+   "en": "If a Pokémon becomes paralyzed,{{C0}}its Speed drops.{{C1}}It may also not be able to move while{{C2}}it is in battle.{{C3}}Paralysis remains after battle.{{C4}}Cure it using a Parlyz Heal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 165,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E56B7",
+   "scene": "main-text",
+   "en": "If a Pokémon falls asleep, it will be{{C0}}unable to attack.{{C1}}A Pokémon may wake up on its own,{{C2}}but if a battle ends while it is{{C3}}sleeping, it will stay asleep.{{C4}}Wake it up using an Awakening.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 185,
+   "hint": "纯中文≤92字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Awakening→解眠药"
+   ]
+  },
+  {
+   "id": "002E5770",
+   "scene": "main-text",
+   "en": "A burn reduces Attack power, and it{{C0}}steadily reduces the victim's HP.{{C1}}A burn lingers after battle.{{C2}}Cure a burn using a Burn Heal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Burn Heal→灼伤药"
+   ]
+  },
+  {
+   "id": "002E57F2",
+   "scene": "main-text",
+   "en": "If a Pokémon is frozen, it becomes{{C0}}completely helpless.{{C1}}It will remain frozen after battle.{{C2}}Thaw it out using an Ice Heal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice Heal→解冻药",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "002E586D",
+   "scene": "main-text",
+   "en": "Students who don't study get a little{{C0}}taste of my Quick Claw.{{C1}}Whether or not you are a good student {{C2}}will be evident from the way you use{{C3}}this item.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 149,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quick Claw→先制之爪"
+   ]
+  },
+  {
+   "id": "002E5902",
+   "scene": "main-text",
+   "en": "A Pokémon holding the Quick Claw will{{C0}}occasionally speed up and get to move{{C1}}before its opponent.{{C2}}There are many other items that are{{C3}}meant to be held by Pokémon.{{C4}}Just those alone will give you many{{C5}}topics to study!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 215,
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quick Claw→先制之爪"
+   ]
+  },
+  {
+   "id": "002E59D9",
+   "scene": "main-text",
+   "en": "I'm trading Pokémon with my friend{{C0}}right now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E5A07",
+   "scene": "main-text",
+   "en": "I always wanted a Seedot, and{{C0}}I'm finally getting one!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Seedot→橡实果"
+   ]
+  },
+  {
+   "id": "002E5A3E",
+   "scene": "main-text",
+   "en": "Pokémon can hold items, but they{{C0}}don't know what to do with man-made{{C1}}items like Potion and Antidote.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 101,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Potion→伤药",
+    "Antidote→解毒药"
+   ]
+  },
+  {
+   "id": "002E5AA3",
+   "scene": "main-text",
+   "en": "You know how some Pokémon moves can{{C0}}confuse a Pokémon?{{C1}}A confused Pokémon will sometimes{{C2}}attack itself without meaning to.{{C3}}But once it leaves battle, it will{{C4}}return to normal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 176,
+   "hint": "纯中文≤87字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Return→报恩",
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "002E5B53",
+   "scene": "main-text",
+   "en": "A Pokémon holding a Berry will heal{{C0}}itself{{C1}}{{C2}}There are many kinds of items that{{C3}}Pokémon can hold{{C4}}{{C5}}Boy, it sure is hard taking notes{{C6}}down{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 137,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E5E99",
+   "scene": "main-text",
+   "en": "Scott: Hmm{{C0}}{{C1}}The talent levels of the students here{{C2}}are unknown. The potential's there.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 87,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E5EF0",
+   "scene": "main-text",
+   "en": "Scott: Oh, what's that?{{C0}}It's a Stone Badge, isn't it?{{C1}}That's pretty impressive, I'd say.{{C2}}But, you know, I would've loved to see{{C3}}you in battle.{{C4}}It's hard to tell what you're like as{{C5}}a Trainer from a League Badge.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 212,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E61FD",
+   "scene": "main-text",
+   "en": "My Pokémon has a Naive nature, and my{{C0}}friend's has a Jolly nature.{{C1}}It's fascinating how Pokémon have{{C2}}personalities!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jolly→爽朗",
+    "Naive→天真"
+   ]
+  },
+  {
+   "id": "002E6271",
+   "scene": "main-text",
+   "en": "Just like people, there are male and{{C0}}female Pokémon.{{C1}}But no one seems to have any idea how{{C2}}they're different.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E62DF",
+   "scene": "main-text",
+   "en": "The man next door gave me an HM!{{C0}}I used it to teach my Pokémon how to{{C1}}Cut down skinny trees.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cut→居合斩"
+   ]
+  },
+  {
+   "id": "002E646B",
+   "scene": "main-text",
+   "en": "False Swipe is a very handy move.{{C0}}No matter how many times it's used on{{C1}}the opposing Pokémon, it won't cause{{C2}}the Pokémon to faint!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "False Swipe→点到为止"
+   ]
+  },
+  {
+   "id": "002E64EE",
+   "scene": "main-text",
+   "en": "I'm buying some Parlyz Heals and{{C0}}Antidotes.{{C1}}Just in case I run into Paras{{C2}}in Petalburg Woods.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 94,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Paras→派拉斯"
+   ]
+  },
+  {
+   "id": "002E654C",
+   "scene": "main-text",
+   "en": "My Pokémon evolved.{{C0}}It has a lot of HP now.{{C1}}I should buy Super Potions for it{{C2}}instead of ordinary Potions.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 107,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E65B7",
+   "scene": "main-text",
+   "en": "I'm getting an Escape Rope just in{{C0}}case I get lost in a cave.{{C1}}I just need to use it to get back to{{C2}}the entrance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Escape Rope→离洞绳"
+   ]
+  },
+  {
+   "id": "002E663B",
+   "scene": "main-text",
+   "en": "Every Pokémon has a special ability{{C0}}that it can use.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6670",
+   "scene": "main-text",
+   "en": "Pokémon are such strange creatures.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E67AA",
+   "scene": "main-text",
+   "en": "Oh, it's so hard every day{{C0}}{{C1}}What's hard?{{C2}}You need to ask?{{C3}}It's trying to figure out what to{{C4}}make for meals every day.{{C5}}It really isn't easy coming up with{{C6}}meals every day.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 171,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E69A3",
+   "scene": "main-text",
+   "en": "I've been saying “{{C0}}”{{C1}}to amuse her lately.{{C2}}Do you know of a better word or{{C3}}a phrase that might work?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 101,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6A08",
+   "scene": "main-text",
+   "en": "Oh, that's wonderful.{{C0}}So, let's hear it, your suggestion.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6A42",
+   "scene": "main-text",
+   "en": "Oh, is that right?{{C0}}Well, if you come up with a good{{C1}}suggestion, I'm all ears.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6A90",
+   "scene": "main-text",
+   "en": "Ah, I see.{{C0}}Well, let's give it a try, shall we?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6AC0",
+   "scene": "main-text",
+   "en": "{{C0}}.{{C1}}{{C2}}.{{C3}}Oh, yes! She's laughing!{{C4}}Oh, I am as delighted as she!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6AFF",
+   "scene": "main-text",
+   "en": "Ah, I see.{{C0}}Well, let's give it a try, shall we?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6B2F",
+   "scene": "main-text",
+   "en": "{{C0}}.{{C1}}{{C2}}.{{C3}}Hmmm{{C4}} She's not smiling at all.{{C5}}Maybe Walda is one serious child{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Serious→认真"
+   ]
+  },
+  {
+   "id": "002E6B79",
+   "scene": "main-text",
+   "en": "Oh, so you don't know any good words.{{C0}}I'd better think for myself, then.{{C1}}Hmm{{C2}}{{C3}}How about “{{C4}}”?{{C5}}Let's see if that will work.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6BF4",
+   "scene": "main-text",
+   "en": "{{C0}}.{{C1}}{{C2}}.{{C3}}Hmmm{{C4}} She's not smiling at all.{{C5}}Maybe Walda is one serious child{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Serious→认真"
+   ]
+  },
+  {
+   "id": "002E6C3E",
+   "scene": "main-text",
+   "en": "Oh, so you don't know any good words.{{C0}}I guess I'll try to amuse her with{{C1}}the saying I used before.{{C2}}Anyways, if you have a good suggestion,{{C3}}don't hesitate in telling me, okay?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 175,
+   "hint": "纯中文≤87字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002E6E7E",
+   "scene": "main-text",
+   "en": "It's a Pokémon plush Doll!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

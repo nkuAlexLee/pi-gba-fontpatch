@@ -1,0 +1,2050 @@
+{
+ "batch": 129,
+ "count": 118,
+ "tasks": [
+  {
+   "id": "00B2B91C",
+   "scene": "main-text",
+   "en": "Green-feathered flocks hold the most{{C0}}sway. When they're out searching for food{{C1}}in the mornings and evenings, it gets very{{C2}}noisy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2B9A0",
+   "scene": "main-text",
+   "en": "Rock Salt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salt→盐",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00B2B9AC",
+   "scene": "main-text",
+   "en": "The ground scrapes its body as it travels,{{C0}}causing it to leave salt behind. Salt is{{C1}}constantly being created and replenished{{C2}}inside Nacli's body.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 146,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nacli→盐石宝",
+    "Salt→盐",
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "00B2BA40",
+   "scene": "main-text",
+   "en": "Rock Salt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salt→盐",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00B2BA4C",
+   "scene": "main-text",
+   "en": "It compresses rock salt inside its body{{C0}}and shoots out hardened salt pellets with{{C1}}enough force to perforate an iron sheet.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂",
+    "Salt→盐",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00B2BAC8",
+   "scene": "main-text",
+   "en": "Rock Salt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salt→盐",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00B2BAD4",
+   "scene": "main-text",
+   "en": "Garganacl will rub its fingertips together{{C0}}and sprinkle injured Pokémon with salt.{{C1}}Even severe wounds will promptly heal{{C2}}afterward.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Garganacl→盐石巨灵",
+    "Salt→盐"
+   ]
+  },
+  {
+   "id": "00B2BB58",
+   "scene": "main-text",
+   "en": "Fire Child",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00B2BB64",
+   "scene": "main-text",
+   "en": "Burnt charcoal came to life and became a{{C0}}Pokémon. Possessing a fiery fighting{{C1}}spirit, Charcadet will battle even tough{{C2}}opponents.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charcadet→炭小侍",
+    "Charcoal→木炭",
+    "Fighting→格斗"
+   ]
+  },
+  {
+   "id": "00B2BBE8",
+   "scene": "main-text",
+   "en": "Fire Warrior",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00B2BBF8",
+   "scene": "main-text",
+   "en": "Armarouge evolved through the use of a{{C0}}set of armor that belonged to a{{C1}}distinguished warrior. This Pokémon is{{C2}}incredibly loyal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 128,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Armarouge→红莲铠骑"
+   ]
+  },
+  {
+   "id": "00B2BC78",
+   "scene": "main-text",
+   "en": "Fire Blades",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00B2BC84",
+   "scene": "main-text",
+   "en": "The fiery blades on its arms burn fiercely{{C0}}with the lingering resentment of a sword{{C1}}wielder who fell before accomplishing their{{C2}}goal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 134,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BD0C",
+   "scene": "main-text",
+   "en": "EleTadpole",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BD18",
+   "scene": "main-text",
+   "en": "Tadbulb shakes its tail to generate{{C0}}electricity. If it senses danger, it will{{C1}}make its head blink on and off to alert its{{C2}}allies.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tadbulb→光蚪仔"
+   ]
+  },
+  {
+   "id": "00B2BD9C",
+   "scene": "main-text",
+   "en": "EleFrog",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BDA4",
+   "scene": "main-text",
+   "en": "When this Pokémon expands and contracts{{C0}}its wobbly body, the belly- button dynamo{{C1}}in its stomach produces a huge amount of{{C2}}electricity.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BE2C",
+   "scene": "main-text",
+   "en": "Storm Petrel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BE3C",
+   "scene": "main-text",
+   "en": "When its wings catch the wind, the bones{{C0}}within produce electricity. This Pokémon{{C1}}dives into the ocean, catching prey by{{C2}}electrocuting them.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BECC",
+   "scene": "main-text",
+   "en": "Frigatebird",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BED8",
+   "scene": "main-text",
+   "en": "It uses its throat sac to store{{C0}}electricity generated by its wings. There's{{C1}}hardly any oil in its feathers, so it is a{{C2}}poor swimmer.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BF60",
+   "scene": "main-text",
+   "en": "Rascal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BF68",
+   "scene": "main-text",
+   "en": "Its well-developed jaw and fangs are{{C0}}strong enough to crunch through boulders,{{C1}}and its thick fat makes for an excellent{{C2}}defense.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Crunch→咬碎",
+    "Thick Fat→厚脂肪"
+   ]
+  },
+  {
+   "id": "00B2BFEC",
+   "scene": "main-text",
+   "en": "Boss",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2BFF4",
+   "scene": "main-text",
+   "en": "Mabosstiff loves playing with children.{{C0}}Though usually gentle, it takes on an{{C1}}intimidating look when protecting its{{C2}}family.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mabosstiff→獒教父",
+    "Gentle→温顺"
+   ]
+  },
+  {
+   "id": "00B2C070",
+   "scene": "main-text",
+   "en": "Toxic Mouse",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "00B2C07C",
+   "scene": "main-text",
+   "en": "To keep enemies away from its territory, it{{C0}}paints markings around its nest using a{{C1}}poisonous liquid that has an acrid odor.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C0FC",
+   "scene": "main-text",
+   "en": "Toxic Monkey",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒"
+   ]
+  },
+  {
+   "id": "00B2C10C",
+   "scene": "main-text",
+   "en": "Each Grafaiai paints its own individual{{C0}}pattern, and it will paint that same{{C1}}pattern over and over again throughout{{C2}}its life.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grafaiai→涂标客"
+   ]
+  },
+  {
+   "id": "00B2C18C",
+   "scene": "main-text",
+   "en": "Tumbleweed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C198",
+   "scene": "main-text",
+   "en": "A soul unable to move on to the afterlife{{C0}}was blown around by the wind until it got{{C1}}tangled up with dried grass and became a{{C2}}Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 134,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "00B2C220",
+   "scene": "main-text",
+   "en": "Tumbleweed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C22C",
+   "scene": "main-text",
+   "en": "It will open the branches of its head to{{C0}}envelop its prey. Once it absorbs all the{{C1}}life energy it needs, it expels the prey{{C2}}and discards it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C2BC",
+   "scene": "main-text",
+   "en": "Woodear",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C2C4",
+   "scene": "main-text",
+   "en": "Though it looks like Tentacool, Toedscool{{C0}}is a completely different species. Its legs{{C1}}may be thin, but it can run at a speed of 30{{C2}}mph.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tentacool→玛瑙水母",
+    "Toedscool→原野水母"
+   ]
+  },
+  {
+   "id": "00B2C34C",
+   "scene": "main-text",
+   "en": "Woodear",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C354",
+   "scene": "main-text",
+   "en": "These Pokémon gather into groups and form{{C0}}colonies deep within forests. They{{C1}}absolutely hate it when strangers{{C2}}approach.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C3D0",
+   "scene": "main-text",
+   "en": "Ambush",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C3D8",
+   "scene": "main-text",
+   "en": "Klawf hangs upside-down from cliffs,{{C0}}waiting for prey. But Klawf can't remain in{{C1}}this position for long because its blood{{C2}}rushes to its head.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Klawf→毛崖蟹"
+   ]
+  },
+  {
+   "id": "00B2C468",
+   "scene": "main-text",
+   "en": "Spicy Pepper",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pepper→胡椒"
+   ]
+  },
+  {
+   "id": "00B2C478",
+   "scene": "main-text",
+   "en": "The more sunlight this Pokémon bathes in,{{C0}}the more spicy chemicals are produced by{{C1}}its body, and thus the spicier its moves{{C2}}become.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C4FC",
+   "scene": "main-text",
+   "en": "Spicy Pepper",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pepper→胡椒"
+   ]
+  },
+  {
+   "id": "00B2C50C",
+   "scene": "main-text",
+   "en": "The green head has turned vicious due to{{C0}}the spicy chemicals stimulating its brain.{{C1}}Once it goes on a rampage, there is no{{C2}}stopping it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C594",
+   "scene": "main-text",
+   "en": "Rolling",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C59C",
+   "scene": "main-text",
+   "en": "This Pokémon creates a mud ball by mixing{{C0}}sand and dirt with psychic energy. It{{C1}}treasures its mud ball more than its own{{C2}}life.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念"
+   ]
+  },
+  {
+   "id": "00B2C61C",
+   "scene": "main-text",
+   "en": "Rolling",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C624",
+   "scene": "main-text",
+   "en": "The body that supports the ball barely{{C0}}moves. Therefore, it is thought that the{{C1}}true body of this Pokémon is actually{{C2}}inside the ball.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 135,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C6AC",
+   "scene": "main-text",
+   "en": "Frill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C6B4",
+   "scene": "main-text",
+   "en": "Flittle's toes levitate about half an inch{{C0}}above the ground because of the psychic{{C1}}power emitted from the frills on the{{C2}}Pokémon's belly.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 137,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flittle→飘飘雏",
+    "Psychic→精神强念",
+    "Levitate→飘浮",
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "00B2C740",
+   "scene": "main-text",
+   "en": "Ostrich",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C748",
+   "scene": "main-text",
+   "en": "It immobilizes opponents by bathing them{{C0}}in psychic power from its large eyes.{{C1}}Despite its appearance, it has a vicious{{C2}}temperament.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念"
+   ]
+  },
+  {
+   "id": "00B2C7D0",
+   "scene": "main-text",
+   "en": "Metalsmith",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C7DC",
+   "scene": "main-text",
+   "en": "This Pokémon pounds iron scraps together{{C0}}to make a hammer. It will remake the hammer{{C1}}again and again until it's satisfied with{{C2}}the result.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00B2C868",
+   "scene": "main-text",
+   "en": "Hammer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C870",
+   "scene": "main-text",
+   "en": "These Pokémon make their homes in piles of{{C0}}scrap metal. They test the strength of{{C1}}each other's hammers by smashing them{{C2}}together.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Strength→怪力"
+   ]
+  },
+  {
+   "id": "00B2C8F4",
+   "scene": "main-text",
+   "en": "Hammer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C8FC",
+   "scene": "main-text",
+   "en": "The hammer tops 220 pounds, yet it gets{{C0}}swung around easily by Tinkaton as it{{C1}}steals whatever it pleases and carries its{{C2}}plunder back home.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tinkaton→巨锻匠"
+   ]
+  },
+  {
+   "id": "00B2C988",
+   "scene": "main-text",
+   "en": "Garden Eel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2C994",
+   "scene": "main-text",
+   "en": "This Pokémon can pick up the scent of a{{C0}}Veluza just over 65 feet away and will hide{{C1}}itself in the sand.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 104,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Veluza→轻身鳕"
+   ]
+  },
+  {
+   "id": "00B2C9FC",
+   "scene": "main-text",
+   "en": "Garden Eel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CA08",
+   "scene": "main-text",
+   "en": "A variety of fish Pokémon, Wugtrio was{{C0}}once considered to be a regional form of{{C1}}Dugtrio.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 89,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dugtrio→三地鼠",
+    "Wugtrio→三海地鼠"
+   ]
+  },
+  {
+   "id": "00B2CA64",
+   "scene": "main-text",
+   "en": "Item Drop",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Item Drop→？？？"
+   ]
+  },
+  {
+   "id": "00B2CA70",
+   "scene": "main-text",
+   "en": "Bombirdier uses the apron on its chest to{{C0}}bundle up food, which it carries back to{{C1}}its nest. It enjoys dropping things that{{C2}}make loud noises.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bombirdier→下石鸟"
+   ]
+  },
+  {
+   "id": "00B2CB00",
+   "scene": "main-text",
+   "en": "Dolphin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CB08",
+   "scene": "main-text",
+   "en": "Its water ring is made from seawater mixed{{C0}}with a sticky fluid that Finizen secretes{{C1}}from its blowhole.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 104,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Finizen→波普海豚",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00B2CB70",
+   "scene": "main-text",
+   "en": "Dolphin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CB78",
+   "scene": "main-text",
+   "en": "This Pokémon changes its appearance if it{{C0}}hears its allies calling for help. Palafin{{C1}}will never show anybody its moment of{{C2}}transformation.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Palafin→海豚侠"
+   ]
+  },
+  {
+   "id": "00B2CC04",
+   "scene": "main-text",
+   "en": "Single-Cyl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CC10",
+   "scene": "main-text",
+   "en": "The steel section is Varoom's actual body.{{C0}}This Pokémon clings to rocks and converts{{C1}}the minerals within into energy to fuel its{{C2}}activities.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Varoom→噗隆隆",
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00B2CCA0",
+   "scene": "main-text",
+   "en": "Single-Cyl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CCAC",
+   "scene": "main-text",
+   "en": "It creates a gas out of poison and{{C0}}minerals from rocks. It then detonates the{{C1}}gas in its cylinders- now numbering eight-{{C2}}to generate energy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00B2CD3C",
+   "scene": "main-text",
+   "en": "Mount",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CD44",
+   "scene": "main-text",
+   "en": "It can sprint at over 70 mph while carrying{{C0}}a human. The rider's body heat warms{{C1}}Cyclizar's back and lifts the Pokémon's{{C2}}spirit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cyclizar→摩托蜥"
+   ]
+  },
+  {
+   "id": "00B2CDC8",
+   "scene": "main-text",
+   "en": "Earthworm",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CDD4",
+   "scene": "main-text",
+   "en": "When attacked, this Pokémon will wield the{{C0}}tendrils on its body like fists and pelt{{C1}}the opponent with a storm of punches.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CE50",
+   "scene": "main-text",
+   "en": "Ore",
+   "codes": [],
+   "context": "",
+   "max_bytes": 4,
+   "hint": "纯中文≤1字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CE54",
+   "scene": "main-text",
+   "en": "Glimmet's toxic mineral crystals look just{{C0}}like flower petals. This Pokémon scatters{{C1}}poisonous powder like pollen to protect{{C2}}itself.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glimmet→晶光芽",
+    "Toxic→剧毒",
+    "Protect→守住",
+    "Powder→粉尘"
+   ]
+  },
+  {
+   "id": "00B2CEDC",
+   "scene": "main-text",
+   "en": "Ore",
+   "codes": [],
+   "context": "",
+   "max_bytes": 4,
+   "hint": "纯中文≤1字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2CEE0",
+   "scene": "main-text",
+   "en": "Glimmora's petals are made of crystallized{{C0}}poison energy. It has recently become{{C1}}evident that these petals resemble Tera{{C2}}Jewels.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glimmora→晶光花",
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00B2CF64",
+   "scene": "main-text",
+   "en": "Ghost Dog",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00B2CF70",
+   "scene": "main-text",
+   "en": "Glimmora's petals are made of crystallized{{C0}}poison energy. It has recently become{{C1}}evident that these petals resemble Tera{{C2}}Jewels.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glimmora→晶光花",
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00B2CFF4",
+   "scene": "main-text",
+   "en": "Ghost Dog",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00B2D000",
+   "scene": "main-text",
+   "en": "Houndstone spends most of its time{{C0}}sleeping in graveyards. Among all the dog{{C1}}Pokémon, this one is most loyal to its{{C2}}master.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Houndstone→墓扬犬"
+   ]
+  },
+  {
+   "id": "00B2D07C",
+   "scene": "main-text",
+   "en": "Synchronize",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Synchronize→同步"
+   ]
+  },
+  {
+   "id": "00B2D088",
+   "scene": "main-text",
+   "en": "Thanks to a behavior of theirs known as{{C0}}“synchronizing,” an entire flock of these{{C1}}Pokémon can attack simultaneously in{{C2}}perfect harmony.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D110",
+   "scene": "main-text",
+   "en": "Terra Whale",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D11C",
+   "scene": "main-text",
+   "en": "This species left the ocean and began{{C0}}living on land a very long time ago. It{{C1}}seems to be closely related to Wailmer.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wailmer→吼吼鲸"
+   ]
+  },
+  {
+   "id": "00B2D194",
+   "scene": "main-text",
+   "en": "Terra Whale",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D1A0",
+   "scene": "main-text",
+   "en": "Ice energy builds up in the horn on its{{C0}}upper jaw, causing the horn to reach{{C1}}cryogenic temperatures that freeze its{{C2}}surroundings.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00B2D224",
+   "scene": "main-text",
+   "en": "Jettison",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D230",
+   "scene": "main-text",
+   "en": "Veluza has excellent regenerative{{C0}}capabilities. It sheds spare flesh from its{{C1}}body to boost its agility, then charges at{{C2}}its prey.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Veluza→轻身鳕",
+    "Agility→高速移动"
+   ]
+  },
+  {
+   "id": "00B2D2B4",
+   "scene": "main-text",
+   "en": "Big Catfish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D2C0",
+   "scene": "main-text",
+   "en": "It treats Tatsugiri like its boss and{{C0}}follows it loyally. Though powerful,{{C1}}Dondozo is apparently not very smart.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dondozo→吃吼霸",
+    "Tatsugiri→米立龙"
+   ]
+  },
+  {
+   "id": "00B2D334",
+   "scene": "main-text",
+   "en": "Mimicry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mimicry→拟态"
+   ]
+  },
+  {
+   "id": "00B2D33C",
+   "scene": "main-text",
+   "en": "This is a small dragon Pokémon. It lives{{C0}}inside the mouth of Dondozo to protect{{C1}}itself from enemies on the outside.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dondozo→吃吼霸",
+    "Protect→守住",
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "00B2D3B0",
+   "scene": "main-text",
+   "en": "Rage Monkey",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rage→愤怒"
+   ]
+  },
+  {
+   "id": "00B2D3BC",
+   "scene": "main-text",
+   "en": "When its anger rose beyond a critical{{C0}}point, this Pokémon gained power that is{{C1}}unfettered by the limits of its physical{{C2}}body.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 126,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D43C",
+   "scene": "main-text",
+   "en": "Spiny Fish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D448",
+   "scene": "main-text",
+   "en": "When attacked, this Pokémon will retaliate{{C0}}by sticking thick spines out from its body.{{C1}}It's a risky move that puts everything on{{C2}}the line.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Retaliate→报仇"
+   ]
+  },
+  {
+   "id": "00B2D4D4",
+   "scene": "main-text",
+   "en": "Long Neck",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D4E0",
+   "scene": "main-text",
+   "en": "Now that the brain waves from the head and{{C0}}tail are synced up, the psychic power of{{C1}}this Pokémon is 10 times stronger than{{C2}}Girafarig's.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Girafarig→麒麟奇",
+    "Psychic→精神强念"
+   ]
+  },
+  {
+   "id": "00B2D568",
+   "scene": "main-text",
+   "en": "Land Snake",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D574",
+   "scene": "main-text",
+   "en": "This Pokémon uses its hard tail to make its{{C0}}nest by boring holes into bedrock deep{{C1}}underground. The nest can reach lengths{{C2}}of over six miles.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D604",
+   "scene": "main-text",
+   "en": "Big Blade",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D610",
+   "scene": "main-text",
+   "en": "Though it commands a massive army in{{C0}}battle, it's not skilled at devising complex{{C1}}strategies. It just uses brute strength{{C2}}to keep pushing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Strength→怪力"
+   ]
+  },
+  {
+   "id": "00B2D69C",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D6A4",
+   "scene": "main-text",
+   "en": "Sightings of this Pokémon have occurred in{{C0}}recent years. The name Great Tusk was{{C1}}taken from a creature listed in a certain{{C2}}book.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Great Tusk→雄伟牙"
+   ]
+  },
+  {
+   "id": "00B2D728",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D730",
+   "scene": "main-text",
+   "en": "There has been only one reported sighting{{C0}}of this Pokémon. It resembles a mysterious{{C1}}creature depicted in an old expedition{{C2}}journal.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Journal→冒险笔记"
+   ]
+  },
+  {
+   "id": "00B2D7B8",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D7C0",
+   "scene": "main-text",
+   "en": "It bears a slight resemblance to a Pokémon{{C0}}described in a dubious magazine as a cross{{C1}}between a dinosaur and a mushroom.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D83C",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D844",
+   "scene": "main-text",
+   "en": "It has similar features to a ghostly{{C0}}pterosaur that was covered in a{{C1}}paranormal magazine, but the two have{{C2}}little else in common.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D8C8",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D8D0",
+   "scene": "main-text",
+   "en": "This mysterious Pokémon has some{{C0}}similarities to a creature that an old book{{C1}}introduced as Slither Wing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slither Wing→爬地翅"
+   ]
+  },
+  {
+   "id": "00B2D93C",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00B2D944",
+   "scene": "main-text",
+   "en": "It slightly resembles a Magneton that{{C0}}lived for 10,000 years and was featured in{{C1}}an article in a paranormal magazine.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magneton→三合一磁怪"
+   ]
+  },
+  {
+   "id": "00B2D9BC",
+   "scene": "main-text",
+   "en": "Paradox",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

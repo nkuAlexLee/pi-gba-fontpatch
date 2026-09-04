@@ -1,0 +1,420 @@
+{
+ "count": 18,
+ "tasks": [
+  {
+   "id": "01012BE0",
+   "en": "Cute Charm + heal 25% damage vs{{C0}}infatuated.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇",
+    "Cute Charm→迷人之躯"
+   ],
+   "prev": "迷人之躯 + heal 25% damage vs[/n]infatuated",
+   "prevErrs": [
+    "残留英文未翻译: heal damage infatuated"
+   ]
+  },
+  {
+   "id": "01012D90",
+   "en": "Scare + Intimidate. 30% chance{{C0}}to infatuate on hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Intimidate→威吓"
+   ],
+   "prev": "恐吓 + Intimidate. 30% chance[/n]to infatuate on hit",
+   "prevErrs": [
+    "残留英文未翻译: intimidate chance infatuate"
+   ]
+  },
+  {
+   "id": "01012E14",
+   "en": "All moves gain STAB. Ups{{C0}}“supereffective” by 10%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "所有招式获得STAB加成。[/n]效果绝佳伤害+10%。",
+   "prevErrs": [
+    "残留英文未翻译: stab"
+   ]
+  },
+  {
+   "id": "01013070",
+   "en": "Tipping Point + Rampage.",
+   "codes": [],
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Tipping Point + 暴走",
+   "prevErrs": [
+    "残留英文未翻译: tipping point"
+   ]
+  },
+  {
+   "id": "0101308C",
+   "en": "Attacks with Sand Attack on{{C0}}switch-in.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sand Attack→泼沙"
+   ],
+   "prev": "入场时使用泼沙进行攻击。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "010130B4",
+   "en": "Fairy & Dark gains STAB.{{C0}}Moonlight recovers 75% HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Moonlight→月光",
+    "Dark→恶",
+    "Fairy→妖精"
+   ],
+   "prev": "妖精和恶属性获得STAB加成。[/n]月光恢复75%HP。",
+   "prevErrs": [
+    "残留英文未翻译: stab"
+   ]
+  },
+  {
+   "id": "010137DC",
+   "en": "Color Change + Protean + Fur{{C0}}Coat + Ice Scales.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Color Change→变色",
+    "Protean→变幻自如",
+    "Ice Scales→冰鳞粉",
+    "Ice→冰"
+   ],
+   "prev": "变色 + 变幻自如 + Fur[/n]Coat + 冰鳞粉",
+   "prevErrs": [
+    "残留英文未翻译: coat"
+   ]
+  },
+  {
+   "id": "01013E1C",
+   "en": "Intimidate + Scare; 10% chance{{C0}}to fear with contact moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Intimidate→威吓"
+   ],
+   "prev": "威吓 + 恐吓。非接触招式有10%几率灼伤。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "01014064",
+   "en": "Mega Launcher + Sighting System.",
+   "codes": [],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器"
+   ],
+   "prev": "超级发射器 + Sighting System",
+   "prevErrs": [
+    "残留英文未翻译: sighting system"
+   ]
+  },
+  {
+   "id": "01014150",
+   "en": "50% more damage to Water-types{{C0}}+ Infiltrator.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Infiltrator→穿透",
+    "Water→水"
+   ],
+   "prev": "50% more damage to Water-types[/n] + 穿透",
+   "prevErrs": [
+    "残留英文未翻译: more damage water types"
+   ]
+  },
+  {
+   "id": "01014410",
+   "en": "Mega Launcher moves always hit{{C0}}and hit both foes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器"
+   ],
+   "prev": "Mega发射器类招式必定命中[/n]，且命中对手双方。",
+   "prevErrs": [
+    "残留英文未翻译: mega"
+   ]
+  },
+  {
+   "id": "0116F91D",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}You must be {{C2}}.{{C3}}There is a ticket here for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Thank you for using the Mystery[/n]Gift System.[/p]You must be [玩家].[/n]There is a ticket here for you.",
+   "prevErrs": [
+    "残留英文未翻译: thank using mystery gift system must there ticket here"
+   ]
+  },
+  {
+   "id": "0116FA0B",
+   "en": "Oh, I'm sorry, {{C0}}.{{C1}}Your Bag's Key Items Pocket is full.{{C2}}Please store something on your PC,{{C3}}then come back for this.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, I'm sorry, [玩家].[/n]Your Bag's Key Items Pocket is full.[/p]Please store something on your PC,[/n]then come back for this.",
+   "prevErrs": [
+    "残留英文未翻译: sorry your items pocket full please store something then come back this"
+   ]
+  },
+  {
+   "id": "0116FAF5",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}You must be {{C2}}.{{C3}}There is a ticket here for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Thank you for using the Mystery[/n]Gift System.[/p]You must be [玩家].[/n]There is a ticket here for you.",
+   "prevErrs": [
+    "残留英文未翻译: thank using mystery gift system must there ticket here"
+   ]
+  },
+  {
+   "id": "0116FBE3",
+   "en": "Oh, I'm sorry, {{C0}}.{{C1}}Your Bag's Key Items Pocket is full.{{C2}}Please store something on your PC,{{C3}}then come back for this.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, I'm sorry, [玩家].[/n]Your Bag's Key Items Pocket is full.[/p]Please store something on your PC,[/n]then come back for this.",
+   "prevErrs": [
+    "残留英文未翻译: sorry your items pocket full please store something then come back this"
+   ]
+  },
+  {
+   "id": "0116FDD5",
+   "en": "Thank you for using the Mystery{{C0}}Gift System.{{C1}}Let me confirm--you are {{C2}}?{{C3}}We received this Old Sea Map{{C4}}addressed to you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Thank you for using the Mystery[/n]Gift System.[/p]Let me confirm--you are [玩家]?[/p]We received this Old Sea Map[/n]addressed to you.",
+   "prevErrs": [
+    "残留英文未翻译: thank using mystery gift system confirm received this addressed"
+   ]
+  },
+  {
+   "id": "0116FEDE",
+   "en": "Oh, I'm sorry, {{C0}}.{{C1}}Your Bag's Key Items Pocket is full.{{C2}}Please store something on your PC,{{C3}}then come back for this.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, I'm sorry, [玩家].[/n]Your Bag's Key Items Pocket is full.[/p]Please store something on your PC,[/n]then come back for this.",
+   "prevErrs": [
+    "残留英文未翻译: sorry your items pocket full please store something then come back this"
+   ]
+  },
+  {
+   "id": "0126DAE8",
+   "en": "YhqwwrolnvÜ{{C0}}{{C1}}{{C2}}{{C3}}{{C4}}{{C5}}{{C6}}Äuqppprw:ö{{C7}}{{C8}}{{C9}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[文本色00]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/c]"
+    ],
+    [
+     "{{C3}}",
+     "[/c]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[fdfd]"
+    ],
+    [
+     "{{C6}}",
+     "[l]"
+    ],
+    [
+     "{{C7}}",
+     "[u]"
+    ],
+    [
+     "{{C8}}",
+     "[u]"
+    ],
+    [
+     "{{C9}}",
+     "[l]"
+    ]
+   ],
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "YhqwwrolnvÜ[文本色00][/n][/c][/c][/n][fdfd][l]Äuqppprw:ö[u][u][l]",
+   "prevErrs": [
+    "残留英文未翻译: yhqwwrolnv uqppprw"
+   ]
+  }
+ ]
+}

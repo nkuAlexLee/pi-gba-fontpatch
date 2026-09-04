@@ -1,0 +1,814 @@
+[
+ {
+  "id": "0051D130",
+  "zh": "{{C0}}'s side became{{C1}}covered in a lot of hazards!"
+ },
+ {
+  "id": "0051D160",
+  "zh": "{{C0}}'s stats rose!"
+ },
+ {
+  "id": "0051D174",
+  "zh": "{{C0}} protected itself!"
+ },
+ {
+  "id": "0051D18C",
+  "zh": "{{C0}} got trapped{{C1}}and became really slow!"
+ },
+ {
+  "id": "0051D1B4",
+  "zh": "{{C0}}'s got its item eaten!"
+ },
+ {
+  "id": "0051D1D0",
+  "zh": "All of {{C0}}'s{{C1}}stats were lowered!"
+ },
+ {
+  "id": "0051D1F0",
+  "zh": "{{C0}}是 no longer{{C1}}locked into only using one move!"
+ },
+ {
+  "id": "0051D224",
+  "zh": "Sleep Clause prevents{{C0}}selecting this move!{{C1}}"
+ },
+ {
+  "id": "0051D250",
+  "zh": "{{C0}} became fully{{C1}}charged!"
+ },
+ {
+  "id": "0051D26C",
+  "zh": "The inverted dimensions returned to{{C0}}normal!"
+ },
+ {
+  "id": "0051D298",
+  "zh": "{{C0}}'s Inverse Room{{C1}}set up Inverse Room!"
+ },
+ {
+  "id": "0051D2C0",
+  "zh": "{{C0}} became{{C1}}part {{C2}} type!"
+ },
+ {
+  "id": "0051D2D8",
+  "zh": "{{C0}}'s type{{C1}}changed to {{C2}}!"
+ },
+ {
+  "id": "0051D2F4",
+  "zh": "{{C0}} became{{C1}}infected!"
+ },
+ {
+  "id": "0051D308",
+  "zh": "{{C0}}'s 粉彩护幕 set up{{C1}}SafeGuard!"
+ },
+ {
+  "id": "0051D32C",
+  "zh": "{{C0}} started{{C1}}出血!"
+ },
+ {
+  "id": "0051D344",
+  "zh": "{{C0}}是 hurt{{C1}}by its 出血!"
+ },
+ {
+  "id": "0051D360",
+  "zh": "{{C0}}'s{{C1}}出血 was healed!"
+ },
+ {
+  "id": "0051D37C",
+  "zh": "{{C0}}'s{{C1}}出血 was healed!"
+ },
+ {
+  "id": "0051D398",
+  "zh": "{{C0}}'s {{C1}}{{C2}}stopped its 出血!"
+ },
+ {
+  "id": "0051D3B8",
+  "zh": "{{C0}}'s {{C1}}{{C2}}stopped its 出血!"
+ },
+ {
+  "id": "0051D3D8",
+  "zh": "{{C0}}'s ability{{C1}}lowered its {{C2}}!"
+ },
+ {
+  "id": "0051D3F8",
+  "zh": "{{C0}}'s Tipping Point{{C1}}raised its Special Attack!"
+ },
+ {
+  "id": "0051D428",
+  "zh": "{{C0}} inverted{{C1}}the dimensions!"
+ },
+ {
+  "id": "0051D444",
+  "zh": "{{C0}} has three Abilities!"
+ },
+ {
+  "id": "0051D45C",
+  "zh": "{{C0}}是 preventing{{C1}}对手的 team from healing!"
+ },
+ {
+  "id": "0051D490",
+  "zh": "{{C0}} goes{{C1}}berserk!"
+ },
+ {
+  "id": "0051D4A4",
+  "zh": "{{C0}} was hurt{{C1}}by its ability!"
+ },
+ {
+  "id": "0051D4C0",
+  "zh": "{{C0}} retrieved{{C1}}its {{C2}}!"
+ },
+ {
+  "id": "0051D4D8",
+  "zh": "{{C0}} blocks{{C1}}对手的 team from fleeing!"
+ },
+ {
+  "id": "0051D504",
+  "zh": "{{C0}} gained{{C1}}strength from the fallen!"
+ },
+ {
+  "id": "0051D528",
+  "zh": "{{C0}}'s {{C1}}{{C2}}was boosted!"
+ },
+ {
+  "id": "0051D540",
+  "zh": "{{C0}}'s boost{{C1}}runs out!"
+ },
+ {
+  "id": "0051D558",
+  "zh": "{{C0}} reacts{{C1}}to the harsh sunlight!"
+ },
+ {
+  "id": "0051D57C",
+  "zh": "{{C0}} uses{{C1}}its 驱劲能量!"
+ },
+ {
+  "id": "0051D598",
+  "zh": "{{C0}} reacts{{C1}}to the electric terrain!"
+ },
+ {
+  "id": "0051D5BC",
+  "zh": "{{C0}} copied{{C1}}its ally's stat changes!"
+ },
+ {
+  "id": "0051D5E0",
+  "zh": "{{C0}}是 overflowing{{C1}}with space power!"
+ },
+ {
+  "id": "0051D604",
+  "zh": "{{C0}} got {{C1}} Battle Point(s){{C2}}for winning!{{C3}}"
+ },
+ {
+  "id": "0051D62C",
+  "zh": "{{C0}}'s can't use{{C1}}{{C2}} tw冰冻 in a row!{{C3}}"
+ },
+ {
+  "id": "0051D650",
+  "zh": "{{C0}} used up{{C1}}all its electricity!"
+ },
+ {
+  "id": "0051D670",
+  "zh": "撒菱 rain down on{{C0}}对手一侧!"
+ },
+ {
+  "id": "0051D69C",
+  "zh": "{{C0}} couldn't{{C1}}change its type!"
+ },
+ {
+  "id": "0051D6BC",
+  "zh": "{{C0}} cut its own HP{{C1}}and raised its stats!"
+ },
+ {
+  "id": "0051D6E4",
+  "zh": "{{C0}}是 hurt{{C1}}by 盐腌!"
+ },
+ {
+  "id": "0051D700",
+  "zh": "{{C0}} swapped the{{C1}}effects on each side of the field!"
+ },
+ {
+  "id": "0051D734",
+  "zh": "{{C0}}是 preparing to tell a{{C1}}chillingly bad joke!"
+ },
+ {
+  "id": "0051D764",
+  "zh": "{{C0}} shed its tail{{C1}}to create a decoy!"
+ },
+ {
+  "id": "0051D788",
+  "zh": "{{C0}}是 empowered{{C1}}by a haunting echo!"
+ },
+ {
+  "id": "0051D7AC",
+  "zh": "{{C0}} was revived and{{C1}}is ready to fight again!"
+ },
+ {
+  "id": "0051D7D8",
+  "zh": "The swamp around {{C0}}{{C1}}team disappeared!"
+ },
+ {
+  "id": "0051D800",
+  "zh": "A swamp enveloped{{C0}}{{C1}} team!"
+ },
+ {
+  "id": "0051D81C",
+  "zh": "The sea of fire around {{C0}}{{C1}}team disappeared!"
+ },
+ {
+  "id": "0051D848",
+  "zh": "{{C0}} {{C1}} was hurt{{C2}}by the sea of fire!"
+ },
+ {
+  "id": "0051D86C",
+  "zh": "A sea of fire enveloped{{C0}}{{C1}} team!"
+ },
+ {
+  "id": "0051D890",
+  "zh": "{{C0}}是 waiting{{C1}}for {{C2}}'s move{{C3}}{{C4}}ËÆ"
+ },
+ {
+  "id": "0051D8B0",
+  "zh": "The rainbow on {{C0}}{{C1}}side disappeared!"
+ },
+ {
+  "id": "0051D8D4",
+  "zh": "A rainbow appeared in the sky{{C0}}on {{C1}} team's side!"
+ },
+ {
+  "id": "0051D908",
+  "zh": "所有能力提升效果消失了!"
+ },
+ {
+  "id": "0051D928",
+  "zh": "{{C0}} blew away{{C1}}蔓延荆棘!"
+ },
+ {
+  "id": "0051D948",
+  "zh": "Vicious thorns dug into{{C0}}{{C1}}!"
+ },
+ {
+  "id": "0051D964",
+  "zh": "Vicious thorns sprout around{{C0}}{{C1}} team!"
+ },
+ {
+  "id": "0051D98C",
+  "zh": "{{C0}}'s {{C1}} lost{{C2}}all of its PP to Ill Will!"
+ },
+ {
+  "id": "0051D9B4",
+  "zh": "{{C0}} became fully{{C1}}charged!"
+ },
+ {
+  "id": "0051D9D0",
+  "zh": "{{C0}} ate its {{C1}}!"
+ },
+ {
+  "id": "0051D9E0",
+  "zh": "{{C0}}是{{C1}}being salt cured!"
+ },
+ {
+  "id": "0051D9F8",
+  "zh": "{{C0}}是{{C1}}coated in sticky candy syrup!"
+ },
+ {
+  "id": "0051DA1C",
+  "zh": "{{C0}} acquired{{C1}}{{C2}}!"
+ },
+ {
+  "id": "0051DA2C",
+  "zh": "{{C0}}'s team{{C1}}acquired {{C2}}!"
+ },
+ {
+  "id": "0051DA44",
+  "zh": "{{C0}} hops inside{{C1}}{{C2}}'s mouth!"
+ },
+ {
+  "id": "0051DA60",
+  "zh": "{{C0}} returns{{C1}}to 战场!"
+ },
+ {
+  "id": "0051DA80",
+  "zh": "{{C0}} refuses{{C1}}to flee!"
+ },
+ {
+  "id": "0051DA94",
+  "zh": "{{C0}} charges{{C1}}onto 战场!"
+ },
+ {
+  "id": "0051DAB8",
+  "zh": "{{C0}} arrives{{C1}}on the scene!"
+ },
+ {
+  "id": "0051DAD4",
+  "zh": "{{C0}} prepares{{C1}}a powerful attack!"
+ },
+ {
+  "id": "0051DAF4",
+  "zh": "{{C0}}是{{C1}}pulling out all the stops!"
+ },
+ {
+  "id": "0051DB18",
+  "zh": "The dimensions became{{C0}}twisted!"
+ },
+ {
+  "id": "0051DB38",
+  "zh": "The type effectiveness{{C0}}were inverted!"
+ },
+ {
+  "id": "0051DB60",
+  "zh": "A bizzarre是a was{{C0}}created!"
+ },
+ {
+  "id": "0051DB80",
+  "zh": "A bizzarre是a was{{C0}}created!"
+ },
+ {
+  "id": "0051DBA0",
+  "zh": "{{C0}}'s Origin Reversion!{{C1}}It regained its origin form!"
+ },
+ {
+  "id": "0051DBD4",
+  "zh": "{{C0}}'s Restoration!{{C1}}It's restored to its former glory!"
+ },
+ {
+  "id": "0051DC0C",
+  "zh": "迷雾弥漫{{C0}}"
+ },
+ {
+  "id": "0051DC20",
+  "zh": "The fog was blown away{{C0}}by 清除浓雾!"
+ },
+ {
+  "id": "0051DC44",
+  "zh": "{{C0}}'s ability{{C1}}gave {{C2}} frostbite!"
+ },
+ {
+  "id": "0051DC64",
+  "zh": "{{C0}}'s ability{{C1}}made {{C2}} bleed!"
+ },
+ {
+  "id": "0051DC80",
+  "zh": "{{C0}} was trapped by{{C1}}打雷 Cage!"
+ },
+ {
+  "id": "0051DCA0",
+  "zh": "{{C0}} was trapped by{{C1}}a 捕兽夹!"
+ },
+ {
+  "id": "0051DCC0",
+  "zh": "{{C0}} absorbed{{C1}}electricity!"
+ },
+ {
+  "id": "0051DCDC",
+  "zh": "戏法 Room和奇妙空间 will alternate{{C0}}each turn for the rest of the battle!"
+ },
+ {
+  "id": "0051DD2C",
+  "zh": "Super Effective moves will do neutral damage.{{C0}}格斗 moves是 boosted, status moves{{C1}}are disabled和you can't switch!"
+ },
+ {
+  "id": "0051DDA8",
+  "zh": "A mysterious air current是 protecting 飞行{{C0}}type 宝可梦和boosting the Champion's{{C1}}team Speed! 戏法 Room has no effect!"
+ },
+ {
+  "id": "0051DE28",
+  "zh": "The field是 full of 剧毒 Waste!{{C0}}The Champion's team will receive{{C1}}reduced damage!"
+ },
+ {
+  "id": "0051DE7C",
+  "zh": "All the flying 宝可梦 can't stay in the air!{{C0}}The Champion's team gets reduced damage{{C1}}from Super-Effective moves!"
+ },
+ {
+  "id": "0051DEF0",
+  "zh": "The Champion's team是 immune to 岩石-type{{C0}}moves, deals super-effective damage to{{C1}}岩石-types,和你的 team是 salt cured!"
+ },
+ {
+  "id": "0051DF6C",
+  "zh": "There seems to be a permanent infestation{{C0}}on 你的 field side!"
+ },
+ {
+  "id": "0051DFAC",
+  "zh": "你的队伍全部被诅咒了!"
+ },
+ {
+  "id": "0051DFCC",
+  "zh": "The champion's team breaks the mold{{C0}}and both sides have reduced damage!"
+ },
+ {
+  "id": "0051E014",
+  "zh": "阳光变得极其刺眼!"
+ },
+ {
+  "id": "0051E03C",
+  "zh": "An extremely heavy rain started and{{C0}}你的 team是 swamped!"
+ },
+ {
+  "id": "0051E078",
+  "zh": "场地变得诡异了!,{{C0}}冠军的队伍 will get reduced damage!"
+ },
+ {
+  "id": "0051E0C0",
+  "zh": "场地变得诡异了!,{{C0}}冠军的队伍 will get reduced damage!"
+ },
+ {
+  "id": "0051E108",
+  "zh": "场地变得诡异了!,{{C0}}冠军的队伍 will get reduced damage!"
+ },
+ {
+  "id": "0051E150",
+  "zh": "The Champion's team will boost{{C0}}their speed和attack with it!"
+ },
+ {
+  "id": "0051E190",
+  "zh": "The Champion's team是 intimidating 你的{{C0}}whole team, they can bypass 你的 immunities!"
+ },
+ {
+  "id": "0051E1E8",
+  "zh": "你的 whole team became a睡眠!"
+ },
+ {
+  "id": "0051E208",
+  "zh": "场地变得诡异了!,{{C0}}冠军的队伍 妖精 moves will{{C1}}hit 毒和钢-types Super Effectively!"
+ },
+ {
+  "id": "0051E278",
+  "zh": "{{C0}}是 coated{{C1}}in parasitic spores!"
+ },
+ {
+  "id": "0051E29C",
+  "zh": "{{C0}} spreads its{{C1}}spores to {{C2}}."
+ },
+ {
+  "id": "0051E2BC",
+  "zh": "{{C0}} {{C1}} was hurt{{C2}}by its parasitic spores!"
+ },
+ {
+  "id": "0051E2E4",
+  "zh": "{{C0}}'s critical{{C1}}hit chance wont go any higher!"
+ },
+ {
+  "id": "0051E314",
+  "zh": "{{C0}}'s critical{{C1}}hit chance rose!"
+ },
+ {
+  "id": "0051E334",
+  "zh": "{{C0}}'s critical{{C1}}hit chance sharply rose!"
+ },
+ {
+  "id": "0051E35C",
+  "zh": "{{C0}} maxed{{C1}}its critical hit chance!"
+ },
+ {
+  "id": "0051E380",
+  "zh": "{{C0}}是 filled{{C1}}with fear!"
+ },
+ {
+  "id": "0051E398",
+  "zh": "{{C0}} transmutes{{C1}}{{C2}}'s lost item!"
+ },
+ {
+  "id": "0051E3B8",
+  "zh": "It turned into sludge..."
+ },
+ {
+  "id": "0051E3D4",
+  "zh": "It turned into gold!"
+ },
+ {
+  "id": "0051E3EC",
+  "zh": "The normalization of time comes{{C0}}to an end!"
+ },
+ {
+  "id": "0051E418",
+  "zh": "诡异的迷雾消散了!"
+ },
+ {
+  "id": "0051E434",
+  "zh": "{{C0}} cloaks{{C1}}己方队伍 in a smokescreen!"
+ },
+ {
+  "id": "0051E45C",
+  "zh": "场地发生了异常变化。"
+ },
+ {
+  "id": "0051E484",
+  "zh": "{{C0}}'s {{C1}} steadily increases."
+ },
+ {
+  "id": "0051E4A0",
+  "zh": "{{C0}} positioned itself to {{C1}},{{C2}}its usual {{C3}} increased by {{C4}}%."
+ },
+ {
+  "id": "0051E4DC",
+  "zh": "Some of 你的 team members是 affected by{{C0}}{{C1}}."
+ },
+ {
+  "id": "0051E50C",
+  "zh": "{{C0}} will not accept defeat!{{C1}}And its stats increase sharply."
+ },
+ {
+  "id": "0051E548",
+  "zh": "{{C0}} picked up a mat block{{C1}}to use as cover this turn."
+ },
+ {
+  "id": "0051E57C",
+  "zh": "Woe {{C0}} be upon ye."
+ },
+ {
+  "id": "0051E590",
+  "zh": "{{C0}} was foresighted."
+ },
+ {
+  "id": "0051E5A4",
+  "zh": "{{C0}}'s active 宝可梦是 unable to{{C1}}use items for {{C2}} turns."
+ },
+ {
+  "id": "0051E5E0",
+  "zh": "{{C0}}'s team had its power points of{{C1}}protect drained."
+ },
+ {
+  "id": "0051E614",
+  "zh": "The winds cause {{C0}}{{C1}}to be smacked down."
+ },
+ {
+  "id": "0051E63C",
+  "zh": "A defensive screen was set on {{C0}}{{C1}}team for {{C2}} turns."
+ },
+ {
+  "id": "0051E670",
+  "zh": "A spe. defensive screen was set on {{C0}}{{C1}}team for {{C2}} turns."
+ },
+ {
+  "id": "0051E6AC",
+  "zh": "A lucky chant was set on {{C0}}{{C1}}team for {{C2}} turns."
+ },
+ {
+  "id": "0051E6DC",
+  "zh": "Permanent wide guard has been casted on{{C0}}{{C1}}'s team"
+ },
+ {
+  "id": "0051E710",
+  "zh": "{{C0}}'s resolve{{C1}}fades due to the Eerie Fog!"
+ },
+ {
+  "id": "0051E73C",
+  "zh": "{{C0}} looks{{C1}}for the perfect opportunity!"
+ },
+ {
+  "id": "0051E764",
+  "zh": "An unnatural fog descends upon{{C0}}战场!"
+ },
+ {
+  "id": "0051E794",
+  "zh": "{{C0}}'s inner{{C1}}flame roars to life!"
+ },
+ {
+  "id": "0051E7B4",
+  "zh": "诡异的迷雾回来了!"
+ },
+ {
+  "id": "0051E7CC",
+  "zh": "{{C0}} fades{{C1}}back into the fog!"
+ },
+ {
+  "id": "0051E7E8",
+  "zh": "{{C0}} was hurt{{C1}}by the Funeral Pyre!"
+ },
+ {
+  "id": "0051E80C",
+  "zh": "{{C0}} lights{{C1}}a Funeral Pyre!"
+ },
+ {
+  "id": "0051E828",
+  "zh": "{{C0}} won't{{C1}}back down from a fight!"
+ },
+ {
+  "id": "0051E84C",
+  "zh": "{{C0}} acquired {{C1}}!"
+ },
+ {
+  "id": "0051E85C",
+  "zh": "{{C0}} falls{{C1}}back to the ground."
+ },
+ {
+  "id": "0051E87C",
+  "zh": "{{C0}} carries{{C1}}{{C2}} into the sky!"
+ },
+ {
+  "id": "0051E898",
+  "zh": "{{C0}}是 stuck{{C1}}in the air!"
+ },
+ {
+  "id": "0051E8B0",
+  "zh": "对手的能力提升效果消失了!"
+ },
+ {
+  "id": "0051E8D8",
+  "zh": "{{C0}} offers{{C1}}{{C2}} a cup of tea!"
+ },
+ {
+  "id": "0051E8F4",
+  "zh": "{{C0}} can't be{{C1}}healed!"
+ },
+ {
+  "id": "0051E908",
+  "zh": "{{C0}} gets a{{C1}}restraining order!"
+ },
+ {
+  "id": "0051E928",
+  "zh": "{{C0}} breaks{{C1}}{{C2}}'s protection!"
+ },
+ {
+  "id": "0051E944",
+  "zh": "{{C0}} shatters{{C1}}{{C2}}'s screens!"
+ },
+ {
+  "id": "0051E960",
+  "zh": "{{C0}} destroys{{C1}}{{C2}}'s substitute!"
+ },
+ {
+  "id": "0051E980",
+  "zh": "A thick smoke covers{{C0}}{{C1}}'s side!"
+ },
+ {
+  "id": "0051E9A0",
+  "zh": "{{C0}} throws{{C1}}hot coals over 对手一侧!"
+ },
+ {
+  "id": "0051E9D0",
+  "zh": "{{C0}}是 灼伤ed{{C1}}by the hot coals!"
+ },
+ {
+  "id": "0051E9F0",
+  "zh": "煤炭的热量消退了!"
+ },
+ {
+  "id": "0051EA10",
+  "zh": "{{C0}}'s {{C1}}{{C2}}was disabled!"
+ },
+ {
+  "id": "0051EA28",
+  "zh": "The strain takes its toll on{{C0}}{{C1}}!"
+ },
+ {
+  "id": "0051EA4C",
+  "zh": "{{C0}} has no more{{C1}}darkness left!"
+ },
+ {
+  "id": "0051EA6C",
+  "zh": "天空放晴了!"
+ },
+ {
+  "id": "0051EA84",
+  "zh": "天气恢复正常了!"
+ },
+ {
+  "id": "0051EAA4",
+  "zh": "{{C0}}是 dazed{{C1}}by the blow!"
+ },
+ {
+  "id": "0051EAC0",
+  "zh": "The warped dimensions were{{C0}}returned to normal!"
+ },
+ {
+  "id": "0051EAF0",
+  "zh": "{{C0}} becomes{{C1}}anxious!"
+ },
+ {
+  "id": "0051EB04",
+  "zh": "{{C0}}'s {{C1}}{{C2}}suddenly flies away!"
+ },
+ {
+  "id": "0051EB24",
+  "zh": "Razor sharp caltrops were scattered{{C0}}all around 对手一侧!"
+ },
+ {
+  "id": "0051EB68",
+  "zh": "The caltrops tear into{{C0}}{{C1}}!"
+ },
+ {
+  "id": "0051EB84",
+  "zh": "铁蒺藜被磨钝了!"
+ },
+ {
+  "id": "0051EBA0",
+  "zh": "{{C0}} blew away{{C1}}hot coals!"
+ },
+ {
+  "id": "0051EBB8",
+  "zh": "{{C0}} blew away{{C1}}caltrops!"
+ },
+ {
+  "id": "0051EBD0",
+  "zh": "{{C0}} destroyed{{C1}}{{C2}}'s {{C3}}!"
+ },
+ {
+  "id": "0051EBE8",
+  "zh": "{{C0}} swapped with{{C1}}{{C2}}!"
+ },
+ {
+  "id": "0051EBFC",
+  "zh": "{{C0}} shields{{C1}}己方队伍 from priority!"
+ },
+ {
+  "id": "0051EC24",
+  "zh": "{{C0}}是 出血!"
+ },
+ {
+  "id": "0051EC34",
+  "zh": "{{C0}}是 trapped!"
+ },
+ {
+  "id": "0051EC44",
+  "zh": "{{C0}} found some{{C1}}{{C2}}!"
+ },
+ {
+  "id": "0051EC58",
+  "zh": "{{C0}} drains{{C1}}{{C2}}'s health!"
+ },
+ {
+  "id": "0051EC70",
+  "zh": "{{C0}} wakes up{{C1}}enraged!"
+ },
+ {
+  "id": "0051EC88",
+  "zh": "{{C0}} readies{{C1}}their blade!"
+ },
+ {
+  "id": "0051ECA0",
+  "zh": "{{C0}}'s {{C1}}{{C2}}prevents its stats from lowering!"
+ },
+ {
+  "id": "0051ECCC",
+  "zh": "{{C0}}'s type{{C1}}changed to {{C2}}!"
+ },
+ {
+  "id": "0051ECE8",
+  "zh": "{{C0}} regained{{C1}}health!"
+ },
+ {
+  "id": "0051ECFC",
+  "zh": "{{C0}}是 scorched{{C1}}by the flames!"
+ },
+ {
+  "id": "0051ED1C",
+  "zh": "火焰吞噬了战场!"
+ },
+ {
+  "id": "0051ED3C",
+  "zh": "{{C0}} peers{{C1}}into the future!"
+ },
+ {
+  "id": "0051ED58",
+  "zh": "剧毒 spikes rain down on{{C0}}对手一侧!"
+ },
+ {
+  "id": "0051ED88",
+  "zh": "{{C0}}'s type{{C1}}returns to normal!"
+ },
+ {
+  "id": "0051EDA8",
+  "zh": "剧毒 sludge covers 战场!"
+ },
+ {
+  "id": "0051EDD0",
+  "zh": "The sludge disappeared{{C0}}from 战场."
+ },
+ {
+  "id": "0051EE00",
+  "zh": "{{C0}} was damaged{{C1}}by the toxic terrain!"
+ },
+ {
+  "id": "0051EE28",
+  "zh": "{{C0}} absorbs{{C1}}the Stealth 岩石s!"
+ },
+ {
+  "id": "0051EE48",
+  "zh": "Evasion Clause prevents{{C0}}selecting this move!{{C1}}"
+ },
+ {
+  "id": "0051EE78",
+  "zh": "The current fight prevents{{C0}}selecting this move!{{C1}}"
+ },
+ {
+  "id": "0051EEAC",
+  "zh": "A bitter chill envelops{{C0}}战场!"
+ },
+ {
+  "id": "0051EED8",
+  "zh": "{{C0}} was hurt{{C1}}by the bitter cold!"
+ },
+ {
+  "id": "0051EEF8",
+  "zh": "{{C0}}是{{C1}}rebooting!"
+ },
+ {
+  "id": "0051EF0C",
+  "zh": "{{C0}}'s team是 protected by{{C1}}进化奇石."
+ },
+ {
+  "id": "0051EF30",
+  "zh": "{{C0}}'s team gained the{{C1}}ability {{C2}}."
+ },
+ {
+  "id": "0051EF54",
+  "zh": "{{C0}}'s team gained the{{C1}}ability {{C2}}."
+ }
+]

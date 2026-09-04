@@ -141,7 +141,7 @@ function extractRegion(rom, start, len, charmap, minChars, maxLen, noHan) {
 	let p = start;
 	const end = Math.min(start + len, rom.length);
 	while (p < end) {
-		const r = decode(rom, p, charmap, { stopAtFF: true, maxLen, noHan });
+		const r = decode(rom, p, charmap, { stopAtFF: true, maxLen, noHan, escPrefix: config.escPrefix });
 		if (r.terminated && !r.invalid && r.end > p) {
 			const contentLen = [...r.text].length;
 			const hasContent = [...r.text].some(c => !/^\[.*\]$/.test(c));   // 排除纯控制码
@@ -236,18 +236,33 @@ function cmdAdd(args) {
 	const found = [];
 	for (const a of addrs) {
 		const off = toFileOffset(a);
-		const r = decode(rom, off, charmap, { stopAtFF: true, maxLen: 0x400 });
+		// noHan 默认开启（与 dump 一致）：英文基板下禁用汉字双字节，避免 03C9=菲 vs 03=Â+相9 的歧义噪声；--han 可关闭
+		const r = decode(rom, off, charmap, { stopAtFF: true, maxLen: 0x400, noHan: !args.han, escPrefix: config.escPrefix });
 		if (!r.terminated || r.invalid) {
 			console.error(`✘ 0x${off.toString(16)}: 不是有效字符串（invalid=${r.invalid} terminated=${r.terminated}），跳过`);
 			continue;
 		}
 		found.push({ fileOff: off, text: r.text, byteLen: r.end - off + 1 });
 	}
-	const { rows, added, kept, conflicted } = mergeRows(oldRows, found, scene);
+	// ★add = 非破坏性登记：只新增/更新目标行，绝不能把未扫到的行标成孤儿冲突
+	//   （否则 insert 已回填中文后英文原串消失，全表会被误标 conflict）
+	const oldById = new Map(oldRows.map(r => [r.id, r]));
+	let added = 0, kept = 0;
+	const rows = oldRows.slice();
+	for (const n of found) {
+		const id = hexId(n.fileOff);
+		const prev = oldById.get(id);
+		if (prev) {
+			kept++;
+			continue;
+		}
+		rows.push(makeRow(n, scene));
+		added++;
+	}
 	saveSceneRows(paths, scene, rows);
 	registerScene(config, scene, { type: 'add', addrs: addrs.join(','), strings: found.length });
 	fs.writeFileSync(paths.config, JSON.stringify(config, null, 2));
-	console.log(`✔ 场景 ${scene}: 登记 ${found.length} 条 | 新增 ${added} | 保留 ${kept} | 冲突 ${conflicted}`);
+	console.log(`✔ 场景 ${scene}: 登记 ${found.length} 条 | 新增 ${added} | 保留 ${kept}`);
 }
 
 /* ---------------- probe：文本区密度探测 ---------------- */
@@ -342,7 +357,7 @@ function cmdDump(args) {
 		// 指针表自身/代码也会被当 target——解码校验过滤
 		// r = decode(rom, target, charmap, { stopAtFF: true, maxLen });
 		// lang=en（英文基板）→ noHan：禁用汉字双字节，消除 05b8=纪 与 05=È+b8=, 的歧义
-		const r = decode(rom, target, charmap, { stopAtFF: true, maxLen, noHan: lang === 'en' });
+		const r = decode(rom, target, charmap, { stopAtFF: true, maxLen, noHan: lang === 'en', escPrefix: config.escPrefix });
 		if (!r.terminated || r.invalid || r.end === target) { rejectedBad++; continue; }
 		const text = r.text;
 		const hasWord = /[A-Za-z]{2,}|[\u4e00-\u9fff]/.test(text);
@@ -365,7 +380,7 @@ function cmdDump(args) {
 			let s = f.fileOff - 1;
 			while (s > 0 && f.fileOff - s < 0x200 && rom[s] !== TERMINATOR) s--;
 			if (s >= 0 && rom[s] === TERMINATOR) {
-				const full = decode(rom, s + 1, charmap, { stopAtFF: true, maxLen, noHan: lang === 'en' });
+				const full = decode(rom, s + 1, charmap, { stopAtFF: true, maxLen, noHan: lang === 'en', escPrefix: config.escPrefix });
 				if (full.terminated && !full.invalid &&
 					full.text.trimStart().length > f.text.trimStart().length) {
 					droppedAlias++; continue;   // 完整串更长 → 本条是中段别名

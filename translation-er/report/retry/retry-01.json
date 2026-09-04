@@ -1,0 +1,6476 @@
+{
+ "count": 150,
+ "tasks": [
+  {
+   "id": "002A1BA4",
+   "en": "Enable Individually-Unique Pokémon?{{C0}}All credit goes to codes for the patch.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "启用独立个性化宝可梦?[/n]补丁制作感谢 codes.",
+   "prevErrs": [
+    "残留英文未翻译: codes"
+   ]
+  },
+  {
+   "id": "002A3C4F",
+   "en": "Need help? The Wiki has answers!{{C0}}Access it from the Start Menu{{C1}}and select 'Wiki'.{{C2}}It covers abilities, moves,{{C3}}items, and gameplay tips!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "需要帮助? Wiki有答案![/p]从开始菜单中[/n]选择Wiki来访问.[/p]涵盖了特性、招式、[/n]道具和游戏攻略!",
+   "prevErrs": [
+    "残留英文未翻译: wiki"
+   ]
+  },
+  {
+   "id": "002AFBB3",
+   "en": "Trainer Tips{{C0}}The items in the Bag can be reorganized{{C1}}by pressing Select.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "训练家提示[/p]按Select键可以重新整理[/n]背包里的道具",
+   "prevErrs": [
+    "残留英文未翻译: select"
+   ]
+  },
+  {
+   "id": "002B1149",
+   "en": "I challenged the Winstrate family,{{C0}}but four matches in a row is tough{{C1}}going{{C2}} They destroyed me.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "我挑战了Winstrate家族,[/n]但连续四场对战真的很累[/l][...]他们把我踩得很惨",
+   "prevErrs": [
+    "残留英文未翻译: winstrate"
+   ]
+  },
+  {
+   "id": "002B2A38",
+   "en": "Trainer Tips{{C0}}You may register one of the Key Items{{C1}}in your Bag as Select.{{C2}}Simply press Select to use{{C3}}the registered item conveniently.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "训家提示[/p]你可以注册背包里的一个关键道具为Select键。[/n][/p]只要按Select键就能方便地使用注册的道具[/n]",
+   "prevErrs": [
+    "残留英文未翻译: select"
+   ]
+  },
+  {
+   "id": "002B3B1B",
+   "en": "Feraligatr: Fera!",
+   "codes": [],
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Feraligatr→大力鳄"
+   ],
+   "prev": "大力鳄: Fera!",
+   "prevErrs": [
+    "残留英文未翻译: fera"
+   ]
+  },
+  {
+   "id": "002B3B3E",
+   "en": "Feraligatr: Fera...",
+   "codes": [],
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Feraligatr→大力鳄"
+   ],
+   "prev": "大力鳄: Fera...",
+   "prevErrs": [
+    "残留英文未翻译: fera"
+   ]
+  },
+  {
+   "id": "002B4995",
+   "en": "Nnn{{C0}} Roar!{{C1}}I want to dig that tunnel!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Roar→吼叫",
+    "Dig→挖洞"
+   ],
+   "prev": "Nnn[...] 吼叫![/p]I want to dig that tunnel!",
+   "prevErrs": [
+    "残留英文未翻译: want that tunnel"
+   ]
+  },
+  {
+   "id": "002B4B16",
+   "en": "Nnn{{C0}} Roar!{{C1}}That goofy goon hightailed it out of{{C2}}the tunnel! I can go back to digging!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Roar→吼叫"
+   ],
+   "prev": "Nnn[...] 吼叫![/p]That goofy goon hightailed it out of[/n]the tunnel! I can go back to digging!",
+   "prevErrs": [
+    "残留英文未翻译: that goofy goon hightailed tunnel back digging"
+   ]
+  },
+  {
+   "id": "002B4D7C",
+   "en": "You'll also need a Keystone to use{{C0}}it, but I bet you already knew that!{{C1}}Please do try it out!{{C2}}Thank you and bye-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "You'll also need a 超能石 to use[/n]it, but I bet you already knew that![/p]Please do try it out![/n]Thank you and bye-bye!",
+   "prevErrs": [
+    "残留英文未翻译: also need already knew that please thank"
+   ]
+  },
+  {
+   "id": "002B4DF1",
+   "en": "Your Bag is jam-packed.{{C0}}I can't give you this Aggronite.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aggronite→波士可多拉进化石",
+    "Jam→莓果酱"
+   ],
+   "prev": "Your Bag is jam-packed.[/n]I can't give you this 波士可多拉ite.",
+   "prevErrs": [
+    "残留英文未翻译: your packed give this"
+   ]
+  },
+  {
+   "id": "002B4F05",
+   "en": "Hmm{{C0}}{{C1}}These are BlackGlasses.{{C2}}They're not what I'm looking for{{C3}}{{C4}}Maybe my glasses aren't around{{C5}}here{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hmm[...][/n]These are 黑眼镜.[/l]They're not what I'm looking for[...][/p]Maybe my glasses aren't around[/n]here[...]",
+   "prevErrs": [
+    "残留英文未翻译: these they what looking maybe glasses aren around here"
+   ]
+  },
+  {
+   "id": "002B4FAF",
+   "en": "Hmm{{C0}}{{C1}}These are BlackGlasses.{{C2}}They're not what I'm looking for{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hmm[...][/n]These are 黑眼镜.[/l]They're not what I'm looking for[...]",
+   "prevErrs": [
+    "残留英文未翻译: these they what looking"
+   ]
+  },
+  {
+   "id": "002B4FEE",
+   "en": "Route 116{{C0}}{{C1}} Rustboro City",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[L]"
+    ]
+   ],
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 11→１１号道路"
+   ],
+   "prev": "11号道路6[/n][L] Rustboro City",
+   "prevErrs": [
+    "残留英文未翻译: rustboro city"
+   ]
+  },
+  {
+   "id": "002B563E",
+   "en": "Ah, young trainer, your potential shines{{C0}}through the shadows like a glimmering{{C1}}light. I can sense it: the Creation Trio{{C2}}has deemed you worthy of their time.{{C3}}Use your DexNav to meet them.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤93字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, young trainer, your potential shines[/n]through the shadows like a glimmering[/l]light. I can sense it: the Creation Trio[/l]has deemed you worthy of their time.[/l]Use your 宝可图鉴导航 to meet them.",
+   "prevErrs": [
+    "残留英文未翻译: young trainer your potential shines through shadows like glimmering light sense creation trio deemed worthy their time meet them"
+   ]
+  },
+  {
+   "id": "002B5784",
+   "en": "Take this Pokémon from Galar. You can{{C0}}have as many of them as you like!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤35字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galar→伽勒尔"
+   ],
+   "prev": "Take this Pokémon from 伽勒尔. You can[/n]have as many of them as you like!",
+   "prevErrs": [
+    "残留英文未翻译: take this from have many them like"
+   ]
+  },
+  {
+   "id": "002B581B",
+   "en": "If you can beat all trainers here, I will{{C0}}give you an exotic Pokémon from the{{C1}}Galar region: a valiant wielder of{{C2}}longswords!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galar→伽勒尔"
+   ],
+   "prev": "If you can beat all trainers here, I will[/n]give you an exotic Pokémon from the[/l]伽勒尔 region: a valiant wielder of[/l]longswords!",
+   "prevErrs": [
+    "残留英文未翻译: beat trainers here will give exotic from region valiant wielder longswords"
+   ]
+  },
+  {
+   "id": "002B5A6A",
+   "en": "{{C0}} got an {{C1}}Aggron{{C2}} as a gift!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ]
+   ],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aggron→波士可多拉"
+   ],
+   "prev": "[玩家] got an [文本色08]波士可多拉[文本色02] as a gift!",
+   "prevErrs": [
+    "残留英文未翻译: gift"
+   ]
+  },
+  {
+   "id": "002B5D31",
+   "en": "I left my Pokémon at the Day Care.{{C0}}When I got it back, it had a new move{{C1}}that I didn't teach it.{{C2}}I was really, really surprised.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "I left my Pokémon at the 宠物心爱.[/p]When I got it back, it had a new move[/n]that I didn't teach it.[/l]I was really, really surprised.",
+   "prevErrs": [
+    "残留英文未翻译: left when back move that didn teach really surprised"
+   ]
+  },
+  {
+   "id": "002B5E0D",
+   "en": "Route 117{{C0}}{{C1}} Verdanturf Town",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[L]"
+    ]
+   ],
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 11→１１号道路"
+   ],
+   "prev": "11号道路7[/n][L] Verdanturf Town",
+   "prevErrs": [
+    "残留英文未翻译: verdanturf town"
+   ]
+  },
+  {
+   "id": "002B5E29",
+   "en": "Route 117{{C0}}{{C1}} Mauville City",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[R]"
+    ]
+   ],
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 11→１１号道路"
+   ],
+   "prev": "11号道路7[/n][R] Mauville City",
+   "prevErrs": [
+    "残留英文未翻译: mauville city"
+   ]
+  },
+  {
+   "id": "002B5E43",
+   "en": "Pokémon Day Care{{C0}}“Let us raise your Pokémon.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Pokémon 宠物心爱[/n]“Let us raise your Pokémon.”",
+   "prevErrs": [
+    "残留英文未翻译: raise your"
+   ]
+  },
+  {
+   "id": "002B645B",
+   "en": "The might of Justice and purpouse{{C0}}shines brightly inside your soul. No one{{C1}}is more worthy of meeting Darkrai,{{C2}}Cresselia and Keldeo than you. Use your{{C3}}DexNav to discover their precise{{C4}}location. Which side of their conflict{{C5}}will you choose?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤119字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cresselia→克雷色利亚",
+    "Darkrai→达克莱伊",
+    "Keldeo→凯路迪欧"
+   ],
+   "prev": "The might of Justice and purpouse[/n]shines brightly inside your soul. No one[/l]is more worthy of meeting 达克莱伊,[/l]克雷色利亚 and 凯路迪欧 than you. Use your[/l]宝可图鉴导航 to discover their precise[/l]location. Which side of their conflict[/l]will you choose?",
+   "prevErrs": [
+    "残留英文未翻译: might justice purpouse shines brightly inside your soul more worthy meeting than discover their precise location which side conflict will choose"
+   ]
+  },
+  {
+   "id": "002B654A",
+   "en": "I see a star on that trainer card... you{{C0}}have become champion, haven't you?{{C1}}Keldeo, Darkrai and Cresselia are almost{{C2}}among us. Just defeat these last few{{C3}}trainers and you'll be able to meet{{C4}}them.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cresselia→克雷色利亚",
+    "Darkrai→达克莱伊",
+    "Keldeo→凯路迪欧"
+   ],
+   "prev": "I see a star on that trainer card... you[/n]have become champion, haven't you?[/l]凯路迪欧, 达克莱伊 and 克雷色利亚 are almost[/l]among us. Just defeat these last few[/l]trainers and you'll be able to meet[/l]them.",
+   "prevErrs": [
+    "残留英文未翻译: star that trainer card have become champion haven almost among just defeat these last trainers able meet them"
+   ]
+  },
+  {
+   "id": "002B66BD",
+   "en": "{{C0}} got an {{C1}}Applin{{C2}} as a gift for{{C3}}defeating every trainer here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Applin→啃果虫"
+   ],
+   "prev": "[玩家] got an [文本色08]啃果虫[文本色02] as a gift for[/n]defeating every trainer here!",
+   "prevErrs": [
+    "残留英文未翻译: gift defeating every trainer here"
+   ]
+  },
+  {
+   "id": "002B6A8B",
+   "en": "Do you like the Pokémon Magikarp?",
+   "codes": [],
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magikarp→鲤鱼王"
+   ],
+   "prev": "Do you like the Pokémon 鲤鱼王?",
+   "prevErrs": [
+    "残留英文未翻译: like"
+   ]
+  },
+  {
+   "id": "002B6AAD",
+   "en": "Oh{{C0}} That's disappointing.{{C1}}I was hoping you were a fellow{{C2}}Magikarp aficionado{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magikarp→鲤鱼王"
+   ],
+   "prev": "Oh[...] That's disappointing.[/n]I was hoping you were a fellow[/l]鲤鱼王 aficionado[...]",
+   "prevErrs": [
+    "残留英文未翻译: that disappointing hoping were fellow aficionado"
+   ]
+  },
+  {
+   "id": "002B6C48",
+   "en": "Hmm{{C0}} You don't have enough Magikarp{{C1}}to challenge me.{{C2}}Please come back once you've fished up{{C3}}a full team of them!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magikarp→鲤鱼王"
+   ],
+   "prev": "Hmm[...] You don't have enough 鲤鱼王[/n]to challenge me.[/p]Please come back once you've fished up[/n]a full team of them!",
+   "prevErrs": [
+    "残留英文未翻译: have enough challenge please come back once fished full team them"
+   ]
+  },
+  {
+   "id": "002B6CD1",
+   "en": "Ah! Your love for Magikarp is clear!",
+   "codes": [],
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magikarp→鲤鱼王"
+   ],
+   "prev": "Ah! Your love for 鲤鱼王 is clear!",
+   "prevErrs": [
+    "残留英文未翻译: your love clear"
+   ]
+  },
+  {
+   "id": "002B6CF6",
+   "en": "Here, take this special Magikarp.{{C0}}You earned it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magikarp→鲤鱼王"
+   ],
+   "prev": "Here, take this special 鲤鱼王.[/n]You earned it!",
+   "prevErrs": [
+    "残留英文未翻译: here take this special earned"
+   ]
+  },
+  {
+   "id": "002B6D27",
+   "en": "Gyarados might not be Magikarp, but{{C0}}it's almost as good!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magikarp→鲤鱼王",
+    "Gyarados→暴鲤龙"
+   ],
+   "prev": "暴鳄龙 might not be 鲤鱼王, but[/n]it's almost as good!",
+   "prevErrs": [
+    "残留英文未翻译: might almost good"
+   ]
+  },
+  {
+   "id": "002B6F1D",
+   "en": "Hmm!{{C0}}A Good Rod is really good!{{C1}}Wouldn't you agree?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Good Rod→好钓竿"
+   ],
+   "prev": "Hmm![/n]A 好钓竿 is really good![/p]Wouldn't you agree?",
+   "prevErrs": [
+    "残留英文未翻译: really good wouldn agree"
+   ]
+  },
+  {
+   "id": "002B6F51",
+   "en": "Hmm!{{C0}}We're of identical minds!{{C1}}Hmm!{{C2}}Take this Good Rod!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Good Rod→好钓竿"
+   ],
+   "prev": "Hmm![/n]We're of identical minds![/p]Hmm![/n]Take this 好钓竿!",
+   "prevErrs": [
+    "残留英文未翻译: identical minds take this"
+   ]
+  },
+  {
+   "id": "002B6FD3",
+   "en": "Try catching all sorts of Pokémon{{C0}}with your Good Rod.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Good Rod→好钓竿"
+   ],
+   "prev": "Try catching all sorts of Pokémon[/n]with your 好钓竿.",
+   "prevErrs": [
+    "残留英文未翻译: catching sorts with your"
+   ]
+  },
+  {
+   "id": "002B7009",
+   "en": "Even if there isn't a boat, you can{{C0}}cross rivers and the sea if you have{{C1}}a Pokémon that knows Surf.{{C2}}Pokémon can be counted on to do so{{C3}}much!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Surf→冲浪"
+   ],
+   "prev": "Even if there isn't a boat, you can[/n]cross rivers and the sea if you have[/l]a Pokémon that knows 冲浪.[/p]Pokémon can be counted on to do so[/n]much!",
+   "prevErrs": [
+    "残留英文未翻译: even there boat cross rivers have that knows counted much"
+   ]
+  },
+  {
+   "id": "002B7096",
+   "en": "Route 118{{C0}}{{C1}} Mauville City",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[L]"
+    ]
+   ],
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 11→１１号道路"
+   ],
+   "prev": "11号道路8[/n][L] Mauville City",
+   "prevErrs": [
+    "残留英文未翻译: mauville city"
+   ]
+  },
+  {
+   "id": "002B759B",
+   "en": "Your skills in battle have been tested,{{C0}}and you have succeded against all odds.{{C1}}Congratulations. Use your DexNav to{{C2}}finally meet these extraordinary{{C3}}protectors.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤80字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Your skills in battle have been tested,[/n]and you have succeded against all odds.[/l]Congratulations. Use your 宝可图鉴导航 to[/l]finally meet these extraordinary[/l]protectors.",
+   "prevErrs": [
+    "残留英文未翻译: your skills battle have been tested succeded against odds congratulations finally meet these extraordinary protectors"
+   ]
+  },
+  {
+   "id": "002B77B7",
+   "en": "{{C0}} got a {{C1}}Hatenna{{C2}} as a gift for{{C3}}defeating every trainer at the beach!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hatenna→迷布莉姆"
+   ],
+   "prev": "[玩家] got a [文本色08]迷布莉姆[文本色02] as a gift for[/n]defeating every trainer at the beach!",
+   "prevErrs": [
+    "残留英文未翻译: gift defeating every trainer beach"
+   ]
+  },
+  {
+   "id": "002B78C4",
+   "en": "{{C0}} got a {{C1}}Dracozolt{{C2}} as a gift{{C3}}for defeating the three regular{{C4}}trainers here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dracozolt→雷鸟龙"
+   ],
+   "prev": "[玩家] got a [文本色08]雷鸟龙[文本色02] as a gift[/n]for defeating the three regular[/l]trainers here!",
+   "prevErrs": [
+    "残留英文未翻译: gift defeating three regular trainers here"
+   ]
+  },
+  {
+   "id": "002B7992",
+   "en": "Steven: Hi, {{C0}}{{C1}} I hope you're{{C2}}ready. I upgraded my team after you{{C3}}defeated me last time...",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "After You→您先请"
+   ],
+   "prev": "Steven: Hi, [玩家][fd08] I hope you're[/n]ready. I upgraded my team after you[/l]defeated me last time...",
+   "prevErrs": [
+    "残留英文未翻译: steven hope ready upgraded team after defeated last time"
+   ]
+  },
+  {
+   "id": "002B7A62",
+   "en": "Hi {{C0}}, I see we meet again.{{C1}}Today, I took a little break by the sea,{{C2}}as I can't go to Route 109.{{C3}}Why? I can't stop being bothered by{{C4}}those reporters.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 10→１０号道路"
+   ],
+   "prev": "Hi [玩家], I see we meet again.[/n]Today, I took a little break by the sea,[/l]as I can't go to 1号道路09.[/p]Why? I can't stop being bothered by[/n]those reporters.",
+   "prevErrs": [
+    "残留英文未翻译: meet again today took little break stop being bothered those reporters"
+   ]
+  },
+  {
+   "id": "002C122E",
+   "en": "It's a Nintendo GameCube.{{C0}}A Game Boy Advance is connected to{{C1}}serve as the Controller.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "这是一台任天堂GameCube。[/p]一台Game Boy Advance作为[/n]控制器连接着。",
+   "prevErrs": [
+    "残留英文未翻译: gamecube game advance"
+   ]
+  },
+  {
+   "id": "002DC253",
+   "en": "“S.S. ANNE{{C0}}“A replica of the luxury liner that{{C1}}circles the globe.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "“S.S. Anne[/p]“环游世界的[/n]豪华客轮的复制品。”",
+   "prevErrs": [
+    "残留英文未翻译: anne"
+   ]
+  },
+  {
+   "id": "00310074",
+   "en": "ons, one's a{{C0}}football player, and they've got{{C1}}nothing to do with each other!{{C2}}You seem like a smart fella, so no{{C3}}beating around the bush this time:{{C4}}become champion, beat every trainer,{{C5}}talk to me, use your DexNav, and pronto!{{C6}}Three legendaries for you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤125字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "一边是探险家, 一边是[/n]橄榄球运动员,[/l]他们之间毫无共同点![/p]你看起来是个聪明人, 所以这次[/n]就直说了:[/l]成为冠军, 打败每个训练家,[/l]来找我, 用你的 DexNav, 赶快![/l]三只传说宝可梦送给你!",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "00310170",
+   "en": "Poipole, Naganadel and Zeraora... done,{{C0}}your DexNav should show their location{{C1}}now. Good luck champ, let's leave this{{C2}}place!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poipole→毒贝比",
+    "Naganadel→四颚针龙",
+    "Zeraora→捷拉奥拉"
+   ],
+   "prev": "毒贝比, 四颚针龙和捷拉奥拉... 好了,[/n]你的 DexNav 现在应该显示它们的位置[/l]了。祝你好运, 冠军,[/l]我们离开这个地方吧!",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "003112D6",
+   "en": "Your spirit is aligned with the{{C0}}creatures residing in this place. They{{C1}}have allowed me to reveal their{{C2}}locations to you: I added their info to{{C3}}your DexNav. I can't wait to see your{{C4}}fight against them!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤100字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "你的意志与栖息在此的[/n]生灵相契合。它们[/l]允许我将它们的[/l]位置告知你: 我把它们的信息添加到了[/l]你的 DexNav 中。我迫不及待想看[/l]你与它们的对决!",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "00312284",
+   "en": "It is done: I have severed the Tapu's{{C0}}incantation holding The King hostage.{{C1}}Use your DexNav to meet him. Good luck.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "已经完成了: 我已经解除了[/n]束缚国王的卡璞咒术。[/l]用你的 DexNav 去见他吧。祝你好运。",
+   "prevErrs": [
+    "残留英文未翻译: dexnav"
+   ]
+  },
+  {
+   "id": "0033B69F",
+   "en": "What?{{C0}}You have no time for my advice?{{C1}}You should always be eager to learn{{C2}}from the experiences of your elders!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "什么?[/n]你没时间听我的建议?[/p]你应该Always虚心向[/n]前辈们学习经验!",
+   "prevErrs": [
+    "残留英文未翻译: always"
+   ]
+  },
+  {
+   "id": "0036AE6B",
+   "en": "Spectator: The {{C0}} remained{{C1}}consistent throughout both primary{{C2}}and secondary judging.{{C3}}{{C4}} and the {{C5}},{{C6}}they're no ordinary combo!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "观众: [buffer2]在整个初级评审和[/n]复审中始终如一。[/l][/p]和这个[buffer2],[buffer3]可不是[buffer2]一般的组合。",
+   "prevErrs": [
+    "token 不一致: 原[[/l]|[/n]|[/n]|[/p]|[buffer2]|[buffer2]|[buffer3]] 译[[/l]|[/n]|[/p]|[buffer2]|[buffer2]|[buffer2]|[buffer3]]"
+   ]
+  },
+  {
+   "id": "0036AEEA",
+   "en": "Spectator: In terms of being {{C0}},{{C1}}that {{C2}} was outstanding.{{C3}}I hope it makes better appeals{{C4}}next time, though.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "观众: 在[buffer1]方面,[/n]这个[buffer1]非常出色。[buffer2]希望下次表现赛[/p]能更好。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/p]|[buffer1]|[buffer2]] 译[[/n]|[/p]|[buffer1]|[buffer1]|[buffer2]]"
+   ]
+  },
+  {
+   "id": "0036B2F3",
+   "en": "Spectator: Oh{{C0}}{{C1}}That {{C2}}'s {{C3}}!{{C4}}{{C5}}'s {{C6}}!{{C7}}{{C8}}'s {{C9}}!{{C10}}How could it be so wonderful?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C10}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "观众: 哦[...][/n]那个[...]的[buffer2]![buffer3][/l]的[buffer2]![buffer3][/l]的[buffer2]![buffer3]怎么可以这么精彩?",
+   "prevErrs": [
+    "token 不一致: 原[[...]|[/l]|[/l]|[/l]|[/n]|[buffer2]|[buffer2]|[buffer2]|[buffer3]|[buffer3]|[buffer3]] 译[[...]|[...]|[/l]|[/l]|[/n]|[buffer2]|[buffer2]|[buffer2]|[buffer3]|[buffer3]|[buffer3]]"
+   ]
+  },
+  {
+   "id": "0036B340",
+   "en": "MC: Well, there you have it. This place{{C0}}is full of the {{C1}}'s fans!{{C2}}I should also mention that another{{C3}}Pokémon, {{C4}}'s {{C5}}, {{C6}}caught my eye.{{C7}}{{C8}}'s {{C9}}{{C10}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ]
+   ],
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "主持人: 好了, 大家看到了。[/n]这里全是[buffer1][/n]的粉丝![/p]我还想说, 另一只[/n]宝可梦, [buffer2][buffer3]的[/l], [/p]也抓住了[buffer2][buffer3]大家的心。",
+   "prevErrs": [
+    "token 不一致: 原[[...]|[/l]|[/n]|[/n]|[/p]|[/p]|[buffer1]|[buffer2]|[buffer2]|[buffer3]|[buffer3]] 译[[/l]|[/n]|[/n]|[/n]|[/p]|[/p]|[buffer1]|[buffer2]|[buffer2]|[buffer3]|[buffer3]]"
+   ]
+  },
+  {
+   "id": "0037AB2C",
+   "en": "In a sandstorm like this, I can't set{{C0}}the places for a picnic even with my{{C1}}Go-Goggles on{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sandstorm→沙暴",
+    "Go-Goggles→ＧＯＧＯ护目镜"
+   ],
+   "prev": "在这种沙暴里,我连[/n]铺野餐布的地方都摆不好,[/l]就算戴着GO-GOGGLES[...]",
+   "prevErrs": [
+    "残留英文未翻译: goggles"
+   ]
+  },
+  {
+   "id": "0037BE36",
+   "en": "Yodelayhihoo!{{C0}}{{C1}} {{C2}}{{C3}}You're supposed to shout{{C4}}“yodelayhihoo” since it doesn't{{C5}}echo here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "约德尔嗨呼![/p][...][...][/p]你应该喊约德尔嗨呼[/n]因为这里不会回声!",
+   "prevErrs": [
+    "token 不一致: 原[[...]|[...]|[/l]|[/n]|[/p]|[/p]] 译[[...]|[...]|[/n]|[/p]|[/p]]"
+   ]
+  },
+  {
+   "id": "0037C395",
+   "en": "I got hosed down before I could{{C0}}flare up, I guess.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "我想我还没燃起来就被浇灭了。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "0037E12D",
+   "en": "I need to get more practices in,{{C0}}I guess.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "看来我还得多练习才行。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "0037E253",
+   "en": "I need to get more practices in,{{C0}}I guess.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "看来我还得多练习才行。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]] 译[]"
+   ]
+  },
+  {
+   "id": "0038CB8E",
+   "en": "Hello, {{C0}}!{{C1}}It's {{C2}}.{{C3}}Oh? You happen to be around{{C4}}{{C5}} right now?{{C6}}Would you like to battle now?{{C7}}I'll wait for you! See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hello, [玩家]![/n]It's [buffer1].[/p]Oh? You happen to be around[/n][buffer2] right now?[/p]Would you like to battle now?[/n]I'll wait for you! See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello happen around right would like battle wait"
+   ]
+  },
+  {
+   "id": "0038CC06",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}Oh, hey, are you near{{C4}}{{C5}} right now?{{C6}}How would you like to battle with{{C7}}me right now?{{C8}}I'm not losing again!{{C9}}I'll be waiting! Catch you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey there, [玩家]![/n]It's me, [buffer1].[/p]Oh, hey, are you near[/n][buffer2] right now?[/p]How would you like to battle with[/n]me right now?[/p]I'm not losing again![/n]I'll be waiting! Catch you soon!",
+   "prevErrs": [
+    "残留英文未翻译: there near right would like battle with losing again waiting catch soon"
+   ]
+  },
+  {
+   "id": "0038CD13",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}How are things with you?{{C5}}You're where now?{{C6}}{{C7}}?{{C8}}Well, how about we have a quick{{C9}}rematch right away?{{C10}}I'll keep an eye out for you.{{C11}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hiya, [玩家][fd08]![/n]It's [buffer1].[/l]How are things with you?[/p]You're where now?[/n][buffer2]?[/p]Well, how about we have a quick[/n]rematch right away?[/p]I'll keep an eye out for you.[/n]See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: hiya things with where well about have quick rematch right away keep soon"
+   ]
+  },
+  {
+   "id": "0038CF86",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}Are you keeping up?{{C5}}Oh, you're near {{C6}}?{{C7}}Oh, well, then don't you think we{{C8}}should battle?{{C9}}Don't keep me waiting too long!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hi there![/n]This is [buffer1]![/p]Are you keeping up?[/n]Oh, you're near [buffer2]?[/p]Oh, well, then don't you think we[/n]should battle?[/p]Don't keep me waiting too long!",
+   "prevErrs": [
+    "残留英文未翻译: there this keeping near well then think should battle keep waiting long"
+   ]
+  },
+  {
+   "id": "0038D1D5",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}I hope you've been keeping well.{{C5}}Oh, you're near {{C6}}?{{C7}}Since that's not very far away,{{C8}}come see me for a battle.{{C9}}I'll wait for you.{{C10}}Bye for now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, hello, [玩家][fd08]![/n]This is [buffer1]![/p]I hope you've been keeping well.[/n]Oh, you're near [buffer2]?[/p]Since that's not very far away,[/n]come see me for a battle.[/p]I'll wait for you.[/n]Bye for now.",
+   "prevErrs": [
+    "残留英文未翻译: hello this hope been keeping well near since that very away come battle wait"
+   ]
+  },
+  {
+   "id": "0038D36A",
+   "en": "Hello, {{C0}}!{{C1}}It's {{C2}}.{{C3}}Would you like to have a battle{{C4}}with me again?{{C5}}You can find me around{{C6}}{{C7}}. I'll be waiting!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ]
+   ],
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hello, [玩家]![/n]It's [buffer1].[/p]Would you like to have a battle[/n]with me again?[/p]You can find me around[/n][buffer2]. I'll be waiting!",
+   "prevErrs": [
+    "残留英文未翻译: hello would like have battle with again find around waiting"
+   ]
+  },
+  {
+   "id": "0038D3D9",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}My Pokémon have grown a lot{{C4}}tougher since last time.{{C5}}I want to see how strong they've{{C6}}become with your Pokémon, {{C7}}.{{C8}}So, let's have a battle!{{C9}}I'll be waiting for you around{{C10}}{{C11}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[玩家]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer2]"
+    ]
+   ],
+   "hint": "纯中文≤101字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey there, [玩家]![/n]It's me, [buffer1].[/p]My Pokémon have grown a lot[/n]tougher since last time.[/p]I want to see how strong they've[/n]become with your Pokémon, [玩家].[/p]So, let's have a battle![/p]I'll be waiting for you around[/n][buffer2].",
+   "prevErrs": [
+    "残留英文未翻译: there have grown tougher since last time want strong they become with your battle waiting around"
+   ]
+  },
+  {
+   "id": "0038D554",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}My Pokémon are growing up in{{C5}}decent ways.{{C6}}I'd really like to have another{{C7}}battle with you.{{C8}}I'll keep an eye out for you around{{C9}}{{C10}}. See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer2]"
+    ]
+   ],
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hiya, [玩家][fd08]![/n]It's [buffer1].[/p]My Pokémon are growing up in[/n]decent ways.[/p]I'd really like to have another[/n]battle with you.[/p]I'll keep an eye out for you around[/n][buffer2]. See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: hiya growing decent ways really like have another battle with keep around soon"
+   ]
+  },
+  {
+   "id": "0038D7FF",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}How are your Pokémon doing?{{C5}}My Pokémon keep getting better.{{C6}}I'd like to show you, {{C7}}{{C8}}.{{C9}}I'm around {{C10}} now,{{C11}}so let's battle if you're close by.{{C12}}Hope I see you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[玩家]"
+    ],
+    [
+     "{{C8}}",
+     "[fd08]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hi there![/n]This is [buffer1]![/l]How are your Pokémon doing?[/p]My Pokémon keep getting better.[/n]I'd like to show you, [玩家][fd08].[/p]I'm around [buffer2] now,[/n]so let's battle if you're close by.[/p]Hope I see you soon!",
+   "prevErrs": [
+    "残留英文未翻译: there this your doing keep getting better like show around battle close hope soon"
+   ]
+  },
+  {
+   "id": "0038DAFB",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}Are your Pokémon keeping well?{{C5}}My Pokémon have been so healthy,{{C6}}they don't look capable of losing!{{C7}}I would surely love to have another{{C8}}battle with you.{{C9}}If you're near {{C10}},{{C11}}do come see us.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, hello, [玩家][fd08]![/n]This is [buffer1]![/l]Are your Pokémon keeping well?[/p]My Pokémon have been so healthy,[/n]they don't look capable of losing![/p]I would surely love to have another[/n]battle with you.[/p]If you're near [buffer2],[/n]do come see us.",
+   "prevErrs": [
+    "残留英文未翻译: hello this your keeping well have been healthy they look capable losing would surely love another battle with near come"
+   ]
+  },
+  {
+   "id": "0038EF45",
+   "en": "It's {{C0}}.{{C1}}When there's a strong Trainer{{C2}}nearby, I can sometimes sense that{{C3}}somehow.{{C4}}Did you pass close by, {{C5}}{{C6}}?{{C7}}Maybe it was you.{{C8}}I'll be waiting for your visit.{{C9}}Bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[玩家]"
+    ],
+    [
+     "{{C6}}",
+     "[fd08]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pass→磁浮列车自由票"
+   ],
+   "prev": "It's [buffer1].[/p]When there's a strong Trainer[/n]nearby, I can sometimes sense that[/l]somehow.[/p]Did you pass close by, [玩家][fd08]?[/n]Maybe it was you.[/p]I'll be waiting for your visit.[/n]Bye!",
+   "prevErrs": [
+    "残留英文未翻译: when there strong trainer nearby sometimes sense that somehow pass close maybe waiting your visit"
+   ]
+  },
+  {
+   "id": "0038EFEC",
+   "en": "Hello, this is {{C0}}.{{C1}}You sound well, {{C2}}{{C3}}.{{C4}}I've traveled around the world,{{C5}}but I must say I've taken a great{{C6}}shine to this region.{{C7}}I plan to stay here a while.{{C8}}Perhaps we can meet again?{{C9}}I've not forgotten your dazzling{{C10}}techniques.{{C11}}I do hope for a rematch.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[fd08]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ]
+   ],
+   "hint": "纯中文≤127字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dazzling→鲜艳之躯"
+   ],
+   "prev": "Hello, this is [buffer1].[/n]You sound well, [玩家][fd08].[/p]I've traveled around the world,[/n]but I must say I've taken a great[/l]shine to this region.[/p]I plan to stay here a while.[/n]Perhaps we can meet again?[/p]I've not forgotten your dazzling[/n]techniques.[/p]I do hope for a rematch.",
+   "prevErrs": [
+    "残留英文未翻译: hello this sound well traveled around world must taken great shine region plan stay here while perhaps meet again forgotten your dazzling techniques hope rematch"
+   ]
+  },
+  {
+   "id": "00390335",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}How are your Pokémon doing?{{C5}}My DRAGON Pokémon appear to be{{C6}}in peak form. Bye for now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon→龙"
+   ],
+   "prev": "Hello, [玩家][fd08].[/n][buffer1] here.[/p]How are your Pokémon doing?[/p]My DRAGON Pokémon appear to be[/n]in peak form. Bye for now.",
+   "prevErrs": [
+    "残留英文未翻译: hello here your doing dragon appear peak form"
+   ]
+  },
+  {
+   "id": "0039072C",
+   "en": "Oh, {{C0}}{{C1}}, hello!{{C2}}This is {{C3}}.{{C4}}I'm up in the mountains now.{{C5}}But the ground is too bumpy.{{C6}}I can't pitch my tent here{{C7}}{{C8}}Oh, I had a brilliant idea!{{C9}}Maybe I can get my Pokémon to tamp{{C10}}the ground flat here!{{C11}}I'm going to try that!{{C12}}Bye-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤115字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ground→地面"
+   ],
+   "prev": "Oh, [玩家][fd08], hello![/n]This is [buffer1].[/l]I'm up in the mountains now.[/p]But the ground is too bumpy.[/n]I can't pitch my tent here[...][/p]Oh, I had a brilliant idea![/p]Maybe I can get my Pokémon to tamp[/n]the ground flat here![/p]I'm going to try that![/n]Bye-bye!",
+   "prevErrs": [
+    "残留英文未翻译: hello this mountains ground bumpy pitch tent here brilliant idea maybe tamp flat going that"
+   ]
+  },
+  {
+   "id": "0039199C",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}I heard you went on a tear at{{C4}}the {{C5}}!{{C6}}A big {{C7}}-win streak{{C8}}{{C9}}That is a big record, isn't it?{{C10}}I'd better get it together, too!{{C11}}Catch you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey there, [玩家]![/n]It's me, [buffer1].[/p]I heard you went on a tear at[/n]the [buffer2]![/p]A big [buffer3]-win streak[...][/n]That is a big record, isn't it?[/p]I'd better get it together, too![/n]Catch you soon!",
+   "prevErrs": [
+    "残留英文未翻译: there heard went tear streak that record better together catch soon"
+   ]
+  },
+  {
+   "id": "00391A44",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here. What's up?{{C4}}There's a rumor going around that{{C5}}you strung together {{C6}} straight{{C7}}wins at the {{C8}}.{{C9}}I'd better step it up, too.{{C10}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08].[/n][buffer1] here. What's up?[/p]There's a rumor going around that[/n]you strung together [buffer3] straight[/l]wins at the [buffer2].[/p]I'd better step it up, too.[/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: here what there rumor going around that strung together straight wins better step"
+   ]
+  },
+  {
+   "id": "00391ADA",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}You were at the {{C5}}{{C6}}and won {{C7}} battles in a row?{{C8}}Isn't that something!{{C9}}I'd better work on my Pokémon more.{{C10}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hiya, [玩家][fd08]![/n]It's [buffer1].[/p]You were at the [buffer2][/n]and won [buffer3] battles in a row?[/l]Isn't that something![/p]I'd better work on my Pokémon more.[/n]See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: hiya were battles that something better work more soon"
+   ]
+  },
+  {
+   "id": "00391B67",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here. How are you?{{C4}}By the way, I heard you pulled off{{C5}}the feat of {{C6}} straight wins at{{C7}}the {{C8}}.{{C9}}That inspires me to focus on{{C10}}raising my team.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08].[/n][buffer1] here. How are you?[/p]By the way, I heard you pulled off[/n]the feat of [buffer3] straight wins at[/l]the [buffer2].[/p]That inspires me to focus on[/n]raising my team.",
+   "prevErrs": [
+    "残留英文未翻译: here heard pulled feat straight wins that inspires focus raising team"
+   ]
+  },
+  {
+   "id": "00391C01",
+   "en": "{{C0}}Er, {{C1}}{{C2}}?{{C3}}{{C4}} here{{C5}}{{C6}}Oh, yeah, you were over at{{C7}}the {{C8}}, right?{{C9}}And you won {{C10}} battles in a row.{{C11}}Oh, there goes a rare Pokémon!{{C12}}I have to go!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[fd08]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[...]Er, [玩家][fd08]?[/n][buffer1] here[...][/p]Oh, yeah, you were over at[/n]the [buffer2], right?[/p]And you won [buffer3] battles in a row.[/p]Oh, there goes a rare Pokémon![/n]I have to go!",
+   "prevErrs": [
+    "残留英文未翻译: here yeah were over right battles there goes rare have"
+   ]
+  },
+  {
+   "id": "00391C8D",
+   "en": "Oh, {{C0}}{{C1}}, how do you do?{{C2}}This is {{C3}} speaking.{{C4}}I hope you're doing well.{{C5}}Oh, but, you are. I've heard that{{C6}}you won {{C7}} matches in a row at{{C8}}the {{C9}}.{{C10}}That's very impressive!{{C11}}I hope you stay successful.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤98字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], how do you do?[/n]This is [buffer1] speaking.[/l]I hope you're doing well.[/p]Oh, but, you are. I've heard that[/n]you won [buffer3] matches in a row at[/l]the [buffer2].[/p]That's very impressive![/n]I hope you stay successful.",
+   "prevErrs": [
+    "残留英文未翻译: this speaking hope doing well heard that matches very impressive stay successful"
+   ]
+  },
+  {
+   "id": "00391D52",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}I heard! Your {{C5}}-win streak at{{C6}}the {{C7}}!{{C8}}That is so cool!{{C9}}I'd better try harder, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hi there![/n]This is [buffer1]![/p]I heard! Your [buffer3]-win streak at[/n]the [buffer2]![/p]That is so cool![/n]I'd better try harder, too!",
+   "prevErrs": [
+    "残留英文未翻译: there this heard your streak that cool better harder"
+   ]
+  },
+  {
+   "id": "00391DC6",
+   "en": "Oh, {{C0}}{{C1}}, hello{{C2}}{{C3}}This is {{C4}}.{{C5}}You won {{C6}} straight battles at{{C7}}the {{C8}}?{{C9}}That's quite the accomplishment.{{C10}}I need to work harder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hello[...][/n]This is [buffer1].[/p]You won [buffer3] straight battles at[/n]the [buffer2]?[/p]That's quite the accomplishment.[/n]I need to work harder.",
+   "prevErrs": [
+    "残留英文未翻译: hello this straight battles that quite accomplishment need work harder"
+   ]
+  },
+  {
+   "id": "00391E42",
+   "en": "Ah, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I hear you're the terror of{{C5}}the {{C6}}?{{C7}}You won, what, {{C8}} matches in{{C9}}a row?{{C10}}You're good, you.{{C11}}I wonder how many I can win?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, [玩家][fd08].[/n]This is [buffer1].[/p]I hear you're the terror of[/n]the [buffer2]?[/p]You won, what, [buffer3] matches in[/n]a row?[/p]You're good, you.[/n]I wonder how many I can win?",
+   "prevErrs": [
+    "残留英文未翻译: this hear terror what matches good wonder many"
+   ]
+  },
+  {
+   "id": "00391ECF",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}It's me, {{C3}}.{{C4}}Are you keeping well?{{C5}}Someone passed on word about you.{{C6}}How you won {{C7}} straight battles{{C8}}at a place named {{C9}}?{{C10}}That's quite the tale.{{C11}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hello, [玩家][fd08].[/n]It's me, [buffer1].[/l]Are you keeping well?[/p]Someone passed on word about you.[/n]How you won [buffer3] straight battles[/l]at a place named [buffer2]?[/p]That's quite the tale.[/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello keeping well someone passed word about straight battles place named that quite tale"
+   ]
+  },
+  {
+   "id": "00391F76",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}I hope you've been keeping well.{{C5}}They say you won {{C6}} straight{{C7}}battles at the {{C8}}.{{C9}}I admire your energy!{{C10}}Bye now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, hello, [玩家][fd08]![/n]This is [buffer1]![/l]I hope you've been keeping well.[/p]They say you won [buffer3] straight[/n]battles at the [buffer2].[/p]I admire your energy![/n]Bye now.",
+   "prevErrs": [
+    "残留英文未翻译: hello this hope been keeping well they straight battles admire your energy"
+   ]
+  },
+  {
+   "id": "00392003",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I heard about you!{{C5}}Didn't you just win {{C6}} battles in{{C7}}a row at the {{C8}}?{{C9}}You're an inspiration!{{C10}}Bye-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, hi, [玩家][fd08].[/n]This is [buffer1].[/p]I heard about you![/n]Didn't you just win [buffer3] battles in[/l]a row at the [buffer2]?[/p]You're an inspiration![/n]Bye-bye!",
+   "prevErrs": [
+    "残留英文未翻译: this heard about didn just battles inspiration"
+   ]
+  },
+  {
+   "id": "0039217B",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}I heard you went on a tear at{{C4}}the {{C5}}!{{C6}}A big {{C7}}-win streak{{C8}}{{C9}}That is a big record, isn't it?{{C10}}I'd better get it together, too!{{C11}}Catch you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey there, [玩家]![/n]It's me, [buffer1].[/p]I heard you went on a tear at[/n]the [buffer2]![/p]A big [buffer3]-win streak[...][/n]That is a big record, isn't it?[/p]I'd better get it together, too![/n]Catch you soon!",
+   "prevErrs": [
+    "残留英文未翻译: there heard went tear streak that record better together catch soon"
+   ]
+  },
+  {
+   "id": "00392223",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here. What's up?{{C4}}There's a rumor going around that{{C5}}you strung together {{C6}} straight{{C7}}wins at the {{C8}}.{{C9}}I'd better step it up, too.{{C10}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08].[/n][buffer1] here. What's up?[/p]There's a rumor going around that[/n]you strung together [buffer3] straight[/l]wins at the [buffer2].[/p]I'd better step it up, too.[/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: here what there rumor going around that strung together straight wins better step"
+   ]
+  },
+  {
+   "id": "003922B9",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}You were at the {{C5}}{{C6}}and won {{C7}} battles in a row?{{C8}}Isn't that something!{{C9}}Me? I'd say I'm coming along.{{C10}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hiya, [玩家][fd08]![/n]It's [buffer1].[/p]You were at the [buffer2][/n]and won [buffer3] battles in a row?[/l]Isn't that something![/p]Me? I'd say I'm coming along.[/n]See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: hiya were battles that something coming along soon"
+   ]
+  },
+  {
+   "id": "00392340",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here. How are you?{{C4}}By the way, I heard you pulled off{{C5}}the feat of {{C6}} straight wins at{{C7}}the {{C8}}.{{C9}}I'd better try harder myself!{{C10}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08].[/n][buffer1] here. How are you?[/p]By the way, I heard you pulled off[/n]the feat of [buffer3] straight wins at[/l]the [buffer2].[/p]I'd better try harder myself![/n]See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: here heard pulled feat straight wins better harder myself soon"
+   ]
+  },
+  {
+   "id": "003923D8",
+   "en": "{{C0}}Er, {{C1}}{{C2}}?{{C3}}{{C4}} here{{C5}}{{C6}}Oh, yeah, you were over at{{C7}}the {{C8}}, right?{{C9}}And you won {{C10}} battles in a row.{{C11}}Oh, there goes a rare Pokémon!{{C12}}I have to go!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[fd08]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[...]Er, [玩家][fd08]?[/n][buffer1] here[...][/p]Oh, yeah, you were over at[/n]the [buffer2], right?[/p]And you won [buffer3] battles in a row.[/p]Oh, there goes a rare Pokémon![/n]I have to go!",
+   "prevErrs": [
+    "残留英文未翻译: here yeah were over right battles there goes rare have"
+   ]
+  },
+  {
+   "id": "00392464",
+   "en": "Oh, {{C0}}{{C1}}, how do you do?{{C2}}This is {{C3}} speaking.{{C4}}I hope you're doing well.{{C5}}Oh, but, you are. I've heard that{{C6}}you won {{C7}} matches in a row at{{C8}}the {{C9}}.{{C10}}That's very impressive!{{C11}}I'd better work on my Pokémon, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤102字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], how do you do?[/n]This is [buffer1] speaking.[/l]I hope you're doing well.[/p]Oh, but, you are. I've heard that[/n]you won [buffer3] matches in a row at[/l]the [buffer2].[/p]That's very impressive![/n]I'd better work on my Pokémon, too!",
+   "prevErrs": [
+    "残留英文未翻译: this speaking hope doing well heard that matches very impressive better work"
+   ]
+  },
+  {
+   "id": "00392531",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}I heard! Your {{C5}}-win streak at{{C6}}the {{C7}}!{{C8}}That is so cool!{{C9}}I'd better try harder, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hi there![/n]This is [buffer1]![/p]I heard! Your [buffer3]-win streak at[/n]the [buffer2]![/p]That is so cool![/n]I'd better try harder, too!",
+   "prevErrs": [
+    "残留英文未翻译: there this heard your streak that cool better harder"
+   ]
+  },
+  {
+   "id": "003925A5",
+   "en": "Oh, {{C0}}{{C1}}, hello{{C2}}{{C3}}This is {{C4}}.{{C5}}You won {{C6}} straight battles at{{C7}}the {{C8}}?{{C9}}That's quite the accomplishment.{{C10}}I need to work harder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hello[...][/n]This is [buffer1].[/p]You won [buffer3] straight battles at[/n]the [buffer2]?[/p]That's quite the accomplishment.[/n]I need to work harder.",
+   "prevErrs": [
+    "残留英文未翻译: hello this straight battles that quite accomplishment need work harder"
+   ]
+  },
+  {
+   "id": "00392621",
+   "en": "Ah, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I hear you're the terror of{{C5}}the {{C6}}?{{C7}}You won, what, {{C8}} matches in{{C9}}a row?{{C10}}You're good, you.{{C11}}I wonder how many I can win?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, [玩家][fd08].[/n]This is [buffer1].[/p]I hear you're the terror of[/n]the [buffer2]?[/p]You won, what, [buffer3] matches in[/n]a row?[/p]You're good, you.[/n]I wonder how many I can win?",
+   "prevErrs": [
+    "残留英文未翻译: this hear terror what matches good wonder many"
+   ]
+  },
+  {
+   "id": "003926AE",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}It's me, {{C3}}.{{C4}}Are you keeping well?{{C5}}Someone passed on word about you.{{C6}}How you won {{C7}} straight battles{{C8}}at a place named {{C9}}?{{C10}}That's quite the tale.{{C11}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hello, [玩家][fd08].[/n]It's me, [buffer1].[/l]Are you keeping well?[/p]Someone passed on word about you.[/n]How you won [buffer3] straight battles[/l]at a place named [buffer2]?[/p]That's quite the tale.[/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello keeping well someone passed word about straight battles place named that quite tale"
+   ]
+  },
+  {
+   "id": "00392755",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}I hope you've been keeping well.{{C5}}They say you won {{C6}} straight{{C7}}battles at the {{C8}}.{{C9}}I admire your energy!{{C10}}Bye now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, hello, [玩家][fd08]![/n]This is [buffer1]![/l]I hope you've been keeping well.[/p]They say you won [buffer3] straight[/n]battles at the [buffer2].[/p]I admire your energy![/n]Bye now.",
+   "prevErrs": [
+    "残留英文未翻译: hello this hope been keeping well they straight battles admire your energy"
+   ]
+  },
+  {
+   "id": "003927E2",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I heard about you!{{C5}}Didn't you just win {{C6}} battles in{{C7}}a row at the {{C8}}?{{C9}}You're an inspiration!{{C10}}Bye-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, hi, [玩家][fd08].[/n]This is [buffer1].[/l]I heard about you![/p]Didn't you just win [buffer3] battles in[/n]a row at the [buffer2]?[/p]You're an inspiration![/n]Bye-bye!",
+   "prevErrs": [
+    "残留英文未翻译: this heard about didn just battles inspiration"
+   ]
+  },
+  {
+   "id": "00392862",
+   "en": "Hi! {{C0}}?{{C1}}Hello, this is {{C2}}!{{C3}}I heard the news!{{C4}}You became the champion at{{C5}}the {{C6}} {{C7}} times?{{C8}}It's awesome! I have to do better!{{C9}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hi! [玩家]?[/n]Hello, this is [buffer1]![/l]I heard the news![/p]You became the champion at[/n]the [buffer2] [buffer3] times?[/p]It's awesome! I have to do better![/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello this heard news became champion times awesome have better"
+   ]
+  },
+  {
+   "id": "00392964",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}How's it going?{{C4}}I heard you won events {{C5}} times{{C6}}at the {{C7}}!{{C8}}Make it one more next time!{{C9}}Catch you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey there, [玩家]![/n]It's me, [buffer1].[/l]How's it going?[/p]I heard you won events [buffer3] times[/n]at the [buffer2]![/p]Make it one more next time![/n]Catch you soon!",
+   "prevErrs": [
+    "残留英文未翻译: there going heard events times make more next time catch soon"
+   ]
+  },
+  {
+   "id": "003929E7",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}I heard you became the champion{{C5}}at the {{C6}} {{C7}} times.{{C8}}Sounds like you're working hard.{{C9}}I'll try to keep up!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08].[/n][buffer1] here.[/p]I heard you became the champion[/n]at the [buffer2] [buffer3] times.[/p]Sounds like you're working hard.[/n]I'll try to keep up!",
+   "prevErrs": [
+    "残留英文未翻译: here heard became champion times sounds like working hard keep"
+   ]
+  },
+  {
+   "id": "00392A65",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}I heard you won {{C5}} times{{C6}}outright at the {{C7}}.{{C8}}I'd better get with it, too!{{C9}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hiya, [玩家][fd08]![/n]It's [buffer1].[/p]I heard you won [buffer3] times[/n]outright at the [buffer2].[/p]I'd better get with it, too![/n]See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: hiya heard times outright better with soon"
+   ]
+  },
+  {
+   "id": "00392AD2",
+   "en": "Hey, {{C0}}{{C1}}?{{C2}}{{C3}} here. How are you?{{C4}}By the way, I heard you became{{C5}}the champion {{C6}} times at{{C7}}the {{C8}}.{{C9}}I'd better raise my Pokémon before{{C10}}you pull farther ahead.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08]?[/n][buffer1] here. How are you?[/p]By the way, I heard you became[/n]the champion [buffer3] times at[/l]the [buffer2].[/p]I'd better raise my Pokémon before[/n]you pull farther ahead.",
+   "prevErrs": [
+    "残留英文未翻译: here heard became champion times better raise before pull farther ahead"
+   ]
+  },
+  {
+   "id": "00392B6E",
+   "en": "{{C0}}{{C1}}?{{C2}}{{C3}} here.{{C4}}You were at the {{C5}}{{C6}}and became the champ {{C7}} times?{{C8}}That's neat. By the way, have you{{C9}}caught any rare Pokémon lately?{{C10}}Oh, is that right.{{C11}}Okay, bye.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤80字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[玩家][fd08]?[/n][buffer1] here.[/p]You were at the [buffer2][/n]and became the champ [buffer3] times?[/p]That's neat. By the way, have you[/n]caught any rare Pokémon lately?[/p]Oh, is that right.[/n]Okay, bye.",
+   "prevErrs": [
+    "残留英文未翻译: here were became champ times that neat have caught rare lately right okay"
+   ]
+  },
+  {
+   "id": "00392C0F",
+   "en": "Oh, {{C0}}{{C1}}, how do you do?{{C2}}This is {{C3}} speaking.{{C4}}I hope you're doing well.{{C5}}Oh, but, you are.{{C6}}I've heard that you won {{C7}} titles{{C8}}at the {{C9}}.{{C10}}I must raise my Pokémon like you.{{C11}}See you again.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤91字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], how do you do?[/n]This is [buffer1] speaking.[/l]I hope you're doing well.[/l]Oh, but, you are.[/p]I've heard that you won [buffer3] titles[/n]at the [buffer2].[/p]I must raise my Pokémon like you.[/n]See you again.",
+   "prevErrs": [
+    "残留英文未翻译: this speaking hope doing well heard that titles must raise like again"
+   ]
+  },
+  {
+   "id": "00392CC7",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}I heard! You took the title{{C5}}{{C6}} times at the {{C7}}!{{C8}}That is so cool!{{C9}}I'd better try harder, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hi there![/n]This is [buffer1]![/p]I heard! You took the title[/n][buffer3] times at the [buffer2]![/p]That is so cool![/n]I'd better try harder, too!",
+   "prevErrs": [
+    "残留英文未翻译: there this heard took title times that cool better harder"
+   ]
+  },
+  {
+   "id": "00392D44",
+   "en": "Oh, {{C0}}{{C1}}, hello.{{C2}}This is {{C3}}.{{C4}}You won {{C5}} straight times at{{C6}}the {{C7}}?{{C8}}That's quite the accomplishment.{{C9}}I need to work harder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hello.[/n]This is [buffer1].[/p]You won [buffer3] straight times at[/n]the [buffer2]?[/p]That's quite the accomplishment.[/n]I need to work harder.",
+   "prevErrs": [
+    "残留英文未翻译: hello this straight times that quite accomplishment need work harder"
+   ]
+  },
+  {
+   "id": "00392DBE",
+   "en": "Ah, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I hear you're the terror of{{C5}}the {{C6}}?{{C7}}You won, what, {{C8}} straight times{{C9}}now?{{C10}}I wonder if I can ever become{{C11}}a champion?{{C12}}{{C13}}Pretty well impossible?{{C14}}Well, see you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤88字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, [玩家][fd08].[/n]This is [buffer1].[/p]I hear you're the terror of[/n]the [buffer2]?[/p]You won, what, [buffer3] straight times[/n]now?[/p]I wonder if I can ever become[/n]a champion?[/p][...]Pretty well impossible?[/n]Well, see you!",
+   "prevErrs": [
+    "残留英文未翻译: this hear terror what straight times wonder ever become champion pretty well impossible"
+   ]
+  },
+  {
+   "id": "00392E70",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}It's me, {{C3}}.{{C4}}Are you keeping well?{{C5}}You've won {{C6}} events at a place{{C7}}named {{C8}}?{{C9}}That's quite the tale.{{C10}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hello, [玩家][fd08].[/n]It's me, [buffer1].[/l]Are you keeping well?[/p]You've won [buffer3] events at a place[/n]named [buffer2]?[/p]That's quite the tale.[/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello keeping well events place named that quite tale"
+   ]
+  },
+  {
+   "id": "00392EEA",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}I hope you've been keeping well.{{C5}}They say you won {{C6}} events{{C7}}at the {{C8}}?{{C9}}I admire your energy!{{C10}}Bye now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, hello, [玩家][fd08]![/n]This is [buffer1]![/l]I hope you've been keeping well.[/p]They say you won [buffer3] events[/n]at the [buffer2]?[/p]I admire your energy![/n]Bye now.",
+   "prevErrs": [
+    "残留英文未翻译: hello this hope been keeping well they events admire your energy"
+   ]
+  },
+  {
+   "id": "00392F6D",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I heard about you!{{C5}}Didn't you win {{C6}} titles{{C7}}at the {{C8}}?{{C9}}You're an inspiration!{{C10}}See you again!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, hi, [玩家][fd08].[/n]This is [buffer1].[/l]I heard about you![/p]Didn't you win [buffer3] titles[/n]at the [buffer2]?[/p]You're an inspiration![/n]See you again!",
+   "prevErrs": [
+    "残留英文未翻译: this heard about didn titles inspiration again"
+   ]
+  },
+  {
+   "id": "00392FE4",
+   "en": "Hi! {{C0}}?{{C1}}Hello, this is {{C2}}!{{C3}}I heard the news!{{C4}}You got through {{C5}} rooms{{C6}}at the {{C7}}!{{C8}}That's awesome!{{C9}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hi! [玩家]?[/n]Hello, this is [buffer1]![/l]I heard the news![/p]You got through [buffer3] rooms[/n]at the [buffer2]![/p]That's awesome![/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello this heard news through rooms that awesome"
+   ]
+  },
+  {
+   "id": "003930C8",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}How's it going?{{C4}}I heard you won through {{C5}} rooms{{C6}}at the {{C7}}!{{C8}}Try to do even better next time!{{C9}}Catch you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey there, [玩家]![/n]It's me, [buffer1].[/l]How's it going?[/p]I heard you won through [buffer3] rooms[/n]at the [buffer2]![/p]Try to do even better next time![/n]Catch you soon!",
+   "prevErrs": [
+    "残留英文未翻译: there going heard through rooms even better next time catch soon"
+   ]
+  },
+  {
+   "id": "00393151",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}I heard you blew through {{C5}} rooms{{C6}}at the {{C7}}.{{C8}}I'd better train my Pokémon and{{C9}}try to keep up!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08].[/n][buffer1] here.[/p]I heard you blew through [buffer3] rooms[/n]at the [buffer2].[/p]I'd better train my Pokémon and[/n]try to keep up!",
+   "prevErrs": [
+    "残留英文未翻译: here heard blew through rooms better train keep"
+   ]
+  },
+  {
+   "id": "003931C2",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}I heard you got past {{C5}} rooms{{C6}}at the {{C7}}.{{C8}}I'd better get with it, too!{{C9}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hiya, [玩家][fd08]![/n]It's [buffer1].[/p]I heard you got past [buffer3] rooms[/n]at the [buffer2].[/p]I'd better get with it, too![/n]See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: hiya heard past rooms better with soon"
+   ]
+  },
+  {
+   "id": "0039322B",
+   "en": "Hey, {{C0}}{{C1}}?{{C2}}{{C3}} here. How are you?{{C4}}By the way, I heard you got through{{C5}}{{C6}} rooms at the {{C7}}.{{C8}}I'd better raise my Pokémon before{{C9}}you pull further ahead.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08]?[/n][buffer1] here. How are you?[/p]By the way, I heard you got through[/n][buffer3] rooms at the [buffer2].[/p]I'd better raise my Pokémon before[/n]you pull further ahead.",
+   "prevErrs": [
+    "残留英文未翻译: here heard through rooms better raise before pull further ahead"
+   ]
+  },
+  {
+   "id": "003932BF",
+   "en": "{{C0}}{{C1}}?{{C2}}{{C3}} here.{{C4}}You were at the {{C5}}{{C6}}and won your way past {{C7}} rooms?{{C8}}That's wicked.{{C9}}Oh, there goes a rare Pokémon!{{C10}}Okay, bye.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[玩家][fd08]?[/n][buffer1] here.[/p]You were at the [buffer2][/n]and won your way past [buffer3] rooms?[/p]That's wicked.[/p]Oh, there goes a rare Pokémon![/n]Okay, bye.",
+   "prevErrs": [
+    "残留英文未翻译: here were your past rooms that wicked there goes rare okay"
+   ]
+  },
+  {
+   "id": "0039333A",
+   "en": "Oh, {{C0}}{{C1}}, how do you do?{{C2}}This is {{C3}} speaking.{{C4}}I hope you're doing well.{{C5}}Oh, but, you are.{{C6}}I've heard that you got through{{C7}}{{C8}} rooms at the {{C9}}.{{C10}}That's quite impressive!{{C11}}I must raise my Pokémon like you.{{C12}}See you again.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], how do you do?[/n]This is [buffer1] speaking.[/l]I hope you're doing well.[/l]Oh, but, you are.[/p]I've heard that you got through[/n][buffer3] rooms at the [buffer2].[/p]That's quite impressive![/n]I must raise my Pokémon like you.[/l]See you again.",
+   "prevErrs": [
+    "残留英文未翻译: this speaking hope doing well heard that through rooms quite impressive must raise like again"
+   ]
+  },
+  {
+   "id": "00393412",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}I heard! You won your way through{{C5}}{{C6}} rooms at the {{C7}}!{{C8}}That is so cool!{{C9}}I'd better try harder, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hi there![/n]This is [buffer1]![/p]I heard! You won your way through[/n][buffer3] rooms at the [buffer2]![/p]That is so cool![/n]I'd better try harder, too!",
+   "prevErrs": [
+    "残留英文未翻译: there this heard your through rooms that cool better harder"
+   ]
+  },
+  {
+   "id": "00393495",
+   "en": "Oh, {{C0}}{{C1}}, hello.{{C2}}This is {{C3}}.{{C4}}You won your way past {{C5}} rooms{{C6}}at the {{C7}}?{{C8}}That's quite the accomplishment.{{C9}}I need to work harder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hello.[/n]This is [buffer1].[/p]You won your way past [buffer3] rooms[/n]at the [buffer2]?[/p]That's quite the accomplishment.[/n]I need to work harder.",
+   "prevErrs": [
+    "残留英文未翻译: hello this your past rooms that quite accomplishment need work harder"
+   ]
+  },
+  {
+   "id": "00393514",
+   "en": "Ah, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I hear you're the terror of{{C5}}the {{C6}}?{{C7}}You got through, what, {{C8}} rooms?{{C9}}That's gotta count for something.{{C10}}I wonder if I can ever become{{C11}}a champion?{{C12}}{{C13}}Pretty well impossible?{{C14}}Well, see you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤103字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, [玩家][fd08].[/n]This is [buffer1].[/p]I hear you're the terror of[/n]the [buffer2]?[/p]You got through, what, [buffer3] rooms?[/n]That's gotta count for something.[/p]I wonder if I can ever become[/n]a champion?[/p][...]Pretty well impossible?[/n]Well, see you!",
+   "prevErrs": [
+    "残留英文未翻译: this hear terror through what rooms that gotta count something wonder ever become champion pretty well impossible"
+   ]
+  },
+  {
+   "id": "003935E3",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}It's me, {{C3}}.{{C4}}Are you keeping well?{{C5}}You've won through {{C6}} rooms at{{C7}}a place named {{C8}}?{{C9}}That's quite the tale.{{C10}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hello, [玩家][fd08].[/n]It's me, [buffer1].[/l]Are you keeping well?[/p]You've won through [buffer3] rooms at[/n]a place named [buffer2]?[/p]That's quite the tale.[/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello keeping well through rooms place named that quite tale"
+   ]
+  },
+  {
+   "id": "00393664",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}I hope you've been keeping well.{{C5}}They say you won in {{C6}} rooms{{C7}}at the {{C8}}?{{C9}}I admire your energy!{{C10}}Bye now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, hello, [玩家][fd08]![/n]This is [buffer1]![/l]I hope you've been keeping well.[/p]They say you won in [buffer3] rooms[/n]at the [buffer2]?[/p]I admire your energy![/n]Bye now.",
+   "prevErrs": [
+    "残留英文未翻译: hello this hope been keeping well they rooms admire your energy"
+   ]
+  },
+  {
+   "id": "003936E9",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I heard about you!{{C5}}Didn't you get through {{C6}} rooms{{C7}}at the {{C8}}?{{C9}}You're an inspiration!{{C10}}See you again!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, hi, [玩家][fd08].[/n]This is [buffer1].[/l]I heard about you![/p]Didn't you get through [buffer3] rooms[/n]at the [buffer2]?[/p]You're an inspiration![/n]See you again!",
+   "prevErrs": [
+    "残留英文未翻译: this heard about didn through rooms inspiration again"
+   ]
+  },
+  {
+   "id": "00393767",
+   "en": "Hi! {{C0}}?{{C1}}Hello, this is {{C2}}!{{C3}}I heard the news!{{C4}}You climbed {{C5}} floors inside{{C6}}the {{C7}}, right?{{C8}}That's awesome!{{C9}}I should try that challenge.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hi! [玩家]?[/n]Hello, this is [buffer1]![/l]I heard the news![/p]You climbed [buffer3] floors inside[/n]the [buffer2], right?[/p]That's awesome![/n]I should try that challenge.",
+   "prevErrs": [
+    "残留英文未翻译: hello this heard news climbed floors inside right that awesome should challenge"
+   ]
+  },
+  {
+   "id": "00393881",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}How's it going?{{C4}}I heard you climbed {{C5}} floors{{C6}}in the {{C7}}!{{C8}}Try to do even better next time!{{C9}}Catch you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey there, [玩家]![/n]It's me, [buffer1].[/l]How's it going?[/p]I heard you climbed [buffer3] floors[/n]in the [buffer2]![/p]Try to do even better next time![/n]Catch you soon!",
+   "prevErrs": [
+    "残留英文未翻译: there going heard climbed floors even better next time catch soon"
+   ]
+  },
+  {
+   "id": "00393907",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}I heard you scaled {{C5}} floors{{C6}}in the {{C7}}.{{C8}}I'd better work hard and try{{C9}}to keep up!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08].[/n][buffer1] here.[/p]I heard you scaled [buffer3] floors[/n]in the [buffer2].[/p]I'd better work hard and try[/n]to keep up!",
+   "prevErrs": [
+    "残留英文未翻译: here heard scaled floors better work hard keep"
+   ]
+  },
+  {
+   "id": "0039396C",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}I heard you climbed {{C5}} floors{{C6}}in the {{C7}}.{{C8}}I'd better get with it, too!{{C9}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hiya, [玩家][fd08]![/n]It's [buffer1].[/p]I heard you climbed [buffer3] floors[/n]in the [buffer2].[/p]I'd better get with it, too![/n]See you soon!",
+   "prevErrs": [
+    "残留英文未翻译: hiya heard climbed floors better with soon"
+   ]
+  },
+  {
+   "id": "003939D5",
+   "en": "Hey, {{C0}}{{C1}}?{{C2}}{{C3}} here. How are you?{{C4}}By the way, I heard you got through{{C5}}{{C6}} floors in the {{C7}}.{{C8}}I'd better raise my Pokémon before{{C9}}you pull further ahead.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hey, [玩家][fd08]?[/n][buffer1] here. How are you?[/p]By the way, I heard you got through[/n][buffer3] floors in the [buffer2].[/p]I'd better raise my Pokémon before[/n]you pull further ahead.",
+   "prevErrs": [
+    "残留英文未翻译: here heard through floors better raise before pull further ahead"
+   ]
+  },
+  {
+   "id": "00393A6A",
+   "en": "{{C0}}{{C1}}?{{C2}}{{C3}} here.{{C4}}You were at the {{C5}}{{C6}}and won your way up {{C7}} floors?{{C8}}Neat. Were there any rare Pokémon{{C9}}there?{{C10}}No, huh?{{C11}}Okay, bye.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[玩家][fd08]?[/n][buffer1] here.[/p]You were at the [buffer2][/n]and won your way up [buffer3] floors?[/p]Neat. Were there any rare Pokémon[/n]there?[/p]No, huh?[/n]Okay, bye.",
+   "prevErrs": [
+    "残留英文未翻译: here were your floors neat there rare okay"
+   ]
+  },
+  {
+   "id": "00393AE8",
+   "en": "Oh, {{C0}}{{C1}}, how do you do?{{C2}}This is {{C3}} speaking.{{C4}}I hope you're doing well.{{C5}}Oh, but, you are.{{C6}}I've heard that you got through{{C7}}{{C8}} floors in the {{C9}}.{{C10}}That's quite impressive!{{C11}}I must raise my Pokémon like you.{{C12}}See you again.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤108字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], how do you do?[/n]This is [buffer1] speaking.[/l]I hope you're doing well.[/l]Oh, but, you are.[/p]I've heard that you got through[/n][buffer3] floors in the [buffer2].[/p]That's quite impressive![/n]I must raise my Pokémon like you.[/l]See you again.",
+   "prevErrs": [
+    "残留英文未翻译: this speaking hope doing well heard that through floors quite impressive must raise like again"
+   ]
+  },
+  {
+   "id": "00393BC1",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}I heard! You won your way through{{C5}}{{C6}} floors in the {{C7}}!{{C8}}That is so cool!{{C9}}I'd better try harder, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hi there![/n]This is [buffer1]![/p]I heard! You won your way through[/n][buffer3] floors in the [buffer2]![/p]That is so cool![/n]I'd better try harder, too!",
+   "prevErrs": [
+    "残留英文未翻译: there this heard your through floors that cool better harder"
+   ]
+  },
+  {
+   "id": "00393C45",
+   "en": "Oh, {{C0}}{{C1}}, hello.{{C2}}This is {{C3}}.{{C4}}You climbed {{C5}} floors inside{{C6}}the {{C7}}?{{C8}}That's quite the accomplishment.{{C9}}I need to work harder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, [玩家][fd08], hello.[/n]This is [buffer1].[/p]You climbed [buffer3] floors inside[/n]the [buffer2]?[/p]That's quite the accomplishment.[/n]I need to work harder.",
+   "prevErrs": [
+    "残留英文未翻译: hello this climbed floors inside that quite accomplishment need work harder"
+   ]
+  },
+  {
+   "id": "00393CBF",
+   "en": "Ah, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I hear you're the terror of{{C5}}the {{C6}}?{{C7}}You rose through, what, {{C8}} floors?{{C9}}That's gotta count for something.{{C10}}I wonder if I can ever become{{C11}}a champion?{{C12}}{{C13}}Pretty well impossible?{{C14}}Well, see you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤104字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, [玩家][fd08].[/n]This is [buffer1].[/p]I hear you're the terror of[/n]the [buffer2]?[/p]You rose through, what, [buffer3] floors?[/n]That's gotta count for something.[/p]I wonder if I can ever become[/n]a champion?[/p][...]Pretty well impossible?[/n]Well, see you!",
+   "prevErrs": [
+    "残留英文未翻译: this hear terror rose through what floors that gotta count something wonder ever become champion pretty well impossible"
+   ]
+  },
+  {
+   "id": "00393D90",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}It's me, {{C3}}.{{C4}}Are you keeping well?{{C5}}You've won through {{C6}} floors in{{C7}}a place named {{C8}}?{{C9}}That's quite the tale.{{C10}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Hello, [玩家][fd08].[/n]It's me, [buffer1].[/l]Are you keeping well?[/p]You've won through [buffer3] floors in[/n]a place named [buffer2]?[/p]That's quite the tale.[/n]See you!",
+   "prevErrs": [
+    "残留英文未翻译: hello keeping well through floors place named that quite tale"
+   ]
+  },
+  {
+   "id": "00393E12",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}I hope you've been keeping well.{{C5}}They say you climbed {{C6}} floors{{C7}}in the {{C8}}?{{C9}}I admire your energy!{{C10}}Bye now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Ah, hello, [玩家][fd08]![/n]This is [buffer1]![/l]I hope you've been keeping well.[/p]They say you climbed [buffer3] floors[/n]in the [buffer2]?[/p]I admire your energy![/n]Bye now.",
+   "prevErrs": [
+    "残留英文未翻译: hello this hope been keeping well they climbed floors admire your energy"
+   ]
+  },
+  {
+   "id": "00393E99",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I heard about you!{{C5}}Didn't you get through {{C6}} floors{{C7}}in the {{C8}}?{{C9}}You're an inspiration!{{C10}}See you again!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Oh, hi, [玩家][fd08].[/n]This is [buffer1].[/l]I heard about you![/p]Didn't you get through [buffer3] floors[/n]in the [buffer2]?[/p]You're an inspiration![/n]See you again!",
+   "prevErrs": [
+    "残留英文未翻译: this heard about didn through floors inspiration again"
+   ]
+  },
+  {
+   "id": "00393FAD",
+   "en": "Mom: Hi, {{C0}}!{{C1}}Your father keeps himself locked{{C2}}away in the Petalburg Gym.{{C3}}He comes home every so often.{{C4}}But he goes back to the Gym when{{C5}}he's eaten everything he can.{{C6}}I'm guessing that losing to you{{C7}}was a big blow to his pride!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤113字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Mom: Hi, [玩家]![/n]Your father keeps himself locked[/l]away in the Petalburg Gym.[/p]He comes home every so often.[/n]But he goes back to the Gym when[/l]he's eaten everything he can.[/p]I'm guessing that losing to you[/n]was a big blow to his pride!",
+   "prevErrs": [
+    "残留英文未翻译: your father keeps himself locked away petalburg comes home every often goes back when eaten everything guessing that losing blow pride"
+   ]
+  },
+  {
+   "id": "00394090",
+   "en": "Mom: {{C0}}{{C1}}{{C2}}Don't worry about me or the house.{{C3}}Wear those Running Shoes until{{C4}}they fall apart, honey!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Honey→甜甜蜜"
+   ],
+   "prev": "Mom: [玩家][...][/n]Don't worry about me or the house.[/p]Wear those Running Shoes until[/n]they fall apart, honey!",
+   "prevErrs": [
+    "残留英文未翻译: worry about house wear those running shoes until they fall apart honey"
+   ]
+  },
+  {
+   "id": "003940F3",
+   "en": "Roxanne: Oh, hello, {{C0}}!{{C1}}I've been hard at work retraining{{C2}}since we met.{{C3}}I will still need some more time{{C4}}before I can reopen the Gym.{{C5}}But when I do, please visit my Gym{{C6}}for a rematch!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤91字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Roxanne: Oh, hello, [玩家]![/p]I've been hard at work retraining[/n]since we met.[/p]I will still need some more time[/n]before I can reopen the Gym.[/p]But when I do, please visit my Gym[/n]for a rematch!",
+   "prevErrs": [
+    "残留英文未翻译: roxanne hello been hard work retraining since will still need some more time before reopen when please visit rematch"
+   ]
+  },
+  {
+   "id": "003941AB",
+   "en": "Roxanne: Is this {{C0}}?{{C1}}Congratulations!{{C2}}I've been hearing about you!{{C3}}As for me, I need some more time{{C4}}before I can reopen the Gym.{{C5}}But when I do, please visit my Gym{{C6}}for a rematch!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤89字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Roxanne: Is this [玩家]?[/n]Congratulations![/l]I've been hearing about you![/p]As for me, I need some more time[/n]before I can reopen the Gym.[/p]But when I do, please visit my Gym[/n]for a rematch!",
+   "prevErrs": [
+    "残留英文未翻译: roxanne this congratulations been hearing about need some more time before reopen when please visit rematch"
+   ]
+  },
+  {
+   "id": "0039425E",
+   "en": "Roxanne: {{C0}}!{{C1}}My Gym is ready!{{C2}}Please visit Rustboro whenever{{C3}}you can!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Roxanne: [玩家]![/n]My Gym is ready![/p]Please visit Rustboro whenever[/n]you can!",
+   "prevErrs": [
+    "残留英文未翻译: roxanne ready please visit rustboro whenever"
+   ]
+  },
+  {
+   "id": "003942A4",
+   "en": "Roxanne: At the Rustboro Gym,{{C0}}the fact that we battled, {{C1}},{{C2}}is a matter of pride.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Roxanne: At the Rustboro Gym,[/n]the fact that we battled, [玩家],[/l]is a matter of pride.",
+   "prevErrs": [
+    "残留英文未翻译: roxanne rustboro fact that battled matter pride"
+   ]
+  },
+  {
+   "id": "0039450C",
+   "en": "Brawly: Hey, {{C0}}{{C1}}!{{C2}}My Gym's ready for action!{{C3}}Come back to Dewford anytime{{C4}}for another challenge!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "Brawly: Hey, [玩家][fd08]![/n]My Gym's ready for action![/p]Come back to Dewford anytime[/n]for another challenge!",
+   "prevErrs": [
+    "残留英文未翻译: brawly ready action come back dewford anytime another challenge"
+   ]
+  },
+  {
+   "id": "003948AB",
+   "en": "Flannery: Hello, {{C0}}?{{C1}}Congratulations!{{C2}}Word of your success has reached{{C3}}us like the heat of a volcano!{{C4}}Our training is coming along very{{C5}}well here.{{C6}}When the Gym's ready, a mark will{{C7}}appear beside my name in the{{C8}}Match Call list.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤113字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "亚莎：你好，[玩家]?[/n]恭喜你![/p]你成功的消息已经[/n]像火山的热度一样传到了我们这里![/p]我们的训练进行得非常[/n]顺利.[/p]等道馆准备好了，我的名字旁边[/n]会出现一个标记[/l]在Match Call的列表里.",
+   "prevErrs": [
+    "残留英文未翻译: match call"
+   ]
+  },
+  {
+   "id": "00394C34",
+   "en": "Tate: Oh! You're{{C0}}{{C1}}Liza: {{C2}}!{{C3}}Tate: We're in training again{{C4}}{{C5}}Liza: So we can reopen our Gym!{{C6}}Tate: When our Gym is ready{{C7}}{{C8}}Liza: When our Gym is ready{{C9}}{{C10}}Tate: A mark'll appear by our name{{C11}}{{C12}}Liza: On the Match Call list.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "塔太：哦!你是[...][/n]丽姿：[玩家]![/p]塔太：我们又在训练了[...][/n]丽姿：这样就能重新开放道馆![/p]塔太：等道馆准备好了[...][/n]丽姿：等道馆准备好了[...][/p]塔太：我们的名字旁边会出现标记[...][/n]丽姿：在Match Call的列表里.",
+   "prevErrs": [
+    "残留英文未翻译: match call"
+   ]
+  },
+  {
+   "id": "00394D0B",
+   "en": "Tate: {{C0}}, congratulations!{{C1}}Liza: {{C2}}, congratulations!{{C3}}Tate: The two of us are{{C4}}{{C5}}Liza: Still in training!{{C6}}Tate: We need some more time, but{{C7}}{{C8}}Liza: When our Gym is ready{{C9}}{{C10}}Tate: A mark'll appear by our name{{C11}}{{C12}}Liza: On the Match Call list.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤116字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "塔太：[玩家]，恭喜![/n]丽姿：[玩家]，恭喜![/p]我们两个人[...][/n]丽姿：还在训练![/p]塔太：我们还需要一些时间，但[...][/n]丽姿：等道馆准备好了[...][/p]塔太：我们的名字旁边会出现标记[...][/n]丽姿：在Match Call的列表里.",
+   "prevErrs": [
+    "残留英文未翻译: match call"
+   ]
+  },
+  {
+   "id": "0039C915",
+   "en": "If you think that's best, I'll do that.{{C0}}Knowing that you made the decision,{{C1}}{{C2}}{{C3}}, I won't be so upset if{{C4}}I lose.{{C5}}Okay, I'll look to you for advice again.{{C6}}Bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[fd08]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "如果你觉得那样好，我就照做。[/p]既然是你做的决定，[/n][玩家][fd08]，输了也不会太难过。[/l]好吧，我再来找你请教。[/p]再见！",
+   "prevErrs": [
+    "token 不一致: 原[[/l]|[/n]|[/n]|[/p]|[/p]|[fd08]|[玩家]] 译[[/l]|[/n]|[/p]|[/p]|[fd08]|[玩家]]"
+   ]
+  },
+  {
+   "id": "0039C9B4",
+   "en": "The item {{C0}}, huh?{{C1}}Not bad. I'll use it!{{C2}}Knowing that you made the decision,{{C3}}{{C4}}{{C5}}, I won't be so upset if{{C6}}I lose.{{C7}}Okay, I'll look to you for advice again.{{C8}}Bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[玩家]"
+    ],
+    [
+     "{{C5}}",
+     "[fd08]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "那个[buffer1]啊？[/n]不错，我用了。[/p]既然是你做的决定，[/n][玩家][fd08]，输了也不会太难过。[/l]好吧，我再来找你请教。[/p]再见！",
+   "prevErrs": [
+    "token 不一致: 原[[/l]|[/n]|[/n]|[/n]|[/p]|[/p]|[buffer1]|[fd08]|[玩家]] 译[[/l]|[/n]|[/n]|[/p]|[/p]|[buffer1]|[fd08]|[玩家]]"
+   ]
+  },
+  {
+   "id": "0039CE6B",
+   "en": "Okay, that's what I'll do!{{C0}}I guess that's about all I wanted{{C1}}to ask you today.{{C2}}Let's meet here again, okay?{{C3}}Thanks!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "好的，那我就照做！[/p]我今天想问的大概就是这些了。[/n]下次还在这个地方见面吧？[/p]谢谢！",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/p]|[/p]] 译[[/n]|[/p]|[/p]]"
+   ]
+  },
+  {
+   "id": "0039CEDF",
+   "en": "Uh-huh! One {{C0}}.{{C1}}What a cool choice!{{C2}}I'll definitely try that!{{C3}}I guess that's about all I wanted{{C4}}to ask you today.{{C5}}Let's meet here again, okay?{{C6}}Thanks!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "嗯嗯！一个[buffer1]。[/n]选得真不错！[/l]我一定会试试！[/p]我今天想问的就是这些了。[/n]下次还在这个地方见面吧？[/p]谢谢！",
+   "prevErrs": [
+    "token 不一致: 原[[/l]|[/n]|[/n]|[/n]|[/p]|[/p]|[buffer1]] 译[[/l]|[/n]|[/n]|[/p]|[/p]|[buffer1]]"
+   ]
+  },
+  {
+   "id": "0039D3C9",
+   "en": "Perfectly understood!{{C0}}I'll keep at this without an item!{{C1}}I hope you'll be willing to teach me{{C2}}some more another time.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "完全明白了！[/n]我不带道具继续加油！[/p]以后还请再教教我。",
+   "prevErrs": [
+    "token 不一致: 原[[/n]|[/n]|[/p]] 译[[/n]|[/p]]"
+   ]
+  },
+  {
+   "id": "0039D43F",
+   "en": "{{C0}}! I'll use that!{{C1}}Um{{C2}} Could it be, {{C3}}, you also{{C4}}make your Pokémon hold that item?{{C5}}I'll be sure to get it!{{C6}}I hope you'll be willing to teach me{{C7}}some more another time.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[玩家]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ]
+   ],
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [],
+   "prev": "[buffer1]！我用那个！[/p]嗯[...][玩家]你是不是也让[/n]宝可梦携带了那个道具？[/p]我一定会弄到的！[/n]以后还请再教教我。",
+   "prevErrs": [
+    "token 不一致: 原[[...]|[/l]|[/n]|[/n]|[/p]|[/p]|[buffer1]|[玩家]] 译[[...]|[/n]|[/n]|[/p]|[/p]|[buffer1]|[玩家]]"
+   ]
+  }
+ ]
+}

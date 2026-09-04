@@ -57,14 +57,22 @@ function buildSingleMap(textToCode) {
 	return m;
 }
 
-/** 文本 → 码字节序列（不含终止符）。返回 { bytes: Buffer, unknown: [字符...] } */
-function encode(text, charmap) {
+/** 文本 → 码字节序列（不含终止符）。opts.escPrefix（如 'f7'）时，首字节∈0x01-0x1E 的双字节码展开为 前缀+hi+lo（EliteRedux ESC 方案，3 字节/汉字）。返回 { bytes: Buffer, unknown: [字符...] } */
+function encode(text, charmap, opts = {}) {
+	const escByte = opts.escPrefix ? parseInt(opts.escPrefix, 16) : null;
 	const codes = [];
 	const unknown = [];
 	const chars = [...(text || '')];
 	let i = 0;
 	while (i < chars.length) {
 		let matched = false;
+		// 0) FD 占位符对称还原：decode 把未知 FD 对生成为 [fdxx]，这里还原为原始字节 fd xx
+		const fdm = chars.slice(i, i + 6).join('').match(/^\[fd([0-9a-fA-F]{2})\]/);
+		if (fdm) {
+			codes.push('fd' + fdm[1].toLowerCase());
+			i += 6;
+			matched = true;
+		}
 		// 1) 多字符占位符最长匹配
 		for (const t of charmap.multiCharTexts) {
 			const tl = [...t].length;
@@ -93,11 +101,15 @@ function encode(text, charmap) {
 		else if (codes[k].length === 4) { bytes[k] = n >> 8; }
 		else { /* 6 位码占 3 字节，需 expand */ }
 	});
-	// 6 位码占 3 字节，重新精确展开
-	if (codes.some(c => c.length !== 2)) {
+	// 6 位码占 3 字节，或 ESC 前缀展开（双字节汉字码→3字节）时重新精确展开
+	if (escByte !== null || codes.some(c => c.length !== 2)) {
 		const arr = [];
 		for (const code of codes) {
 			const n = parseInt(code, 16);
+			if (escByte !== null && code.length === 4) {
+				const hi = (n >> 8) & 0xFF;
+				if (hi >= 0x01 && hi <= 0x1E) { arr.push(escByte, hi, n & 0xFF); continue; }
+			}
 			const nBytes = code.length / 2;
 			for (let b = nBytes - 1; b >= 0; b--) arr.push((n >> (8 * b)) & 0xFF);
 		}
@@ -107,8 +119,8 @@ function encode(text, charmap) {
 }
 
 /** 编码后字节长度（不含终止符） */
-function byteLen(text, charmap) {
-	return encode(text, charmap).bytes.length;
+function byteLen(text, charmap, opts) {
+	return encode(text, charmap, opts).bytes.length;
 }
 
 /**
@@ -123,17 +135,33 @@ function isSingleHan(text) {
  * opts.stopAtFF=true 时遇 0xFF 停止；opts.noHan=true 时禁用双字节汉字码
  * （英文基板导出原文用：码表里 05b8=纪 这类条目会与 05=È + b8=, 的英文序列歧义，
  *   且英文基板不需要汉字路径；中文基座保持默认开启）。
+ * opts.escPrefix（如 'f7'，EliteRedux ESC 基座）：前缀+hi+lo 三字节还原为一个汉字
+ *   （重导出已汉化 ROM 必需；与 encode 的展开规则对应）。
  * 返回 { text, codes, end, terminated, invalid }；失败时 invalid=true。
  */
 function decode(buf, start, charmap, opts = {}) {
 	const stopAtFF = opts.stopAtFF !== false;
 	const maxLen = opts.maxLen || 0x400;
+	const escByte = opts.escPrefix ? parseInt(opts.escPrefix, 16) : null;
 	const parts = [];
 	const codes = [];
 	let i = start;
 	while (i < buf.length && i - start < maxLen) {
 		const b = buf[i];
 		if (stopAtFF && b === TERMINATOR) return { text: parts.join(''), codes, end: i, terminated: true, invalid: false };
+		// ESC 三字节汉字（F7+hi+lo，hi∈0x01-0x1E）：与 encode escPrefix 展开对应
+		let escTried = false;
+		if (escByte !== null && b === escByte && i + 2 < buf.length && buf[i + 1] >= 0x01 && buf[i + 1] <= 0x1E) {
+			escTried = true;
+			const code = buf.slice(i + 1, i + 3).toString('hex');
+			const text = charmap.codeToText.get(code);
+			if (text !== undefined) {
+				parts.push(text);
+				codes.push(escByte.toString(16).padStart(2, '0') + code);
+				i += 3;
+				continue;
+			}
+		}
 		let matched = false;
 		// FD 系占位符：FD+lo 两字节，引擎运行时展开（不进字库）。
 		// 码表未收录的 FD 对（不同基板语义不同）合并为 [fdxx] 占位原样保留，
@@ -146,11 +174,13 @@ function decode(buf, start, charmap, opts = {}) {
 			i += 2;
 			continue;
 		}
+		const b0 = buf[i];
 		for (const nBytes of [3, 2, 1]) {           // 贪心：3B > 2B > 1B
 			if (i + nBytes > buf.length) continue;
 			const code = buf.slice(i, i + nBytes).toString('hex');
 			let text = charmap.codeToText.get(code);
 			if (text !== undefined && nBytes === 2 && opts.noHan && isSingleHan(text)) text = undefined;   // noHan: 跳过汉字双字节
+			if (text !== undefined && nBytes === 1 && escTried) text = undefined; // ESC hi∈01-1E 但码表未命中：F7 不回退为 [u]，宁 invalid 不乱解
 			if (text !== undefined) {
 				parts.push(text);
 				codes.push(code);
@@ -165,11 +195,18 @@ function decode(buf, start, charmap, opts = {}) {
 }
 
 /**
- * 标点/符号归一化（借鉴 gui_related translator.py 的机翻后处理）：
- * 机翻输出常含码表不支持的字符（全角标点、中文引号等），逐字符试探替换：
- *   1. 原字符可编码 → 保留
- *   2. 查 PUNCT_MAP 候选链，取第一个可编码的
- *   3. 都不可 → 原样保留（交给 encode 的 unknown 报告）
+ * 标点/符号归一化（机翻后处理）：
+ * 机翻输出常含码表不支持的字符（全角标点等），逐字符试探替换：
+ *   0. ASCII 双引号按出现顺序配对为 “/”（引擎字库区分前后引号：B1=“ B2=”，
+ *      2025-09 romctl 改串截图实证，见 LESSONS）；
+ *   1. 项目级 subst 映射（project.json 同目录 subst.json，字库缺字的近似字替换，如 {"椪":"梧"}）
+ *   2. 原字符可编码 → 保留
+ *   3. 查 PUNCT_CANDIDATES 候选链，取第一个可编码的
+ *   4. 都不可 → 原样保留（交给 encode 的 unknown 报告 → 门禁硬拒绝）
+ *
+ * 引号映射实证（Quetzal/Emerald 基座）：B1=“（6形） B2=”（9形） B3=‘（6形单个）
+ * B4=’（9形单个，兼作撇号，码表标 ASCII ' 以保持旧导出稳定）。
+ * ⚠ gui_related translator.py 把 ‘→B4/’→B3 弄反了，勿照抄。
  */
 const PUNCT_CANDIDATES = {
 	'，': [','],
@@ -181,22 +218,42 @@ const PUNCT_CANDIDATES = {
 	'（': ['('],
 	'）': [')'],
 	'、': [','],
-	'【': ['['],
-	'】': [']'],
-	'“': ['["]', '"'],
-	'”': ['["]', '"'],
-	'‘': ["[']", "'"],
-	'’': ["[']", "'"],
+	'“': ['“'],
+	'”': ['”'],
+	'‘': ['‘'],
+	'’': ["'"],
+	'"': ['”'],                      // 未配对的孤立直引号 → 后引号（配对逻辑见 normalizeText）
+	"'": ["'"],
 	'…': ['[...]', '...'],
 	'～': ['~', '-'],
 	'　': [' '],
 };
 
-function normalizeText(text, charmap) {
-	const chars = [...(text || '')];
+function normalizeText(text, charmap, subst) {
+	let src = String(text || '');
 	let changed = 0;
+	// 0) ASCII 双引号配对：奇数个 → “，偶数个 → ”（仅当码表可编码时启用）
+	if (charmap.singleCharToCode.has('“') && charmap.singleCharToCode.has('”') && src.includes('"')) {
+		let open = true;
+		src = [...src].map(c => {
+			if (c !== '"') return c;
+			changed++;
+			const paired = open ? '“' : '”';
+			open = !open;
+			return paired;
+		}).join('');
+	}
+	// 0b) ★不可靠全角标点强制半角（LESSONS#12：全角字形是别的图案，如 。→"er"；
+	//     即使码表可编码也一律转半角，翻译产出一律半角标点）
+	const FORCE_HALF = { '。': '.', '！': '!', '？': '?', '，': ',', '、': ',', '：': ':', '；': ';' };
+	for (const [fw, hw] of Object.entries(FORCE_HALF)) {
+		if (src.includes(fw)) { changed += src.split(fw).length - 1; src = src.split(fw).join(hw); }
+	}
+	const chars = [...src];
 	const out = chars.map(c => {
 		if (charmap.singleCharToCode.has(c) || charmap.textToCode.has(c)) return c;
+		// 0) 项目级缺字近似替换（字库没有的字 → 形近/义近字）
+		if (subst && subst[c] !== undefined) { changed++; return subst[c]; }
 		for (const cand of PUNCT_CANDIDATES[c] || []) {
 			// 候选可能是多字符占位符（如 ["]、[...]）
 			if (charmap.textToCode.has(cand)) { changed++; return cand; }
@@ -207,4 +264,30 @@ function normalizeText(text, charmap) {
 	return { text: out, changed };
 }
 
-module.exports = { loadCharmap, encode, decode, byteLen, normalizeText, TERMINATOR };
+/** 加载项目级缺字替换表 subst.json（{缺字:近似字}），不存在返回 null */
+function loadSubst(path) {
+	try { return JSON.parse(fs.readFileSync(path, 'utf8')); } catch (e) { return null; }
+}
+
+/**
+ * 码表外字符分类提示（emoji/注音/生僻字/符号），让门禁报错一眼可判
+ * 例如：码表缺字(emoji): 😀 → 直接删掉或改用文字描述
+ */
+function describeUnknown(chars) {
+	const uniq = [...new Set(chars)];
+	const inRange = (c, a, b) => { const n = c.codePointAt(0); return n >= a && n <= b; };
+	const emoji = uniq.filter(c => inRange(c, 0x1F000, 0x1FAFF) || inRange(c, 0x2600, 0x27BF) || inRange(c, 0xFE00, 0xFE0F) || inRange(c, 0x2190, 0x21FF) || inRange(c, 0x2B00, 0x2BFF));
+	const bopomofo = uniq.filter(c => inRange(c, 0x3100, 0x312F));
+	const cjkExt = uniq.filter(c => c.codePointAt(0) >= 0x20000);
+	const symbols = uniq.filter(c => inRange(c, 0x00A0, 0x00FF) || inRange(c, 0x2000, 0x206F) || inRange(c, 0x2100, 0x214F) || inRange(c, 0x2460, 0x24FF) || inRange(c, 0x3000, 0x303F));
+	const rest = uniq.filter(c => !emoji.includes(c) && !bopomofo.includes(c) && !cjkExt.includes(c) && !symbols.includes(c));
+	const parts = [];
+	if (emoji.length) parts.push('emoji/装饰符号(不可用，删除或改文字): ' + emoji.join(' '));
+	if (bopomofo.length) parts.push('注音符号: ' + bopomofo.join(' '));
+	if (cjkExt.length) parts.push('生僻字(CJK扩展，查subst或换字): ' + cjkExt.join(' '));
+	if (symbols.length) parts.push('符号(全角/罗马数字等，看可否半角替代): ' + symbols.join(' '));
+	if (rest.length) parts.push('其他缺字: ' + rest.join(' '));
+	return parts.join('；') || uniq.join(' ');
+}
+
+module.exports = { loadCharmap, encode, decode, byteLen, normalizeText, loadSubst, describeUnknown, TERMINATOR };

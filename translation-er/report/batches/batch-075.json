@@ -1,0 +1,2383 @@
+{
+ "batch": 75,
+ "count": 106,
+ "tasks": [
+  {
+   "id": "00386507",
+   "scene": "main-text",
+   "en": "I thought the Ashen Woods would be{{C0}}flat and dull like Petalburg Woods.{{C1}}They're no Jagged Pass, but they're{{C2}}rocky enough for me!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 128,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pass→磁浮列车自由票"
+   ]
+  },
+  {
+   "id": "00386587",
+   "scene": "main-text",
+   "en": "I'm looking for powerful Bug-type{{C0}}Pokémon in the grass here.{{C1}}Look, I'll show you what I've found!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 98,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bug→虫",
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "003865E9",
+   "scene": "main-text",
+   "en": "Wait! I only wanted to show you!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038660A",
+   "scene": "main-text",
+   "en": "As a Bug Maniac, I prefer collecting{{C0}}to battling.{{C1}}However, having a strong team makes{{C2}}catching Pokémon much easier.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bug→虫"
+   ]
+  },
+  {
+   "id": "003866FF",
+   "scene": "main-text",
+   "en": "ÁRepel's effect wore off{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 26,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Repel→除虫喷雾"
+   ]
+  },
+  {
+   "id": "00386719",
+   "scene": "main-text",
+   "en": "Would you like to use another one?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003867E4",
+   "scene": "main-text",
+   "en": "Would you like to exit the Safari{{C0}}Zone right now?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386816",
+   "scene": "main-text",
+   "en": "Ding-dong! Time's up!{{C0}}Your Safari Game is over.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386846",
+   "scene": "main-text",
+   "en": "You've run out of Safari Balls.{{C0}}Your Safari Game is over.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386880",
+   "scene": "main-text",
+   "en": "Would you like to place a {{C0}}{{C1}}{{C2}}{{C3}}{{C4}}{{C5}}on the {{C6}}{{C7}}{{C8}}{{C9}}{{C10}} Feeder?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[PO]"
+    ],
+    [
+     "{{C7}}",
+     "[Ke]"
+    ],
+    [
+     "{{C8}}",
+     "[BL]"
+    ],
+    [
+     "{{C9}}",
+     "[OC]"
+    ],
+    [
+     "{{C10}}",
+     "[K]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003868B5",
+   "scene": "main-text",
+   "en": "The {{C0}} you left{{C1}}before is still here.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003868DB",
+   "scene": "main-text",
+   "en": "The {{C0}} was placed{{C1}}on the {{C2}}{{C3}}{{C4}}{{C5}}{{C6}} Feeder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[PO]"
+    ],
+    [
+     "{{C3}}",
+     "[Ke]"
+    ],
+    [
+     "{{C4}}",
+     "[BL]"
+    ],
+    [
+     "{{C5}}",
+     "[OC]"
+    ],
+    [
+     "{{C6}}",
+     "[K]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386A36",
+   "scene": "main-text",
+   "en": "Welcome to the Safari Zone!{{C0}}Is it your first time here?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386A6E",
+   "scene": "main-text",
+   "en": "Come in and enjoy the Safari Zone!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386A91",
+   "scene": "main-text",
+   "en": "When you enter the Safari Zone, you{{C0}}start with 30 Safari Balls for{{C1}}catching Pokémon.{{C2}}The Safari Game is over when you run{{C3}}out of Safari Balls, or when you've{{C4}}walked 500 steps.{{C5}}Come in and enjoy the Safari Zone!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 211,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386B64",
+   "scene": "main-text",
+   "en": "Welcome to the Safari Zone!{{C0}}All you can catch for just $500!{{C1}}Would you like to play a Safari Game?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386BC7",
+   "scene": "main-text",
+   "en": "Okay.{{C0}}Please play another time!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386BE7",
+   "scene": "main-text",
+   "en": "You don't have enough money.{{C0}}Sorry.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386C0B",
+   "scene": "main-text",
+   "en": "That will be $500, please.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386C26",
+   "scene": "main-text",
+   "en": "Here are your Safari Balls.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386C42",
+   "scene": "main-text",
+   "en": "{{C0}} received 30 Safari Balls.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386C5F",
+   "scene": "main-text",
+   "en": "We'll let you know when your game{{C0}}is over.{{C1}}So, until then, enjoy yourself, please!{{C2}}Off you go on your wild excursion!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386CD5",
+   "scene": "main-text",
+   "en": "Excuse me!{{C0}}Your PC Box is full.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386CF5",
+   "scene": "main-text",
+   "en": "Excuse me!{{C0}}You seem to be without a {{C1}}{{C2}}{{C3}}{{C4}}{{C5}} Case.{{C6}}Your Safari Game will be much more{{C7}}fruitful if you use {{C8}}{{C9}}{{C10}}{{C11}}{{C12}}S.{{C13}}Please come back with a {{C14}}{{C15}}{{C16}}{{C17}}{{C18}} Case.{{C19}}You may obtain a {{C20}}{{C21}}{{C22}}{{C23}}{{C24}} Case from{{C25}}the Lilycove Contest Hall.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ],
+    [
+     "{{C2}}",
+     "[Ke]"
+    ],
+    [
+     "{{C3}}",
+     "[BL]"
+    ],
+    [
+     "{{C4}}",
+     "[OC]"
+    ],
+    [
+     "{{C5}}",
+     "[K]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[PO]"
+    ],
+    [
+     "{{C9}}",
+     "[Ke]"
+    ],
+    [
+     "{{C10}}",
+     "[BL]"
+    ],
+    [
+     "{{C11}}",
+     "[OC]"
+    ],
+    [
+     "{{C12}}",
+     "[K]"
+    ],
+    [
+     "{{C13}}",
+     "[/p]"
+    ],
+    [
+     "{{C14}}",
+     "[PO]"
+    ],
+    [
+     "{{C15}}",
+     "[Ke]"
+    ],
+    [
+     "{{C16}}",
+     "[BL]"
+    ],
+    [
+     "{{C17}}",
+     "[OC]"
+    ],
+    [
+     "{{C18}}",
+     "[K]"
+    ],
+    [
+     "{{C19}}",
+     "[/p]"
+    ],
+    [
+     "{{C20}}",
+     "[PO]"
+    ],
+    [
+     "{{C21}}",
+     "[Ke]"
+    ],
+    [
+     "{{C22}}",
+     "[BL]"
+    ],
+    [
+     "{{C23}}",
+     "[OC]"
+    ],
+    [
+     "{{C24}}",
+     "[K]"
+    ],
+    [
+     "{{C25}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 207,
+   "hint": "纯中文≤103字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386DC4",
+   "scene": "main-text",
+   "en": "You still have time left. Would you like{{C0}}to exit the Safari Zone now?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386E0A",
+   "scene": "main-text",
+   "en": "Please enjoy the rest of your wild{{C0}}adventure!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rest→睡觉"
+   ]
+  },
+  {
+   "id": "00386E38",
+   "scene": "main-text",
+   "en": "Okay.{{C0}}I'll take back your remaining Safari{{C1}}Balls.{{C2}}Thank you for playing.{{C3}}We hope to see you again.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386E9B",
+   "scene": "main-text",
+   "en": "Good luck!{{C0}}If you need anything, don't hesitate{{C1}}to tell me, please!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386EDF",
+   "scene": "main-text",
+   "en": "Did you know?{{C0}}If you put a {{C1}}{{C2}}{{C3}}{{C4}}{{C5}} in that square box,{{C6}}Pokémon gather around.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ],
+    [
+     "{{C2}}",
+     "[Ke]"
+    ],
+    [
+     "{{C3}}",
+     "[BL]"
+    ],
+    [
+     "{{C4}}",
+     "[OC]"
+    ],
+    [
+     "{{C5}}",
+     "[K]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00386F2B",
+   "scene": "main-text",
+   "en": "I want to keep going deeper, but I{{C0}}forgot to bring a Bike.{{C1}}Something tells me that rare Pokémon{{C2}}live in the outlying areas.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bike→自行车"
+   ]
+  },
+  {
+   "id": "00386FA7",
+   "scene": "main-text",
+   "en": "Sometimes, when I toss a {{C0}}{{C1}}{{C2}}{{C3}}{{C4}} at {{C5}}Pokémon, it gets ignored.{{C6}}Do Pokémon have likes and dislikes{{C7}}about what they eat?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038701C",
+   "scene": "main-text",
+   "en": "Gasp{{C0}} Gasp{{C1}}{{C2}}I{{C3}}made it out here{{C4}}but{{C5}}{{C6}}I'm exhausted{{C7}} I don't have the{{C8}}energy to catch Pokémon{{C9}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387079",
+   "scene": "main-text",
+   "en": "I'm on a mission to find WATER Pokémon{{C0}}you don't see in Hoenn.{{C1}}Do you have any idea where the lake is?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水",
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "003870E0",
+   "scene": "main-text",
+   "en": "I'm going to catch a lot of rare Pokémon{{C0}}here and trade them with my friends!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038712E",
+   "scene": "main-text",
+   "en": "I put a {{C0}}{{C1}}{{C2}}{{C3}}{{C4}} on the {{C5}}{{C6}}{{C7}}{{C8}}{{C9}} Feeder.{{C10}}But it seems to have disappeared.{{C11}}I guess Pokémon must have eaten it{{C12}}without me noticing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[PO]"
+    ],
+    [
+     "{{C6}}",
+     "[Ke]"
+    ],
+    [
+     "{{C7}}",
+     "[BL]"
+    ],
+    [
+     "{{C8}}",
+     "[OC]"
+    ],
+    [
+     "{{C9}}",
+     "[K]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003871AB",
+   "scene": "main-text",
+   "en": "Safari Zone Trainer Tip!{{C0}}Throw {{C1}}{{C2}}{{C3}}{{C4}}{{C5}}S at wild Pokémon to make{{C6}}them less likely to flee.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ],
+    [
+     "{{C2}}",
+     "[Ke]"
+    ],
+    [
+     "{{C3}}",
+     "[BL]"
+    ],
+    [
+     "{{C4}}",
+     "[OC]"
+    ],
+    [
+     "{{C5}}",
+     "[K]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 88,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387203",
+   "scene": "main-text",
+   "en": "“Relieve your tired feet.”{{C0}}Rest House",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rest→睡觉"
+   ]
+  },
+  {
+   "id": "00387229",
+   "scene": "main-text",
+   "en": "I don't have any {{C0}}{{C1}}{{C2}}{{C3}}{{C4}}S, but I caught{{C5}}a good number of Pokémon.{{C6}}You can improve your chances of making{{C7}}a catch by getting closer to them{{C8}}before throwing a Safari Ball.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 168,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Safari Ball→狩猎球"
+   ]
+  },
+  {
+   "id": "003872D1",
+   "scene": "main-text",
+   "en": "If you use {{C0}}{{C1}}{{C2}}{{C3}}{{C4}}S, wild Pokémon won't{{C5}}be so quick to run away.{{C6}}It's not much use to give {{C7}}{{C8}}{{C9}}{{C10}}{{C11}}S to{{C12}}Pokémon that don't flee easily.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[PO]"
+    ],
+    [
+     "{{C8}}",
+     "[Ke]"
+    ],
+    [
+     "{{C9}}",
+     "[BL]"
+    ],
+    [
+     "{{C10}}",
+     "[OC]"
+    ],
+    [
+     "{{C11}}",
+     "[K]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Run Away→逃跑"
+   ]
+  },
+  {
+   "id": "00387354",
+   "scene": "main-text",
+   "en": "If you put a {{C0}}{{C1}}{{C2}}{{C3}}{{C4}} on the Feeder,{{C5}}Pokémon are attracted to it.{{C6}}I think Pokémon with the same sort of{{C7}}nature are drawn by a certain {{C8}}{{C9}}{{C10}}{{C11}}{{C12}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[PO]"
+    ],
+    [
+     "{{C9}}",
+     "[Ke]"
+    ],
+    [
+     "{{C10}}",
+     "[BL]"
+    ],
+    [
+     "{{C11}}",
+     "[OC]"
+    ],
+    [
+     "{{C12}}",
+     "[K]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 138,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003873DE",
+   "scene": "main-text",
+   "en": "This area is still under construction.{{C0}}It's off-limits, sorry!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038741D",
+   "scene": "main-text",
+   "en": "The Safari Zone's expansion project{{C0}}is finished now.{{C1}}We hope you will enjoy the new area.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 90,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387477",
+   "scene": "main-text",
+   "en": "This area is still under construction.{{C0}}It's off-limits, sorry!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003874B6",
+   "scene": "main-text",
+   "en": "Wow! Whee! I haven't seen any of{{C0}}these Pokémon before!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003874ED",
+   "scene": "main-text",
+   "en": "The Pokémon in this area are all{{C0}}new to me.{{C1}}And I'm allowed to catch these rare{{C2}}Pokémon! Too cool!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387550",
+   "scene": "main-text",
+   "en": "The Pokémon around here seem to be{{C0}}from somewhere other than Hoenn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "00387594",
+   "scene": "main-text",
+   "en": "I only have a couple Safari Balls left.{{C0}}I'm having a hard time trying to{{C1}}decide what I should catch.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 101,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003875F9",
+   "scene": "main-text",
+   "en": "I heard that you can see PIKACHU here.{{C0}}Where might one be?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pikachu→皮卡丘"
+   ]
+  },
+  {
+   "id": "00387634",
+   "scene": "main-text",
+   "en": "Oh, boo!{{C0}}I can't seem to catch anything!{{C1}}I'll end up wasting the admission{{C2}}price if I don't catch something!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 109,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003876FD",
+   "scene": "main-text",
+   "en": "æ8 úÁThe minimum wager at this table{{C0}}is {{C1}}. Do you want to play?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038773E",
+   "scene": "main-text",
+   "en": "You don't have enough Coins.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038775B",
+   "scene": "main-text",
+   "en": "Special rate table right now!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387779",
+   "scene": "main-text",
+   "en": "Place your wager with the + Control{{C0}}Pad, then press the A Button.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003877BB",
+   "scene": "main-text",
+   "en": "It's a hit!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003877C7",
+   "scene": "main-text",
+   "en": "Jackpot!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003877D0",
+   "scene": "main-text",
+   "en": "Nothing doing!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003877DF",
+   "scene": "main-text",
+   "en": "You've won {{C0}} Coins!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003877F4",
+   "scene": "main-text",
+   "en": "No Coins left{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387803",
+   "scene": "main-text",
+   "en": "Keep playing?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387811",
+   "scene": "main-text",
+   "en": "The ROULETTE board will be cleared.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387851",
+   "scene": "main-text",
+   "en": "Your COIN CASE is full!{{C0}}Coins can be exchanged for prizes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Coin Case→代币盒"
+   ]
+  },
+  {
+   "id": "0038788C",
+   "scene": "main-text",
+   "en": "Prof. Birch: Ah, {{C0}}{{C1}}!{{C2}}Are you curious about how your{{C3}}Pokédex is coming along?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003878DB",
+   "scene": "main-text",
+   "en": "Hm? Oh, you haven't caught enough{{C0}}Pokémon to make it worthwhile.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038791C",
+   "scene": "main-text",
+   "en": "Hmhm{{C0}}{{C1}}So, you've seen {{C2}} Pokémon,{{C3}}and you've caught {{C4}} Pokémon{{C5}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038795C",
+   "scene": "main-text",
+   "en": "Go into grassy areas more and look{{C0}}for Pokémon more carefully.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038799B",
+   "scene": "main-text",
+   "en": "I guess you're getting the hang{{C0}}of it. But, it gets harder from here.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003879E1",
+   "scene": "main-text",
+   "en": "Some Pokémon only appear in{{C0}}certain areas.{{C1}}You must be persistent.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 67,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387A24",
+   "scene": "main-text",
+   "en": "Well, it could use more quantity,{{C0}}but this is looking more like{{C1}}a Pokédex now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387A73",
+   "scene": "main-text",
+   "en": "This is coming along pretty good.{{C0}}Keep up the effort.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387AA9",
+   "scene": "main-text",
+   "en": "Are you using any RODS?{{C0}}There are many Pokémon in the sea.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387AE4",
+   "scene": "main-text",
+   "en": "Instead of just catching Pokémon,{{C0}}how about making them evolve, too?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387B29",
+   "scene": "main-text",
+   "en": "This is going to be a fantastic{{C0}}Pokédex.{{C1}}That's the feeling I'm getting.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387B72",
+   "scene": "main-text",
+   "en": "You've collected this many{{C0}}{{C1}}Your talent is remarkable!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387BA9",
+   "scene": "main-text",
+   "en": "Have you visited the Safari Zone?{{C0}}I hear there are some Pokémon that{{C1}}can only be caught there.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387C08",
+   "scene": "main-text",
+   "en": "You've finally reached{{C0}}the 100-kind mark.{{C1}}This is an impressive Pokédex!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387C51",
+   "scene": "main-text",
+   "en": "There might be Pokémon that can be{{C0}}found using Rock Smash.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock Smash→碎岩",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00387C8C",
+   "scene": "main-text",
+   "en": "You should get some more Pokémon{{C0}}by trading with others.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387CC5",
+   "scene": "main-text",
+   "en": "I've heard of Pokémon that evolve{{C0}}when they come to fully love their{{C1}}Trainers.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387D14",
+   "scene": "main-text",
+   "en": "I had no idea that there were so{{C0}}many Pokémon species in the Hoenn{{C1}}region.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "00387D5F",
+   "scene": "main-text",
+   "en": "On occasion, some Pokémon appear{{C0}}in large numbers like outbreaks.{{C1}}Don't miss opportunities like{{C2}}those.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387DC6",
+   "scene": "main-text",
+   "en": "One can get a very good idea about{{C0}}the Pokémon of the Hoenn region{{C1}}by looking through your Pokédex.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "00387E2A",
+   "scene": "main-text",
+   "en": "I would say you already qualify as{{C0}}a Pokémon Professor, and a good{{C1}}one, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387E77",
+   "scene": "main-text",
+   "en": "With a Pokédex this complete,{{C0}}you're a real professional at this!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 66,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387EB9",
+   "scene": "main-text",
+   "en": "You're very close to completing{{C0}}this Pokédex.{{C1}}I can feel it in my bones!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387F02",
+   "scene": "main-text",
+   "en": "Congratulations!{{C0}}Your Pokédex is complete!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 43,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00387F2D",
+   "scene": "main-text",
+   "en": "Hmhm{{C0}}{{C1}}On a nationwide basis{{C2}}{{C3}}You've seen {{C4}} Pokémon,{{C5}}and you've caught {{C6}} Pokémon{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388086",
+   "scene": "main-text",
+   "en": "Please come back tomorrow.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 27,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003880A1",
+   "scene": "main-text",
+   "en": "Please do visit again.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003880FB",
+   "scene": "main-text",
+   "en": "The Loto Ticket number is {{C0}}.{{C1}}I need to run a check on this number{{C2}}to see if it matches any of your{{C3}}Pokémon's ID numbers. Please wait.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 135,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388182",
+   "scene": "main-text",
+   "en": "Congratulations!{{C0}}The ID number of your team's{{C1}}{{C2}} matches your{{C3}}Loto Ticket's number!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 84,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003881D6",
+   "scene": "main-text",
+   "en": "Congratulations!{{C0}}The ID number of your PC-boxed{{C1}}{{C2}} matches your{{C3}}Loto Ticket's number!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 86,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038822C",
+   "scene": "main-text",
+   "en": "I'm sorry.{{C0}}None of the numbers matched.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388254",
+   "scene": "main-text",
+   "en": "Two digits matched, so you win the{{C0}}third prize!{{C1}}You've won the {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 67,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388297",
+   "scene": "main-text",
+   "en": "Three digits matched, so you win the{{C0}}second prize!{{C1}}You've won the {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003882DD",
+   "scene": "main-text",
+   "en": "Four digits matched, so you win the{{C0}}first prize!{{C1}}You've won the {{C2}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 68,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388321",
+   "scene": "main-text",
+   "en": "Oh, my goodness, all five digits{{C0}}matched!{{C1}}You've won the jackpot prize!{{C2}}You've won the {{C3}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 91,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038837C",
+   "scene": "main-text",
+   "en": "Oh?{{C0}}You seem to have no room for this.{{C1}}Please make room in your Bag and{{C2}}let me know.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003883D1",
+   "scene": "main-text",
+   "en": "{{C0}}?{{C1}}Yes, I've been expecting you.{{C2}}This is the prize we've been holding{{C3}}for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388421",
+   "scene": "main-text",
+   "en": "Please do visit again.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388438",
+   "scene": "main-text",
+   "en": "The ferry to Slateport is{{C0}}{{C1}}I beg your pardon?{{C2}}Can we sail to this place on the map?{{C3}}I know someone who will help you better.{{C4}}Please wait.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 138,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003884C2",
+   "scene": "main-text",
+   "en": "The ferry to Slateport is{{C0}}{{C1}}Oh?{{C2}}That Pass{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pass→磁浮列车自由票"
+   ]
+  },
+  {
+   "id": "003884EC",
+   "scene": "main-text",
+   "en": "Aye, mate, are you the one who brought{{C0}}that mighty odd Pass?{{C1}}I'll tell you, you're trying to reach a{{C2}}tiny spit of an island far in the south.{{C3}}There's no telling what we'll encounter{{C4}}once we reach there, aye.{{C5}}That shivers my timbers!{{C6}}All aboard!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 245,
+   "hint": "纯中文≤122字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pass→磁浮列车自由票"
+   ]
+  },
+  {
+   "id": "003885E1",
+   "scene": "main-text",
+   "en": "Aye, mate, there's nothing here to{{C0}}see or do on this forgettable island.{{C1}}What say we sail back to Lilycove?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 108,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038864D",
+   "scene": "main-text",
+   "en": "Aye, right, then!{{C0}}Sail home we will!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388672",
+   "scene": "main-text",
+   "en": "Aye, right, as you like, then.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00388691",
+   "scene": "main-text",
+   "en": "“All dreams are but another reality.{{C0}}Never forget{{C1}}”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

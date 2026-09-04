@@ -1,0 +1,2009 @@
+{
+ "batch": 25,
+ "count": 79,
+ "tasks": [
+  {
+   "id": "002EDAED",
+   "scene": "main-text",
+   "en": "Oh, that's right!{{C0}}As a memento of me painting your{{C1}}Pokémon, please take this.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Memento→临别礼物"
+   ]
+  },
+  {
+   "id": "002EDB3B",
+   "scene": "main-text",
+   "en": "{{C0}} received a Ribbon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDB51",
+   "scene": "main-text",
+   "en": "{{C0}} put the Ribbon on{{C1}}{{C2}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDB6A",
+   "scene": "main-text",
+   "en": "Okay, see you!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDB79",
+   "scene": "main-text",
+   "en": "Oh{{C0}} Then, I guess I'll just take{{C1}}this home with me{{C2}}{{C3}}But, you know, I would like to take{{C4}}this to the art museum{{C5}} Okay?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDBEF",
+   "scene": "main-text",
+   "en": "Oh, fine, that's the way it is.{{C0}}I will hang this in my own house.{{C1}}I'll just have to try harder next time.{{C2}}Well, be seeing you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDC6E",
+   "scene": "main-text",
+   "en": "Hoo, boy{{C0}} Master Rank Contests,{{C1}}here I come.{{C2}}The world will know that my dearest{{C3}}Pokémon is the cutest being in all{{C4}}existence. The time has come!{{C5}}Uheheheh.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDD0A",
+   "scene": "main-text",
+   "en": "You can see a whole variety of{{C0}}Pokémon here.{{C1}}That's why I make this place a regular{{C2}}part of my daily stroll.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 109,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDD77",
+   "scene": "main-text",
+   "en": "Wow, coming out to a Contest is{{C0}}a feast for these eyes!{{C1}}Would you look at all the Pokémon{{C2}}that just scream to be painted?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDDF1",
+   "scene": "main-text",
+   "en": "The Toughness Contest is like{{C0}}extreme, man!{{C1}}Those muscular appeals{{C2}}{{C3}}Cascading sweat{{C4}} I swoon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 94,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDE4F",
+   "scene": "main-text",
+   "en": "Day in and day out, I lavished my care{{C0}}on this Pokémon.{{C1}}Its condition is peaking.{{C2}}Today, victory is mine!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 106,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDEB9",
+   "scene": "main-text",
+   "en": "I made {{C0}}{{C1}}{{C2}}{{C3}}{{C4}}S with Mom, Dad, and{{C5}}Big Sister. They turned out great!{{C6}}I bet you can make smoother, better{{C7}}{{C8}}{{C9}}{{C10}}{{C11}}{{C12}}s if you have more people.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[PO]"
+    ],
+    [
+     "{{C9}}",
+     "[Ke]"
+    ],
+    [
+     "{{C10}}",
+     "[BL]"
+    ],
+    [
+     "{{C11}}",
+     "[OC]"
+    ],
+    [
+     "{{C12}}",
+     "[K]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDFC5",
+   "scene": "main-text",
+   "en": "It looks like the machine is broken, it's{{C0}}probably better to leave it as is.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE012",
+   "scene": "main-text",
+   "en": "I played a lot with this {{C0}}{{C1}}{{C2}}{{C3}}{{C4}} machine{{C5}}and I broke it so nobody can play, but{{C6}}now I have a lot of {{C7}}{{C8}}{{C9}}{{C10}}{{C11}}s, do you want{{C12}}some?.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[PO]"
+    ],
+    [
+     "{{C8}}",
+     "[Ke]"
+    ],
+    [
+     "{{C9}}",
+     "[BL]"
+    ],
+    [
+     "{{C10}}",
+     "[OC]"
+    ],
+    [
+     "{{C11}}",
+     "[K]"
+    ],
+    [
+     "{{C12}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE08F",
+   "scene": "main-text",
+   "en": "More for me I guess.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE0A4",
+   "scene": "main-text",
+   "en": "Take them all!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE0B3",
+   "scene": "main-text",
+   "en": "{{C0}} obtained a lot of {{C1}}{{C2}}{{C3}}{{C4}}{{C5}}s.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ],
+    [
+     "{{C2}}",
+     "[Ke]"
+    ],
+    [
+     "{{C3}}",
+     "[BL]"
+    ],
+    [
+     "{{C4}}",
+     "[OC]"
+    ],
+    [
+     "{{C5}}",
+     "[K]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE0D0",
+   "scene": "main-text",
+   "en": "If you need more of them please tell me.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE0F9",
+   "scene": "main-text",
+   "en": "I played a lot with this {{C0}}{{C1}}{{C2}}{{C3}}{{C4}} machine{{C5}}and I broke it so nobody can play now...",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE149",
+   "scene": "main-text",
+   "en": "My dumb brother broke every machine{{C0}}here and now I can't play.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE188",
+   "scene": "main-text",
+   "en": "We are trying to fix these broken{{C0}}machines.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE475",
+   "scene": "main-text",
+   "en": "Ô !Ö+ËÌÂÁThis Pokémon won the Beauty Contest{{C0}}here before.{{C1}}Well, guess what? Today, I made it{{C2}}win a Smartness Contest!{{C3}}My abilities scare even me{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 146,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE507",
+   "scene": "main-text",
+   "en": "I've entered a bunch of Contests,{{C0}}so I'm seeing how things work.{{C1}}If you're in a Coolness Contest,{{C2}}cool moves go over as appeals.{{C3}}But smart moves and cute moves{{C4}}don't go over well, for instance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 194,
+   "hint": "纯中文≤96字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE5C9",
+   "scene": "main-text",
+   "en": "That young man who won earlier had{{C0}}a whole bunch of different {{C1}}{{C2}}{{C3}}{{C4}}{{C5}}S.{{C6}}Can you win if you had that many{{C7}}of those things?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ],
+    [
+     "{{C2}}",
+     "[Ke]"
+    ],
+    [
+     "{{C3}}",
+     "[BL]"
+    ],
+    [
+     "{{C4}}",
+     "[OC]"
+    ],
+    [
+     "{{C5}}",
+     "[K]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 120,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE641",
+   "scene": "main-text",
+   "en": "Whoa, isn't this place humongous!{{C0}}The tension in the air{{C1}} It's not{{C2}}like a Contest hall in the sticks.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE6A7",
+   "scene": "main-text",
+   "en": "MC: Okay, Smart Pokémon and their{{C0}}Trainers, are you ready?!{{C1}}Give it your best showing!{{C2}}Let's appeal!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 101,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE70C",
+   "scene": "main-text",
+   "en": "Judge: Are you enjoying this Contest?{{C0}}Come back with three friends, and{{C1}}all of you may enter a Contest!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 104,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE774",
+   "scene": "main-text",
+   "en": "Ayayayay{{C0}}{{C1}}I entered the wrong Contest.{{C2}}I entered this tough Pokémon in{{C3}}the Smartness Contest{{C4}}{{C5}}Come on, wow them with a smart-looking{{C6}}Rock Smash.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 145,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock Smash→碎岩",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "002EE805",
+   "scene": "main-text",
+   "en": "I've spent many a year, and all my{{C0}}wisdom besides, raising this Pokémon{{C1}}to be smart.{{C2}}It won't be easily bested by some{{C3}}young pup's Pokémon.{{C4}}My dear wife, are you seeing this?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 175,
+   "hint": "纯中文≤87字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE8B4",
+   "scene": "main-text",
+   "en": "There it is!{{C0}}If my Pokémon pulls a smart move next,{{C1}}the audience's excitement will peak!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 89,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE90D",
+   "scene": "main-text",
+   "en": "Oh, dear, no!{{C0}}My darling Zubat's Leech Life is so{{C1}}cute I kept using it over and over!{{C2}}But these mean people don't appreciate{{C3}}it at all!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zubat→超音蝠",
+    "Leech Life→吸血"
+   ]
+  },
+  {
+   "id": "002EE995",
+   "scene": "main-text",
+   "en": "Kiyaaah! You're beautiful, Grandpa!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EE9B9",
+   "scene": "main-text",
+   "en": "Even when Trainers enter the same{{C0}}kind of Pokémon, they all seem to use{{C1}}different moves for appeals.{{C2}}It's just like the way people have{{C3}}different styles for battling.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 167,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEA60",
+   "scene": "main-text",
+   "en": "I think the Pokémon look smarter{{C0}}than their Trainers. By a lot.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 64,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEAA0",
+   "scene": "main-text",
+   "en": "When all's said and done, I still love{{C0}}Smartness Contests.{{C1}}That intellectual green color{{C2}}{{C3}}It's so{{C4}} So{{C5}} Cool.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 109,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEB0D",
+   "scene": "main-text",
+   "en": "MC: Are you entering the BEAUTY{{C0}}Contest, too? Good luck!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEB46",
+   "scene": "main-text",
+   "en": "Judge: Ah, every Pokémon here is{{C0}}a model of pristine beauty!{{C1}}Why, I almost forgot to score them!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 97,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEBA7",
+   "scene": "main-text",
+   "en": "A Pokémon this beautiful{{C0}}{{C1}}There isn't another one like it.{{C2}}Everyone's eyes will be glued to{{C3}}my beauty.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEC0E",
+   "scene": "main-text",
+   "en": "Waaaah!{{C0}}I brushed and groomed my Pokémon{{C1}}carefully for this Contest{{C2}}{{C3}}But I overdid it{{C4}}{{C5}}My Pokémon's coat turned all scraggly{{C6}}{{C7}}What should I do?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEC9E",
+   "scene": "main-text",
+   "en": "This Aurora Beam is so dazzling,{{C0}}the Judge won't be able to see it.{{C1}}Uh, wait a second{{C2}}{{C3}}That'll be meaningless, then!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aurora Beam→极光束",
+    "Dazzling→鲜艳之躯"
+   ]
+  },
+  {
+   "id": "002EED13",
+   "scene": "main-text",
+   "en": "This pretty Pokémon looks just like{{C0}}me when I was younger.{{C1}}Right when I said that, my husband{{C2}}spewed the coffee he was drinking.{{C3}}Did I say something funny?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEDAF",
+   "scene": "main-text",
+   "en": "You know, if I win at a BEAUTY{{C0}}Contest, sure it makes me{{C1}}happy. More than usual, anyway.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 89,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEE08",
+   "scene": "main-text",
+   "en": "Wahahahah!{{C0}}Will you take a gander at all those{{C1}}pretty Pokémon!{{C2}}I just love this sort of glitz!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEE67",
+   "scene": "main-text",
+   "en": "You can't always win on just beauty{{C0}}alone.{{C1}}You have to groom your Pokémon so{{C2}}it's nice and glossy like mine.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 109,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EEED4",
+   "scene": "main-text",
+   "en": "MC: Uh-oh! Hello!{{C0}}We're in the middle of a Contest!{{C1}}Please enter at our registration{{C2}}counter and come out, okay?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Counter→双倍奉还"
+   ]
+  },
+  {
+   "id": "002EEF45",
+   "scene": "main-text",
+   "en": "Judge: Oh, such charming and cute{{C0}}appeals!{{C1}}Oh, my goodness! What a perfectly{{C2}}adorable Water Sport appeal!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 106,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water Sport→玩水",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "002EEFAF",
+   "scene": "main-text",
+   "en": "Oh, no{{C0}} My sweet Azurill was{{C1}}distracted by another Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Azurill→露力丽"
+   ]
+  },
+  {
+   "id": "002EEFEB",
+   "scene": "main-text",
+   "en": "My Pokémon has never won in a battle,{{C0}}but put it in a Contest and look out!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF037",
+   "scene": "main-text",
+   "en": "My Pokémon's Petal Dance is a marvel{{C0}}of elegance.{{C1}}I won't let anyone disturb its{{C2}}performance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 94,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Petal Dance→花瓣舞"
+   ]
+  },
+  {
+   "id": "002EF095",
+   "scene": "main-text",
+   "en": "Everyone's Pokémon are very cute.{{C0}}However, if my Pokémon were to make{{C1}}a cute appeal{{C2}}{{C3}}I'm sure that it would be so much {{C4}}cuter than the others.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF124",
+   "scene": "main-text",
+   "en": "My child is in this Contest.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF141",
+   "scene": "main-text",
+   "en": "Come on, dear. Go for it!{{C0}}Your Pokémon is the best!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF175",
+   "scene": "main-text",
+   "en": "I think that girl over there is{{C0}}the cutest of the lot.{{C1}}What's that? They're judging{{C2}}Pokémon by their looks?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 108,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF1E1",
+   "scene": "main-text",
+   "en": "Ohh, seeing all these cute Pokémon,{{C0}}they make we want to get my own!{{C1}}I'm going to go catch some!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 97,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF242",
+   "scene": "main-text",
+   "en": "BEAUTY Contest STAGE{{C0}}BE ALLURED BY BEAUTIFUL POKéMON!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF278",
+   "scene": "main-text",
+   "en": "CUTENESS Contest STAGE{{C0}}BE CHARMED BY CUTE POKéMON!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF2AB",
+   "scene": "main-text",
+   "en": "Smartness Contest STAGE{{C0}}BE IMPRESSED BY SMART POKéMON!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF34E",
+   "scene": "main-text",
+   "en": "I wonder how many kinds of Pokémon{{C0}}there are in the world.{{C1}}It'd be great to cross seas and{{C2}}trade Pokémon with people far away.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF3CD",
+   "scene": "main-text",
+   "en": "I've been hearing about some rotten{{C0}}scoundrels who steal Pokémon and rip{{C1}}off Meteorites.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 89,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EF426",
+   "scene": "main-text",
+   "en": "Those rotten scoundrels who steal{{C0}}Pokémon and rip off Meteorites{{C1}}{{C2}}I haven't seen them around recently.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EFC2F",
+   "scene": "main-text",
+   "en": "ÁOh, wow!{{C0}}It's {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EFDC4",
+   "scene": "main-text",
+   "en": "Yo, {{C0}}!{{C1}}You're the one we want to win!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EFDEB",
+   "scene": "main-text",
+   "en": "The others, they don't know that{{C0}}you're the best of the best!{{C1}}Isn't that right, {{C2}}?{{C3}}Show them you've got guts!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Guts→毅力"
+   ]
+  },
+  {
+   "id": "002EFE5A",
+   "scene": "main-text",
+   "en": "I hate to say this, but the Trainer{{C0}}everybody's talking about is{{C1}}{{C2}}, no question about it!{{C3}}That Trainer's power{{C4}}{{C5}}It's out of the ordinary.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EFEE5",
+   "scene": "main-text",
+   "en": "Darn it{{C0}} I've been telling people{{C1}}that {{C2}} is the best now{{C3}}{{C4}}But no one wants to listen{{C5}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 87,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EFF3C",
+   "scene": "main-text",
+   "en": "I've been hearing things about{{C0}}a tough new Trainer.{{C1}}This Trainer's supposed to be beating{{C2}}Gym Leaders, even.{{C3}}Do you know anything about this{{C4}}new Trainer?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EFFD6",
+   "scene": "main-text",
+   "en": "Oh!{{C0}}{{C1}}!{{C2}}Go for it!{{C3}}I'm pulling for you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EFFFE",
+   "scene": "main-text",
+   "en": "Sigh{{C0}}{{C1}}Brawly{{C2}}{{C3}}Oh, no! Wait!{{C4}}That's not right! No, no, no!{{C5}}I'm your fan through and through!{{C6}}So make me proud!{{C7}}Go for it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F0077",
+   "scene": "main-text",
+   "en": "I can't help it, I can only get to{{C0}}like Brawly{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F00A7",
+   "scene": "main-text",
+   "en": "Nobody understands the charm of{{C0}}Brawly{{C1}}{{C2}}I don't care!{{C3}}Even if I'm the only one, I'm going{{C4}}to keep cheering for Brawly!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 119,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇"
+   ]
+  },
+  {
+   "id": "002F011E",
+   "scene": "main-text",
+   "en": "Whatever anyone says, my favorite{{C0}}Trainer is Dewford's Gym Leader{{C1}}Brawly!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F0168",
+   "scene": "main-text",
+   "en": "You've surpassed your own father in{{C0}}every regard!{{C1}}I'm telling you, so there's no question{{C2}}about it at all!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 107,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F01D3",
+   "scene": "main-text",
+   "en": "Even when things turned bleak,{{C0}}your father never gave up.{{C1}}This I know to be true.{{C2}}You never give up even if you lose!{{C3}}So keep on battling!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F025E",
+   "scene": "main-text",
+   "en": "Norman battled with more power,{{C0}}charisma, and showmanship than you.{{C1}}Even though people may say that{{C2}}you're strong{{C3}}{{C4}}You've still got a long way to go{{C5}}compared to your father.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 174,
+   "hint": "纯中文≤86字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F030C",
+   "scene": "main-text",
+   "en": "You're beginning to get the same{{C0}}air of awe Norman exudes.{{C1}}But there's something conclusively{{C2}}different between you and Norman.{{C3}}I can't tell you what that is.{{C4}}You'll have to find it yourself.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 192,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F03CC",
+   "scene": "main-text",
+   "en": "Everyone here, we're all huge fans{{C0}}of Pokémon battles.{{C1}}We discuss who we consider to be{{C2}}the strongest of all Trainers.{{C3}}If you were to become famous,{{C4}}we might even become your fans!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 181,
+   "hint": "纯中文≤90字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F0481",
+   "scene": "main-text",
+   "en": "Oh, woweee! It's {{C0}}!{{C1}}For real, too!{{C2}}Please, shake my hand, shake my hand!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F04CB",
+   "scene": "main-text",
+   "en": "I'll always cheer for you, {{C0}}!{{C1}}Always, always!{{C2}}I don't want to see you lose ever,{{C3}}{{C4}}.{{C5}}Because I know you're really,{{C6}}really strong, {{C7}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[玩家]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 135,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002F0552",
+   "scene": "main-text",
+   "en": "{{C0}} is really cool{{C1}}{{C2}}Everyone thinks so, right, right?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

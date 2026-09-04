@@ -1,0 +1,2098 @@
+{
+ "batch": 60,
+ "count": 56,
+ "tasks": [
+  {
+   "id": "00364003",
+   "scene": "main-text",
+   "en": "But {{C0}} goofed and made the{{C1}}Pokémon faint!{{C2}}It ended up wasting this many{{C3}}Poké Balls: {{C4}}!{{C5}}You should have seen the expression{{C6}}of stunned dismay on {{C7}}'s face{{C8}}when the Pokémon fainted!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 181,
+   "hint": "纯中文≤90字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003640B8",
+   "scene": "main-text",
+   "en": "BIG SIS: Hey, there!{{C0}}That's not nice!{{C1}}You shouldn't be laughing at other{{C2}}people's misfortune!{{C3}}Oh, poor {{C4}}.{{C5}}What a shame!{{C6}}BIG BRO: That's true!{{C7}}Sorry for laughing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 163,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036415B",
+   "scene": "main-text",
+   "en": "BIG SIS: Bufufu{{C0}}{{C1}}BIG BRO: Hey!{{C2}}You just laughed, too!{{C3}}BIG SIS: Huh?!{{C4}}I didn't laugh!{{C5}}Honestly, I didn't!{{C6}}Oh, poor {{C7}}.{{C8}}What a shame!{{C9}}BIG BRO: {{C10}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003641EA",
+   "scene": "main-text",
+   "en": "BIG SIS: That's enough silliness!{{C0}}Let's look at today's Pokémon{{C1}}{{C2}}Huh?{{C3}}We're out of time already?{{C4}}Aww!{{C5}}We couldn't profile a Pokémon today!{{C6}}BIG BRO: See you again next time!{{C7}}BIG SIS: Hey, don't end the show{{C8}}without me!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 218,
+   "hint": "纯中文≤108字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003642C4",
+   "scene": "main-text",
+   "en": "Hello!{{C0}}It's time for Pokémon TODAY!{{C1}}BIG SIS: Hi! Is everyone peachy and{{C2}}perky today?{{C3}}Today, we're going to look at {{C4}}'s{{C5}}Pokémon {{C6}}!{{C7}}BIG BRO: Yeah! That's what we're going{{C8}}to do!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 178,
+   "hint": "纯中文≤88字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364376",
+   "scene": "main-text",
+   "en": "BIG SIS: {{C0}} gave the nickname{{C1}}{{C2}} to the {{C3}}!{{C4}}It sounds like {{C5}} is getting{{C6}}good, loving care!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 92,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003643D2",
+   "scene": "main-text",
+   "en": "BIG BRO: The Trainer had to throw this{{C0}}many Poké Balls to catch it: {{C1}}!{{C2}}It finally took a single {{C3}}{{C4}}to catch it!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364443",
+   "scene": "main-text",
+   "en": "BIG SIS: If it was that easy to catch,{{C0}}it must have been destiny that brought{{C1}}{{C2}} and the {{C3}} together!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003644A9",
+   "scene": "main-text",
+   "en": "BIG SIS: Wow! That's so neat!{{C0}}But you know what they say, a Pokémon{{C1}}that takes a lot of effort to catch{{C2}}earns the love of its Trainer!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 135,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364530",
+   "scene": "main-text",
+   "en": "BIG SIS: {{C0}}'s {{C1}} is a{{C2}}memorable Pokémon because it took an{{C3}}invaluable Master Ball to catch!{{C4}}BIG BRO: Wow! That's mega-awesome!{{C5}}BIG SIS: {{C6}} must have really{{C7}}wanted that {{C8}}, for sure!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 182,
+   "hint": "纯中文≤90字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Master Ball→大师球"
+   ]
+  },
+  {
+   "id": "003645E6",
+   "scene": "main-text",
+   "en": "BIG BRO: Then to give the nickname{{C0}}{{C1}} to that {{C2}}{{C3}}{{C4}}You really get a good idea about{{C5}}{{C6}}'s Trainer sense.{{C7}}BIG SIS: I second that notion!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 134,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036466C",
+   "scene": "main-text",
+   "en": "If it were me, I'd give that nickname{{C0}}to something like this {{C1}}!{{C2}}BIG BRO: Whoa! That could be the start{{C3}}of something new!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003646E6",
+   "scene": "main-text",
+   "en": "{{C0}} the {{C1}}?{{C2}}Doesn't that sound perfect?{{C3}}The letters and everything--they{{C4}}sound just right for the Pokémon{{C5}}{{C6}}!{{C7}}BIG BRO: Yeah, true, that!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036476E",
+   "scene": "main-text",
+   "en": "As far as I know, no Trainer has ever{{C0}}given the nickname {{C1}} to their{{C2}}{{C3}}!{{C4}}BIG BRO: That just goes to show what{{C5}}great taste the Trainer has in picking{{C6}}nicknames!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 160,
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036480E",
+   "scene": "main-text",
+   "en": "The next time I catch a Pokémon,{{C0}}I should give it the name {{C1}}.{{C2}}BIG BRO: Huh? Me, too!{{C3}}I'll use the nickname {{C4}}, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364883",
+   "scene": "main-text",
+   "en": "BIG SIS: Oh, no!{{C0}}Look at the time!{{C1}}Well, gang, this is it for today.{{C2}}See you again next time!{{C3}}BIG BRO: Remember, it could be your{{C4}}Pokémon in the spotlight next time!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 166,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spotlight→聚光灯"
+   ]
+  },
+  {
+   "id": "00364929",
+   "scene": "main-text",
+   "en": "Hello!{{C0}}It's time for TODAY'S SMART SHOPPER.{{C1}}INTERVIEWER: How are you, viewers?{{C2}}Today we're visiting a shop{{C3}}in {{C4}}.{{C5}}Let's check on what the hot sellers{{C6}}have been recently.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 170,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003649D3",
+   "scene": "main-text",
+   "en": "Let's interview the clerk to get the{{C0}}lowdown.{{C1}}Hi, how's your business?{{C2}}CLERK: Oh, we're doing excellent.{{C3}}Recently, {{C4}} has been{{C5}}selling especially strongly.{{C6}}Why, just the other day a Trainer{{C7}}named {{C8}} bought {{C9}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer3]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 210,
+   "hint": "纯中文≤104字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364AA5",
+   "scene": "main-text",
+   "en": "INTERVIEWER: The Trainer bought{{C0}}{{C1}} {{C2}}S? That's a haul!{{C3}}If I may say so, {{C4}} must have{{C5}}been stocking up for a long journey{{C6}}to far-off places.{{C7}}For traveling, {{C8}}S are so{{C9}}important!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 177,
+   "hint": "纯中文≤88字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364B56",
+   "scene": "main-text",
+   "en": "INTERVIEWER: Speaking of the item{{C0}}{{C1}}, I just bought {{C2}} of{{C3}}them recently.{{C4}}After all, {{C5}}'s a great item!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364BBD",
+   "scene": "main-text",
+   "en": "INTERVIEWER: {{C0}}?!{{C1}}But {{C2}} of them?!{{C3}}I didn't think there would be anyone{{C4}}buying that many.{{C5}}My goodness, I can only afford one or{{C6}}two at a time{{C7}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364C4C",
+   "scene": "main-text",
+   "en": "INTERVIEWER: One time, I bought{{C0}}a whole lot of the item {{C1}}.{{C2}}But it turned out to be too many.{{C3}}I ended up regretting it{{C4}}{{C5}}Since then, I only buy strictly what{{C6}}I absolutely need{{C7}}{{C8}}Oops!{{C9}}There's no point talking about me!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 217,
+   "hint": "纯中文≤108字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364D25",
+   "scene": "main-text",
+   "en": "CLERK: {{C0}} also bought the item{{C1}}{{C2}} in bulk, taking {{C3}}.{{C4}}INTERVIEWER: Oh, that's smart.{{C5}}{{C6}}'s a very good item, too.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364D96",
+   "scene": "main-text",
+   "en": "CLERK: And, the Trainer also bought{{C0}}{{C1}} of the item {{C2}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364DCD",
+   "scene": "main-text",
+   "en": "CLERK: Plus, it was during a big sale.{{C0}}That's smart shopping.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 62,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Plus→正电"
+   ]
+  },
+  {
+   "id": "00364E0B",
+   "scene": "main-text",
+   "en": "INTERVIEWER: Hmm{{C0}} {{C1}} sounds like{{C2}}quite the shrewd bargain hunter!{{C3}}In total, {{C4}}'s purchases came to{{C5}}{{C6}}${{C7}}?!{{C8}}What an amazing sum!{{C9}}Oops! We're out of time!{{C10}}See you on our next broadcast!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 183,
+   "hint": "纯中文≤91字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00364EC2",
+   "scene": "main-text",
+   "en": "CLERK: {{C0}} is a VIP customer,{{C1}}no doubt about it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036508F",
+   "scene": "main-text",
+   "en": "ore than that!{{C0}}INTERVIEWER: Oh, my goodness!{{C1}}{{C2}} must be a special shopper!{{C3}}CLERK: {{C4}} is a VIP customer,{{C5}}no doubt about it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036510A",
+   "scene": "main-text",
+   "en": "INTERVIEWER: Hmm{{C0}}{{C1}}That is amazing.{{C2}}But why would the Trainer need to buy{{C3}}so many?{{C4}}{{C5}} {{C6}}{{C7}}The mystery deepens, but this is all{{C8}}the time we have today.{{C9}}See you on our next broadcast!{{C10}}Still, {{C11}} is certainly an enigma{{C12}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/l]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 212,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365321",
+   "scene": "main-text",
+   "en": "That remarkable feat must have been{{C0}}possible because of the trust between{{C1}}the Trainer and {{C2}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 94,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036537F",
+   "scene": "main-text",
+   "en": "The master caught the day's last{{C0}}{{C1}} near {{C2}}.{{C3}}That Pokémon apparently enjoys{{C4}}a special status as a record holder.{{C5}}Skilled Trainers should be encouraged{{C6}}to challenge this fine record.{{C7}}That's all for today.{{C8}}Please tune in next time.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 230,
+   "hint": "纯中文≤114字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365465",
+   "scene": "main-text",
+   "en": "TODAY'S RIVAL Trainer!{{C0}}Hello, fellow Pokémon Trainers!{{C1}}How are we all doing today?{{C2}}Today, like every other day,{{C3}}we'll examine one of our rivals!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 145,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003654F6",
+   "scene": "main-text",
+   "en": "Today's rival Trainer is {{C0}},{{C1}}who's around {{C2}} now.{{C3}}{{C4}} has so far registered{{C5}}{{C6}} Pokémon in the Pokédex.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036555C",
+   "scene": "main-text",
+   "en": "Today's rival Trainer is {{C0}},{{C1}}who's in a Secret Base now.{{C2}}{{C3}} has so far registered{{C4}}{{C5}} Pokémon in the Pokédex.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 109,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003655C9",
+   "scene": "main-text",
+   "en": "Today's rival Trainer is {{C0}}.{{C1}}So far, {{C2}} has registered{{C3}}{{C4}} Pokémon in the Pokédex.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 82,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036561B",
+   "scene": "main-text",
+   "en": "Today's rival Trainer is {{C0}},{{C1}}who's on a ferry now.{{C2}}{{C3}} has so far registered{{C4}}{{C5}} Pokémon in the Pokédex.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365683",
+   "scene": "main-text",
+   "en": "And how many Badges does our rival{{C0}}have? The number is {{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003656BE",
+   "scene": "main-text",
+   "en": "But our rival hasn't obtained{{C0}}a single Badge yet!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003656F0",
+   "scene": "main-text",
+   "en": "Our rival hasn't obtained a single{{C0}}Battle Frontier Symbol yet.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036572F",
+   "scene": "main-text",
+   "en": "Let's see how many Battle Frontier{{C0}}Symbols our rival has.{{C1}}Gold Symbols: {{C2}}!{{C3}}Silver Symbols: {{C4}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 96,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0036578F",
+   "scene": "main-text",
+   "en": "Our rival has collected {{C0}} Battle{{C1}}Point(s) at the Battle Frontier.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 67,
+   "hint": "纯中文≤33字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003657D2",
+   "scene": "main-text",
+   "en": "So, how did you measure up in{{C0}}comparison to {{C1}}?{{C2}}The adventure rolls on!{{C3}}Fellow Trainers!{{C4}}Let's all keep moving forward{{C5}}and ahead of our rivals!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365A79",
+   "scene": "main-text",
+   "en": "Old man: {{C0}} {{C1}}{{C2}}was what {{C3}} from Littleroot{{C4}}taught me as being trendy{{C5}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365ABF",
+   "scene": "main-text",
+   "en": "Old man: {{C0}} {{C1}}{{C2}}was what {{C3}} from Littleroot{{C4}}taught me as being trendy{{C5}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365B05",
+   "scene": "main-text",
+   "en": "But it was utterly hopeless.{{C0}}{{C1}} {{C2}} festival!{{C3}}{{C4}} {{C5}} contest!{{C6}}I tried teaching everyone the best{{C7}}I could, but{{C8}}{{C9}}Perhaps the {{C10}} part just{{C11}}wasn't right{{C12}}{{C13}}MC: Uh, excuse me, compadre, I need{{C14}}to hear about what's in now{{C15}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[/p]"
+    ],
+    [
+     "{{C14}}",
+     "[/n]"
+    ],
+    [
+     "{{C15}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 213,
+   "hint": "纯中文≤106字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365BDA",
+   "scene": "main-text",
+   "en": "Old man: {{C0}}!{{C1}}Please, tell me something bigger than{{C2}}that {{C3}} {{C4}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365C19",
+   "scene": "main-text",
+   "en": "Old man: {{C0}}!{{C1}}Please, tell me something bigger than{{C2}}that {{C3}} {{C4}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00365C58",
+   "scene": "main-text",
+   "en": "MC: {{C0}}Uh{{C1}} So, there you have it,{{C2}}all you trendy, hep cats out there!{{C3}}{{C4}} {{C5}}{{C6}}uh{{C7}}{{C8}}Didn't get hip or happening in Dewford!{{C9}}My time is up. Catch you on the fly!{{C10}}Old man: {{C11}} {{C12}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C12}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 171,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fly→飞翔"
+   ]
+  },
+  {
+   "id": "00365D03",
+   "scene": "main-text",
+   "en": "Hoenn TREASURE INVESTIGATORS!{{C0}}Hi, gang!{{C1}}Score any secret items lately?{{C2}}As always, we'll examine eyewitness{{C3}}reports of secrets from all over!{{C4}}Let's start with a letter.{{C5}}It says, “{{C6}} discovered!”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 194,
+   "hint": "纯中文≤96字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Letter→给大吾的信",
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "00366064",
+   "scene": "main-text",
+   "en": "FIND THAT GAMER!{{C0}}Hey, all you gamers!{{C1}}How's your {{C2}} spinning?{{C3}}Like always, we'll cast our spotlight{{C4}}on a rare Trainer who's visited the{{C5}}Game Corner!{{C6}}Today, our no. 1 gamer is{{C7}}{{C8}}{{C9}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer1]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 180,
+   "hint": "纯中文≤89字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spotlight→聚光灯"
+   ]
+  },
+  {
+   "id": "00366287",
+   "scene": "main-text",
+   "en": "{{C0}} played the {{C1}} game{{C2}}and lost {{C3}} Coins.{{C4}}“When {{C5}} comes, our Coin{{C6}}sales seem to increase.”{{C7}}That's what the Game Corner clerks{{C8}}say when our gamer is in play!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 157,
+   "hint": "纯中文≤78字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00366324",
+   "scene": "main-text",
+   "en": "Viewers, it's best to watch your Coins{{C0}}like {{C1}} if you visit the Game{{C2}}Corner and play the {{C3}} game.{{C4}}This is live from the Game Corner--{{C5}}where you can feel the excitement!{{C6}}That's all for today!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 191,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003663E3",
+   "scene": "main-text",
+   "en": "BREAKING NEWS TV!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003663F5",
+   "scene": "main-text",
+   "en": "Rare {{C0}} caught by{{C1}}{{C2}}!{{C3}}We're live from the vicinity of{{C4}}{{C5}}!{{C6}}{{C7}} successfully captured{{C8}}a rare {{C9}} earlier here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer3]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 107,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00366460",
+   "scene": "main-text",
+   "en": "When {{C0}} encountered the rare{{C1}}{{C2}}, the Trainer sent out{{C3}}the Pokémon {{C4}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer3]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "003664A6",
+   "scene": "main-text",
+   "en": "In the battle, the number of Poké{{C0}}Balls thrown by the Trainer was {{C1}}.{{C2}}Ultimately, the rare Pokémon was{{C3}}caught by the {{C4}} used last.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

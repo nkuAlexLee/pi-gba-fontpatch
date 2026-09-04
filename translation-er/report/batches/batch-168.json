@@ -1,0 +1,1601 @@
+{
+ "batch": 168,
+ "count": 56,
+ "tasks": [
+  {
+   "id": "00FF9074",
+   "scene": "main-text",
+   "en": "Blocks priority moves and{{C0}}reduces physical attack damage{{C1}}by 50% in sun. Multiplicative{{C2}}with other sources of damage{{C3}}reduction.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF90F4",
+   "scene": "main-text",
+   "en": "Sets sun on entry for 8 turns (12{{C0}}with Heat Rock). While sun is{{C1}}active, boosts the user's Attack{{C2}}by 33%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heat Rock→炽热岩石",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00FF9160",
+   "scene": "main-text",
+   "en": "Negates the first instance of{{C0}}damage received. Moves still{{C1}}connect and secondary effects{{C2}}apply, but damage becomes 0.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF91D8",
+   "scene": "main-text",
+   "en": "Reduces the Special Defense stat{{C0}}of every other Pokemon by 25%{{C1}}while the user is out. Multiples{{C2}}of the same Ruin ability do not{{C3}}stack together. Stacks{{C4}}multiplicatively with Special{{C5}}Defense drops.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 196,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF929C",
+   "scene": "main-text",
+   "en": "Reduces the Special Attack stat{{C0}}of every other Pokemon by 25%{{C1}}while the user is out. Multiples{{C2}}of the same Ruin ability do not{{C3}}stack together. Stacks{{C4}}multiplicatively with Special{{C5}}Attack drops.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 194,
+   "hint": "纯中文≤96字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9360",
+   "scene": "main-text",
+   "en": "Reduces the Defense stat of{{C0}}every other Pokemon by 25% while{{C1}}the user is out. Multiples of the{{C2}}same Ruin ability do not stack{{C3}}together. Stacks{{C4}}multiplicatively with Defense{{C5}}drops.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 180,
+   "hint": "纯中文≤89字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9414",
+   "scene": "main-text",
+   "en": "Reduces the Attack stat of every{{C0}}other Pokemon by 25% while the{{C1}}user is out. Multiples of the{{C2}}same Ruin ability do not stack{{C3}}together. Stacks{{C4}}multiplicatively with Attack{{C5}}drops.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 178,
+   "hint": "纯中文≤88字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF94C8",
+   "scene": "main-text",
+   "en": "All stat changes are shared{{C0}}between all battlers on the{{C1}}field, both positive and{{C2}}negative.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 91,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9524",
+   "scene": "main-text",
+   "en": "Good As Gold grants immunity to{{C0}}all status moves that directly{{C1}}target this Pokemon. Remains{{C2}}vulnerable to status moves that{{C3}}affect the entire field, such as{{C4}}Haze.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 163,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Haze→黑雾",
+    "Immunity→免疫",
+    "Good as Gold→黄金之躯"
+   ]
+  },
+  {
+   "id": "00FF95C8",
+   "scene": "main-text",
+   "en": "Boosts Attack by one stage when{{C0}}hit by Fire-type moves and{{C1}}grants immunity to burn status.{{C2}}The Attack boost applies{{C3}}immediately after taking damage{{C4}}from any Fire attack. Activates{{C5}}on each hit of a multihit move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 212,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Immunity→免疫",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00FF969C",
+   "scene": "main-text",
+   "en": "Damages attackers using contact{{C0}}moves for 1/6 of their max HP.{{C1}}Activates on every hit for{{C2}}multihitting moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF970C",
+   "scene": "main-text",
+   "en": "The user gains a 50% Speed boost{{C0}}and 20% Special Attack boost on{{C1}}their first turn after switching{{C2}}in.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Speed Boost→加速"
+   ]
+  },
+  {
+   "id": "00FF9774",
+   "scene": "main-text",
+   "en": "Halves all incoming special{{C0}}attack damage. Multiplicative{{C1}}with other sources of damage{{C2}}reduction.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 98,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF97D8",
+   "scene": "main-text",
+   "en": "Ill Will drains the PP of the move{{C0}}that defeats the user. Has to be{{C1}}a direct hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 82,
+   "hint": "纯中文≤40字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF982C",
+   "scene": "main-text",
+   "en": "Boosts Attack and Special Attack{{C0}}by 10% for each fainted ally on{{C1}}your side, capped at 5 allies{{C2}}maximum for a 50% boost to both{{C3}}stats. Stacks additively with{{C4}}other damage boosts.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 178,
+   "hint": "纯中文≤88字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF98E0",
+   "scene": "main-text",
+   "en": "Biting moves use the Special{{C0}}Attack (still targets enemy's{{C1}}Defense unless stated{{C2}}otherwise) and deal 30% more{{C3}}damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9958",
+   "scene": "main-text",
+   "en": "Prevents the user and its ally{{C0}}from being targeted by priority{{C1}}moves with priority higher than{{C2}}0.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 98,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF99BB",
+   "scene": "main-text",
+   "en": " When consuming a berry, the user{{C0}}re-consumes it at the end of the{{C1}}following turn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9B20",
+   "scene": "main-text",
+   "en": "Automatically switches the user{{C0}}out when any of its stats are{{C1}}lowered, including self drops.{{C2}}Triggers once per battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 119,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9CAC",
+   "scene": "main-text",
+   "en": "Costar copies all stat stage{{C0}}changes (positive and negative){{C1}}from the ally when switching in{{C2}}during doubles battles.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Costar→同台共演"
+   ]
+  },
+  {
+   "id": "00FF9D24",
+   "scene": "main-text",
+   "en": "After switching out, transforms{{C0}}user into Hero Form on entry.{{C1}}Lasts until the end of battle.{{C2}}Cannot be suppressed, swapped,{{C3}}copied, or overridden.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9DB8",
+   "scene": "main-text",
+   "en": "Grants +1 priority to Water-{{C0}}type moves when at full HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00FF9DF4",
+   "scene": "main-text",
+   "en": "The attacker that delivers the{{C0}}final blow on the user drops{{C1}}their Attack and Special Attack{{C2}}by 2 stages. Only works when{{C3}}fainting from direct damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 150,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9E8C",
+   "scene": "main-text",
+   "en": "Grants +1 priority to Dark-type{{C0}}moves when at full HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "00FF9EC4",
+   "scene": "main-text",
+   "en": "Increases the user's Attack stat{{C0}}by 2x for one turn.{{C1}}Multiplicative with other damage{{C2}}boosts. Reapplies after{{C3}}switching in.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9F40",
+   "scene": "main-text",
+   "en": "Doubles the effectiveness of{{C0}}stat drops from moves. Does not{{C1}}affect self-inflicted stat drops{{C2}}or enemy abilities.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FF9FB4",
+   "scene": "main-text",
+   "en": "Egoist copies stat boosts that{{C0}}enemy Pokemon receive and{{C1}}applies them to itself. Does not{{C2}}copy other Egoist boosts.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFA134",
+   "scene": "main-text",
+   "en": "Guard Dog prevents forced{{C0}}switching from moves and Red{{C1}}Card. When affected by{{C2}}Intimidate or Scare, it raises{{C3}}the stat by one stage instead of{{C4}}lowering it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 155,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Intimidate→威吓",
+    "Guard Dog→看门犬"
+   ]
+  },
+  {
+   "id": "00FFA1D0",
+   "scene": "main-text",
+   "en": "Adds 20% of the user's Speed{{C0}}stat to damage when using non-{{C1}}contact moves. Choice Scarf does{{C2}}not affect this ability.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Choice Scarf→讲究围巾"
+   ]
+  },
+  {
+   "id": "00FFA248",
+   "scene": "main-text",
+   "en": "Non-contact moves use Speed{{C0}}stat for damage instead of{{C1}}Attack/Special Attack. Choice{{C2}}Scarf does not affect this{{C3}}ability.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFA2C4",
+   "scene": "main-text",
+   "en": "Gain Charged status when hit by{{C0}}wind-based moves or entering in{{C1}}during Tailwind. The Charged{{C2}}status doubles the power of{{C3}}Electric-type moves until used.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 153,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tailwind→顺风",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00FFA590",
+   "scene": "main-text",
+   "en": "Immune to all status conditions.{{C0}}Additionally reduces all Ghost-{{C1}}type damage by 50%. If afflicted{{C2}}with status when gaining this{{C3}}ability, conditions are{{C4}}immediately cured.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 171,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00FFA63C",
+   "scene": "main-text",
+   "en": "Prevents all opposing Pokemon{{C0}}from fleeing or switching when{{C1}}user enters battle. Effect lasts{{C2}}until user leaves field. Forced{{C3}}switches and pivot moves like{{C4}}Flip Turn still work.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 178,
+   "hint": "纯中文≤88字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flip Turn→快速折返"
+   ]
+  },
+  {
+   "id": "00FFA6F0",
+   "scene": "main-text",
+   "en": "When any Pokemon on the field{{C0}}uses a sound move, this Pokemon{{C1}}immediately uses the same move{{C2}}after. Triggers once per move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFA76C",
+   "scene": "main-text",
+   "en": "Increases the power of Flying-{{C0}}type moves by 30% for both the{{C1}}user and its allies in battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "00FFA7CC",
+   "scene": "main-text",
+   "en": "Activates Grassy Terrain when{{C0}}the Pokemon takes damage from a{{C1}}direct attack, lasting 5 turns (8{{C2}}with Terrain Extender). Also{{C3}}heals all party Pokemon's status{{C4}}conditions.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 170,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grassy Terrain→青草场地",
+    "Terrain Extender→大地膜"
+   ]
+  },
+  {
+   "id": "00FFA878",
+   "scene": "main-text",
+   "en": "Guarantees a critical hit while{{C0}}also boosting the user's Attack{{C1}}by 20% and their Speed by 50%{{C2}}after switching in. Lasts one{{C3}}turn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 130,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFA8FC",
+   "scene": "main-text",
+   "en": "Uses String Shot on switch in,{{C0}}harshly lowering the Speed of all{{C1}}opponents by 2 stages.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 88,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "String Shot→吐丝"
+   ]
+  },
+  {
+   "id": "00FFA954",
+   "scene": "main-text",
+   "en": "Boosts the power of all sound-{{C0}}based moves by 20% and converts{{C1}}Normal-type sound moves to{{C2}}Ghost-type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00FFA9BC",
+   "scene": "main-text",
+   "en": "Chrome Coat reduces special{{C0}}damage by 40% but decreases{{C1}}Speed by 10%. Also triples the{{C2}}user's weight. The damage{{C3}}reduction is multiplicative with{{C4}}other sources.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 161,
+   "hint": "纯中文≤80字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFAA60",
+   "scene": "main-text",
+   "en": "Spike Armor has a 30% chance to{{C0}}inflict bleeding on contact{{C1}}moves, both when attacking and{{C2}}being attacked. Bleeding causes{{C3}}1/16 max HP damage per turn,{{C4}}prevents healing, and negates{{C5}}the effects of stat stages. Rock{{C6}}and Ghost types are immune to{{C7}}bleeding.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 255,
+   "hint": "纯中文≤127字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00FFAB60",
+   "scene": "main-text",
+   "en": "Blood Price boosts all attacking{{C0}}moves by 30%, but the user loses{{C1}}10% of their max hp when landing{{C2}}an attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFABD0",
+   "scene": "main-text",
+   "en": "Mind's Eye allows Normal and{{C0}}Fighting-type moves to hit{{C1}}Ghost-type Pokemon with normal{{C2}}effectiveness. Additionally,{{C3}}this ability prevents the user's{{C4}}accuracy stat from being lowered{{C5}}by opposing moves or abilities.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 214,
+   "hint": "纯中文≤106字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般",
+    "Fighting→格斗",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00FFACA8",
+   "scene": "main-text",
+   "en": "Attacks against confused and{{C0}}enraged targets deal double{{C1}}damage. Additionally, confused{{C2}}and enraged enemies take twice{{C3}}as much damage when they hurt{{C4}}themselves from those statuses.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 181,
+   "hint": "纯中文≤90字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFAD60",
+   "scene": "main-text",
+   "en": "Boosts the user's Special Attack{{C0}}by one stage whenever it knocks{{C1}}out an opponent with a direct{{C2}}hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFADC4",
+   "scene": "main-text",
+   "en": "Prevents all opposing Pokemon{{C0}}from healing through any means.{{C1}}Blocks healing moves like{{C2}}Recover, absorbing moves like{{C3}}Drain Punch, passive healing{{C4}}from Leftovers and abilities{{C5}}like Regenerator, and prevents{{C6}}health recovery from berries and{{C7}}other items.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 253,
+   "hint": "纯中文≤126字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Recover→自我再生",
+    "Drain Punch→吸取拳",
+    "Regenerator→再生力",
+    "Leftovers→吃剩的东西"
+   ]
+  },
+  {
+   "id": "00FFAEC4",
+   "scene": "main-text",
+   "en": "When the user receives a contact{{C0}}move, counters with a 50 BP Snap{{C1}}Trap. This Steel-type move traps{{C2}}opponents for 4-5 turns while{{C3}}dealing 1/8 max HP damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00FFAF60",
+   "scene": "main-text",
+   "en": "Prevents all opposing Pokemon{{C0}}from consuming held items. Raise{{C1}}Attack and Special Attack by one{{C2}}stage when the user knocks out{{C3}}an opponent with a direct{{C4}}attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 161,
+   "hint": "纯中文≤80字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFB004",
+   "scene": "main-text",
+   "en": "Raises the user's highest{{C0}}attacking stat by 2 stages when{{C1}}it enters, but becomes enraged,{{C2}}adding 33% recoil to all attacks.{{C3}}Boost applies even if it can't{{C4}}become enraged.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 171,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFB0B0",
+   "scene": "main-text",
+   "en": "Raises Defense by 1 stage upon{{C0}}switching in. When hit, raises{{C1}}the user's Defense by 1 stage or{{C2}}maximizes it on critical hits.{{C3}}Activates on each hit of a{{C4}}multihit move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 168,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFB158",
+   "scene": "main-text",
+   "en": "Raises Attack by 1 stage upon{{C0}}switching in. When hit, raises{{C1}}the user's Attack by 1 stage or{{C2}}maximizes it on critical hits.{{C3}}Activates on each hit of a{{C4}}multihit move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 166,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFB200",
+   "scene": "main-text",
+   "en": "Deals 1.5x damage to Dark-type{{C0}}Pokemon and takes 0.5x damage{{C1}}when attacked by Dark-type{{C2}}Pokemon. Based on{{C3}}attacker/defender Pokemon{{C4}}types, not move types. The damage{{C5}}reduction is multiplicative with{{C6}}other sources.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 214,
+   "hint": "纯中文≤106字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "00FFB2D8",
+   "scene": "main-text",
+   "en": "Biting moves a 50% chance to{{C0}}burn the target on hit. Multihits{{C1}}roll the activation chance on{{C2}}each hit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFB46C",
+   "scene": "main-text",
+   "en": "Trapping moves last 6 turns{{C0}}instead of 4-5 turns and{{C1}}increases their damage at the{{C2}}end of the turn to 1/6 max HP per{{C3}}turn.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00FFB4E8",
+   "scene": "main-text",
+   "en": "Ghost-type moves gain +1{{C0}}priority when at full HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00FFB51C",
+   "scene": "main-text",
+   "en": "Uses a 40 BP Spectral Thief (a{{C0}}Ghost-type move) when switching{{C1}}in, targeting the opponent{{C2}}across from the user. Steals all{{C3}}positive stat boosts (before{{C4}}dealing damage) from the target{{C5}}and applies them to the user.{{C6}}Cannot miss and ignores{{C7}}Substitute.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 250,
+   "hint": "纯中文≤124字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Substitute→替身",
+    "Thief→小偷",
+    "Spectral Thief→暗影偷盗",
+    "Ghost→幽灵"
+   ]
+  }
+ ]
+}

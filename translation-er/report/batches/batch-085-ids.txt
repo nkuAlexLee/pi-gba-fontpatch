@@ -1,0 +1,50 @@
+0039E3B1|18|Er{{C0}} Um{{C1}}{{C2}}{{C3}}{{C4}}{{C5}}{{C6}}Please, don't look at me that way.{{C7}}My Pokémon don't have anything.{{C8}}I{{C9}} I'm really embarrassed about this,{{C10}}but I really need your advice.{{C11}}I can't decide what hold item would{{C12}}make my {{C13}} strong.{{C14}}{{C15}}{{C16}}, what do you think would{{C17}}be good?
+0039E4A5|3|Oh{{C0}} Then, you think it would be better{{C1}}if my {{C2}} didn't have an item?
+0039E4EA|9|Oh{{C0}} Okay!{{C1}}I'll go without an item.{{C2}}This is nerve-racking, though.{{C3}}Wouldn't it be too cool?{{C4}}Thank you, {{C5}}{{C6}}.{{C7}}If we meet again, I hope you will be{{C8}}as helpful.
+0039E587|10|Oh{{C0}} Okay!{{C1}}I'll go with that {{C2}}.{{C3}}This is nerve-racking, though.{{C4}}Wouldn't it be too cool?{{C5}}Thank you, {{C6}}{{C7}}.{{C8}}If we meet again, I hope you will be{{C9}}as helpful.
+0039E621|7|B-but I already heard about that.{{C0}}Please don't brush me off like this!{{C1}}I can't live with the humiliation.{{C2}}Oh{{C3}} Am I jumping to conclusions?{{C4}}Do you think it would be better if{{C5}}my {{C6}} didn't have an item?
+0039E812|1|It's better if it held nothing?{{C0}}Are you certain?
+0039E843|2|I see. If that's the case, that's fine.{{C0}}I thank you for your time.{{C1}}Let us meet again!
+0039E899|7|One {{C0}}?{{C1}}Are you certain?{{C2}}I see. If that's the case, that's fine.{{C3}}I thank you for your time.{{C4}}I do hope my Pokémon will be able to{{C5}}put it to good use.{{C6}}Let us meet again!
+0039E941|7|No, no, wait a minute.{{C0}}I believe you taught me that before.{{C1}}I would like you to recommend{{C2}}something different this time.{{C3}}Perhaps you're suggesting that{{C4}}my {{C5}} should hold nothing?{{C6}}Are you certain?
+0039EA05|11|Waah, {{C0}}!{{C1}}I have a dilemma, sob{{C2}}{{C3}}I want to begin battling other people,{{C4}}but I don't know what to do.{{C5}}How should I line up my Pokémon{{C6}}so they'll be at their strongest?{{C7}}Please tell me, {{C8}}.{{C9}}If you were me, which of these Pokémon{{C10}}would you send out first?
+0039EB01|7|My {{C0}} should go first?{{C1}}Waaaaah!{{C2}}Oh! I'm so sorry!{{C3}}You've made me happy by choosing{{C4}}my first Pokémon, and it's made me cry{{C5}}{{C6}}Thank you so much!
+0039EB8F|4|Yay! It's {{C0}}!{{C1}}Great! I wanted to ask you something!{{C2}}Um, of my Pokémon, which do you{{C3}}think should go out first?
+0039EBFE|3|My {{C0}}? That's true.{{C1}}Okay, I'll do that!{{C2}}Thanks for teaching me!
+0039EC3E|5|{{C0}}, hello!{{C1}}I think, in a battle, it's very important{{C2}}which Pokémon comes out first.{{C3}}Out of the Pokémon that I have,{{C4}}which would be good to send out first?
+0039ECD9|3|My {{C0}} goes first?{{C1}}Okay, I got it!{{C2}}See you again!
+0039EE27|7|My {{C0}}?{{C1}}Understood!{{C2}}I can't believe that you would bother{{C3}}to answer my questions so often!{{C4}}I'm so grateful that you would even{{C5}}speak with me{{C6}} Thank you!
+0039EFC2|8|My {{C0}}? That's great!{{C1}}Knowing that you made the decision,{{C2}}{{C3}}{{C4}}, I won't be so upset if{{C5}}I lose.{{C6}}Okay, I'll look to you for advice again.{{C7}}Bye!
+0039F04E|9|Hi, my teacher {{C0}}{{C1}}!{{C2}}I'm busy again today!{{C3}}I have to do some cycling, shopping,{{C4}}and humming.{{C5}}I haven't even had the time to decide{{C6}}how to line up my Pokémon team.{{C7}}So, how about checking out my team?{{C8}}Which one should go first?
+0039F130|5|Okay, gotcha.{{C0}}I have enough time at least to put{{C1}}my {{C2}} at the head of the line!{{C3}}Whoops, my girlfriend's waiting!{{C4}}Thanks! See you around!
+0039F1B9|8|Yoohoo! Hiya, {{C0}}!{{C1}}You always walk around looking tough!{{C2}}Listen, I need something from you{{C3}}again! It's the usual thing!{{C4}}Drum roll, please!{{C5}}The question I have is about my team.{{C6}}Which Pokémon of mine should be first{{C7}}to go out in a battle?
+0039F2A6|7|Hmhm!{{C0}}My {{C1}}, you say!{{C2}}Thanks for a most cool answer!{{C3}}I guess that's about all I wanted{{C4}}to ask you today.{{C5}}Let's meet here again, okay?{{C6}}Thanks!
+0039F334|8|Thank you so much for stopping to{{C0}}chat with me, {{C1}}.{{C2}}I know I'm taking advantage of your{{C3}}kindness, but may I ask for advice?{{C4}}I would like you to decide on the order{{C5}}of my Pokémon team.{{C6}}It would please me if you could decide{{C7}}which Pokémon should come first.
+0039F434|6|My {{C0}} it is!{{C1}}I will put it first right away!{{C2}}Thank you, {{C3}}.{{C4}}I hope I can count on you again.{{C5}}Please take care!
+0039F4A3|11|Eek! {{C0}}!{{C1}}I{{C2}} I'm overjoyed to see you again!{{C3}}My Pokémon have become much{{C4}}stronger!{{C5}}But I don't always win. It seems to{{C6}}depend on which Pokémon goes first.{{C7}}{{C8}}, please, I need your help!{{C9}}Please decide which of my Pokémon{{C10}}should go out first!
+0039F592|10|Sigh{{C0}} I'm overwhelmed with happiness{{C1}}{{C2}}It's like a dream having you decide{{C3}}for me, {{C4}}.{{C5}}But perfectly understood!{{C6}}I will go with my {{C7}} first!{{C8}}I hope you'll be willing to teach me{{C9}}some more another time.
+0039F77E|5|Uh-huh, my {{C0}} leads off!{{C1}}OK, A-OK!{{C2}}I'll reorder the lineup, like, wham!{{C3}}All right, thanks, as always!{{C4}}Adios!
+0039F908|6|Okay, so it's my {{C0}} you chose?{{C1}}I'll let any but that one go first!{{C2}}Just kidding!{{C3}}I'll obey your teaching, master!{{C4}}Thanks, master!{{C5}}I hope you'll keep teaching me!
+0039F9AA|8|A-H-O-Y!{{C0}}And that spells ahoy!{{C1}}The rappin' SAILOR am I!{{C2}}I present to you a question{{C3}}that's pretty fly!{{C4}}It's a team lineup question{{C5}}that begs your suggestion!{{C6}}Out of this lot, which should go first{{C7}}as the first on the spot?
+0039FA89|4|Okay, I hear you, sure I do!{{C0}}I'll switch them up, that I'll do!{{C1}}If it's advice I ever need,{{C2}}{{C3}}, your word I'll always heed!
+0039FB05|9|Yahoo, {{C0}}!{{C1}}How do you do?{{C2}}What should I do? Go ahead and ask?{{C3}}Uh-huh, I have something to ask!{{C4}}Are you receiving me?{{C5}}You are receiving me!{{C6}}You have to decide, which of my{{C7}}Pokémon is the first to ride!{{C8}}Into battle, I mean to say.
+0039FBEA|6|My {{C0}}? Yes!{{C1}}That'll do, there's no distress!{{C2}}Well, {{C3}}, I have to roam free,{{C4}}but don't you forget about me.{{C5}}See you again, my smart friend!
+0039FD9A|6|Hm, all right.{{C0}}My {{C1}} goes first.{{C2}}I'll fix the lineup like that after{{C3}}I have my supper.{{C4}}I hope I can keep hitting you up{{C5}}for help like this.
+0039FF42|10|Oh{{C0}} Okay!{{C1}}I'll lead with my {{C2}}.{{C3}}I hope I can do my best without{{C4}}getting all flustered.{{C5}}Thank you, {{C6}}{{C7}}.{{C8}}If we meet again, I hope you will be{{C9}}as helpful.
+003A0109|8|My {{C0}}{{C1}}{{C2}}You aren't pulling my leg?{{C3}}I see. If that's the case, that's fine.{{C4}}I thank you for your time.{{C5}}I am as you see, but I shall do{{C6}}my best.{{C7}}Let us meet again!
+003A01AA|16|Snivel{{C0}}{{C1}}Oh, {{C2}}!{{C3}}What perfect timing!{{C4}}There's something I just can't decide{{C5}}{{C6}}I can't decide which Pokémon I should{{C7}}be using.{{C8}}I can't decide between the Pokémon{{C9}}{{C10}} and {{C11}}{{C12}}{{C13}}{{C14}}, which do you think will give{{C15}}even me a chance at winning?
+003A0292|9|Snivel{{C0}} I{{C1}} I understand!{{C2}}Oh! I'm so sorry!{{C3}}You've made me so happy, I'm crying{{C4}}{{C5}}I'll do my best to catch one{{C6}}{{C7}}!{{C8}}Thank you so much!
+003A0316|11|Yay! It's {{C0}}!{{C1}}Yay, you came at the right time, too!{{C2}}I need your advice again!{{C3}}Um, I'm all mixed up--should I use{{C4}}my {{C5}} or {{C6}}{{C7}}{{C8}}Which do you think I should raise,{{C9}}{{C10}}?
+003A03BB|3|Oh, so my {{C0}} is better!{{C1}}Okay, I'll do that!{{C2}}Thanks for teaching me!
+003A03FF|8|{{C0}}, hello!{{C1}}I have a question I wanted to ask.{{C2}}I'm in a dilemma over whether I should{{C3}}raise one {{C4}} or {{C5}}.{{C6}}Which Pokémon do you think will{{C7}}be stronger?
+003A0495|6|{{C0}} is your choice?{{C1}}Okay, I got it!{{C2}}I'll go catch a strong {{C3}}{{C4}}right away!{{C5}}See you again!
+003A0639|7|But will a wild {{C0}} even pay{{C1}}attention to me?{{C2}}I will try!{{C3}}But will I even be able to catch one{{C4}}{{C5}}No! I'll do my best!{{C6}}Thank you!
+003A06B8|13|Oh, {{C0}}{{C1}}! I'm so glad to see you!{{C2}}I was about to go looking for you!{{C3}}Can you decide what kind of Pokémon{{C4}}I should use?{{C5}}For instance{{C6}}{{C7}}How about the Pokémon {{C8}}{{C9}}and {{C10}}?{{C11}}Which one do you think would be{{C12}}better?
+003A0786|8|{{C0}}? That's great!{{C1}}Knowing that you made the decision,{{C2}}{{C3}}{{C4}}, I won't be so upset if{{C5}}I lose.{{C6}}Okay, I'll look to you for advice again.{{C7}}Bye!
+003A092B|5|Okay, gotcha.{{C0}}I'll find time somehow and catch me{{C1}}that {{C2}} you recommended.{{C3}}I'm glad I met a good mentor in you.{{C4}}Thanks! See you around!
+003A0AC6|7|Ahhh!{{C0}}{{C1}}, you say!{{C2}}Thanks for a most cool answer!{{C3}}I guess that's about all I wanted{{C4}}to ask you today.{{C5}}Let's meet here again, okay?{{C6}}Thanks!
+003A0C7F|6|One {{C0}} it is!{{C1}}I will find one right away!{{C2}}Thank you, {{C3}}.{{C4}}I hope I can count on you again.{{C5}}Please take care!
+003A0CEB|12|Eek! {{C0}}! I met you again!{{C1}}I{{C2}} I'm overjoyed!{{C3}}Oh-oh-oh, I know!{{C4}}I shouldn't pass up this opportunity!{{C5}}May I ask a huge favor, {{C6}}?{{C7}}Please choose a Pokémon for me!{{C8}}Please decide which would be better,{{C9}}{{C10}} or {{C11}}!
+003A0DBA|5|Wow! You decided for me!{{C0}}One {{C1}} is what I'll raise to{{C2}}the best of my ability.{{C3}}I hope you'll be willing to teach me{{C4}}some more another time.
+003A0E45|11|Hey, hey!{{C0}}My mentor, {{C1}}{{C2}}!{{C3}}Hello, I've been looking for you{{C4}}for some more of your sage advice!{{C5}}Which kind of Pokémon would be right{{C6}}for me, one {{C7}} or {{C8}}?{{C9}}Don't be shy now.{{C10}}Let's blurt it out!
+003A0F05|5|Uh-huh, one {{C0}} it is!{{C1}}OK, A-OK!{{C2}}I'll get one in a BALL, like, cram!{{C3}}All right, thanks, as always!{{C4}}Adios!

@@ -1,0 +1,1863 @@
+{
+ "batch": 24,
+ "count": 77,
+ "tasks": [
+  {
+   "id": "002EA3DE",
+   "scene": "main-text",
+   "en": "No, too bad.{{C0}}You guessed wrong.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EA539",
+   "scene": "main-text",
+   "en": "What's that thing you have there?{{C0}}{{C1}} {{C2}} {{C3}} {{C4}} {{C5}} {{C6}}{{C7}}Oh, it's called a Pokédex?{{C8}}It's really awesome!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 94,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EA64A",
+   "scene": "main-text",
+   "en": "By being together with Pokémon,{{C0}}people make more and more friends.{{C1}}And that brings the world closer{{C2}}together. I think it's wonderful!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 134,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EA6D0",
+   "scene": "main-text",
+   "en": "There!{{C0}}Go, Bird Pokémon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EA6E9",
+   "scene": "main-text",
+   "en": "Heheh, I asked my Wingull to run{{C0}}an errand for me.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wingull→长翅鸥"
+   ]
+  },
+  {
+   "id": "002EA71C",
+   "scene": "main-text",
+   "en": "Good!{{C0}}Welcome back, Wingull!{{C1}}Huh? What is this?{{C2}}What is it holding?{{C3}}A Choice Scarf?{{C4}}It must have picked it up somewhere.{{C5}}But I'm not a Trainer, so you can{{C6}}have it.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 164,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wingull→长翅鸥",
+    "Choice Scarf→讲究围巾"
+   ]
+  },
+  {
+   "id": "002EA7C0",
+   "scene": "main-text",
+   "en": "Thanks to my Wingull, I have friends{{C0}}who live far away.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wingull→长翅鸥"
+   ]
+  },
+  {
+   "id": "002EA7F8",
+   "scene": "main-text",
+   "en": "Wingull: Pihyoh!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wingull→长翅鸥"
+   ]
+  },
+  {
+   "id": "002EA82F",
+   "scene": "main-text",
+   "en": "The tree houses of Fortree are great!{{C0}}I think it's the number one town for{{C1}}living together with Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EA898",
+   "scene": "main-text",
+   "en": "Pokémon and people have adapted to{{C0}}nature for survival.{{C1}}There's no need to make nature{{C2}}conform to the way we want to live.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EA913",
+   "scene": "main-text",
+   "en": "Zigzagoon: Bufuu!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zigzagoon→蛇纹熊"
+   ]
+  },
+  {
+   "id": "002EA925",
+   "scene": "main-text",
+   "en": " Ô －8+ËÌÁÁÔ .8+ËÌÁÁMerchandise you buy here is sent to{{C0}}your own PC.{{C1}}That's fantastic! I wish they could{{C2}}also deliver me home like that.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "002EA9AD",
+   "scene": "main-text",
+   "en": "I'm buying a pretty desk and I'm{{C0}}putting my cute Dolls on it.{{C1}}If I don't, when I decorate my{{C2}}Secret Base, my Dolls will get{{C3}}dirty or poked with splinters.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 155,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Decorate→装饰"
+   ]
+  },
+  {
+   "id": "002EAB1E",
+   "scene": "main-text",
+   "en": "Ì{{C0}} ËÀ{{C1}}Hm, so they doubled the guests by{{C2}}using Pokémon as attractions?{{C3}}Hm, well, maybe I should make a cute{{C4}}Pokémon our inn's mascot.{{C5}}I wonder if that will attract more{{C6}}guests to stay with us?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 192,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Attract→迷人"
+   ]
+  },
+  {
+   "id": "002EABDE",
+   "scene": "main-text",
+   "en": "Oh, sorry, sorry!{{C0}}I was too involved in watching TV!{{C1}}Since that Team Aqua came to town,{{C2}}the tourists have been staying away.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EAC5B",
+   "scene": "main-text",
+   "en": "Hey, down in front!{{C0}}I can't see the TV!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EAC83",
+   "scene": "main-text",
+   "en": "Amazing! You're telling me a Pokémon{{C0}}found someone's lost item?{{C1}}That's something. If we had some smart{{C2}}Pokémon like that{{C3}}{{C4}}We could recover anything that our{{C5}}guests mislaid{{C6}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 173,
+   "hint": "纯中文≤86字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Recover→自我再生",
+    "Lost Item→遗失物"
+   ]
+  },
+  {
+   "id": "002EAD30",
+   "scene": "main-text",
+   "en": "Oh, sorry, sorry!{{C0}}I was too involved in watching TV!{{C1}}I heard that someone busted{{C2}}the Team Aqua Hideout.{{C3}}Thanks to that, we just booked{{C4}}a reservation from a big group.{{C5}}It was a company called{{C6}} Uh{{C7}}{{C8}}GAME something{{C9}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 212,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EAE04",
+   "scene": "main-text",
+   "en": "Amazing! A house-sitting Pokémon{{C0}}caught a burglar?{{C1}}That's something. If we had a tough{{C2}}Pokémon as a security guard{{C3}}{{C4}}We would be able to provide our guests{{C5}}with greater safety.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 176,
+   "hint": "纯中文≤87字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EAEB4",
+   "scene": "main-text",
+   "en": "Oh, sorry, sorry!{{C0}}I was too involved in watching TV.{{C1}}Oh, yes. A big group of guests arrived{{C2}}a little while ago.{{C3}}They booked in as GAME FREAK,{{C4}}so I guess they must make games.{{C5}}Uh-oh, I'd better get working on{{C6}}their dinner!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 222,
+   "hint": "纯中文≤110字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB06D",
+   "scene": "main-text",
+   "en": "I'm the Game Designer.{{C0}}Oh, is that right?{{C1}}You're working on a Pokédex?{{C2}}It's tough trying to complete it,{{C3}}but don't give up.{{C4}}If you do complete it, please come{{C5}}show me.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 168,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB115",
+   "scene": "main-text",
+   "en": "Wow! That's awesome!{{C0}}Yep, it's totally awesome!{{C1}}This Pokédex is completely filled!{{C2}}You really must love Pokémon!{{C3}}I'm so impressed!{{C4}}Let me give you something in{{C5}}recognition of your feat!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 186,
+   "hint": "纯中文≤92字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB1CF",
+   "scene": "main-text",
+   "en": "Me? You're talking to me?{{C0}}I'm the Programmer.{{C1}}I wonder what the Slots are{{C2}}like here.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB224",
+   "scene": "main-text",
+   "en": "I'm the Graphic Artist! Aren't the{{C0}}Pokémon of Hoenn interesting?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 65,
+   "hint": "纯中文≤32字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "002EB265",
+   "scene": "main-text",
+   "en": "The girl Tubers, they're cute, hey?{{C0}}To battle against a cute Tuber{{C1}}{{C2}}Whoop, it's so awesome!{{C3}}And the Twins! Aren't they cute?{{C4}}A 2-on-2 battle with Twins{{C5}}{{C6}}Whoop, it's unbearably fun!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 181,
+   "hint": "纯中文≤90字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB31A",
+   "scene": "main-text",
+   "en": "The sea breeze tickles my heart.{{C0}}It feels wonderful here!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB354",
+   "scene": "main-text",
+   "en": "You never know when and where{{C0}}people will challenge you.{{C1}}That's why I never leave home without{{C2}}my Game Boy Advance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB52C",
+   "scene": "main-text",
+   "en": "Scott: I think it does take strategy{{C0}}to win a Contest.{{C1}}Devising Contest strategies is one way{{C2}}of becoming a better Trainer, I'd say.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB6E4",
+   "scene": "main-text",
+   "en": "Some other time, then?",
+   "codes": [],
+   "context": "",
+   "max_bytes": 23,
+   "hint": "纯中文≤11字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB6FB",
+   "scene": "main-text",
+   "en": "Great! let's see what you can do!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB71D",
+   "scene": "main-text",
+   "en": "Well done, {{C0}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB72C",
+   "scene": "main-text",
+   "en": "Thanks again for playing!{{C0}}If you want a rematch, come back{{C1}}tomorrow!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB8FB",
+   "scene": "main-text",
+   "en": "Ô 。G+ËÌÁÁWelcome to Lilycove Museum.{{C0}}Please take the time to enjoy our{{C1}}collection of fantastic artwork{{C2}}featuring Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EB975",
+   "scene": "main-text",
+   "en": "I'm the Curator of this Museum of{{C0}}fine arts.{{C1}}It's heartening to see someone so{{C2}}young as you in our Museum.{{C3}}Have you viewed our collection of{{C4}}paintings already?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 160,
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBA15",
+   "scene": "main-text",
+   "en": "Ah, then let me not disturb you.{{C0}}Please, do take your time.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBA51",
+   "scene": "main-text",
+   "en": "Oh? I do believe that you seem to{{C0}}be a Pokémon Trainer.{{C1}}Have you an interest in paintings,{{C2}}too?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 96,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBAB1",
+   "scene": "main-text",
+   "en": "I see{{C0}}{{C1}}I'm honored that you would visit{{C2}}us in spite of that.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 61,
+   "hint": "纯中文≤30字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spite→怨恨"
+   ]
+  },
+  {
+   "id": "002EBAEE",
+   "scene": "main-text",
+   "en": "Ah, excellent!{{C0}}You do like paintings!{{C1}}Then, may I ask you to come with me?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBB39",
+   "scene": "main-text",
+   "en": "It's a very old painting.{{C0}}The paint is peeling here and there.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 63,
+   "hint": "纯中文≤31字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBB78",
+   "scene": "main-text",
+   "en": "It's an odd landscape with bizarre{{C0}}and fantastic scenery.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBBB2",
+   "scene": "main-text",
+   "en": "It's a painting of a beautiful, smiling{{C0}}woman with a Pokémon on her lap.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBBFB",
+   "scene": "main-text",
+   "en": "It's a painting of a legendary Pokémon{{C0}}from long ago.{{C1}}The artist painted this from{{C2}}imagination.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 96,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBC5B",
+   "scene": "main-text",
+   "en": "It's a painting of Grass Pokémon{{C0}}swaying in a breeze.{{C1}}They appear to be enjoying the wind's{{C2}}gentle caress.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 107,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草",
+    "Gentle→温顺"
+   ]
+  },
+  {
+   "id": "002EBCC6",
+   "scene": "main-text",
+   "en": "It's a delicious-looking painting{{C0}}of Berries.{{C1}}This painting could make you hungry!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 83,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBD19",
+   "scene": "main-text",
+   "en": "It's a replica of a famous sculpture.{{C0}}It depicts an ancient Bird Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 74,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBD63",
+   "scene": "main-text",
+   "en": "It's a big Poké Ball carved from{{C0}}a black stone.{{C1}}It was apparently used in festivals{{C2}}in the olden days.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poké Ball→精灵球"
+   ]
+  },
+  {
+   "id": "002EBDCA",
+   "scene": "main-text",
+   "en": "It's a huge stone tablet inscribed{{C0}}with Pokémon and dense text in the{{C1}}small characters of an ancient,{{C2}}unreadable language.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBE6D",
+   "scene": "main-text",
+   "en": "Battling with Pokémon is fun,{{C0}}I'll grant you that.{{C1}}But one mustn't forget our love for{{C2}}the fine arts.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBED3",
+   "scene": "main-text",
+   "en": "This artists Museum{{C0}} Well, you could{{C1}}see many fantastic paintings.{{C2}}And the Curator is a wonderful person.{{C3}}Among artists like myself, this Museum{{C4}}is an inspiration.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 164,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBF77",
+   "scene": "main-text",
+   "en": "This lady is pretty!{{C0}}She's like Mommy!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 39,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBF9E",
+   "scene": "main-text",
+   "en": "This Pokémon is adorable!{{C0}}Just like our little boy!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EBFD2",
+   "scene": "main-text",
+   "en": "I'd heard that this Art Museum got{{C0}}in some new paintings.{{C1}}So, naturally I hurried over.{{C2}}Are the new paintings up on{{C3}}the second floor?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 134,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC058",
+   "scene": "main-text",
+   "en": "Lately, the Curator has been{{C0}}unusually cheerful.{{C1}}I bet something good happened for him.{{C2}}Definitely.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC0BC",
+   "scene": "main-text",
+   "en": "I aim to see many great paintings{{C0}}here and learn from them.{{C1}}I have this dream of one day having{{C2}}my artwork exhibited here.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC137",
+   "scene": "main-text",
+   "en": "The Art Museum has become a favorite{{C0}}tourist destination.{{C1}}It's great for Lilycove{{C2}}{{C3}}No, great for the Hoenn region!{{C4}}This is what I've heard--a lone Trainer{{C5}}procured all the paintings upstairs.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 192,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "002EC4A8",
+   "scene": "main-text",
+   "en": "This is our special exhibit hall.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC7B0",
+   "scene": "main-text",
+   "en": "I wish to fill this exhibit hall with{{C0}}modern and vibrant paintings of{{C1}}Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "002EC7FF",
+   "scene": "main-text",
+   "en": "Thanks to you, we've added a new{{C0}}painting to our collection!{{C1}}I've heard it depicts your Pokémon.{{C2}}Truly magnificent!{{C3}}Thank you so very, very much!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 146,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC891",
+   "scene": "main-text",
+   "en": "Ah! It's you!{{C0}}{{C1}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 18,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC8A3",
+   "scene": "main-text",
+   "en": "Isn't this marvelous?{{C0}}This collection of paintings!{{C1}}Each one of them flawless!{{C2}}None better than another!{{C3}}These paintings have attracted{{C4}}more guests to our ART Museum.{{C5}}Sincerely, I thank you, {{C6}}.{{C7}}This is my dream come true!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[玩家]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 223,
+   "hint": "纯中文≤111字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC982",
+   "scene": "main-text",
+   "en": "This is merely a token of my gratitude.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC9AA",
+   "scene": "main-text",
+   "en": "I will keep this for you until we{{C0}}meet again.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EC9D8",
+   "scene": "main-text",
+   "en": "Ah, so good to see you, {{C0}}!{{C1}}It's an honor to have you visit us{{C2}}on your busy journeys.{{C3}}Please, relax and do enjoy your{{C4}}visit with us.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECA5D",
+   "scene": "main-text",
+   "en": "It's a picture frame with pink-colored{{C0}}adornments.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECA90",
+   "scene": "main-text",
+   "en": "It's a picture frame with{{C0}}yellow-colored adornments.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECAC5",
+   "scene": "main-text",
+   "en": "It's a picture frame with{{C0}}blue-colored adornments.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECAF8",
+   "scene": "main-text",
+   "en": "It's a picture frame with{{C0}}red-colored adornments.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECB2A",
+   "scene": "main-text",
+   "en": "It's a picture frame with{{C0}}green-colored adornments.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECB5E",
+   "scene": "main-text",
+   "en": "It's a painting of Pokémon.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECB7A",
+   "scene": "main-text",
+   "en": "I've been away awhile, so the new{{C0}}paintings up here surprised me.{{C1}}I wish someone would paint my Pokémon{{C2}}this pretty.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "002ECBEF",
+   "scene": "main-text",
+   "en": "Well{{C0}} So this is where they show{{C1}}the topical Pokémon paintings.{{C2}}I see, these new paintings are indeed{{C3}}rather amusing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ECC65",
+   "scene": "main-text",
+   "en": "Wow, is that right?{{C0}}These paintings are of your Pokémon.{{C1}}Isn't that just the ultimate joy for{{C2}}a Trainer?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ED7CD",
+   "scene": "main-text",
+   "en": "Yippee!{{C0}}The lady at the reception counter{{C1}}gave me a case for {{C2}}{{C3}}{{C4}}{{C5}}{{C6}}s!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[PO]"
+    ],
+    [
+     "{{C3}}",
+     "[Ke]"
+    ],
+    [
+     "{{C4}}",
+     "[BL]"
+    ],
+    [
+     "{{C5}}",
+     "[OC]"
+    ],
+    [
+     "{{C6}}",
+     "[K]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Counter→双倍奉还"
+   ]
+  },
+  {
+   "id": "002ED812",
+   "scene": "main-text",
+   "en": "Make {{C0}}{{C1}}{{C2}}{{C3}}{{C4}}S and put them in there.{{C5}}When you make a {{C6}}{{C7}}{{C8}}{{C9}}{{C10}}, everyone{{C11}}has to put in a different Berry.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PO]"
+    ],
+    [
+     "{{C1}}",
+     "[Ke]"
+    ],
+    [
+     "{{C2}}",
+     "[BL]"
+    ],
+    [
+     "{{C3}}",
+     "[OC]"
+    ],
+    [
+     "{{C4}}",
+     "[K]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[PO]"
+    ],
+    [
+     "{{C7}}",
+     "[Ke]"
+    ],
+    [
+     "{{C8}}",
+     "[BL]"
+    ],
+    [
+     "{{C9}}",
+     "[OC]"
+    ],
+    [
+     "{{C10}}",
+     "[K]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ED876",
+   "scene": "main-text",
+   "en": "Congratulations!{{C0}}I did a painting of your Pokémon to{{C1}}commemorate its victory{{C2}}{{C3}}Well, your Pokémon's appeals were{{C4}}so fantastic, it spurred me into{{C5}}painting better than I usually do.{{C6}}Look, see?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 191,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002ED935",
+   "scene": "main-text",
+   "en": "What do you think? I'm confident in{{C0}}what I've done, but do you like it?{{C1}}A work of this caliber, it wouldn't look{{C2}}out of place in an art museum.{{C3}}Huh? An art museum really is looking{{C4}}for paintings?{{C5}}Do you think I should take this there?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 235,
+   "hint": "纯中文≤117字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "002EDA20",
+   "scene": "main-text",
+   "en": "What, really? Then, sure, I will take{{C0}}this painting there right now.{{C1}}I'll give it a proper title, too.{{C2}}I hope they'll like it and consider{{C3}}exhibiting this.{{C4}}Please check if they did accept this.{{C5}}Thank you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 205,
+   "hint": "纯中文≤102字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

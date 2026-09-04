@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const FONT = 'D:/vibecoding/gba-font-cracker-js/fonts/绿宝石字库.bin';
+const FONT = 'D:/vibecoding/gba-font-cracker-js/gbajs2/fontpatch/armips-src/graphics/fonts/full_fonts.bin';
 const [,, startArg, countArg, colsArg, outArg, scaleArg] = process.argv;
 const start = parseInt(startArg || '0', 10);
 const count = parseInt(countArg || '256', 10);

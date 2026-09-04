@@ -1,0 +1,2009 @@
+{
+ "batch": 4,
+ "count": 70,
+ "tasks": [
+  {
+   "id": "0029D09A",
+   "scene": "main-text",
+   "en": "People have to work together to get it{{C0}}to spin faster.{{C1}}The faster you can make it spin, the{{C2}}better {{C3}}{{C4}}{{C5}}{{C6}}{{C7}}S you can get, I've heard.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[PO]"
+    ],
+    [
+     "{{C4}}",
+     "[Ke]"
+    ],
+    [
+     "{{C5}}",
+     "[BL]"
+    ],
+    [
+     "{{C6}}",
+     "[OC]"
+    ],
+    [
+     "{{C7}}",
+     "[K]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029D11D",
+   "scene": "main-text",
+   "en": "It's used for making a kind of candy{{C0}}called a {{C1}}{{C2}}{{C3}}{{C4}}{{C5}}.{{C6}}If you give a good {{C7}}{{C8}}{{C9}}{{C10}}{{C11}} to a Pokémon,{{C12}}its condition will improve by a lot.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[PO]"
+    ],
+    [
+     "{{C2}}",
+     "[Ke]"
+    ],
+    [
+     "{{C3}}",
+     "[BL]"
+    ],
+    [
+     "{{C4}}",
+     "[OC]"
+    ],
+    [
+     "{{C5}}",
+     "[K]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[PO]"
+    ],
+    [
+     "{{C8}}",
+     "[Ke]"
+    ],
+    [
+     "{{C9}}",
+     "[BL]"
+    ],
+    [
+     "{{C10}}",
+     "[OC]"
+    ],
+    [
+     "{{C11}}",
+     "[K]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 129,
+   "hint": "纯中文≤64字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029D19E",
+   "scene": "main-text",
+   "en": "I heard there's a tower somewhere out{{C0}}on the sea routes.{{C1}}It's called the Sky Pillar, I hear.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029D1FB",
+   "scene": "main-text",
+   "en": "I saw this tall tower somewhere{{C0}}around Route 131.{{C1}}Could that possibly be{{C2}}?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Route 1→１号道路",
+    "Route 13→１３号道路"
+   ]
+  },
+  {
+   "id": "0029D246",
+   "scene": "main-text",
+   "en": "We just arrived here on our{{C0}}honeymoon vacation.{{C1}}We happened to see a Dragon-type{{C2}}Pokémon flying way up in the sky.{{C3}}Do cool Pokémon like that live in{{C4}}the Hoenn region?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 167,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行",
+    "Dragon→龙",
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "0029D2ED",
+   "scene": "main-text",
+   "en": "On our honeymoon, we vowed to see as{{C0}}many rare Pokémon as we can.{{C1}}So we were delighted to see a rare{{C2}}Pokémon as soon as we arrived.{{C3}}I mean, we are totally happy!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 162,
+   "hint": "纯中文≤80字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029D38F",
+   "scene": "main-text",
+   "en": "Do you know which Dragon Pokémon{{C0}}looks like a cloud?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "0029D3C4",
+   "scene": "main-text",
+   "en": "Yes! That's it! An Altaria,{{C0}}just like Winona's!{{C1}}You can have this Altaria!{{C2}}It has some special moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Altaria→七夕青鸟"
+   ]
+  },
+  {
+   "id": "0029D42A",
+   "scene": "main-text",
+   "en": "That's a shame. I'll give you something{{C0}}nice if you change your mind.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 70,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029D485",
+   "scene": "main-text",
+   "en": "If you don't already know how strong{{C0}}Altaria is, Winona can show you.{{C1}}Just challenge her to a battle{{C2}}and see for yourself!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 123,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Altaria→七夕青鸟"
+   ]
+  },
+  {
+   "id": "0029D500",
+   "scene": "main-text",
+   "en": "{{C0}} got an {{C1}}Altaria{{C2}} as a gift!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[文本色08]"
+    ],
+    [
+     "{{C2}}",
+     "[文本色02]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Altaria→七夕青鸟"
+   ]
+  },
+  {
+   "id": "0029D790",
+   "scene": "main-text",
+   "en": "I got this from Steven, but I don't{{C0}}know what it's good for.{{C1}}I think it's called King's Rock.{{C2}}Do you want it?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "0029D7FE",
+   "scene": "main-text",
+   "en": "Why would you want it?{{C0}}You're weird.{{C1}}You can keep it, but keep it a secret{{C2}}from Steven.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 88,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029D856",
+   "scene": "main-text",
+   "en": "Steven's house is right over there!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029D87A",
+   "scene": "main-text",
+   "en": "Yeah, you think so, too! What are you{{C0}}supposed to do with some weird rock?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "0029D8C5",
+   "scene": "main-text",
+   "en": "Around Mossdeep, you can see wild{{C0}}Wailmer.{{C1}}It's called, uh{{C2}}{{C3}}What was it now{{C4}}{{C5}}Wai, Wai, Wai{{C6}}{{C7}}Wailmer watching!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wailmer→吼吼鲸"
+   ]
+  },
+  {
+   "id": "0029D933",
+   "scene": "main-text",
+   "en": "The island's Space Center has been{{C0}}launching huge rockets.{{C1}}There's been some kind of an uproar{{C2}}over a letter they received recently.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Uproar→吵闹",
+    "Letter→给大吾的信"
+   ]
+  },
+  {
+   "id": "0029D9B8",
+   "scene": "main-text",
+   "en": "The island's Space Center has been{{C0}}launching huge rockets.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029DAF4",
+   "scene": "main-text",
+   "en": "I'm a Sailor, so the sea's obviously{{C0}}more important to me.{{C1}}But you know? When I get back on land{{C2}}after a long voyage, I do feel relief!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029DB7C",
+   "scene": "main-text",
+   "en": "Wouldn't it be nice?{{C0}}If the whole world was covered in{{C1}}plants and flowers like this island?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 92,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029DBD8",
+   "scene": "main-text",
+   "en": "All life needs the sea to live, even{{C0}}though it makes its home on the land.{{C1}}Life, having run its course, becomes{{C2}}soil and returns to the land.{{C3}}And the sea is always connected to{{C4}}the land.{{C5}}Yes, like the very shoreline here.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 222,
+   "hint": "纯中文≤110字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029DCB6",
+   "scene": "main-text",
+   "en": "A voyage on a ship is fine.{{C0}}But crossing the sea with Pokémon{{C1}}using Surf{{C2}}{{C3}}Now that's an exhilarating trip!{{C4}}Wouldn't you agree, youngster?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 138,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Surf→冲浪"
+   ]
+  },
+  {
+   "id": "0029DD40",
+   "scene": "main-text",
+   "en": "This rock has a special meaning to{{C0}}the people at the Space Center.{{C1}}They put it here as their wish for{{C2}}their rockets to fly safely.{{C3}}When you make a wish, what do you use?{{C4}}Do you wish upon a star?{{C5}}I use a wish tag to make it happen.{{C6}}That's what I do.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 249,
+   "hint": "纯中文≤124字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fly→飞翔",
+    "Wish→祈愿",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "0029DE39",
+   "scene": "main-text",
+   "en": "It's a white rock.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 19,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "0029DE4C",
+   "scene": "main-text",
+   "en": "Mossdeep City Pokémon Gym{{C0}}Leaders: Tate & Liza{{C1}}“The mystic combination!”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029DE95",
+   "scene": "main-text",
+   "en": "Mossdeep City{{C0}}“Our slogan: Cherish Pokémon!”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029DEC2",
+   "scene": "main-text",
+   "en": "Mossdeep Space Center{{C0}}“The closest place to space.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029E024",
+   "scene": "main-text",
+   "en": "Ahh{{C0}} It feels great letting the waves{{C1}}wash over my feet{{C2}}{{C3}}Speaking of the waves, you know that{{C4}}island city Sootopolis?{{C5}}I think the Gym there had a new{{C6}}Leader come in.{{C7}}People tell me the new Leader once{{C8}}mentored Wallace.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 219,
+   "hint": "纯中文≤109字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029E115",
+   "scene": "main-text",
+   "en": "{{C0}} {{C1}} {{C2}} {{C3}} {{C4}} {{C5}} {{C6}} {{C7}} {{C8}} {{C9}} {{C10}} {{C11}} {{C12}} {{C13}} {{C14}} {{C15}}{{C16}}{{C17}} {{C18}} {{C19}} {{C20}} {{C21}} {{C22}} {{C23}} {{C24}} {{C25}} {{C26}} {{C27}} {{C28}} {{C29}} {{C30}} {{C31}} {{C32}}{{C33}}(Seems he has nothing to say{{C34}})",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[...]"
+    ],
+    [
+     "{{C15}}",
+     "[...]"
+    ],
+    [
+     "{{C16}}",
+     "[/p]"
+    ],
+    [
+     "{{C17}}",
+     "[...]"
+    ],
+    [
+     "{{C18}}",
+     "[...]"
+    ],
+    [
+     "{{C19}}",
+     "[...]"
+    ],
+    [
+     "{{C20}}",
+     "[...]"
+    ],
+    [
+     "{{C21}}",
+     "[...]"
+    ],
+    [
+     "{{C22}}",
+     "[...]"
+    ],
+    [
+     "{{C23}}",
+     "[...]"
+    ],
+    [
+     "{{C24}}",
+     "[...]"
+    ],
+    [
+     "{{C25}}",
+     "[...]"
+    ],
+    [
+     "{{C26}}",
+     "[...]"
+    ],
+    [
+     "{{C27}}",
+     "[...]"
+    ],
+    [
+     "{{C28}}",
+     "[...]"
+    ],
+    [
+     "{{C29}}",
+     "[...]"
+    ],
+    [
+     "{{C30}}",
+     "[...]"
+    ],
+    [
+     "{{C31}}",
+     "[...]"
+    ],
+    [
+     "{{C32}}",
+     "[...]"
+    ],
+    [
+     "{{C33}}",
+     "[/p]"
+    ],
+    [
+     "{{C34}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029E27F",
+   "scene": "main-text",
+   "en": " ÁÀÂ{{C0}}The rocket is currently undergoing{{C1}}fueling, It's going to take a while. The{{C2}}more propellant you put, the heavier so{{C3}}needier in propellant it gets.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/l]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 152,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029E317",
+   "scene": "main-text",
+   "en": "Save the rocket fuel please{{C0}}aaauuurrgh.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 40,
+   "hint": "纯中文≤19字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029E33F",
+   "scene": "main-text",
+   "en": "thanks for saving the rocket fuel, We{{C0}}still have some fuel to spare, would you{{C1}}like to go to Sootopolis City?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 110,
+   "hint": "纯中文≤54字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029E3AD",
+   "scene": "main-text",
+   "en": "It's wise, have a great day.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 29,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029E3CA",
+   "scene": "main-text",
+   "en": "Rocket science babyyyyy!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 25,
+   "hint": "纯中文≤12字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F301",
+   "scene": "main-text",
+   "en": "Sootopolis City Pokémon Gym{{C0}}Leader: Juan{{C1}}“The Gym Leader with the beauty{{C2}}of pure water!”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 89,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "0029F35A",
+   "scene": "main-text",
+   "en": "Sootopolis City{{C0}}“The mystical city where history{{C1}}slumbers.”",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 60,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F396",
+   "scene": "main-text",
+   "en": "The door is closed.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 20,
+   "hint": "纯中文≤9字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F3AA",
+   "scene": "main-text",
+   "en": "Diving in the sea. Climbing up and{{C0}}down stairs all the time{{C1}}{{C2}}If you live in this town, you end up{{C3}}getting physically fit.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 122,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F424",
+   "scene": "main-text",
+   "en": "These giant Pokémon suddenly appeared{{C0}}in the middle of the city!{{C1}}And, I've never seen them before!{{C2}}Why are they smashing into each{{C3}}other like that?{{C4}}Why can't they be friends, those{{C5}}Pokémon?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 190,
+   "hint": "纯中文≤94字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F4E2",
+   "scene": "main-text",
+   "en": "What? What? What?{{C0}}What is that green Pokémon?!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F511",
+   "scene": "main-text",
+   "en": "Groudon and Kyogre{{C0}}{{C1}}Where did they go?{{C2}}Will they cause droughts or downpours{{C3}}somewhere else?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Groudon→固拉多"
+   ]
+  },
+  {
+   "id": "0029F56E",
+   "scene": "main-text",
+   "en": "I just get this sense somehow that{{C0}}the two Pokémon aren't angry.{{C1}}I think{{C2}} They probably can't control{{C3}}their own power{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 119,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F5E5",
+   "scene": "main-text",
+   "en": "That flying Pokémon came down from{{C0}}the sky and stopped the rampaging{{C1}}Pokémon{{C2}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "0029F633",
+   "scene": "main-text",
+   "en": "I{{C0}} I've never been out of this city.{{C1}}I wonder what the world is like on{{C2}}the other side of this round sky?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 106,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Round→轮唱"
+   ]
+  },
+  {
+   "id": "0029F69D",
+   "scene": "main-text",
+   "en": "Wow!{{C0}}This is wicked!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 21,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F6B2",
+   "scene": "main-text",
+   "en": "Wow!{{C0}}That was wicked!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 22,
+   "hint": "纯中文≤10字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F6C8",
+   "scene": "main-text",
+   "en": "Go for it, red Pokémon!{{C0}}Don't back off, blue Pokémon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F6FE",
+   "scene": "main-text",
+   "en": "{{C0}} {{C1}} {{C2}} {{C3}} {{C4}} {{C5}}{{C6}}Hi, do you know the names of those{{C7}}Pokémon fighting over there?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fighting→格斗"
+   ]
+  },
+  {
+   "id": "0029F74A",
+   "scene": "main-text",
+   "en": "I was wondering which one would win,{{C0}}the red one or the blue one, but, oh no,{{C1}}it's the green one that settles things!{{C2}}Talk about a huge turn of events!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 152,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F7E2",
+   "scene": "main-text",
+   "en": "There's an ancient legend that claims{{C0}}the land and sea were shaped by{{C1}}a colossal battle between Pokémon.{{C2}}Well, I'm seeing that happen with{{C3}}my very own eyes!{{C4}}Whoa! I never expected to be{{C5}}witness to something this huge!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 218,
+   "hint": "纯中文≤108字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F8BC",
+   "scene": "main-text",
+   "en": "There's an ancient legend that claims{{C0}}the land and sea were shaped by{{C1}}a colossal battle between Pokémon.{{C2}}Well, I saw that happen with{{C3}}my very own eyes!{{C4}}Whoa! I never expected to be{{C5}}witness to something this huge!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 213,
+   "hint": "纯中文≤106字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029F991",
+   "scene": "main-text",
+   "en": "A big Pokémon is fighting with{{C0}}another big Pokémon!{{C1}}Please, someone make them stop!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 84,
+   "hint": "纯中文≤41字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fighting→格斗"
+   ]
+  },
+  {
+   "id": "0029F9E5",
+   "scene": "main-text",
+   "en": "A pretty Pokémon came down from{{C0}}the sky{{C1}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FA0E",
+   "scene": "main-text",
+   "en": "Oh, no!{{C0}}Sootopolis City will get wrecked!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FA38",
+   "scene": "main-text",
+   "en": "Sootopolis City didn't get wrecked!",
+   "codes": [],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FA5C",
+   "scene": "main-text",
+   "en": "Hm!{{C0}}You've come all the way to Sootopolis?{{C1}}You're no ordinary tourist.{{C2}}But I suppose that doesn't make you{{C3}}an extraordinary tourist, either.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FAE9",
+   "scene": "main-text",
+   "en": "The city has regained its calm{{C0}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Calm→温和"
+   ]
+  },
+  {
+   "id": "0029FB09",
+   "scene": "main-text",
+   "en": "Who might you be?{{C0}}This is the Cave of Origin.{{C1}}The spirits of Pokémon, becalmed at{{C2}}Mt. Pyre, are said to be revived here.{{C3}}Please leave.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 135,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FB90",
+   "scene": "main-text",
+   "en": "A person with a strong will and{{C0}}superior talent{{C1}}{{C2}}A Trainer who has knowledge and{{C3}}experience of many kinds of Pokémon{{C4}}{{C5}}If such a person were to appear, I was{{C6}}instructed by Wallace to lead that{{C7}}Trainer to this cave.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 214,
+   "hint": "纯中文≤106字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FC66",
+   "scene": "main-text",
+   "en": "Oh, my{{C0}}{{C1}}The clash between the two awakened{{C2}}Pokémon was quelled by the awakening{{C3}}of a third Pokémon{{C4}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Awakening→解眠药"
+   ]
+  },
+  {
+   "id": "0029FCCA",
+   "scene": "main-text",
+   "en": "This is the Cave of Origin{{C0}}{{C1}}With the passing of the crisis,{{C2}}the cave, too, shall sleep{{C3}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 88,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FD22",
+   "scene": "main-text",
+   "en": "Sootopolis sprang up as a town in{{C0}}the crater of a volcano.{{C1}}If you look up at the sky, the lip of{{C2}}the crater is also visible.{{C3}}So, all you see is the sky in a circle.{{C4}}But that's what makes the sky above{{C5}}Sootopolis the most beautiful.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 232,
+   "hint": "纯中文≤115字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FE0A",
+   "scene": "main-text",
+   "en": "When two Pokémon that gigantic{{C0}}are fighting that savagely, there's{{C1}}not much that we can do.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 92,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fighting→格斗"
+   ]
+  },
+  {
+   "id": "0029FE66",
+   "scene": "main-text",
+   "en": "When that third Pokémon flew down,{{C0}}I feared the worst.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FE9D",
+   "scene": "main-text",
+   "en": "A circle of a night sky framed by{{C0}}the crater of a volcano{{C1}}{{C2}}And in that ring, stars flicker and{{C3}}blink as if they were alive{{C4}}{{C5}}It's my favorite scenery.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 150,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0029FF33",
+   "scene": "main-text",
+   "en": "The weather was clear this morning,{{C0}}but{{C1}}{{C2}}All of a sudden, dark clouds brewed up,{{C3}}rain started falling in sheets, and{{C4}}there was thunder and lightning, too.{{C5}}The weather just went completely{{C6}}wild!{{C7}}Is all of this because of those{{C8}}Pokémon?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 235,
+   "hint": "纯中文≤117字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Thunder→打雷",
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "002A001E",
+   "scene": "main-text",
+   "en": "Oh?{{C0}}It was you who brought that flying{{C1}}Pokémon here?{{C2}}Well, aren't you amazing!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/p]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "002A006D",
+   "scene": "main-text",
+   "en": "Maxie: G{{C0}} Groudon{{C1}}{{C2}}Please! Stop what you're doing!{{C3}}I know the extent of your power now!{{C4}}If you keep going, all Hoenn, not just{{C5}}Sootopolis, will be utterly ruined!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 163,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Groudon→固拉多",
+    "Hoenn→丰缘"
+   ]
+  },
+  {
+   "id": "002A0110",
+   "scene": "main-text",
+   "en": "Maxie: So the super-ancient Pokémon{{C0}}weren't only Groudon and Kyogre{{C1}}{{C2}}After all our fruitless scheming and{{C3}}frantic efforts, that one Pokémon's{{C4}}simple action puts everything right{{C5}}again as if nothing had happened{{C6}}{{C7}}Fu{{C8}}{{C9}}Fuhahaha{{C10}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 226,
+   "hint": "纯中文≤112字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Groudon→固拉多",
+    "Simple→单纯"
+   ]
+  },
+  {
+   "id": "002A01F2",
+   "scene": "main-text",
+   "en": "Archie: Kyogre! What's wrong?!{{C0}}Look over here! It's the Blue Orb!{{C1}}Calm down! Kyogre!{{C2}}{{C3}} {{C4}} {{C5}} {{C6}} {{C7}} {{C8}}{{C9}}{{C10}} {{C11}} {{C12}} {{C13}} {{C14}} {{C15}}{{C16}}It's no good!{{C17}}It's not responding at all!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/l]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[...]"
+    ],
+    [
+     "{{C15}}",
+     "[...]"
+    ],
+    [
+     "{{C16}}",
+     "[/p]"
+    ],
+    [
+     "{{C17}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 151,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyogre→盖欧卡",
+    "Blue Orb→靛蓝色宝珠",
+    "Calm→温和"
+   ]
+  }
+ ]
+}

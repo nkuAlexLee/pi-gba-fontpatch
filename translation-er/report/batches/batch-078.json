@@ -1,0 +1,2840 @@
+{
+ "batch": 78,
+ "count": 50,
+ "tasks": [
+  {
+   "id": "0038CA9D",
+   "scene": "main-text",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}I was in a battle recently, and my{{C5}}{{C6}} was exceptional!{{C7}}I wish you could have seen it,{{C8}}{{C9}}{{C10}}. Bye-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[玩家]"
+    ],
+    [
+     "{{C10}}",
+     "[fd08]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "0038CB1C",
+   "scene": "main-text",
+   "en": "Hi! {{C0}}, hello!{{C1}}This is {{C2}}.{{C3}}Huh? Wait, you're near{{C4}}{{C5}}?{{C6}}Oh, wow, we have to battle, then!{{C7}}I'll be waiting! See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CB8E",
+   "scene": "main-text",
+   "en": "Hello, {{C0}}!{{C1}}It's {{C2}}.{{C3}}Oh? You happen to be around{{C4}}{{C5}} right now?{{C6}}Would you like to battle now?{{C7}}I'll wait for you! See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 120,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CC06",
+   "scene": "main-text",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}Oh, hey, are you near{{C4}}{{C5}} right now?{{C6}}How would you like to battle with{{C7}}me right now?{{C8}}I'm not losing again!{{C9}}I'll be waiting! Catch you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 167,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CCAD",
+   "scene": "main-text",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}Whereabouts are you now?{{C5}}Huh? {{C6}}?{{C7}}Want to battle now?{{C8}}I'll wait for you. See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 102,
+   "hint": "纯中文≤50字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CD13",
+   "scene": "main-text",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}How are things with you?{{C5}}You're where now?{{C6}}{{C7}}?{{C8}}Well, how about we have a quick{{C9}}rematch right away?{{C10}}I'll keep an eye out for you.{{C11}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 164,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CDB7",
+   "scene": "main-text",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}How are your Pokémon keeping?{{C5}}Oh, is that right? You're around{{C6}}{{C7}}?{{C8}}Well, then, we'd better have{{C9}}a rematch.{{C10}}I can wait, sure.{{C11}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CE51",
+   "scene": "main-text",
+   "en": "{{C0}}Er, {{C1}}{{C2}}?{{C3}}{{C4}} here{{C5}}{{C6}}Oh, you happen to be around{{C7}}{{C8}}?{{C9}}Then, let's battle.{{C10}}Right away, I mean.{{C11}}I'll show you my Pokémon.{{C12}}I'll wait for you.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[fd08]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 137,
+   "hint": "纯中文≤68字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CEDA",
+   "scene": "main-text",
+   "en": "Oh, {{C0}}{{C1}}, how do you do?{{C2}}This is {{C3}} speaking.{{C4}}I hope you're doing well.{{C5}}Oh, you're near {{C6}}.{{C7}}Would you like to have a battle{{C8}}with me, then?{{C9}}I'll wait for you.{{C10}}See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 172,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038CF86",
+   "scene": "main-text",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}Are you keeping up?{{C5}}Oh, you're near {{C6}}?{{C7}}Oh, well, then don't you think we{{C8}}should battle?{{C9}}Don't keep me waiting too long!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 153,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D01F",
+   "scene": "main-text",
+   "en": "Oh, {{C0}}{{C1}}, hello{{C2}}{{C3}}This is {{C4}}.{{C5}}How are things with you?{{C6}}Oh, you're near {{C7}}.{{C8}}We should have a battle now, then.{{C9}}I'm ready and waiting.{{C10}}Be quick!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 142,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D0AD",
+   "scene": "main-text",
+   "en": "Ah, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}Ah, so where you are now is{{C5}}{{C6}}?{{C7}}Well, then, we just have to have{{C8}}a battle, don't you think?{{C9}}I'll wait around for you!{{C10}}See you real quick!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 160,
+   "hint": "纯中文≤79字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D14D",
+   "scene": "main-text",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}It's me, {{C3}}.{{C4}}Where might you be now?{{C5}}{{C6}}?{{C7}}That's quite close by!{{C8}}What do you say we have a battle{{C9}}now?{{C10}}I can wait.{{C11}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 136,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D1D5",
+   "scene": "main-text",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}I hope you've been keeping well.{{C5}}Oh, you're near {{C6}}?{{C7}}Since that's not very far away,{{C8}}come see me for a battle.{{C9}}I'll wait for you.{{C10}}Bye for now.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 172,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D281",
+   "scene": "main-text",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}You're what? {{C5}}{{C6}}?{{C7}}That's very close.{{C8}}Don't you think we ought to have{{C9}}a battle?{{C10}}I'll be looking for you!{{C11}}Bye-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D30D",
+   "scene": "main-text",
+   "en": "Hi! {{C0}}, hello!{{C1}}This is {{C2}}.{{C3}}Want to have a battle with me?{{C4}}I'll be waiting for you around{{C5}}{{C6}}!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 93,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D36A",
+   "scene": "main-text",
+   "en": "Hello, {{C0}}!{{C1}}It's {{C2}}.{{C3}}Would you like to have a battle{{C4}}with me again?{{C5}}You can find me around{{C6}}{{C7}}. I'll be waiting!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D3D9",
+   "scene": "main-text",
+   "en": "Hey there, {{C0}}!{{C1}}It's me, {{C2}}.{{C3}}My Pokémon have grown a lot{{C4}}tougher since last time.{{C5}}I want to see how strong they've{{C6}}become with your Pokémon, {{C7}}.{{C8}}So, let's have a battle!{{C9}}I'll be waiting for you around{{C10}}{{C11}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[玩家]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 204,
+   "hint": "纯中文≤101字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D4A5",
+   "scene": "main-text",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}How are things with you?{{C5}}My Pokémon have grown pretty{{C6}}tough lately.{{C7}}Hey, how would you like to have{{C8}}another battle with me?{{C9}}Let's meet up around{{C10}}{{C11}}, okay?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 175,
+   "hint": "纯中文≤87字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D554",
+   "scene": "main-text",
+   "en": "Hiya, {{C0}}{{C1}}!{{C2}}It's {{C3}}.{{C4}}My Pokémon are growing up in{{C5}}decent ways.{{C6}}I'd really like to have another{{C7}}battle with you.{{C8}}I'll keep an eye out for you around{{C9}}{{C10}}. See you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 166,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D5FA",
+   "scene": "main-text",
+   "en": "Hey, {{C0}}{{C1}}.{{C2}}{{C3}} here.{{C4}}I hope you're on top of things.{{C5}}I was thinking I'd like another{{C6}}battle with you. What do you say?{{C7}}If you feel like a battle,{{C8}}come to {{C9}}.{{C10}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 166,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D6A0",
+   "scene": "main-text",
+   "en": "{{C0}}Er, {{C1}}{{C2}}?{{C3}}{{C4}} here{{C5}}{{C6}}So? Are your Pokémon growing?{{C7}}Mine sure got stronger.{{C8}}I'd like to show you.{{C9}}I'll be around {{C10}}.{{C11}}Come see me for a match.{{C12}}See you around.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[玩家]"
+    ],
+    [
+     "{{C2}}",
+     "[fd08]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D73C",
+   "scene": "main-text",
+   "en": "Oh, {{C0}}{{C1}}, how do you do?{{C2}}This is {{C3}} speaking.{{C4}}I hope you're doing well.{{C5}}My Pokémon are very frisky.{{C6}}If you're ever in the area, please{{C7}}give me a rematch.{{C8}}I'll be around {{C9}}.{{C10}}Until then, good-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 195,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D7FF",
+   "scene": "main-text",
+   "en": "Oh, {{C0}}{{C1}}, hi there!{{C2}}This is {{C3}}!{{C4}}How are your Pokémon doing?{{C5}}My Pokémon keep getting better.{{C6}}I'd like to show you, {{C7}}{{C8}}.{{C9}}I'm around {{C10}} now,{{C11}}so let's battle if you're close by.{{C12}}Hope I see you soon!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[玩家]"
+    ],
+    [
+     "{{C8}}",
+     "[fd08]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 196,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D8C3",
+   "scene": "main-text",
+   "en": "Oh, {{C0}}{{C1}}, hello{{C2}}{{C3}}This is {{C4}}.{{C5}}So, how are things with you?{{C6}}My Pokémon have grown much{{C7}}stronger than before.{{C8}}I'd love another battle with you,{{C9}}{{C10}}{{C11}}.{{C12}}I'll be around {{C13}}.{{C14}}Come see me if you're close.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C5}}",
+     "[/l]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[玩家]"
+    ],
+    [
+     "{{C11}}",
+     "[fd08]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ],
+    [
+     "{{C13}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C14}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 195,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038D986",
+   "scene": "main-text",
+   "en": "Ah, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}Where might you be now?{{C5}}My Pokémon are full of life.{{C6}}They appear to be looking forward{{C7}}to seeing your Pokémon, {{C8}}{{C9}}.{{C10}}I'm around {{C11}} now.{{C12}}I hope you'll seek us out.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/l]"
+    ],
+    [
+     "{{C8}}",
+     "[玩家]"
+    ],
+    [
+     "{{C9}}",
+     "[fd08]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 185,
+   "hint": "纯中文≤92字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DA3F",
+   "scene": "main-text",
+   "en": "Hello, {{C0}}{{C1}}.{{C2}}It's me, {{C3}}.{{C4}}I should tell you, my Pokémon have{{C5}}grown to be quite robust lately.{{C6}}I would like to see them in a battle{{C7}}with you, {{C8}}{{C9}}.{{C10}}We'll be around {{C11}}.{{C12}}Come see us anytime!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[玩家]"
+    ],
+    [
+     "{{C9}}",
+     "[fd08]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 188,
+   "hint": "纯中文≤93字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DAFB",
+   "scene": "main-text",
+   "en": "Ah, hello, {{C0}}{{C1}}!{{C2}}This is {{C3}}!{{C4}}Are your Pokémon keeping well?{{C5}}My Pokémon have been so healthy,{{C6}}they don't look capable of losing!{{C7}}I would surely love to have another{{C8}}battle with you.{{C9}}If you're near {{C10}},{{C11}}do come see us.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 216,
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DBD3",
+   "scene": "main-text",
+   "en": "Oh, hi, {{C0}}{{C1}}.{{C2}}This is {{C3}}.{{C4}}Keeping well, I hope.{{C5}}Oh, yes! My Pokémon are{{C6}}much stronger than before.{{C7}}Don't you think we ought to have{{C8}}a battle, {{C9}}{{C10}}?{{C11}}We'll be waiting for you around{{C12}}{{C13}}.{{C14}}Come see us anytime, okay?",
+   "codes": [
+    [
+     "{{C0}}",
+     "[玩家]"
+    ],
+    [
+     "{{C1}}",
+     "[fd08]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[玩家]"
+    ],
+    [
+     "{{C10}}",
+     "[fd08]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ],
+    [
+     "{{C13}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C14}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 211,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DCA6",
+   "scene": "main-text",
+   "en": "It's me, the mountain-loving{{C0}}{{C1}}!{{C2}}Well, since we met, have you grown{{C3}}to appreciate the mountains more?{{C4}}I rarely see you in the mountains{{C5}}{{C6}}Next time, we'll meet somewhere{{C7}}around {{C8}}.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[buffer2]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 180,
+   "hint": "纯中文≤89字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DD5A",
+   "scene": "main-text",
+   "en": "This is {{C0}}.{{C1}}Hello.{{C2}}I was just telling a new Trainer{{C3}}about you.{{C4}}I told her about a strong Trainer{{C5}}who raises Pokémon with care.{{C6}}I hope you'll become a Trainer{{C7}}that everyone will admire.{{C8}}I hope we meet again!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 207,
+   "hint": "纯中文≤103字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DE29",
+   "scene": "main-text",
+   "en": "Hello! It's {{C0}}.{{C1}}I love where I am now.{{C2}}It's pleasant with sweet aromas!{{C3}}I think someone planted Berries,{{C4}}and they burst into bloom.{{C5}}See you again sometime!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DEC5",
+   "scene": "main-text",
+   "en": "Hello! Thirty years of exploration,{{C0}}{{C1}} at your service!{{C2}}It seems that you're energetically{{C3}}traveling here and there.{{C4}}Have you discovered any new ruins?{{C5}}Please tell if you have!{{C6}}Now, if you'll excuse me,{{C7}}I have ruins to explore.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 228,
+   "hint": "纯中文≤113字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038DFA9",
+   "scene": "main-text",
+   "en": "It's {{C0}}!{{C1}}Know what I'm doing today?{{C2}}Looking at waves from the beach!{{C3}}Sigh{{C4}} The waves are all sparkly.{{C5}}The sea is the prettiest from here.{{C6}}I'm getting hungry, so bye-bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 170,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038E053",
+   "scene": "main-text",
+   "en": "Munch-chew{{C0}}{{C1}}Oh, hi, it's {{C2}}.{{C3}}I love eating on the beach.{{C4}}My Pokémon and I have been doing{{C5}}great. We're fully fueled!{{C6}}I'm going for a swim. Bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 144,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038E264",
+   "scene": "main-text",
+   "en": "Yahoo, it's {{C0}}!{{C1}}How do you do?{{C2}}I've been raising my Pokémon with{{C3}}you as the target.{{C4}}I don't intend to lose when we{{C5}}battle again.{{C6}}Isn't it great to have Trainer{{C7}}friends? Let's meet again!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 187,
+   "hint": "纯中文≤93字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038E31F",
+   "scene": "main-text",
+   "en": "It's {{C0}}{{C1}}{{C2}}Right now, behind you{{C3}}{{C4}}Wasn't there something{{C5}}?{{C6}}The power of the Pokémon that{{C7}}sleep here at Mt. Pyre{{C8}}{{C9}}It's telling me about you{{C10}}{{C11}}You should walk away quickly and{{C12}}never once look back{{C13}}{{C14}}Giggle{{C15}}{{C16}}Farewell{{C17}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/l]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[/n]"
+    ],
+    [
+     "{{C13}}",
+     "[...]"
+    ],
+    [
+     "{{C14}}",
+     "[/p]"
+    ],
+    [
+     "{{C15}}",
+     "[...]"
+    ],
+    [
+     "{{C16}}",
+     "[/n]"
+    ],
+    [
+     "{{C17}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 211,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038E3F2",
+   "scene": "main-text",
+   "en": "This is {{C0}}.{{C1}}How do you do?{{C2}}Isn't it convenient that we can{{C3}}chat like this at a distance?{{C4}}Before, if I wanted to speak with{{C5}}anyone, I had to have my father{{C6}}drive me{{C7}}{{C8}}I should be going now.{{C9}}I'm glad we had this chat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 215,
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038E4C9",
+   "scene": "main-text",
+   "en": "It's {{C0}}!{{C1}}Will you listen to this?{{C2}}I like the Safari Zone a lot,{{C3}}but whenever I go, I get lost!{{C4}}All that tall grass!{{C5}}And it's much too spread out!{{C6}}I feel better getting that off{{C7}}my chest!{{C8}}I'm off to the Safari Zone again!{{C9}}Catch you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 232,
+   "hint": "纯中文≤115字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "0038E6F6",
+   "scene": "main-text",
+   "en": "Ufufufufu{{C0}}{{C1}}It's me, {{C2}}{{C3}}{{C4}}Can you guess what I'm seeing?{{C5}}A pair of {{C6}} in a battle.{{C7}}Maybe I'll try catching the winner{{C8}}{{C9}}Ufufufufufu{{C10}}{{C11}}I{{C12}} I'm kind of busy now.{{C13}}I have to go.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 169,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038E8DC",
+   "scene": "main-text",
+   "en": "I'm {{C0}}!{{C1}}The man of the sea!{{C2}}You know what I think?{{C3}}The Trainers out at sea are{{C4}}the toughest of the tough!{{C5}}You should learn from me and train{{C6}}in the sea{{C7}}{{C8}}Whoops, giant surf rising!{{C9}}It's a great training opportunity!{{C10}}Sorry, but I have to go!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 240,
+   "hint": "纯中文≤119字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Surf→冲浪"
+   ]
+  },
+  {
+   "id": "0038E9CC",
+   "scene": "main-text",
+   "en": "It's {{C0}}! Listen, I've been{{C1}}teaching karate to my Pokémon.{{C2}}But now they're better than me!{{C3}}I've done nothing but lose to them!{{C4}}But even though I may lose to{{C5}}Pokémon, I won't lose to another{{C6}}Trainer, no sir!{{C7}}We have to battle again!{{C8}}Ugwaah!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 239,
+   "hint": "纯中文≤119字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038EBCF",
+   "scene": "main-text",
+   "en": "This is {{C0}}{{C1}}{{C2}}Hear my new song.{{C3}}Lalala, {{C4}}, {{C5}}!{{C6}}Why are you that {{C7}}?{{C8}}Why can't I be you, {{C9}}?{{C10}}Lala, {{C11}} and {{C12}},{{C13}}{{C14}} and {{C15}}{{C16}}{{C17}}Repeat chorus, fade{{C18}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C5}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C8}}",
+     "[/l]"
+    ],
+    [
+     "{{C9}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C10}}",
+     "[/l]"
+    ],
+    [
+     "{{C11}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C12}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C13}}",
+     "[/l]"
+    ],
+    [
+     "{{C14}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C15}}",
+     "[buffer2]"
+    ],
+    [
+     "{{C16}}",
+     "[...]"
+    ],
+    [
+     "{{C17}}",
+     "[/p]"
+    ],
+    [
+     "{{C18}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 140,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038EC5B",
+   "scene": "main-text",
+   "en": "I'm {{C0}}, you know,{{C1}}the camping expert!{{C2}}When we battled, I couldn't help{{C3}}but lose to you.{{C4}}After all, my expertise is in{{C5}}camping.{{C6}}But win or lose, I like to battle{{C7}}when I'm camping.{{C8}}Battle with us again, okay?{{C9}}Oh, and let's go camping, too!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/p]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 238,
+   "hint": "纯中文≤118字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038ED49",
+   "scene": "main-text",
+   "en": "It's me, me, {{C0}}!{{C1}}I'd like to climb other mountains{{C2}}than this one, to be honest.{{C3}}But I'm not sure if there'd be any{{C4}}ladies like on Mt. Chimney.{{C5}}If you know any other mountain{{C6}}with ladies around, let me know!{{C7}}Ehehehe, see you around!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/p]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/p]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 232,
+   "hint": "纯中文≤115字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038EE31",
+   "scene": "main-text",
+   "en": "{{C0}} {{C1}} {{C2}} {{C3}} {{C4}} {{C5}}{{C6}}{{C7}} {{C8}} {{C9}} {{C10}} {{C11}} {{C12}}{{C13}}It's {{C14}}{{C15}}{{C16}}{{C17}} {{C18}} {{C19}} {{C20}} {{C21}} {{C22}}{{C23}}{{C24}} {{C25}} {{C26}} {{C27}} {{C28}} {{C29}}{{C30}}That's all today{{C31}}",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[...]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[...]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[...]"
+    ],
+    [
+     "{{C8}}",
+     "[...]"
+    ],
+    [
+     "{{C9}}",
+     "[...]"
+    ],
+    [
+     "{{C10}}",
+     "[...]"
+    ],
+    [
+     "{{C11}}",
+     "[...]"
+    ],
+    [
+     "{{C12}}",
+     "[...]"
+    ],
+    [
+     "{{C13}}",
+     "[/l]"
+    ],
+    [
+     "{{C14}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C15}}",
+     "[...]"
+    ],
+    [
+     "{{C16}}",
+     "[/p]"
+    ],
+    [
+     "{{C17}}",
+     "[...]"
+    ],
+    [
+     "{{C18}}",
+     "[...]"
+    ],
+    [
+     "{{C19}}",
+     "[...]"
+    ],
+    [
+     "{{C20}}",
+     "[...]"
+    ],
+    [
+     "{{C21}}",
+     "[...]"
+    ],
+    [
+     "{{C22}}",
+     "[...]"
+    ],
+    [
+     "{{C23}}",
+     "[/n]"
+    ],
+    [
+     "{{C24}}",
+     "[...]"
+    ],
+    [
+     "{{C25}}",
+     "[...]"
+    ],
+    [
+     "{{C26}}",
+     "[...]"
+    ],
+    [
+     "{{C27}}",
+     "[...]"
+    ],
+    [
+     "{{C28}}",
+     "[...]"
+    ],
+    [
+     "{{C29}}",
+     "[...]"
+    ],
+    [
+     "{{C30}}",
+     "[/l]"
+    ],
+    [
+     "{{C31}}",
+     "[...]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 75,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0038EE7C",
+   "scene": "main-text",
+   "en": "This is {{C0}}. Today, I had{{C1}}this feeling I would chat with you.{{C2}}My desire to defeat you builds{{C3}}by day and by night.{{C4}}You have a rival like that, yes?{{C5}}I wish it were me{{C6}}{{C7}}I'm glad you heard me out.{{C8}}See you!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/p]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 201,
+   "hint": "纯中文≤100字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wish→祈愿"
+   ]
+  },
+  {
+   "id": "0038EF45",
+   "scene": "main-text",
+   "en": "It's {{C0}}.{{C1}}When there's a strong Trainer{{C2}}nearby, I can sometimes sense that{{C3}}somehow.{{C4}}Did you pass close by, {{C5}}{{C6}}?{{C7}}Maybe it was you.{{C8}}I'll be waiting for your visit.{{C9}}Bye!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/p]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/l]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[玩家]"
+    ],
+    [
+     "{{C6}}",
+     "[fd08]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ],
+    [
+     "{{C8}}",
+     "[/p]"
+    ],
+    [
+     "{{C9}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 167,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pass→磁浮列车自由票"
+   ]
+  },
+  {
+   "id": "0038EFEC",
+   "scene": "main-text",
+   "en": "Hello, this is {{C0}}.{{C1}}You sound well, {{C2}}{{C3}}.{{C4}}I've traveled around the world,{{C5}}but I must say I've taken a great{{C6}}shine to this region.{{C7}}I plan to stay here a while.{{C8}}Perhaps we can meet again?{{C9}}I've not forgotten your dazzling{{C10}}techniques.{{C11}}I do hope for a rematch.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[玩家]"
+    ],
+    [
+     "{{C3}}",
+     "[fd08]"
+    ],
+    [
+     "{{C4}}",
+     "[/p]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/l]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/n]"
+    ],
+    [
+     "{{C11}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 255,
+   "hint": "纯中文≤127字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dazzling→鲜艳之躯"
+   ]
+  },
+  {
+   "id": "0038F0EB",
+   "scene": "main-text",
+   "en": "Snivel{{C0}} It's{{C1}} {{C2}}{{C3}}{{C4}}{{C5}}Sob{{C6}}{{C7}}ROXANNE chewed me out in class{{C8}}today.{{C9}}But I don't dislike her or anything.{{C10}}ROXANNE tells me exactly what{{C11}}I did wrong so I can learn from it.{{C12}}You bet I'll be going to{{C13}}the Trainer's School tomorrow!{{C14}}See you later!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[...]"
+    ],
+    [
+     "{{C1}}",
+     "[...]"
+    ],
+    [
+     "{{C2}}",
+     "[buffer1]"
+    ],
+    [
+     "{{C3}}",
+     "[...]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[...]"
+    ],
+    [
+     "{{C6}}",
+     "[...]"
+    ],
+    [
+     "{{C7}}",
+     "[/p]"
+    ],
+    [
+     "{{C8}}",
+     "[/n]"
+    ],
+    [
+     "{{C9}}",
+     "[/p]"
+    ],
+    [
+     "{{C10}}",
+     "[/p]"
+    ],
+    [
+     "{{C11}}",
+     "[/n]"
+    ],
+    [
+     "{{C12}}",
+     "[/p]"
+    ],
+    [
+     "{{C13}}",
+     "[/n]"
+    ],
+    [
+     "{{C14}}",
+     "[/p]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 236,
+   "hint": "纯中文≤117字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

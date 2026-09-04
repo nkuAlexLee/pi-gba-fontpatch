@@ -165,6 +165,11 @@ class GameBoyAdvanceIO {
 		for (var i = 0; i <= this.BLDY; i += 2) {
 			this.store16(i, this.registers[i >> 1]);
 		}
+		// 声音寄存器也不序列化内部状态（通道 interval/playing 等），
+		// 快照恢复后不重放会导致 audio.updateTimers 以零 interval 无限自递归
+		for (var i = this.SOUND1CNT_LO; i <= this.SOUNDBIAS; i += 2) {
+			try { this.store16(i, this.registers[i >> 1]); } catch (e) {}
+		}
 	}
 	load8(offset) {
 		throw "Unimplmeneted unaligned I/O access";
@@ -331,10 +336,11 @@ class GameBoyAdvanceIO {
 			case this.FIFO_A_HI:
 			case this.FIFO_B_LO:
 			case this.FIFO_B_HI:
-				this.core.WARN(
-					"Read for write-only register: 0x" + offset.toString(16)
-				);
-				return this.core.mmu.badMemory.loadU16(0);
+				// [修复] 原先返回恒定的 badMemory[0]，真机/PGA 上该读取返回最后写入的总线值。
+				// EliteRedux 声音驱动轮询 DMA1CNT_H (0x040000C4) 等 DMA 完成标志，
+				// 恒定返回值使游戏陷入无限轮询→runFrames 永不返回→HTTP 饿死（无画面无声音）。
+				// 改为返回寄存器阵列里最后写入的值，与 mGBA 行为一致。
+				return this.registers[offset >> 1];
 
 			case this.MOSAIC:
 				this.core.WARN(

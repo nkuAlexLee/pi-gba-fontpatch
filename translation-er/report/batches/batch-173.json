@@ -1,0 +1,1625 @@
+{
+ "batch": 173,
+ "count": 53,
+ "tasks": [
+  {
+   "id": "0100455C",
+   "scene": "main-text",
+   "en": "Grim Neigh boosts the Pokemon's{{C0}}Special Attack by one stage when{{C1}}it causes an opponent to faint{{C2}}with a direct attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 118,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grim Neigh→漆黑嘶鸣"
+   ]
+  },
+  {
+   "id": "010045D4",
+   "scene": "main-text",
+   "en": "When this Pokemon knocks out an{{C0}}opponent with a direct attack,{{C1}}its Attack stat increases by one{{C2}}stage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0100463C",
+   "scene": "main-text",
+   "en": "Dragon's Maw boosts the power of{{C0}}Dragon-type moves by 50%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "01004677",
+   "scene": "main-text",
+   "en": " Transistor increases the power{{C0}}of all Electric-type moves by{{C1}}50%. Stacks additively with{{C2}}other damage modifiers.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Transistor→电晶体",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "010046EC",
+   "scene": "main-text",
+   "en": "Curious Medicine removes an{{C0}}ally's positive and negative stat{{C1}}changes on the user's entry.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 91,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Curious Medicine→怪药"
+   ]
+  },
+  {
+   "id": "01004748",
+   "scene": "main-text",
+   "en": "Unseen Fist allows all contact{{C0}}moves to bypass protection{{C1}}moves and ignore any secondary{{C2}}effects associated with them.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 119,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Unseen Fist→无形拳"
+   ]
+  },
+  {
+   "id": "010047C0",
+   "scene": "main-text",
+   "en": "Quick Draw gives a 30% chance{{C0}}for the user to act first in{{C1}}their priority bracket. Stacks{{C2}}multiplicatively with Quick Claw{{C3}}for a 44% chance to activate.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 153,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quick Draw→速击",
+    "Quick Claw→先制之爪"
+   ]
+  },
+  {
+   "id": "0100485C",
+   "scene": "main-text",
+   "en": "Automatically switches between{{C0}}Full and Hangry forms at the end{{C1}}of each turn. Cannot be{{C2}}overridden, suppressed, swapped,{{C3}}or copied in any way.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 143,
+   "hint": "纯中文≤71字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010048EC",
+   "scene": "main-text",
+   "en": "Pastel Veil automatically sets{{C0}}up Safeguard for the user's team{{C1}}when the Pokemon enters battle.{{C2}}Safeguard lasts for 5 turns and{{C3}}protects all team members from{{C4}}status conditions.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 178,
+   "hint": "纯中文≤88字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Safeguard→神秘守护",
+    "Pastel Veil→粉彩护幕"
+   ]
+  },
+  {
+   "id": "010049A0",
+   "scene": "main-text",
+   "en": "Fills the area with gas that{{C0}}completely suppresses all{{C1}}abilities except unsuppressable{{C2}}ones. Effect lasts while user is{{C3}}on field. After the user{{C4}}attempts to switch, all{{C5}}suppressed abilities reactivate{{C6}}their entry effects. Cannot be{{C7}}copied or swapped.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 251,
+   "hint": "纯中文≤125字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01004A9C",
+   "scene": "main-text",
+   "en": "Gorilla Tactics boosts physical{{C0}}move power by 50% but locks the{{C1}}user into using the first move{{C2}}selected until they switch out.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 127,
+   "hint": "纯中文≤63字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gorilla Tactics→一猩一意"
+   ]
+  },
+  {
+   "id": "01004B1C",
+   "scene": "main-text",
+   "en": "When hit by a contact move,{{C0}}Wandering Spirit swaps abilities{{C1}}with the attacker. Both Pokemon{{C2}}regain their original ability{{C3}}upon switching out. Cannot swap{{C4}}with abilities that are also{{C5}}unable to be copied or{{C6}}suppressed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 219,
+   "hint": "纯中文≤109字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wandering Spirit→游魂"
+   ]
+  },
+  {
+   "id": "01004BF8",
+   "scene": "main-text",
+   "en": "When hit by a contact move,{{C0}}Perish Body activates Perish{{C1}}Song on both the user and the{{C2}}attacker. Both Pokemon will{{C3}}faint in 3 turns unless they{{C4}}switch out.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Perish Body→灭亡之躯"
+   ]
+  },
+  {
+   "id": "01004C94",
+   "scene": "main-text",
+   "en": "Steely Spirit increases the{{C0}}power of Steel-type moves by 30%{{C1}}for both the user and its allies{{C2}}in battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steely Spirit→钢之意志",
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "01004F30",
+   "scene": "main-text",
+   "en": "Power Spot boosts allies' attack{{C0}}power by 30% in double battles.{{C1}}The user itself receives no{{C2}}boost.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 100,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Spot→能量点"
+   ]
+  },
+  {
+   "id": "01004F94",
+   "scene": "main-text",
+   "en": "Ice Face transforms Eiscue into{{C0}}its Noice Face form after taking{{C1}}a physical attack, negating{{C2}}damage once. While in Noice form,{{C3}}if hail is set or if the user is{{C4}}swapped in, revert to Ice Face{{C5}}form. Cannot be copied or{{C6}}suppressed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 229,
+   "hint": "纯中文≤114字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eiscue→冰砌鹅",
+    "Hail→冰雹",
+    "Ice Face→结冻头",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "01005188",
+   "scene": "main-text",
+   "en": "Halves all incoming Special{{C0}}Attack damage. Multiplicative{{C1}}with other sources of damage{{C2}}reduction.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 98,
+   "hint": "纯中文≤48字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010051EA",
+   "scene": "main-text",
+   "en": "  When damaged by an attack{{C0}}summons an 8-turn sandstorm if{{C1}}one isn't present. If a sandstorm{{C2}}is summoned the attacker is{{C3}}knocked to the ground. The user{{C4}}gains immunity to sandstorm{{C5}}damage. Does not activate if the{{C6}}user faints from the attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 243,
+   "hint": "纯中文≤121字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sandstorm→沙暴",
+    "Present→礼物",
+    "Immunity→免疫",
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "010052E0",
+   "scene": "main-text",
+   "en": "Punk Rock amplifies the user's{{C0}}sound moves by 30% and reduces{{C1}}incoming sound move damage by{{C2}}50%. Damage reduction is{{C3}}multiplicative with other{{C4}}sources.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 152,
+   "hint": "纯中文≤75字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Punk Rock→庞克摇滚",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "01005378",
+   "scene": "main-text",
+   "en": "Steam Engine maximizes the Speed{{C0}}stat to +6 stages when hit by{{C1}}any Fire-type or Water-type{{C2}}move. The boost occurs{{C3}}immediately after taking damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 147,
+   "hint": "纯中文≤73字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steam Engine→蒸汽机",
+    "Fire→火",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "0100540C",
+   "scene": "main-text",
+   "en": "Can't have its moves redirected,{{C0}}can't be critically hit, and can't{{C1}}have its abilities suppressed.{{C2}}Ability suppression includes{{C3}}effects such as Mold Breaker,{{C4}}Gastro Acid, Neutralizing Gas,{{C5}}and Mycelium Might.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 209,
+   "hint": "纯中文≤104字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Acid→溶解液",
+    "Gastro Acid→胃液",
+    "Mold Breaker→破格",
+    "Neutralizing Gas→化学变化气体",
+    "Mycelium Might→菌丝之力"
+   ]
+  },
+  {
+   "id": "01005610",
+   "scene": "main-text",
+   "en": "Mirror Armor reflects all stat-{{C0}}lowering effects aimed at the{{C1}}user back to the attacker. The{{C2}}reflection bypasses immunities.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 125,
+   "hint": "纯中文≤62字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mirror Armor→镜甲"
+   ]
+  },
+  {
+   "id": "01005690",
+   "scene": "main-text",
+   "en": "Propeller Tail boosts the user's{{C0}}Speed by 50% during rain and{{C1}}grants immunity to redirection{{C2}}effects. The speed boost works{{C3}}in all forms of rain.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 146,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Speed Boost→加速",
+    "Immunity→免疫",
+    "Propeller Tail→螺旋尾鳍"
+   ]
+  },
+  {
+   "id": "01005724",
+   "scene": "main-text",
+   "en": "Cotton Down triggers when the{{C0}}Pokemon is hit by any attack,{{C1}}lowering the Speed of ALL{{C2}}Pokemon by one stage. Activates{{C3}}multiple times against multihit{{C4}}moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 157,
+   "hint": "纯中文≤78字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cotton Down→棉絮"
+   ]
+  },
+  {
+   "id": "010057C4",
+   "scene": "main-text",
+   "en": "Libero overrides the user's type{{C0}}to match the move being used{{C1}}before it attacks. Cannot{{C2}}activate on Struggle moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 116,
+   "hint": "纯中文≤57字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Struggle→挣扎",
+    "Libero→自由者"
+   ]
+  },
+  {
+   "id": "01005838",
+   "scene": "main-text",
+   "en": "Dauntless Shield immediately{{C0}}raises Defense by one stage when{{C1}}entering battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 79,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dauntless Shield→不屈之盾"
+   ]
+  },
+  {
+   "id": "01005888",
+   "scene": "main-text",
+   "en": "Intrepid Sword raises the{{C0}}Pokemon's Attack stat by one{{C1}}stage when switching into{{C2}}battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 89,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Intrepid Sword→不挠之剑"
+   ]
+  },
+  {
+   "id": "010058E4",
+   "scene": "main-text",
+   "en": "Super effective attacks are{{C0}}boosted by 35%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01005910",
+   "scene": "main-text",
+   "en": "Shadow Shield halves damage from{{C0}}all attacks when at full HP.{{C1}}Multiplicative with other damage{{C2}}reduction sources.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shadow Shield→幻影防守",
+    "Shadow→暗"
+   ]
+  },
+  {
+   "id": "01005984",
+   "scene": "main-text",
+   "en": "Full Metal Body gives immunity to{{C0}}all stat reductions from moves{{C1}}and abilities. Includes self stat{{C2}}drops from moves like Overheat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 131,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Overheat→过热",
+    "Immunity→免疫",
+    "Full Metal Body→金属防护"
+   ]
+  },
+  {
+   "id": "01005A08",
+   "scene": "main-text",
+   "en": "Creates Grassy Terrain for 8{{C0}}turns (12 with Terrain Extender){{C1}}on entry. Grounded Pokemon heal{{C2}}1/16 HP per turn and Grass moves{{C3}}gain 30% power. Overrides other{{C4}}terrains.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 169,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grassy Terrain→青草场地",
+    "Terrain Extender→大地膜",
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "01005AB4",
+   "scene": "main-text",
+   "en": "Creates Misty Terrain on entry,{{C0}}lasting 8 turns (12 with Terrain{{C1}}Extender). Misty Terrain{{C2}}prevents all status conditions{{C3}}for grounded Pokemon and boosts{{C4}}Fairy-type moves by 30%.{{C5}}Overrides existing terrain.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 206,
+   "hint": "纯中文≤102字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Misty Terrain→薄雾场地",
+    "Fairy→妖精"
+   ]
+  },
+  {
+   "id": "01005CA4",
+   "scene": "main-text",
+   "en": "Creates Electric Terrain for 8{{C0}}turns (12 with Terrain Extender){{C1}}upon entry. Grounded Pokemon{{C2}}cannot fall asleep and Electric{{C3}}moves gain 30% power boost.{{C4}}Overrides other terrains when{{C5}}activated.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 194,
+   "hint": "纯中文≤96字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric Terrain→电气场地",
+    "Terrain Extender→大地膜",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "01005D68",
+   "scene": "main-text",
+   "en": "RKS System changes the user's{{C0}}form based on its held Memory{{C1}}disc. Before each attack, the{{C2}}user overrides their type to{{C3}}match the move's type. Boosts{{C4}}STAB from 1.5x to 2.0x damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 180,
+   "hint": "纯中文≤89字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "RKS System→ＡＲ系统"
+   ]
+  },
+  {
+   "id": "01005E1C",
+   "scene": "main-text",
+   "en": "Beast Boost raises the user's{{C0}}highest calculated stat by one{{C1}}stage each time it KOs an{{C2}}opponent. The stat raised is{{C3}}determined by comparing the raw{{C4}}stat without current modifiers{{C5}}such as stat raises.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 200,
+   "hint": "纯中文≤99字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beast Boost→异兽提升"
+   ]
+  },
+  {
+   "id": "01005EE4",
+   "scene": "main-text",
+   "en": "Upon entry, transmutes all{{C0}}opposing Berries into Black{{C1}}Sludge. When any Pokemon loses{{C2}}an item during battle, it gets{{C3}}replaced by Black Sludge. If{{C4}}Black Sludge is removed, it gets{{C5}}replaced by Big Nugget.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 203,
+   "hint": "纯中文≤101字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sludge→污泥攻击",
+    "Nugget→金珠",
+    "Black Sludge→黑色污泥",
+    "Big Nugget→巨大金珠"
+   ]
+  },
+  {
+   "id": "01005FB0",
+   "scene": "main-text",
+   "en": "Receiver copies a fainted ally's{{C0}}ability, replacing Receiver.{{C1}}Persists until switched out.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 91,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Receiver→接球手"
+   ]
+  },
+  {
+   "id": "0100600C",
+   "scene": "main-text",
+   "en": "Soul-Heart raises Special Attack{{C0}}by one stage when any Pokemon{{C1}}faints on the battlefield,{{C2}}including allies and enemies.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 120,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soul-Heart→魂心"
+   ]
+  },
+  {
+   "id": "01006084",
+   "scene": "main-text",
+   "en": "Dazzling blocks all priority{{C0}}moves from opponents targeting{{C1}}the user or allies.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 80,
+   "hint": "纯中文≤39字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dazzling→鲜艳之躯"
+   ]
+  },
+  {
+   "id": "010060D4",
+   "scene": "main-text",
+   "en": "Fluffy reduces damage from{{C0}}contact moves by 50%. Fire-type{{C1}}moves to deal double damage to{{C2}}the user. Multiplicative with{{C3}}other forms of damage reduction.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 153,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fluffy→毛茸茸",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "01006170",
+   "scene": "main-text",
+   "en": "Battery provides a 30% boost to{{C0}}ally Pokemon's Special attacks in{{C1}}double battles. Does not affect{{C2}}the user's own moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 120,
+   "hint": "纯中文≤59字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Battery→蓄电池"
+   ]
+  },
+  {
+   "id": "010061E8",
+   "scene": "main-text",
+   "en": "When any Pokemon on the field{{C0}}uses a dance move, this Pokemon{{C1}}immediately uses the same move{{C2}}after. Triggers once per move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01006264",
+   "scene": "main-text",
+   "en": "Innards Out activates when the{{C0}}Pokemon is knocked out by an{{C1}}opponent's attack. It inflicts{{C2}}the same amount of damage the{{C3}}fatal attack dealt back to the{{C4}}attacker. Cannot affect{{C5}}attackers protected by Magic{{C6}}Guard.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 212,
+   "hint": "纯中文≤105字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Innards Out→飞出的内在物"
+   ]
+  },
+  {
+   "id": "01006338",
+   "scene": "main-text",
+   "en": "Queenly Majesty prevents the{{C0}}user and its ally from being{{C1}}targeted by priority moves with{{C2}}priority higher than 0.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 114,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Queenly Majesty→女王的威严"
+   ]
+  },
+  {
+   "id": "010063AC",
+   "scene": "main-text",
+   "en": "Comatose considers the user as{{C0}}asleep for moves and statuses.{{C1}}The Pokemon can move normally{{C2}}and gains immunity to all status{{C3}}conditions. Cannot be copied or{{C4}}suppressed. Rest fails when{{C5}}used.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 191,
+   "hint": "纯中文≤95字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rest→睡觉",
+    "Immunity→免疫",
+    "Comatose→绝对睡眠"
+   ]
+  },
+  {
+   "id": "0100646C",
+   "scene": "main-text",
+   "en": "Poison-type moves become super{{C0}}effective against Steel-type{{C1}}Pokemon. Additionally, this{{C2}}Pokemon can inflict poison{{C3}}status on any type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 135,
+   "hint": "纯中文≤67字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒",
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "01006614",
+   "scene": "main-text",
+   "en": "Battle Bond immediately triggers{{C0}}a form change when this Pokemon{{C1}}deals the finishing blow to an{{C2}}opposing Pokemon. Cannot be{{C3}}copied.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Battle Bond→牵绊变身"
+   ]
+  },
+  {
+   "id": "01006698",
+   "scene": "main-text",
+   "en": "Disguise blocks the first{{C0}}damaging move that hits the{{C1}}Pokemon and changes its form{{C2}}after. Only non-status moves are{{C3}}blocked. In fog, the disguise is{{C4}}restored immediately once per{{C5}}switch in, or when fog is set{{C6}}again.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 216,
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Disguise→画皮"
+   ]
+  },
+  {
+   "id": "01006770",
+   "scene": "main-text",
+   "en": "When at level 20 or above,{{C0}}transforms into School Form.{{C1}}Reverts to Solo Form when HP{{C2}}drops to 25% or less. This form{{C3}}change triggers automatically{{C4}}upon entry and at end of each{{C5}}turn. Cannot be overridden,{{C6}}suppressed, swapped, or copied{{C7}}in any way.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ],
+    [
+     "{{C7}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 248,
+   "hint": "纯中文≤123字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01006868",
+   "scene": "main-text",
+   "en": "Surge Surfer boosts the{{C0}}Pokemon's Speed by 50% when{{C1}}Electric Terrain is active. The{{C2}}boost applies immediately and{{C3}}disappears when it ends.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric Terrain→电气场地",
+    "Surge Surfer→冲浪之尾",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "010068F4",
+   "scene": "main-text",
+   "en": "Changes the user's Normal-type{{C0}}moves to Electric-type. If the{{C1}}user is Electric-type its{{C2}}Electric-type moves have a 10%{{C3}}chance to paralyze, otherwise it{{C4}}gains Electric STAB.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 173,
+   "hint": "纯中文≤86字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "010069A4",
+   "scene": "main-text",
+   "en": "Triage grants +3 priority to{{C0}}most healing moves. Includes{{C1}}draining moves like Giga Drain,{{C2}}and delayed healing moves like{{C3}}Wish. Does not work with  Aqua{{C4}}Ring, Grassy Terrain, Ingrain,{{C5}}Leech Seed, Pain Split, Present,{{C6}}or Pollen Puff.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 232,
+   "hint": "纯中文≤115字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Leech Seed→寄生种子",
+    "Giga Drain→终极吸取",
+    "Present→礼物",
+    "Pain Split→分担痛楚",
+    "Wish→祈愿",
+    "Ingrain→扎根",
+    "Grassy Terrain→青草场地",
+    "Pollen Puff→花粉团",
+    "Triage→先行治疗"
+   ]
+  },
+  {
+   "id": "01006A8C",
+   "scene": "main-text",
+   "en": "Liquid Voice converts Normal-{{C0}}type sound moves to Water-type{{C1}}and boosts them by 20%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Liquid Voice→湿润之声",
+    "Normal→一般",
+    "Water→水"
+   ]
+  }
+ ]
+}

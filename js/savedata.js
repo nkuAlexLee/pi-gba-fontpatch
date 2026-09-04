@@ -78,6 +78,10 @@ class FlashSavedata extends MemoryView {
 		return (this.loadU8(offset) & 0xff) | (this.loadU8(offset + 1) << 8);
 	}
 	store8(offset, value) {
+		if (this.core && this.core.__flashLog) {
+			this.core.__flashLog.push({ o: '0x' + (offset & 0xffff).toString(16), v: '0x' + (value & 0xff).toString(16), c: this.command, f: this.first, s: this.second, id: this.idMode });
+			if (this.core.__flashLog.length > 600) this.core.__flashLog.shift();
+		}
 		switch (this.command) {
 			case 0:
 				if (offset == 0x5555) {

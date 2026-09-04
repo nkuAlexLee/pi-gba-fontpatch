@@ -198,8 +198,20 @@
 		padding: 3px;
 	}
 	.hidden { display: none; }
-	#romLoader { display: none; }
 	.warn { color: #ffd93d; font-size: 12px; }
+	/* ---------- 联机模式 ---------- */
+	.modeSwitch { margin-left: 16px; }
+	.modeSwitch button { padding: 4px 14px; border: 1px solid #3a3b42; background: #23242a; color: #ccc; cursor: pointer; }
+	.modeSwitch button.active { background: #3d6db5; color: #fff; }
+	#onlinePanel { border: 1px solid #3a3b42; background: #1d1e24; padding: 8px 10px; margin-bottom: 8px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+	#onlinePanel input[type=text] { width: 170px; }
+	#onlinePanel select { max-width: 260px; }
+	.recDot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #555; margin-right: 4px; vertical-align: middle; }
+	.recDot.on { background: #ff4d4d; box-shadow: 0 0 6px #ff4d4d; }
+	.onlineOnly { display: none; }
+	body.online .onlineOnly { display: flex; }
+	body.online .localOnly { display: none; }
+	#onlineHelp { font-size: 12px; color: #8a8b92; width: 100%; }
 </style>
 </head>
 <body>
@@ -207,17 +219,28 @@
 	<h1>GBA Memory Viewer</h1>
 	<span class="status" id="status">未加载 ROM</span>
 	<span class="warn" id="fpshint"></span>
+	
 </header>
+
+<div id="onlinePanel" class="hidden">
+	<span>Server:</span><input type="text" id="srvUrl" value="http://localhost:8650">
+	<button onclick="refreshRoms()">刷新 ROM 列表</button>
+	<span style="margin-left:12px">
+		<span id="audioStat" style="color:#8ab4ff" title="AudioContext 状态/队列">🔇 -</span>
+		<span class="recDot" id="recDot"></span>
+		<label class="chk"><input type="checkbox" id="recChk" onchange="toggleRecord(this.checked)"> 记录会话（AI 可回放）</label>
+		<span id="recSteps" style="color:#7ec699"></span>
+	</span>
+	<div id="onlineHelp">serve-only 模式：模拟器只存在于 serve（node romctl.js）侧，本页=手柄+屏幕+内存/反汇编监视，由 serve 静态提供并自动连接。键盘 Z=A X=B Enter=START Shift=SELECT 方向键 Q=L E=R；首次按键后出声（浏览器自动播放策略）。「记录会话」后每个操作+截图存入 tmp/session/，AI 通过 GET /session?op=steps 拉取。</div>
+</div>
 
 <div id="main">
 	<!-- ==================== Left: game screen ==================== -->
 	<div id="left">
 		<div id="screenWrap"><canvas id="screen" width="480" height="320"></canvas></div>
 		<div id="gameControls">
-			<button class="primary" id="selectBtn" onclick="document.getElementById('romLoader').click()">选择 ROM</button>
-			<input type="file" id="romLoader" accept=".gba" onchange="loadRom(this.files[0])">
-			<button id="pauseBtn" onclick="togglePause()" disabled>PAUSE</button>
-			<button onclick="resetRom()" disabled id="resetBtn">RESET</button>
+			<select id="romList" title="ROM 列表（来自 serve 的 roms/ 目录，本地/联机两种模式通用）"><option>— 刷新中… —</option></select>
+			<button class="primary" onclick="loadRomUnified()">加载 ROM</button>
 			<label class="chk"><input type="checkbox" id="lockPcChk"> 跟随 PC 反汇编</label>
 			<label class="chk"><input type="checkbox" id="autoRefreshChk" checked> 自动刷新内存</label>
 			<label class="chk">刷新间隔
@@ -264,26 +287,9 @@
 	</div>
 </div>
 
-<script src="js/util.js"></script>
-<script src="js/core.js"></script>
-<script src="js/arm.js"></script>
-<script src="js/thumb.js"></script>
-<script src="js/mmu.js"></script>
-<script src="js/io.js"></script>
-<script src="js/audio.js"></script>
-<script src="js/video.js"></script>
-<!-- 故意不加载 video/proxy.js：
-	 proxy 会把渲染放进 Web Worker，Worker 出错时主线程无感知、画面静默黑屏。
-	 不加载它时 video.js 会回退到主线程软件渲染器，且内存直读对监视页更友好。 -->
-<script src="js/video/software.js"></script>
-<script src="js/irq.js"></script>
-<script src="js/keypad.js"></script>
-<script src="js/sio.js"></script>
-<script src="js/savedata.js"></script>
-<script src="js/gpio.js"></script>
-<script src="js/gba.js"></script>
-<script src="resources/biosbin.js"></script>
-<script src="js/thumb-disassembler.js"></script>
+<!-- serve-only：本地模拟器脚本已移除，页面只做手柄+屏幕+内存监视 -->
+<script src="js/audio.js"></script> <!-- 复用 gbajs2 原版音频消费器 -->
+
 
 <script>
 'use strict';
@@ -303,124 +309,12 @@ const REGIONS = [
 const ROW_BYTES = 16;
 const VIEW_ROWS = 24;
 
-let gba = null;
-let dis = null;
 let currentRegion = REGIONS[0];
 let viewBase = 0x03000000;     // 当前 hex 窗口起始地址（16字节对齐）
 let prevData = null;           // 上一帧窗口快照 (Uint8Array)
 let baseline = null;           // 基线快照
 let changeLog = [];            // [{addr, old, new, time}]
-let romLoaded = false;
 let refreshTimer = null;
-
-/* ================================================================
- * Emulator setup
- * ================================================================ */
-function initEmulator() {
-	console.log('[memview] init v2');
-	gba = new GameBoyAdvance();
-	gba.keypad.eatInput = true;
-	gba.setCanvas(document.getElementById('screen'));
-	// 只有真正的 ERROR（CPU 异常等）才暂停；WARN/STUB（如未映射 IO 寄存器
-	// 读取 "Bad I/O register read: 0x..."）是模拟器日常噪音，按 open-bus 返回即可，
-	// 不应打断运行。level 为 -1 表示 logStackTrace 的附加帧，仅打印。
-	gba.setLogger(function (level, error) {
-		// error 可能是 Error 对象或字符串，尽量提取有用信息
-		let msg = error;
-		if (error instanceof Error) {
-			msg = error.message + (error.stack ? '\n' + error.stack.split('\n').slice(1, 4).join('\n') : '');
-		} else if (error && error.message) {
-			msg = error.message;
-		}
-		if (level === gba.LOG_ERROR) {
-			console.error(error);
-			gba.pause();
-			setStatus('运行出错: ' + msg, true);
-		} else if (level === gba.LOG_WARN) {
-			console.warn('[WARN]', msg);
-		} else {
-			console.log('[' + level + ']', msg);
-		}
-	});
-	// 诊断: FPS 与帧计数
-	let frameCount = 0;
-	gba.video.vblankCallback = (function (orig) {
-		return function () {
-			orig();
-			frameCount++;
-		};
-	})(gba.video.vblankCallback);
-	setInterval(function () {
-		if (romLoaded && !gba.paused) {
-			document.getElementById('status').textContent =
-				'运行中 | FPS: ' + (fpsValue || 0).toFixed(1) + ' | 帧累计: ' + frameCount;
-		}
-	}, 500);
-	let fpsValue = 0;
-	gba.reportFPS = function (fps) { fpsValue = fps; };
-	gba.setBios(biosBin);
-	console.log('[memview] render path:', gba.video.renderPath.constructor.name);
-	dis = new ThumbDisassembler(gba.mmu);
-}
-
-function loadRom(file) {
-	if (!gba) initEmulator();
-	// AudioContext 必须在用户手势中 resume，否则处于 suspended 状态
-	if (gba.audio && gba.audio.context && gba.audio.context.state !== 'running') {
-		gba.audio.context.resume().catch(function () {});
-	}
-	const reader = new FileReader();
-	reader.onloadend = function (e) {
-		try {
-			const result = gba.setRom(e.target.result);
-			if (result) {
-				romLoaded = true;
-				gba.runStable();
-				setStatus('运行中');
-				document.getElementById('pauseBtn').disabled = false;
-				document.getElementById('resetBtn').disabled = false;
-				setupRefreshTimer();
-				takeSnapshot();
-				refreshMemory();
-				refreshDisasm();
-			} else {
-				setStatus('ROM 加载失败', true);
-			}
-		} catch (err) {
-			console.error(err);
-			setStatus('加载异常: ' + err.message, true);
-		}
-	};
-	reader.readAsArrayBuffer(file);
-}
-
-function togglePause() {
-	if (!gba) return;
-	if (gba.paused) {
-		gba.runStable();
-		document.getElementById('pauseBtn').textContent = 'PAUSE';
-		setStatus('运行中');
-	} else {
-		gba.pause();
-		document.getElementById('pauseBtn').textContent = '继续';
-		setStatus('已暂停');
-		refreshMemory();
-		refreshDisasm();
-	}
-}
-
-function resetRom() {
-	if (!gba) return;
-	gba.pause();
-	gba.reset();
-	gba.runStable();
-	prevData = null;
-	baseline = null;
-	changeLog = [];
-	takeSnapshot();
-	refreshMemory();
-	refreshDisasm();
-}
 
 function setStatus(text, warn) {
 	const el = document.getElementById('status');
@@ -456,10 +350,6 @@ function selectRegion(id) {
 /* ================================================================
  * Hex view + change tracking
  * ================================================================ */
-function readMem8(addr) {
-	return gba.mmu.loadU8(addr) & 0xff;
-}
-
 function parseAddr(s) {
 	if (!s) return NaN;
 	s = s.trim().replace(/^0x/i, '');
@@ -496,43 +386,45 @@ function page(dir) {
 function align16(a) { return a & ~0xf; }
 
 function takeSnapshot() {
-	if (!romLoaded) return;
-	const rows = VIEW_ROWS, bytes = rows * ROW_BYTES;
-	baseline = new Uint8Array(bytes);
-	for (let i = 0; i < bytes; i++) {
-		try { baseline[i] = readMem8(viewBase + i); } catch (e) { baseline[i] = 0; }
-	}
+	fetchServeMem(viewBase, VIEW_ROWS * ROW_BYTES).then(b => { baseline = b; }).catch(() => {});
 }
 
-function showOnlyChanged() {
-	// 在当前区域内扫描有变化的第一页（与基线对比）
+/* 联机模式内存读取：走 serve /memread */
+async function fetchServeMem(addr, len) {
+	const r = await api('/memread?addr=0x' + (addr >>> 0).toString(16) + '&len=' + len);
+	const d = await r.json();
+	if (!d.ok) throw new Error(d.error || 'memread 失败');
+	const out = new Uint8Array(len);
+	for (let i = 0; i < len; i++) out[i] = parseInt(d.hex.substr(i * 2, 2), 16);
+	return out;
+}
+
+async function showOnlyChanged() {
+	// 在当前区域内扫描有变化的第一页（与基线对比），数据走 serve
 	if (!baseline) return;
 	const bytes = VIEW_ROWS * ROW_BYTES;
-	const scanStart = align16(viewBase);
-	for (let off = ROW_BYTES; ; off += ROW_BYTES) {
-		const cand = scanStart + off;
-		if (cand >= currentRegion.base + currentRegion.size - bytes) break;
-		for (let i = 0; i < bytes; i++) {
-			if (readMem8(cand + i) !== baseline[i]) {
-				viewBase = align16(cand);
-				document.getElementById('gotoAddr').value = '0x' + viewBase.toString(16).toUpperCase();
-				refreshMemory();
-				return;
+	for (let cand = align16(viewBase) + ROW_BYTES; cand < currentRegion.base + currentRegion.size - bytes; cand += ROW_BYTES) {
+		try {
+			const b = await fetchServeMem(cand, bytes);
+			for (let i2 = 0; i2 < bytes; i2++) {
+				if (b[i2] !== baseline[i2]) {
+					viewBase = align16(cand);
+					document.getElementById('gotoAddr').value = '0x' + viewBase.toString(16).toUpperCase();
+					refreshMemory();
+					return;
+				}
 			}
-		}
-		if (off > currentRegion.size) break;
+		} catch (e) { break; }
 	}
 	setStatus('本区域基线之后没有更多变化');
 }
 
-function refreshMemory() {
-	if (!romLoaded) return;
+async function refreshMemory() {
 	const hexView = document.getElementById('hexView');
 	const bytes = VIEW_ROWS * ROW_BYTES;
-	const cur = new Uint8Array(bytes);
-	for (let i = 0; i < bytes; i++) {
-		try { cur[i] = readMem8(viewBase + i); } catch (e) { cur[i] = -1; }
-	}
+	let cur;
+	try { cur = await fetchServeMem(viewBase, bytes); }
+	catch (e) { setOnlineStatus('内存读取失败: ' + e.message); return; }
 
 	let html = '';
 	let chgs = [];
@@ -541,9 +433,9 @@ function refreshMemory() {
 		let hex = '', asc = '';
 		for (let c = 0; c < ROW_BYTES; c++) {
 			const i = row * ROW_BYTES + c;
-			const v = cur[i];
+			let v = cur[i];
 			let cls = 'b';
-			if (v < 0) {
+			if (v === undefined || v === null) {
 				hex += '<span class="b">?? </span>';
 				asc += ' ';
 				continue;
@@ -591,14 +483,19 @@ function refreshMemory() {
 /* ================================================================
  * Disassembly panel
  * ================================================================ */
-function refreshDisasm() {
-	if (!romLoaded) return;
-	const mode = dis.currentMode;
+async function refreshDisasm() {
+	let mode, pc;
+	try {
+		const r = await api('/regs');
+		const d = await r.json();
+		if (!d.ok) throw new Error(d.error || 'regs 失败');
+		mode = d.mode.toLowerCase();
+		pc = parseInt(d.gprs.pc, 16) >>> 0;
+	} catch (e) { return; }
 	const modeEl = document.getElementById('cpuMode');
 	modeEl.textContent = mode.toUpperCase();
 	modeEl.className = 'mode ' + mode;
 
-	const pc = gba.cpu.gprs[gba.cpu.PC] >>> 0;
 	// Thumb PC 读数为当前指令+4；ARM 为 +8
 	const execAddr = (pc - (mode === 'thumb' ? 4 : 8)) >>> 0;
 	document.getElementById('pcLabel').textContent =
@@ -616,7 +513,13 @@ function refreshDisasm() {
 	disasmBase = start;
 
 	const count = 40;
-	const lines = dis.disassemble(start, count, mode);
+	let lines;
+	try {
+		const r = await api('/disasm?addr=0x' + (start >>> 0).toString(16) + '&n=' + count + '&mode=' + mode);
+		const d = await r.json();
+		if (!d.ok) throw new Error(d.error || 'disasm 失败');
+		lines = d.lines.map(l => ({ address: parseInt(l.addr, 16), bytes: l.bytes, text: l.text }));
+	} catch (e) { return; }
 	let html = '';
 	for (const ln of lines) {
 		const isPc = ((ln.address >>> 0) === execAddr) || (mode === 'thumb' && ln.address === execAddr);
@@ -652,17 +555,19 @@ function setupRefreshTimer() {
 	if (refreshTimer) clearInterval(refreshTimer);
 	const rate = parseInt(document.getElementById('refreshRate').value, 10);
 	if (rate > 0) {
+		let lastPanel = 0;
 		refreshTimer = setInterval(function () {
-			if (!romLoaded) return;
-			if (document.getElementById('autoRefreshChk').checked) {
-				refreshMemory();
-				refreshDisasm();
-			}
+			if (!document.getElementById('autoRefreshChk').checked) return;
+			// 游戏运行时（单线程 serve 被 /play 占用）面板刷新软性降到 ≥1s，减少排队卡顿
+			if (online.playing && rate < 1000 && Date.now() - lastPanel < 990) return;
+			lastPanel = Date.now();
+			refreshMemory();
+			refreshDisasm();
 		}, rate);
 	}
 }
 document.getElementById('refreshRate').onchange = function () {
-	if (romLoaded) setupRefreshTimer();
+	setupRefreshTimer();
 };
 
 /* ================================================================
@@ -670,14 +575,304 @@ document.getElementById('refreshRate').onchange = function () {
  * ================================================================ */
 buildTabs();
 window.onload = function () {
-	if (typeof biosBin === 'undefined') {
-		document.getElementById('fpshint').textContent =
-			'警告: 缺少 resources/biosbin.js，请通过 HTTP 服务器访问本页（如 python -m http.server）';
-	}
-	initEmulator();
-	setStatus('等待加载 ROM…');
+	initOnline();
+	setStatus('联机模式');
 	document.getElementById('gotoAddr').value = '0x03000000';
 };
+
+/* ================================================================
+ * 联机调试模式：模拟器在 serve（romctl.js serve）侧，页面只是手柄+屏幕。
+ * 所有操作走 serve → 自动记录操作+截图 → AI 经 /session?op=steps 拉取。
+ * ================================================================ */
+let online = { active: true, base: '', held: new Set(), playing: false, rec: false }; // serve-only
+const CID = 'tab' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); // 本标签客户端 ID
+const ONLINE_KEYS = {
+	KeyZ: 'A', KeyX: 'B', Enter: 'START', ShiftLeft: 'SELECT', ShiftRight: 'SELECT',
+	ArrowUp: 'UP', ArrowDown: 'DOWN', ArrowLeft: 'LEFT', ArrowRight: 'RIGHT', KeyQ: 'L', KeyE: 'R',
+};
+
+/* ---- 联机音频：复用 gbajs2 原版 GameBoyAdvanceAudio 消费器 ----
+ * 原本地模式音乐正常 = 用的是 gbajs2 自带 audioProcess（resampleRatio 重采样、
+ * outputPointer 欠载保护、masterEnable 门控）。这里构造一个纯音频引擎实例，
+ * 把 serve /audio 拉到的样本按 writeSample 语义写入它的环形缓冲，播放路径与原版一致。 */
+let audioEngine = null, audioCtx = null, audioStarted = false;
+let audioRxKB = 0, audioProcCalls = 0;
+function setupAudio() {
+	try {
+		audioEngine = new GameBoyAdvanceAudio();
+		// [关键1] clear() 是真正的状态初始化器（samplePointer/outputPointer/通道全在内），
+		// 构造器只建 AudioContext+ScriptProcessor。不调 clear = 指针 undefined（buf=NaN）
+		// clear() 内部读 this.core.irq.FREQUENCY（真实 CPU 主频 16777216）——纯音频实例需补最小假 core
+		audioEngine.core = { irq: { FREQUENCY: 16777216, pollNextEvent: function () {} } };
+		audioEngine.clear();
+		audioCtx = audioEngine.context;
+		// 服务端环已放大到 2s（65536）；客户端环同步放大，避免 60 帧/1s 爆发覆盖 0.5s 默认环
+		audioEngine.maxSamples = 4096 << 4;
+		audioEngine.buffers = [new Float32Array(audioEngine.maxSamples), new Float32Array(audioEngine.maxSamples)];
+		audioEngine.sampleMask = audioEngine.maxSamples - 1;
+		audioEngine.masterEnable = true;
+		audioEngine.masterVolume = 1.0;
+		// [关键2] 原版把 jsAudio→destination 的连接藏在 writeEnable()（游戏写 0x84 时才连），
+		// 纯音频实例没人调它 → audioProcess 永不触发（proc=0 静音）。这里手动连上
+		audioEngine.jsAudio.connect(audioEngine.context.destination);
+		// 读指针从写指针后方 0.25s 起步（留缓冲，不放陈旧历史数据）
+		audioEngine.outputPointer = (audioEngine.samplePointer - 8192 + audioEngine.maxSamples) % audioEngine.maxSamples;
+	} catch (e) {
+		console.warn('音频引擎创建失败', e);
+		const el0 = document.getElementById('audioStat');
+		if (el0) el0.textContent = '❌ ' + (e && e.message || e);
+		audioEngine = null; return;
+	}
+}
+/* 把 /audio 收到的 float32 交错 L/R 样本按 writeSample 语义写入引擎环 */
+function feedEngine(f32) {
+	const eng = audioEngine;
+	let n = f32.length / 2;
+	if (n > eng.maxSamples - 64) {
+		const drop = n - (eng.maxSamples - 64);
+		eng.outputPointer = (eng.outputPointer + drop * eng.resampleRatio) % eng.maxSamples;
+		n = eng.maxSamples - 64;
+	}
+	for (let i = 0; i < n; i++) {
+		const p = eng.samplePointer;
+		eng.buffers[0][p] = f32[i * 2];
+		eng.buffers[1][p] = f32[i * 2 + 1];
+		eng.samplePointer = (p + 1) & eng.sampleMask;
+	}
+}
+async function audioPollLoop() {
+	while (true) {
+		if (audioStarted && audioEngine) {
+			try {
+				const r = await fetch(apiBase() + '/audio?cid=' + CID);
+				if (r.ok) {
+					const buf = await r.arrayBuffer();
+					if (buf.byteLength >= 8) {
+						audioRxKB += buf.byteLength / 1024;
+						feedEngine(new Float32Array(buf));
+					}
+				}
+			} catch (e) {}
+		}
+		await new Promise(res => setTimeout(res, 80));
+	}
+}
+/* 浏览器自动播放策略：首次交互后才能出声；每次手势都重试 */
+function unlockAudio() {
+	if (!audioEngine) setupAudio();
+	if (audioCtx && audioCtx.state !== 'running') audioCtx.resume().catch(function () {});
+	audioStarted = true;
+}
+window.addEventListener('keydown', unlockAudio);
+window.addEventListener('pointerdown', unlockAudio);
+
+/* 指示器: 每 0.5s 显示引擎状态与缓冲积压 */
+setInterval(function () {
+	const el = document.getElementById('audioStat');
+	if (!el) return;
+	if (!audioEngine || !audioCtx) { el.textContent = '🔇 无ctx'; return; }
+	const st = audioCtx.state === 'running' ? '🔊' : '🔇';
+	const backlog = ((audioEngine.samplePointer - audioEngine.outputPointer + audioEngine.maxSamples) % audioEngine.maxSamples) / 32768;
+	el.textContent = st + ' ' + audioCtx.state + ' buf=' + backlog.toFixed(2) + 's rx=' + audioRxKB.toFixed(0) + 'KB proc=' + audioProcCalls;
+}, 500);
+
+/* serve 启动时可能已通过状态恢复自动加载了 ROM——检测到就直接开画+出声 */
+async function autoStartIfLoaded() {
+	try {
+		const r = await api('/status');
+		const d = await r.json();
+		if (!d.ok || !d.rom) { setOnlineStatus('联机模式：选择 ROM 后点「加载 ROM」（首次按键后出声）'); return; }
+		serveRomName = d.rom.split(/[\/]/).pop();
+		const sel = document.getElementById('romList');
+		for (const o of sel.options) if (o.value === serveRomName) { sel.value = serveRomName; break; }
+		online.playing = true;
+		playLoop();
+		unlockAudio();
+		setOnlineStatus('联机运行: ' + serveRomName + '（serve 已在运行，自动接续；首次按键后出声）');
+		refreshMemory();
+		refreshDisasm();
+	} catch (e) {
+		setOnlineStatus('联机模式：选择 ROM 后点「加载 ROM」（首次按键后出声）');
+	}
+}
+
+/* serve-only 初始化：页面由 serve 静态提供，自动连本源 */
+async function initOnline() {
+	document.body.classList.add('online');
+	try {
+		if (location.protocol.startsWith('http')) {
+			online.base = location.origin;
+			document.getElementById('srvUrl').value = location.origin;
+		}
+	} catch (e) {}
+	online.base = online.base.replace(/localhost/gi, '127.0.0.1');
+	await refreshRoms();      // 先填 ROM 下拉框
+	syncServeRomName();
+	setupRefreshTimer();
+	setupAudio();
+	audioPollLoop();
+	autoStartIfLoaded();      // serve 已有 ROM → 自动开始推帧
+}
+
+/* 从 serve 同步它当前加载的 ROM 名，检测两边不一致 */
+async function syncServeRomName() {
+	try {
+		const r = await api('/status');
+		const d = await r.json();
+		if (d.ok && d.rom) serveRomName = d.rom.split(/[\\/]/).pop();
+	} catch (e) {}
+	checkRomMismatch();
+}
+
+function checkRomMismatch() {
+	// serve-only：无本地实例，不再有 ROM 不一致问题
+}
+
+function setOnlineStatus(t) { document.getElementById('status').textContent = t || '联机模式'; }
+
+function apiBase() {
+	if (online.base) return online.base;
+	try { return document.getElementById('srvUrl').value.replace(/\/$/, '').replace(/localhost/gi, '127.0.0.1'); } catch (e) { return 'http://127.0.0.1:8650'; }
+}
+
+async function api(path) {
+	const r = await fetch(apiBase() + path);
+	if (!r.ok && r.status !== 500) throw new Error('HTTP ' + r.status);
+	return r;
+}
+
+async function refreshRoms() {
+	try {
+		const r = await api('/roms');
+		const d = await r.json();
+		const sel = document.getElementById('romList');
+		const keep = sel.value;
+		sel.innerHTML = '';
+		for (const f of d.roms) {
+			const o = document.createElement('option');
+			o.value = f; o.textContent = f;
+			sel.appendChild(o);
+		}
+		if (keep && d.roms.includes(keep)) sel.value = keep;
+	} catch (e) {
+		if (online.active) setOnlineStatus('连不上 serve: ' + e.message + '（先启动 node romctl.js serve 8650）');
+	}
+}
+
+/* 唯一的 ROM 选择入口：下拉列表在两种模式共用，
+ * 本地模式 → 浏览器实例加载；联机模式 → serve 加载。不再有两套选择器。 */
+let localRomName = null;   // 浏览器本地实例当前加载的 ROM
+let serveRomName = null;   // serve 端当前加载的 ROM
+
+async function loadRomUnified() {
+	const f = document.getElementById('romList').value;
+	if (!f || !f.endsWith('.gba')) { setOnlineStatus('先选择 ROM'); return; }
+	try {
+		const r = await api('/load?rom=' + encodeURIComponent('roms/' + f));
+		const d = await r.json();
+		if (!d.ok) throw new Error(d.error || 'load 失败');
+		serveRomName = f;
+		online.playing = true;
+		playLoop();
+		setOnlineStatus('联机运行: ' + f);
+		refreshMemory(); // 立即刷右侧面板（不等 250ms 定时器）
+		refreshDisasm();
+	} catch (e) { setOnlineStatus('加载失败: ' + e.message); }
+}
+
+async function toggleRecord(on) {
+	try {
+		const r = await api('/session?op=' + (on ? 'start' : 'stop'));
+		const d = await r.json();
+		online.rec = on;
+		document.getElementById('recDot').classList.toggle('on', on);
+		if (on) setOnlineStatus('记录中 → tmp/session/');
+		else setOnlineStatus('记录已停止，共 ' + (d.steps || 0) + ' 步');
+		if (on) pollSteps();
+	} catch (e) {
+		online.rec = false;
+		document.getElementById('recChk').checked = false;
+		setOnlineStatus('记录开关失败: ' + e.message);
+	}
+}
+
+async function pollSteps() {
+	while (online.rec) {
+		try {
+			const r = await api('/session?op=status');
+			const d = await r.json();
+			document.getElementById('recSteps').textContent = d.on ? ('已记录 ' + d.seq + ' 步') : '';
+			if (!d.on) break;
+		} catch (e) { break; }
+		await new Promise(res => setTimeout(res, 2000));
+	}
+}
+
+/* ---- 键盘输入 → held mask → /pad ---- */
+window.addEventListener('keydown', function (e) {
+	if (!online.active) return;
+	const tag = (document.activeElement && document.activeElement.tagName) || '';
+	if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
+	const k = ONLINE_KEYS[e.code];
+	if (!k) return;
+	e.preventDefault();
+	if (!online.held.has(k)) {
+		online.held.add(k);
+		sendPad();
+	}
+});
+window.addEventListener('keyup', function (e) {
+	if (!online.active) return;
+	const k = ONLINE_KEYS[e.code];
+	if (!k) return;
+	if (online.held.delete(k)) sendPad();
+});
+
+async function sendPad() {
+	if (!online.active) return;
+	try { await api('/pad?keys=' + encodeURIComponent([...online.held].join(','))); } catch (e) {}
+}
+/* ---- 主循环：/play 推帧 + BMP 回传渲染 ---- */
+async function playLoop() {
+	if (!online.active || online.playing !== true) return;
+	const cv = document.getElementById('screen');
+	const ctx = cv.getContext('2d');
+	ctx.imageSmoothingEnabled = false;
+	let framesPerCall = 2;
+	while (online.active && online.playing) {
+		const t0 = performance.now();
+		let r;
+		try { r = await fetch(apiBase() + '/play?frames=' + framesPerCall + '&cid=' + CID); } catch (e) {
+			setOnlineStatus('serve 断开: ' + e.message);
+			online.playing = false;
+			return;
+		}
+		if (!r.ok) {
+			let msg = 'HTTP ' + r.status;
+			try { msg = (await r.json()).error || msg; } catch (_) {}
+			setOnlineStatus('play 失败: ' + msg);
+			online.playing = false;
+			return;
+		}
+		const buf = await r.arrayBuffer();
+		const blob = new Blob([buf], { type: 'image/bmp' });
+		const url = URL.createObjectURL(blob);
+		await new Promise((res) => {
+			const img = new Image();
+			img.onload = function () { ctx.drawImage(img, 0, 0, cv.width, cv.height); URL.revokeObjectURL(url); res(); };
+			img.onerror = function () { URL.revokeObjectURL(url); res(); };
+			img.src = url;
+		});
+		// 实时节流：模拟帧 × 16.7ms = 真实游戏速度。原版本地模式 = 60fps 实时跑，
+		// 音频产出=消费速率一致；不节流时本机 20 倍速推帧会淹没音频环（音乐变噪音/静音）
+		const wall = performance.now() - t0;
+		const budget = framesPerCall * 16.7;
+		if (wall < budget) await new Promise(res => setTimeout(res, budget - wall));
+		const rtt = performance.now() - t0;
+		const perFrame = Math.max(rtt / framesPerCall, 16.7);
+		framesPerCall = Math.max(8, Math.min(30, Math.round(400 / perFrame))); // 目标 ~400ms/次：大批次减少请求开销（否则 60fps×小批次会把单线程 serve 的请求处理开销打满=页面卡顿）
+	}
+}
 </script>
 </body>
 </html>

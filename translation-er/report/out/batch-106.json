@@ -1,0 +1,618 @@
+[
+ {
+  "id": "00AB0628",
+  "zh": "华丽大赛中{{C0}}提升美丽度的{{C1}}道具"
+ },
+ {
+  "id": "00AB0654",
+  "zh": "华丽大赛中{{C0}}提升可爱度的{{C1}}道具"
+ },
+ {
+  "id": "00AB0680",
+  "zh": "华丽大赛中{{C0}}提升聪明度的{{C1}}道具"
+ },
+ {
+  "id": "00AB06AC",
+  "zh": "华丽大赛中{{C0}}提升强壮度的{{C1}}道具"
+ },
+ {
+  "id": "00AB06D8",
+  "zh": "远古宝可梦{{C0}}的{{C1}}头骨碎片"
+ },
+ {
+  "id": "00AB0704",
+  "zh": "远古海洋宝可梦的{{C0}}{{C1}}贝壳碎片"
+ },
+ {
+  "id": "00AB0738",
+  "zh": "远古海洋宝可梦的{{C0}}{{C1}}外壳碎片"
+ },
+ {
+  "id": "00AB0768",
+  "zh": "远古宝可梦{{C0}}的{{C1}}背骨碎片"
+ },
+ {
+  "id": "00AB0794",
+  "zh": "远古宝可梦{{C0}}的{{C1}}翼骨碎片"
+ },
+ {
+  "id": "00AB07C0",
+  "zh": "A piece of a prehis-{{C0}}toric Pokémon's{{C1}}large jaw."
+ },
+ {
+  "id": "00AB07F0",
+  "zh": "A piece of a prehis-{{C0}}toric Pokémon's{{C1}}skin sail."
+ },
+ {
+  "id": "00AB0820",
+  "zh": "远古海底宝可梦{{C0}}的{{C1}}化石"
+ },
+ {
+  "id": "00AB0854",
+  "zh": "远古鸟类宝可梦{{C0}}的{{C1}}化石"
+ },
+ {
+  "id": "00AB0884",
+  "zh": "远古鱼类宝可梦{{C0}}的{{C1}}化石"
+ },
+ {
+  "id": "00AB08B4",
+  "zh": "远古龙类宝可梦{{C0}}的{{C1}}化石"
+ },
+ {
+  "id": "00AB08E4",
+  "zh": "远古恐龙宝可梦{{C0}}的{{C1}}化石"
+ },
+ {
+  "id": "00AB0914",
+  "zh": "含有远古宝可梦{{C0}}基因的{{C1}}石头"
+ },
+ {
+  "id": "00AB0948",
+  "zh": "使用后可防止{{C0}}{{C1}}能力降低"
+ },
+ {
+  "id": "00AB0978",
+  "zh": "一次战斗中{{C0}}提升{{C1}}会心率"
+ },
+ {
+  "id": "00AB09AC",
+  "zh": "Raises the stat{{C0}}Attack during one{{C1}}battle."
+ },
+ {
+  "id": "00AB09D8",
+  "zh": "Raises the stat{{C0}}Defense during one{{C1}}battle."
+ },
+ {
+  "id": "00AB0A04",
+  "zh": "Raises the stat{{C0}}Speed during one{{C1}}battle."
+ },
+ {
+  "id": "00AB0A30",
+  "zh": "Raises accuracy of{{C0}}attack moves{{C1}}during one battle."
+ },
+ {
+  "id": "00AB0A64",
+  "zh": "一次战斗中{{C0}}提升{{C1}}特攻"
+ },
+ {
+  "id": "00AB0A90",
+  "zh": "一次战斗中{{C0}}提升{{C1}}特防"
+ },
+ {
+  "id": "00AB0ABC",
+  "zh": "使用后{{C0}}可逃离野生宝可梦{{C1}}战斗"
+ },
+ {
+  "id": "00AB0AF0",
+  "zh": "怒视对方{{C0}}降低命中率的{{C1}}道具"
+ },
+ {
+  "id": "00AB0B24",
+  "zh": "恢复被降低的{{C0}}{{C1}}能力值的道具"
+ },
+ {
+  "id": "00AB0B50",
+  "zh": "促进成长但{{C0}}降低速度的{{C1}}道具"
+ },
+ {
+  "id": "00AB0B88",
+  "zh": "从战斗中{{C0}}获取经验值的{{C1}}道具"
+ },
+ {
+  "id": "00AB0BB8",
+  "zh": "偶尔可{{C0}}先手攻击的{{C1}}道具"
+ },
+ {
+  "id": "00AB0BF0",
+  "zh": "安定身心{{C0}}增进友谊的{{C1}}道具"
+ },
+ {
+  "id": "00AB0C28",
+  "zh": "治愈宝可梦的{{C0}}{{C1}}部分异常状态"
+ },
+ {
+  "id": "00AB0C54",
+  "zh": "提升招式威力但{{C0}}只能使用{{C1}}该招式"
+ },
+ {
+  "id": "00AB0C88",
+  "zh": "攻击对手时{{C0}}可能令其{{C1}}畏缩的道具"
+ },
+ {
+  "id": "00AB0CC4",
+  "zh": "提升虫系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB0CFC",
+  "zh": "sAmuletCoinDesc"
+ },
+ {
+  "id": "00AB0D0C",
+  "zh": "帮助驱退{{C0}}野生宝可梦的{{C1}}道具"
+ },
+ {
+  "id": "00AB0D38",
+  "zh": "延长持有者使用的{{C0}}诡异之雾{{C1}}持续时间"
+ },
+ {
+  "id": "00AB0D70",
+  "zh": "A wondrous hold{{C0}}item that prevents{{C1}}evolution."
+ },
+ {
+  "id": "00AB0DA0",
+  "zh": "A hold item that{{C0}}occasionally{{C1}}prevents fainting."
+ },
+ {
+  "id": "00AB0DD4",
+  "zh": "提升战斗中{{C0}}获得经验值的{{C1}}道具"
+ },
+ {
+  "id": "00AB0E0C",
+  "zh": "提升{{C0}}会心率的{{C1}}道具"
+ },
+ {
+  "id": "00AB0E40",
+  "zh": "提升钢系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB0E78",
+  "zh": "提升地面系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB0EB0",
+  "zh": "提升岩石系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB0EE8",
+  "zh": "提升草系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB0F20",
+  "zh": "提升恶系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB0F58",
+  "zh": "A hold item that{{C0}}boosts Fighting-{{C1}}type moves."
+ },
+ {
+  "id": "00AB0F88",
+  "zh": "A hold item that{{C0}}boosts Electric-{{C1}}type moves."
+ },
+ {
+  "id": "00AB0FB8",
+  "zh": "提升水系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB0FF0",
+  "zh": "提升飞行系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB1028",
+  "zh": "提升毒系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB1060",
+  "zh": "提升冰系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB1098",
+  "zh": "提升幽灵系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB10D0",
+  "zh": "A hold item that{{C0}}boosts Psychic-{{C1}}type moves."
+ },
+ {
+  "id": "00AB1100",
+  "zh": "提升火系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB1138",
+  "zh": "提升龙系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB1170",
+  "zh": "提升一般系招式{{C0}}{{C1}}威力的道具"
+ },
+ {
+  "id": "00AB11A8",
+  "zh": "战斗中逐渐{{C0}}恢复HP的{{C1}}道具"
+ },
+ {
+  "id": "00AB11DC",
+  "zh": "A strange scale{{C0}}held by Dragon-{{C1}}type Pokémon."
+ },
+ {
+  "id": "00AB120C",
+  "zh": "提升持有者{{C0}}会心率的{{C1}}钩爪道具"
+ },
+ {
+  "id": "00AB1244",
+  "zh": "攻击对手时{{C0}}恢复HP的{{C1}}道具"
+ },
+ {
+  "id": "00AB1278",
+  "zh": "Hold item. Allows{{C0}}only Attack gain,{{C1}}but reduces Speed."
+ },
+ {
+  "id": "00AB12B0",
+  "zh": "Hold item. Allows{{C0}}only Defense gain,{{C1}}but reduces Speed."
+ },
+ {
+  "id": "00AB12E8",
+  "zh": "Hold item. Allows{{C0}}only Sp. Atk gain,{{C1}}but reduces Speed."
+ },
+ {
+  "id": "00AB1320",
+  "zh": "Hold item. Allows{{C0}}only Sp. Def gain,{{C1}}but reduces Speed."
+ },
+ {
+  "id": "00AB1358",
+  "zh": "Hold item. Allows{{C0}}only Speed gain,{{C1}}but reduces Speed."
+ },
+ {
+  "id": "00AB1390",
+  "zh": "Hold item. Allows{{C0}}only HP gain, but{{C1}}reduces Speed."
+ },
+ {
+  "id": "00AB13C4",
+  "zh": "Allows immediate{{C0}}use of a move that{{C1}}charges first."
+ },
+ {
+  "id": "00AB13F8",
+  "zh": "提升速度但{{C0}}只能使用一个{{C1}}招式"
+ },
+ {
+  "id": "00AB142C",
+  "zh": "提升特攻但{{C0}}只能使用一个{{C1}}招式"
+ },
+ {
+  "id": "00AB1464",
+  "zh": "If the holder has{{C0}}full HP, it endures{{C1}}KO hits with 1 HP."
+ },
+ {
+  "id": "00AB14A0",
+  "zh": "提升招式{{C0}}命中率的放大镜{{C1}}道具"
+ },
+ {
+  "id": "00AB14D8",
+  "zh": "If the holder moves{{C0}}after the foe, it'll{{C1}}boost accuracy."
+ },
+ {
+  "id": "00AB1514",
+  "zh": "连续使用同一招式时{{C0}}提升威力的{{C1}}道具"
+ },
+ {
+  "id": "00AB1548",
+  "zh": "提升物理招式{{C0}}威力的头巾{{C1}}道具"
+ },
+ {
+  "id": "00AB157C",
+  "zh": "提升特殊招式{{C0}}威力的眼镜{{C1}}道具"
+ },
+ {
+  "id": "00AB15B4",
+  "zh": "A belt that boosts{{C0}}the power of super{{C1}}effective moves."
+ },
+ {
+  "id": "00AB15EC",
+  "zh": "延长持有者使用的{{C0}}屏障招式{{C1}}持续时间"
+ },
+ {
+  "id": "00AB1624",
+  "zh": "延长持有者使用的{{C0}}冰雹招式{{C1}}持续时间"
+ },
+ {
+  "id": "00AB165C",
+  "zh": "延长持有者使用的{{C0}}沙暴招式{{C1}}持续时间"
+ },
+ {
+  "id": "00AB1694",
+  "zh": "延长持有者使用的大晴天{{C0}}{{C1}}招式持续时间"
+ },
+ {
+  "id": "00AB16CC",
+  "zh": "延长持有者使用的{{C0}}求雨招式{{C1}}持续时间"
+ },
+ {
+  "id": "00AB1704",
+  "zh": "If the holder falls{{C0}}in love, the foe{{C1}}does too."
+ },
+ {
+  "id": "00AB1734",
+  "zh": "使持有者的{{C0}}束缚招式{{C1}}持续7回合"
+ },
+ {
+  "id": "00AB1764",
+  "zh": "以消耗HP为代价{{C0}}提升招式威力{{C1}}"
+ },
+ {
+  "id": "00AB1794",
+  "zh": "战斗中对持有者{{C0}}造成剧毒的{{C1}}奇异球"
+ },
+ {
+  "id": "00AB17CC",
+  "zh": "战斗中对持有者{{C0}}造成灼伤的{{C1}}奇异球"
+ },
+ {
+  "id": "00AB1804",
+  "zh": "每回合伤害持有者{{C0}}可能粘附在对手{{C1}}身上的道具"
+ },
+ {
+  "id": "00AB1838",
+  "zh": "逐渐恢复毒系宝可梦{{C0}}的HP，{{C1}}伤害其他属性"
+ },
+ {
+  "id": "00AB1870",
+  "zh": "降低速度，使飞行系{{C0}}宝可梦可被{{C1}}地面系招式击中"
+ },
+ {
+  "id": "00AB18AC",
+  "zh": "使持有者行动{{C0}}变慢的{{C1}}道具"
+ },
+ {
+  "id": "00AB18DC",
+  "zh": "使持有者{{C0}}必定能逃离{{C1}}战斗"
+ },
+ {
+  "id": "00AB1918",
+  "zh": "Boosts the power{{C0}}of the holder's HP-{{C1}}stealing moves."
+ },
+ {
+  "id": "00AB1950",
+  "zh": "提升可进化宝可梦的{{C0}}防御和{{C1}}特防"
+ },
+ {
+  "id": "00AB1988",
+  "zh": "非常轻，持有后可使{{C0}}宝可梦体重{{C1}}减半"
+ },
+ {
+  "id": "00AB19C4",
+  "zh": "对手{{C0}}触碰时会{{C1}}受伤"
+ },
+ {
+  "id": "00AB19EC",
+  "zh": "使持有者浮在空中，被攻击时{{C0}}{{C1}}道具会碎裂"
+ },
+ {
+  "id": "00AB1A2C",
+  "zh": "被对手攻击时，{{C0}}迫使对手{{C1}}换下"
+ },
+ {
+  "id": "00AB1A5C",
+  "zh": "原本无效的招式{{C0}}也会命中{{C1}}持有者"
+ },
+ {
+  "id": "00AB1A98",
+  "zh": "Increases the{{C0}}power of binding{{C1}}moves when held."
+ },
+ {
+  "id": "00AB1AC8",
+  "zh": "被对手攻击时，{{C0}}迫使对手{{C1}}换下"
+ },
+ {
+  "id": "00AB1AFC",
+  "zh": "被水系招式击中时{{C0}}提升{{C1}}特攻"
+ },
+ {
+  "id": "00AB1B38",
+  "zh": "被电系招式击中时{{C0}}提升{{C1}}攻击力"
+ },
+ {
+  "id": "00AB1B74",
+  "zh": "被水系招式击中时{{C0}}提升{{C1}}特防"
+ },
+ {
+  "id": "00AB1BB0",
+  "zh": "被冰系招式击中时{{C0}}提升{{C1}}攻击力"
+ },
+ {
+  "id": "00AB1BE8",
+  "zh": "If hit by a Super{{C0}}Effective move, ups{{C1}}Atk and Sp. Atk."
+ },
+ {
+  "id": "00AB1C20",
+  "zh": "提升特防但{{C0}}无法使用{{C1}}变化招式"
+ },
+ {
+  "id": "00AB1C58",
+  "zh": "防御天气伤害和{{C0}}{{C1}}粉末招式"
+ },
+ {
+  "id": "00AB1C88",
+  "zh": "被威吓时{{C0}}提升速度，仅限一次{{C1}}"
+ },
+ {
+  "id": "00AB1CC4",
+  "zh": "Extends the length{{C0}}of the active{{C1}}battle terrain."
+ },
+ {
+  "id": "00AB1CF8",
+  "zh": "保护持有者{{C0}}免受接触招式{{C1}}的效果"
+ },
+ {
+  "id": "00AB1D24",
+  "zh": "在电气场地上{{C0}}提升防御力，{{C1}}仅限一次"
+ },
+ {
+  "id": "00AB1D5C",
+  "zh": "在精神场地上{{C0}}提升特防，{{C1}}仅限一次"
+ },
+ {
+  "id": "00AB1D94",
+  "zh": "在薄雾场地上{{C0}}提升特防，{{C1}}仅限一次"
+ },
+ {
+  "id": "00AB1DCC",
+  "zh": "在青草场地上{{C0}}提升防御力，{{C1}}仅限一次"
+ },
+ {
+  "id": "00AB1E04",
+  "zh": "Increases the{{C0}}power of Bug Type{{C1}}moves."
+ },
+ {
+  "id": "00AB1E2C",
+  "zh": "Increases the{{C0}}power of Dark Type{{C1}}moves."
+ },
+ {
+  "id": "00AB1E54",
+  "zh": "Increases the{{C0}}power of Dragon{{C1}}Type moves."
+ },
+ {
+  "id": "00AB1E80",
+  "zh": "Increases the{{C0}}power of Electric{{C1}}Type moves."
+ },
+ {
+  "id": "00AB1EAC",
+  "zh": "Increases the{{C0}}power of Fairy Type{{C1}}moves."
+ },
+ {
+  "id": "00AB1ED8",
+  "zh": "Increases the{{C0}}power of Fighting{{C1}}Type moves."
+ },
+ {
+  "id": "00AB1F04",
+  "zh": "Increases the{{C0}}power of Fire Type{{C1}}moves."
+ },
+ {
+  "id": "00AB1F2C",
+  "zh": "Increases the{{C0}}power of Flying{{C1}}Type moves."
+ },
+ {
+  "id": "00AB1F58",
+  "zh": "Increases the{{C0}}power of Ghost{{C1}}Type moves."
+ },
+ {
+  "id": "00AB1F84",
+  "zh": "Increases the{{C0}}power of Grass Type{{C1}}moves."
+ },
+ {
+  "id": "00AB1FB0",
+  "zh": "Increases the{{C0}}power of Ground{{C1}}Type moves."
+ },
+ {
+  "id": "00AB1FDC",
+  "zh": "Increases the{{C0}}power of Ice Type{{C1}}moves."
+ },
+ {
+  "id": "00AB2004",
+  "zh": "Increases the{{C0}}power of Normal{{C1}}Type moves."
+ },
+ {
+  "id": "00AB2030",
+  "zh": "Increases the{{C0}}power of Poison{{C1}}Type moves."
+ },
+ {
+  "id": "00AB205C",
+  "zh": "Increases the{{C0}}power of Psychic{{C1}}Type moves."
+ },
+ {
+  "id": "00AB2088",
+  "zh": "Increases the{{C0}}power of Rock Type{{C1}}moves."
+ },
+ {
+  "id": "00AB20B0",
+  "zh": "Increases the{{C0}}power of Steel Type{{C1}}moves."
+ },
+ {
+  "id": "00AB20DC",
+  "zh": "Increases the{{C0}}power of Water Type{{C1}}moves."
+ },
+ {
+  "id": "00AB2108",
+  "zh": "使用声音招式时{{C0}}提升特攻{{C1}}"
+ },
+ {
+  "id": "00AB213C",
+  "zh": "能力被降低时{{C0}}自动换下{{C1}}"
+ },
+ {
+  "id": "00AB2170",
+  "zh": "免疫战斗中{{C0}}{{C1}}场地陷阱"
+ },
+ {
+  "id": "00AB219C",
+  "zh": "未命中时大幅提升{{C0}}{{C1}}速度"
+ },
+ {
+  "id": "00AB21C8",
+  "zh": "空间扭曲时{{C0}}降低速度的{{C1}}道具"
+ },
+ {
+  "id": "00AB2200",
+  "zh": "防御雨天和大晴天{{C0}}{{C1}}的效果"
+ },
+ {
+  "id": "00AB2238",
+  "zh": "远古英雄{{C0}}使用过的{{C1}}锈剑"
+ },
+ {
+  "id": "00AB2268",
+  "zh": "远古英雄{{C0}}使用过的{{C1}}锈盾"
+ },
+ {
+  "id": "00AB2298",
+  "zh": "A tablet that ups{{C0}}the power of Bug-{{C1}}type moves."
+ },
+ {
+  "id": "00AB22C8",
+  "zh": "A tablet that ups{{C0}}the power of Dark-{{C1}}type moves."
+ },
+ {
+  "id": "00AB22FC",
+  "zh": "提升龙系招式{{C0}}{{C1}}威力的石板"
+ },
+ {
+  "id": "00AB2330",
+  "zh": "A tablet that ups{{C0}}the power of Elec-{{C1}}tric-type moves."
+ },
+ {
+  "id": "00AB2368",
+  "zh": "A tablet that ups{{C0}}the power of Fairy-{{C1}}type moves."
+ },
+ {
+  "id": "00AB239C",
+  "zh": "A tablet that ups{{C0}}the power of Fight-{{C1}}ing-type moves."
+ },
+ {
+  "id": "00AB23D4",
+  "zh": "A tablet that ups{{C0}}the power of Fire-{{C1}}type moves."
+ },
+ {
+  "id": "00AB2408",
+  "zh": "提升飞行系招式{{C0}}{{C1}}威力的石板"
+ },
+ {
+  "id": "00AB243C",
+  "zh": "提升幽灵系招式{{C0}}{{C1}}威力的石板"
+ },
+ {
+  "id": "00AB2470",
+  "zh": "A tablet that ups{{C0}}the power of Grass-{{C1}}type moves."
+ },
+ {
+  "id": "00AB24A4",
+  "zh": "提升地面系招式{{C0}}{{C1}}威力的石板"
+ }
+]

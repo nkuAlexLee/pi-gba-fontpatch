@@ -1,0 +1,4540 @@
+{
+ "batch": 110,
+ "count": 400,
+ "tasks": [
+  {
+   "id": "00AB7B48",
+   "scene": "main-text",
+   "en": "Sky Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sky Plate→蓝天石板"
+   ]
+  },
+  {
+   "id": "00AB7B54",
+   "scene": "main-text",
+   "en": "Spooky Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spooky Plate→妖怪石板"
+   ]
+  },
+  {
+   "id": "00AB7B64",
+   "scene": "main-text",
+   "en": "Meadow Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meadow Plate→碧绿石板"
+   ]
+  },
+  {
+   "id": "00AB7B74",
+   "scene": "main-text",
+   "en": "Earth Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Earth Plate→大地石板"
+   ]
+  },
+  {
+   "id": "00AB7B80",
+   "scene": "main-text",
+   "en": "Icicle Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Icicle Plate→冰柱石板"
+   ]
+  },
+  {
+   "id": "00AB7B90",
+   "scene": "main-text",
+   "en": "Toxic Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒",
+    "Toxic Plate→剧毒石板"
+   ]
+  },
+  {
+   "id": "00AB7B9C",
+   "scene": "main-text",
+   "en": "Mind Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mind Plate→神奇石板"
+   ]
+  },
+  {
+   "id": "00AB7BA8",
+   "scene": "main-text",
+   "en": "Stone Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Stone Plate→岩石石板"
+   ]
+  },
+  {
+   "id": "00AB7BB4",
+   "scene": "main-text",
+   "en": "Iron Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂",
+    "Iron Plate→钢铁石板"
+   ]
+  },
+  {
+   "id": "00AB7BC0",
+   "scene": "main-text",
+   "en": "Splash Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Splash→跃起",
+    "Splash Plate→水滴石板"
+   ]
+  },
+  {
+   "id": "00AB7BD0",
+   "scene": "main-text",
+   "en": "Soul Dew",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soul Dew→心之水滴"
+   ]
+  },
+  {
+   "id": "00AB7BDC",
+   "scene": "main-text",
+   "en": "DeepSeaTooth",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7BEC",
+   "scene": "main-text",
+   "en": "DeepSeaScale",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7BFC",
+   "scene": "main-text",
+   "en": "Lucky Punch",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lucky Punch→吉利拳"
+   ]
+  },
+  {
+   "id": "00AB7C08",
+   "scene": "main-text",
+   "en": "Metal Powder",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Metal Powder→金属粉"
+   ]
+  },
+  {
+   "id": "00AB7C18",
+   "scene": "main-text",
+   "en": "Thick Club",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Thick Club→粗骨头"
+   ]
+  },
+  {
+   "id": "00AB7C24",
+   "scene": "main-text",
+   "en": "Leek",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Leek→大葱"
+   ]
+  },
+  {
+   "id": "00AB7C2C",
+   "scene": "main-text",
+   "en": "Light Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Light Ball→电气球"
+   ]
+  },
+  {
+   "id": "00AB7C38",
+   "scene": "main-text",
+   "en": "Quick Powder",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Quick Powder→速度粉"
+   ]
+  },
+  {
+   "id": "00AB7C48",
+   "scene": "main-text",
+   "en": "Adamant Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Adamant Orb→金刚宝珠",
+    "Adamant→固执"
+   ]
+  },
+  {
+   "id": "00AB7C54",
+   "scene": "main-text",
+   "en": "Lustrous Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lustrous Orb→白玉宝珠"
+   ]
+  },
+  {
+   "id": "00AB7C64",
+   "scene": "main-text",
+   "en": "Griseous Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Griseous Orb→白金宝珠"
+   ]
+  },
+  {
+   "id": "00AB7C74",
+   "scene": "main-text",
+   "en": "Douse Drive",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Douse Drive→水流卡带"
+   ]
+  },
+  {
+   "id": "00AB7C80",
+   "scene": "main-text",
+   "en": "Shock Drive",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shock Drive→闪电卡带"
+   ]
+  },
+  {
+   "id": "00AB7C8C",
+   "scene": "main-text",
+   "en": "Burn Drive",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Burn Drive→火焰卡带"
+   ]
+  },
+  {
+   "id": "00AB7C98",
+   "scene": "main-text",
+   "en": "Chill Drive",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chill Drive→冰冻卡带"
+   ]
+  },
+  {
+   "id": "00AB7CA4",
+   "scene": "main-text",
+   "en": "Sea Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sea Incense→海潮薰香"
+   ]
+  },
+  {
+   "id": "00AB7CB0",
+   "scene": "main-text",
+   "en": "Wave Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wave Incense→涟漪薰香"
+   ]
+  },
+  {
+   "id": "00AB7CC0",
+   "scene": "main-text",
+   "en": "Lax Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lax Incense→悠闲薰香",
+    "Lax→乐天"
+   ]
+  },
+  {
+   "id": "00AB7CCC",
+   "scene": "main-text",
+   "en": "Luck Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Luck Incense→幸运薰香"
+   ]
+  },
+  {
+   "id": "00AB7CDC",
+   "scene": "main-text",
+   "en": "Training Band",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7CEC",
+   "scene": "main-text",
+   "en": "Infinite Repel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Repel→除虫喷雾"
+   ]
+  },
+  {
+   "id": "00AB7CFC",
+   "scene": "main-text",
+   "en": "Iron Pill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00AB7D08",
+   "scene": "main-text",
+   "en": "Ability Shield",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ability Shield→特性护具"
+   ]
+  },
+  {
+   "id": "00AB7D18",
+   "scene": "main-text",
+   "en": "Clear Amulet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Clear Amulet→清净坠饰"
+   ]
+  },
+  {
+   "id": "00AB7D28",
+   "scene": "main-text",
+   "en": "Mirror Herb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mirror Herb→模仿香草"
+   ]
+  },
+  {
+   "id": "00AB7D34",
+   "scene": "main-text",
+   "en": "Punching Glove",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Punching Glove→拳击手套"
+   ]
+  },
+  {
+   "id": "00AB7D44",
+   "scene": "main-text",
+   "en": "Covert Cloak",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Covert Cloak→密探斗篷"
+   ]
+  },
+  {
+   "id": "00AB7D54",
+   "scene": "main-text",
+   "en": "Loaded Dice",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Loaded Dice→机变骰子"
+   ]
+  },
+  {
+   "id": "00AB7D60",
+   "scene": "main-text",
+   "en": "Fairy Feather",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fairy Feather→妖精之羽",
+    "Fairy→妖精"
+   ]
+  },
+  {
+   "id": "00AB7D70",
+   "scene": "main-text",
+   "en": "Frost Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7D7C",
+   "scene": "main-text",
+   "en": "Tactical Vest",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7D8C",
+   "scene": "main-text",
+   "en": "Booster Energy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Booster Energy→驱劲能量"
+   ]
+  },
+  {
+   "id": "00AB7D9C",
+   "scene": "main-text",
+   "en": "Swirly Glasses",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7DAC",
+   "scene": "main-text",
+   "en": "TM01",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM01→招式学习器０１"
+   ]
+  },
+  {
+   "id": "00AB7DB4",
+   "scene": "main-text",
+   "en": "TM02",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM02→招式学习器０２"
+   ]
+  },
+  {
+   "id": "00AB7DBC",
+   "scene": "main-text",
+   "en": "TM03",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM03→招式学习器０３"
+   ]
+  },
+  {
+   "id": "00AB7DC4",
+   "scene": "main-text",
+   "en": "TM04",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM04→招式学习器０４"
+   ]
+  },
+  {
+   "id": "00AB7DCC",
+   "scene": "main-text",
+   "en": "TM05",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM05→招式学习器０５"
+   ]
+  },
+  {
+   "id": "00AB7DD4",
+   "scene": "main-text",
+   "en": "TM06",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM06→招式学习器０６"
+   ]
+  },
+  {
+   "id": "00AB7DDC",
+   "scene": "main-text",
+   "en": "TM07",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM07→招式学习器０７"
+   ]
+  },
+  {
+   "id": "00AB7DE4",
+   "scene": "main-text",
+   "en": "TM08",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM08→招式学习器０８"
+   ]
+  },
+  {
+   "id": "00AB7DEC",
+   "scene": "main-text",
+   "en": "TM09",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM09→招式学习器０９"
+   ]
+  },
+  {
+   "id": "00AB7DF4",
+   "scene": "main-text",
+   "en": "TM10",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM10→招式学习器１０"
+   ]
+  },
+  {
+   "id": "00AB7DFC",
+   "scene": "main-text",
+   "en": "TM11",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM11→招式学习器１１"
+   ]
+  },
+  {
+   "id": "00AB7E04",
+   "scene": "main-text",
+   "en": "TM12",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM12→招式学习器１２"
+   ]
+  },
+  {
+   "id": "00AB7E0C",
+   "scene": "main-text",
+   "en": "TM13",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM13→招式学习器１３"
+   ]
+  },
+  {
+   "id": "00AB7E14",
+   "scene": "main-text",
+   "en": "TM14",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM14→招式学习器１４"
+   ]
+  },
+  {
+   "id": "00AB7E1C",
+   "scene": "main-text",
+   "en": "TM15",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM15→招式学习器１５"
+   ]
+  },
+  {
+   "id": "00AB7E24",
+   "scene": "main-text",
+   "en": "TM16",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM16→招式学习器１６"
+   ]
+  },
+  {
+   "id": "00AB7E2C",
+   "scene": "main-text",
+   "en": "TM17",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM17→招式学习器１７"
+   ]
+  },
+  {
+   "id": "00AB7E34",
+   "scene": "main-text",
+   "en": "TM18",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM18→招式学习器１８"
+   ]
+  },
+  {
+   "id": "00AB7E3C",
+   "scene": "main-text",
+   "en": "TM19",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM19→招式学习器１９"
+   ]
+  },
+  {
+   "id": "00AB7E44",
+   "scene": "main-text",
+   "en": "TM20",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM20→招式学习器２０"
+   ]
+  },
+  {
+   "id": "00AB7E4C",
+   "scene": "main-text",
+   "en": "TM21",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM21→招式学习器２１"
+   ]
+  },
+  {
+   "id": "00AB7E54",
+   "scene": "main-text",
+   "en": "TM22",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM22→招式学习器２２"
+   ]
+  },
+  {
+   "id": "00AB7E5C",
+   "scene": "main-text",
+   "en": "TM23",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM23→招式学习器２３"
+   ]
+  },
+  {
+   "id": "00AB7E64",
+   "scene": "main-text",
+   "en": "TM24",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM24→招式学习器２４"
+   ]
+  },
+  {
+   "id": "00AB7E6C",
+   "scene": "main-text",
+   "en": "TM25",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM25→招式学习器２５"
+   ]
+  },
+  {
+   "id": "00AB7E74",
+   "scene": "main-text",
+   "en": "TM26",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM26→招式学习器２６"
+   ]
+  },
+  {
+   "id": "00AB7E7C",
+   "scene": "main-text",
+   "en": "TM27",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM27→招式学习器２７"
+   ]
+  },
+  {
+   "id": "00AB7E84",
+   "scene": "main-text",
+   "en": "TM28",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM28→招式学习器２８"
+   ]
+  },
+  {
+   "id": "00AB7E8C",
+   "scene": "main-text",
+   "en": "TM29",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM29→招式学习器２９"
+   ]
+  },
+  {
+   "id": "00AB7E94",
+   "scene": "main-text",
+   "en": "TM30",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM30→招式学习器３０"
+   ]
+  },
+  {
+   "id": "00AB7E9C",
+   "scene": "main-text",
+   "en": "TM31",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM31→招式学习器３１"
+   ]
+  },
+  {
+   "id": "00AB7EA4",
+   "scene": "main-text",
+   "en": "TM32",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM32→招式学习器３２"
+   ]
+  },
+  {
+   "id": "00AB7EAC",
+   "scene": "main-text",
+   "en": "TM33",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM33→招式学习器３３"
+   ]
+  },
+  {
+   "id": "00AB7EB4",
+   "scene": "main-text",
+   "en": "TM34",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM34→招式学习器３４"
+   ]
+  },
+  {
+   "id": "00AB7EBC",
+   "scene": "main-text",
+   "en": "TM35",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM35→招式学习器３５"
+   ]
+  },
+  {
+   "id": "00AB7EC4",
+   "scene": "main-text",
+   "en": "TM36",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM36→招式学习器３６"
+   ]
+  },
+  {
+   "id": "00AB7ECC",
+   "scene": "main-text",
+   "en": "TM37",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM37→招式学习器３７"
+   ]
+  },
+  {
+   "id": "00AB7ED4",
+   "scene": "main-text",
+   "en": "TM38",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM38→招式学习器３８"
+   ]
+  },
+  {
+   "id": "00AB7EDC",
+   "scene": "main-text",
+   "en": "TM39",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM39→招式学习器３９"
+   ]
+  },
+  {
+   "id": "00AB7EE4",
+   "scene": "main-text",
+   "en": "TM40",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM40→招式学习器４０"
+   ]
+  },
+  {
+   "id": "00AB7EEC",
+   "scene": "main-text",
+   "en": "TM41",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM41→招式学习器４１"
+   ]
+  },
+  {
+   "id": "00AB7EF4",
+   "scene": "main-text",
+   "en": "TM42",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM42→招式学习器４２"
+   ]
+  },
+  {
+   "id": "00AB7EFC",
+   "scene": "main-text",
+   "en": "TM43",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM43→招式学习器４３"
+   ]
+  },
+  {
+   "id": "00AB7F04",
+   "scene": "main-text",
+   "en": "TM44",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM44→招式学习器４４"
+   ]
+  },
+  {
+   "id": "00AB7F0C",
+   "scene": "main-text",
+   "en": "TM45",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM45→招式学习器４５"
+   ]
+  },
+  {
+   "id": "00AB7F14",
+   "scene": "main-text",
+   "en": "TM46",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM46→招式学习器４６"
+   ]
+  },
+  {
+   "id": "00AB7F1C",
+   "scene": "main-text",
+   "en": "TM47",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM47→招式学习器４７"
+   ]
+  },
+  {
+   "id": "00AB7F24",
+   "scene": "main-text",
+   "en": "TM48",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM48→招式学习器４８"
+   ]
+  },
+  {
+   "id": "00AB7F2C",
+   "scene": "main-text",
+   "en": "TM49",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM49→招式学习器４９"
+   ]
+  },
+  {
+   "id": "00AB7F34",
+   "scene": "main-text",
+   "en": "TM50",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM50→招式学习器５０"
+   ]
+  },
+  {
+   "id": "00AB7F3C",
+   "scene": "main-text",
+   "en": "TM51",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM51→招式学习器５１"
+   ]
+  },
+  {
+   "id": "00AB7F44",
+   "scene": "main-text",
+   "en": "TM52",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM52→招式学习器５２"
+   ]
+  },
+  {
+   "id": "00AB7F4C",
+   "scene": "main-text",
+   "en": "TM53",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM53→招式学习器５３"
+   ]
+  },
+  {
+   "id": "00AB7F54",
+   "scene": "main-text",
+   "en": "TM54",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM54→招式学习器５４"
+   ]
+  },
+  {
+   "id": "00AB7F5C",
+   "scene": "main-text",
+   "en": "TM55",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM55→招式学习器５５"
+   ]
+  },
+  {
+   "id": "00AB7F64",
+   "scene": "main-text",
+   "en": "TM56",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM56→招式学习器５６"
+   ]
+  },
+  {
+   "id": "00AB7F6C",
+   "scene": "main-text",
+   "en": "TM57",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM57→招式学习器５７"
+   ]
+  },
+  {
+   "id": "00AB7F74",
+   "scene": "main-text",
+   "en": "TM58",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM58→招式学习器５８"
+   ]
+  },
+  {
+   "id": "00AB7F7C",
+   "scene": "main-text",
+   "en": "TM59",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM59→招式学习器５９"
+   ]
+  },
+  {
+   "id": "00AB7F84",
+   "scene": "main-text",
+   "en": "TM60",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM60→招式学习器６０"
+   ]
+  },
+  {
+   "id": "00AB7F8C",
+   "scene": "main-text",
+   "en": "TM61",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM61→招式学习器６１"
+   ]
+  },
+  {
+   "id": "00AB7F94",
+   "scene": "main-text",
+   "en": "TM62",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM62→招式学习器６２"
+   ]
+  },
+  {
+   "id": "00AB7F9C",
+   "scene": "main-text",
+   "en": "TM63",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM63→招式学习器６３"
+   ]
+  },
+  {
+   "id": "00AB7FA4",
+   "scene": "main-text",
+   "en": "TM64",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM64→招式学习器６４"
+   ]
+  },
+  {
+   "id": "00AB7FAC",
+   "scene": "main-text",
+   "en": "TM65",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM65→招式学习器６５"
+   ]
+  },
+  {
+   "id": "00AB7FB4",
+   "scene": "main-text",
+   "en": "TM66",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM66→招式学习器６６"
+   ]
+  },
+  {
+   "id": "00AB7FBC",
+   "scene": "main-text",
+   "en": "TM67",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM67→招式学习器６７"
+   ]
+  },
+  {
+   "id": "00AB7FC4",
+   "scene": "main-text",
+   "en": "TM68",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM68→招式学习器６８"
+   ]
+  },
+  {
+   "id": "00AB7FCC",
+   "scene": "main-text",
+   "en": "TM69",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM69→招式学习器６９"
+   ]
+  },
+  {
+   "id": "00AB7FD4",
+   "scene": "main-text",
+   "en": "TM70",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM70→招式学习器７０"
+   ]
+  },
+  {
+   "id": "00AB7FDC",
+   "scene": "main-text",
+   "en": "TM71",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM71→招式学习器７１"
+   ]
+  },
+  {
+   "id": "00AB7FE4",
+   "scene": "main-text",
+   "en": "TM72",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM72→招式学习器７２"
+   ]
+  },
+  {
+   "id": "00AB7FEC",
+   "scene": "main-text",
+   "en": "TM73",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM73→招式学习器７３"
+   ]
+  },
+  {
+   "id": "00AB7FF4",
+   "scene": "main-text",
+   "en": "TM74",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM74→招式学习器７４"
+   ]
+  },
+  {
+   "id": "00AB7FFC",
+   "scene": "main-text",
+   "en": "TM75",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM75→招式学习器７５"
+   ]
+  },
+  {
+   "id": "00AB8004",
+   "scene": "main-text",
+   "en": "TM76",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM76→招式学习器７６"
+   ]
+  },
+  {
+   "id": "00AB800C",
+   "scene": "main-text",
+   "en": "TM77",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM77→招式学习器７７"
+   ]
+  },
+  {
+   "id": "00AB8014",
+   "scene": "main-text",
+   "en": "TM78",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM78→招式学习器７８"
+   ]
+  },
+  {
+   "id": "00AB801C",
+   "scene": "main-text",
+   "en": "TM79",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM79→招式学习器７９"
+   ]
+  },
+  {
+   "id": "00AB8024",
+   "scene": "main-text",
+   "en": "TM80",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM80→招式学习器８０"
+   ]
+  },
+  {
+   "id": "00AB802C",
+   "scene": "main-text",
+   "en": "TM81",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM81→招式学习器８１"
+   ]
+  },
+  {
+   "id": "00AB8034",
+   "scene": "main-text",
+   "en": "TM82",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM82→招式学习器８２"
+   ]
+  },
+  {
+   "id": "00AB803C",
+   "scene": "main-text",
+   "en": "TM83",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM83→招式学习器８３"
+   ]
+  },
+  {
+   "id": "00AB8044",
+   "scene": "main-text",
+   "en": "TM84",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM84→招式学习器８４"
+   ]
+  },
+  {
+   "id": "00AB804C",
+   "scene": "main-text",
+   "en": "TM85",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM85→招式学习器８５"
+   ]
+  },
+  {
+   "id": "00AB8054",
+   "scene": "main-text",
+   "en": "TM86",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM86→招式学习器８６"
+   ]
+  },
+  {
+   "id": "00AB805C",
+   "scene": "main-text",
+   "en": "TM87",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM87→招式学习器８７"
+   ]
+  },
+  {
+   "id": "00AB8064",
+   "scene": "main-text",
+   "en": "TM88",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM88→招式学习器８８"
+   ]
+  },
+  {
+   "id": "00AB806C",
+   "scene": "main-text",
+   "en": "TM89",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM89→招式学习器８９"
+   ]
+  },
+  {
+   "id": "00AB8074",
+   "scene": "main-text",
+   "en": "TM90",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM90→招式学习器９０"
+   ]
+  },
+  {
+   "id": "00AB807C",
+   "scene": "main-text",
+   "en": "TM91",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM91→招式学习器９１"
+   ]
+  },
+  {
+   "id": "00AB8084",
+   "scene": "main-text",
+   "en": "TM92",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM92→招式学习器９２"
+   ]
+  },
+  {
+   "id": "00AB808C",
+   "scene": "main-text",
+   "en": "TM93",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM93→招式学习器９３"
+   ]
+  },
+  {
+   "id": "00AB8094",
+   "scene": "main-text",
+   "en": "TM94",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM94→招式学习器９４"
+   ]
+  },
+  {
+   "id": "00AB809C",
+   "scene": "main-text",
+   "en": "TM95",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM95→招式学习器９５"
+   ]
+  },
+  {
+   "id": "00AB80A4",
+   "scene": "main-text",
+   "en": "TM96",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM96→招式学习器９６"
+   ]
+  },
+  {
+   "id": "00AB80AC",
+   "scene": "main-text",
+   "en": "TM97",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM97→招式学习器９７"
+   ]
+  },
+  {
+   "id": "00AB80B4",
+   "scene": "main-text",
+   "en": "TM98",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM98→招式学习器９８"
+   ]
+  },
+  {
+   "id": "00AB80BC",
+   "scene": "main-text",
+   "en": "TM99",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM99→招式学习器９９"
+   ]
+  },
+  {
+   "id": "00AB80C4",
+   "scene": "main-text",
+   "en": "TM100",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "TM10→招式学习器１０",
+    "TM100→招式学习器１００"
+   ]
+  },
+  {
+   "id": "00AB80CC",
+   "scene": "main-text",
+   "en": "HM01",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HM01→秘传学习器０１"
+   ]
+  },
+  {
+   "id": "00AB80D4",
+   "scene": "main-text",
+   "en": "HM02",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HM02→秘传学习器０２"
+   ]
+  },
+  {
+   "id": "00AB80DC",
+   "scene": "main-text",
+   "en": "HM03",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HM03→秘传学习器０３"
+   ]
+  },
+  {
+   "id": "00AB80E4",
+   "scene": "main-text",
+   "en": "HM04",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HM04→秘传学习器０４"
+   ]
+  },
+  {
+   "id": "00AB80EC",
+   "scene": "main-text",
+   "en": "HM05",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HM05→秘传学习器０５"
+   ]
+  },
+  {
+   "id": "00AB80F4",
+   "scene": "main-text",
+   "en": "HM06",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HM06→秘传学习器０６"
+   ]
+  },
+  {
+   "id": "00AB80FC",
+   "scene": "main-text",
+   "en": "HM07",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HM07→秘传学习器０７"
+   ]
+  },
+  {
+   "id": "00AB8104",
+   "scene": "main-text",
+   "en": "HM08",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB810C",
+   "scene": "main-text",
+   "en": "Odd Keystone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Odd Keystone→楔石"
+   ]
+  },
+  {
+   "id": "00AB811C",
+   "scene": "main-text",
+   "en": "Gracidea",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gracidea→葛拉西蒂亚花"
+   ]
+  },
+  {
+   "id": "00AB8128",
+   "scene": "main-text",
+   "en": "Mega Bracelet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Bracelet→超级手镯"
+   ]
+  },
+  {
+   "id": "00AB8138",
+   "scene": "main-text",
+   "en": "Mach Bike",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mach Bike→音速自行车",
+    "Bike→自行车"
+   ]
+  },
+  {
+   "id": "00AB8144",
+   "scene": "main-text",
+   "en": "Coin Case",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Coin Case→代币盒"
+   ]
+  },
+  {
+   "id": "00AB8150",
+   "scene": "main-text",
+   "en": "Dowsing MCHN",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8160",
+   "scene": "main-text",
+   "en": "Old Rod",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Old Rod→破旧钓竿"
+   ]
+  },
+  {
+   "id": "00AB8168",
+   "scene": "main-text",
+   "en": "Good Rod",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Good Rod→好钓竿"
+   ]
+  },
+  {
+   "id": "00AB8174",
+   "scene": "main-text",
+   "en": "Super Rod",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Super Rod→厉害钓竿"
+   ]
+  },
+  {
+   "id": "00AB8180",
+   "scene": "main-text",
+   "en": "S.S. Ticket",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "S.S. Ticket→船票"
+   ]
+  },
+  {
+   "id": "00AB818C",
+   "scene": "main-text",
+   "en": "Contest Pass",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Contest Pass→华丽大赛参加证",
+    "Pass→磁浮列车自由票"
+   ]
+  },
+  {
+   "id": "00AB819C",
+   "scene": "main-text",
+   "en": "Wailmer Pail",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wailmer→吼吼鲸",
+    "Wailmer Pail→吼吼鲸喷壶"
+   ]
+  },
+  {
+   "id": "00AB81AC",
+   "scene": "main-text",
+   "en": "Devon Parts",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Devon Parts→得文的物品"
+   ]
+  },
+  {
+   "id": "00AB81B8",
+   "scene": "main-text",
+   "en": "Soot Sack",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soot Sack→集灰袋"
+   ]
+  },
+  {
+   "id": "00AB81C4",
+   "scene": "main-text",
+   "en": "Basement Key",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Basement Key→地下钥匙"
+   ]
+  },
+  {
+   "id": "00AB81D4",
+   "scene": "main-text",
+   "en": "Acro Bike",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Acro Bike→越野自行车",
+    "Bike→自行车"
+   ]
+  },
+  {
+   "id": "00AB81E0",
+   "scene": "main-text",
+   "en": "Egg Incubator",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Egg→水煮蛋片"
+   ]
+  },
+  {
+   "id": "00AB81F0",
+   "scene": "main-text",
+   "en": "Letter",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Letter→给大吾的信"
+   ]
+  },
+  {
+   "id": "00AB81F8",
+   "scene": "main-text",
+   "en": "Eon Ticket",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eon Ticket→无限船票"
+   ]
+  },
+  {
+   "id": "00AB8204",
+   "scene": "main-text",
+   "en": "Exp. Charm",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇",
+    "Exp. Charm→经验护符"
+   ]
+  },
+  {
+   "id": "00AB8210",
+   "scene": "main-text",
+   "en": "Prison Bottle",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Prison Bottle→惩戒之壶"
+   ]
+  },
+  {
+   "id": "00AB8220",
+   "scene": "main-text",
+   "en": "Scanner",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scanner→探测器"
+   ]
+  },
+  {
+   "id": "00AB8228",
+   "scene": "main-text",
+   "en": "Go-Goggles",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Go-Goggles→ＧＯＧＯ护目镜"
+   ]
+  },
+  {
+   "id": "00AB8234",
+   "scene": "main-text",
+   "en": "Meteorite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meteorite→陨石"
+   ]
+  },
+  {
+   "id": "00AB8240",
+   "scene": "main-text",
+   "en": "Key to Room 1",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Key to Room 1→１号客房的钥匙"
+   ]
+  },
+  {
+   "id": "00AB8250",
+   "scene": "main-text",
+   "en": "Key to Room 2",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Key to Room 2→２号客房的钥匙"
+   ]
+  },
+  {
+   "id": "00AB8260",
+   "scene": "main-text",
+   "en": "Key to Room 4",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Key to Room 4→４号客房的钥匙"
+   ]
+  },
+  {
+   "id": "00AB8270",
+   "scene": "main-text",
+   "en": "Key to Room 6",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Key to Room 6→６号客房的钥匙"
+   ]
+  },
+  {
+   "id": "00AB8280",
+   "scene": "main-text",
+   "en": "Storage Key",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Storage Key→仓库钥匙"
+   ]
+  },
+  {
+   "id": "00AB828C",
+   "scene": "main-text",
+   "en": "Devon Scope",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Devon Scope→得文侦测镜"
+   ]
+  },
+  {
+   "id": "00AB8298",
+   "scene": "main-text",
+   "en": "Magma Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magma Stone→火山镇石"
+   ]
+  },
+  {
+   "id": "00AB82A4",
+   "scene": "main-text",
+   "en": "Lunar Wing",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lunar Wing→新月之羽"
+   ]
+  },
+  {
+   "id": "00AB82B0",
+   "scene": "main-text",
+   "en": "Shiny Charm",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇",
+    "Shiny Charm→闪耀护符"
+   ]
+  },
+  {
+   "id": "00AB82BC",
+   "scene": "main-text",
+   "en": "Oval Charm",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇",
+    "Oval Charm→圆形护符"
+   ]
+  },
+  {
+   "id": "00AB82C8",
+   "scene": "main-text",
+   "en": "Magma Emblem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB82D8",
+   "scene": "main-text",
+   "en": "Old Sea Map",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB82E4",
+   "scene": "main-text",
+   "en": "Mystic Ticket",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB82F4",
+   "scene": "main-text",
+   "en": "Aurora Ticket",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8304",
+   "scene": "main-text",
+   "en": "Powder Jar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘"
+   ]
+  },
+  {
+   "id": "00AB8310",
+   "scene": "main-text",
+   "en": "Reveal Glass",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Reveal Glass→现形镜"
+   ]
+  },
+  {
+   "id": "00AB8320",
+   "scene": "main-text",
+   "en": "DNA Splicers",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "DNA Splicers→基因之楔"
+   ]
+  },
+  {
+   "id": "00AB8330",
+   "scene": "main-text",
+   "en": "Poké Vial",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB833C",
+   "scene": "main-text",
+   "en": "Catching Charm",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇",
+    "Catching Charm→防晃护符"
+   ]
+  },
+  {
+   "id": "00AB834C",
+   "scene": "main-text",
+   "en": "Rotom Catalog",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rotom→洛托姆",
+    "Rotom Catalog→洛托姆型录"
+   ]
+  },
+  {
+   "id": "00AB835C",
+   "scene": "main-text",
+   "en": "Reins of Unity",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Reins of Unity→牵绊缰绳"
+   ]
+  },
+  {
+   "id": "00AB836C",
+   "scene": "main-text",
+   "en": "Iceroot Carrot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iceroot Carrot→冰萝卜"
+   ]
+  },
+  {
+   "id": "00AB837C",
+   "scene": "main-text",
+   "en": "Shaderoot Carrot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shaderoot Carrot→黑萝卜"
+   ]
+  },
+  {
+   "id": "00AB8390",
+   "scene": "main-text",
+   "en": "Wooden Crown",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wooden Crown→木雕王冠"
+   ]
+  },
+  {
+   "id": "00AB83A0",
+   "scene": "main-text",
+   "en": "N-Lunarizer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "N-Lunarizer→奈克洛露奈合体器"
+   ]
+  },
+  {
+   "id": "00AB83AC",
+   "scene": "main-text",
+   "en": "N-Solarizer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "N-Solarizer→奈克洛索尔合体器"
+   ]
+  },
+  {
+   "id": "00AB83B8",
+   "scene": "main-text",
+   "en": "Abomasite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Abomasite→暴雪王进化石"
+   ]
+  },
+  {
+   "id": "00AB83C4",
+   "scene": "main-text",
+   "en": "Abomasite S",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Abomasite→暴雪王进化石"
+   ]
+  },
+  {
+   "id": "00AB83D0",
+   "scene": "main-text",
+   "en": "Absolite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Absolite→阿勃梭鲁进化石"
+   ]
+  },
+  {
+   "id": "00AB83DC",
+   "scene": "main-text",
+   "en": "Absolite Z",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Absolite→阿勃梭鲁进化石"
+   ]
+  },
+  {
+   "id": "00AB83E8",
+   "scene": "main-text",
+   "en": "Aerodactylite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aerodactylite→化石翼龙进化石"
+   ]
+  },
+  {
+   "id": "00AB83F8",
+   "scene": "main-text",
+   "en": "Aggronite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aggronite→波士可多拉进化石"
+   ]
+  },
+  {
+   "id": "00AB8404",
+   "scene": "main-text",
+   "en": "Alakazite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Alakazite→胡地进化石"
+   ]
+  },
+  {
+   "id": "00AB8410",
+   "scene": "main-text",
+   "en": "Altarianite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Altarianite→七夕青鸟进化石"
+   ]
+  },
+  {
+   "id": "00AB841C",
+   "scene": "main-text",
+   "en": "Ampharosite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ampharosite→电龙进化石"
+   ]
+  },
+  {
+   "id": "00AB8428",
+   "scene": "main-text",
+   "en": "Audinite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Audinite→差不多娃娃进化石"
+   ]
+  },
+  {
+   "id": "00AB8434",
+   "scene": "main-text",
+   "en": "Banettite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Banettite→诅咒娃娃进化石"
+   ]
+  },
+  {
+   "id": "00AB8440",
+   "scene": "main-text",
+   "en": "Beedrillite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beedrillite→大针蜂进化石"
+   ]
+  },
+  {
+   "id": "00AB844C",
+   "scene": "main-text",
+   "en": "Blastoisinite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blastoisinite→水箭龟进化石"
+   ]
+  },
+  {
+   "id": "00AB845C",
+   "scene": "main-text",
+   "en": "Blastoisinite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blastoisinite→水箭龟进化石"
+   ]
+  },
+  {
+   "id": "00AB846C",
+   "scene": "main-text",
+   "en": "Blazikenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blazikenite→火焰鸡进化石"
+   ]
+  },
+  {
+   "id": "00AB8478",
+   "scene": "main-text",
+   "en": "Cameruptite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cameruptite→喷火驼进化石"
+   ]
+  },
+  {
+   "id": "00AB8484",
+   "scene": "main-text",
+   "en": "Charizardite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charizardite X→喷火龙进化石Ｘ"
+   ]
+  },
+  {
+   "id": "00AB8494",
+   "scene": "main-text",
+   "en": "Charizardite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charizardite Y→喷火龙进化石Ｙ"
+   ]
+  },
+  {
+   "id": "00AB84A4",
+   "scene": "main-text",
+   "en": "Charizardite Z",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB84B4",
+   "scene": "main-text",
+   "en": "Diancite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Diancite→蒂安希进化石"
+   ]
+  },
+  {
+   "id": "00AB84C0",
+   "scene": "main-text",
+   "en": "Galladite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galladite→艾路雷朵进化石"
+   ]
+  },
+  {
+   "id": "00AB84CC",
+   "scene": "main-text",
+   "en": "Galladite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galladite→艾路雷朵进化石"
+   ]
+  },
+  {
+   "id": "00AB84D8",
+   "scene": "main-text",
+   "en": "Garchompite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Garchompite→烈咬陆鲨进化石"
+   ]
+  },
+  {
+   "id": "00AB84E4",
+   "scene": "main-text",
+   "en": "Garchompite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Garchompite→烈咬陆鲨进化石"
+   ]
+  },
+  {
+   "id": "00AB84F4",
+   "scene": "main-text",
+   "en": "Garchompite Z",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Garchompite→烈咬陆鲨进化石"
+   ]
+  },
+  {
+   "id": "00AB8504",
+   "scene": "main-text",
+   "en": "Gardevoirite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gardevoirite→沙奈朵进化石"
+   ]
+  },
+  {
+   "id": "00AB8514",
+   "scene": "main-text",
+   "en": "Gengarite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gengarite→耿鬼进化石"
+   ]
+  },
+  {
+   "id": "00AB8520",
+   "scene": "main-text",
+   "en": "Gengarite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gengarite→耿鬼进化石"
+   ]
+  },
+  {
+   "id": "00AB852C",
+   "scene": "main-text",
+   "en": "Glalitite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glalitite→冰鬼护进化石"
+   ]
+  },
+  {
+   "id": "00AB8538",
+   "scene": "main-text",
+   "en": "Gyaradosite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gyaradosite→暴鲤龙进化石"
+   ]
+  },
+  {
+   "id": "00AB8544",
+   "scene": "main-text",
+   "en": "Gyaradosite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gyaradosite→暴鲤龙进化石"
+   ]
+  },
+  {
+   "id": "00AB8554",
+   "scene": "main-text",
+   "en": "Heracronite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heracronite→赫拉克罗斯进化石"
+   ]
+  },
+  {
+   "id": "00AB8560",
+   "scene": "main-text",
+   "en": "Houndoominite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Houndoominite→黑鲁加进化石"
+   ]
+  },
+  {
+   "id": "00AB8570",
+   "scene": "main-text",
+   "en": "Kangaskhanite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kangaskhanite→袋兽进化石"
+   ]
+  },
+  {
+   "id": "00AB8580",
+   "scene": "main-text",
+   "en": "Latiasite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Latiasite→拉帝亚斯进化石"
+   ]
+  },
+  {
+   "id": "00AB858C",
+   "scene": "main-text",
+   "en": "Latiosite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Latiosite→拉帝欧斯进化石"
+   ]
+  },
+  {
+   "id": "00AB8598",
+   "scene": "main-text",
+   "en": "Lopunnite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lopunnite→长耳兔进化石"
+   ]
+  },
+  {
+   "id": "00AB85A4",
+   "scene": "main-text",
+   "en": "Lucarionite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lucarionite→路卡利欧进化石"
+   ]
+  },
+  {
+   "id": "00AB85B0",
+   "scene": "main-text",
+   "en": "Lucarionite Z",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lucarionite→路卡利欧进化石"
+   ]
+  },
+  {
+   "id": "00AB85C0",
+   "scene": "main-text",
+   "en": "Manectite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Manectite→雷电兽进化石"
+   ]
+  },
+  {
+   "id": "00AB85CC",
+   "scene": "main-text",
+   "en": "Mawilite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mawilite→大嘴娃进化石"
+   ]
+  },
+  {
+   "id": "00AB85D8",
+   "scene": "main-text",
+   "en": "Medichamite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Medichamite→恰雷姆进化石"
+   ]
+  },
+  {
+   "id": "00AB85E4",
+   "scene": "main-text",
+   "en": "Metagrossite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Metagrossite→巨金怪进化石"
+   ]
+  },
+  {
+   "id": "00AB85F4",
+   "scene": "main-text",
+   "en": "Mewtwonite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mewtwonite X→超梦进化石Ｘ"
+   ]
+  },
+  {
+   "id": "00AB8604",
+   "scene": "main-text",
+   "en": "Mewtwonite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mewtwonite Y→超梦进化石Ｙ"
+   ]
+  },
+  {
+   "id": "00AB8614",
+   "scene": "main-text",
+   "en": "Pidgeotite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pidgeotite→大比鸟进化石"
+   ]
+  },
+  {
+   "id": "00AB8620",
+   "scene": "main-text",
+   "en": "Pinsirite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pinsirite→凯罗斯进化石"
+   ]
+  },
+  {
+   "id": "00AB862C",
+   "scene": "main-text",
+   "en": "Sablenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sablenite→勾魂眼进化石"
+   ]
+  },
+  {
+   "id": "00AB8638",
+   "scene": "main-text",
+   "en": "Salamencite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salamencite→暴飞龙进化石"
+   ]
+  },
+  {
+   "id": "00AB8644",
+   "scene": "main-text",
+   "en": "Sceptilite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sceptilite→蜥蜴王进化石"
+   ]
+  },
+  {
+   "id": "00AB8650",
+   "scene": "main-text",
+   "en": "Scizorite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scizorite→巨钳螳螂进化石"
+   ]
+  },
+  {
+   "id": "00AB865C",
+   "scene": "main-text",
+   "en": "Sharpedonite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sharpedonite→巨牙鲨进化石"
+   ]
+  },
+  {
+   "id": "00AB866C",
+   "scene": "main-text",
+   "en": "Slowbronite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slowbronite→呆壳兽进化石"
+   ]
+  },
+  {
+   "id": "00AB8678",
+   "scene": "main-text",
+   "en": "Steelixite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steelixite→大钢蛇进化石"
+   ]
+  },
+  {
+   "id": "00AB8684",
+   "scene": "main-text",
+   "en": "Swampertite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swampertite→巨沼怪进化石"
+   ]
+  },
+  {
+   "id": "00AB8690",
+   "scene": "main-text",
+   "en": "Tyranitarite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tyranitarite→班基拉斯进化石"
+   ]
+  },
+  {
+   "id": "00AB86A0",
+   "scene": "main-text",
+   "en": "Venusaurite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Venusaurite→妙蛙花进化石"
+   ]
+  },
+  {
+   "id": "00AB86B0",
+   "scene": "main-text",
+   "en": "Venusaurite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Venusaurite→妙蛙花进化石"
+   ]
+  },
+  {
+   "id": "00AB86C0",
+   "scene": "main-text",
+   "en": "Miloticite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB86CC",
+   "scene": "main-text",
+   "en": "Red Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Red Orb→朱红色宝珠"
+   ]
+  },
+  {
+   "id": "00AB86D4",
+   "scene": "main-text",
+   "en": "Blue Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blue Orb→靛蓝色宝珠"
+   ]
+  },
+  {
+   "id": "00AB86E0",
+   "scene": "main-text",
+   "en": "Flygonite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB86EC",
+   "scene": "main-text",
+   "en": "Butterfrenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB86FC",
+   "scene": "main-text",
+   "en": "Laprasite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8708",
+   "scene": "main-text",
+   "en": "Laprasite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8714",
+   "scene": "main-text",
+   "en": "Machampite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8720",
+   "scene": "main-text",
+   "en": "Kinglerite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB872C",
+   "scene": "main-text",
+   "en": "Kingdranite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8738",
+   "scene": "main-text",
+   "en": "Dewgongite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8744",
+   "scene": "main-text",
+   "en": "Hitmonchanite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8754",
+   "scene": "main-text",
+   "en": "Hitmonleenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8764",
+   "scene": "main-text",
+   "en": "Hitmontopite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8774",
+   "scene": "main-text",
+   "en": "Crobatite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8780",
+   "scene": "main-text",
+   "en": "Skarmorite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB878C",
+   "scene": "main-text",
+   "en": "Skarmorite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8798",
+   "scene": "main-text",
+   "en": "Bruxishite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB87A4",
+   "scene": "main-text",
+   "en": "Torterranite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB87B4",
+   "scene": "main-text",
+   "en": "Infernapite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB87C0",
+   "scene": "main-text",
+   "en": "Empoleonite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB87CC",
+   "scene": "main-text",
+   "en": "Shucklenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB87D8",
+   "scene": "main-text",
+   "en": "Relicanthite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB87E8",
+   "scene": "main-text",
+   "en": "Quagsirenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB87F8",
+   "scene": "main-text",
+   "en": "Jellicentite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8808",
+   "scene": "main-text",
+   "en": "Toucannonite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8818",
+   "scene": "main-text",
+   "en": "Dragoninite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8828",
+   "scene": "main-text",
+   "en": "Dragoninite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8838",
+   "scene": "main-text",
+   "en": "Breloomite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8844",
+   "scene": "main-text",
+   "en": "Slakingite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8850",
+   "scene": "main-text",
+   "en": "Purple Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB885C",
+   "scene": "main-text",
+   "en": "Slowkingite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8868",
+   "scene": "main-text",
+   "en": "Feraligite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8878",
+   "scene": "main-text",
+   "en": "Feraligite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8888",
+   "scene": "main-text",
+   "en": "Haxorusite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8894",
+   "scene": "main-text",
+   "en": "Luxraynite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB88A0",
+   "scene": "main-text",
+   "en": "Granbullite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB88AC",
+   "scene": "main-text",
+   "en": "Typhlosionite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB88BC",
+   "scene": "main-text",
+   "en": "Nidoqueenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB88CC",
+   "scene": "main-text",
+   "en": "Nidokingite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB88D8",
+   "scene": "main-text",
+   "en": "Sandslashite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB88E8",
+   "scene": "main-text",
+   "en": "Meganiumite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB88F4",
+   "scene": "main-text",
+   "en": "Krookodilenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8904",
+   "scene": "main-text",
+   "en": "Magnezonite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8910",
+   "scene": "main-text",
+   "en": "Shedinjite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB891C",
+   "scene": "main-text",
+   "en": "Swalotite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8928",
+   "scene": "main-text",
+   "en": "Lanturnite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8934",
+   "scene": "main-text",
+   "en": "Kingambitite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8944",
+   "scene": "main-text",
+   "en": "Ribombite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8950",
+   "scene": "main-text",
+   "en": "Skarmorite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8960",
+   "scene": "main-text",
+   "en": "Machampite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8970",
+   "scene": "main-text",
+   "en": "Alakazite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Alakazite→胡地进化石"
+   ]
+  },
+  {
+   "id": "00AB897C",
+   "scene": "main-text",
+   "en": "Beedrillite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beedrillite→大针蜂进化石"
+   ]
+  },
+  {
+   "id": "00AB898C",
+   "scene": "main-text",
+   "en": "Houndoominite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Houndoominite→黑鲁加进化石"
+   ]
+  },
+  {
+   "id": "00AB899C",
+   "scene": "main-text",
+   "en": "Froslassite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB89AC",
+   "scene": "main-text",
+   "en": "Froslassite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB89BC",
+   "scene": "main-text",
+   "en": "Scraftinite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB89C8",
+   "scene": "main-text",
+   "en": "Mawilite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mawilite→大嘴娃进化石"
+   ]
+  },
+  {
+   "id": "00AB89D4",
+   "scene": "main-text",
+   "en": "Mawilite P",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mawilite→大嘴娃进化石"
+   ]
+  },
+  {
+   "id": "00AB89E0",
+   "scene": "main-text",
+   "en": "Sablenite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sablenite→勾魂眼进化石"
+   ]
+  },
+  {
+   "id": "00AB89EC",
+   "scene": "main-text",
+   "en": "Ursalunite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB89F8",
+   "scene": "main-text",
+   "en": "Arcanite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A04",
+   "scene": "main-text",
+   "en": "Tyranitarite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tyranitarite→班基拉斯进化石"
+   ]
+  },
+  {
+   "id": "00AB8A14",
+   "scene": "main-text",
+   "en": "Wigglytuffite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A24",
+   "scene": "main-text",
+   "en": "Wigglytuffite X",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A34",
+   "scene": "main-text",
+   "en": "Tinkatite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A40",
+   "scene": "main-text",
+   "en": "Gyaradeathite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A50",
+   "scene": "main-text",
+   "en": "Gyaradeathite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A60",
+   "scene": "main-text",
+   "en": "Aegislashite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A70",
+   "scene": "main-text",
+   "en": "Arbokite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A7C",
+   "scene": "main-text",
+   "en": "Clefablite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A8C",
+   "scene": "main-text",
+   "en": "Flygonite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8A98",
+   "scene": "main-text",
+   "en": "Flygonite E",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8AA4",
+   "scene": "main-text",
+   "en": "Empoleonite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8AB4",
+   "scene": "main-text",
+   "en": "Infernapite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8AC4",
+   "scene": "main-text",
+   "en": "Froslassite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8AD4",
+   "scene": "main-text",
+   "en": "Glalitite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glalitite→冰鬼护进化石"
+   ]
+  },
+  {
+   "id": "00AB8AE0",
+   "scene": "main-text",
+   "en": "Rapidashite G",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8AF0",
+   "scene": "main-text",
+   "en": "Golisopite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8AFC",
+   "scene": "main-text",
+   "en": "Golisopite Y",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B0C",
+   "scene": "main-text",
+   "en": "Hydreigonite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B1C",
+   "scene": "main-text",
+   "en": "Torterranite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B2C",
+   "scene": "main-text",
+   "en": "Rapidashite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B38",
+   "scene": "main-text",
+   "en": "Cormothite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B44",
+   "scene": "main-text",
+   "en": "Popcormite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B50",
+   "scene": "main-text",
+   "en": "Reuniclusite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B60",
+   "scene": "main-text",
+   "en": "Toxtricitite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B70",
+   "scene": "main-text",
+   "en": "Oricorionite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B80",
+   "scene": "main-text",
+   "en": "Tsareenite R",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B90",
+   "scene": "main-text",
+   "en": "Urshifite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8B9C",
+   "scene": "main-text",
+   "en": "Amphybuzzite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8BAC",
+   "scene": "main-text",
+   "en": "Melmetalite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8BB8",
+   "scene": "main-text",
+   "en": "Dynamax Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8BC4",
+   "scene": "main-text",
+   "en": "Tera Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tera Orb→太晶珠"
+   ]
+  },
+  {
+   "id": "00AB8BD0",
+   "scene": "main-text",
+   "en": "Snorlaxite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8BDC",
+   "scene": "main-text",
+   "en": "Rillaboomite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8BEC",
+   "scene": "main-text",
+   "en": "Cinderaceite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8BFC",
+   "scene": "main-text",
+   "en": "Inteleonite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C08",
+   "scene": "main-text",
+   "en": "Corvinite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C14",
+   "scene": "main-text",
+   "en": "Drednawite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C20",
+   "scene": "main-text",
+   "en": "Coalossite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C2C",
+   "scene": "main-text",
+   "en": "Sandacondite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C3C",
+   "scene": "main-text",
+   "en": "Copperajite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C48",
+   "scene": "main-text",
+   "en": "Hatterenite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C54",
+   "scene": "main-text",
+   "en": "Garbodorite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C60",
+   "scene": "main-text",
+   "en": "Orbeetite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C6C",
+   "scene": "main-text",
+   "en": "Grimmsnarlite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C7C",
+   "scene": "main-text",
+   "en": "Centiskite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C88",
+   "scene": "main-text",
+   "en": "Alcremite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8C94",
+   "scene": "main-text",
+   "en": "Toxtricitite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CA4",
+   "scene": "main-text",
+   "en": "Pikanite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CB0",
+   "scene": "main-text",
+   "en": "Meowthite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CBC",
+   "scene": "main-text",
+   "en": "Eevite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CC4",
+   "scene": "main-text",
+   "en": "Duraludite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CD0",
+   "scene": "main-text",
+   "en": "U-Necrozium Z",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CE0",
+   "scene": "main-text",
+   "en": "U-Necrozium Z",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CF0",
+   "scene": "main-text",
+   "en": "Fidoughite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8CFC",
+   "scene": "main-text",
+   "en": "Serperiorite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D0C",
+   "scene": "main-text",
+   "en": "Emboarite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D18",
+   "scene": "main-text",
+   "en": "Samurottite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D24",
+   "scene": "main-text",
+   "en": "Deciduite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D30",
+   "scene": "main-text",
+   "en": "Weavileite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D3C",
+   "scene": "main-text",
+   "en": "Deciduite H",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D48",
+   "scene": "main-text",
+   "en": "Incinerite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D54",
+   "scene": "main-text",
+   "en": "Meowscaradite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D64",
+   "scene": "main-text",
+   "en": "Primarinite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D70",
+   "scene": "main-text",
+   "en": "Quaquavite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D7C",
+   "scene": "main-text",
+   "en": "Samurottite H",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D8C",
+   "scene": "main-text",
+   "en": "Skeledirgeite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8D9C",
+   "scene": "main-text",
+   "en": "Typhlosionite H",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8DAC",
+   "scene": "main-text",
+   "en": "Mienshaoite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8DB8",
+   "scene": "main-text",
+   "en": "Goodranite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8DC4",
+   "scene": "main-text",
+   "en": "Slowbronite G",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slowbronite→呆壳兽进化石"
+   ]
+  },
+  {
+   "id": "00AB8DD4",
+   "scene": "main-text",
+   "en": "Slowkingite G",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8DE4",
+   "scene": "main-text",
+   "en": "Roseradite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8DF0",
+   "scene": "main-text",
+   "en": "Arcanite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8DFC",
+   "scene": "main-text",
+   "en": "Phantom Meteor",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8E0C",
+   "scene": "main-text",
+   "en": "Yveltalite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8E18",
+   "scene": "main-text",
+   "en": "Galactic Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB8E28",
+   "scene": "main-text",
+   "en": "Chien-Paoite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

@@ -40,7 +40,7 @@ CAVE       equ 0x09777C58
 BLITTER    equ 0x082562A9     ; |1 保证 bx 切 Thumb
 WORKBUF    equ 0x03005600
 RT_SUCC    equ 0x0825728D     ; 公共后继 0x0825728C |1
-RT_RESUME  equ 0x082570A3     ; lsr r3,r3,#24 @0x082570A2 |1
+RT_RESUME  equ 0x082570A5     ; cmp r3,#7 @0x082570A4 |1（A0-A3 已被字面量占用）
 GSW_LOOP   equ 0x0825778B     ; cmp r0,#255 @0x0825778A |1
 GSW_RESUME equ 0x0825785D     ; cmp r6,#0   @0x0825785C |1
 GETWIDTH   equ 0x08258103     ; bl 0x08258102 |1
@@ -56,12 +56,16 @@ CONST8M     equ 0x08000000     ; (r0+8)<<24 的等价常数
 	.halfword 0x46C0	; nop
 	.word	RT_HOOK
 
-; ================= GetStringWidth 截流（10B，覆盖 0x08257852..0x0825785B） =================
+; ================= GetStringWidth：本构建不挂钩（保持原函数体完整） =================
+; 历史：v2 洞设计时残留的 v1 内联体覆盖了 0x0825785C+ 的 GSW 函数中段，
+; 连 v2 的 resume 点 0x0825785D 也被覆盖 → Option 页初始化调 GSW 即挂死。
+; GSW 只影响对话窗自动宽度，菜单/固定窗口用宽度表不受影响。
 .org 0x08257852
-	.halfword 0x4B01	; ldr r3,[pc,#4]  → 字面量在 0x08257858
-	.halfword 0x469F
-	.halfword 0x46C0
-	.word	GSW_HOOK
+	.halfword 0x4641	; mov r1,r8
+	.halfword 0xF000
+	.halfword 0xFC55	; bl 0x08258102
+	.halfword 0x0003	; lsl r3,r0,#0
+	.halfword 0x7868	; ldrb r0,[r5,#1]
 
 ; ================= 主菜单 "NEW GAME" → "新的游戏" =================
 .org 0x08EFB11C
@@ -69,6 +73,27 @@ CONST8M     equ 0x08000000     ; (r0+8)<<24 的等价常数
 	.byte	0xF7, 0x0F, 0x7C	; 游
 	.byte	0xF7, 0x0D, 0xDB	; 戏
 	.byte	0xFF
+
+; ★开场白 "This is what we call a \"Pokémon.\"" 原串 40B（0xEFB5EE，
+;   被 +2 内部偏移指针引用，不能 repoint，只能原地等长替换）
+;   译文: "  我们把它们叫做[/n]\"宝可梦\"。" + 原控制尾字节 fc 08 60 fb ff
+.org 0x08EFB5EE
+	.byte	0x00, 0x00
+	.byte	0xF7, 0x0D, 0x98	; 我
+	.byte	0xF7, 0x09, 0x5F	; 们
+	.byte	0xF7, 0x01, 0x30	; 把
+	.byte	0xF7, 0x0C, 0x9F	; 它
+	.byte	0xF7, 0x09, 0x5F	; 们
+	.byte	0xF7, 0x07, 0x22	; 叫
+	.byte	0xF7, 0x11, 0x2E	; 做
+	.byte	0xFE			; [/n]
+	.byte	0xB1			; ["
+	.byte	0xF7, 0x01, 0x63	; 宝
+	.byte	0xF7, 0x07, 0xD7	; 可
+	.byte	0xF7, 0x09, 0x66	; 梦
+	.byte	0xB1			; "
+	.byte	0xA1			; 。（半角句点）
+	.byte	0xFC, 0x08, 0x60, 0xFB, 0xFF	; 原控制尾
 
 ; ================= 代码洞 =================
 .org CAVE
@@ -81,6 +106,7 @@ CONST8M     equ 0x08000000     ; (r0+8)<<24 的等价常数
 RT_HOOK:
 	add	r3, r1, 1		; ★重算 r1+1（原 0x08257096，被字面量冲掉）
 	str	r3, [r4]		; 复现原指令①：存推进后的指针
+	push	r2			; ★保护 r2（const 重载会冲掉它，控制码处理器依赖 r2 现场）
 	cmp	r0, 0xF7
 	bne	@@rt_normal		; 非 ESC 走原路（图标码 0x01-0x1E 原生渲染）
 	ldrb	r5, [r1, 1]		; hi
@@ -93,19 +119,16 @@ RT_HOOK:
 	ldrb	r3, [r4, 0x14]		; fontid（低 4 位）
 	lsl	r3, r3, 28
 	lsr	r3, r3, 28
-	cmp	r3, 1			; 仅 FONT_NORMAL
-	bne	@@rt_normal
+	cmp	r3, 8
+	bhi	@@rt_normal		; 仅 fontid 0-8（2-6 处理器不渲染，白做也无害）
+	push	r3			; ★保存 fontid（出口按它选 [buf+0x81]）
 	mov	r3, 0x21
-	ldrb	r3, [r4, r3]		; 字体变体标志
-	cmp	r3, 0			; 仅主路径
-	bne	@@rt_normal
+	ldrb	r3, [r4, r3]		; 字体变体标志（不再限制：标题栏等变体≠0 的也要出中文）
 	ldrb	r3, [r1, 2]		; lo
 	cmp	r3, 0xFF
-	beq	@@rt_esc2		; 截断: 只吃 F7+hi（2字节）渲染空白，保留 FF 终止符
+	beq	@@rt_esc2p		; 截断: 只吃 F7+hi（2字节）渲染空白，保留 FF 终止符
 	push	r1
-	add	r3, r1, 3
-	str	r3, [r4]		; 中文占 3 字节
-	; hi 修正: 0x01-05→-1, 0x07-1A→-2, 0x1C-1E→-3
+	; ★先算索引（r3=lo），后改指针——否则 lo 被覆盖
 	cmp	r5, 0x07
 	bhs	@@h7
 	sub	r5, 1
@@ -120,30 +143,36 @@ RT_HOOK:
 @@cor:
 	lsl	r5, r5, 8
 	add	r5, r3			; r5 = record 索引
+	add	r3, r1, 3
+	str	r3, [r4]		; 中文占 3 字节
 	ldr	r2, =FONT_GBA
 	lsl	r3, r5, 6		; ×64
 	add	r3, r2			; r3 = 字形源址
+	mov	r5, r3			; ★r5 = src 基址（blitter 会冲掉 r0，必须每次从基址重载）
 	ldr	r6, =BLITTER
-	mov	r0, r3
 	ldr	r2, =WORKBUF
-	mov	r1, r2
+	mov	r1, r2			; ★r1 = dst（blitter 只读 r1，可安全累加）
+	mov	r0, r5			; src +0
 	ldr	r3, =(@@k1+1)
 	.halfword	0x469E	; mov lr,r3
 	bx	r6			; blitter(TL)
 @@k1:
+	mov	r0, r5
 	add	r0, 0x10
 	add	r1, 0x20
 	ldr	r3, =(@@k2+1)
 	.halfword	0x469E	; mov lr,r3
 	bx	r6			; TR
 @@k2:
-	add	r0, 0x10
+	mov	r0, r5
+	add	r0, 0x20
 	add	r1, 0x20
 	ldr	r3, =(@@k3+1)
 	.halfword	0x469E	; mov lr,r3
 	bx	r6			; BL
 @@k3:
-	add	r0, 0x10
+	mov	r0, r5
+	add	r0, 0x30
 	add	r1, 0x20
 	ldr	r3, =(@@k4+1)
 	.halfword	0x469E	; mov lr,r3
@@ -152,38 +181,60 @@ RT_HOOK:
 	ldr	r2, =WORKBUF80
 	mov	r3, 12
 	strb	r3, [r2]		; 宽度
-	mov	r3, 15
-	strb	r3, [r2, 1]
 	pop	r1
 	ldrb	r5, [r1, 3]		; r5 = 对后字符（后继 kerning 语义）
+	pop	r3			; fontid
+	mov	r6, 15			; 默认高度参数（1/7 及其它）
+	cmp	r3, 0
+	beq	@@f13
+	cmp	r3, 8
+	bne	@@wb
+	mov	r6, 12			; fontid 8
+	b	@@wb
+@@f13:
+	mov	r6, 13			; fontid 0 小字
+@@wb:
+	strb	r6, [r2, 1]
+	pop	r2			; ★恢复 r2
 	ldr	r6, =JTABLE		; 恢复跳转表基址（循环每轮复用）
 	ldr	r3, =RT_SUCC
 	bx	r3
+
+@@rt_popf:
+	pop	r3
+	b	@@rt_normal
+@@rt_esc2p:
+	pop	r3
+	b	@@rt_esc2
 
 @@rt_esc2:				; F7+hi 但 lo=FF：空白字形推进 2，FF 留给终止
 	add	r3, r1, 2
 	str	r3, [r4]
 	ldr	r6, =BLITTER
-	ldr	r0, =BLANK
+	ldr	r5, =BLANK		; ★src 基址放 r5
 	ldr	r2, =WORKBUF
 	mov	r1, r2
+	mov	r0, r5			; src +0
 	ldr	r3, =(@@t1+1)
 	.halfword	0x469E	; mov lr,r3
 	bx	r6
 @@t1:
+	mov	r0, r5
 	add	r0, 0x10
 	add	r1, 0x20
 	ldr	r3, =(@@t2+1)
 	.halfword	0x469E	; mov lr,r3
 	bx	r6
 @@t2:
-	add	r0, 0x10
+	mov	r0, r5
+	add	r0, 0x20
 	add	r1, 0x20
 	ldr	r3, =(@@t3+1)
 	.halfword	0x469E	; mov lr,r3
 	bx	r6
 @@t3:
-	add	r0, 0x10
+	mov	r0, r5
+	add	r0, 0x30
 	add	r1, 0x20
 	ldr	r3, =(@@t4+1)
 	.halfword	0x469E	; mov lr,r3
@@ -194,6 +245,7 @@ RT_HOOK:
 	strb	r3, [r2]
 	mov	r3, 15
 	strb	r3, [r2, 1]
+	pop	r2			; ★恢复 r2
 	ldr	r6, =JTABLE
 	ldr	r3, =RT_SUCC
 	bx	r3
@@ -202,7 +254,9 @@ RT_HOOK:
 	lsl	r3, r0, 24
 	ldr	r2, =CONST8M
 	add	r3, r2			; r3 = ((r0+8)&0xFF)<<24
+	lsr	r3, r3, 24		; ★搬迁原 0x082570A2 的 lsr（该位置已被字面量覆盖）
 	ldrb	r5, [r1, 1]
+	pop	r2			; ★恢复 r2 现场
 	ldr	r2, =RT_RESUME
 	bx	r2
 .pool
@@ -210,8 +264,9 @@ RT_HOOK:
 ; ---- GetStringWidth 字符截流（ESC 方案） ----
 ; 入口现场: r0=currChar, r5=字符指针, r7=r5+1, r4=宽度累加, r6=0, r8=0
 GSW_HOOK:
+	push	{r2, r3}		; ★保护 r2/r3（原 mov/bl 不碰它们，远调用碰）
 	cmp	r0, 0xF7
-	bne	@@gs_normal
+	bne	@@gs_normal		; ★仅精确 0xF7 进 ESC（bhs 笔误曾吞掉全部控制码）
 	ldrb	r3, [r5, 1]		; hi
 	cmp	r3, 0x1E
 	bhs	@@gs_normal
@@ -226,24 +281,31 @@ GSW_HOOK:
 	add	r5, 3
 	ldrb	r0, [r5]		; r0 = [新 r5]（循环不变量）
 	ldr	r2, =GSW_LOOP
-	bx	r2
+	.halfword	0x4694	; mov ip,r2
+	pop	{r2, r3}
+	.halfword	0x4760	; bx ip
 @@gs_esc2:
 	add	r4, 12
 	add	r5, 2
-	ldrb	r0, [r5]		; r0 = FF → 循环终止
+	mov	r0, r3			; r0 = FF → 循环终止
 	ldr	r2, =GSW_LOOP
-	bx	r2
+	.halfword	0x4694	; mov ip,r2
+	pop	{r2, r3}
+	.halfword	0x4760	; bx ip
 @@gs_normal:				; 复现原指令后回流
 	mov	r1, r8
 	ldr	r3, =GETWIDTH
 	ldr	r2, =(@@gs_ret+1)
-	.halfword	0x469E	; mov lr,r2
+	.halfword	0x4696	; mov lr,r2
+	pop	{r2}
 	bx	r3
 @@gs_ret:
 	mov	r3, r0			; 复现 lsl r3,r0,#0
 	ldrb	r0, [r5, 1]		; 复现 ldrb r0,[r5,#1]
 	ldr	r2, =GSW_RESUME
-	bx	r2
+	.halfword	0x4694	; mov ip,r2
+	pop	{r2}
+	.halfword	0x4760	; bx ip
 .pool
 
 BLANK:					; 全零字形（截断对用）
@@ -251,6 +313,6 @@ BLANK:					; 全零字形（截断对用）
 
 ; ================= 字库全量 =================
 .org FONT_GBA
-	.incbin	"er_font.bin"
+	.incbin	"armips-src/graphics/fonts/full_fonts.bin"
 
 .close

@@ -245,6 +245,6 @@ BLANK:					; 全零字形（截断对用）
 
 ; ================= 字库全量 =================
 .org FONT_GBA
-	.incbin	"er_font.bin"
+	.incbin	"armips-src/graphics/fonts/full_fonts.bin"
 
 .close

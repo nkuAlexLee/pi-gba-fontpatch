@@ -1,0 +1,1602 @@
+[
+ {
+  "id": "00ED163F",
+  "zh": "描述"
+ },
+ {
+  "id": "00ED16F9",
+  "zh": "                                                       POC"
+ },
+ {
+  "id": "00ED17AB",
+  "zh": "地图"
+ },
+ {
+  "id": "00ED181A",
+  "zh": "提示"
+ },
+ {
+  "id": "00ED19F2",
+  "zh": "描述"
+ },
+ {
+  "id": "00EE7814",
+  "zh": "未白镇"
+ },
+ {
+  "id": "00EE7824",
+  "zh": "古辰镇"
+ },
+ {
+  "id": "00EE7830",
+  "zh": "武斗镇"
+ },
+ {
+  "id": "00EE7840",
+  "zh": "Lavaridge Town"
+ },
+ {
+  "id": "00EE7850",
+  "zh": "秋叶镇"
+ },
+ {
+  "id": "00EE7860",
+  "zh": "绿荫镇"
+ },
+ {
+  "id": "00EE7870",
+  "zh": "暮水镇"
+ },
+ {
+  "id": "00EE7880",
+  "zh": "橙华市"
+ },
+ {
+  "id": "00EE7890",
+  "zh": "凯那市"
+ },
+ {
+  "id": "00EE78A0",
+  "zh": "紫堇市"
+ },
+ {
+  "id": "00EE78B0",
+  "zh": "卡那兹市"
+ },
+ {
+  "id": "00EE78C0",
+  "zh": "茵郁市"
+ },
+ {
+  "id": "00EE78D0",
+  "zh": "琉璃市"
+ },
+ {
+  "id": "00EE78E0",
+  "zh": "绿岭市"
+ },
+ {
+  "id": "00EE78F0",
+  "zh": "琉璃市"
+ },
+ {
+  "id": "00EE7900",
+  "zh": "天都镇"
+ },
+ {
+  "id": "00EE7914",
+  "zh": "101号道路"
+ },
+ {
+  "id": "00EE7920",
+  "zh": "102号道路"
+ },
+ {
+  "id": "00EE792C",
+  "zh": "103号道路"
+ },
+ {
+  "id": "00EE7938",
+  "zh": "104号道路"
+ },
+ {
+  "id": "00EE7944",
+  "zh": "105号道路"
+ },
+ {
+  "id": "00EE7950",
+  "zh": "106号道路"
+ },
+ {
+  "id": "00EE795C",
+  "zh": "107号道路"
+ },
+ {
+  "id": "00EE7968",
+  "zh": "108号道路"
+ },
+ {
+  "id": "00EE7974",
+  "zh": "109号道路"
+ },
+ {
+  "id": "00EE7980",
+  "zh": "110号道路"
+ },
+ {
+  "id": "00EE798C",
+  "zh": "111号道路"
+ },
+ {
+  "id": "00EE7998",
+  "zh": "112号道路"
+ },
+ {
+  "id": "00EE79A4",
+  "zh": "113号道路"
+ },
+ {
+  "id": "00EE79B0",
+  "zh": "114号道路"
+ },
+ {
+  "id": "00EE79BC",
+  "zh": "115号道路"
+ },
+ {
+  "id": "00EE79C8",
+  "zh": "116号道路"
+ },
+ {
+  "id": "00EE79D4",
+  "zh": "117号道路"
+ },
+ {
+  "id": "00EE79E0",
+  "zh": "118号道路"
+ },
+ {
+  "id": "00EE79EC",
+  "zh": "119号道路"
+ },
+ {
+  "id": "00EE79F8",
+  "zh": "120号道路"
+ },
+ {
+  "id": "00EE7A04",
+  "zh": "121号道路"
+ },
+ {
+  "id": "00EE7A10",
+  "zh": "122号道路"
+ },
+ {
+  "id": "00EE7A1C",
+  "zh": "123号道路"
+ },
+ {
+  "id": "00EE7A28",
+  "zh": "124号道路"
+ },
+ {
+  "id": "00EE7A34",
+  "zh": "125号道路"
+ },
+ {
+  "id": "00EE7A40",
+  "zh": "126号道路"
+ },
+ {
+  "id": "00EE7A4C",
+  "zh": "127号道路"
+ },
+ {
+  "id": "00EE7A58",
+  "zh": "128号道路"
+ },
+ {
+  "id": "00EE7A64",
+  "zh": "129号道路"
+ },
+ {
+  "id": "00EE7A70",
+  "zh": "130号道路"
+ },
+ {
+  "id": "00EE7A7C",
+  "zh": "131号道路"
+ },
+ {
+  "id": "00EE7A88",
+  "zh": "132号道路"
+ },
+ {
+  "id": "00EE7A94",
+  "zh": "133号道路"
+ },
+ {
+  "id": "00EE7AA0",
+  "zh": "134号道路"
+ },
+ {
+  "id": "00EE7AAC",
+  "zh": "水下"
+ },
+ {
+  "id": "00EE7AB8",
+  "zh": "岩石洞窟"
+ },
+ {
+  "id": "00EE7AC8",
+  "zh": "烟囱山"
+ },
+ {
+  "id": "00EE7AD4",
+  "zh": "狩猎地带"
+ },
+ {
+  "id": "00EE7AE0",
+  "zh": "对战开拓区"
+ },
+ {
+  "id": "00EE7AF0",
+  "zh": "橙华森林"
+ },
+ {
+  "id": "00EE7B00",
+  "zh": "铁丸隧道"
+ },
+ {
+  "id": "00EE7B10",
+  "zh": "废弃船只"
+ },
+ {
+  "id": "00EE7B20",
+  "zh": "新紫堇"
+ },
+ {
+  "id": "00EE7B30",
+  "zh": "流星瀑布"
+ },
+ {
+  "id": "00EE7B40",
+  "zh": "送神山"
+ },
+ {
+  "id": "00EE7B48",
+  "zh": "火箭队基地"
+ },
+ {
+  "id": "00EE7B54",
+  "zh": "浅滩洞窟"
+ },
+ {
+  "id": "00EE7B60",
+  "zh": "海底洞窟"
+ },
+ {
+  "id": "00EE7B70",
+  "zh": "冠军之路"
+ },
+ {
+  "id": "00EE7B80",
+  "zh": "幻影岛"
+ },
+ {
+  "id": "00EE7B90",
+  "zh": "天柱"
+ },
+ {
+  "id": "00EE7BA0",
+  "zh": "南方小岛"
+ },
+ {
+  "id": "00EE7BB0",
+  "zh": "灼热小径"
+ },
+ {
+  "id": "00EE7BBC",
+  "zh": " jagged pass"
+ },
+ {
+  "id": "00EE7BC8",
+  "zh": "密封的房间"
+ },
+ {
+  "id": "00EE7BD8",
+  "zh": "烧焦的石板"
+ },
+ {
+  "id": "00EE7BE8",
+  "zh": "洞窟"
+ },
+ {
+  "id": "00EE7BF4",
+  "zh": "沙漠遗迹"
+ },
+ {
+  "id": "00EE7C04",
+  "zh": "古代墓穴"
+ },
+ {
+  "id": "00EE7C14",
+  "zh": "卡车内部"
+ },
+ {
+  "id": "00EE7C24",
+  "zh": "天空之柱"
+ },
+ {
+  "id": "00EE7C30",
+  "zh": "秘密基地"
+ },
+ {
+  "id": "00EE7C40",
+  "zh": "PALLET TOWN"
+ },
+ {
+  "id": "00EE7C4C",
+  "zh": "VIRIDIAN CITY"
+ },
+ {
+  "id": "00EE7C5C",
+  "zh": "PEWTER CITY"
+ },
+ {
+  "id": "00EE7C68",
+  "zh": "CERULEAN CITY"
+ },
+ {
+  "id": "00EE7C78",
+  "zh": "LAVENDER TOWN"
+ },
+ {
+  "id": "00EE7C88",
+  "zh": "VERMILION CITY"
+ },
+ {
+  "id": "00EE7C98",
+  "zh": "CELADON CITY"
+ },
+ {
+  "id": "00EE7CA8",
+  "zh": "FUCHSIA CITY"
+ },
+ {
+  "id": "00EE7CB8",
+  "zh": "CINNABAR ISLAND"
+ },
+ {
+  "id": "00EE7CC8",
+  "zh": "INDIGO PLATEAU"
+ },
+ {
+  "id": "00EE7CD8",
+  "zh": "SAFFRON CITY"
+ },
+ {
+  "id": "00EE7CE8",
+  "zh": "4号道路"
+ },
+ {
+  "id": "00EE7CF0",
+  "zh": "10号道路"
+ },
+ {
+  "id": "00EE7CFC",
+  "zh": "1号道路"
+ },
+ {
+  "id": "00EE7D04",
+  "zh": "2号道路"
+ },
+ {
+  "id": "00EE7D0C",
+  "zh": "3号道路"
+ },
+ {
+  "id": "00EE7D14",
+  "zh": "4号道路"
+ },
+ {
+  "id": "00EE7D1C",
+  "zh": "5号道路"
+ },
+ {
+  "id": "00EE7D24",
+  "zh": "6号道路"
+ },
+ {
+  "id": "00EE7D2C",
+  "zh": "7号道路"
+ },
+ {
+  "id": "00EE7D34",
+  "zh": "8号道路"
+ },
+ {
+  "id": "00EE7D3C",
+  "zh": "9号道路"
+ },
+ {
+  "id": "00EE7D44",
+  "zh": "10号道路"
+ },
+ {
+  "id": "00EE7D50",
+  "zh": "11号道路"
+ },
+ {
+  "id": "00EE7D5C",
+  "zh": "12号道路"
+ },
+ {
+  "id": "00EE7D68",
+  "zh": "13号道路"
+ },
+ {
+  "id": "00EE7D74",
+  "zh": "14号道路"
+ },
+ {
+  "id": "00EE7D80",
+  "zh": "15号道路"
+ },
+ {
+  "id": "00EE7D8C",
+  "zh": "16号道路"
+ },
+ {
+  "id": "00EE7D98",
+  "zh": "17号道路"
+ },
+ {
+  "id": "00EE7DA4",
+  "zh": "18号道路"
+ },
+ {
+  "id": "00EE7DB0",
+  "zh": "19号道路"
+ },
+ {
+  "id": "00EE7DBC",
+  "zh": "20号道路"
+ },
+ {
+  "id": "00EE7DC8",
+  "zh": "21号道路"
+ },
+ {
+  "id": "00EE7DD4",
+  "zh": "22号道路"
+ },
+ {
+  "id": "00EE7DE0",
+  "zh": "23号道路"
+ },
+ {
+  "id": "00EE7DEC",
+  "zh": "24号道路"
+ },
+ {
+  "id": "00EE7DF8",
+  "zh": "25号道路"
+ },
+ {
+  "id": "00EE7E04",
+  "zh": "VIRIDIAN FOREST"
+ },
+ {
+  "id": "00EE7E14",
+  "zh": "MT. MOON"
+ },
+ {
+  "id": "00EE7E20",
+  "zh": "圣安努号"
+ },
+ {
+  "id": "00EE7E2C",
+  "zh": "UNDERGROUND PATH"
+ },
+ {
+  "id": "00EE7E40",
+  "zh": "UNDERGROUND PATH"
+ },
+ {
+  "id": "00EE7E54",
+  "zh": "DIGLETT'S CAVE"
+ },
+ {
+  "id": "00EE7E64",
+  "zh": "冠军之路"
+ },
+ {
+  "id": "00EE7E74",
+  "zh": "火箭队基地"
+ },
+ {
+  "id": "00EE7E84",
+  "zh": "西尔佛公司"
+ },
+ {
+  "id": "00EE7E90",
+  "zh": "宝可梦屋"
+ },
+ {
+  "id": "00EE7EA0",
+  "zh": "狩猎地带"
+ },
+ {
+  "id": "00EE7EAC",
+  "zh": "宝可梦联盟"
+ },
+ {
+  "id": "00EE7EBC",
+  "zh": "ROCK TUNNEL"
+ },
+ {
+  "id": "00EE7EC8",
+  "zh": "SEAFOAM ISLANDS"
+ },
+ {
+  "id": "00EE7ED8",
+  "zh": "Pokémon TOWER"
+ },
+ {
+  "id": "00EE7EE8",
+  "zh": "CERULEAN CAVE"
+ },
+ {
+  "id": "00EE7EF8",
+  "zh": "POWER PLANT"
+ },
+ {
+  "id": "00EE7F04",
+  "zh": "ONE ISLAND"
+ },
+ {
+  "id": "00EE7F10",
+  "zh": "TWO ISLAND"
+ },
+ {
+  "id": "00EE7F1C",
+  "zh": "THREE ISLAND"
+ },
+ {
+  "id": "00EE7F2C",
+  "zh": "FOUR ISLAND"
+ },
+ {
+  "id": "00EE7F38",
+  "zh": "FIVE ISLAND"
+ },
+ {
+  "id": "00EE7F44",
+  "zh": "SEVEN ISLAND"
+ },
+ {
+  "id": "00EE7F54",
+  "zh": "SIX ISLAND"
+ },
+ {
+  "id": "00EE7F60",
+  "zh": "KINDLE ROAD"
+ },
+ {
+  "id": "00EE7F6C",
+  "zh": "TREASURE BEACH"
+ },
+ {
+  "id": "00EE7F7C",
+  "zh": "CAPE BRINK"
+ },
+ {
+  "id": "00EE7F88",
+  "zh": "BOND BRIDGE"
+ },
+ {
+  "id": "00EE7F94",
+  "zh": "THREE ISLE PORT"
+ },
+ {
+  "id": "00EE7FA4",
+  "zh": "SEVII ISLE 6"
+ },
+ {
+  "id": "00EE7FB4",
+  "zh": "SEVII ISLE 7"
+ },
+ {
+  "id": "00EE7FC4",
+  "zh": "SEVII ISLE 8"
+ },
+ {
+  "id": "00EE7FD4",
+  "zh": "SEVII ISLE 9"
+ },
+ {
+  "id": "00EE7FE4",
+  "zh": "RESORT GORGEOUS"
+ },
+ {
+  "id": "00EE7FF4",
+  "zh": "WATER LABYRINTH"
+ },
+ {
+  "id": "00EE8004",
+  "zh": "FIVE ISLE MEADOW"
+ },
+ {
+  "id": "00EE8018",
+  "zh": "MEMORIAL PILLAR"
+ },
+ {
+  "id": "00EE8028",
+  "zh": "OUTCAST ISLAND"
+ },
+ {
+  "id": "00EE8038",
+  "zh": "GREEN PATH"
+ },
+ {
+  "id": "00EE8044",
+  "zh": "WATER PATH"
+ },
+ {
+  "id": "00EE8050",
+  "zh": "RUIN VALLEY"
+ },
+ {
+  "id": "00EE805C",
+  "zh": "Trainer Tower"
+ },
+ {
+  "id": "00EE806C",
+  "zh": "CANYON ENTRANCE"
+ },
+ {
+  "id": "00EE807C",
+  "zh": "SEVAULT CANYON"
+ },
+ {
+  "id": "00EE808C",
+  "zh": "TANOBY RUINS"
+ },
+ {
+  "id": "00EE809C",
+  "zh": "SEVII ISLE 22"
+ },
+ {
+  "id": "00EE80AC",
+  "zh": "SEVII ISLE 23"
+ },
+ {
+  "id": "00EE80BC",
+  "zh": "SEVII ISLE 24"
+ },
+ {
+  "id": "00EE80CC",
+  "zh": "Navel Rock"
+ },
+ {
+  "id": "00EE80D8",
+  "zh": "MT. EMBER"
+ },
+ {
+  "id": "00EE80E4",
+  "zh": "BERRY FOREST"
+ },
+ {
+  "id": "00EE80F4",
+  "zh": "ICEFALL CAVE"
+ },
+ {
+  "id": "00EE8104",
+  "zh": "ROCKET WAREHOUSE"
+ },
+ {
+  "id": "00EE8118",
+  "zh": "Trainer TOWER"
+ },
+ {
+  "id": "00EE8128",
+  "zh": "DOTTED HOLE"
+ },
+ {
+  "id": "00EE8134",
+  "zh": "LOST CAVE"
+ },
+ {
+  "id": "00EE8140",
+  "zh": "PATTERN BUSH"
+ },
+ {
+  "id": "00EE8150",
+  "zh": "Altering Cave"
+ },
+ {
+  "id": "00EE8160",
+  "zh": "TANOBY CHAMBERS"
+ },
+ {
+  "id": "00EE8170",
+  "zh": "THREE ISLE PATH"
+ },
+ {
+  "id": "00EE8180",
+  "zh": "TANOBY KEY"
+ },
+ {
+  "id": "00EE818C",
+  "zh": "Birth Island"
+ },
+ {
+  "id": "00EE819C",
+  "zh": "MONEAN CHAMBER"
+ },
+ {
+  "id": "00EE81AC",
+  "zh": "LIPTOO CHAMBER"
+ },
+ {
+  "id": "00EE81BC",
+  "zh": "WEEPTH CHAMBER"
+ },
+ {
+  "id": "00EE81CC",
+  "zh": "DILFORD CHAMBER"
+ },
+ {
+  "id": "00EE81DC",
+  "zh": "SCUFIB CHAMBER"
+ },
+ {
+  "id": "00EE81EC",
+  "zh": "RIXY CHAMBER"
+ },
+ {
+  "id": "00EE81FC",
+  "zh": "VIAPOIS CHAMBER"
+ },
+ {
+  "id": "00EE820C",
+  "zh": "EMBER SPA"
+ },
+ {
+  "id": "00EE8218",
+  "zh": "SPECIAL AREA"
+ },
+ {
+  "id": "00EE8228",
+  "zh": "Aqua Hideout"
+ },
+ {
+  "id": "00EE8238",
+  "zh": "Magma Hideout"
+ },
+ {
+  "id": "00EE8248",
+  "zh": "Mirage Tower"
+ },
+ {
+  "id": "00EE8258",
+  "zh": "Faraway Island"
+ },
+ {
+  "id": "00EE8268",
+  "zh": "Artisan Cave"
+ },
+ {
+  "id": "00EE8278",
+  "zh": "Marine Cave"
+ },
+ {
+  "id": "00EE8284",
+  "zh": "Terra Cave"
+ },
+ {
+  "id": "00EE8290",
+  "zh": "Desert Underpass"
+ },
+ {
+  "id": "00EE82A4",
+  "zh": "Trainer Hill"
+ },
+ {
+  "id": "00EE82B4",
+  "zh": "Seaspray Cave"
+ },
+ {
+  "id": "00EE82C4",
+  "zh": "Ember Path"
+ },
+ {
+  "id": "00EE82D0",
+  "zh": "Ashen Woods"
+ },
+ {
+  "id": "00EE82DC",
+  "zh": "Sandstrewn Ruins"
+ },
+ {
+  "id": "00EE82F0",
+  "zh": "Dewford Meadow"
+ },
+ {
+  "id": "00EE8300",
+  "zh": "Dewford Manor"
+ },
+ {
+  "id": "00EE8310",
+  "zh": "Verdant Glade"
+ },
+ {
+  "id": "00EF1D60",
+  "zh": "Talk to Nurse Joy!"
+ },
+ {
+  "id": "00EF1D74",
+  "zh": "Pokémon changes"
+ },
+ {
+  "id": "00EF1D84",
+  "zh": "Ability changes"
+ },
+ {
+  "id": "00EF1D94",
+  "zh": "Move changes"
+ },
+ {
+  "id": "00EF1DA4",
+  "zh": "Quality of Life"
+ },
+ {
+  "id": "00EF1DB4",
+  "zh": "Battle changes"
+ },
+ {
+  "id": "00EF1DC4",
+  "zh": "Battle UI changes"
+ },
+ {
+  "id": "00EF1DD8",
+  "zh": "Catching Pokémon"
+ },
+ {
+  "id": "00EF1DEC",
+  "zh": "Switch abilities"
+ },
+ {
+  "id": "00EF1E00",
+  "zh": "Switch nature"
+ },
+ {
+  "id": "00EF1E10",
+  "zh": "Switch Hidden Power"
+ },
+ {
+  "id": "00EF1E24",
+  "zh": "Set EVs"
+ },
+ {
+  "id": "00EF1E2C",
+  "zh": "Learn moves"
+ },
+ {
+  "id": "00EF1E38",
+  "zh": "Auto-Healing"
+ },
+ {
+  "id": "00EF1E48",
+  "zh": "Leveling"
+ },
+ {
+  "id": "00EF1E54",
+  "zh": "Evolutions"
+ },
+ {
+  "id": "00EF1E60",
+  "zh": "Read the Wiki"
+ },
+ {
+  "id": "00EF1E70",
+  "zh": "Exit"
+ },
+ {
+  "id": "00EF25B8",
+  "zh": "The {{C0}}{{C1}}Pokémon {{C2}}{{C3}}at {{C4}}{{C5}}"
+ },
+ {
+  "id": "00EF2604",
+  "zh": "{{C0}}, is it?{{C1}}That'll be {{C2}} BP. Do you want it?"
+ },
+ {
+  "id": "00EF4C64",
+  "zh": "SOUND EFFECTS"
+ },
+ {
+  "id": "00EF4C74",
+  "zh": "{{C0}}PREV {{C1}}NEXT"
+ },
+ {
+  "id": "00EF4C80",
+  "zh": "R: CRY TEST"
+ },
+ {
+  "id": "00EF5A6C",
+  "zh": "B BUTTON: BACK"
+ },
+ {
+  "id": "00EF5A7C",
+  "zh": "A BUTTON: PLAY"
+ },
+ {
+  "id": "00EF5AF4",
+  "zh": "SOUND EFFECT"
+ },
+ {
+  "id": "00EF5B14",
+  "zh": "STOP"
+ },
+ {
+  "id": "00EF5B1C",
+  "zh": "MUS-LITTLEROOT-TEST"
+ },
+ {
+  "id": "00EF5B30",
+  "zh": "MUS-GSC-ROUTE38"
+ },
+ {
+  "id": "00EF5B40",
+  "zh": "MUS-CAUGHT"
+ },
+ {
+  "id": "00EF5B4C",
+  "zh": "MUS-VICTORY-WILD"
+ },
+ {
+  "id": "00EF5B60",
+  "zh": "MUS-VICTORY-GYM-LEADER"
+ },
+ {
+  "id": "00EF5B78",
+  "zh": "MUS-VICTORY-LEAGUE"
+ },
+ {
+  "id": "00EF5B8C",
+  "zh": "MUS-C-COMM-CENTER"
+ },
+ {
+  "id": "00EF5BA0",
+  "zh": "MUS-GSC-PEWTER"
+ },
+ {
+  "id": "00EF5BB0",
+  "zh": "MUS-C-VS-LEGEND-BEAST"
+ },
+ {
+  "id": "00EF5BC8",
+  "zh": "MUS-ROUTE101"
+ },
+ {
+  "id": "00EF5BD8",
+  "zh": "MUS-ROUTE110"
+ },
+ {
+  "id": "00EF5BE8",
+  "zh": "MUS-ROUTE120"
+ },
+ {
+  "id": "00EF5BF8",
+  "zh": "MUS-PETALBURG"
+ },
+ {
+  "id": "00EF5C08",
+  "zh": "MUS-OLDALE"
+ },
+ {
+  "id": "00EF5C14",
+  "zh": "MUS-GYM"
+ },
+ {
+  "id": "00EF5C1C",
+  "zh": "MUS-SURF"
+ },
+ {
+  "id": "00EF5C28",
+  "zh": "MUS-PETALBURG-WOODS"
+ },
+ {
+  "id": "00EF5C3C",
+  "zh": "MUS-LEVEL-UP"
+ },
+ {
+  "id": "00EF5C4C",
+  "zh": "MUS-HEAL"
+ },
+ {
+  "id": "00EF5C58",
+  "zh": "MUS-OBTAIN-BADGE"
+ },
+ {
+  "id": "00EF5C6C",
+  "zh": "MUS-OBTAIN-ITEM"
+ },
+ {
+  "id": "00EF5C7C",
+  "zh": "MUS-EVOLVED"
+ },
+ {
+  "id": "00EF5C88",
+  "zh": "MUS-OBTAIN-TMHM"
+ },
+ {
+  "id": "00EF5C98",
+  "zh": "MUS-LILYCOVE-MUSEUM"
+ },
+ {
+  "id": "00EF5CAC",
+  "zh": "MUS-ROUTE122"
+ },
+ {
+  "id": "00EF5CBC",
+  "zh": "MUS-OCEANIC-MUSEUM"
+ },
+ {
+  "id": "00EF5CD0",
+  "zh": "MUS-EVOLUTION-INTRO"
+ },
+ {
+  "id": "00EF5CE4",
+  "zh": "MUS-EVOLUTION"
+ },
+ {
+  "id": "00EF5CF4",
+  "zh": "MUS-MOVE-DELETED"
+ },
+ {
+  "id": "00EF5D08",
+  "zh": "MUS-ENCOUNTER-GIRL"
+ },
+ {
+  "id": "00EF5D1C",
+  "zh": "MUS-ENCOUNTER-MALE"
+ },
+ {
+  "id": "00EF5D30",
+  "zh": "MUS-ABANDONED-SHIP"
+ },
+ {
+  "id": "00EF5D44",
+  "zh": "MUS-FORTREE"
+ },
+ {
+  "id": "00EF5D50",
+  "zh": "MUS-BIRCH-LAB"
+ },
+ {
+  "id": "00EF5D60",
+  "zh": "MUS-B-TOWER-RS"
+ },
+ {
+  "id": "00EF5D70",
+  "zh": "MUS-ENCOUNTER-SWIMMER"
+ },
+ {
+  "id": "00EF5D88",
+  "zh": "MUS-CAVE-OF-ORIGIN"
+ },
+ {
+  "id": "00EF5D9C",
+  "zh": "MUS-OBTAIN-BERRY"
+ },
+ {
+  "id": "00EF5DB0",
+  "zh": "MUS-AWAKEN-LEGEND"
+ },
+ {
+  "id": "00EF5DC4",
+  "zh": "MUS-SLOTS-JACKPOT"
+ },
+ {
+  "id": "00EF5DD8",
+  "zh": "MUS-SLOTS-WIN"
+ },
+ {
+  "id": "00EF5DE8",
+  "zh": "MUS-TOO-BAD"
+ },
+ {
+  "id": "00EF5DF4",
+  "zh": "MUS-ROULETTE"
+ },
+ {
+  "id": "00EF5E04",
+  "zh": "MUS-LINK-CONTEST-P1"
+ },
+ {
+  "id": "00EF5E18",
+  "zh": "MUS-LINK-CONTEST-P2"
+ },
+ {
+  "id": "00EF5E2C",
+  "zh": "MUS-LINK-CONTEST-P3"
+ },
+ {
+  "id": "00EF5E40",
+  "zh": "MUS-LINK-CONTEST-P4"
+ },
+ {
+  "id": "00EF5E54",
+  "zh": "MUS-ENCOUNTER-RICH"
+ },
+ {
+  "id": "00EF5E68",
+  "zh": "MUS-VERDANTURF"
+ },
+ {
+  "id": "00EF5E78",
+  "zh": "MUS-RUSTBORO"
+ },
+ {
+  "id": "00EF5E88",
+  "zh": "MUS-POKE-CENTER"
+ },
+ {
+  "id": "00EF5E98",
+  "zh": "MUS-ROUTE104"
+ },
+ {
+  "id": "00EF5EA8",
+  "zh": "MUS-ROUTE119"
+ },
+ {
+  "id": "00EF5EB8",
+  "zh": "MUS-CYCLING"
+ },
+ {
+  "id": "00EF5EC4",
+  "zh": "MUS-POKE-MART"
+ },
+ {
+  "id": "00EF5ED4",
+  "zh": "MUS-LITTLEROOT"
+ },
+ {
+  "id": "00EF5EE4",
+  "zh": "MUS-MT-CHIMNEY"
+ },
+ {
+  "id": "00EF5EF4",
+  "zh": "MUS-ENCOUNTER-FEMALE"
+ },
+ {
+  "id": "00EF5F0C",
+  "zh": "MUS-LILYCOVE"
+ },
+ {
+  "id": "00EF5F1C",
+  "zh": "MUS-ROUTE111"
+ },
+ {
+  "id": "00EF5F2C",
+  "zh": "MUS-HELP"
+ },
+ {
+  "id": "00EF5F38",
+  "zh": "MUS-UNDERWATER"
+ },
+ {
+  "id": "00EF5F48",
+  "zh": "MUS-VICTORY-TRAINER"
+ },
+ {
+  "id": "00EF5F5C",
+  "zh": "MUS-TITLE"
+ },
+ {
+  "id": "00EF5F68",
+  "zh": "MUS-INTRO"
+ },
+ {
+  "id": "00EF5F74",
+  "zh": "MUS-ENCOUNTER-MAY"
+ },
+ {
+  "id": "00EF5F88",
+  "zh": "MUS-ENCOUNTER-INTENSE"
+ },
+ {
+  "id": "00EF5FA0",
+  "zh": "MUS-ENCOUNTER-COOL"
+ },
+ {
+  "id": "00EF5FB4",
+  "zh": "MUS-ROUTE113"
+ },
+ {
+  "id": "00EF5FC4",
+  "zh": "MUS-ENCOUNTER-AQUA"
+ },
+ {
+  "id": "00EF5FD8",
+  "zh": "MUS-FOLLOW-ME"
+ },
+ {
+  "id": "00EF5FE8",
+  "zh": "MUS-ENCOUNTER-BRENDAN"
+ },
+ {
+  "id": "00EF6000",
+  "zh": "MUS-EVER-GRANDE"
+ },
+ {
+  "id": "00EF6010",
+  "zh": "MUS-ENCOUNTER-SUSPICIOUS"
+ },
+ {
+  "id": "00EF602C",
+  "zh": "MUS-VICTORY-AQUA-MAGMA"
+ },
+ {
+  "id": "00EF6044",
+  "zh": "MUS-CABLE-CAR"
+ },
+ {
+  "id": "00EF6054",
+  "zh": "MUS-GAME-CORNER"
+ },
+ {
+  "id": "00EF6064",
+  "zh": "MUS-DEWFORD"
+ },
+ {
+  "id": "00EF6070",
+  "zh": "MUS-SAFARI-ZONE"
+ },
+ {
+  "id": "00EF6080",
+  "zh": "MUS-VICTORY-ROAD"
+ },
+ {
+  "id": "00EF6094",
+  "zh": "MUS-AQUA-MAGMA-HIDEOUT"
+ },
+ {
+  "id": "00EF60AC",
+  "zh": "MUS-SAILING"
+ },
+ {
+  "id": "00EF60B8",
+  "zh": "MUS-MT-PYRE"
+ },
+ {
+  "id": "00EF60C4",
+  "zh": "MUS-SLATEPORT"
+ },
+ {
+  "id": "00EF60D4",
+  "zh": "MUS-MT-PYRE-EXTERIOR"
+ },
+ {
+  "id": "00EF60EC",
+  "zh": "MUS-SCHOOL"
+ },
+ {
+  "id": "00EF60F8",
+  "zh": "MUS-HALL-OF-FAME"
+ },
+ {
+  "id": "00EF610C",
+  "zh": "MUS-FALLARBOR"
+ },
+ {
+  "id": "00EF611C",
+  "zh": "MUS-SEALED-CHAMBER"
+ },
+ {
+  "id": "00EF6130",
+  "zh": "MUS-CONTEST-WINNER"
+ },
+ {
+  "id": "00EF6144",
+  "zh": "MUS-CONTEST"
+ },
+ {
+  "id": "00EF6150",
+  "zh": "MUS-ENCOUNTER-MAGMA"
+ },
+ {
+  "id": "00EF6164",
+  "zh": "MUS-INTRO-BATTLE"
+ },
+ {
+  "id": "00EF6178",
+  "zh": "MUS-WEATHER-KYOGRE"
+ },
+ {
+  "id": "00EF618C",
+  "zh": "MUS-WEATHER-GROUDON"
+ },
+ {
+  "id": "00EF61A0",
+  "zh": "MUS-SOOTOPOLIS"
+ },
+ {
+  "id": "00EF61B0",
+  "zh": "MUS-CONTEST-RESULTS"
+ },
+ {
+  "id": "00EF61C4",
+  "zh": "MUS-HALL-OF-FAME-ROOM"
+ },
+ {
+  "id": "00EF61DC",
+  "zh": "MUS-TRICK-HOUSE"
+ },
+ {
+  "id": "00EF61EC",
+  "zh": "MUS-ENCOUNTER-TWINS"
+ },
+ {
+  "id": "00EF6200",
+  "zh": "MUS-ENCOUNTER-ELITE-FOUR"
+ },
+ {
+  "id": "00EF621C",
+  "zh": "MUS-ENCOUNTER-HIKER"
+ },
+ {
+  "id": "00EF6230",
+  "zh": "MUS-CONTEST-LOBBY"
+ },
+ {
+  "id": "00EF6244",
+  "zh": "MUS-ENCOUNTER-INTERVIEWER"
+ },
+ {
+  "id": "00EF6260",
+  "zh": "MUS-ENCOUNTER-CHAMPION"
+ },
+ {
+  "id": "00EF6278",
+  "zh": "MUS-CREDITS"
+ },
+ {
+  "id": "00EF6284",
+  "zh": "MUS-END"
+ },
+ {
+  "id": "00EF628C",
+  "zh": "MUS-VS-WILD"
+ },
+ {
+  "id": "00EF6298",
+  "zh": "MUS-VS-AQUA-MAGMA"
+ },
+ {
+  "id": "00EF62AC",
+  "zh": "MUS-VS-TRAINER"
+ },
+ {
+  "id": "00EF62BC",
+  "zh": "MUS-VS-GYM-LEADER"
+ },
+ {
+  "id": "00EF62D0",
+  "zh": "MUS-VS-CHAMPION"
+ },
+ {
+  "id": "00EF62E0",
+  "zh": "MUS-VS-REGI"
+ },
+ {
+  "id": "00EF62EC",
+  "zh": "MUS-VS-KYOGRE-GROUDON"
+ },
+ {
+  "id": "00EF6304",
+  "zh": "MUS-VS-RIVAL"
+ },
+ {
+  "id": "00EF6314",
+  "zh": "MUS-VS-ELITE-FOUR"
+ },
+ {
+  "id": "00EF6328",
+  "zh": "MUS-VS-AQUA-MAGMA-LEADER"
+ },
+ {
+  "id": "00EF6344",
+  "zh": "MUS-RG-FOLLOW-ME"
+ },
+ {
+  "id": "00EF6358",
+  "zh": "MUS-RG-GAME-CORNER"
+ },
+ {
+  "id": "00EF636C",
+  "zh": "MUS-RG-ROCKET-HIDEOUT"
+ },
+ {
+  "id": "00EF6384",
+  "zh": "MUS-RG-GYM"
+ },
+ {
+  "id": "00EF6390",
+  "zh": "MUS-RG-JIGGLYPUFF"
+ },
+ {
+  "id": "00EF63A4",
+  "zh": "MUS-RG-INTRO-FIGHT"
+ },
+ {
+  "id": "00EF63B8",
+  "zh": "MUS-RG-TITLE"
+ },
+ {
+  "id": "00EF63C8",
+  "zh": "MUS-RG-CINNABAR"
+ },
+ {
+  "id": "00EF63D8",
+  "zh": "MUS-RG-LAVENDER"
+ },
+ {
+  "id": "00EF63E8",
+  "zh": "MUS-RG-HEAL"
+ },
+ {
+  "id": "00EF63F4",
+  "zh": "MUS-RG-CYCLING"
+ },
+ {
+  "id": "00EF6404",
+  "zh": "MUS-RG-ENCOUNTER-ROCKET"
+ },
+ {
+  "id": "00EF641C",
+  "zh": "MUS-RG-ENCOUNTER-GIRL"
+ },
+ {
+  "id": "00EF6434",
+  "zh": "MUS-RG-ENCOUNTER-BOY"
+ },
+ {
+  "id": "00EF644C",
+  "zh": "MUS-RG-HALL-OF-FAME"
+ },
+ {
+  "id": "00EF6460",
+  "zh": "MUS-RG-VIRIDIAN-FOREST"
+ },
+ {
+  "id": "00EF6478",
+  "zh": "MUS-RG-MT-MOON"
+ },
+ {
+  "id": "00EF6488",
+  "zh": "MUS-RG-POKE-MANSION"
+ },
+ {
+  "id": "00EF649C",
+  "zh": "MUS-RG-CREDITS"
+ },
+ {
+  "id": "00EF64AC",
+  "zh": "MUS-RG-ROUTE1"
+ },
+ {
+  "id": "00EF64BC",
+  "zh": "MUS-RG-ROUTE24"
+ },
+ {
+  "id": "00EF64CC",
+  "zh": "MUS-RG-ROUTE3"
+ },
+ {
+  "id": "00EF64DC",
+  "zh": "MUS-RG-ROUTE11"
+ },
+ {
+  "id": "00EF64EC",
+  "zh": "MUS-RG-VICTORY-ROAD"
+ },
+ {
+  "id": "00EF6500",
+  "zh": "MUS-RG-VS-GYM-LEADER"
+ },
+ {
+  "id": "00EF6518",
+  "zh": "MUS-RG-VS-TRAINER"
+ },
+ {
+  "id": "00EF652C",
+  "zh": "MUS-RG-VS-WILD"
+ },
+ {
+  "id": "00EF653C",
+  "zh": "MUS-RG-VS-CHAMPION"
+ },
+ {
+  "id": "00EF6550",
+  "zh": "MUS-RG-PALLET"
+ },
+ {
+  "id": "00EF6560",
+  "zh": "MUS-RG-OAK-LAB"
+ },
+ {
+  "id": "00EF6570",
+  "zh": "MUS-RG-OAK"
+ },
+ {
+  "id": "00EF657C",
+  "zh": "MUS-RG-POKE-CENTER"
+ },
+ {
+  "id": "00EF6590",
+  "zh": "MUS-RG-SS-ANNE"
+ },
+ {
+  "id": "00EF65A0",
+  "zh": "MUS-RG-SURF"
+ },
+ {
+  "id": "00EF65AC",
+  "zh": "MUS-RG-POKE-TOWER"
+ },
+ {
+  "id": "00EF65C0",
+  "zh": "MUS-RG-SILPH"
+ },
+ {
+  "id": "00EF65D0",
+  "zh": "MUS-RG-FUCHSIA"
+ },
+ {
+  "id": "00EF65E0",
+  "zh": "MUS-RG-CELADON"
+ },
+ {
+  "id": "00EF65F0",
+  "zh": "MUS-RG-VERMILLION"
+ },
+ {
+  "id": "00EF6603",
+  "zh": " MUS-RG-PEWTER"
+ },
+ {
+  "id": "00EF6614",
+  "zh": "MUS-RG-ENCOUNTER-RIVAL"
+ },
+ {
+  "id": "00EF662C",
+  "zh": "MUS-RG-RIVAL-EXIT"
+ },
+ {
+  "id": "00EF6640",
+  "zh": "MUS-RG-DEX-RATING"
+ },
+ {
+  "id": "00EF6654",
+  "zh": "MUS-RG-OBTAIN-KEY-ITEM"
+ },
+ {
+  "id": "00EF666C",
+  "zh": "MUS-RG-CAUGHT-INTRO"
+ },
+ {
+  "id": "00EF6680",
+  "zh": "MUS-RG-PHOTO"
+ },
+ {
+  "id": "00EF6690",
+  "zh": "MUS-RG-GAME-FREAK"
+ },
+ {
+  "id": "00EF66A4",
+  "zh": "MUS-RG-CAUGHT"
+ }
+]

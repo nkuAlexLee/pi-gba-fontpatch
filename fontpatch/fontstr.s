@@ -1,0 +1,10 @@
+.gba
+.open "er_base.gba", "er_fontonly.gba", 0x08000000
+.org 0x0968A4D8
+	.incbin	"armips-src/graphics/fonts/full_fonts.bin"
+.org 0x08EFB11C
+	.byte	0xF7, 0x0E, 0x4D	; 新
+	.byte	0xF7, 0x0F, 0x7C	; 游
+	.byte	0xF7, 0x0D, 0xDB	; 戏
+	.byte	0xFF
+.close

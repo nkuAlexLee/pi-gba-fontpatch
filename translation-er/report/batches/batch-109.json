@@ -1,0 +1,5012 @@
+{
+ "batch": 109,
+ "count": 400,
+ "tasks": [
+  {
+   "id": "00AB6440",
+   "scene": "main-text",
+   "en": "Enables Delphox to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Delphox→妖火红狐"
+   ]
+  },
+  {
+   "id": "00AB6460",
+   "scene": "main-text",
+   "en": "Enables Victreebel{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Victreebel→大食花"
+   ]
+  },
+  {
+   "id": "00AB6484",
+   "scene": "main-text",
+   "en": "Enables Starmie to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Starmie→宝石海星"
+   ]
+  },
+  {
+   "id": "00AB64A4",
+   "scene": "main-text",
+   "en": "Enables Excadrill{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Excadrill→龙头地鼠"
+   ]
+  },
+  {
+   "id": "00AB64C8",
+   "scene": "main-text",
+   "en": "Enables Scolipede{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scolipede→蜈蚣王"
+   ]
+  },
+  {
+   "id": "00AB64EC",
+   "scene": "main-text",
+   "en": "Enables Eelektross{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eelektross→麻麻鳗鱼王"
+   ]
+  },
+  {
+   "id": "00AB6510",
+   "scene": "main-text",
+   "en": "Enables Pyroar to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pyroar→火炎狮"
+   ]
+  },
+  {
+   "id": "00AB6530",
+   "scene": "main-text",
+   "en": "Enables Malamar to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Malamar→乌贼王"
+   ]
+  },
+  {
+   "id": "00AB6550",
+   "scene": "main-text",
+   "en": "Enables Barbaracle{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Barbaracle→龟足巨铠"
+   ]
+  },
+  {
+   "id": "00AB6574",
+   "scene": "main-text",
+   "en": "Enables Dragalge to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragalge→毒藻龙"
+   ]
+  },
+  {
+   "id": "00AB6598",
+   "scene": "main-text",
+   "en": "Enables Hawlucha{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hawlucha→摔角鹰人"
+   ]
+  },
+  {
+   "id": "00AB65BC",
+   "scene": "main-text",
+   "en": "Enables Zygarde-C{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zygarde→基格尔德"
+   ]
+  },
+  {
+   "id": "00AB65E0",
+   "scene": "main-text",
+   "en": "Enables Drampa to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Drampa→老翁龙"
+   ]
+  },
+  {
+   "id": "00AB6600",
+   "scene": "main-text",
+   "en": "Enables Falinks to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Falinks→列阵兵"
+   ]
+  },
+  {
+   "id": "00AB6620",
+   "scene": "main-text",
+   "en": "Enables Raichu to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Raichu→雷丘"
+   ]
+  },
+  {
+   "id": "00AB6640",
+   "scene": "main-text",
+   "en": "Enables Scovillain{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scovillain→狠辣椒"
+   ]
+  },
+  {
+   "id": "00AB6664",
+   "scene": "main-text",
+   "en": "Enables Chimecho{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chimecho→风铃铃"
+   ]
+  },
+  {
+   "id": "00AB6688",
+   "scene": "main-text",
+   "en": "Enables{{C0}}Crabominable to{{C1}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Crabominable→好胜毛蟹"
+   ]
+  },
+  {
+   "id": "00AB66B0",
+   "scene": "main-text",
+   "en": "Enables Staraptor{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Staraptor→姆克鹰"
+   ]
+  },
+  {
+   "id": "00AB66D4",
+   "scene": "main-text",
+   "en": "Enables Heatran to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heatran→席多蓝恩"
+   ]
+  },
+  {
+   "id": "00AB66F4",
+   "scene": "main-text",
+   "en": "Enables Darkrai to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Darkrai→达克莱伊"
+   ]
+  },
+  {
+   "id": "00AB6714",
+   "scene": "main-text",
+   "en": "Enables Golurk to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Golurk→泥偶巨人"
+   ]
+  },
+  {
+   "id": "00AB6734",
+   "scene": "main-text",
+   "en": "Enables Meowstic{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meowstic→超能妙喵"
+   ]
+  },
+  {
+   "id": "00AB6758",
+   "scene": "main-text",
+   "en": "Enables Magearna{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magearna→玛机雅娜"
+   ]
+  },
+  {
+   "id": "00AB677C",
+   "scene": "main-text",
+   "en": "Enables Zeraora to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zeraora→捷拉奥拉"
+   ]
+  },
+  {
+   "id": "00AB679C",
+   "scene": "main-text",
+   "en": "Enables Glimmora to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glimmora→晶光花"
+   ]
+  },
+  {
+   "id": "00AB67C0",
+   "scene": "main-text",
+   "en": "Enables Tatsugiri{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tatsugiri→米立龙"
+   ]
+  },
+  {
+   "id": "00AB67E4",
+   "scene": "main-text",
+   "en": "Enables Baxcalibur{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Baxcalibur→戟脊龙"
+   ]
+  },
+  {
+   "id": "00AB6808",
+   "scene": "main-text",
+   "en": "Enables Steve to{{C0}}become real.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB6828",
+   "scene": "main-text",
+   "en": "Enables Floette-E{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Floette→花叶蒂"
+   ]
+  },
+  {
+   "id": "00AB6858",
+   "scene": "main-text",
+   "en": "Master Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Master Ball→大师球"
+   ]
+  },
+  {
+   "id": "00AB6864",
+   "scene": "main-text",
+   "en": "Ultra Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ultra Ball→高级球"
+   ]
+  },
+  {
+   "id": "00AB6870",
+   "scene": "main-text",
+   "en": "Great Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Great Ball→超级球"
+   ]
+  },
+  {
+   "id": "00AB687C",
+   "scene": "main-text",
+   "en": "Poké Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poké Ball→精灵球"
+   ]
+  },
+  {
+   "id": "00AB6888",
+   "scene": "main-text",
+   "en": "Safari Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Safari Ball→狩猎球"
+   ]
+  },
+  {
+   "id": "00AB6894",
+   "scene": "main-text",
+   "en": "Net Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Net Ball→捕网球"
+   ]
+  },
+  {
+   "id": "00AB68A0",
+   "scene": "main-text",
+   "en": "Dive Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dive→潜水",
+    "Dive Ball→潜水球"
+   ]
+  },
+  {
+   "id": "00AB68AC",
+   "scene": "main-text",
+   "en": "Nest Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nest Ball→巢穴球"
+   ]
+  },
+  {
+   "id": "00AB68B8",
+   "scene": "main-text",
+   "en": "Repeat Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Repeat Ball→重复球"
+   ]
+  },
+  {
+   "id": "00AB68C4",
+   "scene": "main-text",
+   "en": "Timer Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Timer Ball→计时球"
+   ]
+  },
+  {
+   "id": "00AB68D0",
+   "scene": "main-text",
+   "en": "Luxury Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Luxury Ball→豪华球"
+   ]
+  },
+  {
+   "id": "00AB68DC",
+   "scene": "main-text",
+   "en": "Dusk Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dusk Ball→黑暗球"
+   ]
+  },
+  {
+   "id": "00AB68E8",
+   "scene": "main-text",
+   "en": "Heal Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heal Ball→治愈球"
+   ]
+  },
+  {
+   "id": "00AB68F4",
+   "scene": "main-text",
+   "en": "Quick Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quick Ball→先机球"
+   ]
+  },
+  {
+   "id": "00AB6900",
+   "scene": "main-text",
+   "en": "Cherish Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cherish Ball→贵重球"
+   ]
+  },
+  {
+   "id": "00AB6910",
+   "scene": "main-text",
+   "en": "Premier Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Premier Ball→纪念球"
+   ]
+  },
+  {
+   "id": "00AB6920",
+   "scene": "main-text",
+   "en": "Fast Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fast Ball→速度球"
+   ]
+  },
+  {
+   "id": "00AB692C",
+   "scene": "main-text",
+   "en": "Level Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Level Ball→等级球"
+   ]
+  },
+  {
+   "id": "00AB6938",
+   "scene": "main-text",
+   "en": "Lure Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lure Ball→诱饵球",
+    "Lure→引虫香水"
+   ]
+  },
+  {
+   "id": "00AB6944",
+   "scene": "main-text",
+   "en": "Heavy Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heavy Ball→沉重球"
+   ]
+  },
+  {
+   "id": "00AB6950",
+   "scene": "main-text",
+   "en": "Love Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Love Ball→甜蜜球"
+   ]
+  },
+  {
+   "id": "00AB695C",
+   "scene": "main-text",
+   "en": "Friend Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Friend Ball→友友球"
+   ]
+  },
+  {
+   "id": "00AB6968",
+   "scene": "main-text",
+   "en": "Moon Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Moon Ball→月亮球"
+   ]
+  },
+  {
+   "id": "00AB6974",
+   "scene": "main-text",
+   "en": "Sport Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sport Ball→竞赛球"
+   ]
+  },
+  {
+   "id": "00AB6980",
+   "scene": "main-text",
+   "en": "Park Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Park Ball→公园球"
+   ]
+  },
+  {
+   "id": "00AB698C",
+   "scene": "main-text",
+   "en": "Dream Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dream Ball→梦境球"
+   ]
+  },
+  {
+   "id": "00AB6998",
+   "scene": "main-text",
+   "en": "Beast Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beast Ball→究极球"
+   ]
+  },
+  {
+   "id": "00AB69A4",
+   "scene": "main-text",
+   "en": "Potion",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Potion→伤药"
+   ]
+  },
+  {
+   "id": "00AB69AC",
+   "scene": "main-text",
+   "en": "Antidote",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Antidote→解毒药"
+   ]
+  },
+  {
+   "id": "00AB69B8",
+   "scene": "main-text",
+   "en": "Burn Heal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Burn Heal→灼伤药"
+   ]
+  },
+  {
+   "id": "00AB69C4",
+   "scene": "main-text",
+   "en": "Ice Heal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice Heal→解冻药",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00AB69D0",
+   "scene": "main-text",
+   "en": "Awakening",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Awakening→解眠药"
+   ]
+  },
+  {
+   "id": "00AB69DC",
+   "scene": "main-text",
+   "en": "Paralyze Heal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Paralyze Heal→解麻药"
+   ]
+  },
+  {
+   "id": "00AB69EC",
+   "scene": "main-text",
+   "en": "Full Restore",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Full Restore→全复药"
+   ]
+  },
+  {
+   "id": "00AB69FC",
+   "scene": "main-text",
+   "en": "Max Potion",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Potion→伤药",
+    "Max Potion→全满药"
+   ]
+  },
+  {
+   "id": "00AB6A08",
+   "scene": "main-text",
+   "en": "Hyper Potion",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Potion→伤药",
+    "Hyper Potion→厉害伤药"
+   ]
+  },
+  {
+   "id": "00AB6A18",
+   "scene": "main-text",
+   "en": "Super Potion",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Potion→伤药",
+    "Super Potion→好伤药"
+   ]
+  },
+  {
+   "id": "00AB6A28",
+   "scene": "main-text",
+   "en": "Full Heal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Full Heal→万灵药"
+   ]
+  },
+  {
+   "id": "00AB6A34",
+   "scene": "main-text",
+   "en": "Big Malasada",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Big Malasada→大马拉萨达"
+   ]
+  },
+  {
+   "id": "00AB6A44",
+   "scene": "main-text",
+   "en": "Old Gateau",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Old Gateau→森之羊羹"
+   ]
+  },
+  {
+   "id": "00AB6A50",
+   "scene": "main-text",
+   "en": "Revive",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Revive→活力碎片"
+   ]
+  },
+  {
+   "id": "00AB6A58",
+   "scene": "main-text",
+   "en": "Max Revive",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Revive→活力碎片",
+    "Max Revive→活力块"
+   ]
+  },
+  {
+   "id": "00AB6A64",
+   "scene": "main-text",
+   "en": "Fresh Water",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fresh Water→美味之水",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB6A70",
+   "scene": "main-text",
+   "en": "Soda Pop",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soda Pop→劲爽汽水"
+   ]
+  },
+  {
+   "id": "00AB6A7C",
+   "scene": "main-text",
+   "en": "Lemonade",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lemonade→果汁牛奶"
+   ]
+  },
+  {
+   "id": "00AB6A88",
+   "scene": "main-text",
+   "en": "Moomoo Milk",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Moomoo Milk→哞哞鲜奶"
+   ]
+  },
+  {
+   "id": "00AB6A94",
+   "scene": "main-text",
+   "en": "Energy Powder",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Energy Powder→元气粉"
+   ]
+  },
+  {
+   "id": "00AB6AA4",
+   "scene": "main-text",
+   "en": "Energy Root",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Energy Root→元气根"
+   ]
+  },
+  {
+   "id": "00AB6AB0",
+   "scene": "main-text",
+   "en": "Heal Powder",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Heal Powder→万能粉"
+   ]
+  },
+  {
+   "id": "00AB6ABC",
+   "scene": "main-text",
+   "en": "Revival Herb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Revival Herb→复活草"
+   ]
+  },
+  {
+   "id": "00AB6ACC",
+   "scene": "main-text",
+   "en": "Ether",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ether→ＰＰ单项小补剂"
+   ]
+  },
+  {
+   "id": "00AB6AD4",
+   "scene": "main-text",
+   "en": "Max Ether",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ether→ＰＰ单项小补剂",
+    "Max Ether→ＰＰ单项全补剂"
+   ]
+  },
+  {
+   "id": "00AB6AE0",
+   "scene": "main-text",
+   "en": "Elixir",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Elixir→ＰＰ多项小补剂"
+   ]
+  },
+  {
+   "id": "00AB6AE8",
+   "scene": "main-text",
+   "en": "Max Elixir",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Elixir→ＰＰ多项小补剂",
+    "Max Elixir→ＰＰ多项全补剂"
+   ]
+  },
+  {
+   "id": "00AB6AF4",
+   "scene": "main-text",
+   "en": "Lava Cookie",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lava Cookie→釜炎仙贝"
+   ]
+  },
+  {
+   "id": "00AB6B00",
+   "scene": "main-text",
+   "en": "Berry Juice",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Berry Juice→树果汁"
+   ]
+  },
+  {
+   "id": "00AB6B0C",
+   "scene": "main-text",
+   "en": "Sweet Heart",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sweet Heart→心形甜点"
+   ]
+  },
+  {
+   "id": "00AB6B18",
+   "scene": "main-text",
+   "en": "Sacred Ash",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sacred Ash→圣灰"
+   ]
+  },
+  {
+   "id": "00AB6B24",
+   "scene": "main-text",
+   "en": "HP Up",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "HP Up→ＨＰ增强剂"
+   ]
+  },
+  {
+   "id": "00AB6B2C",
+   "scene": "main-text",
+   "en": "Protein",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protein→攻击增强剂"
+   ]
+  },
+  {
+   "id": "00AB6B34",
+   "scene": "main-text",
+   "en": "Iron",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂"
+   ]
+  },
+  {
+   "id": "00AB6B3C",
+   "scene": "main-text",
+   "en": "Carbos",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Carbos→速度增强剂"
+   ]
+  },
+  {
+   "id": "00AB6B44",
+   "scene": "main-text",
+   "en": "Calcium",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Calcium→特攻增强剂"
+   ]
+  },
+  {
+   "id": "00AB6B4C",
+   "scene": "main-text",
+   "en": "Rare Candy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rare Candy→神奇糖果"
+   ]
+  },
+  {
+   "id": "00AB6B58",
+   "scene": "main-text",
+   "en": "Candy Box",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB6B64",
+   "scene": "main-text",
+   "en": "PP Up",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "PP Up→ＰＰ提升剂"
+   ]
+  },
+  {
+   "id": "00AB6B6C",
+   "scene": "main-text",
+   "en": "Zinc",
+   "codes": [],
+   "context": "",
+   "max_bytes": 5,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zinc→特防增强剂"
+   ]
+  },
+  {
+   "id": "00AB6B74",
+   "scene": "main-text",
+   "en": "PP Max",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "PP Max→ＰＰ极限提升剂"
+   ]
+  },
+  {
+   "id": "00AB6B7C",
+   "scene": "main-text",
+   "en": "Ability Pill",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB6B8C",
+   "scene": "main-text",
+   "en": "AbilityPatch",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB6B9C",
+   "scene": "main-text",
+   "en": "Cheri Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cheri Berry→樱子果"
+   ]
+  },
+  {
+   "id": "00AB6BA8",
+   "scene": "main-text",
+   "en": "Chesto Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chesto Berry→零余果"
+   ]
+  },
+  {
+   "id": "00AB6BB8",
+   "scene": "main-text",
+   "en": "Pecha Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pecha Berry→桃桃果"
+   ]
+  },
+  {
+   "id": "00AB6BC4",
+   "scene": "main-text",
+   "en": "Rawst Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rawst Berry→莓莓果"
+   ]
+  },
+  {
+   "id": "00AB6BD0",
+   "scene": "main-text",
+   "en": "Aspear Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aspear Berry→利木果"
+   ]
+  },
+  {
+   "id": "00AB6BE0",
+   "scene": "main-text",
+   "en": "Leppa Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Leppa Berry→苹野果"
+   ]
+  },
+  {
+   "id": "00AB6BEC",
+   "scene": "main-text",
+   "en": "Oran Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Oran Berry→橙橙果"
+   ]
+  },
+  {
+   "id": "00AB6BF8",
+   "scene": "main-text",
+   "en": "Persim Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Persim Berry→柿仔果"
+   ]
+  },
+  {
+   "id": "00AB6C08",
+   "scene": "main-text",
+   "en": "Lum Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lum Berry→木子果"
+   ]
+  },
+  {
+   "id": "00AB6C14",
+   "scene": "main-text",
+   "en": "Sitrus Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sitrus Berry→文柚果"
+   ]
+  },
+  {
+   "id": "00AB6C24",
+   "scene": "main-text",
+   "en": "Figy Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Figy Berry→勿花果"
+   ]
+  },
+  {
+   "id": "00AB6C30",
+   "scene": "main-text",
+   "en": "Wiki Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wiki Berry→异奇果"
+   ]
+  },
+  {
+   "id": "00AB6C3C",
+   "scene": "main-text",
+   "en": "Mago Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mago Berry→芒芒果"
+   ]
+  },
+  {
+   "id": "00AB6C48",
+   "scene": "main-text",
+   "en": "Aguav Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aguav Berry→乐芭果"
+   ]
+  },
+  {
+   "id": "00AB6C54",
+   "scene": "main-text",
+   "en": "Iapapa Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iapapa Berry→芭亚果"
+   ]
+  },
+  {
+   "id": "00AB6C64",
+   "scene": "main-text",
+   "en": "Razz Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Razz Berry→蔓莓果"
+   ]
+  },
+  {
+   "id": "00AB6C70",
+   "scene": "main-text",
+   "en": "Bluk Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bluk Berry→墨莓果"
+   ]
+  },
+  {
+   "id": "00AB6C7C",
+   "scene": "main-text",
+   "en": "Nanab Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nanab Berry→蕉香果"
+   ]
+  },
+  {
+   "id": "00AB6C88",
+   "scene": "main-text",
+   "en": "Wepear Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wepear Berry→西梨果"
+   ]
+  },
+  {
+   "id": "00AB6C98",
+   "scene": "main-text",
+   "en": "Pinap Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pinap Berry→凰梨果"
+   ]
+  },
+  {
+   "id": "00AB6CA4",
+   "scene": "main-text",
+   "en": "Pomeg Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pomeg Berry→榴石果"
+   ]
+  },
+  {
+   "id": "00AB6CB0",
+   "scene": "main-text",
+   "en": "Kelpsy Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kelpsy Berry→藻根果"
+   ]
+  },
+  {
+   "id": "00AB6CC0",
+   "scene": "main-text",
+   "en": "Qualot Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Qualot Berry→比巴果"
+   ]
+  },
+  {
+   "id": "00AB6CD0",
+   "scene": "main-text",
+   "en": "Hondew Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hondew Berry→哈密果"
+   ]
+  },
+  {
+   "id": "00AB6CE0",
+   "scene": "main-text",
+   "en": "Grepa Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grepa Berry→萄葡果"
+   ]
+  },
+  {
+   "id": "00AB6CEC",
+   "scene": "main-text",
+   "en": "Tamato Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tamato Berry→茄番果"
+   ]
+  },
+  {
+   "id": "00AB6CFC",
+   "scene": "main-text",
+   "en": "Cornn Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cornn Berry→玉黍果"
+   ]
+  },
+  {
+   "id": "00AB6D08",
+   "scene": "main-text",
+   "en": "Magost Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magost Berry→岳竹果"
+   ]
+  },
+  {
+   "id": "00AB6D18",
+   "scene": "main-text",
+   "en": "Rabuta Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rabuta Berry→茸丹果"
+   ]
+  },
+  {
+   "id": "00AB6D28",
+   "scene": "main-text",
+   "en": "Nomel Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nomel Berry→檬柠果"
+   ]
+  },
+  {
+   "id": "00AB6D34",
+   "scene": "main-text",
+   "en": "Spelon Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spelon Berry→刺角果"
+   ]
+  },
+  {
+   "id": "00AB6D44",
+   "scene": "main-text",
+   "en": "Pamtre Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pamtre Berry→椰木果"
+   ]
+  },
+  {
+   "id": "00AB6D54",
+   "scene": "main-text",
+   "en": "Watmel Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Watmel Berry→瓜西果"
+   ]
+  },
+  {
+   "id": "00AB6D64",
+   "scene": "main-text",
+   "en": "Durin Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Durin Berry→金枕果"
+   ]
+  },
+  {
+   "id": "00AB6D70",
+   "scene": "main-text",
+   "en": "Belue Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Belue Berry→靛莓果"
+   ]
+  },
+  {
+   "id": "00AB6D7C",
+   "scene": "main-text",
+   "en": "Occa Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Occa Berry→巧可果"
+   ]
+  },
+  {
+   "id": "00AB6D88",
+   "scene": "main-text",
+   "en": "Passho Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Passho Berry→千香果"
+   ]
+  },
+  {
+   "id": "00AB6D98",
+   "scene": "main-text",
+   "en": "Wacan Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wacan Berry→烛木果"
+   ]
+  },
+  {
+   "id": "00AB6DA4",
+   "scene": "main-text",
+   "en": "Rindo Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rindo Berry→罗子果"
+   ]
+  },
+  {
+   "id": "00AB6DB0",
+   "scene": "main-text",
+   "en": "Yache Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yache Berry→番荔果"
+   ]
+  },
+  {
+   "id": "00AB6DBC",
+   "scene": "main-text",
+   "en": "Chople Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chople Berry→莲蒲果"
+   ]
+  },
+  {
+   "id": "00AB6DCC",
+   "scene": "main-text",
+   "en": "Kebia Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kebia Berry→通通果"
+   ]
+  },
+  {
+   "id": "00AB6DD8",
+   "scene": "main-text",
+   "en": "Shuca Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shuca Berry→腰木果"
+   ]
+  },
+  {
+   "id": "00AB6DE4",
+   "scene": "main-text",
+   "en": "Coba Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Coba Berry→棱瓜果"
+   ]
+  },
+  {
+   "id": "00AB6DF0",
+   "scene": "main-text",
+   "en": "Payapa Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Payapa Berry→福禄果"
+   ]
+  },
+  {
+   "id": "00AB6E00",
+   "scene": "main-text",
+   "en": "Tanga Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tanga Berry→扁樱果"
+   ]
+  },
+  {
+   "id": "00AB6E0C",
+   "scene": "main-text",
+   "en": "Charti Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charti Berry→草蚕果"
+   ]
+  },
+  {
+   "id": "00AB6E1C",
+   "scene": "main-text",
+   "en": "Kasib Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kasib Berry→佛柑果"
+   ]
+  },
+  {
+   "id": "00AB6E28",
+   "scene": "main-text",
+   "en": "Haban Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Haban Berry→莓榴果"
+   ]
+  },
+  {
+   "id": "00AB6E34",
+   "scene": "main-text",
+   "en": "Colbur Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Colbur Berry→刺耳果"
+   ]
+  },
+  {
+   "id": "00AB6E44",
+   "scene": "main-text",
+   "en": "Babiri Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Babiri Berry→霹霹果"
+   ]
+  },
+  {
+   "id": "00AB6E54",
+   "scene": "main-text",
+   "en": "Chilan Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chilan Berry→灯浆果"
+   ]
+  },
+  {
+   "id": "00AB6E64",
+   "scene": "main-text",
+   "en": "Roseli Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Roseli Berry→洛玫果"
+   ]
+  },
+  {
+   "id": "00AB6E74",
+   "scene": "main-text",
+   "en": "Liechi Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Liechi Berry→枝荔果"
+   ]
+  },
+  {
+   "id": "00AB6E84",
+   "scene": "main-text",
+   "en": "Ganlon Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ganlon Berry→龙睛果"
+   ]
+  },
+  {
+   "id": "00AB6E94",
+   "scene": "main-text",
+   "en": "Salac Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salac Berry→沙鳞果"
+   ]
+  },
+  {
+   "id": "00AB6EA0",
+   "scene": "main-text",
+   "en": "Petaya Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Petaya Berry→龙火果"
+   ]
+  },
+  {
+   "id": "00AB6EB0",
+   "scene": "main-text",
+   "en": "Apicot Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Apicot Berry→杏仔果"
+   ]
+  },
+  {
+   "id": "00AB6EC0",
+   "scene": "main-text",
+   "en": "Lansat Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lansat Berry→兰萨果"
+   ]
+  },
+  {
+   "id": "00AB6ED0",
+   "scene": "main-text",
+   "en": "Starf Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Starf Berry→星桃果"
+   ]
+  },
+  {
+   "id": "00AB6EDC",
+   "scene": "main-text",
+   "en": "Micle Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Micle Berry→奇秘果"
+   ]
+  },
+  {
+   "id": "00AB6EE8",
+   "scene": "main-text",
+   "en": "Custap Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Custap Berry→释陀果"
+   ]
+  },
+  {
+   "id": "00AB6EF8",
+   "scene": "main-text",
+   "en": "Jaboca Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jaboca Berry→嘉珍果"
+   ]
+  },
+  {
+   "id": "00AB6F08",
+   "scene": "main-text",
+   "en": "Rowap Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rowap Berry→雾莲果"
+   ]
+  },
+  {
+   "id": "00AB6F14",
+   "scene": "main-text",
+   "en": "Kee Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kee Berry→亚开果"
+   ]
+  },
+  {
+   "id": "00AB6F20",
+   "scene": "main-text",
+   "en": "Maranga Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Maranga Berry→香罗果"
+   ]
+  },
+  {
+   "id": "00AB6F30",
+   "scene": "main-text",
+   "en": "Enigma Berry",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Enigma Berry→谜芝果"
+   ]
+  },
+  {
+   "id": "00AB6F40",
+   "scene": "main-text",
+   "en": "Sun Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sun Stone→日之石"
+   ]
+  },
+  {
+   "id": "00AB6F4C",
+   "scene": "main-text",
+   "en": "Moon Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Moon Stone→月之石"
+   ]
+  },
+  {
+   "id": "00AB6F58",
+   "scene": "main-text",
+   "en": "Fire Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire Stone→火之石",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00AB6F64",
+   "scene": "main-text",
+   "en": "Thunder Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Thunder→打雷",
+    "Thunder Stone→雷之石"
+   ]
+  },
+  {
+   "id": "00AB6F74",
+   "scene": "main-text",
+   "en": "Water Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water Stone→水之石",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB6F80",
+   "scene": "main-text",
+   "en": "Leaf Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Leaf Stone→叶之石"
+   ]
+  },
+  {
+   "id": "00AB6F8C",
+   "scene": "main-text",
+   "en": "Dawn Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dawn Stone→觉醒之石"
+   ]
+  },
+  {
+   "id": "00AB6F98",
+   "scene": "main-text",
+   "en": "Dusk Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dusk Stone→暗之石"
+   ]
+  },
+  {
+   "id": "00AB6FA4",
+   "scene": "main-text",
+   "en": "Shiny Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shiny Stone→光之石"
+   ]
+  },
+  {
+   "id": "00AB6FB0",
+   "scene": "main-text",
+   "en": "Ice Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice Stone→冰之石",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00AB6FBC",
+   "scene": "main-text",
+   "en": "Red Nectar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Red Nectar→朱红色花蜜"
+   ]
+  },
+  {
+   "id": "00AB6FC8",
+   "scene": "main-text",
+   "en": "Yellow Nectar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yellow Nectar→金黄色花蜜"
+   ]
+  },
+  {
+   "id": "00AB6FD8",
+   "scene": "main-text",
+   "en": "Pink Nectar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pink Nectar→桃粉色花蜜"
+   ]
+  },
+  {
+   "id": "00AB6FE4",
+   "scene": "main-text",
+   "en": "Purple Nectar",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Purple Nectar→兰紫色花蜜"
+   ]
+  },
+  {
+   "id": "00AB6FF4",
+   "scene": "main-text",
+   "en": "Sweet Apple",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sweet Apple→甜甜苹果",
+    "Apple→苹果片"
+   ]
+  },
+  {
+   "id": "00AB7000",
+   "scene": "main-text",
+   "en": "Tart Apple",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tart Apple→酸酸苹果",
+    "Apple→苹果片"
+   ]
+  },
+  {
+   "id": "00AB700C",
+   "scene": "main-text",
+   "en": "Cracked Pot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cracked Pot→破裂的茶壶"
+   ]
+  },
+  {
+   "id": "00AB7018",
+   "scene": "main-text",
+   "en": "Galarica Cuff",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galarica Cuff→伽勒豆蔻手环"
+   ]
+  },
+  {
+   "id": "00AB7028",
+   "scene": "main-text",
+   "en": "Galarica Wreath",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Galarica Wreath→伽勒豆蔻花圈"
+   ]
+  },
+  {
+   "id": "00AB7038",
+   "scene": "main-text",
+   "en": "Strawberry Sweet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Strawberry Sweet→草莓糖饰",
+    "Strawberry→草莓片"
+   ]
+  },
+  {
+   "id": "00AB704C",
+   "scene": "main-text",
+   "en": "Love Sweet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Love Sweet→爱心糖饰"
+   ]
+  },
+  {
+   "id": "00AB7058",
+   "scene": "main-text",
+   "en": "Berry Sweet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Berry Sweet→野莓糖饰"
+   ]
+  },
+  {
+   "id": "00AB7064",
+   "scene": "main-text",
+   "en": "CLover Sweet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Clover Sweet→幸运草糖饰"
+   ]
+  },
+  {
+   "id": "00AB7074",
+   "scene": "main-text",
+   "en": "Flower Sweet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flower Sweet→花朵糖饰"
+   ]
+  },
+  {
+   "id": "00AB7084",
+   "scene": "main-text",
+   "en": "Star Sweet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Star Sweet→星星糖饰"
+   ]
+  },
+  {
+   "id": "00AB7090",
+   "scene": "main-text",
+   "en": "Ribbon Sweet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ribbon Sweet→蝴蝶结糖饰"
+   ]
+  },
+  {
+   "id": "00AB70A0",
+   "scene": "main-text",
+   "en": "Blue Flute",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blue Flute→蓝色玻璃哨"
+   ]
+  },
+  {
+   "id": "00AB70AC",
+   "scene": "main-text",
+   "en": "Yellow Flute",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yellow Flute→黄色玻璃哨"
+   ]
+  },
+  {
+   "id": "00AB70BC",
+   "scene": "main-text",
+   "en": "Red Flute",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Red Flute→红色玻璃哨"
+   ]
+  },
+  {
+   "id": "00AB70C8",
+   "scene": "main-text",
+   "en": "Black Flute",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Black Flute→黑色玻璃哨"
+   ]
+  },
+  {
+   "id": "00AB70D4",
+   "scene": "main-text",
+   "en": "White Flute",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "White Flute→白色玻璃哨"
+   ]
+  },
+  {
+   "id": "00AB70E0",
+   "scene": "main-text",
+   "en": "Shoal Salt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shoal Salt→浅滩海盐",
+    "Salt→盐"
+   ]
+  },
+  {
+   "id": "00AB70EC",
+   "scene": "main-text",
+   "en": "Shoal Shell",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shoal Shell→浅滩贝壳"
+   ]
+  },
+  {
+   "id": "00AB70F8",
+   "scene": "main-text",
+   "en": "Red Shard",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Red Shard→红色碎片"
+   ]
+  },
+  {
+   "id": "00AB7104",
+   "scene": "main-text",
+   "en": "Blue Shard",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blue Shard→蓝色碎片"
+   ]
+  },
+  {
+   "id": "00AB7110",
+   "scene": "main-text",
+   "en": "Yellow Shard",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yellow Shard→黄色碎片"
+   ]
+  },
+  {
+   "id": "00AB7120",
+   "scene": "main-text",
+   "en": "Green Shard",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Green Shard→绿色碎片"
+   ]
+  },
+  {
+   "id": "00AB712C",
+   "scene": "main-text",
+   "en": "Escape Rope",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Escape Rope→离洞绳"
+   ]
+  },
+  {
+   "id": "00AB7138",
+   "scene": "main-text",
+   "en": "Repel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Repel→除虫喷雾"
+   ]
+  },
+  {
+   "id": "00AB7140",
+   "scene": "main-text",
+   "en": "Super Repel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Super Repel→白银喷雾",
+    "Repel→除虫喷雾"
+   ]
+  },
+  {
+   "id": "00AB714C",
+   "scene": "main-text",
+   "en": "Max Repel",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Max Repel→黄金喷雾",
+    "Repel→除虫喷雾"
+   ]
+  },
+  {
+   "id": "00AB7158",
+   "scene": "main-text",
+   "en": "Tiny Mushroom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tiny Mushroom→小蘑菇"
+   ]
+  },
+  {
+   "id": "00AB7168",
+   "scene": "main-text",
+   "en": "Big Mushroom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Big Mushroom→大蘑菇"
+   ]
+  },
+  {
+   "id": "00AB7178",
+   "scene": "main-text",
+   "en": "Balm Mushroom",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Balm Mushroom→芳香蘑菇"
+   ]
+  },
+  {
+   "id": "00AB7188",
+   "scene": "main-text",
+   "en": "Pearl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pearl→珍珠"
+   ]
+  },
+  {
+   "id": "00AB7190",
+   "scene": "main-text",
+   "en": "Big Pearl",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pearl→珍珠",
+    "Big Pearl→大珍珠"
+   ]
+  },
+  {
+   "id": "00AB719C",
+   "scene": "main-text",
+   "en": "Pearl String",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pearl→珍珠",
+    "Pearl String→丸子珍珠"
+   ]
+  },
+  {
+   "id": "00AB71AC",
+   "scene": "main-text",
+   "en": "Stardust",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Stardust→星星沙子"
+   ]
+  },
+  {
+   "id": "00AB71B8",
+   "scene": "main-text",
+   "en": "Star Piece",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Star Piece→星星碎片"
+   ]
+  },
+  {
+   "id": "00AB71C4",
+   "scene": "main-text",
+   "en": "Comet Shard",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Comet Shard→彗星碎片"
+   ]
+  },
+  {
+   "id": "00AB71D0",
+   "scene": "main-text",
+   "en": "Nugget",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nugget→金珠"
+   ]
+  },
+  {
+   "id": "00AB71D8",
+   "scene": "main-text",
+   "en": "Big Nugget",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nugget→金珠",
+    "Big Nugget→巨大金珠"
+   ]
+  },
+  {
+   "id": "00AB71E4",
+   "scene": "main-text",
+   "en": "Relic Copper",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relic Copper→古代铜币"
+   ]
+  },
+  {
+   "id": "00AB71F4",
+   "scene": "main-text",
+   "en": "Relic Silver",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relic Silver→古代银币"
+   ]
+  },
+  {
+   "id": "00AB7204",
+   "scene": "main-text",
+   "en": "Relic Gold",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relic Gold→古代金币"
+   ]
+  },
+  {
+   "id": "00AB7210",
+   "scene": "main-text",
+   "en": "Relic Vase",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relic Vase→古代之壶"
+   ]
+  },
+  {
+   "id": "00AB721C",
+   "scene": "main-text",
+   "en": "Relic Statue",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relic Statue→古代石像"
+   ]
+  },
+  {
+   "id": "00AB722C",
+   "scene": "main-text",
+   "en": "Relic Band",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relic Band→古代手镯"
+   ]
+  },
+  {
+   "id": "00AB7238",
+   "scene": "main-text",
+   "en": "Heart Scale",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heart Scale→心之鳞片"
+   ]
+  },
+  {
+   "id": "00AB7244",
+   "scene": "main-text",
+   "en": "Bottle Cap",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bottle Cap→银色王冠"
+   ]
+  },
+  {
+   "id": "00AB7250",
+   "scene": "main-text",
+   "en": "GldBottleCap",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7260",
+   "scene": "main-text",
+   "en": "Honey",
+   "codes": [],
+   "context": "",
+   "max_bytes": 6,
+   "hint": "纯中文≤2字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Honey→甜甜蜜"
+   ]
+  },
+  {
+   "id": "00AB7268",
+   "scene": "main-text",
+   "en": "Rare Bone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rare Bone→贵重骨头"
+   ]
+  },
+  {
+   "id": "00AB7274",
+   "scene": "main-text",
+   "en": "Oval Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Oval Stone→浑圆之石"
+   ]
+  },
+  {
+   "id": "00AB7280",
+   "scene": "main-text",
+   "en": "Protector",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protector→护具"
+   ]
+  },
+  {
+   "id": "00AB728C",
+   "scene": "main-text",
+   "en": "Electirizer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electirizer→电力增幅器"
+   ]
+  },
+  {
+   "id": "00AB7298",
+   "scene": "main-text",
+   "en": "Magmarizer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magmarizer→熔岩增幅器"
+   ]
+  },
+  {
+   "id": "00AB72A4",
+   "scene": "main-text",
+   "en": "Dubious Disc",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dubious Disc→可疑补丁"
+   ]
+  },
+  {
+   "id": "00AB72B4",
+   "scene": "main-text",
+   "en": "Reaper Cloth",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Reaper Cloth→灵界之布"
+   ]
+  },
+  {
+   "id": "00AB72C4",
+   "scene": "main-text",
+   "en": "Prism Scale",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Prism Scale→美丽鳞片"
+   ]
+  },
+  {
+   "id": "00AB72D0",
+   "scene": "main-text",
+   "en": "Whipped Dream",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Whipped Dream→泡沫奶油"
+   ]
+  },
+  {
+   "id": "00AB72E0",
+   "scene": "main-text",
+   "en": "Sachet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sachet→香袋"
+   ]
+  },
+  {
+   "id": "00AB72E8",
+   "scene": "main-text",
+   "en": "Upgrade",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Upgrade→升级数据"
+   ]
+  },
+  {
+   "id": "00AB72F0",
+   "scene": "main-text",
+   "en": "Red Scarf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Red Scarf→红色头巾"
+   ]
+  },
+  {
+   "id": "00AB72FC",
+   "scene": "main-text",
+   "en": "Blue Scarf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blue Scarf→蓝色头巾"
+   ]
+  },
+  {
+   "id": "00AB7308",
+   "scene": "main-text",
+   "en": "Pink Scarf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pink Scarf→粉红头巾"
+   ]
+  },
+  {
+   "id": "00AB7314",
+   "scene": "main-text",
+   "en": "Green Scarf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Green Scarf→绿色头巾"
+   ]
+  },
+  {
+   "id": "00AB7320",
+   "scene": "main-text",
+   "en": "Yellow Scarf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Yellow Scarf→黄色头巾"
+   ]
+  },
+  {
+   "id": "00AB7330",
+   "scene": "main-text",
+   "en": "Armor Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Armor Fossil→盾甲化石"
+   ]
+  },
+  {
+   "id": "00AB7340",
+   "scene": "main-text",
+   "en": "Skull Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skull Fossil→头盖化石"
+   ]
+  },
+  {
+   "id": "00AB7350",
+   "scene": "main-text",
+   "en": "Helix Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Helix Fossil→贝壳化石"
+   ]
+  },
+  {
+   "id": "00AB7360",
+   "scene": "main-text",
+   "en": "Dome Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dome Fossil→甲壳化石"
+   ]
+  },
+  {
+   "id": "00AB736C",
+   "scene": "main-text",
+   "en": "Cover Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cover Fossil→背盖化石"
+   ]
+  },
+  {
+   "id": "00AB737C",
+   "scene": "main-text",
+   "en": "Plume Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Plume Fossil→羽毛化石"
+   ]
+  },
+  {
+   "id": "00AB738C",
+   "scene": "main-text",
+   "en": "Jaw Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jaw Fossil→颚之化石"
+   ]
+  },
+  {
+   "id": "00AB7398",
+   "scene": "main-text",
+   "en": "Sail Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sail Fossil→鳍之化石"
+   ]
+  },
+  {
+   "id": "00AB73A4",
+   "scene": "main-text",
+   "en": "Root Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Root Fossil→根状化石"
+   ]
+  },
+  {
+   "id": "00AB73B0",
+   "scene": "main-text",
+   "en": "Claw Fossil",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Claw Fossil→爪子化石"
+   ]
+  },
+  {
+   "id": "00AB73BC",
+   "scene": "main-text",
+   "en": "Fossilized Bird",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fossilized Bird→化石鸟"
+   ]
+  },
+  {
+   "id": "00AB73CC",
+   "scene": "main-text",
+   "en": "Fossilized Fish",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fossilized Fish→化石鱼"
+   ]
+  },
+  {
+   "id": "00AB73DC",
+   "scene": "main-text",
+   "en": "Fossilized Drake",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fossilized Drake→化石龙"
+   ]
+  },
+  {
+   "id": "00AB73F0",
+   "scene": "main-text",
+   "en": "Fossilized Dino",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fossilized Dino→化石海兽"
+   ]
+  },
+  {
+   "id": "00AB7400",
+   "scene": "main-text",
+   "en": "Old Amber",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Old Amber→秘密琥珀"
+   ]
+  },
+  {
+   "id": "00AB740C",
+   "scene": "main-text",
+   "en": "Guard Spec.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Guard Spec.→能力防守"
+   ]
+  },
+  {
+   "id": "00AB7418",
+   "scene": "main-text",
+   "en": "Dire Hit",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dire Hit→要害攻击"
+   ]
+  },
+  {
+   "id": "00AB7424",
+   "scene": "main-text",
+   "en": "X Attack",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Attack→力量强化"
+   ]
+  },
+  {
+   "id": "00AB7430",
+   "scene": "main-text",
+   "en": "X Defense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Defense→防御强化"
+   ]
+  },
+  {
+   "id": "00AB743C",
+   "scene": "main-text",
+   "en": "X Speed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Speed→速度强化"
+   ]
+  },
+  {
+   "id": "00AB7444",
+   "scene": "main-text",
+   "en": "X Accuracy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Accuracy→命中强化"
+   ]
+  },
+  {
+   "id": "00AB7450",
+   "scene": "main-text",
+   "en": "X Sp. Atk",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Sp. Atk→特攻强化"
+   ]
+  },
+  {
+   "id": "00AB745C",
+   "scene": "main-text",
+   "en": "X Sp. Def",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "X Sp. Def→特防强化"
+   ]
+  },
+  {
+   "id": "00AB7468",
+   "scene": "main-text",
+   "en": "Poké Doll",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poké Doll→皮皮玩偶"
+   ]
+  },
+  {
+   "id": "00AB7474",
+   "scene": "main-text",
+   "en": "Fluffy Tail",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fluffy→毛茸茸",
+    "Fluffy Tail→向尾喵的尾巴"
+   ]
+  },
+  {
+   "id": "00AB7480",
+   "scene": "main-text",
+   "en": "Bright Powder",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Bright Powder→光粉"
+   ]
+  },
+  {
+   "id": "00AB7490",
+   "scene": "main-text",
+   "en": "White Herb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "White Herb→白色香草"
+   ]
+  },
+  {
+   "id": "00AB749C",
+   "scene": "main-text",
+   "en": "Macho Brace",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Macho Brace→强制锻炼器"
+   ]
+  },
+  {
+   "id": "00AB74A8",
+   "scene": "main-text",
+   "en": "Exp. Share",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Exp. Share→学习装置"
+   ]
+  },
+  {
+   "id": "00AB74B4",
+   "scene": "main-text",
+   "en": "Quick Claw",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quick Claw→先制之爪"
+   ]
+  },
+  {
+   "id": "00AB74C0",
+   "scene": "main-text",
+   "en": "Soothe Bell",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soothe Bell→安抚之铃"
+   ]
+  },
+  {
+   "id": "00AB74CC",
+   "scene": "main-text",
+   "en": "Mental Herb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mental Herb→心灵香草"
+   ]
+  },
+  {
+   "id": "00AB74D8",
+   "scene": "main-text",
+   "en": "Choice Band",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Choice Band→讲究头带"
+   ]
+  },
+  {
+   "id": "00AB74E4",
+   "scene": "main-text",
+   "en": "King's Rock",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB74F0",
+   "scene": "main-text",
+   "en": "Razor Fang",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Razor Fang→锐利之牙"
+   ]
+  },
+  {
+   "id": "00AB74FC",
+   "scene": "main-text",
+   "en": "Silver Powder",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Silver Powder→银粉"
+   ]
+  },
+  {
+   "id": "00AB750C",
+   "scene": "main-text",
+   "en": "Amulet Coin",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Amulet Coin→护符金币"
+   ]
+  },
+  {
+   "id": "00AB7518",
+   "scene": "main-text",
+   "en": "Cleanse Tag",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cleanse Tag→洁净之符"
+   ]
+  },
+  {
+   "id": "00AB7524",
+   "scene": "main-text",
+   "en": "Pure Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pure Incense→洁净薰香"
+   ]
+  },
+  {
+   "id": "00AB7534",
+   "scene": "main-text",
+   "en": "Smoke Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Smoke Ball→烟雾球"
+   ]
+  },
+  {
+   "id": "00AB7540",
+   "scene": "main-text",
+   "en": "Everstone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Everstone→不变之石"
+   ]
+  },
+  {
+   "id": "00AB754C",
+   "scene": "main-text",
+   "en": "Focus Band",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Focus Band→气势头带"
+   ]
+  },
+  {
+   "id": "00AB7558",
+   "scene": "main-text",
+   "en": "Lucky Egg",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lucky Egg→幸运蛋",
+    "Egg→水煮蛋片"
+   ]
+  },
+  {
+   "id": "00AB7564",
+   "scene": "main-text",
+   "en": "Scope Lens",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scope Lens→焦点镜"
+   ]
+  },
+  {
+   "id": "00AB7570",
+   "scene": "main-text",
+   "en": "Metal Coat",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Metal Coat→金属膜"
+   ]
+  },
+  {
+   "id": "00AB757C",
+   "scene": "main-text",
+   "en": "Soft Sand",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Soft Sand→柔软沙子"
+   ]
+  },
+  {
+   "id": "00AB7588",
+   "scene": "main-text",
+   "en": "Hard Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hard Stone→硬石头"
+   ]
+  },
+  {
+   "id": "00AB7594",
+   "scene": "main-text",
+   "en": "Rock Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock Incense→岩石薰香",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB75A4",
+   "scene": "main-text",
+   "en": "Miracle Seed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Miracle Seed→奇迹种子"
+   ]
+  },
+  {
+   "id": "00AB75B4",
+   "scene": "main-text",
+   "en": "Rose Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rose Incense→花朵薰香"
+   ]
+  },
+  {
+   "id": "00AB75C4",
+   "scene": "main-text",
+   "en": "Black Glasses",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Black Glasses→黑色眼镜"
+   ]
+  },
+  {
+   "id": "00AB75D4",
+   "scene": "main-text",
+   "en": "Black Belt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Black Belt→黑带"
+   ]
+  },
+  {
+   "id": "00AB75E0",
+   "scene": "main-text",
+   "en": "Magnet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 7,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magnet→磁铁"
+   ]
+  },
+  {
+   "id": "00AB75E8",
+   "scene": "main-text",
+   "en": "Mystic Water",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mystic Water→神秘水滴",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB75F8",
+   "scene": "main-text",
+   "en": "Sharp Beak",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sharp Beak→锐利鸟嘴"
+   ]
+  },
+  {
+   "id": "00AB7604",
+   "scene": "main-text",
+   "en": "Poison Barb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison Barb→毒针",
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00AB7610",
+   "scene": "main-text",
+   "en": "Never-MeltIce",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB7620",
+   "scene": "main-text",
+   "en": "Spell Tag",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Spell Tag→诅咒之符"
+   ]
+  },
+  {
+   "id": "00AB762C",
+   "scene": "main-text",
+   "en": "Twisted Spoon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Twisted Spoon→弯曲的汤匙"
+   ]
+  },
+  {
+   "id": "00AB763C",
+   "scene": "main-text",
+   "en": "Odd Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Odd Incense→奇异薰香"
+   ]
+  },
+  {
+   "id": "00AB7648",
+   "scene": "main-text",
+   "en": "Charcoal",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charcoal→木炭"
+   ]
+  },
+  {
+   "id": "00AB7654",
+   "scene": "main-text",
+   "en": "Dragon Fang",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon Fang→龙之牙",
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "00AB7660",
+   "scene": "main-text",
+   "en": "Silk Scarf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Silk Scarf→丝绸围巾"
+   ]
+  },
+  {
+   "id": "00AB766C",
+   "scene": "main-text",
+   "en": "Leftovers",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Leftovers→吃剩的东西"
+   ]
+  },
+  {
+   "id": "00AB7678",
+   "scene": "main-text",
+   "en": "Dragon Scale",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon Scale→龙之鳞片",
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "00AB7688",
+   "scene": "main-text",
+   "en": "Razor Claw",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Razor Claw→锐利之爪"
+   ]
+  },
+  {
+   "id": "00AB7694",
+   "scene": "main-text",
+   "en": "Shell Bell",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shell Bell→贝壳之铃"
+   ]
+  },
+  {
+   "id": "00AB76A0",
+   "scene": "main-text",
+   "en": "Power Bracer",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Bracer→力量护腕"
+   ]
+  },
+  {
+   "id": "00AB76B0",
+   "scene": "main-text",
+   "en": "Power Belt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Belt→力量腰带"
+   ]
+  },
+  {
+   "id": "00AB76BC",
+   "scene": "main-text",
+   "en": "Power Lens",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Lens→力量镜"
+   ]
+  },
+  {
+   "id": "00AB76C8",
+   "scene": "main-text",
+   "en": "Power Band",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Band→力量束带"
+   ]
+  },
+  {
+   "id": "00AB76D4",
+   "scene": "main-text",
+   "en": "Power Anklet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Anklet→力量护踝"
+   ]
+  },
+  {
+   "id": "00AB76E4",
+   "scene": "main-text",
+   "en": "Power Weight",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Weight→力量负重"
+   ]
+  },
+  {
+   "id": "00AB76F4",
+   "scene": "main-text",
+   "en": "Power Herb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Power Herb→强力香草"
+   ]
+  },
+  {
+   "id": "00AB7700",
+   "scene": "main-text",
+   "en": "Choice Scarf",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Choice Scarf→讲究围巾"
+   ]
+  },
+  {
+   "id": "00AB7710",
+   "scene": "main-text",
+   "en": "Choice Specs",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Choice Specs→讲究眼镜"
+   ]
+  },
+  {
+   "id": "00AB7720",
+   "scene": "main-text",
+   "en": "Focus Sash",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Focus Sash→气势披带"
+   ]
+  },
+  {
+   "id": "00AB772C",
+   "scene": "main-text",
+   "en": "Wide Lens",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wide Lens→广角镜"
+   ]
+  },
+  {
+   "id": "00AB7738",
+   "scene": "main-text",
+   "en": "Zoom Lens",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zoom Lens→对焦镜"
+   ]
+  },
+  {
+   "id": "00AB7744",
+   "scene": "main-text",
+   "en": "Metronome",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Metronome→挥指"
+   ]
+  },
+  {
+   "id": "00AB7750",
+   "scene": "main-text",
+   "en": "Muscle Band",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Muscle Band→力量头带"
+   ]
+  },
+  {
+   "id": "00AB775C",
+   "scene": "main-text",
+   "en": "Wise Glasses",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wise Glasses→博识眼镜"
+   ]
+  },
+  {
+   "id": "00AB776C",
+   "scene": "main-text",
+   "en": "Expert Belt",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Expert Belt→达人带"
+   ]
+  },
+  {
+   "id": "00AB7778",
+   "scene": "main-text",
+   "en": "Light Clay",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Light Clay→光之黏土"
+   ]
+  },
+  {
+   "id": "00AB7784",
+   "scene": "main-text",
+   "en": "Icy Rock",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Icy Rock→冰冷岩石",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB7790",
+   "scene": "main-text",
+   "en": "Smooth Rock",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Smooth Rock→沙沙岩石",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB779C",
+   "scene": "main-text",
+   "en": "Heat Rock",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heat Rock→炽热岩石",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB77A8",
+   "scene": "main-text",
+   "en": "Damp Rock",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Damp→湿气",
+    "Damp Rock→潮湿岩石",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB77B4",
+   "scene": "main-text",
+   "en": "Destiny Knot",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Destiny Knot→红线"
+   ]
+  },
+  {
+   "id": "00AB77C4",
+   "scene": "main-text",
+   "en": "Grip Claw",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grip Claw→紧缠钩爪"
+   ]
+  },
+  {
+   "id": "00AB77D0",
+   "scene": "main-text",
+   "en": "Life Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Life Orb→生命宝珠"
+   ]
+  },
+  {
+   "id": "00AB77DC",
+   "scene": "main-text",
+   "en": "Toxic Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒",
+    "Toxic Orb→剧毒宝珠"
+   ]
+  },
+  {
+   "id": "00AB77E8",
+   "scene": "main-text",
+   "en": "Flame Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flame Orb→火焰宝珠"
+   ]
+  },
+  {
+   "id": "00AB77F4",
+   "scene": "main-text",
+   "en": "Sticky Barb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sticky Barb→附着针"
+   ]
+  },
+  {
+   "id": "00AB7800",
+   "scene": "main-text",
+   "en": "Black Sludge",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sludge→污泥攻击",
+    "Black Sludge→黑色污泥"
+   ]
+  },
+  {
+   "id": "00AB7810",
+   "scene": "main-text",
+   "en": "Iron Ball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Iron→防御增强剂",
+    "Iron Ball→黑色铁球"
+   ]
+  },
+  {
+   "id": "00AB781C",
+   "scene": "main-text",
+   "en": "Lagging Tail",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lagging Tail→后攻之尾"
+   ]
+  },
+  {
+   "id": "00AB782C",
+   "scene": "main-text",
+   "en": "Full Incense",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Full Incense→饱腹薰香"
+   ]
+  },
+  {
+   "id": "00AB783C",
+   "scene": "main-text",
+   "en": "Shed Shell",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shed Shell→美丽空壳"
+   ]
+  },
+  {
+   "id": "00AB7848",
+   "scene": "main-text",
+   "en": "Big Root",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Big Root→大根茎"
+   ]
+  },
+  {
+   "id": "00AB7854",
+   "scene": "main-text",
+   "en": "Eviolite",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eviolite→进化奇石"
+   ]
+  },
+  {
+   "id": "00AB7860",
+   "scene": "main-text",
+   "en": "Float Stone",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Float Stone→轻石"
+   ]
+  },
+  {
+   "id": "00AB786C",
+   "scene": "main-text",
+   "en": "Rocky Helmet",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rocky Helmet→凸凸头盔"
+   ]
+  },
+  {
+   "id": "00AB787C",
+   "scene": "main-text",
+   "en": "Air Balloon",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Air Balloon→气球"
+   ]
+  },
+  {
+   "id": "00AB7888",
+   "scene": "main-text",
+   "en": "Red Card",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Red Card→红牌"
+   ]
+  },
+  {
+   "id": "00AB7894",
+   "scene": "main-text",
+   "en": "Ring Target",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ring Target→标靶"
+   ]
+  },
+  {
+   "id": "00AB78A0",
+   "scene": "main-text",
+   "en": "Binding Band",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Binding Band→紧绑束带"
+   ]
+  },
+  {
+   "id": "00AB78B0",
+   "scene": "main-text",
+   "en": "Eject Button",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eject Button→逃脱按键"
+   ]
+  },
+  {
+   "id": "00AB78C0",
+   "scene": "main-text",
+   "en": "Absorb Bulb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Absorb→吸取",
+    "Absorb Bulb→球根"
+   ]
+  },
+  {
+   "id": "00AB78CC",
+   "scene": "main-text",
+   "en": "Cell Battery",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Battery→蓄电池",
+    "Cell Battery→充电电池"
+   ]
+  },
+  {
+   "id": "00AB78DC",
+   "scene": "main-text",
+   "en": "Luminous Moss",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Luminous Moss→光苔"
+   ]
+  },
+  {
+   "id": "00AB78EC",
+   "scene": "main-text",
+   "en": "Snowball",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Snowball→雪球"
+   ]
+  },
+  {
+   "id": "00AB78F8",
+   "scene": "main-text",
+   "en": "Weakness Policy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Weakness Policy→弱点保险"
+   ]
+  },
+  {
+   "id": "00AB7908",
+   "scene": "main-text",
+   "en": "Assault Vest",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Assault Vest→突击背心"
+   ]
+  },
+  {
+   "id": "00AB7918",
+   "scene": "main-text",
+   "en": "Safety Goggles",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Safety Goggles→防尘护目镜"
+   ]
+  },
+  {
+   "id": "00AB7928",
+   "scene": "main-text",
+   "en": "Adrenaline Orb",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Adrenaline Orb→胆怯球"
+   ]
+  },
+  {
+   "id": "00AB7938",
+   "scene": "main-text",
+   "en": "Terrain Extender",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Terrain Extender→大地膜"
+   ]
+  },
+  {
+   "id": "00AB794C",
+   "scene": "main-text",
+   "en": "Protective Pads",
+   "codes": [],
+   "context": "",
+   "max_bytes": 16,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protective Pads→部位护具"
+   ]
+  },
+  {
+   "id": "00AB795C",
+   "scene": "main-text",
+   "en": "Electric Seed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric Seed→电气种子",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00AB796C",
+   "scene": "main-text",
+   "en": "Psychic Seed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念",
+    "Psychic Seed→精神种子"
+   ]
+  },
+  {
+   "id": "00AB797C",
+   "scene": "main-text",
+   "en": "Misty Seed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Misty Seed→薄雾种子"
+   ]
+  },
+  {
+   "id": "00AB7988",
+   "scene": "main-text",
+   "en": "Grassy Seed",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grassy Seed→青草种子"
+   ]
+  },
+  {
+   "id": "00AB7994",
+   "scene": "main-text",
+   "en": "Bug Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bug Gem→虫之宝石",
+    "Bug→虫"
+   ]
+  },
+  {
+   "id": "00AB799C",
+   "scene": "main-text",
+   "en": "Dark Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dark Gem→恶之宝石",
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "00AB79A8",
+   "scene": "main-text",
+   "en": "Dragon Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragon Gem→龙之宝石",
+    "Dragon→龙"
+   ]
+  },
+  {
+   "id": "00AB79B4",
+   "scene": "main-text",
+   "en": "Electric Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric Gem→电之宝石",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00AB79C4",
+   "scene": "main-text",
+   "en": "Fairy Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fairy Gem→妖精宝石",
+    "Fairy→妖精"
+   ]
+  },
+  {
+   "id": "00AB79D0",
+   "scene": "main-text",
+   "en": "Fighting Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fighting Gem→格斗宝石",
+    "Fighting→格斗"
+   ]
+  },
+  {
+   "id": "00AB79E0",
+   "scene": "main-text",
+   "en": "Fire Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire Gem→火之宝石",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00AB79EC",
+   "scene": "main-text",
+   "en": "Flying Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying Gem→飞行宝石",
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "00AB79F8",
+   "scene": "main-text",
+   "en": "Ghost Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ghost Gem→幽灵宝石",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "00AB7A04",
+   "scene": "main-text",
+   "en": "Grass Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass Gem→草之宝石",
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "00AB7A10",
+   "scene": "main-text",
+   "en": "Ground Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ground Gem→地面宝石",
+    "Ground→地面"
+   ]
+  },
+  {
+   "id": "00AB7A1C",
+   "scene": "main-text",
+   "en": "Ice Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 8,
+   "hint": "纯中文≤3字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice Gem→冰之宝石",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00AB7A24",
+   "scene": "main-text",
+   "en": "Normal Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal Gem→一般宝石",
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "00AB7A30",
+   "scene": "main-text",
+   "en": "Poison Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison Gem→毒之宝石",
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00AB7A3C",
+   "scene": "main-text",
+   "en": "Psychic Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念",
+    "Psychic Gem→超能力宝石"
+   ]
+  },
+  {
+   "id": "00AB7A48",
+   "scene": "main-text",
+   "en": "Rock Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 9,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock Gem→岩石宝石",
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB7A54",
+   "scene": "main-text",
+   "en": "Steel Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel Gem→钢之宝石",
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00AB7A60",
+   "scene": "main-text",
+   "en": "Water Gem",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water Gem→水之宝石",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB7A6C",
+   "scene": "main-text",
+   "en": "Throat Spray",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Throat Spray→爽喉喷雾"
+   ]
+  },
+  {
+   "id": "00AB7A7C",
+   "scene": "main-text",
+   "en": "Eject Pack",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Eject Pack→避难背包"
+   ]
+  },
+  {
+   "id": "00AB7A88",
+   "scene": "main-text",
+   "en": "Heavy-Duty Boots",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heavy-Duty Boots→厚底靴"
+   ]
+  },
+  {
+   "id": "00AB7A9C",
+   "scene": "main-text",
+   "en": "Blunder Policy",
+   "codes": [],
+   "context": "",
+   "max_bytes": 15,
+   "hint": "纯中文≤7字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blunder Policy→打空保险"
+   ]
+  },
+  {
+   "id": "00AB7AAC",
+   "scene": "main-text",
+   "en": "Room Service",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Room Service→客房服务"
+   ]
+  },
+  {
+   "id": "00AB7ABC",
+   "scene": "main-text",
+   "en": "Utility Umbrella",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Utility Umbrella→万能伞"
+   ]
+  },
+  {
+   "id": "00AB7AD0",
+   "scene": "main-text",
+   "en": "Rusted Sword",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rusted Sword→腐朽的剑"
+   ]
+  },
+  {
+   "id": "00AB7AE0",
+   "scene": "main-text",
+   "en": "Rusted Shield",
+   "codes": [],
+   "context": "",
+   "max_bytes": 14,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rusted Shield→腐朽的盾"
+   ]
+  },
+  {
+   "id": "00AB7AF0",
+   "scene": "main-text",
+   "en": "Insect Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 13,
+   "hint": "纯中文≤6字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Insect Plate→玉虫石板"
+   ]
+  },
+  {
+   "id": "00AB7B00",
+   "scene": "main-text",
+   "en": "Dread Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dread Plate→恶颜石板"
+   ]
+  },
+  {
+   "id": "00AB7B0C",
+   "scene": "main-text",
+   "en": "Draco Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Draco Plate→龙之石板"
+   ]
+  },
+  {
+   "id": "00AB7B18",
+   "scene": "main-text",
+   "en": "Zap Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 10,
+   "hint": "纯中文≤4字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Zap Plate→雷电石板"
+   ]
+  },
+  {
+   "id": "00AB7B24",
+   "scene": "main-text",
+   "en": "Pixie Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pixie Plate→妖精石板"
+   ]
+  },
+  {
+   "id": "00AB7B30",
+   "scene": "main-text",
+   "en": "Fist Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 11,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fist Plate→拳头石板"
+   ]
+  },
+  {
+   "id": "00AB7B3C",
+   "scene": "main-text",
+   "en": "Flame Plate",
+   "codes": [],
+   "context": "",
+   "max_bytes": 12,
+   "hint": "纯中文≤5字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flame Plate→火球石板"
+   ]
+  }
+ ]
+}

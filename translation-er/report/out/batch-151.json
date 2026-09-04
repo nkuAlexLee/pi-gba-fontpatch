@@ -1,0 +1,1602 @@
+[
+ {
+  "id": "00EF66B4",
+  "zh": "MUS-RG-NEW-GAME-INSTRUCT"
+ },
+ {
+  "id": "00EF66D0",
+  "zh": "MUS-RG-NEW-GAME-INTRO"
+ },
+ {
+  "id": "00EF66E8",
+  "zh": "MUS-RG-NEW-GAME-EXIT"
+ },
+ {
+  "id": "00EF6700",
+  "zh": "MUS-RG-POKE-JUMP"
+ },
+ {
+  "id": "00EF6714",
+  "zh": "MUS-RG-UNION-ROOM"
+ },
+ {
+  "id": "00EF6728",
+  "zh": "MUS-RG-NET-CENTER"
+ },
+ {
+  "id": "00EF673C",
+  "zh": "MUS-RG-MYSTERY-GIFT"
+ },
+ {
+  "id": "00EF6750",
+  "zh": "MUS-RG-BERRY-PICK"
+ },
+ {
+  "id": "00EF6764",
+  "zh": "MUS-RG-SEVII-ROUTE"
+ },
+ {
+  "id": "00EF6778",
+  "zh": "MUS-RG-SEVII-45"
+ },
+ {
+  "id": "00EF6788",
+  "zh": "MUS-RG-SEVII-67"
+ },
+ {
+  "id": "00EF6798",
+  "zh": "MUS-RG-POKE-FLUTE"
+ },
+ {
+  "id": "00EF67AC",
+  "zh": "MUS-RG-VS-DEOXYS"
+ },
+ {
+  "id": "00EF67C0",
+  "zh": "MUS-RG-VS-MEWTWO"
+ },
+ {
+  "id": "00EF67D4",
+  "zh": "MUS-RG-VS-LEGEND"
+ },
+ {
+  "id": "00EF67E8",
+  "zh": "MUS-RG-ENCOUNTER-GYM-LEADER"
+ },
+ {
+  "id": "00EF6804",
+  "zh": "MUS-RG-ENCOUNTER-DEOXYS"
+ },
+ {
+  "id": "00EF681C",
+  "zh": "MUS-RG-TRAINER-TOWER"
+ },
+ {
+  "id": "00EF6834",
+  "zh": "MUS-RG-SLOW-PALLET"
+ },
+ {
+  "id": "00EF6848",
+  "zh": "MUS-RG-TEACHY-TV-MENU"
+ },
+ {
+  "id": "00EF6860",
+  "zh": "MUS-ABNORMAL-WEATHER"
+ },
+ {
+  "id": "00EF6878",
+  "zh": "MUS-B-FRONTIER"
+ },
+ {
+  "id": "00EF6888",
+  "zh": "MUS-B-ARENA"
+ },
+ {
+  "id": "00EF6894",
+  "zh": "MUS-OBTAIN-B-POINTS"
+ },
+ {
+  "id": "00EF68A8",
+  "zh": "MUS-REGISTER-MATCH-CALL"
+ },
+ {
+  "id": "00EF68C0",
+  "zh": "MUS-B-PYRAMID"
+ },
+ {
+  "id": "00EF68D0",
+  "zh": "MUS-B-PYRAMID-TOP"
+ },
+ {
+  "id": "00EF68E4",
+  "zh": "MUS-B-PALACE"
+ },
+ {
+  "id": "00EF68F4",
+  "zh": "MUS-RAYQUAZA-APPEARS"
+ },
+ {
+  "id": "00EF690C",
+  "zh": "MUS-B-TOWER"
+ },
+ {
+  "id": "00EF6918",
+  "zh": "MUS-OBTAIN-SYMBOL"
+ },
+ {
+  "id": "00EF692C",
+  "zh": "MUS-B-DOME"
+ },
+ {
+  "id": "00EF6938",
+  "zh": "MUS-B-PIKE"
+ },
+ {
+  "id": "00EF6944",
+  "zh": "MUS-B-FACTORY"
+ },
+ {
+  "id": "00EF6954",
+  "zh": "MUS-VS-FRONTIER-BRAIN"
+ },
+ {
+  "id": "00EF696C",
+  "zh": "MUS-VS-MEW"
+ },
+ {
+  "id": "00EF6978",
+  "zh": "MUS-B-DOME-LOBBY"
+ },
+ {
+  "id": "00EF698C",
+  "zh": "DP-SEQ-TITLE00"
+ },
+ {
+  "id": "00EF699C",
+  "zh": "DP-SEQ-TITLE01"
+ },
+ {
+  "id": "00EF69AC",
+  "zh": "DP-SEQ-OPENING"
+ },
+ {
+  "id": "00EF69BC",
+  "zh": "DP-SEQ-TV-HOUSOU"
+ },
+ {
+  "id": "00EF69D0",
+  "zh": "DP-SEQ-TV-END"
+ },
+ {
+  "id": "00EF69E0",
+  "zh": "DP-SEQ-TOWN01-D"
+ },
+ {
+  "id": "00EF69F0",
+  "zh": "DP-SEQ-TOWN01-N"
+ },
+ {
+  "id": "00EF6A00",
+  "zh": "DP-SEQ-THE-RIV"
+ },
+ {
+  "id": "00EF6A10",
+  "zh": "DP-SEQ-ROAD-A-D"
+ },
+ {
+  "id": "00EF6A20",
+  "zh": "DP-SEQ-ROAD-A-N"
+ },
+ {
+  "id": "00EF6A30",
+  "zh": "DP-SEQ-D-LAKE"
+ },
+ {
+  "id": "00EF6A40",
+  "zh": "DP-SEQ-THE-EVENT01"
+ },
+ {
+  "id": "00EF6A54",
+  "zh": "DP-SEQ-BA-POKE"
+ },
+ {
+  "id": "00EF6A64",
+  "zh": "DP-SEQ-WINPOKE"
+ },
+ {
+  "id": "00EF6A74",
+  "zh": "DP-SEQ-THE-GIRL"
+ },
+ {
+  "id": "00EF6A84",
+  "zh": "DP-SEQ-THE-BOY"
+ },
+ {
+  "id": "00EF6A94",
+  "zh": "DP-SEQ-FANFA4"
+ },
+ {
+  "id": "00EF6AA4",
+  "zh": "DP-SEQ-TOWN02-D"
+ },
+ {
+  "id": "00EF6AB4",
+  "zh": "DP-SEQ-TOWN02-N"
+ },
+ {
+  "id": "00EF6AC4",
+  "zh": "DP-SEQ-KENKYUJO"
+ },
+ {
+  "id": "00EF6AD4",
+  "zh": "DP-SEQ-TSURETEKE"
+ },
+ {
+  "id": "00EF6AE8",
+  "zh": "DP-SEQ-PC-01"
+ },
+ {
+  "id": "00EF6AF8",
+  "zh": "DP-SEQ-PC-02"
+ },
+ {
+  "id": "00EF6B08",
+  "zh": "DP-SEQ-ASA"
+ },
+ {
+  "id": "00EF6B14",
+  "zh": "DP-SEQ-EYE-BOY"
+ },
+ {
+  "id": "00EF6B24",
+  "zh": "DP-SEQ-EYE-GIRL"
+ },
+ {
+  "id": "00EF6B34",
+  "zh": "DP-SEQ-BA-TRAIN"
+ },
+ {
+  "id": "00EF6B44",
+  "zh": "DP-SEQ-WINTRAIN"
+ },
+ {
+  "id": "00EF6B54",
+  "zh": "DP-SEQ-CITY01-D"
+ },
+ {
+  "id": "00EF6B64",
+  "zh": "DP-SEQ-CITY01-N"
+ },
+ {
+  "id": "00EF6B74",
+  "zh": "DP-SEQ-FANFA3"
+ },
+ {
+  "id": "00EF6B84",
+  "zh": "DP-SEQ-FS"
+ },
+ {
+  "id": "00EF6B90",
+  "zh": "DP-SEQ-ROAD-B-D"
+ },
+ {
+  "id": "00EF6BA0",
+  "zh": "DP-SEQ-ROAD-B-N"
+ },
+ {
+  "id": "00EF6BB0",
+  "zh": "DP-SEQ-BA-RIVAL"
+ },
+ {
+  "id": "00EF6BC0",
+  "zh": "DP-SEQ-D-05"
+ },
+ {
+  "id": "00EF6BCC",
+  "zh": "DP-SEQ-WAZA"
+ },
+ {
+  "id": "00EF6BD8",
+  "zh": "DP-SEQ-CITY03-D"
+ },
+ {
+  "id": "00EF6BE8",
+  "zh": "DP-SEQ-CITY03-N"
+ },
+ {
+  "id": "00EF6BF8",
+  "zh": "DP-SEQ-D-04"
+ },
+ {
+  "id": "00EF6C04",
+  "zh": "DP-SEQ-GYM"
+ },
+ {
+  "id": "00EF6C10",
+  "zh": "DP-SEQ-BA-GYM"
+ },
+ {
+  "id": "00EF6C20",
+  "zh": "DP-SEQ-WINTGYM"
+ },
+ {
+  "id": "00EF6C30",
+  "zh": "DP-SEQ-BADGE"
+ },
+ {
+  "id": "00EF6C40",
+  "zh": "DP-SEQ-EYE-KID"
+ },
+ {
+  "id": "00EF6C50",
+  "zh": "DP-SEQ-FANFA1"
+ },
+ {
+  "id": "00EF6C60",
+  "zh": "DP-SEQ-TOWN03-D"
+ },
+ {
+  "id": "00EF6C70",
+  "zh": "DP-SEQ-TOWN03-N"
+ },
+ {
+  "id": "00EF6C80",
+  "zh": "DP-SEQ-KINOMI"
+ },
+ {
+  "id": "00EF6C90",
+  "zh": "DP-SEQ-ROAD-C-D"
+ },
+ {
+  "id": "00EF6CA0",
+  "zh": "DP-SEQ-ROAD-C-N"
+ },
+ {
+  "id": "00EF6CB0",
+  "zh": "DP-SEQ-EYE-GINGA"
+ },
+ {
+  "id": "00EF6CC4",
+  "zh": "DP-SEQ-BA-GINGA"
+ },
+ {
+  "id": "00EF6CD4",
+  "zh": "DP-SEQ-D-02"
+ },
+ {
+  "id": "00EF6CE0",
+  "zh": "DP-SEQ-GONIN"
+ },
+ {
+  "id": "00EF6CF0",
+  "zh": "DP-SEQ-CITY04-D"
+ },
+ {
+  "id": "00EF6D00",
+  "zh": "DP-SEQ-CITY04-N"
+ },
+ {
+  "id": "00EF6D10",
+  "zh": "DP-SEQ-D-GINLOBBY"
+ },
+ {
+  "id": "00EF6D24",
+  "zh": "DP-SEQ-BA-GINGA3"
+ },
+ {
+  "id": "00EF6D38",
+  "zh": "DP-SEQ-WINGINGA"
+ },
+ {
+  "id": "00EF6D48",
+  "zh": "DP-SEQ-SHINKA"
+ },
+ {
+  "id": "00EF6D58",
+  "zh": "DP-SEQ-FANFA5"
+ },
+ {
+  "id": "00EF6D68",
+  "zh": "DP-SEQ-BICYCLE"
+ },
+ {
+  "id": "00EF6D78",
+  "zh": "DP-SEQ-EYE-SPORT"
+ },
+ {
+  "id": "00EF6D8C",
+  "zh": "DP-SEQ-ROAD-D-D"
+ },
+ {
+  "id": "00EF6D9C",
+  "zh": "DP-SEQ-ROAD-D-N"
+ },
+ {
+  "id": "00EF6DAC",
+  "zh": "DP-SEQ-CITY05-D"
+ },
+ {
+  "id": "00EF6DBC",
+  "zh": "DP-SEQ-CITY05-N"
+ },
+ {
+  "id": "00EF6DCC",
+  "zh": "DP-SEQ-ROAD-E-D"
+ },
+ {
+  "id": "00EF6DDC",
+  "zh": "DP-SEQ-ROAD-E-N"
+ },
+ {
+  "id": "00EF6DEC",
+  "zh": "DP-SEQ-EYE-MOUNT"
+ },
+ {
+  "id": "00EF6E00",
+  "zh": "DP-SEQ-TOWN04-D"
+ },
+ {
+  "id": "00EF6E10",
+  "zh": "DP-SEQ-TOWN04-N"
+ },
+ {
+  "id": "00EF6E20",
+  "zh": "DP-SEQ-POCKETCH"
+ },
+ {
+  "id": "00EF6E30",
+  "zh": "DP-SEQ-ROAD-F-D"
+ },
+ {
+  "id": "00EF6E40",
+  "zh": "DP-SEQ-ROAD-F-N"
+ },
+ {
+  "id": "00EF6E50",
+  "zh": "DP-SEQ-CITY07-D"
+ },
+ {
+  "id": "00EF6E60",
+  "zh": "DP-SEQ-CITY07-N"
+ },
+ {
+  "id": "00EF6E70",
+  "zh": "DP-SEQ-TOWN07-D"
+ },
+ {
+  "id": "00EF6E80",
+  "zh": "DP-SEQ-TOWN07-N"
+ },
+ {
+  "id": "00EF6E90",
+  "zh": "DP-SEQ-CITY02-D"
+ },
+ {
+  "id": "00EF6EA0",
+  "zh": "DP-SEQ-CITY02-N"
+ },
+ {
+  "id": "00EF6EB0",
+  "zh": "DP-SEQ-ROAD-SNOW-D"
+ },
+ {
+  "id": "00EF6EC4",
+  "zh": "DP-SEQ-ROAD-SNOW-N"
+ },
+ {
+  "id": "00EF6ED8",
+  "zh": "DP-SEQ-CITY09-D"
+ },
+ {
+  "id": "00EF6EE8",
+  "zh": "DP-SEQ-CITY09-N"
+ },
+ {
+  "id": "00EF6EF8",
+  "zh": "DP-SEQ-D-AGITO"
+ },
+ {
+  "id": "00EF6F08",
+  "zh": "DP-SEQ-BA-AGAKI"
+ },
+ {
+  "id": "00EF6F18",
+  "zh": "DP-SEQ-THE-EVENT04"
+ },
+ {
+  "id": "00EF6F2C",
+  "zh": "DP-SEQ-D-MOUNT1"
+ },
+ {
+  "id": "00EF6F3C",
+  "zh": "DP-SEQ-D-MOUNT2"
+ },
+ {
+  "id": "00EF6F4C",
+  "zh": "DP-SEQ-THE-EVENT02"
+ },
+ {
+  "id": "00EF6F60",
+  "zh": "DP-SEQ-THE-EVENT03"
+ },
+ {
+  "id": "00EF6F74",
+  "zh": "DP-SEQ-BA-DPOKE2"
+ },
+ {
+  "id": "00EF6F88",
+  "zh": "DP-SEQ-CITY08-D"
+ },
+ {
+  "id": "00EF6F98",
+  "zh": "DP-SEQ-CITY08-N"
+ },
+ {
+  "id": "00EF6FA8",
+  "zh": "DP-SEQ-D-01"
+ },
+ {
+  "id": "00EF6FB4",
+  "zh": "DP-SEQ-EYE-ELITE"
+ },
+ {
+  "id": "00EF6FC8",
+  "zh": "DP-SEQ-CITY10-D"
+ },
+ {
+  "id": "00EF6FD8",
+  "zh": "DP-SEQ-CITY10-N"
+ },
+ {
+  "id": "00EF6FE8",
+  "zh": "DP-SEQ-CITY11-D"
+ },
+ {
+  "id": "00EF6FF8",
+  "zh": "DP-SEQ-CITY11-N"
+ },
+ {
+  "id": "00EF7008",
+  "zh": "DP-SEQ-TOWN06-D"
+ },
+ {
+  "id": "00EF7018",
+  "zh": "DP-SEQ-TOWN06-N"
+ },
+ {
+  "id": "00EF7028",
+  "zh": "DP-SEQ-ROAD-BZA-D"
+ },
+ {
+  "id": "00EF703C",
+  "zh": "DP-SEQ-ROAD-BZA-N"
+ },
+ {
+  "id": "00EF7050",
+  "zh": "DP-SEQ-WIFILOBBY"
+ },
+ {
+  "id": "00EF7064",
+  "zh": "DP-SEQ-BLD-TV"
+ },
+ {
+  "id": "00EF7074",
+  "zh": "DP-SEQ-BLD-BLD-GTC"
+ },
+ {
+  "id": "00EF7088",
+  "zh": "DP-SEQ-NAMINORI"
+ },
+ {
+  "id": "00EF7098",
+  "zh": "DP-SEQ-WASURE"
+ },
+ {
+  "id": "00EF70A8",
+  "zh": "DP-SEQ-EYE-FIGHT"
+ },
+ {
+  "id": "00EF70BC",
+  "zh": "DP-SEQ-EYE-ENKA"
+ },
+ {
+  "id": "00EF70CC",
+  "zh": "DP-SEQ-TANKOU"
+ },
+ {
+  "id": "00EF70DC",
+  "zh": "DP-SEQ-HATANIGE"
+ },
+ {
+  "id": "00EF70EC",
+  "zh": "DP-SEQ-EYE-LADY"
+ },
+ {
+  "id": "00EF70FC",
+  "zh": "DP-SEQ-D-03"
+ },
+ {
+  "id": "00EF7108",
+  "zh": "DP-SEQ-D-SAFARI"
+ },
+ {
+  "id": "00EF7118",
+  "zh": "DP-SEQ-EYE-MYS"
+ },
+ {
+  "id": "00EF7128",
+  "zh": "DP-SEQ-BLD-GAME"
+ },
+ {
+  "id": "00EF7138",
+  "zh": "DP-SEQ-SLOT-ATARI"
+ },
+ {
+  "id": "00EF714C",
+  "zh": "DP-SEQ-SLOT-OOATARI"
+ },
+ {
+  "id": "00EF7160",
+  "zh": "DP-SEQ-EYE-RICH"
+ },
+ {
+  "id": "00EF7170",
+  "zh": "DP-SEQ-D-RYAYHY"
+ },
+ {
+  "id": "00EF7180",
+  "zh": "DP-SEQ-BA-DPOKE1"
+ },
+ {
+  "id": "00EF7194",
+  "zh": "DP-SEQ-KUSAGASA"
+ },
+ {
+  "id": "00EF71A4",
+  "zh": "DP-SEQ-EYE-FUN"
+ },
+ {
+  "id": "00EF71B4",
+  "zh": "DP-SEQ-D-KOUEN"
+ },
+ {
+  "id": "00EF71C4",
+  "zh": "DP-SEQ-ACCE"
+ },
+ {
+  "id": "00EF71D0",
+  "zh": "DP-SEQ-BLD-CON"
+ },
+ {
+  "id": "00EF71E0",
+  "zh": "DP-SEQ-KINOMI1"
+ },
+ {
+  "id": "00EF71F0",
+  "zh": "DP-SEQ-CON-TEST"
+ },
+ {
+  "id": "00EF7200",
+  "zh": "DP-SEQ-CO-DRESS"
+ },
+ {
+  "id": "00EF7210",
+  "zh": "DP-SEQ-CO-KASHI"
+ },
+ {
+  "id": "00EF7220",
+  "zh": "DP-SEQ-CO-TAKUMA"
+ },
+ {
+  "id": "00EF7234",
+  "zh": "DP-SEQ-CO-KEKKA"
+ },
+ {
+  "id": "00EF7244",
+  "zh": "DP-SEQ-CO-FANFA"
+ },
+ {
+  "id": "00EF7254",
+  "zh": "DP-SEQ-BF-TOWWER"
+ },
+ {
+  "id": "00EF7268",
+  "zh": "DP-SEQ-D-06"
+ },
+ {
+  "id": "00EF7274",
+  "zh": "DP-SEQ-BA-SECRET2"
+ },
+ {
+  "id": "00EF7288",
+  "zh": "DP-SEQ-PRESENT"
+ },
+ {
+  "id": "00EF7298",
+  "zh": "DP-SEQ-D-LEAGUE"
+ },
+ {
+  "id": "00EF72A8",
+  "zh": "DP-SEQ-EYE-TENNO"
+ },
+ {
+  "id": "00EF72BC",
+  "zh": "DP-SEQ-BA-TENNO"
+ },
+ {
+  "id": "00EF72CC",
+  "zh": "DP-SEQ-WINTENNO"
+ },
+ {
+  "id": "00EF72DC",
+  "zh": "DP-SEQ-EYE-CHAMP"
+ },
+ {
+  "id": "00EF72F0",
+  "zh": "DP-SEQ-BA-CHANP"
+ },
+ {
+  "id": "00EF7300",
+  "zh": "DP-SEQ-WINCHAMP"
+ },
+ {
+  "id": "00EF7310",
+  "zh": "DP-SEQ-BLD-DENDO"
+ },
+ {
+  "id": "00EF7324",
+  "zh": "DP-SEQ-BLD-EV-DENDO2"
+ },
+ {
+  "id": "00EF733C",
+  "zh": "DP-SEQ-BLD-ENDING"
+ },
+ {
+  "id": "00EF7350",
+  "zh": "DP-SEQ-FUE"
+ },
+ {
+  "id": "00EF735C",
+  "zh": "DP-SEQ-AUS"
+ },
+ {
+  "id": "00EF7368",
+  "zh": "DP-SEQ-BA-SECRET1"
+ },
+ {
+  "id": "00EF737C",
+  "zh": "PL-SEQ-TITLE00"
+ },
+ {
+  "id": "00EF738C",
+  "zh": "PL-SEQ-TITLE01"
+ },
+ {
+  "id": "00EF739C",
+  "zh": "PL-SEQ-TV-HOUSOU"
+ },
+ {
+  "id": "00EF73B0",
+  "zh": "PL-SEQ-TV-END"
+ },
+ {
+  "id": "00EF73C0",
+  "zh": "PL-SEQ-PL-HANDSOME"
+ },
+ {
+  "id": "00EF73D4",
+  "zh": "PL-SEQ-PL-WIFITOWER"
+ },
+ {
+  "id": "00EF73E8",
+  "zh": "PL-SEQ-PL-WIFIUNION"
+ },
+ {
+  "id": "00EF73FC",
+  "zh": "PL-SEQ-PL-WIFIGAME"
+ },
+ {
+  "id": "00EF7410",
+  "zh": "PL-SEQ-PL-WINMINI2"
+ },
+ {
+  "id": "00EF7424",
+  "zh": "PL-SEQ-PL-WIFIPARADE"
+ },
+ {
+  "id": "00EF743C",
+  "zh": "PL-SEQ-PL-EV-GIRA"
+ },
+ {
+  "id": "00EF7450",
+  "zh": "PL-SEQ-PL-EV-GIRA2"
+ },
+ {
+  "id": "00EF7464",
+  "zh": "PL-SEQ-PL-D-GIRATINA"
+ },
+ {
+  "id": "00EF747C",
+  "zh": "PL-SEQ-PL-BA-GIRA"
+ },
+ {
+  "id": "00EF7490",
+  "zh": "PL-SEQ-PL-GURUGURU"
+ },
+ {
+  "id": "00EF74A4",
+  "zh": "PL-SEQ-PL-PTHAIFU"
+ },
+ {
+  "id": "00EF74B8",
+  "zh": "PL-SEQ-PL-MTKAWA"
+ },
+ {
+  "id": "00EF74CC",
+  "zh": "PL-SEQ-PL-MTKAKKO"
+ },
+ {
+  "id": "00EF74E0",
+  "zh": "PL-SEQ-PL-MTTAKMA"
+ },
+ {
+  "id": "00EF74F4",
+  "zh": "PL-SEQ-PL-MTUTSUK"
+ },
+ {
+  "id": "00EF7508",
+  "zh": "PL-SEQ-PL-MTKASHI"
+ },
+ {
+  "id": "00EF751C",
+  "zh": "PL-SEQ-PL-TOWN02"
+ },
+ {
+  "id": "00EF7530",
+  "zh": "PL-SEQ-PL-AUDIO"
+ },
+ {
+  "id": "00EF7540",
+  "zh": "PL-SEQ-CITY11-D"
+ },
+ {
+  "id": "00EF7550",
+  "zh": "PL-SEQ-PL-BF-ROULETTE"
+ },
+ {
+  "id": "00EF7568",
+  "zh": "PL-SEQ-PL-DON2"
+ },
+ {
+  "id": "00EF7578",
+  "zh": "PL-SEQ-PL-BF-STAGE"
+ },
+ {
+  "id": "00EF758C",
+  "zh": "PL-SEQ-PL-BF-FACTORY"
+ },
+ {
+  "id": "00EF75A4",
+  "zh": "PL-SEQ-PL-BF-CASTLE"
+ },
+ {
+  "id": "00EF75B8",
+  "zh": "PL-SEQ-PL-FRO"
+ },
+ {
+  "id": "00EF75C8",
+  "zh": "PL-SEQ-PL-POINTGET3"
+ },
+ {
+  "id": "00EF75DC",
+  "zh": "PL-SEQ-PL-BA-BRAIN"
+ },
+ {
+  "id": "00EF75F0",
+  "zh": "PL-SEQ-PL-WINBRAIN"
+ },
+ {
+  "id": "00EF7604",
+  "zh": "PL-SEQ-PL-BA-REGI"
+ },
+ {
+  "id": "00EF7618",
+  "zh": "HG-SEQ-GS-TITLE"
+ },
+ {
+  "id": "00EF7628",
+  "zh": "HG-SEQ-GS-POKEMON-THEME"
+ },
+ {
+  "id": "00EF7640",
+  "zh": "HG-SEQ-GS-STARTING"
+ },
+ {
+  "id": "00EF7654",
+  "zh": "HG-SEQ-GS-T-WAKABA"
+ },
+ {
+  "id": "00EF7668",
+  "zh": "HG-SEQ-GS-E-TSURETEKE1"
+ },
+ {
+  "id": "00EF7680",
+  "zh": "HG-SEQ-GS-E-SUPPORT-F"
+ },
+ {
+  "id": "00EF7698",
+  "zh": "HG-SEQ-GS-E-SUPPORT-M"
+ },
+ {
+  "id": "00EF76B0",
+  "zh": "HG-SEQ-GS-UTSUGI-RABO"
+ },
+ {
+  "id": "00EF76C8",
+  "zh": "HG-SEQ-ME-KEYITEM"
+ },
+ {
+  "id": "00EF76DC",
+  "zh": "HG-SEQ-GS-R-1-29"
+ },
+ {
+  "id": "00EF76F0",
+  "zh": "HG-SEQ-GS-VS-NORAPOKE"
+ },
+ {
+  "id": "00EF7708",
+  "zh": "HG-SEQ-GS-WIN2"
+ },
+ {
+  "id": "00EF7718",
+  "zh": "HG-SEQ-GS-WIN2-NOT-FAN"
+ },
+ {
+  "id": "00EF7730",
+  "zh": "HG-SEQ-ME-LVUP"
+ },
+ {
+  "id": "00EF7740",
+  "zh": "HG-SEQ-GS-C-YOSHINO"
+ },
+ {
+  "id": "00EF7754",
+  "zh": "HG-SEQ-GS-E-TSURETEKE2"
+ },
+ {
+  "id": "00EF776C",
+  "zh": "HG-SEQ-GS-POKESEN"
+ },
+ {
+  "id": "00EF7780",
+  "zh": "HG-SEQ-ME-ASA"
+ },
+ {
+  "id": "00EF7790",
+  "zh": "HG-SEQ-GS-EYE-J-SHOUNEN"
+ },
+ {
+  "id": "00EF77A8",
+  "zh": "HG-SEQ-GS-VS-TRAINER"
+ },
+ {
+  "id": "00EF77C0",
+  "zh": "HG-SEQ-GS-WIN1"
+ },
+ {
+  "id": "00EF77D0",
+  "zh": "HG-SEQ-GS-R-1-30"
+ },
+ {
+  "id": "00EF77E4",
+  "zh": "HG-SEQ-ME-HYOUKA1"
+ },
+ {
+  "id": "00EF77F8",
+  "zh": "HG-SEQ-GS-C-KIKYOU"
+ },
+ {
+  "id": "00EF780C",
+  "zh": "HG-SEQ-GS-TO-MADATSUBOMI1"
+ },
+ {
+  "id": "00EF7828",
+  "zh": "HG-SEQ-GS-EYE-BOUZU"
+ },
+ {
+  "id": "00EF783C",
+  "zh": "HG-SEQ-GS-FS"
+ },
+ {
+  "id": "00EF784C",
+  "zh": "HG-SEQ-ME-TAMAGO-GET"
+ },
+ {
+  "id": "00EF7864",
+  "zh": "HG-SEQ-GS-E-MAIKO-THEME"
+ },
+ {
+  "id": "00EF787C",
+  "zh": "HG-SEQ-GS-D-CHIKATSUURO"
+ },
+ {
+  "id": "00EF7894",
+  "zh": "HG-SEQ-ME-ITEM"
+ },
+ {
+  "id": "00EF78A4",
+  "zh": "HG-SEQ-GS-D-UNKNOWN-ISEKI"
+ },
+ {
+  "id": "00EF78C0",
+  "zh": "HG-SEQ-GS-RADIO-UNKNOWN"
+ },
+ {
+  "id": "00EF78D8",
+  "zh": "HG-SEQ-ME-HYOUKA2"
+ },
+ {
+  "id": "00EF78EC",
+  "zh": "HG-SEQ-GS-T-HIWADA"
+ },
+ {
+  "id": "00EF7900",
+  "zh": "HG-SEQ-GS-EYE-ROCKET"
+ },
+ {
+  "id": "00EF7918",
+  "zh": "HG-SEQ-GS-VS-ROCKET"
+ },
+ {
+  "id": "00EF792C",
+  "zh": "HG-SEQ-GS-R-4-34"
+ },
+ {
+  "id": "00EF7940",
+  "zh": "HG-SEQ-GS-E-RIVAL1"
+ },
+ {
+  "id": "00EF7954",
+  "zh": "HG-SEQ-GS-VS-RIVAL"
+ },
+ {
+  "id": "00EF7968",
+  "zh": "HG-SEQ-GS-SHINKA"
+ },
+ {
+  "id": "00EF797C",
+  "zh": "HG-SEQ-GS-KOUKAN"
+ },
+ {
+  "id": "00EF7990",
+  "zh": "HG-SEQ-ME-SHINKAOME"
+ },
+ {
+  "id": "00EF79A4",
+  "zh": "HG-SEQ-GS-C-KOGANE"
+ },
+ {
+  "id": "00EF79B8",
+  "zh": "HG-SEQ-GS-GYM"
+ },
+ {
+  "id": "00EF79C8",
+  "zh": "HG-SEQ-GS-VS-GYMREADER"
+ },
+ {
+  "id": "00EF79E0",
+  "zh": "HG-SEQ-GS-WIN3"
+ },
+ {
+  "id": "00EF79F0",
+  "zh": "HG-SEQ-ME-BADGE"
+ },
+ {
+  "id": "00EF7A00",
+  "zh": "HG-SEQ-GS-RADIO-JINGLE"
+ },
+ {
+  "id": "00EF7A18",
+  "zh": "HG-SEQ-GS-AIKOTOBA"
+ },
+ {
+  "id": "00EF7A2C",
+  "zh": "HG-SEQ-ME-WAZA"
+ },
+ {
+  "id": "00EF7A3C",
+  "zh": "HG-SEQ-GS-GAME"
+ },
+ {
+  "id": "00EF7A4C",
+  "zh": "HG-SEQ-GS-GAMEATARI"
+ },
+ {
+  "id": "00EF7A60",
+  "zh": "HG-SEQ-ME-CARDGAME1"
+ },
+ {
+  "id": "00EF7A74",
+  "zh": "HG-SEQ-ME-CARDGAME2"
+ },
+ {
+  "id": "00EF7A88",
+  "zh": "HG-SEQ-ME-ACCE"
+ },
+ {
+  "id": "00EF7A98",
+  "zh": "HG-SEQ-GS-WIFITOWER"
+ },
+ {
+  "id": "00EF7AAC",
+  "zh": "HG-SEQ-GS-BLD-GTC"
+ },
+ {
+  "id": "00EF7AC0",
+  "zh": "HG-SEQ-ME-HYOUKA3"
+ },
+ {
+  "id": "00EF7AD4",
+  "zh": "HG-SEQ-PL-BICYCLE"
+ },
+ {
+  "id": "00EF7AE8",
+  "zh": "HG-SEQ-GS-EYE-J-SHOUJO"
+ },
+ {
+  "id": "00EF7B00",
+  "zh": "HG-SEQ-ME-POKEGEAR-REGIST"
+ },
+ {
+  "id": "00EF7B1C",
+  "zh": "HG-SEQ-GS-D-KOUEN"
+ },
+ {
+  "id": "00EF7B30",
+  "zh": "HG-SEQ-ME-KINOMI"
+ },
+ {
+  "id": "00EF7B44",
+  "zh": "HG-SEQ-GS-C-ENJU"
+ },
+ {
+  "id": "00EF7B58",
+  "zh": "HG-SEQ-GS-KABURENJOU"
+ },
+ {
+  "id": "00EF7B70",
+  "zh": "HG-SEQ-GS-TO-YAKETA"
+ },
+ {
+  "id": "00EF7B84",
+  "zh": "HG-SEQ-GS-E-MINAKI"
+ },
+ {
+  "id": "00EF7B98",
+  "zh": "HG-SEQ-GS-OHKIDO-RABO"
+ },
+ {
+  "id": "00EF7BB0",
+  "zh": "HG-SEQ-ME-HYOUKA4"
+ },
+ {
+  "id": "00EF7BC4",
+  "zh": "HG-SEQ-GS-R-6-38"
+ },
+ {
+  "id": "00EF7BD8",
+  "zh": "HG-SEQ-GS-RADIO-MARCH"
+ },
+ {
+  "id": "00EF7BF0",
+  "zh": "HG-SEQ-GS-VS-RAIKOU"
+ },
+ {
+  "id": "00EF7C04",
+  "zh": "HG-SEQ-GS-TO-TOUDAI"
+ },
+ {
+  "id": "00EF7C18",
+  "zh": "HG-SEQ-GS-NAMINORI"
+ },
+ {
+  "id": "00EF7C2C",
+  "zh": "HG-SEQ-GS-C-TANBA"
+ },
+ {
+  "id": "00EF7C40",
+  "zh": "HG-SEQ-ME-PT-SPECIAL"
+ },
+ {
+  "id": "00EF7C58",
+  "zh": "HG-SEQ-GS-R-7-42"
+ },
+ {
+  "id": "00EF7C6C",
+  "zh": "HG-SEQ-GS-KAIDENPA"
+ },
+ {
+  "id": "00EF7C80",
+  "zh": "HG-SEQ-GS-D-AJITO"
+ },
+ {
+  "id": "00EF7C94",
+  "zh": "HG-SEQ-GS-EYE-J-AYASHII"
+ },
+ {
+  "id": "00EF7CAC",
+  "zh": "HG-SEQ-GS-E-RIVAL2"
+ },
+ {
+  "id": "00EF7CC0",
+  "zh": "HG-SEQ-GS-SENKYO"
+ },
+ {
+  "id": "00EF7CD4",
+  "zh": "HG-SEQ-GS-D-KOORINONUKE"
+ },
+ {
+  "id": "00EF7CEC",
+  "zh": "HG-SEQ-ME-WASURE"
+ },
+ {
+  "id": "00EF7D00",
+  "zh": "HG-SEQ-GS-RYUUNOANA"
+ },
+ {
+  "id": "00EF7D14",
+  "zh": "HG-SEQ-GS-IBUKI"
+ },
+ {
+  "id": "00EF7D24",
+  "zh": "HG-SEQ-GS-VS-ENTEI"
+ },
+ {
+  "id": "00EF7D38",
+  "zh": "HG-SEQ-GS-TO-SUZU"
+ },
+ {
+  "id": "00EF7D4C",
+  "zh": "HG-SEQ-GS-E-MAIKO-MAI"
+ },
+ {
+  "id": "00EF7D64",
+  "zh": "HG-SEQ-GS-E-HOUOU"
+ },
+ {
+  "id": "00EF7D78",
+  "zh": "HG-SEQ-GS-VS-HOUOU"
+ },
+ {
+  "id": "00EF7D8C",
+  "zh": "HG-SEQ-GS-R-1-26"
+ },
+ {
+  "id": "00EF7DA0",
+  "zh": "HG-SEQ-GS-KOUSOKUSEN"
+ },
+ {
+  "id": "00EF7DB8",
+  "zh": "HG-SEQ-GS-C-KUCHIBA"
+ },
+ {
+  "id": "00EF7DCC",
+  "zh": "HG-SEQ-GS-VS-GYMREADER-KANTO"
+ },
+ {
+  "id": "00EF7DEC",
+  "zh": "HG-SEQ-GS-T-CHION"
+ },
+ {
+  "id": "00EF7E00",
+  "zh": "HG-SEQ-GS-D-IWAYAMA"
+ },
+ {
+  "id": "00EF7E14",
+  "zh": "HG-SEQ-GS-VS-NORAPOKE-KANTO"
+ },
+ {
+  "id": "00EF7E30",
+  "zh": "HG-SEQ-ME-HYOUKA5"
+ },
+ {
+  "id": "00EF7E44",
+  "zh": "HG-SEQ-GS-C-HANADA"
+ },
+ {
+  "id": "00EF7E58",
+  "zh": "HG-SEQ-GS-R-12-24"
+ },
+ {
+  "id": "00EF7E6C",
+  "zh": "HG-SEQ-GS-E-LINEAR"
+ },
+ {
+  "id": "00EF7E80",
+  "zh": "HG-SEQ-GS-RADIO-KOMORIUTA"
+ },
+ {
+  "id": "00EF7E9C",
+  "zh": "HG-SEQ-GS-VS-SUICUNE"
+ },
+ {
+  "id": "00EF7EB4",
+  "zh": "HG-SEQ-GS-C-TAMAMUSHI"
+ },
+ {
+  "id": "00EF7ECC",
+  "zh": "HG-SEQ-GS-R-10-11"
+ },
+ {
+  "id": "00EF7EE0",
+  "zh": "HG-SEQ-GS-HUE"
+ },
+ {
+  "id": "00EF7EF0",
+  "zh": "HG-SEQ-GS-D-TOKIWANOMORI3"
+ },
+ {
+  "id": "00EF7F0C",
+  "zh": "HG-SEQ-GS-EYE-K-SHOUNEN"
+ },
+ {
+  "id": "00EF7F24",
+  "zh": "HG-SEQ-GS-C-YAMABUKI"
+ },
+ {
+  "id": "00EF7F3C",
+  "zh": "HG-SEQ-GS-R-9-03"
+ },
+ {
+  "id": "00EF7F50",
+  "zh": "HG-SEQ-GS-EYE-K-AYASHII"
+ },
+ {
+  "id": "00EF7F68",
+  "zh": "HG-SEQ-GS-OTSUKIMI-EVENT"
+ },
+ {
+  "id": "00EF7F84",
+  "zh": "HG-SEQ-GS-R-9-01"
+ },
+ {
+  "id": "00EF7F98",
+  "zh": "HG-SEQ-GS-T-MASARA"
+ },
+ {
+  "id": "00EF7FAC",
+  "zh": "HG-SEQ-GS-OHKIDO"
+ },
+ {
+  "id": "00EF7FC0",
+  "zh": "HG-SEQ-ME-HYOUKA6"
+ },
+ {
+  "id": "00EF7FD4",
+  "zh": "HG-SEQ-GS-EYE-K-SHOUJO"
+ },
+ {
+  "id": "00EF7FEC",
+  "zh": "HG-SEQ-GS-VS-TRAINER-KANTO"
+ },
+ {
+  "id": "00EF8008",
+  "zh": "HG-SEQ-GS-T-GUREN"
+ },
+ {
+  "id": "00EF801C",
+  "zh": "HG-SEQ-GS-SAFARI-ROAD"
+ },
+ {
+  "id": "00EF8034",
+  "zh": "HG-SEQ-GS-SAFARI-HOUSE"
+ },
+ {
+  "id": "00EF804C",
+  "zh": "HG-SEQ-GS-SAFARI-FIELD"
+ },
+ {
+  "id": "00EF8064",
+  "zh": "HG-SEQ-GS-RADIO-VARIETY"
+ },
+ {
+  "id": "00EF807C",
+  "zh": "HG-SEQ-GS-TAIKAIMAE"
+ },
+ {
+  "id": "00EF8090",
+  "zh": "HG-SEQ-GS-TAIKAI"
+ },
+ {
+  "id": "00EF80A4",
+  "zh": "HG-SEQ-ME-MUSHITORI3"
+ },
+ {
+  "id": "00EF80BC",
+  "zh": "HG-SEQ-ME-MUSHITORI2"
+ },
+ {
+  "id": "00EF80D4",
+  "zh": "HG-SEQ-ME-MUSHITORI1"
+ },
+ {
+  "id": "00EF80EC",
+  "zh": "HG-SEQ-GS-PT-ENTR"
+ },
+ {
+  "id": "00EF8100",
+  "zh": "HG-SEQ-ME-PT-NEW"
+ },
+ {
+  "id": "00EF8114",
+  "zh": "HG-SEQ-GS-PT-OPEN"
+ },
+ {
+  "id": "00EF8128",
+  "zh": "HG-SEQ-GS-PT-TITLE"
+ },
+ {
+  "id": "00EF813C",
+  "zh": "HG-SEQ-GS-PT-GAME"
+ },
+ {
+  "id": "00EF8150",
+  "zh": "HG-SEQ-ME-PT-RESULTG"
+ },
+ {
+  "id": "00EF8168",
+  "zh": "HG-SEQ-GS-PT-GAMEF"
+ },
+ {
+  "id": "00EF817C",
+  "zh": "HG-SEQ-GS-PT-RESULT"
+ },
+ {
+  "id": "00EF8190",
+  "zh": "HG-SEQ-GS-PT-END"
+ },
+ {
+  "id": "00EF81A4",
+  "zh": "HG-SEQ-GS-PT-VICTORY"
+ },
+ {
+  "id": "00EF81BC",
+  "zh": "HG-SEQ-GS-WIFI-PRESENT"
+ },
+ {
+  "id": "00EF81D4",
+  "zh": "HG-SEQ-GS-BATTLETOWER2"
+ },
+ {
+  "id": "00EF81EC",
+  "zh": "HG-SEQ-GS-BATTLETOWER"
+ },
+ {
+  "id": "00EF8204",
+  "zh": "HG-SEQ-ME-BPGET"
+ },
+ {
+  "id": "00EF8214",
+  "zh": "HG-SEQ-GS-BF-FACTORY"
+ },
+ {
+  "id": "00EF822C",
+  "zh": "HG-SEQ-GS-BF-STAGE"
+ },
+ {
+  "id": "00EF8240",
+  "zh": "HG-SEQ-GS-BF-ROULETTE"
+ },
+ {
+  "id": "00EF8258",
+  "zh": "HG-SEQ-ME-ROULETTE"
+ },
+ {
+  "id": "00EF826C",
+  "zh": "HG-SEQ-GS-BF-CASTLE"
+ },
+ {
+  "id": "00EF8280",
+  "zh": "HG-SEQ-ME-CASTLE"
+ },
+ {
+  "id": "00EF8294",
+  "zh": "HG-SEQ-GS-BA-BRAIN"
+ },
+ {
+  "id": "00EF82A8",
+  "zh": "HG-SEQ-GS-WINBRAIN"
+ },
+ {
+  "id": "00EF82BC",
+  "zh": "HG-SEQ-GS-RADIO-TRAINER"
+ },
+ {
+  "id": "00EF82D4",
+  "zh": "HG-SEQ-GS-GURUGURU"
+ },
+ {
+  "id": "00EF82E8",
+  "zh": "HG-SEQ-GS-WIFI-ACCESS"
+ },
+ {
+  "id": "00EF8300",
+  "zh": "HG-SEQ-GS-WIFIUNION"
+ },
+ {
+  "id": "00EF8314",
+  "zh": "HG-SEQ-GS-WIFIGAME"
+ },
+ {
+  "id": "00EF8328",
+  "zh": "HG-SEQ-ME-MINIGAME"
+ },
+ {
+  "id": "00EF833C",
+  "zh": "HG-SEQ-GS-WIFIPARADE"
+ },
+ {
+  "id": "00EF8354",
+  "zh": "HG-SEQ-GS-RADIO-R-101"
+ },
+ {
+  "id": "00EF836C",
+  "zh": "HG-SEQ-GS-RADIO-R-201"
+ },
+ {
+  "id": "00EF8384",
+  "zh": "HG-SEQ-GS-PHC"
+ },
+ {
+  "id": "00EF8394",
+  "zh": "HG-SEQ-GS-E-G-PICHU"
+ },
+ {
+  "id": "00EF83A8",
+  "zh": "HG-SEQ-GS-EYE-MAIKO"
+ },
+ {
+  "id": "00EF83BC",
+  "zh": "HG-SEQ-GS-E-LUGIA"
+ },
+ {
+  "id": "00EF83D0",
+  "zh": "HG-SEQ-GS-VS-LUGIA"
+ },
+ {
+  "id": "00EF83E4",
+  "zh": "HG-SEQ-GS-D-CHAMPROAD"
+ },
+ {
+  "id": "00EF83FC",
+  "zh": "HG-SEQ-GS-CHAMPROAD"
+ },
+ {
+  "id": "00EF8410",
+  "zh": "HG-SEQ-GS-VS-CHAMP"
+ },
+ {
+  "id": "00EF8424",
+  "zh": "HG-SEQ-GS-E-DENDOURIRI"
+ },
+ {
+  "id": "00EF843C",
+  "zh": "HG-SEQ-GS-ENDING"
+ },
+ {
+  "id": "00EF8450",
+  "zh": "HG-SEQ-GS-ENDING2"
+ },
+ {
+  "id": "00EF8464",
+  "zh": "HG-SEQ-GS-VS-KODAI"
+ },
+ {
+  "id": "00EF8478",
+  "zh": "HG-SEQ-GS-D-SHINTO"
+ },
+ {
+  "id": "00EF848C",
+  "zh": "HG-SEQ-GS-E-ARCEUS"
+ }
+]

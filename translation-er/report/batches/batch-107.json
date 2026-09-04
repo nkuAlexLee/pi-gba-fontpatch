@@ -1,0 +1,3511 @@
+{
+ "batch": 107,
+ "count": 191,
+ "tasks": [
+  {
+   "id": "00AB24D8",
+   "scene": "main-text",
+   "en": "A tablet that ups{{C0}}the power of Ice-{{C1}}type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00AB2508",
+   "scene": "main-text",
+   "en": "A tablet that ups{{C0}}the power of{{C1}}Poison-type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "00AB253C",
+   "scene": "main-text",
+   "en": "A tablet that ups{{C0}}the power of Psy-{{C1}}chic-type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2574",
+   "scene": "main-text",
+   "en": "A tablet that ups{{C0}}the power of Rock-{{C1}}type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB25A8",
+   "scene": "main-text",
+   "en": "A tablet that ups{{C0}}the power of Steel-{{C1}}type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steel→钢"
+   ]
+  },
+  {
+   "id": "00AB25DC",
+   "scene": "main-text",
+   "en": "A tablet that ups{{C0}}the power of Water-{{C1}}type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB2610",
+   "scene": "main-text",
+   "en": "Hold item: raises{{C0}}Sp. Atk & Sp. Def of{{C1}}Latios & Latias.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Latias→拉帝亚斯",
+    "Latios→拉帝欧斯"
+   ]
+  },
+  {
+   "id": "00AB2648",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}raises the Sp. Atk{{C1}}of Clamperl.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Clamperl→珍珠贝"
+   ]
+  },
+  {
+   "id": "00AB267C",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}raises the Sp. Def{{C1}}of Clamperl.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Clamperl→珍珠贝"
+   ]
+  },
+  {
+   "id": "00AB26B0",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}raises Chansey's{{C1}}critical-hit rate.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Chansey→吉利蛋"
+   ]
+  },
+  {
+   "id": "00AB26E8",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}raises Ditto's{{C1}}Defense.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ditto→百变怪"
+   ]
+  },
+  {
+   "id": "00AB2714",
+   "scene": "main-text",
+   "en": "A hold item that {{C0}}raises Cubone or{{C1}}Marowak's Attack.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Cubone→卡拉卡拉",
+    "Marowak→嘎啦嘎啦"
+   ]
+  },
+  {
+   "id": "00AB274C",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}raises Farfetch'd's{{C1}}critical-hit ratio.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2788",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}raises the power of{{C1}}Pikachu and Raichu.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pikachu→皮卡丘",
+    "Raichu→雷丘"
+   ]
+  },
+  {
+   "id": "00AB27C4",
+   "scene": "main-text",
+   "en": "An odd powder that{{C0}}boosts Ditto's{{C1}}speed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 41,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ditto→百变怪",
+    "Powder→粉尘"
+   ]
+  },
+  {
+   "id": "00AB27F0",
+   "scene": "main-text",
+   "en": "This orb enables{{C0}}Dialga to revert to{{C1}}its origin.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dialga→帝牙卢卡"
+   ]
+  },
+  {
+   "id": "00AB2824",
+   "scene": "main-text",
+   "en": "This orb enables{{C0}}Palkia to revert to{{C1}}its origin.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Palkia→帕路奇亚"
+   ]
+  },
+  {
+   "id": "00AB2858",
+   "scene": "main-text",
+   "en": "This orb enables{{C0}}Giratina to revert{{C1}}to origin.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Giratina→骑拉帝纳"
+   ]
+  },
+  {
+   "id": "00AB2888",
+   "scene": "main-text",
+   "en": "Changes Genesect's{{C0}}Techno Blast to{{C1}}Water-type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Genesect→盖诺赛克特",
+    "Techno Blast→高科技光炮",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB28B8",
+   "scene": "main-text",
+   "en": "Changes Genesect's{{C0}}Techno Blast to{{C1}}Electric-type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Genesect→盖诺赛克特",
+    "Techno Blast→高科技光炮",
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "00AB28EC",
+   "scene": "main-text",
+   "en": "Changes Genesect's{{C0}}Techno Blast to{{C1}}Fire-type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Genesect→盖诺赛克特",
+    "Techno Blast→高科技光炮",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "00AB291C",
+   "scene": "main-text",
+   "en": "Changes Genesect's{{C0}}Techno Blast to{{C1}}Ice-type.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Genesect→盖诺赛克特",
+    "Techno Blast→高科技光炮",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "00AB294C",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}slightly boosts{{C1}}Water-type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB2980",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}slightly lowers the{{C1}}foe's accuracy.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB29B8",
+   "scene": "main-text",
+   "en": "Doubles money in{{C0}}battle if the{{C1}}holder takes part.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB29EC",
+   "scene": "main-text",
+   "en": "Massively boosts{{C0}}Exp. gain for{{C1}}weaker Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2A1C",
+   "scene": "main-text",
+   "en": "Repels weak wild{{C0}}Pokémon until you{{C1}}turn it off.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2A4C",
+   "scene": "main-text",
+   "en": "Sets Speed IVs to{{C0}}0. Use again to set{{C1}}back to 31.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2A80",
+   "scene": "main-text",
+   "en": "Ability changes are{{C0}}prevented for this{{C1}}items's holder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2AB8",
+   "scene": "main-text",
+   "en": "Stat lowering is{{C0}}prevented for this{{C1}}items's holder.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2AEC",
+   "scene": "main-text",
+   "en": "Mirrors an enemy's{{C0}}stat increases but{{C1}}only once.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2B20",
+   "scene": "main-text",
+   "en": "Powers up punching{{C0}}moves and removes{{C1}}their contact.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2B54",
+   "scene": "main-text",
+   "en": "Protects from{{C0}}secondary move{{C1}}effects.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 38,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2B7C",
+   "scene": "main-text",
+   "en": "Rolls high numbers.{{C0}}Multihit strikes hit{{C1}}more times.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2BB4",
+   "scene": "main-text",
+   "en": "A hold item that{{C0}}raises the power of{{C1}}Fairy-type moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fairy→妖精"
+   ]
+  },
+  {
+   "id": "00AB2BEC",
+   "scene": "main-text",
+   "en": "A bizarre orb that{{C0}}inflicts frostbite{{C1}}on holder in battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2C28",
+   "scene": "main-text",
+   "en": "Raises Def but{{C0}}prevents the use{{C1}}of status moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2C5C",
+   "scene": "main-text",
+   "en": "Encapsuled energy{{C0}}ups Pokémon with{{C1}}certain Abilities.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2C94",
+   "scene": "main-text",
+   "en": "Swaps the split of{{C0}}attacking moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2CBC",
+   "scene": "main-text",
+   "en": "Voices can be heard{{C0}}from this odd stone{{C1}}occasionally.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2CF4",
+   "scene": "main-text",
+   "en": "Bouquets made with{{C0}}it are offered as a{{C1}}token of gratitude.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 59,
+   "hint": "纯中文≤29字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2D30",
+   "scene": "main-text",
+   "en": "Enables {{C0}} holding{{C1}}their Mega Stone to{{C2}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[PKMN]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2D64",
+   "scene": "main-text",
+   "en": "A folding bicycle{{C0}}that doubles your{{C1}}speed or better.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2D9C",
+   "scene": "main-text",
+   "en": "A case that holds{{C0}}up to 9,999 Coins.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 37,
+   "hint": "纯中文≤18字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2DC4",
+   "scene": "main-text",
+   "en": "A device that{{C0}}signals an invisible{{C1}}item by sound.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2DF8",
+   "scene": "main-text",
+   "en": "Use by any body of{{C0}}water to fish for{{C1}}wild Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Water→水"
+   ]
+  },
+  {
+   "id": "00AB2E2C",
+   "scene": "main-text",
+   "en": "A decent fishing{{C0}}rod for catching{{C1}}wild Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2E5C",
+   "scene": "main-text",
+   "en": "The best fishing{{C0}}rod for catching{{C1}}wild Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2E8C",
+   "scene": "main-text",
+   "en": "The ticket required{{C0}}for sailing on a{{C1}}ferry.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 44,
+   "hint": "纯中文≤21字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2EB8",
+   "scene": "main-text",
+   "en": "The pass required{{C0}}for entering{{C1}}Pokémon Contests.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pass→磁浮列车自由票"
+   ]
+  },
+  {
+   "id": "00AB2EEC",
+   "scene": "main-text",
+   "en": "A tool used for{{C0}}watering Berries{{C1}}and plants.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2F1C",
+   "scene": "main-text",
+   "en": "A package that{{C0}}contains Devon's{{C1}}machine parts.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2F4C",
+   "scene": "main-text",
+   "en": "A sack used to{{C0}}gather and hold{{C1}}volcanic ash.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2F7C",
+   "scene": "main-text",
+   "en": "The key for New{{C0}}Mauville beneath{{C1}}Mauville City.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2FAC",
+   "scene": "main-text",
+   "en": "A folding bicycle{{C0}}capable of jumps{{C1}}and wheelies.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB2FE0",
+   "scene": "main-text",
+   "en": "Is that a Pokémon{{C0}}egg on the floor?{{C1}}Better pick it up!",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Egg→水煮蛋片"
+   ]
+  },
+  {
+   "id": "00AB3018",
+   "scene": "main-text",
+   "en": "A letter to Steven{{C0}}from the President{{C1}}of the Devon Corp.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 57,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Letter→给大吾的信"
+   ]
+  },
+  {
+   "id": "00AB3054",
+   "scene": "main-text",
+   "en": "The ticket for a{{C0}}ferry to a distant{{C1}}southern island.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB308C",
+   "scene": "main-text",
+   "en": "An odd charm that{{C0}}boosts all Exp. gain{{C1}}by 50%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇"
+   ]
+  },
+  {
+   "id": "00AB30BC",
+   "scene": "main-text",
+   "en": "A bottle used to{{C0}}seal a certain{{C1}}Pokémon long ago.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB30F0",
+   "scene": "main-text",
+   "en": "A device found{{C0}}inside the{{C1}}Abandoned Ship.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 42,
+   "hint": "纯中文≤20字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB311C",
+   "scene": "main-text",
+   "en": "Nifty goggles that{{C0}}protect eyes from{{C1}}desert sandstorms.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Protect→守住"
+   ]
+  },
+  {
+   "id": "00AB3154",
+   "scene": "main-text",
+   "en": "A meteorite found{{C0}}at Meteor Falls.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meteorite→陨石"
+   ]
+  },
+  {
+   "id": "00AB3178",
+   "scene": "main-text",
+   "en": "A key that opens a{{C0}}door inside the{{C1}}Abandoned Ship.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB31AC",
+   "scene": "main-text",
+   "en": "The key to the{{C0}}storage inside the{{C1}}Abandoned Ship.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB31E0",
+   "scene": "main-text",
+   "en": "A device by Devon{{C0}}that signals any{{C1}}unseeable Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3218",
+   "scene": "main-text",
+   "en": "A magma-filled{{C0}}stone formed from{{C1}}melted boulders.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB324C",
+   "scene": "main-text",
+   "en": "A feather that{{C0}}glows like the moon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3270",
+   "scene": "main-text",
+   "en": "A charm that will{{C0}}raise the chance of{{C1}}Shiny Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charm→撒娇"
+   ]
+  },
+  {
+   "id": "00AB32A8",
+   "scene": "main-text",
+   "en": "Raises the chance{{C0}}of finding eggs at{{C1}}the daycare.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 50,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB32DC",
+   "scene": "main-text",
+   "en": "A medal-like item in{{C0}}the same shape as{{C1}}Team Magma's mark.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3318",
+   "scene": "main-text",
+   "en": "A faded sea chart{{C0}}that shows the way{{C1}}to a certain island.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 58,
+   "hint": "纯中文≤28字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3354",
+   "scene": "main-text",
+   "en": "A ticket required{{C0}}to board the ship{{C1}}to Navel Rock.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 51,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石"
+   ]
+  },
+  {
+   "id": "00AB3388",
+   "scene": "main-text",
+   "en": "A ticket required{{C0}}to board the ship{{C1}}to Birth Island.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB33C0",
+   "scene": "main-text",
+   "en": "Stores Berry{{C0}}Powder made using a{{C1}}Berry Crusher.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘"
+   ]
+  },
+  {
+   "id": "00AB33F0",
+   "scene": "main-text",
+   "en": "This glass returns{{C0}}a Pokémon back to{{C1}}its original form.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3428",
+   "scene": "main-text",
+   "en": "Splicer that fuses{{C0}}Kyurem and a{{C1}}certain Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kyurem→酋雷姆"
+   ]
+  },
+  {
+   "id": "00AB345C",
+   "scene": "main-text",
+   "en": "Potent medicine{{C0}}that fully restores{{C1}}all Pokémon.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3490",
+   "scene": "main-text",
+   "en": "Increases the odds{{C0}}of getting a{{C1}}critical catch.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 48,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB34C0",
+   "scene": "main-text",
+   "en": "A list of devices{{C0}}used to change{{C1}}Rotom's form.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rotom→洛托姆"
+   ]
+  },
+  {
+   "id": "00AB34F0",
+   "scene": "main-text",
+   "en": "Reins that unite{{C0}}Calyrex with its{{C1}}beloved steed.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 49,
+   "hint": "纯中文≤24字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Calyrex→蕾冠王"
+   ]
+  },
+  {
+   "id": "00AB3524",
+   "scene": "main-text",
+   "en": "A strange carrot{{C0}}that grew in a{{C1}}snowy field.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 45,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3554",
+   "scene": "main-text",
+   "en": "A strange carrot{{C0}}that grew in a{{C1}}gloomy field.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 46,
+   "hint": "纯中文≤22字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB3584",
+   "scene": "main-text",
+   "en": "A mysterious{{C0}}wooden object.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 28,
+   "hint": "纯中文≤13字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "00AB35A0",
+   "scene": "main-text",
+   "en": "A device to fuse{{C0}}and split Necrozma{{C1}}using a Lunala.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 52,
+   "hint": "纯中文≤25字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lunala→露奈雅拉",
+    "Necrozma→奈克洛兹玛"
+   ]
+  },
+  {
+   "id": "00AB35D4",
+   "scene": "main-text",
+   "en": "A device to fuse{{C0}}and split Necrozma{{C1}}using a Solgaleo.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Solgaleo→索尔迦雷欧",
+    "Necrozma→奈克洛兹玛"
+   ]
+  },
+  {
+   "id": "00AB360C",
+   "scene": "main-text",
+   "en": "Enables Abomasnow{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Abomasnow→暴雪王"
+   ]
+  },
+  {
+   "id": "00AB3630",
+   "scene": "main-text",
+   "en": "Enables Absol to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 30,
+   "hint": "纯中文≤14字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Absol→阿勃梭鲁"
+   ]
+  },
+  {
+   "id": "00AB3650",
+   "scene": "main-text",
+   "en": "Enables Aerodactyl{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aerodactyl→化石翼龙"
+   ]
+  },
+  {
+   "id": "00AB3674",
+   "scene": "main-text",
+   "en": "Enables Aggron to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Aggron→波士可多拉"
+   ]
+  },
+  {
+   "id": "00AB3694",
+   "scene": "main-text",
+   "en": "Enables Alakazam{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Alakazam→胡地"
+   ]
+  },
+  {
+   "id": "00AB36B8",
+   "scene": "main-text",
+   "en": "Enables Altaria to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Altaria→七夕青鸟"
+   ]
+  },
+  {
+   "id": "00AB36D8",
+   "scene": "main-text",
+   "en": "Enables Ampharos{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ampharos→电龙"
+   ]
+  },
+  {
+   "id": "00AB36FC",
+   "scene": "main-text",
+   "en": "Enables Audino to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Audino→差不多娃娃"
+   ]
+  },
+  {
+   "id": "00AB371C",
+   "scene": "main-text",
+   "en": "Enables Banette to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Banette→诅咒娃娃"
+   ]
+  },
+  {
+   "id": "00AB373C",
+   "scene": "main-text",
+   "en": "Enables Beedrill to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beedrill→大针蜂"
+   ]
+  },
+  {
+   "id": "00AB3760",
+   "scene": "main-text",
+   "en": "Enables Blastoise{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blastoise→水箭龟"
+   ]
+  },
+  {
+   "id": "00AB3784",
+   "scene": "main-text",
+   "en": "Enables Blaziken to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blaziken→火焰鸡"
+   ]
+  },
+  {
+   "id": "00AB37A8",
+   "scene": "main-text",
+   "en": "Enables Camerupt{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Camerupt→喷火驼"
+   ]
+  },
+  {
+   "id": "00AB37CC",
+   "scene": "main-text",
+   "en": "Enables Charizard{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Charizard→喷火龙"
+   ]
+  },
+  {
+   "id": "00AB37F0",
+   "scene": "main-text",
+   "en": "Enables Diancie to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Diancie→蒂安希"
+   ]
+  },
+  {
+   "id": "00AB3810",
+   "scene": "main-text",
+   "en": "Enables Gallade to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gallade→艾路雷朵"
+   ]
+  },
+  {
+   "id": "00AB3830",
+   "scene": "main-text",
+   "en": "Enables Garchomp{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Garchomp→烈咬陆鲨"
+   ]
+  },
+  {
+   "id": "00AB3854",
+   "scene": "main-text",
+   "en": "Enables Gardevoir{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gardevoir→沙奈朵"
+   ]
+  },
+  {
+   "id": "00AB3878",
+   "scene": "main-text",
+   "en": "Enables Gengar to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gengar→耿鬼"
+   ]
+  },
+  {
+   "id": "00AB3898",
+   "scene": "main-text",
+   "en": "Enables Glalie to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Glalie→冰鬼护"
+   ]
+  },
+  {
+   "id": "00AB38B8",
+   "scene": "main-text",
+   "en": "Enables Gyarados{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Gyarados→暴鲤龙"
+   ]
+  },
+  {
+   "id": "00AB38DC",
+   "scene": "main-text",
+   "en": "Enables Heracross{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Heracross→赫拉克罗斯"
+   ]
+  },
+  {
+   "id": "00AB3900",
+   "scene": "main-text",
+   "en": "Enables Houndoom{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Houndoom→黑鲁加"
+   ]
+  },
+  {
+   "id": "00AB3924",
+   "scene": "main-text",
+   "en": "Enables Kangaskhan{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kangaskhan→袋兽"
+   ]
+  },
+  {
+   "id": "00AB3948",
+   "scene": "main-text",
+   "en": "Enables Latias to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Latias→拉帝亚斯"
+   ]
+  },
+  {
+   "id": "00AB3968",
+   "scene": "main-text",
+   "en": "Enables Latios to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Latios→拉帝欧斯"
+   ]
+  },
+  {
+   "id": "00AB3988",
+   "scene": "main-text",
+   "en": "Enables Lopunny to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lopunny→长耳兔"
+   ]
+  },
+  {
+   "id": "00AB39A8",
+   "scene": "main-text",
+   "en": "Enables Lucario to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lucario→路卡利欧"
+   ]
+  },
+  {
+   "id": "00AB39C8",
+   "scene": "main-text",
+   "en": "Enables Manectric{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Manectric→雷电兽"
+   ]
+  },
+  {
+   "id": "00AB39EC",
+   "scene": "main-text",
+   "en": "Enables Mawile to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mawile→大嘴娃"
+   ]
+  },
+  {
+   "id": "00AB3A0C",
+   "scene": "main-text",
+   "en": "Enables Medicham{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Medicham→恰雷姆"
+   ]
+  },
+  {
+   "id": "00AB3A30",
+   "scene": "main-text",
+   "en": "Enables Metagross{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Metagross→巨金怪"
+   ]
+  },
+  {
+   "id": "00AB3A54",
+   "scene": "main-text",
+   "en": "Enables Mewtwo to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mewtwo→超梦"
+   ]
+  },
+  {
+   "id": "00AB3A74",
+   "scene": "main-text",
+   "en": "Enables Pidgeot to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pidgeot→大比鸟"
+   ]
+  },
+  {
+   "id": "00AB3A94",
+   "scene": "main-text",
+   "en": "Enables Pinsir to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pinsir→凯罗斯"
+   ]
+  },
+  {
+   "id": "00AB3AB4",
+   "scene": "main-text",
+   "en": "Enables Sableye to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sableye→勾魂眼"
+   ]
+  },
+  {
+   "id": "00AB3AD4",
+   "scene": "main-text",
+   "en": "Enables Salamence{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Salamence→暴飞龙"
+   ]
+  },
+  {
+   "id": "00AB3AF8",
+   "scene": "main-text",
+   "en": "Enables Sceptile to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sceptile→蜥蜴王"
+   ]
+  },
+  {
+   "id": "00AB3B1C",
+   "scene": "main-text",
+   "en": "Enables Scizor to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scizor→巨钳螳螂"
+   ]
+  },
+  {
+   "id": "00AB3B3C",
+   "scene": "main-text",
+   "en": "Enables Sharpedo{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sharpedo→巨牙鲨"
+   ]
+  },
+  {
+   "id": "00AB3B60",
+   "scene": "main-text",
+   "en": "Enables Slowbro to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slowbro→呆壳兽"
+   ]
+  },
+  {
+   "id": "00AB3B80",
+   "scene": "main-text",
+   "en": "Enables Steelix to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Steelix→大钢蛇"
+   ]
+  },
+  {
+   "id": "00AB3BA0",
+   "scene": "main-text",
+   "en": "Enables Swampert{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swampert→巨沼怪"
+   ]
+  },
+  {
+   "id": "00AB3BC4",
+   "scene": "main-text",
+   "en": "Enables Tyranitar{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tyranitar→班基拉斯"
+   ]
+  },
+  {
+   "id": "00AB3BE8",
+   "scene": "main-text",
+   "en": "Enables Venusaur{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Venusaur→妙蛙花"
+   ]
+  },
+  {
+   "id": "00AB3C0C",
+   "scene": "main-text",
+   "en": "Enables Milotic to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Milotic→美纳斯"
+   ]
+  },
+  {
+   "id": "00AB3C2C",
+   "scene": "main-text",
+   "en": "A red, glowing orb{{C0}}said to contain an{{C1}}ancient power.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 53,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ancient Power→原始之力"
+   ]
+  },
+  {
+   "id": "00AB3C64",
+   "scene": "main-text",
+   "en": "A blue, glowing orb{{C0}}said to contain an{{C1}}ancient power.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 54,
+   "hint": "纯中文≤26字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ancient Power→原始之力"
+   ]
+  },
+  {
+   "id": "00AB3C9C",
+   "scene": "main-text",
+   "en": "Enables Flygon to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flygon→沙漠蜻蜓"
+   ]
+  },
+  {
+   "id": "00AB3CBC",
+   "scene": "main-text",
+   "en": "Enables Butterfree{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Butterfree→巴大蝶"
+   ]
+  },
+  {
+   "id": "00AB3CE0",
+   "scene": "main-text",
+   "en": "Enables Lapras to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lapras→拉普拉斯"
+   ]
+  },
+  {
+   "id": "00AB3D00",
+   "scene": "main-text",
+   "en": "Enables Machamp to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Machamp→怪力"
+   ]
+  },
+  {
+   "id": "00AB3D20",
+   "scene": "main-text",
+   "en": "Enables Kingler to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kingler→巨钳蟹"
+   ]
+  },
+  {
+   "id": "00AB3D40",
+   "scene": "main-text",
+   "en": "Enables Kingdra to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kingdra→刺龙王"
+   ]
+  },
+  {
+   "id": "00AB3D60",
+   "scene": "main-text",
+   "en": "Enables Dewgong to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dewgong→白海狮"
+   ]
+  },
+  {
+   "id": "00AB3D80",
+   "scene": "main-text",
+   "en": "Enables Hitmonchan{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hitmonchan→快拳郎"
+   ]
+  },
+  {
+   "id": "00AB3DA4",
+   "scene": "main-text",
+   "en": "Enables Hitmonlee{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hitmonlee→飞腿郎"
+   ]
+  },
+  {
+   "id": "00AB3DC8",
+   "scene": "main-text",
+   "en": "Enables Hitmontop{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hitmontop→战舞郎"
+   ]
+  },
+  {
+   "id": "00AB3DEC",
+   "scene": "main-text",
+   "en": "Enables Crobat to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Crobat→叉字蝠"
+   ]
+  },
+  {
+   "id": "00AB3E0C",
+   "scene": "main-text",
+   "en": "Enables Skarmory{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skarmory→盔甲鸟"
+   ]
+  },
+  {
+   "id": "00AB3E30",
+   "scene": "main-text",
+   "en": "Enables Bruxish to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bruxish→磨牙彩皮鱼"
+   ]
+  },
+  {
+   "id": "00AB3E50",
+   "scene": "main-text",
+   "en": "Enables Torterra to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Torterra→土台龟"
+   ]
+  },
+  {
+   "id": "00AB3E74",
+   "scene": "main-text",
+   "en": "Enables Infernape{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Infernape→烈焰猴"
+   ]
+  },
+  {
+   "id": "00AB3E98",
+   "scene": "main-text",
+   "en": "Enables Empoleon{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Empoleon→帝王拿波"
+   ]
+  },
+  {
+   "id": "00AB3EBC",
+   "scene": "main-text",
+   "en": "Enables Shuckle to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shuckle→壶壶"
+   ]
+  },
+  {
+   "id": "00AB3EDC",
+   "scene": "main-text",
+   "en": "Enables Relicanth{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Relicanth→古空棘鱼"
+   ]
+  },
+  {
+   "id": "00AB3F00",
+   "scene": "main-text",
+   "en": "Enables Quagsire to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Quagsire→沼王"
+   ]
+  },
+  {
+   "id": "00AB3F24",
+   "scene": "main-text",
+   "en": "Enables Jellicent{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Jellicent→胖嘟嘟"
+   ]
+  },
+  {
+   "id": "00AB3F48",
+   "scene": "main-text",
+   "en": "Enables Toucannon{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toucannon→铳嘴大鸟"
+   ]
+  },
+  {
+   "id": "00AB3F6C",
+   "scene": "main-text",
+   "en": "Enables Dragonite{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Dragonite→快龙"
+   ]
+  },
+  {
+   "id": "00AB3F90",
+   "scene": "main-text",
+   "en": "Enables Breloom to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Breloom→斗笠菇"
+   ]
+  },
+  {
+   "id": "00AB3FB0",
+   "scene": "main-text",
+   "en": "Enables Slaking to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slaking→请假王"
+   ]
+  },
+  {
+   "id": "00AB3FD0",
+   "scene": "main-text",
+   "en": "A purple, glowing{{C0}}orb said to contain{{C1}}an ancient power.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 56,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ancient Power→原始之力"
+   ]
+  },
+  {
+   "id": "00AB4008",
+   "scene": "main-text",
+   "en": "Enables Slowking to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Slowking→呆呆王"
+   ]
+  },
+  {
+   "id": "00AB402C",
+   "scene": "main-text",
+   "en": "Enables Feraligatr{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Feraligatr→大力鳄"
+   ]
+  },
+  {
+   "id": "00AB4050",
+   "scene": "main-text",
+   "en": "Enables Haxorus to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Haxorus→双斧战龙"
+   ]
+  },
+  {
+   "id": "00AB4070",
+   "scene": "main-text",
+   "en": "Enables Luxray to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Luxray→伦琴猫"
+   ]
+  },
+  {
+   "id": "00AB4090",
+   "scene": "main-text",
+   "en": "Enables Granbull to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Granbull→布鲁皇"
+   ]
+  },
+  {
+   "id": "00AB40B4",
+   "scene": "main-text",
+   "en": "Enables Typhlosion{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Typhlosion→火暴兽"
+   ]
+  },
+  {
+   "id": "00AB40D8",
+   "scene": "main-text",
+   "en": "Enables Nidoqueen{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nidoqueen→尼多后"
+   ]
+  },
+  {
+   "id": "00AB40FC",
+   "scene": "main-text",
+   "en": "Enables Nidoking to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Nidoking→尼多王"
+   ]
+  },
+  {
+   "id": "00AB4120",
+   "scene": "main-text",
+   "en": "Enables Sandslash{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sandslash→穿山王"
+   ]
+  },
+  {
+   "id": "00AB4144",
+   "scene": "main-text",
+   "en": "Enables Meganium{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Meganium→大竺葵"
+   ]
+  },
+  {
+   "id": "00AB4168",
+   "scene": "main-text",
+   "en": "Enables Krookodile{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Krookodile→流氓鳄"
+   ]
+  },
+  {
+   "id": "00AB418C",
+   "scene": "main-text",
+   "en": "Enables Magnezone{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Magnezone→自爆磁怪"
+   ]
+  },
+  {
+   "id": "00AB41B0",
+   "scene": "main-text",
+   "en": "Enables Shedinja to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Shedinja→脱壳忍者"
+   ]
+  },
+  {
+   "id": "00AB41D4",
+   "scene": "main-text",
+   "en": "Enables Swalot to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 31,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Swalot→吞食兽"
+   ]
+  },
+  {
+   "id": "00AB41F4",
+   "scene": "main-text",
+   "en": "Enables Lanturn to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 32,
+   "hint": "纯中文≤15字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Lanturn→电灯怪"
+   ]
+  },
+  {
+   "id": "00AB4214",
+   "scene": "main-text",
+   "en": "Enables Kingambit R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Kingambit→仆刀将军"
+   ]
+  },
+  {
+   "id": "00AB4238",
+   "scene": "main-text",
+   "en": "Enables Ribombee{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ribombee→蝶结萌虻"
+   ]
+  },
+  {
+   "id": "00AB425C",
+   "scene": "main-text",
+   "en": "Enables Skarmory R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Skarmory→盔甲鸟"
+   ]
+  },
+  {
+   "id": "00AB4280",
+   "scene": "main-text",
+   "en": "Enables Machamp R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Machamp→怪力"
+   ]
+  },
+  {
+   "id": "00AB42A4",
+   "scene": "main-text",
+   "en": "Enables Alakazam R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Alakazam→胡地"
+   ]
+  },
+  {
+   "id": "00AB42C8",
+   "scene": "main-text",
+   "en": "Enables Beedrill R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Beedrill→大针蜂"
+   ]
+  },
+  {
+   "id": "00AB42EC",
+   "scene": "main-text",
+   "en": "Enables Houndoom R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Houndoom→黑鲁加"
+   ]
+  },
+  {
+   "id": "00AB4310",
+   "scene": "main-text",
+   "en": "Enables Froslass to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Froslass→雪妖女"
+   ]
+  },
+  {
+   "id": "00AB4334",
+   "scene": "main-text",
+   "en": "Enables Scrafty to{{C0}}Mega Evolve, NOT{{C1}}Scrafster.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 47,
+   "hint": "纯中文≤23字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Scrafty→头巾混混"
+   ]
+  },
+  {
+   "id": "00AB4364",
+   "scene": "main-text",
+   "en": "Enables Mawile R to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mawile→大嘴娃"
+   ]
+  },
+  {
+   "id": "00AB4388",
+   "scene": "main-text",
+   "en": "Enables Sableye R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 34,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Sableye→勾魂眼"
+   ]
+  },
+  {
+   "id": "00AB43AC",
+   "scene": "main-text",
+   "en": "Enables Ursaring to{{C0}}Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ursaring→圈圈熊"
+   ]
+  },
+  {
+   "id": "00AB43D0",
+   "scene": "main-text",
+   "en": "Enables Arcanine R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Arcanine→风速狗"
+   ]
+  },
+  {
+   "id": "00AB43F4",
+   "scene": "main-text",
+   "en": "Enables Tyranitar R{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 36,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tyranitar→班基拉斯"
+   ]
+  },
+  {
+   "id": "00AB4418",
+   "scene": "main-text",
+   "en": "Enables Wigglytuff{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Wigglytuff→胖可丁"
+   ]
+  },
+  {
+   "id": "00AB443C",
+   "scene": "main-text",
+   "en": "Enables Tinkaton{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 33,
+   "hint": "纯中文≤16字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Tinkaton→巨锻匠"
+   ]
+  },
+  {
+   "id": "00AB4460",
+   "scene": "main-text",
+   "en": "Enables Gyaradeath{{C0}}to Mega Evolve.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 35,
+   "hint": "纯中文≤17字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}

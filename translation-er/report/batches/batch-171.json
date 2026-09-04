@@ -1,0 +1,1649 @@
+{
+ "batch": 171,
+ "count": 59,
+ "tasks": [
+  {
+   "id": "00FFFFDF",
+   "scene": "main-text",
+   "en": " Pyro Shells triggers a 50 BP{{C0}}Normal-type Outburst after any{{C1}}Mega Launcher-boosted move.{{C2}}Outburst has no secondary{{C3}}effects and hits all surrounding{{C4}}Pokemon on the field.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 170,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器",
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "0100008B",
+   "scene": "main-text",
+   "en": " Boosts pulse, beam, ball, and{{C0}}aura moves by 30%. Guarantees{{C1}}all moves hit regardless of{{C2}}accuracy checks. Moves with less{{C3}}than 80% base accuracy receive -{{C4}}3 priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 167,
+   "hint": "纯中文≤83字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000134",
+   "scene": "main-text",
+   "en": "Reduces the user's total damage{{C0}}by 20% at the start of each turn,{{C1}}capping at -80%. Resets after{{C2}}switching.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 107,
+   "hint": "纯中文≤53字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010001A0",
+   "scene": "main-text",
+   "en": "Converts all Normal-type moves{{C0}}to Ghost-type and grants STAB{{C1}}for Ghost moves, regardless of{{C2}}the user's typing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 111,
+   "hint": "纯中文≤55字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "0100020F",
+   "scene": "main-text",
+   "en": " Reduces both physical and{{C0}}special damage by 35%.{{C1}}Multiplicative with other{{C2}}sources of damage reduction.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 105,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000278",
+   "scene": "main-text",
+   "en": "Every successful horn-based{{C0}}attack raises Attack by one{{C1}}stage after it lands.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010002C8",
+   "scene": "main-text",
+   "en": "Mighty Horn boosts the power of{{C0}}horn and drill-based attacks by{{C1}}30%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 69,
+   "hint": "纯中文≤34字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0100030D",
+   "scene": "main-text",
+   "en": "   Deal 1.5x damage to Water-type{{C0}}Pokemon and bypass defensive{{C1}}screens (Light Screen, Reflect,{{C2}}Aurora Veil)/Substitutes.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Light Screen→光墙",
+    "Reflect→反射壁",
+    "Aurora Veil→极光幕",
+    "Water→水"
+   ]
+  },
+  {
+   "id": "01000498",
+   "scene": "main-text",
+   "en": "Changes the user's Normal-type{{C0}}moves to Ghost-type. If the user{{C1}}is Ghost-type its Ghost-type{{C2}}moves have a 10% fear chance,{{C3}}otherwise it gains Ghost STAB.{{C4}}Its moves, including status{{C5}}moves, have a 30% chance to badly{{C6}}poison the target.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 235,
+   "hint": "纯中文≤117字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般",
+    "Poison→毒",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "01000584",
+   "scene": "main-text",
+   "en": "Changes the user's Normal-type{{C0}}moves to Ghost-type. If the user{{C1}}is Ghost-type its Ghost-type{{C2}}moves have a 10% fear chance,{{C3}}otherwise it gains Ghost STAB.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 154,
+   "hint": "纯中文≤76字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "0100061E",
+   "scene": "main-text",
+   "en": "  Moves that make contact deal an{{C0}}additional 20% damage and heal{{C1}}the user to heal for 1/2 of the{{C2}}damage dealt. This healing{{C3}}applies after all hits of multi-{{C4}}hit moves and after recoil is{{C5}}applied.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 196,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010006E4",
+   "scene": "main-text",
+   "en": "Low Blow uses a 40 BP Feint{{C0}}Attack when switching in,{{C1}}targeting a random opponent.{{C2}}Feint Attack is a Dark-type{{C3}}physical attack that never{{C4}}misses.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 146,
+   "hint": "纯中文≤72字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Feint Attack→出奇一击",
+    "Feint→佯攻",
+    "Dark→恶"
+   ]
+  },
+  {
+   "id": "01000778",
+   "scene": "main-text",
+   "en": "When struck by any contact move,{{C0}}Cold Rebound retaliates with Icy{{C1}}Wind (60 BP), lowering the{{C2}}attacker's Speed by one stage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 124,
+   "hint": "纯中文≤61字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010007F4",
+   "scene": "main-text",
+   "en": "After using any Fire-type move,{{C0}}Volcano Rage triggers a followup{{C1}}Eruption attack with 50 base{{C2}}power. Damage scales with the{{C3}}user's current HP percentage,{{C4}}having 50 BP at full health.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 183,
+   "hint": "纯中文≤91字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rage→愤怒",
+    "Eruption→喷火",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "010008AC",
+   "scene": "main-text",
+   "en": "Changes the user's Normal-type{{C0}}moves to Bug-type. If the user is{{C1}}Bug-type it is immune to powder{{C2}}moves, otherwise it gains Bug{{C3}}STAB.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 133,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Powder→粉尘",
+    "Normal→一般",
+    "Bug→虫"
+   ]
+  },
+  {
+   "id": "01000934",
+   "scene": "main-text",
+   "en": "When entering battle during Sun,{{C0}}boosts the user's highest stat{{C1}}by one stage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000984",
+   "scene": "main-text",
+   "en": "Redirects all Ice-type moves to{{C0}}this Pokemon and absorbs them.{{C1}}Upon absorbing an Ice move,{{C2}}boosts either Attack or Special{{C3}}Attack (whichever is higher) by{{C4}}one stage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 166,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "01000A2C",
+   "scene": "main-text",
+   "en": "Amplifier boosts sound-based{{C0}}moves by 30% damage. Single-{{C1}}target sound moves gain spread{{C2}}targeting to hit both opposing{{C3}}Pokemon. Does not spread with{{C4}}multihit moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 166,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000AD4",
+   "scene": "main-text",
+   "en": "Mega Launcher moves always hit{{C0}}and strike both opposing Pokemon{{C1}}simultaneously. Unable to miss{{C2}}with pulse, beam, ball, aura, and{{C3}}other blast related moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 156,
+   "hint": "纯中文≤77字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Mega Launcher→超级发射器"
+   ]
+  },
+  {
+   "id": "01000B70",
+   "scene": "main-text",
+   "en": "The user is unable to miss arrow-{{C0}}based attacks and cannon moves{{C1}}(different from Mega Launcher{{C2}}moves, includes moves blocked by{{C3}}Bulletproof). Additionally, when{{C4}}landing critical hits, the attack{{C5}}targets the opponent's weaker{{C6}}defensive stat.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 241,
+   "hint": "纯中文≤120字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Bulletproof→防弹",
+    "Mega Launcher→超级发射器"
+   ]
+  },
+  {
+   "id": "01000C64",
+   "scene": "main-text",
+   "en": "Punching moves gain +1 critical{{C0}}hit stage and 5x their normal{{C1}}secondary effect chance.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 87,
+   "hint": "纯中文≤43字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "01000CBC",
+   "scene": "main-text",
+   "en": "Activates any sun related{{C0}}effects for the user's moves.{{C1}}Boosts Speed stat by 50% in sun.{{C2}}Cures status in sun. 50% chance{{C3}}to restore berry on turn end,{{C4}}100% in sun. Raises highest{{C5}}attacking stat by 50% in sun.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 209,
+   "hint": "纯中文≤104字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000EA4",
+   "scene": "main-text",
+   "en": "Contact moves use Speed stat for{{C0}}damage instead of{{C1}}Attack/Special Attack. Choice{{C2}}Scarf does not affect this{{C3}}ability.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 117,
+   "hint": "纯中文≤58字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000F1C",
+   "scene": "main-text",
+   "en": "Giant Wings boosts the power of{{C0}}all wing, wind, and air-based{{C1}}moves by 30%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000F68",
+   "scene": "main-text",
+   "en": "Grants +1 priority to all moves{{C0}}when targeting opponents with{{C1}}50% HP or less.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000FB8",
+   "scene": "main-text",
+   "en": "Not implemented.",
+   "codes": [],
+   "context": "",
+   "max_bytes": 17,
+   "hint": "纯中文≤8字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01000FCC",
+   "scene": "main-text",
+   "en": "Sighting System guarantees all{{C0}}moves hit regardless of accuracy{{C1}}checks. Moves with less than 80%{{C2}}base accuracy receive -3{{C3}}priority.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 132,
+   "hint": "纯中文≤65字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01001050",
+   "scene": "main-text",
+   "en": "Adds 20% of Defense stat to{{C0}}physical attacks and 20% of{{C1}}Special Defense stat to special{{C2}}attacks when calculating damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 121,
+   "hint": "纯中文≤60字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010010CC",
+   "scene": "main-text",
+   "en": "Converts Normal-type moves to{{C0}}Fire-type and grants Fire-type{{C1}}STAB. If the user is Fire-type{{C2}}their Fire-type moves get 10%{{C3}}burn chance. Additionally{{C4}}activates any Sun related{{C5}}effects for the user's moves.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 204,
+   "hint": "纯中文≤101字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "01001198",
+   "scene": "main-text",
+   "en": "Lunar Eclipse grants STAB bonus{{C0}}to both Fairy and Dark-type{{C1}}moves regardless of the user's{{C2}}typing. Improves Hypnosis{{C3}}accuracy to 90%.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 134,
+   "hint": "纯中文≤66字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Hypnosis→催眠术",
+    "Dark→恶",
+    "Fairy→妖精"
+   ]
+  },
+  {
+   "id": "01001220",
+   "scene": "main-text",
+   "en": "Frozen Soul grants +1 priority{{C0}}to all Ice-type moves when the{{C1}}user is at maximum HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 85,
+   "hint": "纯中文≤42字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "01001278",
+   "scene": "main-text",
+   "en": "Striker increases the power of{{C0}}all kicking moves by 30%.{{C1}}Includes Pyro Ball.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 77,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Pyro Ball→火焰球"
+   ]
+  },
+  {
+   "id": "010012C8",
+   "scene": "main-text",
+   "en": "Boosts the power of moves that{{C0}}can be used in the overworld by{{C1}}50%. Includes all HM moves, (Zen){{C2}}Headbutt, Ice Spinner,{{C3}}Hidden/Secret Power, and Dig.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 150,
+   "hint": "纯中文≤74字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Headbutt→头锤",
+    "Dig→挖洞",
+    "Secret Power→秘密之力",
+    "Ice Spinner→冰旋",
+    "Ice→冰"
+   ]
+  },
+  {
+   "id": "01001360",
+   "scene": "main-text",
+   "en": "Boosts the power of Flying-type{{C0}}moves by 20%, or by 50% at 1/3 HP{{C1}}or lower.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 76,
+   "hint": "纯中文≤37字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Flying→飞行"
+   ]
+  },
+  {
+   "id": "010013AC",
+   "scene": "main-text",
+   "en": "Makes all attacks hit twice in{{C0}}succession. The first hit deals{{C1}}100%, while the second hit deals{{C2}}25%. Each hit rolls secondary{{C3}}effects independently (except{{C4}}flinch).",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 165,
+   "hint": "纯中文≤82字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01001453",
+   "scene": "main-text",
+   "en": " Molten Down makes Fire-type{{C0}}moves super effective against{{C1}}Rock-types instead of resisted.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 91,
+   "hint": "纯中文≤45字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Rock→岩石",
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "010014B0",
+   "scene": "main-text",
+   "en": "When entering battle during{{C0}}rain, Sea Guardian boosts your{{C1}}highest stat by one stage. Works{{C2}}with any rain type. Triggers once{{C3}}per switch-in.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 141,
+   "hint": "纯中文≤70字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01001540",
+   "scene": "main-text",
+   "en": "Adds 20% of the user's Speed{{C0}}stat to damage when using{{C1}}contact moves. Choice Scarf does{{C2}}not affect this ability.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 113,
+   "hint": "纯中文≤56字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Choice Scarf→讲究围巾"
+   ]
+  },
+  {
+   "id": "010015B4",
+   "scene": "main-text",
+   "en": "Grants immunity to weather-{{C0}}based moves: Thunder, Solar{{C1}}Beam/Blade, Hurricane, Blizzard,{{C2}}Silver Wind, Weather Ball, all{{C3}}Storm moves (not including{{C4}}Magma, Leaf, or Diamond), Sheer{{C5}}Cold, and Pledge moves. Does not{{C6}}stop weather setup or damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 242,
+   "hint": "纯中文≤120字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Blizzard→暴风雪",
+    "Thunder→打雷",
+    "Weather Ball→气象球",
+    "Silver Wind→银色旋风",
+    "Hurricane→暴风",
+    "Immunity→免疫"
+   ]
+  },
+  {
+   "id": "010016A8",
+   "scene": "main-text",
+   "en": "Bone moves bypass immunities and{{C0}}hit for normal damage, while{{C1}}resisted moves do 2x damage.{{C2}}Neutral/super effective moves{{C3}}remain unchanged.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 139,
+   "hint": "纯中文≤69字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Normal→一般"
+   ]
+  },
+  {
+   "id": "01001734",
+   "scene": "main-text",
+   "en": "Boosts Special Attack by 50% but{{C0}}locks the user into using the{{C1}}first move selected until they{{C2}}switch out.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 106,
+   "hint": "纯中文≤52字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010017A0",
+   "scene": "main-text",
+   "en": "Grants +1 priority to Fire-type{{C0}}moves when at full HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 55,
+   "hint": "纯中文≤27字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火"
+   ]
+  },
+  {
+   "id": "010017D8",
+   "scene": "main-text",
+   "en": "The user gains a 50% Speed boost{{C0}}and 20% Attack boost on their{{C1}}first turn after switching in.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 94,
+   "hint": "纯中文≤46字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Speed Boost→加速"
+   ]
+  },
+  {
+   "id": "01001838",
+   "scene": "main-text",
+   "en": "The user's Electric-type moves{{C0}}become effective against{{C1}}Electric-type Pokemon, dealing{{C2}}2x damage instead of 0.5x. Also{{C3}}allows the user to paralyze{{C4}}Electric-types.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 163,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "01001B0C",
+   "scene": "main-text",
+   "en": "When this Pokemon defeats an{{C0}}opponent with a direct hit, it{{C1}}immediately regains 25% of its{{C2}}maximum HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01001B74",
+   "scene": "main-text",
+   "en": "The user draws in Poison-type{{C0}}moves and gains immunity to them,{{C1}}healing for 1/4th of max HP{{C2}}instead. Additionally, heals{{C3}}1/8th of max HP per turn on Toxic{{C4}}Terrain.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 164,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Toxic→剧毒",
+    "Immunity→免疫",
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "01001C18",
+   "scene": "main-text",
+   "en": "Boosts the power of Psychic-{{C0}}type moves by 20%, or by 50% at{{C1}}1/3 HP or lower.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 78,
+   "hint": "纯中文≤38字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Psychic→精神强念"
+   ]
+  },
+  {
+   "id": "01001C68",
+   "scene": "main-text",
+   "en": "If user is Grass-type, they take{{C0}}half damage from Fire-type{{C1}}attacks and deals 2x damage to{{C2}}Fire-type Pokemon with Grass-{{C3}}type moves. Multiplicative with{{C4}}other sources of damage{{C5}}reduction.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 188,
+   "hint": "纯中文≤93字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Fire→火",
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "01001D24",
+   "scene": "main-text",
+   "en": "Super-effective damaging moves{{C0}}never miss and always land{{C1}}critical hits.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 73,
+   "hint": "纯中文≤36字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01001D70",
+   "scene": "main-text",
+   "en": "Sets Sticky Web on opponent's{{C0}}field when the user enters{{C1}}battle. Lasts 5 turns and lowers{{C2}}Speed by 1 stage for any{{C3}}grounded Pokemon switching in.{{C4}}Cannot activate if Sticky Web is{{C5}}already present on opponent's{{C6}}field.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ],
+    [
+     "{{C6}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 216,
+   "hint": "纯中文≤107字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Present→礼物",
+    "Sticky Web→黏黏网"
+   ]
+  },
+  {
+   "id": "01001E48",
+   "scene": "main-text",
+   "en": "Solenoglyphs gives all biting{{C0}}moves a 50% chance to badly{{C1}}poison the target when landing.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 90,
+   "hint": "纯中文≤44字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Poison→毒"
+   ]
+  },
+  {
+   "id": "01001EA4",
+   "scene": "main-text",
+   "en": "Reduces damage from Grass-type{{C0}}attacks by 50% while boosting{{C1}}the power of the user's own{{C2}}Grass-type moves by 20%. Damage{{C3}}reduction is multiplicative with{{C4}}other sources.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 169,
+   "hint": "纯中文≤84字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Grass→草"
+   ]
+  },
+  {
+   "id": "01001F50",
+   "scene": "main-text",
+   "en": "Electric Burst boosts Electric-{{C0}}type moves by 35% but causes 10%{{C1}}recoil damage based on damage{{C2}}dealt (minimum 1 HP). The recoil{{C3}}damage will not knock out the{{C4}}user.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 164,
+   "hint": "纯中文≤81字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Electric→电"
+   ]
+  },
+  {
+   "id": "01001FF4",
+   "scene": "main-text",
+   "en": "Curses the attacker when{{C0}}knocked out by a direct hit. The{{C1}}curse inflicts 25% max HP damage{{C2}}per turn until the cursed{{C3}}Pokemon switches out or faints.{{C4}}Ghost-type attackers are immune{{C5}}to the curse.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ],
+    [
+     "{{C5}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 195,
+   "hint": "纯中文≤97字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Curse→诅咒",
+    "Ghost→幽灵"
+   ]
+  },
+  {
+   "id": "010020B8",
+   "scene": "main-text",
+   "en": "Foes can not land critical hits,{{C0}}always roll minimum damage (85%{{C1}}instead of 85-100%), fail to{{C2}}inflict secondary effects that{{C3}}are not guaranteed, and have a{{C4}}5% chance to miss a move.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 182,
+   "hint": "纯中文≤90字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "01002170",
+   "scene": "main-text",
+   "en": "Sweet Dreams restores 1/8 of{{C0}}maximum HP at the end of each{{C1}}turn when the user is asleep or{{C2}}has the Comatose ability.{{C3}}Additionally, it grants immunity{{C4}}to Bad Dreams damage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ],
+    [
+     "{{C3}}",
+     "[/n]"
+    ],
+    [
+     "{{C4}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 172,
+   "hint": "纯中文≤85字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": [
+    "Immunity→免疫",
+    "Bad Dreams→梦魇",
+    "Comatose→绝对睡眠"
+   ]
+  },
+  {
+   "id": "01002324",
+   "scene": "main-text",
+   "en": "When the user knocks out an{{C0}}opponent with a direct hit, it{{C1}}immediately recovers 25% of its{{C2}}maximum HP.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 103,
+   "hint": "纯中文≤51字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "0100238C",
+   "scene": "main-text",
+   "en": "Majestic Moth raises the user's{{C0}}highest calculated base stat by{{C1}}1 stage when it enters battle.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 95,
+   "hint": "纯中文≤47字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  },
+  {
+   "id": "010023EC",
+   "scene": "main-text",
+   "en": "Upon entering battle, the user{{C0}}drops the Special Attack stat of{{C1}}all opposing Pokemon by one{{C2}}stage.",
+   "codes": [
+    [
+     "{{C0}}",
+     "[/n]"
+    ],
+    [
+     "{{C1}}",
+     "[/n]"
+    ],
+    [
+     "{{C2}}",
+     "[/n]"
+    ]
+   ],
+   "context": "",
+   "max_bytes": 99,
+   "hint": "纯中文≤49字（每汉字3字节）；控制码已变成{{Cn}}占位符，原样保留即可；不要自行添加换行",
+   "glossary": []
+  }
+ ]
+}
