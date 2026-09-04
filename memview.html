@@ -208,6 +208,7 @@
 	#onlinePanel select { max-width: 260px; }
 	.recDot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #555; margin-right: 4px; vertical-align: middle; }
 	.recDot.on { background: #ff4d4d; box-shadow: 0 0 6px #ff4d4d; }
+	#recBtn.recording { background: #5a1f24; border-color: #ff4d4d; color: #ffb3b8; }
 	.onlineOnly { display: none; }
 	body.online .onlineOnly { display: flex; }
 	body.online .localOnly { display: none; }
@@ -227,8 +228,8 @@
 	<button onclick="refreshRoms()">刷新 ROM 列表</button>
 	<span style="margin-left:12px">
 		<span id="audioStat" style="color:#8ab4ff" title="AudioContext 状态/队列">🔇 -</span>
+		<button id="recBtn" onclick="toggleRecord(!online.rec)" style="margin-left:6px; padding:2px 10px;">⏺ 记录会话</button>
 		<span class="recDot" id="recDot"></span>
-		<label class="chk"><input type="checkbox" id="recChk" onchange="toggleRecord(this.checked)"> 记录会话（AI 可回放）</label>
 		<span id="recSteps" style="color:#7ec699"></span>
 	</span>
 	<div id="onlineHelp">操作按键：Z=A　X=B　Enter=START　Shift=SELECT　方向键　Q=L　E=R（首次按键后出声）</div>
@@ -782,17 +783,21 @@ async function loadRomUnified() {
 }
 
 async function toggleRecord(on) {
+	const btn = document.getElementById('recBtn');
 	try {
 		const r = await api('/session?op=' + (on ? 'start' : 'stop'));
 		const d = await r.json();
 		online.rec = on;
+		btn.textContent = on ? '⏹ 停止记录' : '⏺ 记录会话';
+		btn.classList.toggle('recording', on);
 		document.getElementById('recDot').classList.toggle('on', on);
 		if (on) setOnlineStatus('记录中 → tmp/session/');
 		else setOnlineStatus('记录已停止，共 ' + (d.steps || 0) + ' 步');
 		if (on) pollSteps();
 	} catch (e) {
 		online.rec = false;
-		document.getElementById('recChk').checked = false;
+		btn.textContent = '⏺ 记录会话';
+		btn.classList.remove('recording');
 		setOnlineStatus('记录开关失败: ' + e.message);
 	}
 }
