@@ -642,7 +642,7 @@ function feedEngine(f32) {
 }
 async function audioPollLoop() {
 	while (true) {
-		if (audioStarted && audioEngine) {
+		if (audioStarted && audioEngine && !wsOpen()) { // WS 模式音频由服务端推送
 			try {
 				const r = await fetch(apiBase() + '/audio?cid=' + CID);
 				if (r.ok) {
@@ -710,6 +710,7 @@ async function initOnline() {
 	syncServeRomName();
 	setupRefreshTimer();
 	setupAudio();
+	wsConnect();
 	audioPollLoop();
 	autoStartIfLoaded();      // serve 已有 ROM → 自动开始推帧
 }
@@ -830,11 +831,60 @@ window.addEventListener('keyup', function (e) {
 
 async function sendPad() {
 	if (!online.active) return;
+	if (wsOpen()) { wsSendObj({ t: 'pad', keys: [...online.held] }); return; } // WS 直达：<5ms 生效
 	try { await api('/pad?keys=' + encodeURIComponent([...online.held].join(','))); } catch (e) {}
+}
+/* ---- WebSocket 通道（服务端推帧/推音频/即时按键）----
+ * 二进制消息: [type,0,0,0]+payload（4 字节头保证 Float32 对齐）
+ *   type1 = BMP 帧 → 画到屏幕；type2 = float32 交错音频 → feedEngine
+ * 断线自动重连（2s），恢复后自动续播 */
+let WS = null, wsRetryTimer = null, wsWanted = false;
+function wsOpen() { return WS && WS.readyState === 1; }
+function wsSendObj(o) { try { WS.send(JSON.stringify(o)); } catch (e) {} }
+function wsConnect() {
+	if (!online.base) return;
+	wsWanted = true;
+	try {
+		WS = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/ws');
+	} catch (e) { return; }
+	WS.binaryType = 'arraybuffer';
+	WS.onopen = function () {
+		wsSendObj({ t: 'hello' });
+		if (online.playing) wsSendObj({ t: 'play', on: 1 }); // 断线重连后续播
+	};
+	WS.onmessage = function (ev) {
+		if (typeof ev.data === 'string') { /* JSON: 预留 */ return; }
+		wsOnBinary(ev.data);
+	};
+	WS.onclose = function () {
+		WS = null;
+		if (wsWanted) { clearTimeout(wsRetryTimer); wsRetryTimer = setTimeout(wsConnect, 2000); }
+	};
+	WS.onerror = function () { try { WS.close(); } catch (e) {} };
+}
+function wsOnBinary(ab) {
+	if (ab.byteLength < 4) return;
+	const dv = new DataView(ab);
+	const type = dv.getUint8(0);
+	if (type === 1) {
+		// BMP 帧 → 屏（复用 /play 的 Blob+Image 绘制路径）
+		const cv = document.getElementById('screen');
+		const ctx = cv.getContext('2d');
+		ctx.imageSmoothingEnabled = false;
+		const blob = new Blob([ab.slice(4)], { type: 'image/bmp' });
+		const url = URL.createObjectURL(blob);
+		const img = new Image();
+		img.onload = function () { ctx.drawImage(img, 0, 0, cv.width, cv.height); URL.revokeObjectURL(url); };
+		img.onerror = function () { URL.revokeObjectURL(url); };
+		img.src = url;
+	} else if (type === 2 && audioEngine) {
+		feedEngine(new Float32Array(ab, 4)); // 服务端已按 0.25s+ 批量推，直接入环
+	}
 }
 /* ---- 主循环：/play 推帧 + BMP 回传渲染 ---- */
 async function playLoop() {
 	if (!online.active || online.playing !== true) return;
+	if (wsOpen()) { wsSendObj({ t: 'play', on: 1 }); return; } // WS 模式：服务端推帧+推音频，本循环不再拉取
 	const cv = document.getElementById('screen');
 	const ctx = cv.getContext('2d');
 	ctx.imageSmoothingEnabled = false;
@@ -852,6 +902,7 @@ async function playLoop() {
 			try { msg = (await r.json()).error || msg; } catch (_) {}
 			setOnlineStatus('play 失败: ' + msg);
 			online.playing = false;
+			if (wsOpen()) wsSendObj({ t: 'play', on: 0 });
 			return;
 		}
 		const buf = await r.arrayBuffer();

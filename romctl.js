@@ -1232,6 +1232,121 @@ switch (cmd) {
 		// 会掩盖真问题（任务停摆后重注入重启引擎重新 spawn 任务，制造修复假象），见 docs/技术报告 §4.6。
 		// 需要 battle 转场守护时用 /guardian?on=1 手动开启。
 		global.__guardian = false;
+		/* ==================== WebSocket 通道（2026-09-04）====================
+		 * 手写最小 WS 实现（无 npm 依赖）。解决 HTTP 轮询架构的三个结构性卡顿：
+		 * 1) 每请求 15-60ms 基础开销 → WS 每消息 <1ms；
+		 * 2) 浏览器同域 6 连接池竞争（/play、/audio、面板互相排队）→ 1 个长连接；
+		 * 3) 客户端拉模式（按键等下一批边界 ~400ms）→ 服务端推模式，帧好了就推。
+		 * 协议：客户端→服务端 JSON 文本 {t:'hello'|'play'|'pad',...}；
+		 *       服务端→客户端 二进制 [type,0,0,0]+payload（type1=BMP 帧、type2=float32 交错音频，
+		 *       4 字节头保证 Float32Array 视图对齐）；文本=JSON 状态。
+		 * HTTP 端点全部保留（CLI/工具继续用）；面板等低频请求仍走 HTTP。 */
+		const crypto = require('crypto');
+		const WS_CLIENTS = new Set();
+		const WS_GUID = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11';
+		const wsAcceptKey = k => crypto.createHash('sha1').update(k + WS_GUID).digest('base64');
+		server.on('upgrade', (req, sock) => {
+			try {
+				const key = req.headers['sec-websocket-key'];
+				if (!key || String(req.headers.upgrade || '').toLowerCase() !== 'websocket') { sock.destroy(); return; }
+				sock.write('HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: ' + wsAcceptKey(key) + '\r\n\r\n');
+				sock.setNoDelay(true);
+				const conn = { sock, buf: Buffer.alloc(0), frags: null, fragOp: 0, audioSent: -1, playing: false };
+				WS_CLIENTS.add(conn);
+				sock.on('data', d => wsOnData(conn, d));
+				const gone = () => { WS_CLIENTS.delete(conn); try { sock.destroy(); } catch (e) {} };
+				sock.on('close', gone); sock.on('error', gone);
+			} catch (e) { try { sock.destroy(); } catch (e2) {} }
+		});
+		function wsSend(conn, opcode, payload) {
+			if (!conn || conn.sock.destroyed) return false;
+			const len = payload.length; let head;
+			if (len < 126) head = Buffer.from([0x80 | opcode, len]);
+			else if (len < 65536) { head = Buffer.alloc(4); head[0] = 0x80 | opcode; head[1] = 126; head.writeUInt16BE(len, 2); }
+			else { head = Buffer.alloc(10); head[0] = 0x80 | opcode; head[1] = 127; head.writeBigUInt64BE(BigInt(len), 2); }
+			try { conn.sock.write(Buffer.concat([head, payload])); return true; } catch (e) { return false; }
+		}
+		const wsSendJson = (conn, o) => wsSend(conn, 1, Buffer.from(JSON.stringify(o)));
+		function wsOnData(conn, d) {
+			conn.buf = conn.buf.length ? Buffer.concat([conn.buf, d]) : d;
+			for (;;) {
+				const b = conn.buf;
+				if (b.length < 2) return;
+				const fin = b[0] & 0x80, op = b[0] & 0x0f, masked = b[1] & 0x80;
+				let len = b[1] & 0x7f, off = 2;
+				if (len === 126) { if (b.length < 4) return; len = b.readUInt16BE(2); off = 4; }
+				else if (len === 127) { if (b.length < 10) return; len = Number(b.readBigUInt64BE(2)); off = 10; }
+				let mk = null;
+				if (masked) { if (b.length < off + 4) return; mk = b.subarray(off, off + 4); off += 4; }
+				if (b.length < off + len) return;
+				let payload = b.subarray(off, off + len);
+				if (mk) { const u = Buffer.allocUnsafe(len); for (let i = 0; i < len; i++) u[i] = payload[i] ^ mk[i & 3]; payload = u; }
+				conn.buf = b.subarray(off + len);
+				if (op === 0) { if (conn.frags) { conn.frags.push(payload); if (fin) { wsHandle(conn, Buffer.concat(conn.frags), conn.fragOp); conn.frags = null; } } }
+				else if (fin) wsHandle(conn, payload, op);
+				else { conn.frags = [payload]; conn.fragOp = op; }
+			}
+		}
+		function wsHandle(conn, payload, op) {
+			if (op === 8) { wsSend(conn, 8, Buffer.alloc(0)); WS_CLIENTS.delete(conn); return; }
+			if (op === 9) { wsSend(conn, 10, payload); return; }
+			if (op !== 1) return;
+			let msg; try { msg = JSON.parse(payload.toString('utf8')); } catch (e) { return; }
+			switch (msg.t) {
+				case 'hello': conn.audioSent = -1; wsSendJson(conn, { t: 'hello', ok: true, rom: meta.rom, frames: meta.frames }); break;
+				case 'play': conn.playing = !!msg.on; break;
+				case 'pad': {
+					const keys = Array.isArray(msg.keys) ? msg.keys.map(k => String(k).toUpperCase()) : [];
+					let mask = 0;
+					for (const k of keys) if (k in KEYMAP) mask |= KEYMAP[k];
+					heldMask = mask;
+					gba.keypad.currentDown = ~heldMask & 0x3ff;
+					if (sess.on) recordStep('pad', { keys });
+					break;
+				}
+			}
+		}
+		// 服务端帧泵：有 playing 客户端才跑；实时节流（帧数×16.7ms）；帧+音频主动推送
+		let wsPumping = false;
+		const WS_BATCH = 16;
+		async function wsPump() {
+			if (wsPumping) return; wsPumping = true;
+			while (true) {
+				const playing = [...WS_CLIENTS].filter(c => c.playing && !c.sock.destroyed);
+				if (!playing.length) { await new Promise(r => setTimeout(r, 80)); continue; }
+				const t0 = Date.now();
+				gba.keypad.currentDown = ~heldMask & 0x3ff;
+				try { runFrames(WS_BATCH); } catch (e) { console.error('ws pump:', e.message); await new Promise(r => setTimeout(r, 500)); continue; }
+				if (meta.frames - lastPersistFrame >= 600) { saveState(); lastPersistFrame = meta.frames; }
+				const pd = gba.video.renderPath.pixelData;
+				if (pd) {
+					const bmp = makeBMPBuffer(pd.data, pd.width, pd.height);
+					const msg = Buffer.concat([Buffer.from([1, 0, 0, 0]), bmp]);
+					for (const c of playing) wsSend(c, 2, msg);
+				}
+				wsPushAudio(playing);
+				const wall = Date.now() - t0, budget = WS_BATCH * 16.7;
+				if (wall < budget) await new Promise(r => setTimeout(r, budget - wall));
+			}
+		}
+		function wsPushAudio(conns) {
+			const a = gba.audio;
+			if (!a || !a.buffers) return;
+			const mask = a.sampleMask, cur = a.samplePointer >>> 0;
+			for (const c of conns) {
+				let sent = c.audioSent;
+				if (sent < 0 || sent > mask) { sent = (cur - 4096 + (mask + 1)) & mask; c.audioSent = sent; } // 从写指针后方 0.125s 起步
+				let n = (cur - sent + (mask + 1)) & (mask >>> 0);
+				if (n > (mask + 1) / 2) n = (mask + 1) / 2;
+				if (n < 8192) continue; // ≥0.25s 才推，减少消息数
+				const f32 = new Float32Array(n * 2);
+				let p = sent;
+				for (let i = 0; i < n; i++) { f32[i * 2] = a.buffers[0][p]; f32[i * 2 + 1] = a.buffers[1][p]; p = (p + 1) & mask; }
+				c.audioSent = p;
+				wsSend(c, 2, Buffer.concat([Buffer.from([2, 0, 0, 0]), Buffer.from(f32.buffer, 0, f32.byteLength)]));
+			}
+		}
+		wsPump(); // 常驻：无 playing 客户端时自闲置
 		server.listen(port, () => {
 			// 锁在 listen 成功后创建：启动失败不会污染/删除在运行实例的锁
 			fs.writeFileSync(serveLockFile, JSON.stringify({ port, pid: process.pid, time: Date.now() }));
