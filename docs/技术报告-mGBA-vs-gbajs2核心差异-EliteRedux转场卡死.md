@@ -372,6 +372,27 @@ fade 完成：+4 level→0、+7→0x00、+14→0；DISPCNT 强制白屏位（0x4
 - serve 崩溃免疫：浏览器中途断开（关标签/刷新）触发未处理 ECONNRESET 会带崩整个进程——已加 res/req error 监听 + clientError + uncaughtException/unhandledRejection 兜底。
 - 静态文件由 serve 自身提供（/memview.html、js/、resources/），启动时自动开浏览器；页面为 serve-only（无本地模式），autoStartIfLoaded 自动接续 serve 已载 ROM。
 
+### 4.8 WebSocket 推送通道（2026-09-04 深夜追加）——画面卡顿的最终根治
+
+**背景**：HTTP 轮询架构下即使加了大批次+面板降频，页面仍然"卡卡的"。
+
+**三层叠加根因（按发现顺序）**：
+1. **画面攒批**：16帧/批才推一次 BMP → 模拟 60fps 但视觉只有 4fps。修复=每帧推 BMP（帧消息缓冲复用，避免每帧 Buffer.concat 分配 115KB）。
+2. **Windows 15.6ms 系统定时器粒度**：Atomics.wait/setTimeout 全被量化到该粒度——睡 5-10ms 实际睡 15.6ms，每帧膨胀到 ~28ms=33fps。修复=泵内残余(<25ms)用忙等（performance.now 自旋）消除；仅游戏运行时段占约半核，空闲不进此路径。
+3. **同步泵饿死事件循环**：preciseSleep 是同步阻塞，泵的 while(true) 不再 await → 事件循环永不还栈 → HTTP upgrade/WS 收包**全部饿死**（serve 活着但无响应）。修复=每帧循环加 `await new Promise(r => setImmediate(r))` 还栈处理 I/O。**教训：任何"精确睡眠"混入 async 循环都必须中间让出事件循环**。
+
+**最终架构**：
+- 手写最小 WS 服务器（romctl.js，无 npm 依赖）：HTTP Upgrade 握手 + SHA-1 accept（crypto 模块）+ 帧解析（客户端掩码解除/分片重组/ping-pong/close）
+- **服务端帧泵**（唯一推帧方）：有 playing 客户端才跑；每帧 `runFrames(1)` → 推 BMP → `wsPushAudio` → `setImmediate` 让栈 → 忙等补齐 16.7ms
+- 实测：**60fps 视觉 + 音频 100% 实时**（5.03s/5s）；工作耗时 5-12ms/帧
+- 协议：客户端→服务端 JSON `{t:'hello'|'play'|'pad'}`；服务端→客户端 二进制 `[type,0,0,0]+payload`（type1=BMP、type2=float32 交错音频，4 字节头保证 Float32Array 视图对齐）
+- 多客户端：每连接独立音频游标；帧=全体 playing 广播
+- 断线重连：客户端 2s 自动重连+续播
+- 职责划分：**WS=推帧+推音频+即时按键（<5ms）；HTTP=加载/截图/面板等低频请求（不再与帧推送抢连接池）**
+- 诊断遗留：泵内 `[pump] run=.. bmp+send=..` 计时日志（每 512 帧）保留，可随时看帧耗时
+
+**调试期间的 serve 崩溃教训**：`taskkill /F /IM node.exe` 会把 pi agent 自己（也是 node）一起杀掉——终止 serve 一律用 romctl 自带的锁文件 PID 机制（直接再跑一次 `node romctl.js serve` 即可）。
+
 ## 5. 决定性实验设计（在 gbajs2 上直接做）
 
 ### E1【已执行，见 §4.5】删除 HLE dismiss——结果：行为改变（黑→白）但未修复

@@ -159,6 +159,10 @@ hook 候选地址看触发。⚠ pool 字面量是指针值不是表（`ldr r2,=
 
 8c. **★serve-only 架构（2026-09-04 定稿）**：memview 页面只做手柄+屏幕+内存监视，模拟器只在 serve 侧；页面由 serve 静态提供（同源免 CORS）且启动时自动开浏览器、自动接续 serve 已载 ROM（autoStartIfLoaded）。截图/音频/推帧全走 HTTP。音频=复用 gbajs2 原版 GameBoyAdvanceAudio 消费器（四个隐式陷阱：clear() 初始化+补假 core、手动 connect destination、环扩 2s、outputPointer 从写指针后方起步），推帧必须实时节流（帧数×16.7ms）。详细见技术报告 §4.7。
 
+8e. **★WebSocket 推送通道（2026-09-04 定稿）**：serve 内置手写 WS 服务器（无 npm 依赖）。**服务端帧泵**=每帧 runFrames(1)+推 BMP+推音频+setImmediate 让栈+忙等补齐 16.7ms；实测 60fps 视觉+音频 100% 实时、按键<5ms。三个坑：①画面攒批=视觉掉到 4fps（必须每帧推）；②Windows 15.6ms 定时器粒度量化一切睡眠（残余用忙等消除）；③同步泵不还栈会饿死全部 I/O（每循环 setImmediate）。memview：按键走 WS 即达，面板/加载仍走 HTTP。详见技术报告 §4.8。
+
+8f. **★Windows 定时器粒度（通用坑）**：所有睡眠原语（setTimeout/Atomics.wait/uv 条件变量）在 Windows 被量化到 15.6ms——"睡 5ms 实际睡 15.6ms"。精确节流的解法只有忙等（performance.now 自旋）或接受粒度误差。另：终止 serve 用锁文件 PID 重启机制，不要 taskkill 全部 node（会杀掉 pi agent 自己）。
+
 8d. **★写只读寄存器 open-bus 语义（mGBA vs gbajs2 核心差异）**：gbajs2 对写只读 DMA/FIFO 寄存器的读取恒返回 badMemory[0]；游戏（EliteRedux 声音驱动轮询 0x040000C4）等的标志永不出现→无限轮询→runFrames 永不返回→单线程 HTTP 整体饿死（无画面无声音）。已在 js/io.js 改为返回 registers 最后写入值（与 mGBA 一致）。同类症状"哔哔声"=游戏逻辑冻结后方波寄存器残值恒响；音频寄存器 1 秒零变化=引擎冻结判据。
 9. **预录长按键序列极易时序错位**——改用 serve 模式逐步交互（/shot 看画面 → 决定按键）
 10. **注入函数严禁越界覆盖**：算准 bin 大小与空区边界（曾把 96B 写进 48B 空隙覆盖跳板前半）

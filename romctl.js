@@ -1309,24 +1309,43 @@ switch (cmd) {
 		// 服务端帧泵：有 playing 客户端才跑；实时节流（帧数×16.7ms）；帧+音频主动推送
 		let wsPumping = false;
 		const WS_BATCH = 16;
+		// 精确睡眠：Windows setTimeout 粒度 ~15ms 会把每帧 16.7ms 预算膨胀到 ~25ms（帧率掉到 39fps）。
+		// Atomics.wait 主线程可用（浏览器才禁），精度 ~1ms 且不烧 CPU；<1.5ms 残余用忙等
+		const WS_ATOMIC = new Int32Array(new SharedArrayBuffer(4));
+		// Windows 系统定时器粒度 15.6ms：Atomics.wait/setTimeout 都被量化（睡 5-10ms 实际睡 15.6ms
+		// → 每帧膨胀到 ~28ms=36fps）。泵内残余(<25ms)用忙等消除；仅游戏运行时段占约半核，
+		// 空闲（无 playing 客户端）不进此路径
+		function preciseSleep(ms) {
+			if (ms <= 0.3) return;
+			const end = performance.now() + ms;
+			if (ms > 25) { try { Atomics.wait(WS_ATOMIC, 0, 0, ms - 14); } catch (e) {} }
+			while (performance.now() < end) { }
+		}
 		async function wsPump() {
 			if (wsPumping) return; wsPumping = true;
+			let bmpMsg = null; // 帧消息复用缓冲（避免每帧 Buffer.concat 分配 115KB）
 			while (true) {
 				const playing = [...WS_CLIENTS].filter(c => c.playing && !c.sock.destroyed);
 				if (!playing.length) { await new Promise(r => setTimeout(r, 80)); continue; }
-				const t0 = Date.now();
+				const t0 = Date.now(); const __t1 = t0;
 				gba.keypad.currentDown = ~heldMask & 0x3ff;
-				try { runFrames(WS_BATCH); } catch (e) { console.error('ws pump:', e.message); await new Promise(r => setTimeout(r, 500)); continue; }
-				if (meta.frames - lastPersistFrame >= 600) { saveState(); lastPersistFrame = meta.frames; }
+				try { runFrames(1); } catch (e) { console.error('ws pump:', e.message); await new Promise(r => setTimeout(r, 500)); continue; }
+				const __t2 = Date.now();
+				if (meta.frames - lastPersistFrame >= 1800) { saveState(); lastPersistFrame = meta.frames; } // ~30s 一次：落盘耗时数百ms，过频=周期性掉帧
+				// ★每帧推 BMP：模拟 60fps = 视觉 60fps（攒批推送会掉到 4fps=画面卡顿主因）
 				const pd = gba.video.renderPath.pixelData;
 				if (pd) {
 					const bmp = makeBMPBuffer(pd.data, pd.width, pd.height);
-					const msg = Buffer.concat([Buffer.from([1, 0, 0, 0]), bmp]);
-					for (const c of playing) wsSend(c, 2, msg);
+					if (!bmpMsg || bmpMsg.length !== bmp.length + 4) bmpMsg = Buffer.concat([Buffer.from([1, 0, 0, 0]), bmp]);
+					else bmp.copy(bmpMsg, 4);
+					for (const c of playing) wsSend(c, 2, bmpMsg);
 				}
+				const __t3 = Date.now();
 				wsPushAudio(playing);
-				const wall = Date.now() - t0, budget = WS_BATCH * 16.7;
-				if (wall < budget) await new Promise(r => setTimeout(r, budget - wall));
+				if ((meta.frames & 0x1FF) === 0) console.log('[pump] run=' + (__t2-__t1) + 'ms bmp+send=' + (__t3-__t2) + 'ms total=' + (__t3-__t1) + 'ms');
+				// ★必须让出事件循环（setImmediate 还栈处理 I/O），否则同步泵会饿死一切收包
+				await new Promise(r => setImmediate(r));
+				preciseSleep(16.7 - (Date.now() - t0));
 			}
 		}
 		function wsPushAudio(conns) {
