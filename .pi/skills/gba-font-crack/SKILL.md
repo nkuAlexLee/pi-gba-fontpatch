@@ -41,6 +41,17 @@ node romctl.js hook events [--chars] / hook clear
 ```
 产物全在 `tmp/`（state json、截图、hook-events.jsonl）。
 
+### serve 即时存档（命名多槽位快照，2026-09-05 新增）
+
+```bash
+curl "http://127.0.0.1:8645/snap?op=save&name=标题屏"   # 存当前状态 → tmp/snaps/标题屏.json
+curl "http://127.0.0.1:8645/snap?op=load&name=标题屏"   # 读档（逐字节确定性恢复）
+curl "http://127.0.0.1:8645/snap?op=list"               # 列出快照（含 frames/emuVer/verMatch）
+curl "http://127.0.0.1:8645/snap?op=del&name=旧档"
+```
+- **emuVer 版本防护**：快照记录模拟器语义代码（js/core|arm|thumb|mmu|irq|io|gba|video|audio|savedata|gpio|keypad.js）内容哈希；load 时版本不符**默认拒绝**（防旧 bug 代码产出的脏状态污染新代码排查），确信无影响才 `&force=1`
+- **排查纪律**：① 每次改模拟器代码后，用于对照实验的基准快照必须在新代码下**重录**；② 快照只恢复机器状态，不恢复 watch/hook 事件缓冲（恢复后重新 arm）；③ 读档后跑 1 帧（/run?frames=1）再截图，否则读到的是恢复前的像素缓冲
+
 ### serve 实时调试服务器（★优先）
 
 `node romctl.js serve [port=8645]` 后台启动，状态常驻、CLI 命令互通：

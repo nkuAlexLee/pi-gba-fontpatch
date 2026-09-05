@@ -41,6 +41,17 @@ const path = require('path');
 const argv = process.argv.slice(2);
 const TMP_DIR = 'tmp';
 fs.mkdirSync(TMP_DIR, { recursive: true });
+// 模拟器语义代码版本指纹：快照内记录，加载时校验——
+// 旧 bug 代码产出的游戏状态（脏数据）在新代码下恢复 = 混合态，会污染排查结论。
+const EMU_VER = (() => {
+	const crypto = require('crypto');
+	const h = crypto.createHash('md5');
+	for (const f of ['js/core.js', 'js/arm.js', 'js/thumb.js', 'js/mmu.js', 'js/irq.js', 'js/io.js', 'js/gba.js', 'js/video.js', 'js/audio.js', 'js/savedata.js', 'js/gpio.js', 'js/keypad.js']) {
+		try { h.update(fs.readFileSync(f)); h.update(f); } catch (e) {}
+	}
+	return h.digest('hex').slice(0, 8);
+})();
+const SNAP_DIR = path.join(TMP_DIR, 'snaps');
 const stateFile = (() => {
 	const i = argv.indexOf('--state');
 	if (i >= 0) { argv.splice(i, 2); return argv[i] ?? path.join(TMP_DIR, 'romctl.state.json'); }
@@ -1064,6 +1075,47 @@ switch (cmd) {
 							iwramOwnStore8: Object.prototype.hasOwnProperty.call(b3, 'store8'),
 							watchBlocksMatch: !!(global.__watchBlocks && global.__watchBlocks[0] === b2 && global.__watchBlocks[1] === b3),
 							ranges: global.__watchRanges, events: (global.__watchWrite || []).length });
+						break;
+					}
+					case '/snap': {
+						// 即时存档：命名多槽位快照。含 emuVer（模拟器语义代码指纹），
+						// 加载时版本不符默认拒绝（防旧 bug 代码产出的脏状态污染新代码排查），force=1 才放行。
+						const op = q.get('op') || 'list';
+						fs.mkdirSync(SNAP_DIR, { recursive: true });
+						const snapFile = () => {
+							const name = String(q.get('name') || 'manual').replace(/[^\w.-]/g, '_');
+							return path.join(SNAP_DIR, name + '.json');
+						};
+						if (op === 'save') {
+							const file = snapFile();
+							fs.writeFileSync(file, JSON.stringify({
+								frames: meta.frames, rom: meta.rom, savedAt: new Date().toISOString(), emuVer: EMU_VER,
+								__snapshot: takeSnapshot(),
+							}));
+							j({ ok: true, op, file, frames: meta.frames, emuVer: EMU_VER });
+						} else if (op === 'load') {
+							const file = snapFile();
+							if (!fs.existsSync(file)) throw new Error('快照不存在: ' + file);
+							const rec = JSON.parse(fs.readFileSync(file, 'utf8'));
+							const problems = [];
+							if (path.resolve(rec.rom) !== path.resolve(meta.rom)) problems.push('ROM 不一致: 快照=' + rec.rom + ' 当前=' + meta.rom);
+							if (rec.emuVer !== EMU_VER) problems.push('模拟器代码版本不符: 快照=' + rec.emuVer + ' 当前=' + EMU_VER + '（旧 bug 代码产出的状态可能已污染，建议新代码下重录）');
+							if (problems.length && q.get('force') !== '1') throw new Error(problems.join('; ') + '（确信无影响可加 &force=1）');
+							restoreSnapshot(rec.__snapshot);
+							meta.frames = rec.frames || 0;
+							lastPersistFrame = meta.frames;
+							saveState();
+							j({ ok: true, op, file, frames: meta.frames, emuVer: rec.emuVer, warnings: problems });
+						} else if (op === 'del') {
+							const file = snapFile();
+							if (fs.existsSync(file)) fs.unlinkSync(file);
+							j({ ok: true, op, file });
+						} else {
+							const list = fs.readdirSync(SNAP_DIR).filter(f => f.endsWith('.json')).map(f => {
+								try { const r = JSON.parse(fs.readFileSync(path.join(SNAP_DIR, f), 'utf8')); return { name: f.slice(0, -5), frames: r.frames, rom: r.rom, emuVer: r.emuVer, savedAt: r.savedAt, verMatch: r.emuVer === EMU_VER }; } catch (e) { return { name: f, error: String(e.message || e) }; }
+							});
+							j({ ok: true, op, emuVer: EMU_VER, snaps: list });
+						}
 						break;
 					}
 					case '/guardian': {
