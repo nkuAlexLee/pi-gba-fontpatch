@@ -164,9 +164,13 @@ hook 候选地址看触发。⚠ pool 字面量是指针值不是表（`ldr r2,=
 8f. **★Windows 定时器粒度（通用坑）**：所有睡眠原语（setTimeout/Atomics.wait/uv 条件变量）在 Windows 被量化到 15.6ms——"睡 5ms 实际睡 15.6ms"。精确节流的解法只有忙等（performance.now 自旋）或接受粒度误差。另：终止 serve 用锁文件 PID 重启机制，不要 taskkill 全部 node（会杀掉 pi agent 自己）。
 
 8d. **★写只读寄存器 open-bus 语义（mGBA vs gbajs2 核心差异）**：gbajs2 对写只读 DMA/FIFO 寄存器的读取恒返回 badMemory[0]；游戏（EliteRedux 声音驱动轮询 0x040000C4）等的标志永不出现→无限轮询→runFrames 永不返回→单线程 HTTP 整体饿死（无画面无声音）。已在 js/io.js 改为返回 registers 最后写入值（与 mGBA 一致）。同类症状"哔哔声"=游戏逻辑冻结后方波寄存器残值恒响；音频寄存器 1 秒零变化=引擎冻结判据。
+8g. **★BIOS 区保护读 open-bus（已修复，踩坑 11 突破的根因）**：真机/mGBA 语义 = 返回 biosPrefetch（最后一次 BIOS 预取的指令字，恒为 0xE... 负数）；坏实现返回当前指令半字复制（正数）。凡游戏把 [0x0-0x3FFF] 读值当有符号数判负的代码（如地图连接 NULL 检查）在旧 gbajs2 下判定翻转。凡遇"健康流程依赖 BIOS 垃圾值"类卡死先查此语义。
+8h. **★romctl watchwrite 长度参数陷阱（已修复）**：len=0x1C 这类 0x 前缀曾被 parseInt(…,10) 解析成 0 → 监视范围长度为 0 → 永不命中且无报错——“零写入”结论前先跑 /wwdebug 或用十进制 len 验证；另 /load 会重建内存块使旧包装失效，现已自动重包装，但 hook 仍需重新 add
 9. **预录长按键序列极易时序错位**——改用 serve 模式逐步交互（/shot 看画面 → 决定按键）
 10. **注入函数严禁越界覆盖**：算准 bin 大小与空区边界（曾把 96B 写进 48B 空隙覆盖跳板前半）
-11. **★回归 vs 模拟器缺陷的二分法（serve 对照实验）**：疑似补丁卡死/黑屏，先在 serve 模式用**完全相同的按键流程跑原版 base** 到同一位置——原版也黑 = gbajs2 模拟缺口（非补丁问题），换 mGBA/实机验证补丁。实证：EliteRedux 开场后转场，base 与补丁版 ~34000 帧同样黑屏不恢复（DISPCNT 开、PC=0x1c 主循环活着 → 转场特效依赖 gbajs2 未模拟的机制）
+11. **★回归 vs 模拟器缺陷的二分法（serve 对照实验）**：疑似补丁卡死/黑屏，先在 serve 模式用**完全相同的按键流程跑原版 base** 到同一位置——原版也黑 = gbajs2 模拟缺口（非补丁问题），换 mGBA/实机验证补丁。实证：EliteRedux 开场后转场，base 与补丁版同样黑屏不恢复
+   **★★2025-09 决定性突破（两 ROM 黑屏共同根因之一，已修复）**：gbajs2 BIOS 保护读（PC 在 BIOS 外读 0x0-0x3FFF）走 BadMemory 返回“当前指令半字复制”（恒正），真机/mGBA 返回 biosPrefetch=最后 BIOS 预取指令字（0xE...恒负）。红龙传说 InitBackupMapLayoutConnections 对 connections==NULL 解引用 [0]，靠返回值为负使 ble 跳过——gbajs2 返回正数 → 17.5 亿次循环卡死黑屏。修复=mmu.js biosPrefetch+BIOSView 保护读返回切片、core.js raiseTrap/raiseIRQ 设出口指令字、irq.js HLE swi 设 0xE3A02004。修复后红龙传说 NEW GAME 全链通关（过场/野外/战斗）；pker 转场缺口收敛为 fade+14 恒 -1 无人写（详见技术报告 §4.9）。
+   **mGBA 健康 dump 对照纠偏**：LOADER/WORKSYS 的 0x0FFF0FFF 哨兵、03003898=00、状态字节 0 均为健康态——此前“层2/层3 修复”（清哨兵、tick poke=1）是误判作废；pker 卡死唯一缺口 = 转场后 +14 应被写成 ≥0 地图组号但 gbajs2 下零写入 → gate12 每帧装卸翻转 → 队列消费者饿死
    **★2024 深挖（EliteRedux 开场转场黑屏根因链，romctl serve 新端点 diag）**：
    - 误判排除：DISPCNT=0x7F60 是正常 mode0（之前字节序读反）；IE=0x0500 读数是
      寄存器读路径假象（写入侧 watchio 实际全是 0x5=VBlank|VCOUNT）；CPU 没死锁

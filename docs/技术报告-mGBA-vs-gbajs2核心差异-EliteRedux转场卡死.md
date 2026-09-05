@@ -393,6 +393,31 @@ fade 完成：+4 level→0、+7→0x00、+14→0；DISPCNT 强制白屏位（0x4
 
 **调试期间的 serve 崩溃教训**：`taskkill /F /IM node.exe` 会把 pi agent 自己（也是 node）一起杀掉——终止 serve 一律用 romctl 自带的锁文件 PID 机制（直接再跑一次 `node romctl.js serve` 即可）。
 
+### 4.9 2026-09-05 决定性突破：BIOS 保护读 open-bus 语义（D-新，两个 ROM 黑屏的共同根因之一）
+
+**症状**：① 红龙传说（西语蓝宝石改版）NEW GAME 后转场立即永久黑屏；② pker.gba (EliteRedux) 开场→本体转场黑屏（此前分析见 §4.5-4.7）。
+
+**根因（红龙传说，已修复+验证通关）**：
+- gbajs2 旧代码：BIOS 区（0x0000-0x3FFF）保护性读取（PC 在 BIOS 外）走 `BadMemory.load32`，返回 **“当前指令半字 | 半字<<16”**（Thumb 下 = 当前指令后半字复制，如 0x68456845，**恒为正数**）。
+- 真机/mGBA 语义（mGBA memory.c LOAD_BIOS + biosPrefetch）：返回**最后一次 BIOS 区预取的指令字**（实践中恒为 0xE... 的 ARM 操作码 → 有符号数为负）；mGBA 的 HLE SWI 后固定 0xE3A02004。
+- 游戏触发链（红龙传说）：NEW GAME → LoadMapFromCameraTransition → InitBackupMapLayoutConnections(gMapHeader) → 起始地图 connections=NULL → `ldr r1,[r0=#0]` 解引用 NULL → 期望返回负数使 `cmp r1,#0; ble` 跳过循环；gbajs2 返回 0x68456845（正）→ 循环 **0x68456845≈17.5 亿次**（r5 指针同步增长为非法地址 0xA0xxxxxx），主线程永久卡死在地图连接处理 → 黑屏。每帧 ~2592 次迭代（pchist 铁证），16 分钟才减 ~1.2 亿 → 等于永不结束。
+- mGBA 健康 dump 对照发现旧报告误判：LOADER/WORKSYS 区的 0x0FFF0FFF 哨兵是**游戏正常写入**（转场时 FastCpuSet 预填充，红龙/EliteRedux 同构），03003898=00、状态字节 0 也是健康态 → §4.6.7 的“层2/层3 修复”作废。
+
+**修复（三处，语义对齐 mGBA）**：
+1. `js/mmu.js`：MMU 新增 `biosPrefetch`（初值 0xE3A02004）；BIOSView 5 个 load 路径的保护分支改返回 biosPrefetch 对应 8/16/32 位切片（不再走 BadMemory）。
+2. `js/core.js`：raiseTrap 设 biosPrefetch=0xE1B0F00E（stub SWI 出口 movs pc,lr）、raiseIRQ 设 0xE25EF004（stub IRQ 出口 sub pc,lr,#4）。
+3. `js/irq.js`：HLE swi 入口设 biosPrefetch=0xE3A02004（对齐 mGBA GBASwi16）。
+
+**验证（红龙传说全流程通过）**：NEW GAME → 女神故事过场（正常显示图文页）→ 野外 → 遭遇战（"¡Un PIDGEY salvaje!" → RATTATA 出击 PLACAJE）全部正常；修复前卡死循环 0x88b908c（RTC 读函数）区域消失，steps/frame 从 97k 降到 29-34k 健康值。
+
+**修复后 pker.gba (EliteRedux) 新前沿**：转场仍黑屏但性质更清楚——
+- 转场时游戏正常执行：gMapHeader 清零（0x81a6973）、LOADER 区 0x0FFF0FFF 哨兵填充（FastCpuSet @0x83b4392 ← 0x081457E6，与红龙同构函数）都发生了；mGBA 健康 dump 证明哨兵/tick=0/状态字节 0 均为健康态。
+- 卡死签名收敛为**唯一缺口**：fade 结构 +14 (0x020391FA，有符号半字) 从 boot 起恒为 -1，全程（含转场后）**零写入**（watchwrite 0x020391FA/0x020391F8 实证，+12 每帧被 0x81863ac/0x818640a 写 0/-1 但 +14 无人写）。
+- 后果链（hook 0x08168418/0x08183B14 实证）：地图回调 0x08183B14 每帧读 +14<0 → 帧头 `0x8168418(0)` 卸 gate12、帧尾 `0x8168418(0x08184355)` 装 gate12 → 消费者经 tick 包装器（回调主体内）派发时 gate12 恒 0 → 地图脚本/资产队列消费者饿死 → 黑屏。
+- **下一步**：找健康流程中转场时写 fade+14（≥0 地图组号）的代码（+14 无直接字面量，经 fade 基址+偏移访问；转场族函数 0x8183C21/0x8183C96/0x8183D68 状态机嫌疑最大）；以及该代码在 gbajs2 下不执行的前置条件。
+
+**本轮工具修复（romctl.js）**：① `/watchwrite?len=` 支持 0x 前缀（原 parseInt(…,10) 把 0x1C 解析成 0 → 范围长度 0 → 永不命中，此前多轮“零写入”结论作废）；② /load 经 mmu.clear() 重建块后 watchwrite 自动重包装（记录块身份）；③ watchwrite/watchdma 支持 tail=4000 全量导出；④ hookadd 支持 xregs=5,6,7 额外寄存器；⑤ 新增 /wwdebug 端点。注意：hook 块首 PC 匹配下函数入口可能永不命中（进块路径不同），循环体/返回点地址更可靠。
+
 ## 5. 决定性实验设计（在 gbajs2 上直接做）
 
 ### E1【已执行，见 §4.5】删除 HLE dismiss——结果：行为改变（黑→白）但未修复

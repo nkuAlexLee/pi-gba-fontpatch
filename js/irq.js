@@ -343,6 +343,9 @@ class GameBoyAdvanceInterruptHandler {
 			this.cpu.raiseTrap();
 			return;
 		}
+		// HLE SWI 完成后的 BIOS 保护读 open-bus 值，与 mGBA GBASwi16 一致
+		// （hle-bios IntrWait 路径中的 mov r2, #4）。见 mmu.js biosPrefetch 注释。
+		this.core.mmu.biosPrefetch = 0xe3a02004;
 
 		switch (opcode) {
 			case 0x00:

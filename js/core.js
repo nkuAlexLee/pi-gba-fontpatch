@@ -506,6 +506,9 @@ class ARMCore {
 		this.instruction = null;
 		this.switchExecMode(this.MODE_ARM);
 		this.cpsrI = true;
+		// BIOS 保护读 open-bus 值（见 mmu.js biosPrefetch 注释）：
+		// stub BIOS 的 IRQ 出口指令 sub pc, lr, #4（0xE25EF004）
+		if (this.mmu) this.mmu.biosPrefetch = 0xe25ef004;
 	}
 	raiseTrap() {
 		var cpsr = this.packCPSR();
@@ -517,6 +520,8 @@ class ARMCore {
 		this.instruction = null;
 		this.switchExecMode(this.MODE_ARM);
 		this.cpsrI = true;
+		// stub BIOS 的 SWI 出口指令 movs pc, lr（0xE1B0F00E）
+		if (this.mmu) this.mmu.biosPrefetch = 0xe1b0f00e;
 	}
 	badOp(instruction) {
 		var func = function () {

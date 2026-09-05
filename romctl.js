@@ -366,6 +366,7 @@ function recordHookEvent(addr, name, cpu) {
 	if (hookEvents.length >= HOOK_MAX) { hookOverflow = true; return; }
 	const ev = { frame: meta.frames, addr: '0x' + addr.toString(16), name };
 	for (let i = 0; i < 4; i++) ev['r' + i] = cpu.gprs[i] >>> 0;
+	if (global.__hookExtraRegs) for (const ri of global.__hookExtraRegs) ev['r' + ri] = cpu.gprs[ri] >>> 0;
 	const d = decodeWin(cpu);
 	if (d) ev.decoded = d;
 	hookEvents.push(ev);
@@ -1008,16 +1009,20 @@ switch (cmd) {
 						}
 						const n = Math.min(parseInt(q.get('frames') || '0', 10), 3600);
 						if (n > 0) { runFrames(n); saveState(); }
-						j({ ok: true, ran: n, count: global.__watchDMA.length, events: global.__watchDMA.slice(-40) });
+						const tailD = Math.min(parseInt(q.get('tail') || '40', 10), 4000);
+						j({ ok: true, ran: n, count: global.__watchDMA.length, events: tailD >= 4000 ? global.__watchDMA : global.__watchDMA.slice(-tailD) });
 						break;
 					}
 					case '/watchwrite': {
 						const block = gba.mmu.memory[2];
 						const blockIwram = gba.mmu.memory[3];
 						const blockPal = gba.mmu.memory[5];
-						if (!global.__watchWrite) {
-							global.__watchWrite = [];
-							global.__watchRanges = [];
+						// 修复: /load 会经 mmu.clear() 重建 MemoryBlock，旧包装随之失效。
+						// 记录被包装对象身份，块变更时重新安装包装。
+						if (!global.__watchWrite || !global.__watchBlocks || global.__watchBlocks[0] !== block || global.__watchBlocks[1] !== blockIwram || global.__watchBlocks[2] !== blockPal) {
+							global.__watchWrite = global.__watchWrite || [];
+							global.__watchRanges = global.__watchRanges || [];
+							global.__watchBlocks = [block, blockIwram, blockPal];
 							const cpu = gba.cpu;
 							for (const blk of [block, blockIwram, blockPal]) {
 								const regionBase = blk === block ? 0x02000000 : blk === blockIwram ? 0x03000000 : 0x05000000;
@@ -1043,12 +1048,22 @@ switch (cmd) {
 						if (q.get('reset') === '1') { global.__watchRanges = []; global.__watchWrite = []; }
 						if (q.get('addr')) {
 							const wa = parseAddr(q.get('addr'));
-							const wl = parseInt(q.get('len') || '256', 10);
+							const wl = q.get('len') ? (/^0x/i.test(q.get('len').trim()) ? parseAddr(q.get('len')) : parseInt(q.get('len'), 10)) : 256; // 修复: len 支持 0x 前缀（原 parseInt(...,10) 把 '0x1C' 解析成 0）
 							global.__watchRanges.push([wa, wl]);
 						}
 						const n = Math.min(parseInt(q.get('frames') || '0', 10), 3600);
 						if (n > 0) { runFrames(n); saveState(); }
-						j({ ok: true, ran: n, count: global.__watchWrite.length, events: global.__watchWrite.slice(-40) });
+						const tailN = Math.min(parseInt(q.get('tail') || '40', 10), 4000);
+						j({ ok: true, ran: n, count: global.__watchWrite.length, events: tailN >= 4000 ? global.__watchWrite : global.__watchWrite.slice(-tailN) });
+						break;
+					}
+					case '/wwdebug': {
+						const b2 = gba.mmu.memory[2], b3 = gba.mmu.memory[3];
+						j({ ok: true,
+							ewramOwnStore8: Object.prototype.hasOwnProperty.call(b2, 'store8'),
+							iwramOwnStore8: Object.prototype.hasOwnProperty.call(b3, 'store8'),
+							watchBlocksMatch: !!(global.__watchBlocks && global.__watchBlocks[0] === b2 && global.__watchBlocks[1] === b3),
+							ranges: global.__watchRanges, events: (global.__watchWrite || []).length });
 						break;
 					}
 					case '/guardian': {
@@ -1151,6 +1166,7 @@ switch (cmd) {
 					case '/hookadd': {
 						const addr = parseAddr(q.get('addr'));
 						const name = q.get('name') || ('hook0x' + addr.toString(16));
+						if (q.get('xregs')) global.__hookExtraRegs = q.get('xregs').split(',').map(x => parseInt(x, 10));
 						hookMap.set(addr, name);
 						meta.hooks = [...hookMap].map(([v, n]) => ({ addr: v, name: n }));
 						installHook(); saveState();

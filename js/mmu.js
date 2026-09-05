@@ -118,7 +118,8 @@ class BIOSView extends MemoryView {
 
 	load8(offset) {
 		if (this._checkProtection()) {
-			return this.mmu.badMemory.load8(offset);
+			// BIOS 保护读：返回 biosPrefetch 的对应字节（与 mGBA LOAD_BIOS 一致）
+			return ((this.mmu.biosPrefetch >> ((offset & 3) * 8)) << 24) >> 24;
 		}
 		if (offset >= this.buffer.byteLength) {
 			return -1;
@@ -127,7 +128,7 @@ class BIOSView extends MemoryView {
 	}
 	load16(offset) {
 		if (this._checkProtection()) {
-			return this.mmu.badMemory.load16(offset);
+			return ((this.mmu.biosPrefetch >> ((offset & 2) * 8)) << 16) >> 16;
 		}
 		if (offset >= this.buffer.byteLength) {
 			return -1;
@@ -136,7 +137,7 @@ class BIOSView extends MemoryView {
 	}
 	loadU8(offset) {
 		if (this._checkProtection()) {
-			return this.mmu.badMemory.loadU8(offset);
+			return (this.mmu.biosPrefetch >> ((offset & 3) * 8)) & 0xff;
 		}
 		if (offset >= this.buffer.byteLength) {
 			return -1;
@@ -145,7 +146,7 @@ class BIOSView extends MemoryView {
 	}
 	loadU16(offset) {
 		if (this._checkProtection()) {
-			return this.mmu.badMemory.loadU16(offset);
+			return (this.mmu.biosPrefetch >> ((offset & 2) * 8)) & 0xffff;
 		}
 		if (offset >= this.buffer.byteLength) {
 			return -1;
@@ -154,7 +155,7 @@ class BIOSView extends MemoryView {
 	}
 	load32(offset) {
 		if (this._checkProtection()) {
-			return this.mmu.badMemory.load32(offset);
+			return this.mmu.biosPrefetch | 0;
 		}
 		if (offset >= this.buffer.byteLength) {
 			return -1;
@@ -328,6 +329,14 @@ class GameBoyAdvanceMMU {
 	}
 	clear() {
 		this.badMemory = new BadMemory(this, this.cpu);
+		// BIOS 保护读（PC 在 BIOS 区外读 0x0000-0x3FFF）返回的 open-bus 值。
+		// 真机/mGBA 语义 = 最后一次 BIOS 区预取的指令字（实践中恒为 0xE... 的 ARM
+		// 操作码，作有符号数为负）。mGBA 的 HLE SWI 后固定为 0xE3A02004（mov r2, #4），
+		// 这里用它作初值；异常入口（core.js raiseTrap/raiseIRQ）与 HLE SWI（irq.js）会刷新。
+		// 修复前 gbajs2 走 BadMemory 返回“当前指令半字复制”（正数），导致把 [0] 当
+		// 有符号数判负的游戏（如红龙传说 InitBackupMapLayoutConnections 对
+		// connections==NULL 的解引用）在 gbajs2 下判定翻转、循环 17 亿次卡死黑屏。
+		this.biosPrefetch = 0xe3a02004;
 		this.memory = [
 			this.bios,
 			this.badMemory,
