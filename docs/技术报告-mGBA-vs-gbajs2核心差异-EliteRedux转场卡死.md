@@ -418,6 +418,20 @@ fade 完成：+4 level→0、+7→0x00、+14→0；DISPCNT 强制白屏位（0x4
 
 **本轮工具修复（romctl.js）**：① `/watchwrite?len=` 支持 0x 前缀（原 parseInt(…,10) 把 0x1C 解析成 0 → 范围长度 0 → 永不命中，此前多轮“零写入”结论作废）；② /load 经 mmu.clear() 重建块后 watchwrite 自动重包装（记录块身份）；③ watchwrite/watchdma 支持 tail=4000 全量导出；④ hookadd 支持 xregs=5,6,7 额外寄存器；⑤ 新增 /wwdebug 端点。注意：hook 块首 PC 匹配下函数入口可能永不命中（进块路径不同），循环体/返回点地址更可靠。
 
+### 4.10 2026-09-05 第二个核心发现：CPU 半字访问对齐/符号扩展缺陷（已修复，pker 黑屏的直接机制之一）
+
+**pker 卡死态的真 gate（纠正上文 +14 红鲱鱼）**：地图回调 0x08183B14 的等待门是 `mov r7,#7; ldrsh r7,[fade_base,r7]` —— **非对齐 LDRSH**（地址 fade+7，奇地址）。ARM7TDMI/mGBA 硬件语义：16 位加载强制 bit0 清零 → 实际读 fade+6 处半字（字节 [+6],[+7] = 00 80 → 0x8000 → 符号扩展后 **-32768 负数**）→ `cmp r7,#0; blt` 成立 → epilogue 卸载 gate12(0)、跑完加载体后重装 gate12=0x08184355 → tick（0x8184354：队列泵+fade tick 0x8186390）每帧被派发 → fade 推进、完成、+7 bit7 清零 → gate 变正 → 等待结束正常推进。健康 dump 中 gate12=0x08184355 常驻安装证实此设计。
+
+**gbajs2 缺陷（js/arm.js + js/thumb.js，8 处）**：
+1. LDRSH/LDRH/STRH（ARM+Thumb 全部 6 处）**无对齐掩码**：`load16(addr)` 直接用奇地址按字节序读 → 读到字节 [+7],[+8] = 80 40 → 0x4080（正数）→ gate 判定翻转 → gate12 永不安装 → tick 饿死 → fade 冻结在 +0..3=0xFFFFFFFF → 黑屏死锁（与 §4.9 的 +12 镜像早退、tick390 零命中全部互洽）。
+2. LDRSH（2 处）**无符号扩展**：load16 返回无符号值直接入寄存器（0x8000 应为 -32768 却变 +32768）；同查获 LDRSB（2 处）同病。
+
+**修复**：LDRH/STRH 加 `& 0xFFFFFFFE`；LDRSH 加掩码 + `(v<<16)>>16` 符号扩展；LDRSB 加 `(v<<24)>>24`。
+
+**修复后状态（pker 仍黑屏，新前沿）**：gate12 安装恢复（g12set 2 次/帧 = 卸+装）✓，但流程仍卡：① cbA（0x08183A98）入口检查 `[0x02032038]==0x08183B15` 失败（0x02032034 区 64B 全零）→ 相位联动断裂；② mapcb 体每帧提交 1 个队列任务（0x8117FF0，队列 desc 0x0203E41C：flag=01/count=0x40/项指向 0x089E63C0）后 flush（0x811824C(0xC20)）；③ gate12 派发者未找到（maptick 0 命中，但健康期 trtick 0x081686A1 能被派发 → 派发器存在且有附加条件）；④ fade 卡死值 +0..3=FFFFFFFF/+4=80/+5=03/+7=80/+8=40/+B=02 不变。**转场 fade 序列实测**：f10251 fade#1 正常完成（BLDY 2→16 递增、+A=0x20 done 位、0x8186A3C 清 +7 bit7，全套完成序列工作正常）；f10274 fade#2（写者 0x81864C8，caller 0x822BCB3）BLDY 14→0 递减到 target；f11352 fade#3（caller 0x817CF7D）启动后无任何步进。**下一步**：读 [0x03007FFC]=0x0300389C 处 IRQ 处理器找 gate12 派发者 + 查 0x02032038 应由谁写。
+
+**工具**：tools/disasm-rom.js 独立 ROM 反汇编器（node 直读 ROM 文件，不依赖 serve 状态）。
+
 ## 5. 决定性实验设计（在 gbajs2 上直接做）
 
 ### E1【已执行，见 §4.5】删除 HLE dismiss——结果：行为改变（黑→白）但未修复

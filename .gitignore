@@ -2,9 +2,11 @@
 .DS_Store
 Thumbs.db
 
-# ROM files (copyrighted, do not commit)
-roms/
-*.gba
+# ROM files (copyrighted): 忽略所有未压缩 ROM；仅显式保留两个调试用压缩包
+roms/*
+fontpatch/
+!roms/pker.gba.xz
+!roms/宝可梦红龙传说.gba.xz
 
 # Emulator temp output / screenshots
 tmp/

@@ -176,6 +176,7 @@ hook 候选地址看触发。⚠ pool 字面量是指针值不是表（`ldr r2,=
 
 8d. **★写只读寄存器 open-bus 语义（mGBA vs gbajs2 核心差异）**：gbajs2 对写只读 DMA/FIFO 寄存器的读取恒返回 badMemory[0]；游戏（EliteRedux 声音驱动轮询 0x040000C4）等的标志永不出现→无限轮询→runFrames 永不返回→单线程 HTTP 整体饿死（无画面无声音）。已在 js/io.js 改为返回 registers 最后写入值（与 mGBA 一致）。同类症状"哔哔声"=游戏逻辑冻结后方波寄存器残值恒响；音频寄存器 1 秒零变化=引擎冻结判据。
 8g. **★BIOS 区保护读 open-bus（已修复，踩坑 11 突破的根因）**：真机/mGBA 语义 = 返回 biosPrefetch（最后一次 BIOS 预取的指令字，恒为 0xE... 负数）；坏实现返回当前指令半字复制（正数）。凡游戏把 [0x0-0x3FFF] 读值当有符号数判负的代码（如地图连接 NULL 检查）在旧 gbajs2 下判定翻转。凡遇"健康流程依赖 BIOS 垃圾值"类卡死先查此语义。
+8i. **★CPU 半字访问对齐/符号扩展（已修复，pker 转场黑屏直接机制）**：ARM7TDMI 硬件：LDRH/STRH/LDRSH 地址 bit0 强制清零（非对齐读下沉到偶地址）；LDRSH/LDRSB 结果符号扩展到 32 位。坏实现（gbajs2 旧码）：奇地址直接按字节序读 + 无符号值直接入寄存器 → 读错字节 + 0x8000 变 +32768。实证：pker mapcb gate `ldrsh r7,[fade+7]` 应读 fade+6 得 -32768（装 tick），坏实现读 fade+7 得 +16512（永不装）→ fade tick 饿死黑屏。排查口诀：凡游戏用非对齐 ldrsh/ldrsb 或把半字读值当有符号数判负的卡死，先查 CPU 半字语义。
 8h. **★romctl watchwrite 长度参数陷阱（已修复）**：len=0x1C 这类 0x 前缀曾被 parseInt(…,10) 解析成 0 → 监视范围长度为 0 → 永不命中且无报错——“零写入”结论前先跑 /wwdebug 或用十进制 len 验证；另 /load 会重建内存块使旧包装失效，现已自动重包装，但 hook 仍需重新 add
 9. **预录长按键序列极易时序错位**——改用 serve 模式逐步交互（/shot 看画面 → 决定按键）
 10. **注入函数严禁越界覆盖**：算准 bin 大小与空区边界（曾把 96B 写进 48B 空隙覆盖跳板前半）

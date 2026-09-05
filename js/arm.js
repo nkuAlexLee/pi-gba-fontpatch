@@ -797,7 +797,7 @@ class ARMCoreArm {
 			if (condOp && !condOp()) {
 				return;
 			}
-			var addr = address();
+			var addr = address() & 0xFFFFFFFE;
 			gprs[rd] = cpu.mmu.loadU16(addr);
 			cpu.mmu.wait(addr);
 			++cpu.cycles;
@@ -812,7 +812,7 @@ class ARMCoreArm {
 				return;
 			}
 			var addr = address();
-			gprs[rd] = cpu.mmu.load8(addr);
+			gprs[rd] = (cpu.mmu.load8(addr) << 24) >> 24;
 			cpu.mmu.wait(addr);
 			++cpu.cycles;
 		};
@@ -825,8 +825,8 @@ class ARMCoreArm {
 			if (condOp && !condOp()) {
 				return;
 			}
-			var addr = address();
-			gprs[rd] = cpu.mmu.load16(addr);
+			var addr = address() & 0xFFFFFFFE;
+			gprs[rd] = (cpu.mmu.loadU16(addr) << 16) >> 16;
 			cpu.mmu.wait(addr);
 			++cpu.cycles;
 		};
@@ -1331,7 +1331,7 @@ class ARMCoreArm {
 				cpu.mmu.waitPrefetch32(gprs[cpu.PC]);
 				return;
 			}
-			var addr = address();
+			var addr = address() & 0xFFFFFFFE;
 			cpu.mmu.store16(addr, gprs[rd]);
 			cpu.mmu.wait(addr);
 			cpu.mmu.wait32(gprs[cpu.PC]);

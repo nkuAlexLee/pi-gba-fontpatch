@@ -363,7 +363,7 @@ class ARMCoreThumb {
 		var cpu = this.cpu;
 		var gprs = cpu.gprs;
 		return function () {
-			var n = gprs[rn] + immediate;
+			var n = (gprs[rn] + immediate) & 0xFFFFFFFE;
 			cpu.mmu.waitPrefetch(gprs[cpu.PC]);
 			gprs[rd] = cpu.mmu.loadU16(n);
 			cpu.mmu.wait(n);
@@ -374,9 +374,10 @@ class ARMCoreThumb {
 		var cpu = this.cpu;
 		var gprs = cpu.gprs;
 		return function () {
+			var n = (gprs[rn] + gprs[rm]) & 0xFFFFFFFE;
 			cpu.mmu.waitPrefetch(gprs[cpu.PC]);
-			gprs[rd] = cpu.mmu.loadU16(gprs[rn] + gprs[rm]);
-			cpu.mmu.wait(gprs[rn] + gprs[rm]);
+			gprs[rd] = cpu.mmu.loadU16(n);
+			cpu.mmu.wait(n);
 			++cpu.cycles;
 		};
 	}
@@ -385,7 +386,7 @@ class ARMCoreThumb {
 		var gprs = cpu.gprs;
 		return function () {
 			cpu.mmu.waitPrefetch(gprs[cpu.PC]);
-			gprs[rd] = cpu.mmu.load8(gprs[rn] + gprs[rm]);
+			gprs[rd] = (cpu.mmu.load8(gprs[rn] + gprs[rm]) << 24) >> 24;
 			cpu.mmu.wait(gprs[rn] + gprs[rm]);
 			++cpu.cycles;
 		};
@@ -394,9 +395,10 @@ class ARMCoreThumb {
 		var cpu = this.cpu;
 		var gprs = cpu.gprs;
 		return function () {
+			var n = (gprs[rn] + gprs[rm]) & 0xFFFFFFFE;
 			cpu.mmu.waitPrefetch(gprs[cpu.PC]);
-			gprs[rd] = cpu.mmu.load16(gprs[rn] + gprs[rm]);
-			cpu.mmu.wait(gprs[rn] + gprs[rm]);
+			gprs[rd] = (cpu.mmu.loadU16(n) << 16) >> 16;
+			cpu.mmu.wait(n);
 			++cpu.cycles;
 		};
 	}
@@ -728,7 +730,7 @@ class ARMCoreThumb {
 		var cpu = this.cpu;
 		var gprs = cpu.gprs;
 		return function () {
-			var n = gprs[rn] + immediate;
+			var n = (gprs[rn] + immediate) & 0xFFFFFFFE;
 			cpu.mmu.store16(n, gprs[rd]);
 			cpu.mmu.wait(gprs[cpu.PC]);
 			cpu.mmu.wait(n);
@@ -738,9 +740,10 @@ class ARMCoreThumb {
 		var cpu = this.cpu;
 		var gprs = cpu.gprs;
 		return function () {
-			cpu.mmu.store16(gprs[rn] + gprs[rm], gprs[rd]);
+			var n = (gprs[rn] + gprs[rm]) & 0xFFFFFFFE;
+			cpu.mmu.store16(n, gprs[rd]);
 			cpu.mmu.wait(gprs[cpu.PC]);
-			cpu.mmu.wait(gprs[rn] + gprs[rm]);
+			cpu.mmu.wait(n);
 		};
 	}
 	constructSUB1(rd, rn, immediate) {
