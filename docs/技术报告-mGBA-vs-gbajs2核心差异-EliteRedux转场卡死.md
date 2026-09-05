@@ -479,3 +479,266 @@ E1 补丁保留（语义上正确：真 BIOS 不清真实 IF），后续实验�
 | VBA-M CPUSoftwareInterrupt | src/core/gba/gba.cpp:3023（3073 真BIOS分发） |
 | VBA-M CPUTestIRQ/halt-wake | src/core/gba/gba.cpp:1017-1075、5690 |
 | VBA-M lost-wakeup 注释（SIO） | src/core/gba/gba.cpp:1121-1140 |
+
+---
+
+# 第二轮动态深挖（2026-09-05）：转场黑屏完整根因链
+
+> 方法：romctl serve 全动态排查（hook/watchwrite/watchdma/disasm/memread/memwrite + 按键重放复现），
+> 静态 ROM 扫描辅助。本轮在 §4.9/§4.10 修复之上继续：黑屏仍在，逐层下钻至文件系统层。
+
+## 8. 本轮结论总览（完整因果链，全部有运行时证据）
+
+```
+[根因] EliteRedux 自定义 boot/相位初始化函数（0x0800Axxx/Bxxx，指针表 0x084B2298）
+       在 gbajs2 中从不执行（14 个入口全 hook，boot→标题→菜单→NEW GAME→开场→命名→转场全程 0 命中）
+   ↓
+[直接后果] EWRAM 文件系统表从未建立：
+   - 扩展文件条目表（blob=0x0202A9A4，条目区 +0x1C78..+0x1E78，fileid≥0x4000）
+     只被相位初始化清零（memset trio 0x8117D04），永不被填充
+   - submit(0x40E3) = u16[blob+0x1E3E] = 0（正确值 0x082C，ROM 主表 0x09098362 处）
+   - FAT 姊妹表同样缺失（[0x03003410]=0x02029C48 稀疏、[0x03003414]=0x0202DC08 全零）
+   ↓
+[加载失败] submit=0 → 文件加载在 0x805AE1C 提前退出；
+   地图描述符用零表构建 → 队列记录 src = 文件区基址 0x089E63C0 + 0（垃圾）
+   → 地图瓦片/调色板永远加载不正确 → 淡入请求永不发出
+   ↓
+[转场期] fade 保持活动态（byte7=0x80）进入 mapcb 接管
+   ↓
+[锁死机制] mapcb 入口 gate 失败 → 每帧入口卸载 gate12、退出重装；
+   VBlank wrapper 恰在 mapcb 主体中部（tickC 与 fadetickDC 之间）读 gate 槽 → 永远读到 0
+   → gate12 永不派发 → fadetick90 永不运行 → fade 锁存（+0xC=FFFFFFFF）永不清除
+   → fade 永不完成 → 永久黑屏
+```
+
+**两层根因**：
+- **初始分歧**（为什么 fade 在转场期没完成）：文件系统表缺失 → 地图数据/调色板加载失败 → 淡入从未启动。
+- **永久化机制**（为什么不能自愈）：gate12 安装/卸载竞态 + fade 锁存死锁（即使后续条件恢复也无法解锁）。
+
+## 9. 关键机制解码（本轮新增）
+
+### 9.1 mapcb(0x08183B14) 与 gate 竞态（运行时证据确凿）
+
+- 入口：`r7 = SXT8([0x020391F3])`（0x57DF 实为 **LDRSB**，非旧反汇编器所标 ldrsh）；r7<0 → 失败路径：
+  `bl 0x8168418(r0=0)` 卸载 gate12（写 [0x0300342C]=0）。
+- 主体：bl 0x81F5F20, 0x82081A4, scanB(0x8252B34), 0x812BA7C, 0x812BE88, tickC(0x8252BE0),
+  fadetickDC(0x81863DC), 0x8208A14, 0x8171BC4 → submit 泵循环（best-effort，带 r5 倒数退出）。
+- 退出：r7<0 → `bl 0x8168418(r0=0x08184355)` 安装 gate12。
+- watchwrite [0x0300342C]：每帧一对写（安装 lr=0x8183BAD / 卸载 lr=0x8183BA5），无其他写者。
+- hookevents 顺序证明 **VBlank（wrapper）打断在 mapcb 主体中部**：
+  `[…主体 tickC, scanD] → wrapperchk/gateskip(r3=0) → fadetickDC(主体续) → dispatch(cbA) → dispatch(mapcb) → gate_fail …`
+  → wrapper 的读取窗口永远落在"已卸载、未安装"之间 → gate12 永不派发。
+- mGBA 健康态：转场期 fade 已完成（byte7<0x80）→ 入口 gate 通过（不卸载）→ gate12 常驻 → 每帧派发。
+
+### 9.2 fade 引擎与锁存死锁
+
+- fade 结构基址 0x020391EC；卡死态：+0..3=FFFFFFFF, +4=0x0380(word), +7=0x80, +8=0x40, +9=0, +A=0, +B=02, +C..F=FFFFFFFF。
+- fadetickDC(0x81863DC)：fade+0xC≠0 → 立即返回 0xFF；否则按 fade9&3 处理（0→调度器 0x8186954；2/3→0x8186D68）；
+  收尾**重新锁存** fade+0xC = fade+0。
+- fadetick90(0x8186390)（gate12/trtick 专属）：[fade+8]≤0x7F 时 DMA3 调色板上传
+  （0x02038D2C→0x05000000，1024B）+ **清锁存**；(fade9&3)==2 且 byte7>0x7F → bl 0x8186E28 步进。
+- 设计上的乒乓：gate 派发（VBlank 侧）清锁存 → fadetickDC（主体侧）消费一步 → 再锁存。
+  gate12 不派发 → 锁存永不清 → 调度器永不运行。
+- 0x8186480 = fade 复位函数：初始化 16 通道数组 0x0203912C（12B/通道：[+0]=0x08AF69E0, [+4]&=0xFC00F800,
+  [+8]&=0x80, [+9]=0, [+A]=0）+ 主结构（+0=0, +4=0, +8=0x02000000|(旧&0xF080F300)）。
+
+### 9.3 解锁实验（伪造 fade 完成）
+
+`memwrite [0x020391F3]=0x00`（byte7 清零）后 120 帧内：
+- gate 槽 [0x0300342C] = 0x08184355 **常驻**；gatedispatch/fadetick90/sched 每帧触发；
+- 队列描述符 byte1 0x40→0x01（被消费）；VRAM 0x06010000 出现非零瓦片数据；
+- **但仍是黑屏**：PAL 0x05000000 全零、palbuf 0x02038D2C 全零、淡入请求永不发出（fade+0 恒 FFFFFFFF）。
+- 结论：竞态/锁存只是"永久化机制"；初始分歧在更上游（数据加载层）。
+
+### 9.4 文件系统层（真正的初始分歧）
+
+**结构**：
+- 三表由 0x8166CE0 设置：[0x03003410]=0x02029C48、[0x0300340C]=0x0202A9A4（blob）、[0x03003414]=0x0202DC08。
+- blob 内部：+0x1378 = 记录区（24B/记录，由 recordloader 0x818250C 从 ROM 0x0909789C CpuSet 拷贝，
+  帧 ~12686 执行且**成功**）；+0x1978..+0x1C77 = 标志区（flagtest 0x811824C 读 [[0x03003434]+0x1978+(N>>3)]）；
+  **+0x1C78..+0x1E78 = 扩展条目区（256×u16，fileid 0x4000..0x4100）**；+0x1E78..+0x1F78 = 物理表（XOR 扰码，
+  0x8166FCC 解扰）；+0x2610.. = 目录子表（builder 0x810350C 设指针）；+0x2A8C.. = 由 0x81154BC 从 ROM 拷贝（成功）。
+- **条目写入器 setentry(0x8118084)**：`u16[[[0x0300340C]] + 2*(fileid-0x31C4)] = value`（fileid≥0x4000 路径）。
+  全 ROM 40+ 调用方；**gbajs2 全程只执行过 1 处**：标题画面 setentry(0x40F9, 0)×23（pc=0x81180AC, lr=0x8168A3D，
+  主动清 0x40F9 条目，属正常行为）。
+- **boot 期条目设置函数**（0x0800B93C/0x0800B9B0 等，含 0x800B96C/8E/DC/FE 四处 setentry 调用）：
+  位于指针表 **0x084B2298** = {0x0800B73D, 0x0800B749, 0x0800B8B1, 0x0800B93D, 0x0800B9B1, 0x0800BA2D,
+  0x0800B7FD, 0x03020100, 0x09080706, 0x0800AE08, 0x0800AE26, 0x0800AE94, 0x0800AEC0, 0x0800AEF8,
+  0x0800ACB2, 0x0800AD46}。**全部 14 个代码入口 hook 后 0 命中**（boot→转场全程）——在 gbajs2 中是死代码。
+  派发器未定位（无 bl/字面量指针引用，必为间接派发）。
+- **ROM 主表**：基址 0x09096524；条目区 +0x1C78（256×u16，173 非零，值域 0x1..0x82DC）；
+  **文件 0x40E3 条目 = 0x082C（ROM 0x09098362）**；记录区 +0x1378 ↔ 0x0909789C；
+  目录结构 0x09097A78 = {0x0909789C, 0x09097A1C, 0x09097A24, 0x09097A44, …}。
+- **加载路径**：文件加载 0x0805ADF8：r9=u8(submit(fileid))；bl 0x8083300(entry)；
+  返回 (r0-1)&0xFF > 2 → 退出（0x805B0A8）——**entry=0 时必然退出**。
+- **地图入队路径**：enqueue2(0x8253810, r0=src, r1=dst, r2=len)，唯一调用方 0x81B7A66：
+  `src = [desc+12] + s16([[desc+8]+byte[desc+42]*4] + byte[desc+43]*4) × SXT8(0x08E26904[idx])`，
+  `dst = 0x06010000 + (u16[desc+4]&0xFC00)>>5`。描述符表为零 → src = 基址+0 = 0x089E63C0（垃圾）✓ 与观测一致。
+- **相位初始化**（0x0817F8C4 区域，本运行帧 ~12655-12897）：filetable_clear(0x8166CBC) + memset trio(0x8117D04，
+  清 +0x1978 标志区 0x2FF 与 +0x1C78 条目区 0x200) + ~40 个子系统初始化调用（含 0x800A448 槽初始化、
+  0x81154BC 子表拷贝等）。**clear 之后再无条目填充**——这就是 mGBA/gbajs2 的分歧落点。
+
+### 9.5 注入实验（条目表）
+
+- 实验 A（卡死态直接注入 512B ROM 主表条目 → 0x0202C61C）：条目生效（0x40E3=0x082C），
+  但队列记录 src 不变（0x089E63C0）——记录在转场建立时已定型，且描述符表不直接来自条目表。
+- 实验 B（重放至相位初始化 clear 刚结束立即注入，帧 ~12897）：仍不变。
+  → 描述符构建与 clear 同窗（或更早），或加载链还依赖同样缺失的 FAT 表（tableA 稀疏/tableC 全零）。
+  **单修条目表不足以恢复；缺失的 boot 初始化影响整组表。**
+
+## 10. 对旧结论的修正
+
+| 旧结论 | 修正 |
+|--------|------|
+| 发现①：cbA 门槛 [0x02032038] 未写入 | **误判**。真实门槛是 IWRAM [0x03003424]==0x08183B15，卡死态该值正确且通过；EWRAM 0x02032034 区只是被 memset(0x083B63F6, caller 0x081A6973) 正常清零的无关结构 |
+| 发现④/案例11：COPYFUNC(0x08005800) 从不执行 | **过时**。现于帧 5102/5704 执行（r0=0x02027FC8, r1=0xE64）；且它是引擎实例**构造器**（向 0x03001F70..9C 全局表写子指针），不做代码拷贝 |
+| 案例11："异步文件加载永不完成"归因队列/引擎拷贝 | 现象正确，归因更新：文件系统表（条目/FAT）缺失 → 加载在 0x805B0A8 提前退出；队列机制本身完好（解锁实验证明能消费） |
+| §4.10 LDRSH 修复与本黑屏相关 | **无关**。0x57DF 实为 LDRSB（bits[11:9]=011），mGBA/gbajs2 语义一致；gate 失败路径是正常行为。LDRSH 奇地址 SXT8 修复本身与 mGBA isa-thumb.c:288/isa-arm.c:560 一致，作为正确性改进保留 |
+| 反汇编器可信度 | 项目 thumb-disassembler.js Format8 H/S 位映射 bug（bit9 误当 S 位；正确 H=bit11, S=bit10）曾把 0x57DF 误标 ldrsh，直接带偏一轮假设。反汇编输出必须人工复核 bits[11:9]：011=LDRSB, 101=LDRH, 111=LDRSH |
+
+## 11. 遗留问题与下一步
+
+1. **派发器未定位**：谁本应调用 boot 表（0x084B2298）函数？无 bl/指针字面量引用，必为间接派发。
+   候选方向：相位初始化 0x0817F8C4 的 ~40 个子调用之一；转场状态机 0x8184558 的 case 表（0x8184684）；
+   或模拟器检测（hack 常见反模拟分支——读 open-bus/BIOS 区按值分支；flagtest 读 0x1AFC 即此模式实例，
+   §4.9 的 BIOS 保护读差异是同类分歧的先例）。
+2. **建议的下一步**：
+   - a. 构建 mGBA 无头对照（源码在 /mnt/d/code/mgba-master）：同 ROM 同路径，dump 同点位
+     0x0202C7E2/0x0202DC08 与 0x0800Axxx/Bxxx 的 PC 轨迹，直接回答"mGBA 何时执行这些函数"。
+   - b. rompatch 强制实验：相位初始化 clear 后强制 bl boot 表函数（或同时注入条目+FAT），验证修复充分性。
+   - c. 排查 0x8184558 状态机各 case（0x818456C 的等待态读 [0x8184688 池]+26 字节）与 0x8184558 的
+     14 态跳转表，确认 boot 表派发应发生在哪一态。
+   - d. 若确认是模拟器检测/开放总线类分歧：按 §4.9 先例修 gbajs2 对应行为（通用修复，优于 ROM patch）。
+
+## 12. 本轮工具链踩坑记录（补充 SKILL）
+
+- `/memwrite` 参数是 `hex=` 字节串（不是 size/value）；`/memread` 的 len 是十进制且单次上限 0x1000。
+- `/key` 参数是 `keys=`（不是 press=）；`/run` 单批上限 3600 帧（超出静默截断）。
+- watchwrite 只支持单一持久范围（后调用覆盖前调用）；只捕获 CPU store，DMA 写入必须用 /watchdma；
+  /watchdma 只记录 EWRAM 目标；两者的缓冲在 /load 后**不清空**（帧号跨运行混叠，判读须小心）。
+- hookevents/watchwrite 的 frame 标签不可靠（同标签覆盖多帧）；判读以事件流顺序 + 代码流交叉验证。
+- ROM 静态 bl 调用扫描：目标必须是**偶地址**（不含 Thumb bit）；sign-extend 用 bit22（off&0x400000）。
+- 长驻 serve 用 `setsid nohup … </dev/null &`；curl 一律 `--noproxy '*'`（环境代理会拦截 127.0.0.1）。
+
+---
+
+# 第三轮调查（2026-09-05 晚间）：SWI 0x04/0x05 IntrWait 根因定位 + 修复 + mGBA 无头对照验证
+
+## 13. 决定性根因：SWI 0x04/0x05 (IntrWait/VBlankIntrWait) HLE 未真正等待
+
+### 13.1 现象回顾与旧结论修正
+
+§9.4 给出的"初始分歧 = EliteRedux boot 初始化函数（0x0800Axxx/Bxxx via 0x084B2298）从不执行"是**间接后果，不是真正根因**。第三轮深挖完成脚本引擎全链路解码后，发现：
+- boot 表派发器已定位：**special 408**（opcode 0x25 native）→ 表 B[408]=0x0800B055 → 派发器 **0x0800B054**：`index = u16[VAR_0x8004 @ 0x02021D50]` → boot 表 0x084B224C[index]（67 项 Thumb 指针）→ `bx`。
+- boot 脚本 = 0x0839852A，被 level script 列表（ROM 0x090A7814 条目）引用，runner=0x0812C158（由 sub_A44=0x08183A44 在 cbA 内调用）派发。
+- boot 脚本不启动的真凶不是"派发器不执行"，而是 **sub_A44 的 flag 死锁**（见 §13.2）。
+- §9.4 的"扩展文件表条目永不被写入"结论**已被推翻**：mGBA 对照（§13.5）显示 mGBA 在 b29 卡死态同样 entry40E3=0000、entry4010=0045，但 mGBA 全画渲染正常——扩展条目表不是渲染必需条件。
+
+### 13.2 flag 死锁全链路（run10 watchwrite 0x03004518 捕获，转场帧 12691）
+
+主脚本引擎状态：ctxA=0x03004430(IWRAM)，running flag=**0x03004518**，state byte=0x0300442C。
+sub_A44(0x08183A44)：`读 flag[0x03004518]；非0→早退（runner 不被调）；==0→bl runner；runner 返回1→bl 0x81F5EAC 置 flag=1`。设计意图：start 成功后 flag=1 防重入，脚本完成后 tick 清 flag。
+
+**死锁链**（全部有运行时证据）：
+1. 转场帧 12691：engineinit(state=2) → flag=0(lr=0x8183C47 转场回调) → **flag=1(lr=0x813961F 元凶1)** → **flag=1(lr=0x81398DF 元凶2)**，此后永无 flag 写入。
+2. 元凶1=0x0813960C（转场回调链内）：条件注册器 0x81395B0 根据 0x81749B4/0x81749FC 返回值注册回调，参数都是 10。
+3. 元凶2=0x0813989C（两相位轮询回调）：state==0→flag=1+state++；state==1→若 `0x8142444()`（=byte[0x0202270A]>=2）→flag=0+注销；否则继续等。**卡死态 state=1 永久轮询**。
+4. byte[0x0202270A] = 地图加载进度 C，由 cb0(0x081417B4) 步进机推进：table2[1]=0x0814AA8 门槛 `r3=byte[0x020391EC+7](fade byte7)；cmp #127；bhi→直接返回什么都不做；否则 C=3`。**即：地图加载进度等 fade 完成（byte7<0x80）才推进**。
+5. fade#3 不完成(byte7=0x80) → table2[1] 门槛挡住 → C 永远=1 → 元凶2 永等 → flag=1 永久 → sub_A44 早退 → runner 永不执行 → boot 脚本永不启动。
+6. fade#3 不完成的原因：**gate12 安装/卸载竞态 + fade 锁存死锁**（§9.1-9.2 已详述）：VBlank wrapper 恒定落在 mapcb 体中部（U 与 I 之间）→ 读槽=0 → gate12 永不派发 → fadetick90 永不跑 → latch(FFFFFFFF) 永不清 → fadetickDC 早退 → fade 永不完成。
+
+### 13.3 ★真正的 gbajs2 代码级根因：SWI 0x04/0x05 HLE 实现
+
+主循环 0x08168100 末尾：`… → 0x816814E: swi 0x5 (VBlankIntrWait) → b 0x8168116 循环`。**主循环每帧以 SWI 0x05 结束——等待 VBlank 是本应发生的同步点**。
+
+**js/irq.js swi() case 0x04/0x05 旧实现（BUG）**：
+```js
+case 0x05: // VBlankIntrWait
+    this.cpu.gprs[0] = 1; this.cpu.gprs[1] = 1;
+// Fall through:
+case 0x04: // IntrWait
+    if (!this.enable) this.io.store16(this.io.IME, 1);
+    if (!this.cpu.gprs[0] && this.interruptFlags & this.cpu.gprs[1]) return;
+    this.dismissIRQs(0xffffffff);
+    this.cpu.raiseTrap();   // ← BUG：raiseTrap 跳 stub BIOS(0xE1B0F00E=movs pc,lr)立即返回，完全不等待！
+```
+
+**真 BIOS/mGBA 语义**：VBlankIntrWait = 清 IF + HALT 到 VBlank IRQ 实际交付（游戏 IRQ handler 在 VBlank 边沿先跑，然后才返回主循环）。
+
+**旧 bug 后果**：清 IF + 立即返回 → 主循环自由运行（循环耗时≈1帧故 1:1 相位锁定）→ VBlank IRQ 恒定落在 mapcb 体中部（U 与 I 之间）→ wrapper 读槽=0 → gate12 永不派发 → fadetick90 永不跑 → latch 永不清 → fadetickDC 早退 → sched 不跑 → fade#3 永不完成 → byte7=0x80 → table2[1] 挡住 C → 元凶2 永等 → flag=1 → runner 死 → boot 脚本不启动 → 黑屏。**对话期正常**的原因：槽内 trtick 常驻（对话 cb 不做 U/I），IRQ 无论落哪都能派发。
+
+### 13.4 修复实施（已完成，node --check 通过，run12 验证）
+
+**js/irq.js** 4 处修改：
+1. `clear()`：新增 `intrWaitMask=0; intrWaitFired=0; intrWaitDeferHalt=false;`。
+2. `freeze()/defrost()`：持久化三字段（defrost 用 `|| 0` / `|| false` 容错旧快照）。
+3. `swi()` case 0x04（0x05 fallthrough 不变，biosPrefetch=0xe3a02004 保留）：`var intrWaitMask = gprs[1] & 0x3fff;` 早退检查改用 mask；删除 `this.cpu.raiseTrap()`，改为设三字段 + `dismissIRQs(0xffffffff)` + `if (this.waitForIRQ()) { intrWaitFired |= interruptFlags; } else { 放弃等待（mask=0）避免挂死 }`。
+4. 新增 `intrWaitReturn()`（core.switchMode 离开 IRQ 模式时调；`(intrWaitFired|interruptFlags)&intrWaitMask` 满足→清状态完成；否则 fired|=IF，有 pending→返回让 springIRQ 先交付；无 pending→设 intrWaitDeferHalt=true）+ `intrWaitPoll()`（core.step() 顶部调；deferHalt 时再查满足条件→完成；否则 waitForIRQ() 快进到下一事件）。
+
+**js/core.js** 2 处：
+5. `step()` 顶部（skipInstruction 检查前）：`this.irq.intrWaitPoll();`
+6. `switchMode()` same-mode 早退之后：`if (this.mode == this.MODE_IRQ && newMode != this.MODE_IRQ) { this.irq.intrWaitReturn(); }`
+
+**设计要点（嵌套陷阱规避）**：不能在 switchMode 钩子内直接 waitForIRQ——其内部 raiseIRQ 的 switchMode(IRQ) 会因 this.mode 还是 IRQ 而早退，外层随后把 mode 设成 SYSTEM → CPU 在 SYSTEM 模式执行 IRQ 向量 → 状态损坏。故钩子只设 deferHalt 标志，重活延迟到下一 step() 顶部（此时上条指令已完全退休，raiseIRQ 干净切换模式）。
+
+### 13.5 run12 验证结果（黑屏已修复！）
+
+回放配方：load→3600+1500→START→600→A→600→75批(A30+90,START30+90)。
+
+**永久黑屏已修复**，证据：
+- gatedispatch 24167 次（f1 起每帧）、fadetick90 24167、sched 21729——gate 槽派发恢复（旧码转场后为 0）。
+- 转场帧 12690：flag 0→1(lr=0x813961F 元凶1)→1(lr=0x81398DF 元凶2)→**0(lr=0x81398CF 元凶2相位1完成!)** 同帧完成——死锁解除。
+- fade 完成：byte7=0、latch(+0xC)=0；gate 槽=0x08184355(gate12)常驻；C(0x0202270A)=3。
+- runner 1511 次（f12690 起每帧）；截图：b19=开场对话✓；b29/b49/b69=**卧室地图渲染但仅右侧 60%，左侧 40% 纯黑且静止**；final=START 菜单正常打开（Pokémon Elite Redux v2.65 Beta2 菜单：Inventory/Wiki/Settings/Save，可交互！）。
+
+### 13.6 mGBA 无头对照（关键！揭示剩余渲染分歧）
+
+构建 mGBA 无头对照环境（/mnt/d/code/mgba-master 源码）：
+- cmake -B build-headless -DBUILD_SDL=OFF -DBUILD_QT=OFF -DBUILD_STATIC=ON -DUSE_FFMPEG=OFF -DUSE_PNG=OFF -DUSE_LIBZIP=OFF -DUSE_DEBUGGERS=OFF -DCMAKE_BUILD_TYPE=Release + cmake --build --target mgba -j8 → libmgba.a。
+- 驱动 tmp/mgba-headless/driver.c：GBACoreCreate + **setVideoBuffer(framebuffer, 240)** + **reloadConfigOption("hwaccelVideo", NULL)** 关联软件渲染器 + 静默 mLogger + stride 像素单位（非字节！）+ BMP 截图 + 逐帧 trace 11 项 + dumpState。
+- **编译必须带库的全套 C_DEFINES**（否则结构体 ABI 不匹配段错误）；日志不静默会拖慢 10x+。
+
+mGBA 对照回放（同 run12 配方，24512 帧）的 dumpState 与 gbajs2 run12 卡死态**完全一致**：
+| 字段 | mGBA b29-final | gbajs2 run12 b29-final | 一致? |
+|---|---|---|---|
+| flag | 01 | 01 | ✓ |
+| ctxState | 02 | 02 | ✓ |
+| ctxPC | 00000000 | 00000000 | ✓ |
+| grid real | 72/528 | 72/528 | ✓ |
+| cell8_11 | 6884 | 6884 | ✓ |
+| entry40E3 | 0000 | 0000 | ✓ |
+| entry4010 | 0045 | 0045 | ✓ |
+| idlist | 082C0DC6 | 082C0DC6 | ✓ |
+| gateslot | 08184355 | 08184355 | ✓ |
+| fade | 00000000000000004000000200000000 | 同 | ✓ |
+
+**但截图视觉差异显著**（PIL 定量分析）：
+| 场景 | mGBA 黑像素 | gbajs2 黑像素 | 差异 |
+|---|---|---|---|
+| b29 卧室 | 9.8%（240×156 几乎全画） | 52%（仅右 144×128，左 40% 全黑） | 59.64% 像素不同 |
+| final 菜单 | 9.8% | 0%（240×160 全画，但 17 色） | 96.6% 像素不同 |
+
+调色板一致（29 色）、BG1 tilemap 一致（0x0600E800 全填 0x0030/0x1430），但 **BG1 tile char base 0x06004000+0x1000 起 4KB 全零**——瓦片图形数据只载入了一部分。左 40% 黑屏 = 瓦片图形数据载入不完整，**尚未定位到 gbajs2 的具体分歧点**。
+
+### 13.7 结论与遗留
+
+**已修复**：SWI 0x04/0x05 IntrWait HLE 未真正等待——这是 gbajs2 与 mGBA 的核心时序分歧，修复后永久黑屏消除、转场完成、卧室渲染、菜单可交互。
+
+**修正旧结论**：
+- §9.4"扩展文件表条目永不被写入是初始分歧"——**推翻**：mGBA 同样 entry40E3=0000 但全画渲染，扩展条目表非渲染必需。
+- §11.1"派发器未定位"——**已解决**：派发器 = special 408 → 0x0800B054 → boot 表 0x084B224C[index]→bx。
+- §9.4"boot 初始化函数从不执行是根因"——**修正为间接后果**：boot 脚本不启动的真正原因是 flag 死锁（元凶2 轮询回调等 fade 完成），而 flag 死锁的根因是 SWI IntrWait 不等待导致的 gate 竞态。
+
+**遗留（左 40% 黑屏）**：mGBA 全画 vs gbajs2 右 60%，瓦片图形数据载入不完整。BG1 tilemap 与调色板已一致，分歧在 tile char data 载入链。下一步：对比两模拟器的 VRAM 0x06004000+ 区段、定位载入链的 gbajs2 分歧点（候选：DMA 写 VRAM 快路径、或异步加载状态机某 case）。
+
+## 14. 本轮工具链踩坑补充
+
+- mGBA headless 渲染器关联陷阱：必须先 `setVideoBuffer(core, buf, 240)` 再 `reloadConfigOption(core, "hwaccelVideo", NULL)`，否则软件渲染器永不关联、getPixels 静默返回 NULL（dummy 渲染器 getPixels 是空实现，连 *pixels 都不写→未初始化局部变量=段错误）。
+- mGBA `outputBufferStride` 单位是**像素**（mColor=4字节），非字节——BMP 写入须 `src = buf + y*stride*4`。
+- mGBA 编译 driver 必须带 libmgba.a 的全套 C_DEFINES（从 CMakeFiles/mgba.dir/flags.make 取），否则结构体 ABI 不匹配段错误；sqlite3/lzma 已打包进 .a 不需外链，但需 -lm -lpthread -lz。
+- mGBA 日志不静默会拖慢 10x+（SWI/Serial/DMA 警告刷屏）——自定义 noopLog mLogger + mLogSetDefaultLogger。
+- PIL 定量截图分析（非视觉）：`black = (a.max(axis=2) < 16)`；bbox/列分布/唯一色计数——环境无视觉模型时用此法精确刻画渲染差异。
+- hook 事件文件 tmp/hook-events.jsonl 跨 run 累积不清空；干净测量用 `wc -l` 前后差 + `tail -n` 差值。
+- /key 端点自身推进 ~60 帧（响应含 frames 字段）——帧数核算需计入。
+- 反汇编器 ldrh 立即数显示正确（imm5=bits[10:6]），但曾手工分位算错——验证编码时以反汇编器输出为准。
+- watchwrite 单一持久范围；缓冲 4000 满后拒新（丢尾部！）——长跑必须定期 drain（先 tail=4000 读走再 reset=1 再重新 arm）。
