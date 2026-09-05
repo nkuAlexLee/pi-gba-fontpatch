@@ -97,6 +97,7 @@ class ARMCore {
 		var gprs = this.gprs;
 		var mmu = this.mmu;
 		this.step = function () {
+			this.irq.intrWaitPoll();
 			// Dynamic font cracker: skip original instruction if callback requested
 			if (this.skipInstruction) {
 				this.skipInstruction = false;
@@ -434,6 +435,9 @@ class ARMCore {
 		if (newMode == this.mode) {
 			// Not switching modes after all
 			return;
+		}
+		if (this.mode == this.MODE_IRQ && newMode != this.MODE_IRQ) {
+			this.irq.intrWaitReturn();
 		}
 		if (newMode != this.MODE_USER || newMode != this.MODE_SYSTEM) {
 			// Switch banked registers
