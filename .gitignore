@@ -17,3 +17,5 @@ tmp/
 *.log
 $RECYCLE.BIN/
 nul
+# 翻译流水线工作目录（可再生成）
+translation-*/
