@@ -80,6 +80,13 @@ class GameBoyAdvanceInterruptHandler {
 
 		this.nextEvent = 0;
 		this.springIRQ = false;
+		// BIOS IntrWait/VBlankIntrWait (SWI 0x04/0x05) 等待状态：
+		// intrWaitMask = 正在等待的中断位集合（0 = 不在等待），
+		// intrWaitFired = 等待期间已出现过的 IF 快照，
+		// intrWaitDeferHalt = IRQ handler 返回后需继续 HALT（延迟到下一 step() 顶部执行）
+		this.intrWaitMask = 0;
+		this.intrWaitFired = 0;
+		this.intrWaitDeferHalt = false;
 		this.resetSP();
 	}
 	freeze() {
@@ -90,7 +97,10 @@ class GameBoyAdvanceInterruptHandler {
 			dma: this.dma,
 			timers: this.timers,
 			nextEvent: this.nextEvent,
-			springIRQ: this.springIRQ
+			springIRQ: this.springIRQ,
+			intrWaitMask: this.intrWaitMask,
+			intrWaitFired: this.intrWaitFired,
+			intrWaitDeferHalt: this.intrWaitDeferHalt
 		};
 	}
 	defrost(frost) {
@@ -114,6 +124,9 @@ class GameBoyAdvanceInterruptHandler {
 		}
 		this.nextEvent = frost.nextEvent;
 		this.springIRQ = frost.springIRQ;
+		this.intrWaitMask = frost.intrWaitMask || 0;
+		this.intrWaitFired = frost.intrWaitFired || 0;
+		this.intrWaitDeferHalt = frost.intrWaitDeferHalt || false;
 	}
 	updateTimers() {
 		if (this.nextEvent > this.cpu.cycles) {
@@ -402,20 +415,35 @@ class GameBoyAdvanceInterruptHandler {
 				this.cpu.gprs[0] = 1;
 				this.cpu.gprs[1] = 1;
 			// Fall through:
-			case 0x04:
+			case 0x04: {
 				// IntrWait
 				if (!this.enable) {
 					this.io.store16(this.io.IME, 1);
 				}
-				if (
-					!this.cpu.gprs[0] &&
-					this.interruptFlags & this.cpu.gprs[1]
-				) {
+				var intrWaitMask = this.cpu.gprs[1] & 0x3fff;
+				if (!this.cpu.gprs[0] && this.interruptFlags & intrWaitMask) {
 					return;
 				}
+				// 真 BIOS 语义：清 IF 后 HALT，直到 mask 指定的中断出现。
+				// 等待期间非目标中断正常交付（游戏 IRQ handler 执行），handler
+				// 返回时（core.switchMode 离开 IRQ 模式 → intrWaitReturn）再次
+				// 检查，未满足则继续 HALT（intrWaitPoll）。
+				// 旧实现 raiseTrap() 跳 stub BIOS 立即返回、完全不等待：主循环
+				// 自由运行导致 VBlank IRQ 恒定落在 mapcb gate 槽卸载/安装窗口
+				// 中部，gate12 永不派发 → fade 永不完成 → 转场永久黑屏。
+				// 详见 docs/技术报告 §13。
+				this.intrWaitMask = intrWaitMask;
+				this.intrWaitFired = 0;
+				this.intrWaitDeferHalt = false;
 				this.dismissIRQs(0xffffffff);
-				this.cpu.raiseTrap();
+				if (this.waitForIRQ()) {
+					this.intrWaitFired |= this.interruptFlags;
+				} else {
+					this.intrWaitMask = 0;
+					this.intrWaitFired = 0;
+				}
 				break;
+			}
 			case 0x06:
 				// Div
 				var result = (this.cpu.gprs[0] | 0) / (this.cpu.gprs[1] | 0);
@@ -891,6 +919,47 @@ class GameBoyAdvanceInterruptHandler {
 		}
 		if (!this.waitForIRQ()) {
 			throw "Waiting on interrupt forever.";
+		}
+	}
+	intrWaitReturn() {
+		// core.switchMode 离开 IRQ 模式（游戏 IRQ handler 返回）时调用。
+		// 只做轻量检查与标志设置：waitForIRQ 内部会触发 cpu.raiseIRQ →
+		// switchMode，若在此处（模式切换进行中、cpsrI 尚未从 SPSR 恢复）
+		// 直接调用会与外层切换冲突损坏 CPU 状态，故重活延迟到 intrWaitPoll。
+		if (!this.intrWaitMask) {
+			return;
+		}
+		if ((this.intrWaitFired | this.interruptFlags) & this.intrWaitMask) {
+			this.intrWaitMask = 0;
+			this.intrWaitFired = 0;
+			return;
+		}
+		this.intrWaitFired |= this.interruptFlags;
+		if (this.enable && this.enabledIRQs & this.interruptFlags) {
+			return;
+		}
+		this.intrWaitDeferHalt = true;
+	}
+	intrWaitPoll() {
+		// core.step() 顶部调用：上一条指令已完全退休（mode/cpsrI/PC 稳定），
+		// 此时继续 IntrWait 的 HALT 等待是安全的。
+		if (!this.intrWaitDeferHalt) {
+			return;
+		}
+		this.intrWaitDeferHalt = false;
+		if (!this.intrWaitMask) {
+			return;
+		}
+		if ((this.intrWaitFired | this.interruptFlags) & this.intrWaitMask) {
+			this.intrWaitMask = 0;
+			this.intrWaitFired = 0;
+			return;
+		}
+		if (this.waitForIRQ()) {
+			this.intrWaitFired |= this.interruptFlags;
+		} else {
+			this.intrWaitMask = 0;
+			this.intrWaitFired = 0;
 		}
 	}
 	lz77(source, dest, unitsize) {
