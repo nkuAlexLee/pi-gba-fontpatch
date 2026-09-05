@@ -176,7 +176,7 @@ hook 候选地址看触发。⚠ pool 字面量是指针值不是表（`ldr r2,=
 
 8d. **★写只读寄存器 open-bus 语义（mGBA vs gbajs2 核心差异）**：gbajs2 对写只读 DMA/FIFO 寄存器的读取恒返回 badMemory[0]；游戏（EliteRedux 声音驱动轮询 0x040000C4）等的标志永不出现→无限轮询→runFrames 永不返回→单线程 HTTP 整体饿死（无画面无声音）。已在 js/io.js 改为返回 registers 最后写入值（与 mGBA 一致）。同类症状"哔哔声"=游戏逻辑冻结后方波寄存器残值恒响；音频寄存器 1 秒零变化=引擎冻结判据。
 8g. **★BIOS 区保护读 open-bus（已修复，踩坑 11 突破的根因）**：真机/mGBA 语义 = 返回 biosPrefetch（最后一次 BIOS 预取的指令字，恒为 0xE... 负数）；坏实现返回当前指令半字复制（正数）。凡游戏把 [0x0-0x3FFF] 读值当有符号数判负的代码（如地图连接 NULL 检查）在旧 gbajs2 下判定翻转。凡遇"健康流程依赖 BIOS 垃圾值"类卡死先查此语义。
-8i. **★CPU 半字访问对齐/符号扩展（已修复，pker 转场黑屏直接机制）**：ARM7TDMI 硬件：LDRH/STRH/LDRSH 地址 bit0 强制清零（非对齐读下沉到偶地址）；LDRSH/LDRSB 结果符号扩展到 32 位。坏实现（gbajs2 旧码）：奇地址直接按字节序读 + 无符号值直接入寄存器 → 读错字节 + 0x8000 变 +32768。实证：pker mapcb gate `ldrsh r7,[fade+7]` 应读 fade+6 得 -32768（装 tick），坏实现读 fade+7 得 +16512（永不装）→ fade tick 饿死黑屏。排查口诀：凡游戏用非对齐 ldrsh/ldrsb 或把半字读值当有符号数判负的卡死，先查 CPU 半字语义。
+8i. **★CPU 半字访问对齐/符号扩展（已修复；2026-09-05 修正：与 pker 转场黑屏无关）**：ARM7TDMI 硬件：LDRH/STRH/LDRSH 地址 bit0 强制清零（非对齐读下沉到偶地址）；LDRSH/LDRSB 结果符号扩展到 32 位。坏实现（gbajs2 旧码）：奇地址直接按字节序读 + 无符号值直接入寄存器 → 读错字节 + 0x8000 变 +32768。修复本身与 mGBA isa-thumb.c:288/isa-arm.c:560 语义一致（对真 LDRSH 是正确性改进），保留。**但 pker mapcb gate 的 0x57DF 实为 LDRSB（bits[11:9]=011）而非 ldrsh**——项目 thumb-disassembler.js Format8 H/S 位映射 bug（误用 bit9 当 S 位；正确 H=bit11、S=bit10）把 0x57DF 误标 ldrsh，据此建立的"gate 判定翻转"假设已被运行时证伪（LDRSB 读 [0x020391F3]=0x80 → SXT8=-128，mGBA/gbajs2 一致；gate 失败路径是正常行为）。排查口诀：反汇编输出必须人工复核 bits[11:9]（011=LDRSB, 101=LDRH, 111=LDRSH）；pker 黑屏真根因见踩坑 11 的 2026-09-05 条目。
 8h. **★romctl watchwrite 长度参数陷阱（已修复）**：len=0x1C 这类 0x 前缀曾被 parseInt(…,10) 解析成 0 → 监视范围长度为 0 → 永不命中且无报错——“零写入”结论前先跑 /wwdebug 或用十进制 len 验证；另 /load 会重建内存块使旧包装失效，现已自动重包装，但 hook 仍需重新 add
 9. **预录长按键序列极易时序错位**——改用 serve 模式逐步交互（/shot 看画面 → 决定按键）
 10. **注入函数严禁越界覆盖**：算准 bin 大小与空区边界（曾把 96B 写进 48B 空隙覆盖跳板前半）
@@ -204,9 +204,42 @@ hook 候选地址看触发。⚠ pool 字面量是指针值不是表（`ldr r2,=
      - 教训②：诊断时 memread 的 hex 是小端字节序，parseInt(hex,16) 会把 "8500" 读成 0x8500（实际 0x0085）——曾据此误判 IE 寄存器分叉，浪费数轮排查。多字节寄存器一律 readUInt16LE
      - 教训③：callertrace/pchist 的 pc 字符串无前导零（'0x8168560' 不是 '0x08168560'）；Thumb handler 要用偶地址做 target
      - 教训④：快照恢复后 audio 内部态与 IO 寄存器失配 → audio.updateTimers 零 interval 无限自递归 → JS 栈溢出；已在 io.defrost 重放 0x60-0xB4 声音寄存器修复
-   - 教训①：romctl serve 新增端点 /regs /pchist /watchio /watchwrite /watchdma
-     /callertrace /guardian（watchwrite 包 EWRAM block store，**DMA 快路径
-     destView.setInt32 绕过 store32 不可见**，DMA 写必须用 /watchdma）
+    - 教训①：romctl serve 新增端点 /regs /pchist /watchio /watchwrite /watchdma
+      /callertrace /guardian（watchwrite 包 EWRAM block store，**DMA 快路径
+      destView.setInt32 绕过 store32 不可见**，DMA 写必须用 /watchdma）
+   - **★★★2026-09-05 第二轮深挖（根因链闭环，详见技术报告 §8-§12）**：
+     - **两层根因**：①初始分歧 = EliteRedux 自定义 boot/相位初始化函数
+       （0x0800Axxx/Bxxx，指针表 0x084B2298）在 gbajs2 从不执行（14 入口全 hook 0 命中）
+       → EWRAM 文件系统表从未建立：扩展条目表（blob=0x0202A9A4 的 +0x1C78..+0x1E78，
+       fileid≥0x4000）只被相位初始化（帧 ~12655-12897 的 memset trio 0x8117D04）清零、
+       永不填充；submit(0x40E3)=u16[blob+0x1E3E]=0（正确值 0x082C，ROM 主表 0x09098362）；
+       FAT 姊妹表（[0x03003410]=0x02029C48 稀疏、[0x03003414]=0x0202DC08 全零）同样缺失
+       → 文件加载在 0x805B0A8 提前退出、地图描述符零表构建、队列记录 src=文件区基址
+       0x089E63C0+0（垃圾）→ 瓦片/调色板永不到位、淡入永不发出。
+       ②永久化机制 = gate12 安装/卸载竞态 + fade 锁存死锁：转场期 fade 活动（byte7=0x80）
+       进入 mapcb → 入口 gate 失败每帧卸载、退出安装；VBlank wrapper 恰在 mapcb 主体中部
+       （tickC 与 fadetickDC 之间）读 gate 槽 → 永远读 0 → gate12 永不派发 → fadetick90
+       永不运行 → fade+0xC 锁存（FFFFFFFF）永不清 → 永久黑屏。
+     - **解锁实验**：memwrite [0x020391F3]=0（伪造 fade 完成）→ gate12 常驻、
+       wrapper 每帧派发、队列被消费、瓦片入 VRAM——但 PAL/palbuf 全零仍黑屏
+       → 竞态只是永久化机制，初始分歧在数据加载层。
+     - **注入实验**：向 0x0202C61C 注入 512B ROM 主表条目（无论卡死态还是
+       相位初始化 clear 刚结束）→ 队列 src 仍为垃圾 → 描述符构建与 clear 同窗或更早，
+       且加载链还依赖同样缺失的 FAT——**单修条目表不够，缺失的 boot 初始化影响整组表**。
+     - **关键函数地图**：setentry=0x8118084（40+ 调用方，gbajs2 只执行过标题画面
+       setentry(0x40F9,0)×23）；submit=0x8117FF0；flagtest=0x811824C；
+       enqueue2=0x8253810（唯一调用方 0x81B7A66：src=[desc+12]+s16([[desc+8]+b42*4]+b43*4)×SXT8(0x08E26904[idx])，
+       dst=0x06010000+(u16[desc+4]&0xFC00)>>5）；recordloader=0x818250C（从 ROM 0x0909789C
+       拷记录，执行且成功）；相位初始化=0x0817F8C4 区域；相位加载器=0x8182CA0；
+       fade 复位=0x8186480（16 通道 0x0203912C）；fadetickDC=0x81863DC（锁存早退）；
+       fadetick90=0x8186390（DMA 调色板+清锁存+步进）。
+     - **旧结论修正**：踩坑 11 的"发现① [0x02032038] 未写入"系误判（真实门槛
+       IWRAM [0x03003424]==0x08183B15 卡死态正确通过）；"COPYFUNC 从不执行"过时
+       （帧 5102/5704 执行，是引擎实例构造器非 memcpy）。
+     - **遗留**：boot 表派发器未定位（无 bl/指针引用，必为间接派发）；下一步：
+       构建 mGBA 无头对照（源码 /mnt/d/code/mgba-master）dump 同点位表值与
+       0x0800Axxx/Bxxx PC 轨迹；或 rompatch 强制 bl boot 表函数验证充分性；
+       排查模拟器检测分支（读 open-bus/BIOS 区按值分支——8g 的同类先例）。
    - 教训②：memread 对 IO 的读数不可信（读写路径不一致），诊断以 watchio
      写入侧为准
    - 教训③：一次性内存补丁会被游戏场景切换清 EWRAM 冲掉；/guardian 是周期重注入
@@ -295,7 +328,13 @@ hook 候选地址看触发。⚠ pool 字面量是指针值不是表（`ldr r2,=
     成品 roms/..._汉化beta.gba，覆盖 24352/27408 串（88.9%）
   - ★改 .s 后必须 rebuild → insert → 拷贝成品（否则翻译与硬编码串全丢）
 - 时序：load → run 3600 → run 1500（标题屏）→ START → run 600 → 菜单
-- 已知限制：开场后转入本体的转场在 gbajs2 黑屏（base 同样，模拟器缺口，踩坑 11）——mGBA/实机验证
+- 已知限制：开场后转入本体的转场在 gbajs2 **曾黑屏，SWI 0x04/0x05 IntrWait 修复后已解决**（base 同样，模拟器缺口，踩坑 11）。
+  2026-09-05 晚间根因闭环 + 修复：gbajs2 swi() case 0x04/0x05（IntrWait/VBlankIntrWait）清 IF 后 `raiseTrap()`（跳 stub BIOS 立即返回），**完全不等待**——真 BIOS/mGBA 应 HALT 到 VBlank IRQ 实际交付。
+  后果：主循环每帧以 SWI 0x05 结束却立即返回 → VBlank IRQ 恒落 mapcb 体中部 → gate 槽读 0 → gate12 永不派发 → fadetick90 永不跑 → fade 锁存不清 → fade#3 永不完成 → byte7=0x80 → 地图加载进度门槛挡住 → flag 死锁 → runner 死 → boot 脚本不启动 → 黑屏。
+  修复（js/irq.js + js/core.js）：swi 0x04 改为带 mask 语义的 waitForIRQ 真等待；新增 intrWaitReturn（switchMode 离 IRQ 模式时调）+ intrWaitPoll（step() 顶部调，延迟执行避免嵌套 switchMode 冲突）。
+  run12 验证：gate12 常驻、fade 完成、死锁解除、卧室渲染（右 60%）、START 菜单可交互。
+  **遗留**：mGBA 无头对照显示两模拟器逻辑状态完全一致（flag/grid/cell/entry/gateslot 全相同），但 mGBA 全画渲染（9.8% 黑）、gbajs2 仅右 60%（52% 黑）——瓦片图形数据载入不完整（BG1 tile char base 0x06004000+0x1000 起 4KB 全零），tilemap 与调色板已一致，分歧在 tile char data 载入链。详见技术报告 §13-§14。
+  旧结论修正：§9.4"扩展文件表条目永不被写入是初始分歧"——**推翻**（mGBA 同 entry40E3=0000 但全画）；§11.1"派发器未定位"——**已解决**（special 408 → 0x0800B054 → boot 表 0x084B224C[index]→bx）。
 
 ### 红龙传说（西语蓝宝石改版，✅"新的游戏"上屏；实录 cases/红龙传说-西语蓝宝石移植/README.md）
 - 非美版布局（各区域平移量不同：文本区 +0x134、战斗区 +0x324），必须逐函数重映射
